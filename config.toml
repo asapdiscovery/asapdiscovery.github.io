@@ -1,8 +1,8 @@
-baseURL = '//openforcefield.org/'
+baseURL = '//asapdiscovery.org/'
 languageCode = "en-us"
-title = "Open Force Field Initiative"
+title = "ASAP Discovery Consortium"
 theme = "kube"
-description = "A new approach to modern collaborative biomolecular force field development based on open source software, open science, and high-quality curated open datasets."
+description = "ASAP uses AI and structure-based approaches to deliever oral antivirals for viruses of pandemic concern which will be globally and equitably accessible"
 Paginate = 4
 publishDir = "./public"
 pygmentsCodefences = true
@@ -11,26 +11,9 @@ pygmentsStyle = "colorful"
 [Params]
   RSSLink = "/index.xml"
   author = "newpixcom" # add your company name
-  github = "https://github.com/openforcefield" # add your github profile name
-  twitter = "openforcefield" # add your twitter profile
+  github = "https://github.com/asapdiscovery" # add your github profile name
   email = "john.chodera@choderalab.org"
 
-[[menu.main]]
-    name = "News"
-    weight = -100
-    url = "/news/"
-[[menu.main]]
-    name = "Code"
-    weight = -90
-    url = "/consortium/software"
-#[[menu.main]]
-#    name = "Docs"
-#    weight = -80
-#    url = "https://open-forcefield-toolkit.readthedocs.io/en/topology/"
-[[menu.main]]
-    name = "Data"
-    weight = -70
-    url = "/datasets/"
 [[menu.main]]
     name = "Science"
     weight = -60
@@ -39,10 +22,6 @@ pygmentsStyle = "colorful"
     name = "Publications"
     weight = -50
     url = "/publications/"
-[[menu.main]]
-    name = "Force fields"
-    weight = -40
-    url = "/forcefields/"
 [[menu.main]]
     name = "Members"
     weight = -30
