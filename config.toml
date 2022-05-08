@@ -1,4 +1,4 @@
-baseURL = '//asapdiscovery.org/'
+baseURL = 'https://asapdiscovery.github.io'
 languageCode = "en-us"
 title = "ASAP Discovery Consortium"
 theme = "kube"
