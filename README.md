@@ -1,6 +1,6 @@
-# Open Force Field Initiative website source
+# ASAP Discovery website source
 
-This website is hosted by [GitHub Pages](https://pages.github.com/) at http://openforcefield.org . The website content is in the `gh-pages` branch of this repo.
+This website is hosted by [GitHub Pages](https://pages.github.com/) at http://asapdiscovery.org . The website content is in the `gh-pages` branch of this repo.
 
 ## Making changes
 
@@ -20,12 +20,10 @@ bref: "A demo to collapsable elements"
 ---
 ```
 with the fields replaced with their equivalents.
-* `forcefields/_index.md`: information about available force field releases
-* `datasets/_index.md`: information about available datasets
 * `science/_index.md`: overview of planned science, timelines, science updates, etc.
 * `data/publications/publications.yaml`: publications and white papers
    * `content/publications/img/`: thumbnail images for publications and white papers
-* `consortium/_index.md`: information about the Open Force Field Consortium and other federal funding sources
+* `consortium/_index.md`: information about the Consortium
 * `faq/_index.md`: frequently asked questions
 
 See the [Kube for Hugo GitHub repo](https://github.com/jeblister/kube) for more examples of Markdown content.
@@ -37,11 +35,11 @@ See the [Kube for Hugo GitHub repo](https://github.com/jeblister/kube) for more 
 ```yaml
 ---
 date: "2018-10-11T00:00:00+00:00"
-title: "Introducing Open Force Field Science Updates"
+title: "Introducing ASAP Discovery Science Updates"
 tags: ["general"]
 categories: ["science"]
 draft: false
-description: "Open Force Field Science Updates will help you keep track of research and engineering activities from the Open Force Field Initiative"
+description: "ASAP Discovery Science Updates will help you keep track of research and engineering activities from the ASAP Discovery Initiative"
 weight: 10
 author: "John D. Chodera"
 ---
@@ -119,7 +117,6 @@ where `role` for active members can be `Researcher`, `Advisor`, `Software Scient
 * For preprints, `server` can either be `bioRxiv` or `chemRxiv`.
 * For published papers, the `pmcid` ([PubMed Central PMCID](https://www.mbl.edu/osp/2015/08/31/nih-pmid-vs-pmcid-whats-the-difference/)) should be specified. If the article doesn't yet have a PMCID, be sure to [submit it to PubMed Central](https://www.nihlibrary.nih.gov/services/editing/pubmed-central-submission-assistance) and report the `nihmsid` instead. Failure to do so will jeopardize our NIH grants.
 * Each `preprint` block should list a `url`, while `published` blocks should report a `doi` (not a URL).
-* The `license` can be one of `CC BY 4.0` or `Public Domain`. Please ensure all manuscripts are available via one of these licenses, as other licenses violate the terms of the Open Force Field Consortium.
 
 ## Preview the website locally
 
@@ -139,4 +136,4 @@ Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 
 ## Deploying
 
-Deploying is handled by a Travis build service. Commits/PRs into master will trigger a new build, which can be monitored [here](https://travis-ci.org/openforcefield/openforcefield.org). Once built, travis will push the content to the `gh-pages` branch of `openforcefield.org`, which the website is now served from.
+Deploying is handled by a Github actions (see the `.github/workflows/gh-pages.yml` file). Commits/PRs into the `main` branch will trigger a new build. Once built, the action will push the content to the `gh-pages` branch, which the website is now served from.
