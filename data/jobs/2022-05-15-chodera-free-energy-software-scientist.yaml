@@ -1,0 +1,42 @@
+role: Software Scientist to support large-scale alchemical free energy calculations and structure-based machine learning to drive open science antiviral discovery programs
+title: Software Scientist
+institution: Memorial Sloan Kettering Cancer Center
+location: Remote or NYC
+investigator: John Chodera
+investigator_url: http://choderalab.org
+application_url: http://choderalab.org/jobs
+contact_email: apply@choderalab.org
+supported_projects_and_cores:
+  - Project 2
+  - Project 3
+  - Project 5
+  - Data Core
+  - Structural Biology Core
+duration: Up to five years
+availability: Immediate
+status: open
+summary: |
+  The Chodera lab is using alchemical free energy calculations and structure-informed machine learning methods to aid the open science ASAP antiviral drug discovery (AViDD) Center in aiding the medicinal chemistry team by prioritizing small molecules for synthesis based on affinity, selectivity, robustness to mutations, and other ADMET properties. Scientists working on the project will help develop, run, interpret, and systematically improve large-scale calculations on Folding@home and other GPU-accelerated computing resources as part of a large, distributed, open science drug discovery Center that will initially focus on the discovery of direct-acting oral antivirals with the aim of global equitable and affordable access. The Software Scientist role will help develop both next-generation molecular simulation, free energy calculation, and structure-informed machine learning infrastructure—including next-generation molecular modeling engines in differentiable modeling frameworks like JAX and PyTorch—and help build infrastructure to support structure-enabled hit expansion (Project 2), hit-to-lead (Project 3), and lead optimization (Project 5) aspects of the project, working closely with both the Data Core and medicinal chemists to automate as much as possible. This is an amazing opportunity to develop open source software, develop and assess new predictive algorithms that are rapidly tested experimentally in the service of open antiviral drug discovery, and to contribute to the discovery of new therapeutics aimed at global, equitable, and affordable access.
+
+  What we’re looking for:
+  * Someone with an aptitude for Python, and potentially also C++/CUDA/OpenCL
+  * You speak Python at a level where you are comfortable writing classes with inheritance, your own decorators and context managers, and parameterized unit tests.
+  * Your IDE is configured with modern tooling like black autoformatting, pylint, and AI-assisted autocompletion
+  * We make extensive use of git and GitHub: branches, forks, PRs, rebasing, cherry-picking are not foreign concepts to you
+  * Your exploratory work happens in notebooks and you like when they look pretty
+  * Code reviews do not sound scary but exciting
+  * You have a passion for working together with other software developers, software scientists, and scientists to make awesome, usable tools for science; we work closely with organizations like the Molecular Sciences Software Institute (MolSSI) to jointly develop software best practices (see our own best practices and MolSSI’s ) to better enable the community to collaborate and to ensure our students and postdocs are familiar with best practices used in industry
+  * You are excited to collaborate with other organizations like Folding@home, the Open Force Field Initiative, the Drug Design Data Resource (D3R), and the Molecular Sciences Software Institute (MolSSI)
+  * You possess a good measure of patience in working with a variety of different kinds of people
+  * You’re excited about contributing to some amazing scientific initiatives in open science, drug discovery, and open source software to enable this
+  * You can ensure at least a few key hours of your workday overlap normal NYC working hours (M-F 10-5)
+
+  Other bonus (but certainly not required!) experience:
+  * You have experience with machine learning frameworks (where autodiff and JIT compilation are native) such as JAX, PyTorch, or TensorFlow
+  * You have experience with alchemical free energy calculations and/or structure-based machine learning methods (such as e3nn)
+  * You have experience with biomolecular simulation theory and/or simulation packages (especially OpenMM) is a huge plus
+  * You have Python packaging experience with conda, which makes it easy to deploy tools and their dependencies (including GPU-accelerated tools). Huge bonus points if you’ve contributed to the fantastic packaging ecosystem conda forge, or also have experience with pip.
+  * You have enough CI experience to be excited by GitHub Actions. Green check marks make you happy.
+  * You have any exposure to the concepts or tools of Markov chain Monte Carlo, since a lot of our algorithms are based on these concepts
+  * You have a degree (BS, PhD) in the physical  or biosciences or computer-focused discipline, but this is certainly not required
+  * You have some experience with cloud dev ops (e.g. AWS EC2, S3, AWS Batch) is a plus, since we’re starting to migrate some Folding@home workflows there
