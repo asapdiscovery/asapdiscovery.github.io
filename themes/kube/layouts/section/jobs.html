@@ -1,0 +1,38 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<!-- Header -->
+
+<div id="hero" class="wrap">
+  <h1>{{.Title }}</h1>
+    <p>{{.Params.description}}<br></p>
+    <!-- Tagline or more description
+    <p><i>ASAP is looking for talented interdisciplinary scientists to join its open science antiviral discovery mission.</i></p>
+    -->
+</div>
+<div id="main">
+{{.Content}}
+
+<!-- Open positions -->
+
+<h2>Open positions</h2>
+
+<ul>
+{{ range $.Site.Data.jobs }}
+  {{ if eq .status "open" }}
+  <div class="row gutters">
+    {{ partial "job" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+
+<!-- Footer -->
+
+</div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}

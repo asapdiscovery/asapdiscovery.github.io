@@ -1,0 +1,36 @@
+role: Researcher in large-scale alchemical free energy calculations and structure-based machine learning to drive open science antiviral discovery programs
+anchor: chodera-free-energy-scientist
+title: Postdoctoral Research Scholar or Research Associate
+institution: Memorial Sloan Kettering Cancer Center
+location: Remote or NYC
+investigator: John Chodera
+investigator_url: http://choderalab.org
+application_url: http://choderalab.org/jobs
+contact_email: apply@choderalab.org
+supported_projects_and_cores:
+  - Project 2
+  - Project 3
+  - Project 5
+  - Data Core
+  - Structural Biology Core
+duration: Up to five years
+availability: Immediate
+status: open
+summary: |
+  The Chodera lab is using alchemical free energy calculations and structure-informed machine learning methods to aid the open science ASAP antiviral drug discovery (AViDD) Center in aiding the medicinal chemistry team by prioritizing small molecules for synthesis based on affinity, selectivity, robustness to mutations, and other ADMET properties. Scientists working on the project will help develop, run, interpret, and systematically improve large-scale calculations on Folding@home and other GPU-accelerated computing resources as part of a large, distributed, open science drug discovery Center that will initially focus on the discovery of direct-acting oral antivirals with the aim of global equitable and affordable access. The Researcher role will help drive both applications and methodological advances that support structure-enabled hit expansion (Project 2), hit-to-lead (Project 3), and lead optimization (Project 5) aspects of the project, working closely with both the Data Core and medicinal chemists to automate as much as possible. This is an amazing opportunity to develop open source software, develop and assess new predictive algorithms that are rapidly tested experimentally in the service of open antiviral drug discovery, and to contribute to the discovery of new therapeutics aimed at global, equitable, and affordable access.
+
+  What we’re looking for:
+  * Someone with experience with alchemical free energy calculations and/or structure-informed machine learning methods (such as e3nn)
+  * Someone with an aptitude for Python
+  * You speak Python at a level where you are comfortable writing classes with inheritance, your own decorators and context managers, and parameterized unit tests.
+  * Experience with GitHub as a means of collaborative software development
+  * You have a passion for working together with other software developers, software scientists, and scientists to make awesome, usable tools for science; we work closely with organizations like the Molecular Sciences Software Institute (MolSSI) to jointly develop software best practices (see our own best practices and MolSSI’s ) to better enable the community to collaborate and to ensure our students and postdocs are familiar with best practices used in industry
+  * You are excited to collaborate with other organizations like Folding@home, the Open Force Field Initiative, the Drug Design Data Resource (D3R), and the Molecular Sciences Software Institute (MolSSI), and other AViDD Centers
+  * You possess a good measure of patience in working with a variety of different kinds of people
+  * You’re excited about contributing to some amazing scientific initiatives in open science, drug discovery, and open source software to enable this
+  * You can ensure at least a few key hours of your workday overlap normal NYC working hours (M-F 10-5)
+
+  Other bonus (but certainly not required!) experience:
+  * Experience with OpenMM and the OpenMM ecosystem is a huge plus
+  * You have any exposure to the concepts or tools of Markov chain Monte Carlo, since a lot of our algorithms are based on these concepts
+  * Familiarity with, or a desire to learn, aspects of medicinal chemistry for small molecule drug discovery

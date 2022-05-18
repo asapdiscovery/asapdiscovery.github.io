@@ -1,0 +1,29 @@
+<!-- <div class="col col-10"> -->
+<div class="post-content">
+  <!-- separator -->
+  <hr>
+
+  {{ with .anchor }} <a name="{{ . }}" /> {{ end }}
+
+  <!-- job title -->
+  <h4><b>{{ .role }}</b></h4>
+  <!-- job title (e.g. postdoc) -->
+  <b>{{ .title }}</b><br>
+  <!-- institution and location -->
+  <b>{{ .institution }}</b> | {{ .location }}<br>
+  <!-- duration -->
+  {{ with .duration }} <b>Duration:</b> {{ . }}<br> {{ end }}
+  <!-- investigator -->
+  <b>ASAP Investigator:</b> <a href={{ .investigator_url }}>{{ .investigator }}</a>
+  {{ with .contact_url }} (<a href={{ . }}>{{ . }}</a>) {{ end }}
+  <br>
+  <!-- application URL -->
+  {{ with .application_url }} <b>Apply:</b> <a href={{ . }}>[application link]</a><br> {{ end }}
+  <!-- inquiries email or emails -->
+  {{ with .contact_email }} <b>Contact:</b> <a href={{ . }}>{{ . }}</a> <br> {{ end }}
+  {{ with .contact_emails }} <b>Contacts:</b> {{ range . }} <a href={{ . }}>{{ . }}</a> {{ end }} <br> {{ end }}
+  <!-- job summary (interpreted as markdown) -->
+  <br>
+  {{ .summary | markdownify }}<br>
+
+</div>

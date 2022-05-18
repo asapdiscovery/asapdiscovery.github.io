@@ -1,14 +1,17 @@
+<!-- image --
 <div class="col col-2">
   <img src=img/{{ .img }}>
 </div>
+-->
 <div class="col col-9">
-  <h4><b>{{ .name }}</b> {{ if ne .role "alum" }} ({{ .role }}) {{ end }}
+  <h4><b>{{ .name }}</b>
   {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="img/twitter.png"></a> {{ end }}
   {{ with .github }} <a href="http://github.com/{{ . }}"><img width="20" src="img/github.png"></a> {{ end }}
   </h4>
   <p>
+    <b>{{ .role }}</b><br>
     {{ .title }}, {{ .institution }}<br>
-    <i>{{ .description }}</i><br>
+    <i>{{ .description | markdownify }}</i><br>
     {{ with .webpage }} web: <a href={{ . }}>{{ . }}</a><br> {{ end }}
     {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a> {{ end }}
     {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}

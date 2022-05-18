@@ -1,0 +1,28 @@
+role: To coordinate structure biology support and structural enablement across projects and cores
+title: Computational Chemistry Postdoctoral Research Associate
+anchor: diamond-compchem-postdoc
+institution: Diamond Light Source
+location: Oxford
+investigator: Frank von Delft
+investigator_url: https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html
+contact_emails:
+  - frank.von-delft@diamond.ac.uk
+  - daren.fearon@diamond.ac.uk
+supported_projects_and_cores:
+  - Structural Biology Core
+  - Project 1
+  - Project 2
+  - Project 3
+  - Project 4
+  - Project 5
+duration: Up to 5 years
+availability: Immediately
+status: open
+summary: |
+  The development of novel, low cost and globally available antiviral therapeutics remains an essential goal for the current SARS-CoV-2 pandemic. Furthermore, future pandemics could be prevented with easily deployable broad spectrum oral antivirals and open knowledge bases that de-risk and accelerate novel antiviral discovery and development.
+
+  Structure-enabled drug design and fragment-based drug discovery have made significant contributions to the development of these much-needed antivirals with over 2,000 X-ray crystal structures deposited in the Protein Data Bank to date. Facilities like the XChem fragment screening platform at Diamond have enabled efforts such as the COVID Moonshot – a fully open-science structure-enabled drug discovery campaign targeting the SARS-CoV-2 main protease that developed a pre-clinical candidate targeting the SARS-CoV-2 Main protease in less than 2 years.
+
+  As part of a new NIH funded Antiviral Drug Discovery (AViDD) Center for Pathogens of Pandemic Concern we are seeking to recruit enthusiastic crystallographers, technicians, informaticians and a research coordinator to deliver high-throughput fragment screening experiments and rapid structural support for hit-to-lead development of novel inhibitors targeting SARS-CoV-2 and other viruses. The appointed people will work closely with the XChem and I04-1 teams as well as an international collection of collaborators.
+
+  A computational chemistry PDRA will be responsible for driving and completing first round follow-up of all XChem screening campaigns. This will entail performing the computational and intellectual work for designing and finalising lists of candidate compounds; sourcing them from vendors, in particular Enamine, assisted by Center partner PostEra; and designing and executing the robot-based synthesis experiments already being developed at Diamond in partnership with the Rosalind Franklin Institute and the EUbOPEN IMI2 project. The tapered effort reflects the tapered outputs envisioned for Project 2; the person will at that point be assigned to additional projects, and co-funded accordingly.
