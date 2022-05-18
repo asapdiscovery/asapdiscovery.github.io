@@ -15,29 +15,25 @@ pygmentsStyle = "colorful"
   email = "john.chodera@choderalab.org"
 
 [[menu.main]]
-    name = "Science"
-    weight = -60
-    url = "/science/"
-[[menu.main]]
-    name = "Publications"
-    weight = -50
-    url = "/publications/"
+    name = "Concept"
+    weight = -40
+    url = "https://www.choderalab.org/news/2021/10/26/asap-avidd-proposal"
 [[menu.main]]
     name = "Members"
     weight = -30
-    url = "/members/"
-[[menu.main]]
-    name = "Consortium"
-    weight = -20
-    url = "/consortium/"
+    url = "/members/"    
 [[menu.main]]
     name = "FAQ"
-    weight = -10
+    weight = -20
     url = "/faq/"
 [[menu.main]]
     name = "Jobs"
-    weight = 0
+    weight = -10
     url = "/jobs/"
+[[menu.main]]
+    name = "COVID Moonshot"
+    weight = 0
+    url = "https://postera.ai/moonshot/"
 
 [markup]
   [markup.goldmark]

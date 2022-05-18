@@ -1,11 +1,13 @@
 name: John D. Chodera
-role: Primary Investigator
+roles:
+  - Principal Investigator
+  - Investigator
 lab: Chodera lab
 title: Associate Member
 institution: Sloan Kettering Institute
 img: john-chodera.jpg
 webpage: "http://choderalab.org"
-description: Automated Bayesian force field fitting and prediction of systematic error
+description: Contact PI; Oversight of cores; Alchemical free energy calculations on [Folding@home](http://foldingathome.org); computational chemistry and structure-based machine learning
 google_scholar: http://goo.gl/qO0JW
 ORCID: 0000-0003-0542-119X
 twitter: jchodera

@@ -6,18 +6,17 @@
 <div id="hero" class="wrap">
   <h1>{{.Title }}</h1>
     <p>{{.Params.description}}<br></p>
-    <p><i>The Open Force Field Initiative consists of academic and industry investigators and partners collaborating to advance biomolecular force field engineering and science via open source software, open science, and open data.</i></p>
 </div>
 <div id="main">
 {{.Content}}
 
 <!-- Investigators -->
 
-<h2>Primary Investigators</h2>
+<h2>Principal Investigators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Primary Investigator" }}
+  {{ if in .role "Principal Investigator" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -25,13 +24,29 @@
 {{ end }}
 </ul>
 
-<!-- Senior Scientists -->
+<!-- Administrative staff -->
 
-<h2>Co-Investigators</h2>
+<!--
+<h2>Administrative Staff</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Co-Investigator" }}
+  {{ if eq .role "Administrative Director" }}
+  <div class="row gutters">
+    {{ partial "person" . }}
+  </div>
+  {{ end }}
+{{ end }}
+</ul>
+-->
+
+<!-- Project Leads -->
+
+<h2>Project Leads</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if in .role "Project Lead" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -39,13 +54,13 @@
 {{ end }}
 </ul>
 
-<!-- Consultants -->
+<!-- Core Leads -->
 
-<h2>Advisors</h2>
+<h2>Core Leads</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Advisor" }}
+  {{ if in .role "Core Lead" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -53,13 +68,13 @@
 {{ end }}
 </ul>
 
-<!-- Scientific Coordinators -->
+<!-- Investigators -->
 
-<h2>Scientific Coordinators</h2>
+<h2>Investigators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Scientific Coordinator" }}
+  {{ if in .role "Co-Investigator" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -67,13 +82,13 @@
 {{ end }}
 </ul>
 
-<!-- Software Scientists -->
+<!-- External SAB -->
 
-<h2>Software Scientists</h2>
+<h2>External Scientific Advisory Board</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Software Scientist" }}
+  {{ if in .role "External Scientific Advisory Board Member" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -81,14 +96,13 @@
 {{ end }}
 </ul>
 
+<!-- Collaborators -->
 
-<!-- Researchers -->
-
-<h2>Researchers</h2>
+<h2>Collaborators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if eq .role "Researcher" }}
+  {{ if in .role "Collaborator" }}
   <div class="row gutters">
     {{ partial "person" . }}
   </div>
@@ -96,21 +110,7 @@
 {{ end }}
 </ul>
 
-<!-- Alumni -->
-
-<h2>Alumni</h2>
-
-<ul>
-{{ range $.Site.Data.members }}
-  {{ if eq .role "alum" }}
-  <div class="row gutters">
-    {{ partial "person" . }}
-  </div>
-  {{ end }}
-{{ end }}
-</ul>
-
-<!-- Researchers -->
+<!-- End -->
 
 </div>
 {{ end }}

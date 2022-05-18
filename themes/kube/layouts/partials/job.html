@@ -3,6 +3,8 @@
   <!-- separator -->
   <hr>
 
+  {{ with .anchor }} <a name="{{ . }}" /> {{ end }}
+
   <!-- job title -->
   <h4><b>{{ .role }}</b></h4>
   <!-- job title (e.g. postdoc) -->
