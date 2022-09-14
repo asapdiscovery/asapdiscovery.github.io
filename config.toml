@@ -21,7 +21,7 @@ pygmentsStyle = "colorful"
 [[menu.main]]
     name = "Members"
     weight = -30
-    url = "/members/"    
+    url = "/members/"
 [[menu.main]]
     name = "FAQ"
     weight = -20
@@ -30,6 +30,10 @@ pygmentsStyle = "colorful"
     name = "Jobs"
     weight = -10
     url = "/jobs/"
+[[menu.main]]
+    name = "Open Science Forum"
+    weight = -5
+    url = "/forum/"
 [[menu.main]]
     name = "COVID Moonshot"
     weight = 0
