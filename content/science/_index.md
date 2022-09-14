@@ -1,5 +1,5 @@
 +++
-description = "Roadmap and scientific output from the Open Force Field Initiative"
+description = "Science behind the AI-driven Structure-enabled Antiviral Platform (ASAP)"
 title = "Science"
 draft = false
 
