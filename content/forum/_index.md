@@ -35,8 +35,8 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:
 
 **Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**Register**](https://meetmsk.zoom.us/webinar/register/WN_gGNKPbOBS16bq8JQtqvZ3A)
-* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature*
 * **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science for building, populating and curating a platform for real-time data sharing and science collaboration*
+* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature*
 
 **Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
 * TBD
