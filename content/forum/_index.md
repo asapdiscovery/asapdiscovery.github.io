@@ -55,7 +55,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * TBD
 * TBD
 
-**Wed 21 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
+**Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
 * TBD
 * TBD
 
