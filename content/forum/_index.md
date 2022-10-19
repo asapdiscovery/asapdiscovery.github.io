@@ -34,7 +34,7 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:
 
-**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**Register**](https://meetmsk.zoom.us/webinar/register/WN_gGNKPbOBS16bq8JQtqvZ3A)
+**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**[Recording]**](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)
 * **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease*
   * **Public datasets**
     * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
