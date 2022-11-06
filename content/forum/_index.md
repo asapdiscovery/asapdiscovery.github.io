@@ -32,31 +32,10 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 # Schedule
 
-The Open Science Forum will hold virtual events the **third Wednesday of every month**:
+The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**Recording**](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm) <a name="2022-oct"></a>
-* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease*
-  * **Public datasets**
-    * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
-    * [Fragalysis online X-ray fragment screen viewer for public datasets](https://fragalysis.diamond.ac.uk/)
-* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature*
-  * **Public datasets**
-    * [Identifying new ligands for the SARS-CoV-2 Macrodomain by Fragment Screening and Multi-temperature Crystallography](https://fraserlab.com/macrodomain/) [[Interactively explore on Fragalysis]](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/mArh)
-  * **Preprints and papers**
-    * [Iterative computational design and crystallographic screening identifies potent inhibitors targeting the Nsp3 Macrodomain of SARS-CoV-2
-](https://www.biorxiv.org/content/10.1101/2022.06.27.497816v2) [[DOI]](https://doi.org/10.1101/2022.06.27.497816)
-    * [Fragment binding to the Nsp3 macrodomain of SARS-CoV-2 identified through crystallographic screening and computational docking](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8046379/) [[DOI]](https://doi.org/10.1126%2Fsciadv.abf8711)
-    * [The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and x-ray diffraction at room temperature
-](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9140965/) [[DOI]](https://doi.org/10.1126%2Fsciadv.abo5083)
-    * [Of problems and opportunities—How to treat and how to not treat crystallographic fragment screening data
-](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9424839/) [[DOI]](https://doi.org/10.1002%2Fpro.4391)
-  * **Tutorials**
-    * [Multi-state models from PanDDA](https://fraserlab.com/2022/08/08/Multi-state-models-from-PanDDA/)
-    * [Inspecting PanDDA event maps deposited in the Protein Data Bank](https://fraserlab.com/2021/08/26/Inspecting-PanDDA-event-maps/)
-  * **Software**
-    * [Fragmentstein X-ray fragment merging ligand design tools](https://github.com/matteoferla/Fragmenstein)
-
-**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <a name="2022-nov"></a>
+**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**[Register]**](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q) <a name="2022-nov"></a> <br>
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q)
 * **[Ed Griffen, MedChemica]([https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html](https://www.medchemica.com/team/griffen-ed-j/)) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example”
 * **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
   * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
@@ -77,7 +56,27 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 # Past Presentations
 
-Past presentations will be indexed here.
+**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [**[Recording]**](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm) <a name="2022-oct"></a>
+* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease*
+  * **Public datasets**
+    * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
+    * [Fragalysis online X-ray fragment screen viewer for public datasets](https://fragalysis.diamond.ac.uk/)
+* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature*
+  * **Public datasets**
+    * [Identifying new ligands for the SARS-CoV-2 Macrodomain by Fragment Screening and Multi-temperature Crystallography](https://fraserlab.com/macrodomain/) [[Interactively explore on Fragalysis]](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/mArh)
+  * **Preprints and papers**
+    * [Iterative computational design and crystallographic screening identifies potent inhibitors targeting the Nsp3 Macrodomain of SARS-CoV-2
+](https://www.biorxiv.org/content/10.1101/2022.06.27.497816v2) [[DOI]](https://doi.org/10.1101/2022.06.27.497816)
+    * [Fragment binding to the Nsp3 macrodomain of SARS-CoV-2 identified through crystallographic screening and computational docking](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8046379/) [[DOI]](https://doi.org/10.1126%2Fsciadv.abf8711)
+    * [The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and x-ray diffraction at room temperature
+](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9140965/) [[DOI]](https://doi.org/10.1126%2Fsciadv.abo5083)
+    * [Of problems and opportunities—How to treat and how to not treat crystallographic fragment screening data
+](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9424839/) [[DOI]](https://doi.org/10.1002%2Fpro.4391)
+  * **Tutorials**
+    * [Multi-state models from PanDDA](https://fraserlab.com/2022/08/08/Multi-state-models-from-PanDDA/)
+    * [Inspecting PanDDA event maps deposited in the Protein Data Bank](https://fraserlab.com/2021/08/26/Inspecting-PanDDA-event-maps/)
+  * **Software**
+    * [Fragmentstein X-ray fragment merging ligand design tools](https://github.com/matteoferla/Fragmenstein)
 
 # Antiviral Discovery Resources
 
