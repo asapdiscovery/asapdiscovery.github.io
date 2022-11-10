@@ -36,7 +36,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q)
-<a name="2022-nov"></a>
+<a name="2022-nov"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
 * **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
   * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
@@ -57,7 +58,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 # Past Presentations
 
-**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a>
+**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a><br>
+*Moderator:* [**John Chodera**](https://choderalab.org/) ([Memorial Sloan Kettering Cancer Center](http://choderalab.org))
 * **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease*
   * **Public datasets**
     * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
