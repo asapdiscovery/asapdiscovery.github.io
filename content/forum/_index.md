@@ -44,6 +44,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
     * HeliHub helicase database: Use [SGC ChemBioPort](https://chembioport.thesgc.org/index.php) Query ID: `i9hao20220815`
   * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))**
   * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
+    * [SGC nsp13 open lab notebook](https://github.com/StructuralGenomicsConsortium/CNP4-Nsp13-C-terminus-B)
 
 **Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
 * TBD
