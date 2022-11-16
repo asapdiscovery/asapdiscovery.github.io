@@ -62,7 +62,7 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 
 **Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a><br>
 *Moderator:* [**John Chodera**](https://choderalab.org/) ([Memorial Sloan Kettering Cancer Center](http://choderalab.org))
-* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease* **[[Video]]([https://www.youtube.com/watch?v=dLa-nGvCXBQ](https://www.youtube.com/watch?v=Hqy2yo5WtTA)** **[[Slides]](https://zenodo.org/record/7272368)**
+* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease* **[[Video]](https://www.youtube.com/watch?v=Hqy2yo5WtTA)** **[[Slides]](https://zenodo.org/record/7272368)**
   * **Public datasets**
     * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
     * [Fragalysis online X-ray fragment screen viewer for public datasets](https://fragalysis.diamond.ac.uk/)
