@@ -58,13 +58,15 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 # Past Presentations
 
+All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
 **Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a><br>
 *Moderator:* [**John Chodera**](https://choderalab.org/) ([Memorial Sloan Kettering Cancer Center](http://choderalab.org))
-* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease*
+* **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease* **[[Video]]([https://www.youtube.com/watch?v=dLa-nGvCXBQ](https://www.youtube.com/watch?v=Hqy2yo5WtTA)** **[[Slides]](https://zenodo.org/record/7272368)**
   * **Public datasets**
     * [SARS-CoV-2 X-ray fragment screens at Diamond Light Source](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html)
     * [Fragalysis online X-ray fragment screen viewer for public datasets](https://fragalysis.diamond.ac.uk/)
-* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature*
+* **[James Fraser, UCSF](https://pharmacy.ucsf.edu/james-fraser) ([QBICRG](https://qbi.ucsf.edu/qcrgAViDD))**: *The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and X-ray diffraction at room temperature* **[[Video]](https://www.youtube.com/watch?v=dLa-nGvCXBQ)** **[[Slides]](https://zenodo.org/record/7272363)**
   * **Public datasets**
     * [Identifying new ligands for the SARS-CoV-2 Macrodomain by Fragment Screening and Multi-temperature Crystallography](https://fraserlab.com/macrodomain/) [[Interactively explore on Fragalysis]](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/mArh)
   * **Preprints and papers**
