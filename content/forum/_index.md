@@ -41,6 +41,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
 * **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
   * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
+    * HeliHub helicase database: Use [SGC ChemBioPort](https://chembioport.thesgc.org/index.php) Query ID: `i9hao20220815`
   * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))**
   * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
 
