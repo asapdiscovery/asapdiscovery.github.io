@@ -34,22 +34,13 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q)
-<a name="2022-nov"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
-* **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
-  * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
-    * HeliHub helicase database: Use [SGC ChemBioPort](https://chembioport.thesgc.org/index.php) Query ID: `i9hao20220815`
-  * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))**
-    * [Conservation of predicted pockets in coronaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8265533/)
-  * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
-    * [SGC nsp13 open lab notebook](https://github.com/StructuralGenomicsConsortium/CNP4-Nsp13-C-terminus-B)
-
 **Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
-* TBD
-* TBD
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q)
+<a name="2022-dec"></a><br>
+
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Neeliga Malavige, DNDi](https://dndi.org/our-people/neelika-malavige/) ([DNDi](http://dndi.org))**: *Dengue: Disease, patients, and treatments*
+* **[Pei-Yong Shi, UTMB BMB](https://www.utmb.edu/idd/administration/institute-director) ([The UTMB-Novartis Alliance for Pandemic Preparedness (UNAPP)](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Dengue (TBD)*
 
 **Wed 18 Jan 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-jan"></a>
 * TBD
@@ -62,6 +53,19 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q)
+<a name="2022-nov"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
+* **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
+  * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
+    * HeliHub helicase database: Use [SGC ChemBioPort](https://chembioport.thesgc.org/index.php) Query ID: `i9hao20220815`
+  * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))**
+    * [Conservation of predicted pockets in coronaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8265533/)
+  * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
+    * [SGC nsp13 open lab notebook](https://github.com/StructuralGenomicsConsortium/CNP4-Nsp13-C-terminus-B)
 
 **Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a><br>
 *Moderator:* [**John Chodera**](https://choderalab.org/) ([Memorial Sloan Kettering Cancer Center](http://choderalab.org))
