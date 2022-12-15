@@ -1,5 +1,5 @@
 ---
-description: "Developmental and Mentored Awards"
+description: "Developmental Research Project and Mentored Project Awards"
 title: "Awards"
 draft: false
 layout: faq
