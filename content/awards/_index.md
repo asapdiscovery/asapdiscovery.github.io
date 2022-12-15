@@ -118,7 +118,7 @@ Applicant organizations must be eligible to accept and manage US federal sponsor
 * Institutional F&A negotiated rate agreement 
 
 **Background**<br>
-Mentored awards must be closely aligned with the objectives of existing [objectives of existing ASAP Discovery Consortium Projects and Cores as described in the parent application](https://static1.squarespace.com/static/530562f9e4b06fd3c041e221/t/61788fa74126c33373345e2f/1635291049659/ASAP+-+Overall+component.pdf). Efforts are expected to focus on coronavirus, flavivirus, and/or picornavirus families.
+Mentored awards must be closely aligned with the [objectives of existing ASAP Discovery Consortium Projects and Cores as described in the parent application](https://static1.squarespace.com/static/530562f9e4b06fd3c041e221/t/61788fa74126c33373345e2f/1635291049659/ASAP+-+Overall+component.pdf). Efforts are expected to focus on coronavirus, flavivirus, and/or picornavirus families.
 Applications that do not comply with these instructions may be delayed or not accepted for review.
 
 **Research Objectives and Scope**<br>
