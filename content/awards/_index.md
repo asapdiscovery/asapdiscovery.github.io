@@ -21,7 +21,7 @@ This Request for Proposals solicits applications from individuals or scientific 
 
 **Key Dates**<br>
 Posted Date: December 15, 2022<br>
-Application Due Date: January 20, 2023<br>
+Application Due Date: January 15, 2023<br>
 Earliest Start Date: May 1, 2023
  
 Applications are due by 5:00 PM Eastern Standard Time. Applicants are encouraged to apply early. Please submit a single combined PDF file to [ASAP.Award.Program@choderalab.org](mailto:ASAP.Award.Program@choderalab.org).
@@ -92,7 +92,7 @@ This Request for Proposals solicits applications from post-doctoral fellows, ear
 
 **Key Dates**<br>
 Posted Date: December 15, 2022<br>
-Application Due Date: January 20, 2023<br>
+Application Due Date: January 15, 2023<br>
 Earliest Start Date: May 1, 2023
 
 Applications are due by 5:00 PM Eastern Standard Time. Applicants are encouraged to apply early. Please submit a single combined PDF file to ASAP.Award.Program@choderalab.org.
