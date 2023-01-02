@@ -30,10 +30,10 @@ pygmentsStyle = "colorful"
     name = "Awards"
     weight = -15
     url = "/awards/"
-[[menu.main]]
-    name = "Jobs"
-    weight = -10
-    url = "/jobs/"
+#[[menu.main]]
+#    name = "Jobs"
+#    weight = -10
+#    url = "/jobs/"
 [[menu.main]]
     name = "Open Science Forum"
     weight = -5
