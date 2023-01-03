@@ -35,8 +35,9 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 **Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-jan"></a>
-* TBD
-* TBD
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([UMass Chan Medical School](https://www.umassmed.edu/))**: *TBD*
+* **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/))**: *TBD*
 
 **Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-feb"></a>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
