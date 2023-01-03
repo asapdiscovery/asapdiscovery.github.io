@@ -41,8 +41,6 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-feb"></a>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
 * **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays*
-  * **Preprints and papers**
-    * [Drug-induced phospholipidosis confounds drug repurposing for SARS-CoV-2](https://www.science.org/doi/full/10.1126/science.abi4708)
 * TBD
 
 **Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-mar"></a>
