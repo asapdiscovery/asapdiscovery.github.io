@@ -34,20 +34,15 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q)
-<a name="2022-dec"></a><br>
-
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Neelika Malavige, DNDi](https://dndi.org/our-people/neelika-malavige/) ([Drugs for Neglected Disease Initiative](http://dndi.org))**: *Epidemiological, clinical and immunological risk factors of severe dengue*
-* **[Pei-Yong Shi, UTMB BMB](https://www.utmb.edu/idd/administration/institute-director) ([The UTMB-Novartis Alliance for Pandemic Preparedness (UNAPP)](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Dengue Drug Discovery*
-
 **Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-jan"></a>
 * TBD
 * TBD
 
 **Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-feb"></a>
-* TBD
+*Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
+* **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays*
+  * **Preprints and papers**
+    * [Drug-induced phospholipidosis confounds drug repurposing for SARS-CoV-2](https://www.science.org/doi/full/10.1126/science.abi4708)
 * TBD
 
 **Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-mar"></a>
@@ -57,6 +52,14 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q)
+<a name="2022-dec"></a><br>
+
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Neelika Malavige, DNDi](https://dndi.org/our-people/neelika-malavige/) ([Drugs for Neglected Disease Initiative](http://dndi.org))**: *Epidemiological, clinical and immunological risk factors of severe dengue*
+* **[Pei-Yong Shi, UTMB BMB](https://www.utmb.edu/idd/administration/institute-director) ([The UTMB-Novartis Alliance for Pandemic Preparedness (UNAPP)](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Dengue Drug Discovery*
 
 **Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_oH8bnuyvRm-MP0V4NhfE-Q)
