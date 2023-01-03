@@ -34,17 +34,17 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-jan"></a>
+**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) <a name="2023-jan"></a> <br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([ASAP](https://asapdiscovery.org/))**: *Deep mutational scanning of coronaviruses*
 * **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([CAMPP](https://www.campp.org/))**: *Deep mutational scanning of flaviviruses*
 
-**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-feb"></a>
+**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) <a name="2023-feb"></a><br>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
 * **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays*
 * TBD
 
-**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-mar"></a>
+**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) <a name="2023-mar"></a><br>
 * TBD
 * TBD
 
