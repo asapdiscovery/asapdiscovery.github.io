@@ -36,8 +36,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-jan"></a>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([UMass Chan Medical School](https://www.umassmed.edu/))**: *TBD*
-* **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/))**: *TBD*
+* **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([ASAP](https://asapdiscovery.org/))**: *Deep mutational scanning of coronaviruses*
+* **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([CAMPP](https://www.campp.org/))**: *Deep mutational scanning of flaviviruses*
 
 **Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2023-feb"></a>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
