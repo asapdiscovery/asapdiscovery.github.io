@@ -34,11 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) <a name="2023-jan"></a> <br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([ASAP](https://asapdiscovery.org/))**: *Systematic analyses of the resistance potential of drugs targeting Mpro of SARS-CoV-2*
-* **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([CAMPP](https://www.campp.org/));([ASAP](https://asapdiscovery.org/))**: *Deep mutational scanning of flaviviruses*
-
 **Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-feb"></a><br>
@@ -52,13 +47,23 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors*
 * TBD
 
+**Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
+<a name="2023-mar"></a><br>
+* TBD
+* TBD
+
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) <a name="2023-jan"></a> <br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([ASAP](https://asapdiscovery.org/))**: *Systematic analyses of the resistance potential of drugs targeting Mpro of SARS-CoV-2*
+* **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([CAMPP](https://www.campp.org/));([ASAP](https://asapdiscovery.org/))**: *Deep mutational scanning of flaviviruses*
+ 
 **Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
 <a name="2022-dec"></a><br>
-
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Neelika Malavige, DNDi](https://dndi.org/our-people/neelika-malavige/) ([Drugs for Neglected Disease Initiative](http://dndi.org))**: *Epidemiological, clinical and immunological risk factors of severe dengue* **[[Video]](https://www.youtube.com/watch?v=eLFRZJGdrJ0)** 
 * **[Pei-Yong Shi, UTMB BMB](https://www.utmb.edu/idd/administration/institute-director) ([The UTMB-Novartis Alliance for Pandemic Preparedness (UNAPP)](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Dengue Drug Discovery* **[[Video]](https://www.youtube.com/watch?v=qqccL8WygTw)**
