@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-feb"></a><br>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
 * **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays*
-* TBD
+* **[Jesse Bloom, Fred Hutch](https://research.fredhutch.org/bloom/en.html?_gl=1*1yavwop*_ga*OTA1MTQwMjA4LjE2NzUwODY5Mzk.*_ga_CMZTF4L2MS*MTY3NTA4NjkzOS4xLjEuMTY3NTA4Njk0OS4wLjAuMA..&_ga=2.174333858.1431722787.1675086940-905140208.1675086939) ([ASAP](https://asapdiscovery.org/))**: *Fitness effects of mutations to SARS-CoV-2 proteins*
 
 **Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
