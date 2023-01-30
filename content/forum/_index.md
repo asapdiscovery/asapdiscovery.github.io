@@ -57,19 +57,20 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
-**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
+<a name="2023-jan"></a>
+**Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Daniel Bolon, UMass Chan](https://www.umassmed.edu/bolon-lab/) ([ASAP](https://asapdiscovery.org/))**: *Systematic analyses of the resistance potential of drugs targeting Mpro of SARS-CoV-2*
 * **[Matthew Evans, Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/profiles/matthew-j-evans) ([CAMPP](https://www.campp.org/));([ASAP](https://asapdiscovery.org/))**: *Deep mutational scanning of flaviviruses*
  
-**Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  <a name="2022-dec"></a>
-<a name="2022-dec"></a><br>
+<a name="2022-dec"></a>
+**Wed 21 Dec 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Neelika Malavige, DNDi](https://dndi.org/our-people/neelika-malavige/) ([Drugs for Neglected Disease Initiative](http://dndi.org))**: *Epidemiological, clinical and immunological risk factors of severe dengue* **[[Video]](https://www.youtube.com/watch?v=eLFRZJGdrJ0)** 
 * **[Pei-Yong Shi, UTMB BMB](https://www.utmb.edu/idd/administration/institute-director) ([The UTMB-Novartis Alliance for Pandemic Preparedness (UNAPP)](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Dengue Drug Discovery* **[[Video]](https://www.youtube.com/watch?v=qqccL8WygTw)**
 
-**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
-<a name="2022-nov"></a><br>
+<a name="2022-nov"></a>
+**Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
 * **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
@@ -80,7 +81,8 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
   * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
     * [SGC nsp13 open lab notebook](https://github.com/StructuralGenomicsConsortium/CNP4-Nsp13-C-terminus-B)
 
-**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <a name="2022-oct"></a><br>
+<a name="2022-oct"></a>
+**Wed 19 Oct 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Recording]](https://meetmsk.zoom.us/rec/share/dNRNJBrLIIW-qyJIpShrCk8PFmTzGu8QkZYWdYze4L5nSf8jeEuB_c69dakiMqux.yZkkXmSmKJNRbkCm)** <br>
 *Moderator:* [**John Chodera**](https://choderalab.org/) ([Memorial Sloan Kettering Cancer Center](http://choderalab.org))
 * **[Frank von Delft, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) ([ASAP](http://asapdiscovery.org))**: *Moonshot lessons for open science: sustaining a collaboration platform for real-time data and idea sharing in targeting SARS-CoV-2 Main Protease* **[[Video]](https://www.youtube.com/watch?v=Hqy2yo5WtTA)** **[[Slides]](https://zenodo.org/record/7272368)**
   * **Public datasets**
