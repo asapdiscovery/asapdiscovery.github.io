@@ -72,13 +72,13 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 <a name="2022-nov"></a>
 **Wed 16 Nov 2022**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example*
+* **[Ed Griffen, MedChemica](https://www.medchemica.com/team/griffen-ed-j/) ([ASAP](http://asapdiscovery.org))**: *Focusing projects with target product profiles (TPPs) and target candidate profiles (TCPs) using the ASAP SARS-CoV-2/MERS-CoV Mpro program as an example* **[[Video]](https://www.youtube.com/watch?v=3frZzkdUeM0&t=437s)** **[[Slides]](https://zenodo.org/record/7335798#.Y9mH6ezMJhE)**
 * **[Tim Willson](https://www.thesgc.org/profile/unc/twillson), [Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira), [Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd) ([READDI](https://www.readdi.org/))**:
-  * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))**
+  * *Are helicases druggable targets?* **([Tim Willson](https://www.thesgc.org/profile/unc/twillson))** **[[Video]](https://www.youtube.com/watch?v=dponw3SzQLg&t=8s)** **[[Slides]](https://zenodo.org/record/7335845#.Y9mIGezMJhE)**
     * HeliHub helicase database: Use [SGC ChemBioPort](https://chembioport.thesgc.org/index.php) Query ID: `i9hao20220815`
-  * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))**
+  * *Analysis of coronavirus helicases and CACHE Challenge #2 on finding hits for SARS-CoV-2 nsp13* **([Matthieu Schapira](https://www.thesgc.org/profile/toronto/mschapira))** **[[Video]](https://www.youtube.com/watch?v=7yhn9JRovYc&t=36s)** **[[Slides]](https://zenodo.org/record/7348257#.Y9mInuzMJhE)**
     * [Conservation of predicted pockets in coronaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8265533/)
-  * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))**
+  * *SARS-CoV-2 nsp13 fragments and the Open Chemistry Network* **([Mat Todd](https://www.ucl.ac.uk/pharmacy/people/professor-matthew-todd))** **[[Video]](https://www.youtube.com/watch?v=cl5mmBc1NMs&t=25s)** **[[Slides]](https://zenodo.org/record/7348293#.Y9mJc-zMJhF)**
     * [SGC nsp13 open lab notebook](https://github.com/StructuralGenomicsConsortium/CNP4-Nsp13-C-terminus-B)
 
 <a name="2022-oct"></a>
