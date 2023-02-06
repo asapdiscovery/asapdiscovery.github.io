@@ -15,33 +15,68 @@ pygmentsStyle = "colorful"
   email = "john.chodera@choderalab.org"
 
 [[menu.main]]
+    name = "Pipeline"
+    weight = -50
+    url = "/pipeline/"
+    identifier = "pipeline"
+[[menu.main]]
+    name = "Outputs"
+    weight = -45
+    url = "/outputs/"
+    identifier = "outputs"
+        [[menu.main]]
+            name = "Targets"
+            url = "/outputs/targets/"
+            weight = 1
+            identifier = "targets"
+            parent = "outputs"
+        [[menu.main]]
+            name = "TPPs"
+            url = "outputs/TPPs/"
+            weight = 2
+            identifier = "TCPs"
+            parent = "outputs"
+        [[menu.main]]
+            name = "TCPs"
+            url = "outputs/TPPs/"
+            weight = 3        
+            identifier = "TPPs"
+            parent = "outputs"
+[[menu.main]]
     name = "Concept"
     weight = -40
     url = "https://www.choderalab.org/news/2021/10/26/asap-avidd-proposal"
+    identifier = "concept"
 [[menu.main]]
     name = "Members"
     weight = -30
     url = "/members/"
+    identifier = "members"
 [[menu.main]]
     name = "FAQ"
     weight = -20
     url = "/faq/"
+    identifier = "FAQ"
 [[menu.main]]
     name = "Awards"
     weight = -15
     url = "/awards/"
+    identifier = "awards"
 #[[menu.main]]
 #    name = "Jobs"
 #    weight = -10
 #    url = "/jobs/"
+#    identifier = "jobs"
 [[menu.main]]
     name = "Open Science Forum"
     weight = -5
     url = "/forum/"
+    identifier = "forum"
 [[menu.main]]
     name = "COVID Moonshot"
     weight = 0
     url = "https://postera.ai/moonshot/"
+    identifier = "moonshot"
 
 [markup]
   [markup.goldmark]

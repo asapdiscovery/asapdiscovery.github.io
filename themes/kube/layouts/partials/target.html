@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row"> 
+    <div class="col-4">
+      <b>{{ .name }}</b>
+    </div>
+    <div class="col-8">
+      {{ with .img }} <img width="20" src="img/targets/{{ . }}"></a> {{ end }}
+      {{ with .DMS }} <a href="{{ .url }}"><img {{ with .hover }}title="{{ . }}"{{ end }} width="20" src="img/status/completed.png"></a> {{ end }}
+      {{ with .TPP }} <a href="#{{ .anchor }}"><img {{ with .hover }}title="{{ . }}"{{ end }} width="20" src="img/status/in-progress.png"></a> {{ end }}
+      {{ with .TCP }} <a href="{{ .url }}"><img {{ with .hover }}title="{{ . }}"{{ end }} width="20" src="img/status/not-started.png"></a> {{ end }}
+      {{ with .assay_cascade }} <a href="{{ .url }}"><img {{ with .hover }}title="{{ . }}"{{ end }} width="20" src="img/status/not-started.png"></a> {{ end }}
+    </div>
+  </div>
+</div>

@@ -706,7 +706,7 @@ table.bordered th {
   border: 1px solid rgba(0, 0, 0, 0.05); }
 
 table.striped tr:nth-child(odd) td {
-  background: #f8f8f8; }
+  background: #00f8f8; }
 
 table.bordered td:first-child,
 table.bordered th:first-child,

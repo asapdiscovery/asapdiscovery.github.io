@@ -1,0 +1,110 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>{{.Title }}</h1>
+    <p>{{.Params.description}}<br></p>
+</div>
+<div id="main">
+
+<!-- Define preferred order for viral families -->
+{{ $viral_families := slice "coronaviridae" "flaviviridae" "picornaviridae" "togaviridae" }}
+
+<!-- Define width for icons -->
+{{ $icon_width := "40" }}
+
+
+<div class="container">
+
+<!-- Header -->
+<div class="row"> 
+  <div class="col-1">
+    <!-- Family -->
+  </div>
+  <div class="col-11">  
+    <div class="row"> 
+      <div class="col-4">
+        <h3>Target</h3>
+      </div>
+      <div class="col-8">
+        <a href="#target"><img title="Target" width="{{ $icon_width }}" src="img/icons/target.png"></a>
+
+        <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
+        <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+        <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/papers.png"></a>
+
+        <a href="#DMS"><img title="Deep mutational scanning data on the target" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
+        <a href="#TPP"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
+        <a href="#TCP"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
+        <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
+        <a href="#TEP"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+        <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
+        <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
+        <a href="#preclinical"><img title="Preclinical (IND-enabling) studies" width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
+        <a href="#IND"><img title="Investigational New Drug (IND) approval" width="{{ $icon_width }}" src="img/icons/ind.png"></a>
+        <a href="#clinic"><img title="Clinical trials" width="{{ $icon_width }}" src="img/icons/clinical-trials.png"></a>
+        <a href="#NDA"><img title="New Drug Approval (NDA)" width="{{ $icon_width }}" src="img/icons/NDA.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- List all targets for each viral family -->
+{{ range $viral_family := $viral_families }}
+  <div class="row"> 
+    <!-- Show the viral family -->
+    <div class="col-1">
+      <img width="80" src="img/viruses/{{ $viral_family }}.png"></a>
+    </div>
+    <!-- List the targets for this family -->
+    <div class="col-11">  
+      {{ range $.Site.Data.targets }}
+        {{ if in .overview.family $viral_family }}
+          <div class="container">
+            <div class="row"> 
+              <div class="col-4">
+                <b>{{ .overview.name }}</b>
+              </div>
+              <div class="col-8">
+                {{ with .overview.img }} <img width="{{ $icon_width }}" src="img/targets/{{ . }}"></a> {{ end }}
+
+                <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/data.png"></a>
+                <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/data.png"></a>
+                <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/data.png"></a>
+
+                {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .TPP }} <a href="#{{ .anchor }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .hit_to_lead }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .lead_optimization }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .preclinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .IND }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .clinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .NDA }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+
+</div>
+
+<br>
+<hr>
+
+{{.Content}}
+
+<!-- End -->
+
+</div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
