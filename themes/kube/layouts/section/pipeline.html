@@ -10,7 +10,7 @@
 <div id="main">
 
 <!-- Define preferred order for viral families -->
-{{ $viral_families := slice "coronaviridae" "flaviviridae" "picornaviridae" "togaviridae" }}
+{{ $viral_families := slice "coronaviridae" "flaviviridae" "togaviridae" "picornaviridae" "influenzaviridae"}}
 
 <!-- Define width for icons -->
 {{ $icon_width := "40" }}
@@ -70,26 +70,28 @@
               <div class="col-8">
                 {{ with .overview.img }} <img width="{{ $icon_width }}" src="img/targets/{{ . }}"></a> {{ end }}
 
-                <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/data.png"></a>
-                <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/data.png"></a>
-                <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/data.png"></a>
+                <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+                <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+                <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
 
-                {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .TPP }} <a href="#{{ .anchor }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .hit_to_lead }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .lead_optimization }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .preclinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .IND }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .clinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
-                {{ with .NDA }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ .status }}.png"></a> {{ end }}
+                {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .TPP }} <a href="#{{ .anchor }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .hit_to_lead }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .lead_optimization }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .preclinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .IND }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .clinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .NDA }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
               </div>
             </div>
           </div>
         {{ end }}
       {{ end }}
+      <!-- Add whitespace between virus particles to divide them slightly -->
+      &nbsp
     </div>
   </div>
 {{ end }}
