@@ -9,7 +9,7 @@ overview:
   codename: ASAP-MAC-1
   viruses:
     - Enterovirus
-  img: "SARS-CoV-2 Mpro.png"
+  img: "nucleocapsid.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

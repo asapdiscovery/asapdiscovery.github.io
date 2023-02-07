@@ -9,7 +9,7 @@ overview:
   codename: ASAP-MAC-1
   viruses:
     - SARS-CoV-2
-  img: "SARS-CoV-2 Mpro.png"
+  img: "influenza.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

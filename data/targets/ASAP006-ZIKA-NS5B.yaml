@@ -9,7 +9,7 @@ overview:
   codename: ASAP-MAC-1
   viruses:
     - Zika
-  img: "SARS-CoV-2 Mpro.png"
+  img: "zika_ns5b.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
