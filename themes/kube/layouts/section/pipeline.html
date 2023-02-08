@@ -55,7 +55,8 @@
 {{ range $viral_family := $viral_families }}
   <div class="row"> 
     <!-- Show the viral family -->
-    <div class="col-1">
+    <!-- This will probably break the view on Phones/small screens. There's a way in bootstrap to adjust this so that the icons are smaller. https://getbootstrap.com/docs/4.1/layout/grid/. MatteoFerla might know how to do this!-->
+    <div class="col-1" style="display: flex;  align-items: center;">
       <img width="80" src="img/viruses/{{ $viral_family }}.png"></a>
     </div>
     <!-- List the targets for this family -->
@@ -64,7 +65,7 @@
         {{ if in .overview.family $viral_family }}
           <div class="container">
             <div class="row"> 
-              <div class="col-4">
+              <div class="col-4" style="display: flex;  align-items: center;">
                 <b>{{ .overview.name }}</b>
               </div>
               <div class="col-8">
@@ -90,9 +91,9 @@
           </div>
         {{ end }}
       {{ end }}
-      <!-- Add whitespace between virus particles to divide them slightly -->
-      &nbsp
     </div>
+    <!-- Add whitespace between virus particles to divide them slightly -->
+    &nbsp
   </div>
 {{ end }}
 
