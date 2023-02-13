@@ -22,6 +22,8 @@ Below, we give an overview of all classes of ASAP's research outputs:
 The **viral family** describes the family of viruses ASAP aims to develop antivirals against.
 ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.
 
+[🔎 View all ASAP viral families](/outputs/viral-families)
+
 <!-- Targeting opportunity -->
 <a id="targeting-opportunity"></a>
 #### Targeting Opportunity
@@ -29,33 +31,39 @@ ASAP aims to discover direct-acting antivirals with broad antiviral activity wit
 A **targeting opportunity** provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action.
 This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
 
+[🔎 View all ASAP Targeting Opportunities](/outputs/targeting-opportunities)
+
 <!-- Deep Mutational Scanning (DMS) data -->
-<a id="DMS"></a>
-#### Deep Mutational Scanning (DMS) data
+<a id="mutational-data"></a>
+#### Target Mutational Data
 
 **Deep mutational scanning (DMS)** data helps identify mutations in the target that are functionally tolerated and could lead to resistance should these mutations abrogate binding of antivirals.
 ASAP is using multiple techniques to rapidly generate DMS data for all targets of interest in order to inform the discovery of resistance-robust direct-acting antivirals.
+ASAP is also pursuing *analysis of circulating variants* of SARS-CoV-2 and other viruses to identify functionally tolerated mutations to inform resistance-robust inhibitor discovery.
 
-{{< DMS >}}
+<!-- {{< DMS >}} -->
+[🔎 View all ASAP target mutation data](/outputs/mutation-data)
 
 <!-- Target Product Profiles (TPPs) -->
-<a id="TPP"></a>
+<a id="target-product-profile"></a>
 #### Target Product Profile (TPP)
 
 A **[Target Product Profile (TPP)](https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles)** describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.
 All ASAP TPPs are *draft TPPs* intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
 ASAP works with stakeholders around the globe (such as the [World Health Organization](https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles)) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.
 
-{{< TPP >}}
+<!-- {{< TPP >}} -->
+[🔎 View all ASAP Target Product Profiles (TPPs)](/outputs/target-product-profiles)
 
 <!-- Target Candidate Profiles (TCPs) -->
-<a id="TCP"></a>
+<a id="target-candidate-profile"></a>
 #### Target Candidate Profile (TCP)
 
 A [Target Candidate Profile (TCP)]() describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
 Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#TPP) for the corresponding disease.
 
-{{< TCP >}}
+<!-- {{< TCP >}} -->
+[🔎 View all ASAP Target Candidate Profiles (TCPs)](/outputs/target-candidate-profiles)
 
 <!-- Target Candidate Profiles (TCPs) -->
 <a id="assay-cascade"></a>
@@ -63,23 +71,49 @@ Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#TPP
 
 An **[assay cascade]() is a defined set of assays and progression criteria used by a drug discovery program to achieve its [Target Candidate Profile (TCP)](#TCP) goals in a time- and cost-effective manner.
 
+[🔎 View all ASAP assay cascades](/outputs/assay-cascades)
 
 <!-- Target Enabling Package (TEP) -->
-<a id="TEP"></a>
+<a id="target-enabling-package"></a>
 #### Target Enabling Package (TEP)
 
 A [Target Enabling Package (TEP)](https://www.thesgc.org/tep) is a complete data package needed to enable structure-based drug discovery against an antiviral target.
-Pioneered by the [Structural Genomics Consortium](https://www.thesgc.org/tep), each TEP contains
-* Relevant protein construct and links to procure plasmids for one or more viral family members
-* Protein expression and purification protocols 
-* Crystallization conditions
-* Structures from an [X-ray fragment screen](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html) and other small molecule hits
-* Biochemical assay protocols with a validated inhibitor with quantifiable activity
+Pioneered by the [Structural Genomics Consortium](https://www.thesgc.org/tep), each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an [X-ray fragment screen](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html), small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.
+
+[🔎 View all ASAP Target Enabling Packages (TEPs)](/outputs/target-enabling-packages)
+
+<!-- Hit-to-lead -->
+<a id="hit-to-lead"></a>
+#### Hit-to-Lead Progression
+
+ASAP aims to produce high-quality lead compounds for nine viral targets within five years.
+
+[🔎 View all ASAP Hit-to-Lead packages of high-quality lead compounds](/outputs/hit-to-lead)
+
+
+<!-- Lead optimization -->
+<a id="lead-optimization"></a>
+#### Lead Optimization
+
+ASAP aims to pursue five lead optimization programs within five years, producing at least three candidates for preclinical development
+
+[🔎 View all ASAP Lead Optimization data packages](/outputs/lead-optimization)
+
+<!-- Preclinical programs -->
+<a id="preclinical-programs"></a>
+#### Preclinical programs
+
+ASAP aims to prosecute three IND-enabling preclinical programs within five years.
+
+[🔎 View all ASAP preclinical programs](/outputs/preclinical-programs)
 
 <!-- Investigational New Drug (IND) approval -->
-<a id="IND"></a>
-#### Investigational New Drug (IND) approval
+<a id="investigational-new-drugs"></a>
+#### Investigational New Drug (IND) filings
 
+ASAP aims to produce three IND filings within five years.
+
+[🔎 View all ASAP Investigational New Drugs (INDs)](/outputs/investigational-new-drugs)
 
 <!-- Clinical trials -->
 <a id="clinical-trials"></a>
@@ -89,13 +123,15 @@ ASAP collaborates with downstream translational partners to carry the clinical c
 Note that the [AViDD U19 grant](https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-21-050.html) held by ASAP is not used to fund clinical trials.
 
 
+[🔎 View all ASAP clinical trials](/outputs/clinical-trials)
+
 <!-- NDA -->
-<a id="NDA"></a>
+<a id="new-drug-approval"></a>
 #### New Drug Approval (NDA)
 
 ASAP aims to work with partners to seek New Drug Approvals (NDAs) and carry our antivirals to manufacture with the goal of globally accessible and affordable therapeutics.
 
-
+[🔎 View all ASAP New Drug Approvals (NDAs)](/outputs/new-drug-approvals)
 
 <!-- ASAP resources -->
 
