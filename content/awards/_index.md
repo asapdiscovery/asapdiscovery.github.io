@@ -5,8 +5,9 @@ draft: false
 layout: faq
 ---
 
-The [ASAP AViDD Center](https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern) is pleased to announce requests for applications are now being solicited for <a href="#developmental-research-project">Developmental Research Project Awards</a> and <a href="#mentored-project">Mentored Project Awards</a>.
-Funds for this award are generously provided by the National Institutes of Health under award number [U19AI171399](https://reporter.nih.gov/search/w8DB-VjNEk2E-twKD4bPUQ/project-details/10513866) through the [NIAID Antiviral Drug Discovery (AViDD) U19 Program](https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-21-050.html).
+Applications for the [ASAP AViDD Center Developmental Research Project Awards](https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern) and [Mentored Project Awards](https://asapdiscovery.org/awards/#mentored-project) are currently under review with awards expected to be announced by April 2023.
+
+Funds for this award are provided by the National Institutes of Health under award number [U19AI171399](https://reporter.nih.gov/search/w8DB-VjNEk2E-twKD4bPUQ/project-details/10513866) through the [NIAID Antiviral Drug Discovery (AViDD) U19 Program](https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-21-050.html).
 
 <a id="developmental-research-project"></a>
 ## Developmental Research Project Awards
