@@ -34,13 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
-<a name="2023-feb"></a><br>
-*Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
-* **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays*
-* **[Jesse Bloom, Fred Hutch](https://research.fredhutch.org/bloom/en.html?_gl=1*1yavwop*_ga*OTA1MTQwMjA4LjE2NzUwODY5Mzk.*_ga_CMZTF4L2MS*MTY3NTA4NjkzOS4xLjEuMTY3NTA4Njk0OS4wLjAuMA..&_ga=2.174333858.1431722787.1675086940-905140208.1675086939) ([ASAP](https://asapdiscovery.org/))**: *Fitness effects of mutations to SARS-CoV-2 proteins*
-
 **Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
@@ -56,6 +49,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+<a name="2023-feb"></a>
+
+**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  
+*Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
+* **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays* **[[Video]](https://www.youtube.com/watch?v=aZ-60is_yTs)** 
+* **[Jesse Bloom, Fred Hutch](https://research.fredhutch.org/bloom/en.html?_gl=1*1yavwop*_ga*OTA1MTQwMjA4LjE2NzUwODY5Mzk.*_ga_CMZTF4L2MS*MTY3NTA4NjkzOS4xLjEuMTY3NTA4Njk0OS4wLjAuMA..&_ga=2.174333858.1431722787.1675086940-905140208.1675086939) ([ASAP](https://asapdiscovery.org/))**: *Fitness effects of mutations to SARS-CoV-2 proteins* **[[Video]](https://www.youtube.com/watch?v=mxwonR3Ky44)** **[[Slides]](https://zenodo.org/record/7651363#.Y-_r8ezML0o)** **[[Interactive Slides](https://slides.com/jbloom/sars2-mut-fitness)** **[[Interactive Data Browser]](https://jbloomlab.github.io/SARS2-mut-fitness/)** **[[Preprint]](https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1 )**
 
 <a name="2023-jan"></a>
 **Wed 18 Jan 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* <br>
