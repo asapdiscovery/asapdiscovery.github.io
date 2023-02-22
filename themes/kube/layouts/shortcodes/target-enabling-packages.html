@@ -1,0 +1,95 @@
+<!-- TODO: How should we sort the target data? -->
+{{ $TEP_index := 0 }}
+{{ range $.Site.Data.outputs.TEPs }}
+    {{ $TEP_index = add $TEP_index 1 }}
+
+    <!-- Title -->
+    {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }}
+
+    <!-- Status -->
+    <b>Status:</b> 
+    {{ if eq .TEP.status "in-progress" }} <span class="label warning">In progress</span> {{ end }}
+    {{ if eq .TEP.status "completed" }} <span class="label success">Completed</span> {{ end }}
+    {{ if eq .TEP.status "not-started" }} <span class="label error">Not started</span> {{ end }}    
+    <br>
+
+    <!-- Gene | Uniprot | EC -->
+    <div class="row align-center">    
+        <a href="{{ printf "https://www.ncbi.nlm.nih.gov/protein/%s" .TEP.gene }}" > <span class="label success"> Gene: {{ .TEP.gene | markdownify }} </span> </a> &nbsp;
+        <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" .TEP.uniprot }}" > <span class="label error">  Uniprot: {{ .TEP.uniprot | markdownify }} </span> </a> &nbsp;
+        <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" .TEP.EC }}" > <span class="label warning"> EC: {{ .TEP.EC | markdownify }} </span> </a> 
+    </div>
+
+    <br>
+
+    <!-- 
+    {{ with .TEP.gene }} {{ printf "**Gene:** [%s](https://www.ncbi.nlm.nih.gov/protein/%s)" . . | markdownify }} {{ end }} |
+    {{ with .TEP.uniprot }} {{ printf "**Uniprot:** [%s](https://www.uniprot.org/uniprotkb/%s)" . . | markdownify }} {{ end }} |
+    {{ with .TEP.EC }} {{ printf "**EC:** [%s](https://www.genome.jp/dbget-bin/www_bget?ec:/%s)" . . | markdownify }} {{ end }} <br>
+    -->
+
+    <!-- Header information -->
+    <div class="prettybox warning" data-component="prettybox"> 
+    <b>Target Nominator:</b> {{ .TEP.nominator }} <br>
+    <b>Target PI:</b> {{ .TEP.investigator }} <br>
+    <b>Therapeutic Area(s):</b> {{ .TEP.therapeutic_area }} <br>
+    <b>Disease Relevance:</b> {{ .TEP.disease_relevance }} <br>
+    <b>Viral family:</b> {{ .TEP.asap.viral_family }} <br>
+    <b>Viruses:</b> {{ .TEP.asap.viruses }} <br>
+    </div>
+    
+    <div class="prettybox success" data-component="prettybox"> 
+        <h4>Summary of Project</h4>
+        {{ .TEP.summary | markdownify }} 
+    </div>
+    
+    <div class="prettybox focus" data-component="prettybox">
+        <h4>Scientific Background</h4>
+        {{ .TEP.scientific_background | markdownify }}
+    </div>
+
+    <h4>Resources</h4>
+
+    {{ $resource_index := 0 }}
+    {{ range .TEP.resources }}
+    {{ $resource_index = add $resource_index 1 }}
+
+    {{ $icon_width := 40 }}
+
+    <div class="prettybox" data-component="prettybox">
+        <div class="container">
+            <div class="row"> 
+              <div class="col-1" style="display: flex;  align-items: center;">
+                <a href="{{ .url }}"><img title="Molecules" width="{{ $icon_width }}" src="../img/icons/{{ .type }}.png"></a>
+              </div>
+              <div class="col-11">                
+                <b> {{ .name | markdownify }}</b> <br>
+                {{ with .description }} {{ . | markdownify }} <br> {{ end }}
+
+                {{ .url | markdownify }}
+                <cite>[ {{ .date }} ]</cite> 
+                <br>
+
+                {{ with .protocol }} 
+                <button data-component="toggleme" data-target="#togglebox-protocol-{{ $TEP_index }}-{{ $resource_index }}" data-text="Hide Protocol">Protocol</button>
+                <div id="togglebox-protocol-{{ $TEP_index }}-{{ $resource_index }}" class="hide">
+                    <cite> {{ . | markdownify }} </cite>
+                </div>
+                {{ end }}                
+
+                {{ with .details }} 
+                <button data-component="toggleme" data-target="#togglebox-details-{{ $TEP_index }}-{{ $resource_index }}" data-text="Hide Details">Details</button>
+                <div id="togglebox-details-{{ $TEP_index }}-{{ $resource_index }}" class="hide">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}                
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    {{ end }}
+
+
+{{ end }}
