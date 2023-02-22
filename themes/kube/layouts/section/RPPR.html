@@ -1,0 +1,42 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>{{.Title }}</h1>
+    <p>{{.Params.description}}<br></p>
+</div>
+<div id="main">
+
+<!-- Define all projects and cores -->
+{{ $projects := slice "Overall" "Project 1" "Project 2" "Project 3" "Project 4" "Project 5" "Project 6" "Antiviral Core" "Biochemistry Core" "Structural Biology Core" "Data Core" }}
+
+<!-- Define reporting period for RPPR -->
+{{ $reporting_period_start := "2022-05-01" }}
+{{ $reporting_period_end := "2023-04-30" }}
+
+<h2>NIH RPPR 1</h2>
+<p>Reporting period {{ $reporting_period_start }} to {{ $reporting_period_end }}.</p>
+
+<!-- List all research outputs for each project that had events within the reporting period -->
+{{ range $project := $projects }}
+<h3>{{ $project }}</h3>
+
+{{ end }}
+ 
+<br>
+<hr>
+
+
+<!-- Show remaining content -->
+
+{{.Content}}
+
+<!-- End -->
+
+</div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}

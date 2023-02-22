@@ -10,6 +10,17 @@ button, .button {
 h1, h2, h3, h4, h5, h6 {
   color: #222; }
 
+// bootstrap SVG-Icons
+.bi {
+  display: inline-block;
+}
+.bi-link {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--wk-accent-color-3);
+
+}
+
 .form-centered {
   max-width: 400px;
   margin: auto;

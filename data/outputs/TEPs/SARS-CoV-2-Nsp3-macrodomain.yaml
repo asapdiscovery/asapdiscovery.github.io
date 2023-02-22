@@ -1,0 +1,159 @@
+TEP:
+  # Name of the TEP
+  name: Nsp3 macrodomain of SARS-CoV-2
+  # Status is one of ['not-started', 'in-progress', 'completed']
+  status: completed
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: coronaviridae
+    viruses:
+    - SARS-CoV-2
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program: ASAPPNBTAE
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: QIT08255.1
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: P0DTC1
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.19.12
+  # Target nominator
+  nominator: Ivan Ahel
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: Nsp3 encodes a macrodomain that is important for viral replication
+  # List of authors
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Marion Schuller
+  - Galen J. Correy
+  - Stefan Gahbauer
+  - a merry band of players
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The conserved macrodomain encoded as non-structural protein 3 (Nsp3 Mac1) is employed by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to remove host-derived ribosylation, which is a post-translational modification involved in the production of antiviral cytokines. This TEP provides early tools to develop Nsp3 Mac1 inhibitors, including purification protocols of recombinant proteins, reproducible crystallisation condition suitable for X-ray crystallography fragment screening, biophysical (activity and binding) assays and over 200 fragment hits representing a wide range of chemotypes, that are a starting point for the development of more selective and potent compounds.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    The novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic, which causes the disease COVID-19, 
+    has dramatically impacted the world and set the necessity for the development of efficient prophylactic and therapeutic approaches, 
+    such as antivirals. As of March 2020, [over 3 million people have died of COVID-19 worldwide](https://ourworldindata.org/covid-deaths). 
+    Adenosine diphosphate (ADP)-ribosylation is a highly conserved posttranslational modification related to the immune response which 
+    supresses viral replication [[1](http://doi.org/10.1101/gad.334425.119), [2](https://doi.org/10.1128/mbio.01721-16)]. 
+    For instance, the “antiviral poly(ADP-ribosyl) polymerase 14 (PARP14) promotes interleukin-4-dependent 
+    transcription, resulting in the production of antiviral cytokines [[3](http://doi.org/10.4049/jimmunol.1701117)]. 
+    In this context, viral macrodomains recognise and remove host-derived ADP-ribosylation [[4](https://doi.org/10.1128/JVI.00705-16)]. 
+    Coronaviral conserved macrodomain (“Mac1”), encoded as part of the nonstructural protein3 (Nsp3) has been shown to be 
+    essential for viral replication in animal studies [[5](http://doi.org/10.1098/rsob.200237), [6](https://doi.org/10.1371/journal.ppat.1007756)]. 
+    Moreover, macrodomain catalytic null mutations render the murine hepatitis virus nonpathogenic [[7](https://doi.org/10.1128/jvi.02082-08)]. 
+    In this way, SARS-CoV-2 Nsp3 Mac1 is an attractive drug target for the development of antivirals.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    Here we have established a purification protocol for recombinant Nsp3 Mac1 from Sars-CoV-2 and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits which were validated by biophysical assays established in this work. The ligands and assays established in this work will pave the way for future drug discovery endeavours targeting Nsp3 Mac1.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: Full-length Nsp3 Mac1 construct bearing a N-terminal His-tag followed by a TEV-cleavage site that crystallised in the space group P4<sub>3</sub>
+      # Brief description of the plasmid
+      description:  This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 0.85 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+      # Date it was provided
+      date: 2021-06-01
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: https://www.addgene.org/169210/
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - James Fraser
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        For expression of protein used for crystallisation, the construct was transformed into the E. coli Rosetta strain BL21(DE3)-R3, and cells were grown at 37°C in LB medium (Miller) supplemented with kanamycin (50 g/ml) and chloramphenicol (35 g/ml). After reaching an optical density at 600 nm of 0.5 to 0.6, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [50 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 20 mM imidazole, 10 mM ßME, and complete EDTA-free protease inhibitors (Roche)] and stored at -20°C until purification. For protein purification, pellets were gently thawed in lukewarm water and lysed by high-pressure homogenisation. DNA was digested using Benzonase. Proteins were purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose resin (GE Healthcare) and eluted stepwise in binding buffer containing 40 to 500 mM imidazole. A high-salt wash with 1 M NaCl was combined with the first elution step including 40 mM imidazole. Removal of the His6 tag was carried out by addition of recombinant TEV protease during overnight dialysis into buffer without imidazole, followed by purification on a second IMAC column, and lastly by SEC (Superdex 75, GE Healthcare) in a buffer consisting of 20 mM Hepes (pH 8.0), 250 mM NaCl, and 2 mM DTT. Macrodomain protein used for HTRF assay was not subjected to TEV cleavage and purified after the IMAC step by SEC in a buffer consisting of 25 mM Hepes (pH 7.4), 300 mM NaCl, 5% glycerol, and 0.5 mM tris(2- carboxyethyl)phosphine. Proteins were characterised by SDS-polyacrylamide gel electrophoresis, then flash- frozen in liquid nitrogen, and stored at -80°C until required.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC28-Bsa4
+        * Entry clone accession: MT215193.1
+        * Cell line: E. coli Rosetta strain BL21(DE3)-R3
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: `MHHHHHHSSGVDLGTENLYFQ*SMVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATN
+        NAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSL
+        RVCVDTVRTNVYLAVFDKNLYDKLVSSFL`
+    # Construct / plasmid resource
+    - name: Full-length Nsp3 Mac1 construct bearing a N-terminal His-tag followed by a TEV-cleavage site that crystallised in the space group C2
+      description:  This construct consistently crystallised in C2 and also diffracted to a high- resolution of 0.77 Å, although was less tolerant to DMSO than the construct above-cited.
+      date: 2021-06-01
+      type: plasmid
+      url: https://www.addgene.org/169209/
+      projects: [Project 2]
+      cores: []
+      authors:
+      - James Fraser
+      details: |
+        * Vector: pET22b(+)
+        * Entry clone accession: MT215193.1
+        * Cell line: E. coli BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: `MHHHHHHENLYFQ*SNAGEVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATN
+        NAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVD
+        TVRTNVYLAVFDKNLYDKLVSSFLE`        
+      protocol: >
+        SARS-CoV-2 Nsp3 Mac1 (residues 2 to 170) was cloned into a pET22b(+) expression vector with an N-terminal His6 tag and a tobacco etch virus (TEV) protease recognition site for removal of the tag (GenScript). In addition, a short linker (Asn-Ala-Gly) was included between the TEV recognition site and the Mac1 gene. To express Mac1, plasmid DNA was transformed into BL21(DE3) Escherichia coli. After overnight growth on lysogeny broth (LB) agar supplemented with carbenicillin (100 g/ml), starter cultures (10 ml of LB) were grown at 37°C for 8 hours. Large-scale cultures (1 litre of terrific broth) were grown at 37°C until an optical density of 0.8. Cultures were cooled at 4°C for 15 min, before protein expression was induced with 1 mM isopropyl ß-d-1-thiogalactopyranoside (IPTG), and the cultures were shaken at 20°C for 12 hours. Cells were collected by centrifugation and frozen at -80°C. All purification steps were performed at 4°C using an AKTA fast protein liquid chromatography system (Cytiva). Cells were resuspended in Ni-nitrilotriacetic acid (NTA) binding buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 10 mM imidazole, 5% glycerol, and 2 mM ß-mercaptoethanol (ßME) supplemented with Turbo-Nuclease (5 U/ml; Sigma-Aldrich, T4330)] and lysed by sonication. Cell debris was collected by centrifugation, and the lysate was applied to a 5-ml HisTrap HP column (Cytiva, 17524802). The column was washed with 25 ml of binding buffer followed by 25 ml of 5% Ni-NTA elution buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 500 mM imidazole, 5% glycerol, and 2 mM ßME] and then eluted with 100% elution buffer. Eluted protein was exchanged into TEV reaction buffer [50 mM tris (pH 8.0), 100 mM NaCl, 1 mM dithiothreitol (DTT), and 1% glycerol] using a HiPrep 26/10 desalting column (Cytiva, 17508701). To cleave the His6 tag, Mac1 was diluted to 1.5 mg/ml using TEV reaction buffer and incubated with recombinant TEV protease at a 1:20 ratio (Mac1:TEV) for 16 hours at 4°C. Cleaved Mac1 was separated from the uncleaved protein and TEV protease by rerunning the sample over a HisTrap HP column (pre-equilibrated with TEV reaction buffer) and collecting the flow-through. The flow-through was supplemented with 10 mM DTT and concentrated to 2.5 ml using a 10-kDa molecular weight cutoff (MWCO) centrifugal concentrator (Amicon, UFC901024). The sample was further purified by size exclusion chromatography (SEC) using a HiLoad 16/600 Superdex 75 pg column (Cytiva, 28989333) equilibrated with SEC buffer [20 mM tris (pH 8.0), 150 mM NaCl, 5% glycerol, and 2 mM DTT]. Eluted fractions were concentrated to 15 mg/ml, flash-frozen in liquid nitrogen, and stored at -80°C. Protein used for ITC was purified in the same manner, but the SEC was run with 150 mM NaCl and 20 mM tris (pH 8.0). Protein was concentrated to 10.8 mg/ml before flash-freezing in liquid nitrogen and storage at -80°C.       
+    - name: Crystallographic fragment screening at Oxford/XChem
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
+      date: 2021-06-01
+      type: xray-fragment-screen
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mac1
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: >
+        SARS-CoV-2 Nsp3 Mac1 was concentrated to a final concentration of 47 mg/ml and apo crystals were grown in crystallisation solution containing 100 mM CHES (pH 9.5) and 30% PEG-3000. 
+        Fragments were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, 10% DMSO); drops were incubated for approximately 1 to 3 hours before mounting and flash-freezing in liquid nitrogen. 
+        Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
+        Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
+        Coordinates, structure factors, and PanDDA event maps for the structures discussed are deposited in the Protein Data Bank.
+    - name: Fragment Binding to the Nsp3 Macrodomain of SARS-CoV-2 Identified Through Crystallographic Screening and Computational Docking
+      date: 2020-11-24
+      type: preprint
+      url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      authors:
+      - Marion Schuller
+      - Galen J. Correy
+      - Stefan Gahbauer
+      - Daren Fearon
+      - Taiasean Wu
+      - Roberto Efraín Díaz
+      - Iris D. Young
+      - Luan Carvalho Martins
+    - name: High-throughput differential scanning fluorimetry (DSF) assay
+      description: A 384-well differential scanning fluorimetry (DSF) assay suitable for high-throughput quantitative screening was established.
+      date: 2020-11-24
+      type: assay
+      url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
+      projects: [Project 2]
+      cores: [Biochemical Assay Core]
+      protocol: >
+        Compounds were dissolved in DMSO to a final concentration of 100 mM and placed in a 384-well Echo source plate (Labcyte, PP0200). Using a Labcyte Echo, each compound was dispensed into a 384-well storage plate (Greiner Bio-One, 781280) in five stock concentrations in twofold serial dilutions (compounds, 6.25 to 100 mM; ADPr, 0.625 to 10 mM) and a final volume of 750 nl in triplicate. A protein-free plate was created as a control. Echo dispensing instructions were created by an in-house app (https://gestwickilab.shinyapps.io/echo_layout_maker/). DSF buffer was prepared by adding 10 µl of SYPRO Orange (Thermo Fisher Scientific, S6650) to 10 ml of buffer [50 mM tris- HCl (pH 7.5), 150 mM NaCl, 1 mM EDTA, 1 mM DTT, and 0.01% Triton X-100] for a final dye concentration of 5x (10 µM) SYPRO Orange. A compound plate was resuspended by the addition of 20 µl of DSF buffer and set aside for 20 min in the dark. Purified Mac1 (P43 construct purified at UCSF) was diluted to 10 µM in DSF buffer, and 2 µl of either protein solution or protein-free buffer was added to each well of a 384-well white PCR plate (Axygen, PCR-384- LC480WNFBC) using an E1 ClipTip P125 electronic pipette. Eight microlitres of resuspended compound was transferred to each well of the protein- and buffer-containing PCR plate using an Opentrons OT-2 liquid handling system, yielding the following final conditions: 2 µM Mac1, 5x (10 µM) SYPRO Orange, 3% DMSO, 0.1 to 3 mM fragments, and 0.1 to 1 mM ADPr. The PCR plate was spun briefly in a salad spinner to remove bubbles and sealed with an optically clear film (Applied Biosystems, MicroAmp Optical Adhesive Film, 4311971). In an Analytik Jena qTOWER 384G quantitative PCR instrument, plate was continuously heated from 25° to 94°C at a rate of 1°C/min, and fluorescence was measured at each degree in the TAMRA channel (535/580 nm). Fifty- three of 54 fragments were able to be tested up to 3 mM without assay interference under these conditions. Tm values were calculated online at DSFworld (https://bio.tools/dsfworld).
+    - name: Homogeneous time-resolved fluorescence (HTRF)-based peptide displacement assay
+      description: A 384-well Homogeneous time-resolved fluorescence (HTRF)-based peptide displacement assay suitable for high-throughput quantitative screening was established.
+      date: 2020-11-24
+      type: assay
+      url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
+      projects: [Project 2]
+      cores: [Biochemical Assay Core]
+      protocol: >
+        Fragment inhibitory activity on Mac1 was verified by the displacement of an ADPr-conjugated biotin peptide from the His6-tagged Mac1 using HTRF with an Eu3+-conjugated anti-His6 antibody donor and streptavidin- conjugated acceptor. Compounds were dispensed into white ProxiPlate-384 Plus (PerkinElmer) assay plates using an Echo 525 liquid handler (Labcyte). Binding assays were conducted in a final volume of 16 l with 12.5 nM Mac1, 400 nM peptide ARTK(Bio)QTARK(Aoa-RADP)S [synthesised by Cambridge Peptides (Birmingham, UK)], 1:125 streptavidin-XL665 (Cisbio), and 1:20,000 anti-His6-Eu3+ cryptate (PerkinElmer) in assay buffer [25 mM Hepes (pH 7.0), 20 mM NaCl, 0.05% bovine serum albumin, and 0.05% Tween 20]. Assay reagents were dispensed into plates using a Multidrop combi (Thermo Fisher Scientific) and incubated at room temperature for 1 hour. Fluorescence was measured using a PHERAstar microplate reader (BMG) using the HTRF module with dual-emission protocol (A = excitation of 320 nm, emission of 665 nm and B = excitation of 320 nm, emission of 620 nm). Raw data were processed to give an HTRF ratio (channel A/B x 10,000), which was used to generate IC50 curves by nonlinear regression using GraphPad Prism v8 (GraphPad Software, CA, USA).
