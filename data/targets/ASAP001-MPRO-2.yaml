@@ -1,6 +1,7 @@
 # This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
 # For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
 overview:
+  order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
   name: "SARS-CoV-2 / MERS-CoV Mpro (noncovalent)"
@@ -10,6 +11,7 @@ overview:
     - MERS-CoV
     - SARS-CoV-2
   img: "SARS-CoV-2 Mpro.png"
+  url: https://pdb101.rcsb.org/motm/242
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -72,9 +74,8 @@ TCP:
   status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
+  title: SARS-CoV-2 and MERS-CoV Mpro orally bioavailable antiviral
   content: |-
-    **Orally bioavailable inhibitor for SARS-CoV-2 and MERS-CoV**
-
     | Property | Target range (minimal) | Target range (ideal) |
     | -------- | ---------------------- | -------------------- |
     | MERS-CoV protease IC50 | < 20 nM | < 10 nM |

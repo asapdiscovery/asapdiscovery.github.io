@@ -2023,7 +2023,7 @@ button:hover,
     position: absolute;
     right: 1rem;
     top: 1.1rem; }
-
+    
 .message.error {
   background: #f03c69;
   color: #fff; }
@@ -2045,6 +2045,55 @@ button:hover,
 
 .message.inverted {
   background: #fff; }
+
+
+.prettybox {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background: #e0e1e1;
+  color: #313439;
+  padding: 1rem;
+  padding-right: 2.5em;
+  padding-bottom: .75rem;
+  margin-bottom: 24px;
+  position: relative; }
+  .prettybox a {
+    color: inherit; }
+  .prettybox h2,
+  .prettybox h3,
+  .prettybox h4,
+  .prettybox h5,
+  .prettybox h6 {
+    color: inherit;}
+  .prettybox .close {
+    position: absolute;
+    right: 1rem;
+    top: 1.1rem; }
+    
+.prettybox.error {
+  background: #f03c69;
+  color: #fff; }
+
+.prettybox.success {
+  background: #35beb1;
+  color: #fff; }
+
+.prettybox.warning {
+  background: #f7ba45; }
+
+.prettybox.focus {
+  background: #1c86f2;
+  color: #fff; }
+
+.prettybox.black {
+  background: #0d0d0e;
+  color: #fff; }
+
+.prettybox.inverted {
+  background: #fff; }
+  
+
 
 .modal-box {
   position: fixed;

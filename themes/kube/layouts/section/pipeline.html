@@ -70,7 +70,7 @@
                 <b>{{ .overview.name }}</b>
               </div>
               <div class="col-8">
-                {{ with .overview.img }} <img width="{{ $icon_width }}" src="img/targets/{{ . }}"></a> {{ end }}
+                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
 
                 <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>

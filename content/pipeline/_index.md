@@ -33,6 +33,28 @@ This overview is intended to summarize relevant information for drug hunters, in
 
 [🔎 View all ASAP Targeting Opportunities](/outputs/targeting-opportunities)
 
+<!-- Molecules -->
+<a id="molecules"></a>
+#### Molecules
+
+ASAP is synthesizing and assaying new molecules against numerous antiviral targets, and posting these publicly as part of our open science mission.
+
+[🔎 View all ASAP Molecules](/outputs/molecules)
+
+<!-- Structures -->
+<a id="structures"></a>
+#### Structures
+
+[Diamond Light Source](https://www.diamond.ac.uk/) is a full partner in ASAP, producing numerous X-ray structures of molecules bound to antiviral targets.
+
+[🔎 View all ASAP Structures](/outputs/structures)
+
+<!-- Publications -->
+<a id="publications"></a>
+#### Publications
+
+[🔎 View all ASAP Publications](/outputs/publications)
+
 <!-- Deep Mutational Scanning (DMS) data -->
 <a id="mutational-data"></a>
 #### Target Mutational Data

@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 3
 title: Structures
 description: Structures of ASAP targets with inhibitors
 toc: true

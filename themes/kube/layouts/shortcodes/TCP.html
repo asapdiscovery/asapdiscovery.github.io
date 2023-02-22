@@ -4,6 +4,10 @@
     {{ if eq .TCP.status "completed" }}
         <!-- TODO: Render anchor -->
         <a id="{{ .TCP.anchor }}"></a>
+        <!-- Write header as "### " + .overview.name and render with markdownify to create TOC entry -->
+        {{ with .TCP.title }} {{ printf "### %s" . | markdownify }} {{ end }}
+        <!-- TODO: Link back to TPP driving this TCP -->
+        <!-- Render content as Markdown -->
         {{ .TCP.content | markdownify }}
     {{ end }}
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 8
 title: Assay Cascades
 description: Assay cascades used by ASAP Discovery programs
 toc: true

@@ -14,34 +14,16 @@ pygmentsStyle = "colorful"
   github = "https://github.com/asapdiscovery" # add your github profile name
   email = "john.chodera@choderalab.org"
 
-[[menu.main]]
-    name = "Pipeline"
-    weight = -50
-    url = "/pipeline/"
-    identifier = "pipeline"
-[[menu.main]]
-    name = "Outputs"
-    weight = -45
-    url = "/outputs/"
-    identifier = "outputs"
-        [[menu.main]]
-            name = "Targets"
-            url = "/outputs/targets/"
-            weight = 1
-            identifier = "targets"
-            parent = "outputs"
-        [[menu.main]]
-            name = "TPPs"
-            url = "outputs/TPPs/"
-            weight = 2
-            identifier = "TCPs"
-            parent = "outputs"
-        [[menu.main]]
-            name = "TCPs"
-            url = "outputs/TPPs/"
-            weight = 3        
-            identifier = "TPPs"
-            parent = "outputs"
+#[[menu.main]]
+#    name = "Pipeline"
+#    weight = -50
+#    url = "/pipeline/"
+#    identifier = "pipeline"
+#[[menu.main]]
+#    name = "Outputs"
+#    weight = -45
+#    url = "/outputs/"
+#    identifier = "outputs"
 [[menu.main]]
     name = "Concept"
     weight = -40
