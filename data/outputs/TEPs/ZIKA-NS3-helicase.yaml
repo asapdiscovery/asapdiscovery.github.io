@@ -19,7 +19,7 @@ TEP:
   # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   EC: 3.6.4.13
   # Target nominator
-  nominator: Andre S. Godoy
+  nominator: Andre Schutzer Godoy
   # Lead investigator at Diamond
   investigator: Frank von Delft
   # Therapeutic area
@@ -27,14 +27,15 @@ TEP:
   # Disease relevance statement
   disease_relevance: NS3 encodes a helicase that is important for viral replication
   # List of authors
+  - Andre Schutzer Godoy
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
   - Nathalya Cristina de Moraes Roso Mesquita
   - Gabriela Dias Noske
-  - Andre Schutzer Godoy
   - Rafaela Sachetto Fernandes
   - Glaucius Oliva
   - Daren Fearon
+  - Lizbé Koekemoer
   - Charlie Tomlinson 
   - Ryan Lithgo  
   - Blake Balcomb
@@ -90,7 +91,7 @@ TEP:
         * Cell line: E. coli Rosetta 2 strain BL21(DE3)
         * Tags and additions: N-terminal, Thioredoxin, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
-          `MKHHHHHHPMSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLAGSGSGSENLYFQ*GAMLKKKQLTVLDLHPGAGKTRRVLPEIVREAIKKRLRTVILAPTRVVAAEMEEALRGLPVRYMTTAVNVTHSGTEIVDLMCHATFTSRLLQPIRVPNYNLNIMDEAHFTDPSSIAARGYISTRVEMGEAAAIFMTATPPGTRDAFPDSNSPIMDTEVEVPERAWSSGFDWVTDHSGKTVWFVPSVRNGNEIAACLTKAGKRVIQLSRKTFETEFQKTKNQEWDFVITTDISEMGANFKADRVIDSRRCLKPVILDGERVILAGPMPVTHASAAQRRGRIGRNPNKPGDEYMYGGGCAETDEGHAHWLEARMLLDNIYLQDGLIASLYRPEADKVAAIEGEFKLRTEQRKTFVELMKRGDLPVWLAYQVASAGITYTDRRWCFDGTTNNTIMEDSVPAEVWTKYGEKRVLKPRWMDARVCSDHAALKSFKEFAAGKR`
+          MKHHHHHHPMSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLAGSGSGSENLYFQ*GAMLKKKQLTVLDLHPGAGKTRRVLPEIVREAIKKRLRTVILAPTRVVAAEMEEALRGLPVRYMTTAVNVTHSGTEIVDLMCHATFTSRLLQPIRVPNYNLNIMDEAHFTDPSSIAARGYISTRVEMGEAAAIFMTATPPGTRDAFPDSNSPIMDTEVEVPERAWSSGFDWVTDHSGKTVWFVPSVRNGNEIAACLTKAGKRVIQLSRKTFETEFQKTKNQEWDFVITTDISEMGANFKADRVIDSRRCLKPVILDGERVILAGPMPVTHASAAQRRGRIGRNPNKPGDEYMYGGGCAETDEGHAHWLEARMLLDNIYLQDGLIASLYRPEADKVAAIEGEFKLRTEQRKTFVELMKRGDLPVWLAYQVASAGITYTDRRWCFDGTTNNTIMEDSVPAEVWTKYGEKRVLKPRWMDARVCSDHAALKSFKEFAAGKR`
   
     - name: Crystallographic fragment screening at Oxford/XChem
       description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.
@@ -104,7 +105,7 @@ TEP:
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
-        Coordinates, structure factors, and PanDDA event maps for the structures discussed are deposited in the Protein Data Bank.
+        
     
     
     
