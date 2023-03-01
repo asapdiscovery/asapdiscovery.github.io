@@ -25,17 +25,20 @@ TEP:
   # Disease relevance statement
   disease_relevance: 3C proteases is a clinically validated target
   # List of authors
+  - Lizbé Koekemoer
+  - Annette von Delft
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Lizbé Koekemoer
-  - Michael Fairhead
-  - Xiaomin Ni
-  - Daren Fearon
-  - Charlie Tomlinson
-  - Ryan Lithgo
   - Blake Balcomb
+  - Charlie Tomlinson
+  - Charline Giroud
+  - Daren Fearon
+  - Ryan Lithgo
   - Jasmine Aschenbrenner
+  - Michael Fairhead
+  - Oleg Fedorov
   - Peter Marples
+  - Xiaomin Ni
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
