@@ -33,11 +33,11 @@ TEP:
   - Charlie Tomlinson
   - Charline Giroud
   - Daren Fearon
-  - Ryan Lithgo
   - Jasmine Aschenbrenner
   - Michael Fairhead
   - Oleg Fedorov
   - Peter Marples
+  - Ryan Lithgo
   - Xiaomin Ni
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
@@ -79,7 +79,10 @@ TEP:
       projects: [Project 2]
       # Contributors / authors
       contributors:
-      - 
+      - Lizbé Koekemoer
+      - Charline Giroud
+      - Michael Fairhead
+      - Ryan Lithgo
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
