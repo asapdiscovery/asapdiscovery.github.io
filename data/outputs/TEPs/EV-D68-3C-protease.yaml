@@ -13,9 +13,9 @@ TEP:
     program: ASAPPNBTAE
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: NP_740535.1
-  # Uniprot ID: 
-  uniprot: 
-  # EC ID: 
+  # Uniprot ID:
+  uniprot: A0A059XIJ7
+  # EC ID: 3.4.22.69
   # Target nominator
   nominator: Alpha Lee
   # Lead investigator at Diamond
@@ -113,37 +113,13 @@ TEP:
         VVTTTGKVIGIHVGGNGAQGFAAMLLHSYFTDTQKHHHHHH`
     # Construct / plasmid resource
                
-    - name: Crystallographic fragment screening at Oxford/XChem
-      description: We performed X-ray crystallography screening at 
-        XChem/Diamond Light Source with a total of xx fragments, which yielded xx 
-        unique binders, including xx fragments identified in the active site.
-      date: 2023-02-24
-      type: xray-fragment-screen
+    - name: FRET activity assay
+    description: Fluorescence resonance energy transfer (FRET) assay used to measure peptide cleavage.
+      date: 2023-02-28
+      type: assay
       url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
-      protocol: >
-        Fragments were soaked into crystals as previously described
-        by adding dissolved compounds directly to the crystallisation drops using 
-        an Echo liquid handler (final concentration, 10% DMSO); drops were 
-        incubated for approximately 1 to 3 hours before mounting and flash-freezing
-        in liquid nitrogen. 
-        Data were collected at the I04-1 beamline at 100 K and 
-        automatically processed with Diamond Light Source's autoprocessing 
-        pipelines using XDS (9) and either 
-        [xia2](https://doi.org/10.1107/s0907444913015308) or 
-        [DIALS](https://doi.org/10.1107/s2059798317017235). 
-        Further analysis was performed with 
-        [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron 
-        density maps were generated with DIMPLE and ligand-binding events were 
-        identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
-        Ligands were modeled into PanDDA-calculated event maps using Coot, 
-        restraints were calculated with 
-        [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were 
-        refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
-        Coordinates, structure factors, and PanDDA event maps for the 
-        structures discussed are deposited in the Protein Data Bank.
-    - name: FRET activity assay
       protocol: >
         Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol ±0.5 mM DTT
         Incubation temperature: room temperature.
@@ -167,6 +143,12 @@ TEP:
           concentrations of testing inhibitor by using a four parameters 
           dose-response curve in Prism (v8.0) software.
     - name: Crystallization
+      description: Optimised conditions to reproduce crystals for fragment screening.
+      date: 2023-02-28
+      type: crystallization
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]
       protocol: >
         Plate format: SwissCI 3 lens
         Screen: 0.1M Tris (pH 8.14), 0.2M Ammonium acetate, 25% w/v PEG 3350
@@ -190,7 +172,7 @@ TEP:
         Morphology: typically thin rectangles with pointed ends. 
         Size:  ~100um in length and ~50um in width, depth of the crystals is ~10um,
           giving a glass shard appearance (see image below).
-    - name: Crystallographic fragment screening at Oxford/XChem
+     - name: Crystallographic fragment screening at Oxford/XChem
       description: We performed X-ray crystallography screening at 
             XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which 
             yielded 214 unique macrodomain-binders, including 192 fragments identified 
