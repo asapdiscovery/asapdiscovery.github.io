@@ -3,6 +3,7 @@ permalink: /pipeline/
 title: "Pipeline"
 description: "ASAP direct-acting antiviral discovery programs and research outputs"
 layout: pipeline
+robotsdisallow: true
 ---
 
 <!-- ASAP research outputs -->
