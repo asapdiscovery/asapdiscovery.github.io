@@ -1,6 +1,6 @@
 TEP:
   # Name of the TEP
-  name: Nsp3 macrodomain of SARS-CoV-2
+  name: SARS-CoV-2 nsp3 macrodomain
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: completed
   # ASAP-specific information
@@ -11,7 +11,8 @@ TEP:
     - SARS-CoV-2
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program: ASAPPNBTAE
+    program_code: ASAPPNBTAE
+    program_nickname: ASAP-SARS-COV-2-NSP3-MAC1 
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: QIT08255.1
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/

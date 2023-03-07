@@ -1,6 +1,6 @@
 TEP:
   # Name of the TEP
-  name: NS3 Helicase of Zika virus
+  name: Zika ns3 helicase
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: in-progress
   # ASAP-specific information
@@ -11,7 +11,8 @@ TEP:
     - Zika
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program: ASAPPWDRPT
+    program_code: ASAPPWDRPT
+    program_nickname: ASAP-ZIKA-NS3-HELICASE    
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: KF383119.1
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
@@ -48,8 +49,12 @@ TEP:
   # Scientific Background:
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
-    The Zika virus (ZIKV) has become a global public health threat since it was related to major neurological disorders in both infants and adults [[1] (https://doi.org/10.1016/S0140-6736(17)31450-2), [2] (https://doi.org/10.1016/S0140-6736(16)00562-6)]. 
-    ZIKV NS3 helicase (NS3hel) is a multifunctional enzyme involved in double-stranded RNA unwind and formation of viral replication machinery, being therefore critical for viral replication [[3] (doi: 10.1016/j.antiviral.2015.03.011)]. NS3hel is composed by three domains, with motifs typically associated to RNA binding and ATP hydrolysis [[4] (https://doi.org/10.1038/nsmb.3258)]. Both these activities seem to be essential for viral replication [[5] (https://doi.org/10.1093/nar/gkz650)]. Moreover, drug candidates targeting NS3hel interactions with other viral proteins, such as non-structural protein 4B, was proved to be an effective way of blocking all Dengue serotypes, leading to two clinical candidates [[6] (https://doi.org/10.1038/s41586-021-03990-6), [7] (https://doi.org/10.1126/scitranslmed.abb2)]. In this way, ZIKV NS3hel is an attractive drug target for the development of antivirals.
+    The Zika virus (ZIKV) has become a global public health threat since it was related to major neurological disorders in both infants and adults [[1](https://doi.org/10.1016/S0140-6736(17)31450-2), [2](https://doi.org/10.1016/S0140-6736(16)00562-6)]. 
+    ZIKV NS3 helicase (NS3hel) is a multifunctional enzyme involved in double-stranded RNA unwind and formation of viral replication machinery, being therefore critical for viral replication [[3](https://doi.org/10.1016/j.antiviral.2015.03.011)]. 
+    NS3hel is composed by three domains, with motifs typically associated to RNA binding and ATP hydrolysis [[4](https://doi.org/10.1038/nsmb.3258)]. 
+    Both these activities seem to be essential for viral replication [[5](https://doi.org/10.1093/nar/gkz650)]. 
+    Moreover, drug candidates targeting NS3hel interactions with other viral proteins, such as non-structural protein 4B, was proved to be an effective way of blocking all Dengue serotypes, leading to two clinical candidates [[6](https://doi.org/10.1038/s41586-021-03990-6), [7](https://doi.org/10.1126/scitranslmed.abb2)]. 
+    In this way, ZIKV NS3hel is an attractive drug target for the development of antivirals.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
