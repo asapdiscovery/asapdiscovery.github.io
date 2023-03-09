@@ -103,7 +103,7 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
-  url: http://localhost:1313/outputs/target-enabling-packages/#zika-ns3-helicase
+  url: /outputs/target-enabling-packages/#zika-ns3-helicase
 
 hit_to_lead:
   status: not-started
