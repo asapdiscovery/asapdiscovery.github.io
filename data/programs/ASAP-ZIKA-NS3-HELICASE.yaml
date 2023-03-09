@@ -3,16 +3,17 @@
 # NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: togaviridae
-  name: "Toga target"
-  target: Mpro
-  codename: ASAP-MAC-1
+  family: flaviviridae
+  name: "Zika NS3 helicase"
+  target: helicase
+  program_code: ASAPPWDRPT
+  program_nickname: ASAP-ZIKA-NS3-HELICASE
   viruses:
-    - SARS-CoV-2
-  img: "toga_virus.png"
+    - Zika
+  img: "zika_ns5b.png"
 DMS:
   # 'status' controls the status box rendered for this stage
-  status: in-progress
+  status: not-started
   # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
   #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
   products:
@@ -100,8 +101,10 @@ assay_cascade:
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  # TODO: Can we pull the status rom the TEP itself?
+  status: in-progress
+  # TODO: Can we auto-generate the URL from the program_code?
+  url: /outputs/target-enabling-packages/#zika-ns3-helicase
 
 hit_to_lead:
   status: not-started

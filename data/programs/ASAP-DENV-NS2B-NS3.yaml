@@ -1,17 +1,16 @@
 # This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
 # For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
+# NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
-  order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: coronaviridae
-  name: "SARS-CoV-2 / MERS-CoV Mpro (noncovalent)"
-  target: Mpro
-  codename: ASAP-MPRO-2
+  family: flaviviridae
+  name: "Dengue NS2B-NS3 protease"
+  target: NS2B-NS3
+  program_code: ASAPPOWITW
+  program_nickname: ASAP-DENV-NS2B-NS3 
   viruses:
-    - MERS-CoV
-    - SARS-CoV-2
-  img: "SARS-CoV-2 Mpro.png"
-  url: https://pdb101.rcsb.org/motm/242
+    - Dengue
+  img: "DENV-ns2b-ns3.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -51,18 +50,18 @@ DMS:
 TPP:
   status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-  anchor: ASAP-MPRO-2-TPP
+  anchor: ASAP-DENV-TPP
   content: |-
-    **Broad spectrum oral antiviral for SARS-, COVID-, and MERS-like coronavirus disease**
+    **Oral antiviral for Dengue Fever community use**
 
     (Working draft---not yet finalized)
 
     | Property | Minimum Essential | Ideal |
     | -------- | ----------------- | ----- |
-    | Drug product | oral | oral, IV with oral step down |
-    | Dosing regimen | TID | UID |
-    | Clinical efficacy | >=0.6 log10 drop in viral load, MERS-CoV and SARS-CoV-2; in animal model if no human disease | >= 1 log10 drop in viral load | 
-    | Transmission blocking | No | Yes |
+    | Drug product | oral, sub-lingual, or IV | oral |
+    | Treatment Population | Children and adults with dengue fever without warning signs | includes infants (under 2 years old) and adults over 65 with key co-morbidities | 
+    | Dosing regimen | QID | UID |
+    | Clinical efficacy | Efficacy in all dengue serotypes (1-4); Reduction of viral load and initial symptoms; Efficacy in primary and secondary dengue | Efficacy in all dengue serotypes (1-4); Prevents evolution to severe dengue and complications; Efficacy in primary and secondary dengue |
     | Bioavailbility / food effect | Predicted >= 30% / fed fasted <3x change | Predicted >= 50% / fed fasted no change |
     | Drug-drug interactions | No unmanageable risk in terms of solid state or PK interactions | No risks in terms of solid state or PK interactions |
     | Safety and tolerability | Few and manageable drug-related SAEs | No drug-related SAEs; minimal drug-related AEs that do not result in study exclusion | 
@@ -71,11 +70,12 @@ TPP:
 
 
 TCP:
-  status: completed
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
-  title: SARS-CoV-2 and MERS-CoV Mpro orally bioavailable antiviral
   content: |-
+    **Orally bioavailable inhibitor for SARS-CoV-2 and MERS-CoV**
+
     | Property | Target range (minimal) | Target range (ideal) |
     | -------- | ---------------------- | -------------------- |
     | MERS-CoV protease IC50 | < 20 nM | < 10 nM |
@@ -97,19 +97,19 @@ TCP:
     |        | No mutagenicity or teratogenicity risk | |
 
 assay_cascade:
-  status: completed
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 hit_to_lead:
-  status: completed
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 lead_optimization:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 preclinical:

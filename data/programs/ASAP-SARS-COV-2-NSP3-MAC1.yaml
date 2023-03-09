@@ -1,15 +1,16 @@
 # This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
 # For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
+# NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 / MERS-CoV Mpro (covalent)"
-  target: Mpro
-  codename: ASAP-MPRO-2
+  name: "SARS-CoV-2 nsp3 Mac1 macrodomain"
+  target: nsp3-mac1
+  program_code: ASAPPNBTAE
+  program_nickname: ASAP-SARS-COV-2-NSP3-MAC1
   viruses:
-    - MERS-CoV
     - SARS-CoV-2
-  img: "SARS-CoV-2 Mpro.png"
+  img: "mac1.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -18,16 +19,31 @@ DMS:
   products:
   # This paper is citeable
   - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp5)
-    date: 2023-01-31
+    date-completed: 2023-01-31
     url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
     preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
-    rppr: true
+    RPPR: [P1]
+    events:
+      - date: 2023-01-31
+        description: A preprint was posted to bioRxiv.
+      - date: 2023-01-31
+        description: A public website was posted.
+    links:
+      - action: Download simulation scripts
+        short: GitHub
+        description: Scripts for structure preparation, docking, and simulation of MEN1 mutants interacting with inhibitors
+        url: https://github.com/choderalab/men1
+      - action: Download the datasets
+        short: OSF
+        description: Data from free energy calculations, Folding@home trajectories, and Markov state models of MEN1 mutants
+        url: https://osf.io/uge5j/
   # NOTE: This paper is not citeable by the RPPR, but we will be able to cite it if we reformat it as an interactive website
   - name: Deep mutational scanning of SARS-CoV-2 Mpro
-    date: 2022-07-26
+    date-completed: 2022-07-26
     publication: https://elifesciences.org/articles/77433    
     doi: 10.7554/eLife.77433
-    rppr: false
+    RPPR: []
+  
 
 # TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
 # These URLS can be reported in the RPPR
@@ -54,17 +70,15 @@ TPP:
 
 
 TCP:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-  anchor: ASAP-MPRO-2-TCP
+  anchor: ASAP-SARS-COV-2-NSP3-MAC1-TCP
   content: |-
-    **Orally bioavailable inhibitor for SARS-CoV-2 and MERS-CoV**
+    **Orally bioavailable NSP3 Mac1 ADP ribosylation inhibitor for SARS-CoV-2**
 
     | Property | Target range (minimal) | Target range (ideal) |
     | -------- | ---------------------- | -------------------- |
-    | MERS-CoV protease IC50 | < 20 nM | < 10 nM |
-    | SARS-CoV-2 protease IC50 | < 20 nM | < 10 nM |
-    | viral replication CPE assay MERS-CoV EC50 | <= 100 nM | <= 100 nM |
+    | Mac1 ADP ribosylation inhibition IC50 | < 20 nM | < 10 nM |
     | viral replication CPE assay SARS-CoV-2 EC50 | <= 100 nM | <= 100 nM |
     | animal model efficacy | efficacy in >= 3 relevant cell models with projected 24 hours cover over EC90 from TID dosing | >= 0.5 log10 drop in viral load in mouse model |
     | PK-PD Cmin > EC90 (CPE) for 24 hours | projected human dosed TID | UID |    
@@ -72,7 +86,7 @@ TCP:
     | route of administration and frequency | oral, no PK enhancers, ITID | oral UID and IV dosing |
     | solubility | >= 100 µM | solubility compatible with IV infusion dosing |
     | half-live | >= 8 hours (human) estimated from rat | >= 12 hours |
-    | safety | No significant human protease activity >50% at 10 µM (Nanosyn 61 protease panel) | |
+    | safety | No significant human enzyme inhibition >50% at 10 µM | |
     |        | Only reversible and monitorable toxicities (NOAEL > 30x Cmax) | |
     |        | No significant drug-drug interactions: Clean in 5 CYP450 isoforms | |
     |        | No critical transporter inhibition (e.g. OATP) | |
@@ -81,15 +95,15 @@ TCP:
     |        | No mutagenicity or teratogenicity risk | |
 
 assay_cascade:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 hit_to_lead:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 lead_optimization:

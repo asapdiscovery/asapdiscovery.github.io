@@ -1,15 +1,18 @@
 # This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
 # For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
-# NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
+  order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: picornaviridae
-  name: "Enterovirus D68-3C"
+  family: coronaviridae
+  name: "SARS-CoV-2 / MERS-CoV Mpro protease"
   target: Mpro
-  codename: ASAP-MAC-1
+  program_code: ASAPPTGTTM
+  program_nickname: ASAP-COV-MPRO
   viruses:
-    - Enterovirus
-  img: "nucleocapsid.png"
+    - MERS-CoV
+    - SARS-CoV-2
+  img: "SARS-CoV-2 Mpro.png"
+  url: https://pdb101.rcsb.org/motm/242
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -47,7 +50,7 @@ DMS:
 # TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
 # These URLS can be reported in the RPPR
 TPP:
-  status: in-progress
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TPP
   content: |-
@@ -69,12 +72,11 @@ TPP:
 
 
 TCP:
-  status: not-started
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
+  title: SARS-CoV-2 and MERS-CoV Mpro orally bioavailable antiviral
   content: |-
-    **Orally bioavailable inhibitor for SARS-CoV-2 and MERS-CoV**
-
     | Property | Target range (minimal) | Target range (ideal) |
     | -------- | ---------------------- | -------------------- |
     | MERS-CoV protease IC50 | < 20 nM | < 10 nM |
@@ -96,19 +98,19 @@ TCP:
     |        | No mutagenicity or teratogenicity risk | |
 
 assay_cascade:
-  status: not-started
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: in-progress
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 hit_to_lead:
-  status: not-started
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 lead_optimization:
-  status: not-started
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 preclinical:

@@ -4,12 +4,13 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 Macrodomain 1"
-  target: Mpro
-  codename: ASAP-MAC-1
+  name: "SARS-CoV-2 nucleocapsid"
+  target: Nucleocapsid
+  program_code: ASAPPBBTAH
+  program_nickname: ASAP-SARS-COV-2-NPROTEIN
   viruses:
     - SARS-CoV-2
-  img: "mac1.png"
+  img: "nucleocapsid.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -69,7 +70,7 @@ TPP:
 
 
 TCP:
-  status: completed
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
   content: |-
@@ -96,12 +97,12 @@ TCP:
     |        | No mutagenicity or teratogenicity risk | |
 
 assay_cascade:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: in-progress
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  status: completed
+  url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot
 
 hit_to_lead:
   status: not-started
