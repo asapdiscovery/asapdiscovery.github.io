@@ -4,9 +4,10 @@ overview:
   order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 / MERS-CoV Mpro (noncovalent)"
+  name: "SARS-CoV-2 / MERS-CoV Mpro"
   target: Mpro
-  codename: ASAP-MPRO-2
+  program_code: ASAPPTGTTM
+  program_nickname: ASAP-COV-MPRO
   viruses:
     - MERS-CoV
     - SARS-CoV-2

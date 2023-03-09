@@ -52,7 +52,7 @@
   </div>
 </div>
 
-<!-- List all targets for each viral family -->
+<!-- List all programs for each viral family -->
 {{ range $viral_family := $viral_families }}
   <div class="row"> 
     <!-- Show the viral family -->
@@ -60,9 +60,9 @@
     <div class="col-1" style="display: flex;  align-items: center;">
       <img width="80" src="img/viruses/{{ $viral_family }}.png"></a>
     </div>
-    <!-- List the targets for this family -->
+    <!-- List the programs for this family -->
     <div class="col-11">  
-      {{ range $.Site.Data.targets }}
+      {{ range $.Site.Data.programs }}
         {{ if in .overview.family $viral_family }}
           <div class="container">
             <div class="row"> 
@@ -70,7 +70,7 @@
                 <b>{{ .overview.name }}</b>
               </div>
               <div class="col-8">
-                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
+                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/programs/{{ .img }}"></a> {{ end }}
 
                 <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
