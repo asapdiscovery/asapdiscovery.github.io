@@ -4,8 +4,8 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 nsp3 Mac1"
-  target: Mpro
+  name: "SARS-CoV-2 nsp3 Mac1 macrodomain"
+  target: nsp3-mac1
   program_code: ASAPPNBTAE
   program_nickname: ASAP-SARS-COV-2-NSP3-MAC1
   viruses:
@@ -70,17 +70,15 @@ TPP:
 
 
 TCP:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-  anchor: ASAP-MPRO-2-TCP
+  anchor: ASAP-SARS-COV-2-NSP3-MAC1-TCP
   content: |-
-    **Orally bioavailable inhibitor for SARS-CoV-2 and MERS-CoV**
+    **Orally bioavailable NSP3 Mac1 ADP ribosylation inhibitor for SARS-CoV-2**
 
     | Property | Target range (minimal) | Target range (ideal) |
     | -------- | ---------------------- | -------------------- |
-    | MERS-CoV protease IC50 | < 20 nM | < 10 nM |
-    | SARS-CoV-2 protease IC50 | < 20 nM | < 10 nM |
-    | viral replication CPE assay MERS-CoV EC50 | <= 100 nM | <= 100 nM |
+    | Mac1 ADP ribosylation inhibition IC50 | < 20 nM | < 10 nM |
     | viral replication CPE assay SARS-CoV-2 EC50 | <= 100 nM | <= 100 nM |
     | animal model efficacy | efficacy in >= 3 relevant cell models with projected 24 hours cover over EC90 from TID dosing | >= 0.5 log10 drop in viral load in mouse model |
     | PK-PD Cmin > EC90 (CPE) for 24 hours | projected human dosed TID | UID |    
@@ -88,7 +86,7 @@ TCP:
     | route of administration and frequency | oral, no PK enhancers, ITID | oral UID and IV dosing |
     | solubility | >= 100 µM | solubility compatible with IV infusion dosing |
     | half-live | >= 8 hours (human) estimated from rat | >= 12 hours |
-    | safety | No significant human protease activity >50% at 10 µM (Nanosyn 61 protease panel) | |
+    | safety | No significant human enzyme inhibition >50% at 10 µM | |
     |        | Only reversible and monitorable toxicities (NOAEL > 30x Cmax) | |
     |        | No significant drug-drug interactions: Clean in 5 CYP450 isoforms | |
     |        | No critical transporter inhibition (e.g. OATP) | |

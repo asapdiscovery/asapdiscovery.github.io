@@ -4,15 +4,16 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus A71-A2pro"
-  target: Mpro
-  codename: ASAP-MAC-1
+  name: "Enterovirus D68 2A protease"
+  target: 2Apro
+  program_code: ASAPPWAUTP
+  program_nickname: ASAP-EVD68-A2PRO
   viruses:
-    - SARS-CoV-2
-  img: "zika_ns5b.png"
+    - Enterovirus D68
+  img: "enterovirus-2A-protease.png"
 DMS:
   # 'status' controls the status box rendered for this stage
-  status: in-progress
+  status: not-started
   # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
   #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
   products:
@@ -49,27 +50,27 @@ DMS:
 TPP:
   status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-  anchor: ASAP-MPRO-2-TPP
+  anchor: ASAP-EVD68-TPP
   content: |-
-    **Broad spectrum oral antiviral for SARS-, COVID-, and MERS-like coronavirus disease**
+    **Oral antiviral for Enterovirus D68 community use**
 
     (Working draft---not yet finalized)
 
     | Property | Minimum Essential | Ideal |
     | -------- | ----------------- | ----- |
-    | Drug product | oral | oral, IV with oral step down |
-    | Dosing regimen | TID | UID |
-    | Clinical efficacy | >=0.6 log10 drop in viral load, MERS-CoV and SARS-CoV-2; in animal model if no human disease | >= 1 log10 drop in viral load | 
-    | Transmission blocking | No | Yes |
+    | Drug product | oral, sublingual, or IV | oral |
+    | Treatment Population | Adults with confirmed Entrovirus D68 infection | Adults and children, including infants (under 2 years old), with confirmed Enterovirus D68 infection |
+    | Dosing regimen | QID | UID |
+    | Clinical efficacy | Reduction of viral load and initial symptoms; Activity against clade B serotype | Review CNS access for reduction of encephalitis and AFD; Activity in clades A, B, C, D |
+    | Transmission blocking | To be reviewed |  |
     | Bioavailbility / food effect | Predicted >= 30% / fed fasted <3x change | Predicted >= 50% / fed fasted no change |
     | Drug-drug interactions | No unmanageable risk in terms of solid state or PK interactions | No risks in terms of solid state or PK interactions |
     | Safety and tolerability | Few and manageable drug-related SAEs | No drug-related SAEs; minimal drug-related AEs that do not result in study exclusion | 
     | Pregnancy | Not contra-indicated in second or third trimester | Not contra-indicated in second or third trimester, no suggestion of embryo-fetal toxicity in first trimester in preclinical species
     | Shelf life of product | >= 2 years | >= 5 years |
 
-
 TCP:
-  status: completed
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
   content: |-
@@ -96,7 +97,7 @@ TCP:
     |        | No mutagenicity or teratogenicity risk | |
 
 assay_cascade:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:

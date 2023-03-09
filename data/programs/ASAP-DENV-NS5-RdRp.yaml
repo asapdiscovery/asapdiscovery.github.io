@@ -3,13 +3,14 @@
 # NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: togaviridae
-  name: "Toga target"
-  target: Mpro
-  codename: ASAP-MAC-1
+  family: flaviviridae
+  name: "Dengue NS5 RdRp"
+  target: RdRp
+  program_code: ASAPPXXXXX
+  program_nickname: ASAP-DENGUE-NS5-RdRp
   viruses:
-    - SARS-CoV-2
-  img: "toga_virus.png"
+    - Dengue
+  img: "flavivirus-RdRp.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: not-started
@@ -69,7 +70,7 @@ TPP:
 
 
 TCP:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
   content: |-
@@ -100,8 +101,10 @@ assay_cascade:
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  # TODO: Can we pull the status rom the TEP itself?
+  status: in-progress
+  # TODO: Can we auto-generate the URL from the program_code?
+  url: /outputs/target-enabling-packages/#zika-ns3-helicase
 
 hit_to_lead:
   status: not-started

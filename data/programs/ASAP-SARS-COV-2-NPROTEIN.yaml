@@ -3,12 +3,13 @@
 # NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: picornaviridae
-  name: "Enterovirus A71-3C"
-  target: Mpro
-  codename: ASAP-MAC-1
+  family: coronaviridae
+  name: "SARS-CoV-2 nucleocapsid"
+  target: Nucleocapsid
+  program_code: ASAPPBBTAH
+  program_nickname: ASAP-SARS-COV-2-NPROTEIN
   viruses:
-    - Enterovirus
+    - SARS-CoV-2
   img: "nucleocapsid.png"
 DMS:
   # 'status' controls the status box rendered for this stage
@@ -47,7 +48,7 @@ DMS:
 # TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
 # These URLS can be reported in the RPPR
 TPP:
-  status: in-progress
+  status: completed
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TPP
   content: |-
@@ -100,8 +101,8 @@ assay_cascade:
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  status: completed
+  url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot
 
 hit_to_lead:
   status: not-started

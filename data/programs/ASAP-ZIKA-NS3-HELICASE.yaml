@@ -4,12 +4,12 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "Zika NS3"
-  target: Mpro
+  name: "Zika NS3 helicase"
+  target: helicase
   program_code: ASAPPWDRPT
   program_nickname: ASAP-ZIKA-NS3-HELICASE
   viruses:
-    - SARS-CoV-2
+    - Zika
   img: "zika_ns5b.png"
 DMS:
   # 'status' controls the status box rendered for this stage

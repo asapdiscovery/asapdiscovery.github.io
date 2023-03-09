@@ -3,13 +3,14 @@
 # NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: coronaviridae
-  name: "SARS-CoV-2 Nucleocapsid Protein"
-  target: Mpro
-  codename: ASAP-MAC-1
+  family: flaviviridae
+  name: "West Nile NS2B-NS3 protease"
+  target: NS2B-NS3
+  program_code: ASAPPNTTOW
+  program_nickname: ASAP-WNV-NS2B-NS3 
   viruses:
-    - SARS-CoV-2
-  img: "nucleocapsid.png"
+    - West Nile
+  img: "DENV-ns2b-ns3.png"
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -47,7 +48,7 @@ DMS:
 # TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
 # These URLS can be reported in the RPPR
 TPP:
-  status: completed
+  status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TPP
   content: |-
@@ -69,7 +70,7 @@ TPP:
 
 
 TCP:
-  status: in-progress
+  status: not-started
   url: https://dndi.org/diseases/covid-19/target-product-profile/
   anchor: ASAP-MPRO-2-TCP
   content: |-

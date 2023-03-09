@@ -10,7 +10,8 @@
 <div id="main">
 
 <!-- Define preferred order for viral families -->
-{{ $viral_families := slice "coronaviridae" "flaviviridae" "togaviridae" "picornaviridae" "influenzaviridae"}}
+<!-- {{ $viral_families := slice "coronaviridae" "flaviviridae" "togaviridae" "picornaviridae" "influenzaviridae"}} -->
+{{ $viral_families := slice "coronaviridae" "flaviviridae" "picornaviridae"}}
 
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
@@ -38,9 +39,9 @@
 
         <a href="#mutational-data"><img title="Deep mutational scanning data on the target" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
         <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
-        <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
-        <a href="#assay-cascades"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
         <a href="#target-enabling-packages"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+        <a href="#assay-cascades"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
+        <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
         <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
         <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
         <a href="#preclinical-programs"><img title="Preclinical (IND-enabling) studies" width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
@@ -70,7 +71,7 @@
                 <b>{{ .overview.name }}</b>
               </div>
               <div class="col-8">
-                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/programs/{{ .img }}"></a> {{ end }}
+                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
 
                 <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
@@ -78,9 +79,9 @@
 
                 {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .TPP }} <a href="#{{ .anchor }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .hit_to_lead }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .lead_optimization }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .preclinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
