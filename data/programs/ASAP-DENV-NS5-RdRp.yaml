@@ -6,8 +6,8 @@ overview:
   family: flaviviridae
   name: "Dengue NS5 RdRp"
   target: RdRp
-  program_code: ASAPPXXXXX
-  program_nickname: ASAP-DENGUE-NS5-RdRp
+  program_code: ASAPPIBTTB
+  program_nickname: ASAP-DENV-NS5-RDRP
   viruses:
     - Dengue
   img: "flavivirus-RdRp.png"
