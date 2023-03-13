@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-mar"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors*
-* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *TBD*
+* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community*
 
 **Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
