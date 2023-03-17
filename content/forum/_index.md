@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
-<a name="2023-mar"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors*
-* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community*
 
 **Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
@@ -50,6 +44,14 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+<a name="2023-march"></a>
+
+**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)*
+
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors* **[[Video]](https://www.youtube.com/watch?v=boaTNFr7k_8)**
+* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** 
 
 <a name="2023-feb"></a>
 
