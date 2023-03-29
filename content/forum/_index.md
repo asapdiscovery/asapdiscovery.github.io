@@ -51,7 +51,7 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors* **[[Video]](https://www.youtube.com/watch?v=boaTNFr7k_8)**
-* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** 
+* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** **[[Slides]](https://zenodo.org/record/7781958#.ZCRJa-zML0o)** 
 
 <a name="2023-feb"></a>
 
