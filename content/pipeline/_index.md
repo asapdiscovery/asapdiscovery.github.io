@@ -5,6 +5,18 @@ description: "ASAP direct-acting antiviral discovery programs and research outpu
 layout: pipeline
 robotsdisallow: true
 ---
+<!-- ASAP resources -->
+
+<a id="asap-resources"></a>
+## ASAP Resources
+ASAP maintains several community resources to help foster a global antiviral discovery pipeline:
+* Mutational fitness scans for [SARS-CoV-2](https://jbloomlab.github.io/SARS2-mut-fitness/)
+* Wetlab protocols at [protocols.io page](https://protocols.io/workspaces/asap-discovery)
+* ASAP talks and datasets at the [ASAP Zenodo Community](https://zenodo.org/communities/asapdrugdiscovery/?page=1&size=20)
+* ASAP plasmid resources are available through the [ASAP AddGene page](http://addgene.org/asap)
+* ASAP compounds are available through [Enamine](https://enamine.net/)
+* Recorded talks on the [ASAP YouTube](https://www.youtube.com/channel/UCJDt-ivduVKzjnK9XmCSlmQ) and [Open Antivirals YouTube](https://www.youtube.com/@AViDD-OSF) channels
+* The [Open Antiviral Discovery Forum](http://openantivirals.org) enables multiple AViDD Centers to rapidly share information and resources for antiviral drug discovery
 
 <!-- ASAP research outputs -->
 
@@ -54,6 +66,8 @@ ASAP is synthesizing and assaying new molecules against numerous antiviral targe
 <a id="publications"></a>
 #### Publications
 
+ASAP aims to publish preprints of all work to ensure our scientific advances are rapidly and openly available to all.
+
 [🔎 View all ASAP Publications](/outputs/publications)
 
 <!-- Deep Mutational Scanning (DMS) data -->
@@ -62,7 +76,7 @@ ASAP is synthesizing and assaying new molecules against numerous antiviral targe
 
 **Deep mutational scanning (DMS)** data helps identify mutations in the target that are functionally tolerated and could lead to resistance should these mutations abrogate binding of antivirals.
 ASAP is using multiple techniques to rapidly generate DMS data for all targets of interest in order to inform the discovery of resistance-robust direct-acting antivirals.
-ASAP is also pursuing *analysis of circulating variants* of SARS-CoV-2 and other viruses to identify functionally tolerated mutations to inform resistance-robust inhibitor discovery.
+ASAP is also pursuing **analysis of circulating variants** of SARS-CoV-2 and other viruses to identify functionally tolerated mutations to inform resistance-robust inhibitor discovery.
 
 <!-- {{< DMS >}} -->
 [🔎 View all ASAP target mutation data](/outputs/mutation-data)
@@ -155,13 +169,4 @@ Note that the [AViDD U19 grant](https://grants.nih.gov/grants/guide/rfa-files/RF
 ASAP aims to work with partners to seek New Drug Approvals (NDAs) and carry our antivirals to manufacture with the goal of globally accessible and affordable therapeutics.
 
 [🔎 View all ASAP New Drug Approvals (NDAs)](/outputs/new-drug-approvals)
-
-<!-- ASAP resources -->
-
-<a id="asap-resources"></a>
-### ASAP Resources:
-* Mutational fitness scans for [SARS-CoV-2](https://jbloomlab.github.io/SARS2-mut-fitness/)
-* [ASAP protocols.io page]()
-* [ASAP Zenodo Community]()
-* Plasmid resources: [ASAP AddGene page]()
 
