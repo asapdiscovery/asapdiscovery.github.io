@@ -15,7 +15,7 @@
 
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
-{{ $icon_width := "40" }}
+{{ $icon_width := "35" }}
 
 
 <div class="container">
@@ -31,6 +31,7 @@
         <h3>Discovery Program</h3>
       </div>
       <div class="col-8">
+        <a href="#molecular-target"><img title="Target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
         <a href="#targeting-opportunity"><img title="Target" width="{{ $icon_width }}" src="img/icons/target.png"></a>
 
         <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
@@ -73,6 +74,8 @@
               <div class="col-8">
                 {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
 
+                {{ with .targeting_opportunity }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+            
                 <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>

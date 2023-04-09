@@ -20,3 +20,4 @@ Icons are CC-BY from [The Noun Project](https://thenounproject.com/)
 * `TCP.png` : `noun-objectives-1392483` : objectives by Creative Mania from <a href="https://thenounproject.com/browse/icons/term/objectives/" target="_blank" title="objectives Icons">Noun Project</a>
 * `TPP.png` : `noun-pill-1056341` : Pill by Stephen Kelly from <a href="https://thenounproject.com/browse/icons/term/pill/" target="_blank" title="Pill Icons">Noun Project</a> 
 * `vertical-separator.png` : `noun-vertical-line-1729056` : Vertical Line by Lance B from <a href="https://thenounproject.com/browse/icons/term/vertical-line/" target="_blank" title="Vertical Line Icons">Noun Project</a>
+* `molecular-target.png` : `nount-disease-5624111` : Disease by Nadia from <a href="https://thenounproject.com/browse/icons/term/disease/" target="_blank" title="Disease Icons">Noun Project</a>
