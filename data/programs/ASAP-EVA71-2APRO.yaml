@@ -4,14 +4,19 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus D68 2A protease"
+  name: "Enterovirus A71 2A protease"
   target: 2Apro
-  program_code: ASAPPWAUTP
-  program_nickname: ASAP-EVD68-A2PRO
+  program_code: ASAPPTBOAM
+  program_nickname: ASAP-EVA71-2APRO
   viruses:
-    - Enterovirus D68
+    - Enterovirus A71
   img: "enterovirus-2A-protease.png"
+targeting_opportunity:
+  status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
+  events:
+    - date: 2023-03-22
+      description: Initial draft  
 DMS:
   # 'status' controls the status box rendered for this stage
   status: not-started
@@ -51,18 +56,18 @@ DMS:
 TPP:
   status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-  anchor: ASAP-EVD68-TPP
+  anchor: ASAP-EVA71-TPP
   content: |-
-    **Oral antiviral for Enterovirus D68 community use**
+    **Oral antiviral for Enterovirus A71 community use**
 
     (Working draft---not yet finalized)
 
     | Property | Minimum Essential | Ideal |
     | -------- | ----------------- | ----- |
-    | Drug product | oral, sublingual, or IV | oral |
-    | Treatment Population | Adults with confirmed Entrovirus D68 infection | Adults and children, including infants (under 2 years old), with confirmed Enterovirus D68 infection |
+    | Drug product | oral, sublingual, or IV | oral, is & iv essential for severe disease? |
+    | Treatment Population | Adults with confirmed Entrovirus A71 infection | Adults and children, including infants (under 2 years old), with confirmed Enterovirus A71 infection |
     | Dosing regimen | QID | UID |
-    | Clinical efficacy | Reduction of viral load and initial symptoms; Activity against clade B serotype | Review CNS access for reduction of encephalitis and AFD; Activity in clades A, B, C, D |
+    | Clinical efficacy | Reduction of viral load and initial symptoms | Review CNS access for reduction of encephalitis and AFD |
     | Transmission blocking | To be reviewed |  |
     | Bioavailbility / food effect | Predicted >= 30% / fed fasted <3x change | Predicted >= 50% / fed fasted no change |
     | Drug-drug interactions | No unmanageable risk in terms of solid state or PK interactions | No risks in terms of solid state or PK interactions |
