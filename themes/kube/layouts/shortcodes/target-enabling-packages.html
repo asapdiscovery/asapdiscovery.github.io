@@ -34,7 +34,8 @@
                 <td>
                     <!-- Crystallography construct -->
                     {{ $text := "Crystallography construct" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.crystallography_construct ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x88" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -50,7 +51,8 @@
                     <br>
                     <!-- Assay construct -->
                     {{ $text := "Assay construct" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.assay_construct ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x88" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -67,7 +69,8 @@
                 <td>
                     <!-- Biophysical assay -->
                     {{ $text := "Biophysical assay" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.biophysical_assay ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -83,7 +86,8 @@
                     <br>
                     <!-- Robust crystal -->
                     {{ $text := "Robust crystals" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.robust_crystal ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -99,7 +103,8 @@
                     <br>
                     <!-- Biochemical assay -->
                     {{ $text := "Biochemical assay" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.biochemical_assay ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -116,7 +121,8 @@
                 <td>
                     <!-- X-ray fragment screen -->
                     {{ $text := "X-ray fragment screen and structural analysis" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-in-progress.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.fragment_screen ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x180" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
@@ -133,7 +139,8 @@
                 <td>
                     <!-- Compound design and TEP evaluation -->
                     {{ $text := "Compound design and TEP validation" }}
-                    {{ $image := resources.GetMatch "images/icons/tep-stage-in-progress.png" }}
+                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.tep_evaluation ".png"}}
+                    {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x180" }}
                     {{ $image = $image.Filter (images.Text $text (dict
                     "color" "#ffffff"
