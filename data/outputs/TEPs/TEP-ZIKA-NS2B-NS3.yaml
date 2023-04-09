@@ -3,6 +3,14 @@ TEP:
   name: Zika NS2B-NS3 protease
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: in-progress
+  stages:
+    crystallography_construct: in-progress
+    assay_construct: in-progress
+    biophysical_assay: not-started
+    robust_crystal: not-started
+    biochemical_assay: not-started
+    fragment_screen: not-started
+    tep_evaluation: not-started
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
