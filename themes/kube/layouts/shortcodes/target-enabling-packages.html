@@ -1,3 +1,8 @@
+{{ $icon_width := 40 }}
+{{ $stage_width := 100 }}
+{{ $font := resources.GetRemote "https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Black.ttf" }}
+{{ $fontsize := 26 }}
+
 <!-- TODO: How should we sort the target data? -->
 {{ $TEP_index := 0 }}
 {{ range $.Site.Data.outputs.TEPs }}
@@ -19,7 +24,133 @@
         <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" .TEP.uniprot }}" > <span class="label error">  Uniprot: {{ .TEP.uniprot | markdownify }} </span> </a> &nbsp;
         <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" .TEP.EC }}" > <span class="label warning"> EC: {{ .TEP.EC | markdownify }} </span> </a> 
     </div>
+    <br>
 
+    <!-- TEP pipeline stage status -->
+    <!-- TODO: Simplify this with partials? -->   
+    <div class="row align-center">
+        <table class="unstyled">
+            <tr>
+                <td>
+                    <!-- Crystallography construct -->
+                    {{ $text := "Crystallography construct" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $image := $image.Resize "300x88" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 20
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                        <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                    <br>
+                    <!-- Assay construct -->
+                    {{ $text := "Assay construct" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $image := $image.Resize "300x88" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 20
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                        <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                </td>
+                <td>
+                    <!-- Biophysical assay -->
+                    {{ $text := "Biophysical assay" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $image := $image.Resize "300x55" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 10
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                      <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                    <br>
+                    <!-- Robust crystal -->
+                    {{ $text := "Robust crystals" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $image := $image.Resize "300x55" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 10
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                      <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                    <br>
+                    <!-- Biochemical assay -->
+                    {{ $text := "Biochemical assay" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-completed.png" }}
+                    {{ $image := $image.Resize "300x55" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 10
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                      <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                </td>
+                <td>
+                    <!-- X-ray fragment screen -->
+                    {{ $text := "X-ray fragment screen and structural analysis" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-in-progress.png" }}
+                    {{ $image := $image.Resize "300x180" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 60
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                      <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                </td>
+                <td>
+                    <!-- Compound design and TEP evaluation -->
+                    {{ $text := "Compound design and TEP validation" }}
+                    {{ $image := resources.GetMatch "images/icons/tep-stage-in-progress.png" }}
+                    {{ $image := $image.Resize "300x180" }}
+                    {{ $image = $image.Filter (images.Text $text (dict
+                    "color" "#ffffff"
+                    "size" $fontsize
+                    "linespacing" 2
+                    "x" 10
+                    "y" 60
+                    "font" $font
+                    ))}}
+                    {{ with $image }}
+                      <img title="{{ $text }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                </td>
+            </tr>
+            
+        </table>
+    </div>
     <br>
 
     <!-- 
@@ -53,8 +184,6 @@
     {{ $resource_index := 0 }}
     {{ range .TEP.resources }}
     {{ $resource_index = add $resource_index 1 }}
-
-    {{ $icon_width := 40 }}
 
     <div class="prettybox" data-component="prettybox">
         <div class="container">

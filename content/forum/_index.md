@@ -38,7 +38,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
-* TBD
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* 
 * TBD
 
 # Past Presentations
@@ -51,7 +52,7 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors* **[[Video]](https://www.youtube.com/watch?v=boaTNFr7k_8)**
-* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** 
+* **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** **[[Slides]](https://zenodo.org/record/7781958#.ZCRJa-zML0o)** 
 
 <a name="2023-feb"></a>
 
