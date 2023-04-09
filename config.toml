@@ -8,6 +8,9 @@ publishDir = "./public"
 pygmentsCodefences = true
 pygmentsStyle = "colorful"
 
+# Generate robots.txt
+enableRobotsTXT = "true"
+
 [Params]
   RSSLink = "/index.xml"
   author = "newpixcom" # add your company name
@@ -64,3 +67,4 @@ pygmentsStyle = "colorful"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+

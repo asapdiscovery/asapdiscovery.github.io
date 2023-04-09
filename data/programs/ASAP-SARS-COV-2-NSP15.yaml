@@ -1,0 +1,107 @@
+# This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
+# For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
+# NB : ALL VALUES COPIED FROM MPRO2 FOR DEV OF MOCKUP!
+overview:
+  # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
+  family: coronaviridae
+  name: "SARS-CoV-2 nsp15 endoribonuclease"
+  target: nsp15
+  program_code: ASAPPXXXXX
+  program_nickname: ASAP-SARS-COV-2-NSP15
+  viruses:
+    - SARS-CoV-2
+  img: "coronavirus-endoribonuclease.png"
+DMS:
+  # 'status' controls the status box rendered for this stage
+  status: completed
+  # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
+  #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
+  products:
+  # This paper is citeable
+  - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp5)
+    date-completed: 2023-01-31
+    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
+    preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
+    RPPR: [P1]
+    events:
+      - date: 2023-01-31
+        description: A preprint was posted to bioRxiv.
+      - date: 2023-01-31
+        description: A public website was posted.
+    links:
+      - action: Download simulation scripts
+        short: GitHub
+        description: Scripts for structure preparation, docking, and simulation of MEN1 mutants interacting with inhibitors
+        url: https://github.com/choderalab/men1
+      - action: Download the datasets
+        short: OSF
+        description: Data from free energy calculations, Folding@home trajectories, and Markov state models of MEN1 mutants
+        url: https://osf.io/uge5j/
+  # NOTE: This paper is not citeable by the RPPR, but we will be able to cite it if we reformat it as an interactive website
+  - name: Deep mutational scanning of SARS-CoV-2 Mpro
+    date-completed: 2022-07-26
+    publication: https://elifesciences.org/articles/77433    
+    doi: 10.7554/eLife.77433
+    RPPR: []
+  
+
+# TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
+# These URLS can be reported in the RPPR
+TPP:
+  status: completed
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  anchor: ASAP-MPRO-2-TPP
+  content: |-
+    **Broad spectrum oral antiviral for SARS-, COVID-, and MERS-like coronavirus disease**
+
+    (Working draft---not yet finalized)
+
+    | Property | Minimum Essential | Ideal |
+    | -------- | ----------------- | ----- |
+    | Drug product | oral | oral, IV with oral step down |
+    | Dosing regimen | TID | UID |
+    | Clinical efficacy | >=0.6 log10 drop in viral load, MERS-CoV and SARS-CoV-2; in animal model if no human disease | >= 1 log10 drop in viral load | 
+    | Transmission blocking | No | Yes |
+    | Bioavailbility / food effect | Predicted >= 30% / fed fasted <3x change | Predicted >= 50% / fed fasted no change |
+    | Drug-drug interactions | No unmanageable risk in terms of solid state or PK interactions | No risks in terms of solid state or PK interactions |
+    | Safety and tolerability | Few and manageable drug-related SAEs | No drug-related SAEs; minimal drug-related AEs that do not result in study exclusion | 
+    | Pregnancy | Not contra-indicated in second or third trimester | Not contra-indicated in second or third trimester, no suggestion of embryo-fetal toxicity in first trimester in preclinical species
+    | Shelf life of product | >= 2 years | >= 5 years |
+
+
+TCP:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+assay_cascade:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+TEP:
+  status: in-progress
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+hit_to_lead:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+lead_optimization:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+preclinical:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+IND:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+clinical:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
+NDA:
+  status: not-started
+  url: https://dndi.org/diseases/covid-19/target-product-profile/
+
