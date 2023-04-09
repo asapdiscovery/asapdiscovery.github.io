@@ -11,6 +11,7 @@ overview:
   viruses:
     - Zika
   img: "DENV-ns2b-ns3.png"
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

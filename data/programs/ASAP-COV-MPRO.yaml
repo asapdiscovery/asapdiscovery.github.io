@@ -12,7 +12,8 @@ overview:
     - MERS-CoV
     - SARS-CoV-2
   img: "SARS-CoV-2 Mpro.png"
-  url: https://pdb101.rcsb.org/motm/242
+  # Targeting opportunity URL
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
