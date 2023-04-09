@@ -1,0 +1,247 @@
+TEP:
+  # Name of the TEP
+  name: Enterovirus D68 3C protease
+  # Status is one of ['not-started', 'in-progress', 'completed']
+  status: in-progress
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: in-progress
+    tep_evaluation: in-progress  
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: coronaviridae
+    viruses: enterovirus D68
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program: ASAPPNBTAE
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: NP_740535.1
+  # Uniprot ID:
+  uniprot: A0A059XIJ7
+  # EC ID: 3.4.22.69
+  # Target nominator
+  nominator: Alpha Lee
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: 3C proteases are a clinically validated target
+  # List of authors
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Lizbé Koekemoer
+  - Annette von Delft
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Blake Balcomb
+  - Charlie Tomlinson
+  - Charline Giroud
+  - Daren Fearon
+  - Jasmine Aschenbrenner
+  - Michael Fairhead
+  - Oleg Fedorov
+  - Peter Marples
+  - Ryan Lithgo
+  - Xiaomin Ni
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The conserved 3C protease of enterovirus D68 is required to cleave the nonstructural region of the viral polyprotein.
+    This TEP aims to provide early tools for structure-based discovery of 3C protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause [acute flacid myelitis (AFM)](https://www.cdc.gov/acute-flaccid-myelitis/index.html), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via [CDC](https://www.cdc.gov/non-polio-enterovirus/about/ev-d68.html)).
+    Enterovirus 3C protease is required to cleave the nonstructural region of the viral polyprotein. 
+    3C also cleaves many host proteins to facilitate viral infection; thus, inhibition can reinstate the antiviral functions of some of these targets.
+    The protease has a typical chymotrypsin fold with a Cys-His-Glu catalytic triad.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    Here we have established a purification protocol for recombinant 3C 
+    protease from enterovirus D68 and established a robust crystallisation 
+    suitable for fragment screening. We have performed a substantial fragment 
+    screening campaign and identified many hits which were validated by 
+    biophysical assays established in this work. The ligands and assays 
+    established in this work will pave the way for future drug discovery 
+    endeavours targeting enterovirus D68 3C protease.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21
+      # Brief description of the plasmid
+      description:  This protein yielded highly reproducible crystals upon 
+        microseeding, which typically diffracted to 1.7 Å resolution. This crystal 
+        system was DMSO tolerant and therefore suitable for our subsequent fragment
+        soaking.
+      # Date it was provided
+      date: 2022-03-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Lizbé Koekemoer
+      - Charline Giroud
+      - Michael Fairhead
+      - Ryan Lithgo
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        For expression of protein used for crystallisation, the construct 
+        was transformed into the E. coli Rosetta strain BL21(DE3)-RR, and cells 
+        were grown at 37°C in TB medium supplemented with kanamycin (50 g/ml). 
+        After reaching an optical density at 600 nm of around 1, the temperature 
+        was lowered to 18°C before induction of protein expression overnight by 
+        adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM
+        Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% 
+        TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first 
+        purified by immobilized metal affinity chromatography (IMAC) using Ni-
+        Sepharose 6 FF resin (Cytive) the column was washed with binding buffer [10
+        mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] 
+        and target protein eluted using same buffer containing 500 mM imidazole. 
+        Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer 
+        consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM 
+        TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis
+        andd mass spec and then flash- frozen in liquid nitrogen, and stored at -
+        80°C until required.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta strain BL21(DE3)-RR
+        * Tags and additions: C-terminal, non-cleavable hexahistidine
+        * Construct protein sequence: ` MGPGFDFAQAIMKKNTVIARTEKGEFTMLGVYDRVAVIPTHASVGEIIYINDVETRVLDACALRDLTDTNLEITI
+        VKLDRNQKFRDIRHFLPRCEDDYNDAVLSVHTSKFPNMYIPVGQVTNYGFLNLGGTPTHRILMYNFPTRAGQCGG
+        VVTTTGKVIGIHVGGNGAQGFAAMLLHSYFTDTQKHHHHHH`
+    # Construct / plasmid resource               
+    - name: FRET activity assay
+      description: Fluorescence resonance energy transfer (FRET) assay used to measure peptide cleavage.
+      date: 2023-02-28
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: assay
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: |
+        Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol ±0.5 mM DTT
+
+        Incubation temperature: room temperature.
+
+        EV-D68 3C: protein stocks were stored at -80C and used as 2x solution 
+          (2 μM, 1 μM final) in assay buffer.
+
+        Substrate: Dabcyl-KEALFQGPPQFE-Edans (LifeTein, USA) was prepared as a 
+          stock solution at 5 mM in DMSO and used in the assay at 2x solution (40 μM,
+          20 μM final concentration) in assay buffer.
+
+        Assay plate: ProxiPlate-384 Plus, white 384-shallow well microplate, 
+          (Greiner bio-one Austria)
+
+        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
+        
+        Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic-module.
+          Ten μL of 2x protein solution were added to each well containing the 
+          compounds to be tested previously dispensed onto the plate and incubate 
+          with the enzyme for one hour at room temperature. Enzymatic reaction was 
+          initiated by the addition of 10 uL of 2x (40 μM) substrate solution using 
+          the plate reader injector. The fluorescence intensity at 490 nm was read 
+          every 30 seconds for 2 hours in kinetic mode (gain 500, 5 flashes, and 
+          focal height of 11.5 mm) by the plate reader.
+          The IC50 was calculated by plotting the initial velocity against various 
+          concentrations of testing inhibitor by using a four parameters 
+          dose-response curve in Prism (v8.0) software.
+
+          ![Example assay data](../img/outputs/EV-D68-3C-protease/dose_response.png)
+
+    - name: Crystallization
+      description: Optimised conditions to reproduce crystals for fragment screening.
+      date: 2023-02-28
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      # TODO: Create category for "crystallization conditions".
+      # TODO: Move this to protocols.io
+      type: xray-fragment-screen
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: |
+        Plate format: SwissCI 3 lens
+
+        Screen: 0.1M Tris (pH 8.14), 0.2M Ammonium acetate, 25% w/v PEG 3350
+
+        Reservoir volume: 30 μl
+
+        Protein needed: 32ul per full plate
+          EV D68 seeds (1:100,000), 16ul per full plate
+
+        Drop ratio:  1:2:0.5 
+
+        ratio of EVD68: 
+
+        reservoir solution: seeds / 100nl of 
+
+        EVD68: 200nl 
+
+        reservoir solution: 50nl seeds
+
+        Final volume: 350 nl
+
+        Incubation temperature: 20°C in Formulatrix
+
+        Imaging Schedule: first images after 12hrs and then following a Fibonacci 
+          sequence of days for further image collections.
+          Crystal typically form after ~12hrs, after 24hrs they have reached their 
+          maximum size and most of the precipitant has gone. Crystals typically 
+          either form on their own or in a small cluster of 4-6, giving a flower like
+          arrangement. However, upon mounting a gentle nudge dissociates the 
+          formation. 
+
+        Morphology: typically thin rectangles with pointed ends. 
+
+        Size:  ~100um in length and ~50um in width, depth of the crystals is ~10um,
+          giving a glass shard appearance (see image below).
+          ![EV D68 3C protease crystal shards](../img/outputs/EV-D68-3C-protease/crystal_shards.png)
+
+    - name: Crystallographic fragment screening at Oxford/XChem
+      description: We performed X-ray crystallography screening at 
+            XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which 
+            yielded 214 unique macrodomain-binders, including 192 fragments identified 
+            in the active site.
+      date: 2021-06-01
+      type: xray-fragment-screen
+      # TODO: link to the X-ray fragment screen
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: >
+        Fragments were soaked into crystals as previously described by 
+        adding dissolved compounds directly to the crystallisation drops using an 
+        Echo liquid handler (final concentration, 10% DMSO); drops were incubated 
+        for approximately 1 to 3 hours before mounting and flash-freezing in liquid
+        nitrogen.   
+        Data were collected at the I04-1 beamline at 100 K and 
+        automatically processed with Diamond Light Source's autoprocessing 
+        pipelines using XDS (9) and either 
+        [xia2](https://doi.org/10.1107/s0907444913015308) or 
+        [DIALS](https://doi.org/10.1107/s2059798317017235). 
+        Further analysis was performed with 
+        [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron 
+        density maps were generated with DIMPLE and ligand-binding events were 
+        identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, 
+        restraints were calculated with 
+        [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were 
+        refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 

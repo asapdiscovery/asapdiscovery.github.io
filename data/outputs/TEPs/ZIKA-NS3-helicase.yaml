@@ -3,6 +3,14 @@ TEP:
   name: Zika ns3 helicase
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: in-progress
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: in-progress
+    tep_evaluation: in-progress
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
@@ -71,7 +79,7 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
+      url:  
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -97,7 +105,7 @@ TEP:
       description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.
       date: 2022-06-01
       type: xray-fragment-screen
-      url: N/A
+      url: 
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
