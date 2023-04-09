@@ -11,6 +11,7 @@ overview:
   viruses:
     - Dengue
   img: "flavivirus-RdRp.png"
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Flavivirus-NS5-RdRp-Dengue-Zika-West-Nile-4df7478086d948d8adff6495e4c7c2f0?pvs=4
 DMS:
   # 'status' controls the status box rendered for this stage
   status: not-started

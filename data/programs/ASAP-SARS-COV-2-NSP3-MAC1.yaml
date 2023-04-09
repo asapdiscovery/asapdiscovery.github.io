@@ -11,6 +11,7 @@ overview:
   viruses:
     - SARS-CoV-2
   img: "mac1.png"
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Coronavirus-nsp3-Macrodomain-SARS-CoV-2-7ac57d8ba0e44758bd4350123e3524ae
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

@@ -11,6 +11,7 @@ overview:
   viruses:
     - SARS-CoV-2
   img: "nucleocapsid.png"
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

@@ -11,6 +11,7 @@ overview:
   viruses:
     - Zika
   img: "zika_ns5b.png"
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS3-helicase-Dengue-Zika-West-Nile-d3ef36412b7947418a8b782626860a65
 DMS:
   # 'status' controls the status box rendered for this stage
   status: not-started

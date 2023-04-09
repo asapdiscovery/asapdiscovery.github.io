@@ -11,6 +11,7 @@ overview:
   viruses:
     - Enterovirus A71
   img: "enterovirus-2A-protease.png"
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
 DMS:
   # 'status' controls the status box rendered for this stage
   status: not-started
