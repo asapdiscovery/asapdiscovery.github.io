@@ -11,6 +11,9 @@ overview:
   viruses:
     - SARS-CoV-2
   img: "coronavirus-endoribonuclease.png"
+targeting_opportunity:
+  status: not-started
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Coronavirus-nsp15-endoribonuclease-SARS-CoV-2-1973d0a3d65c4262aec8a98b034e02ed?pvs=4
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
