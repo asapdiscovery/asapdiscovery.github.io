@@ -9,7 +9,7 @@ robotsdisallow: true
 
 <a id="asap-resources"></a>
 ## ASAP Resources
-ASAP maintains several community resources to help foster a global antiviral discovery pipeline:
+ASAP maintains several open community resources to help foster a global antiviral discovery pipeline:
 * Mutational fitness scans for [SARS-CoV-2](https://jbloomlab.github.io/SARS2-mut-fitness/)
 * Wetlab protocols at [protocols.io page](https://protocols.io/workspaces/asap-discovery)
 * ASAP talks and datasets at the [ASAP Zenodo Community](https://zenodo.org/communities/asapdrugdiscovery/?page=1&size=20)
