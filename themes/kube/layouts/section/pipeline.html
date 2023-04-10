@@ -81,7 +81,7 @@
                 <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
 
                 {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .TPP }} <a href="#{{ .anchor }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                {{ with .TPP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
                 {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}

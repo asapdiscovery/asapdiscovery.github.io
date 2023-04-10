@@ -1,6 +1,6 @@
 TEP:
   # Name of the TEP
-  name: SARS-CoV-2 nsp3 macrodomain
+  name: SARS-CoV-2 nsp3 Mac1
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: completed
   stages:
