@@ -19,9 +19,6 @@ targeting_opportunity:
     - date: 2023-03-22
       description: Initial draft    
 
-DMS:
-  status: not-started
-
 TPP:
   status: completed
   title: "Enterovirus D68 Adult Oral/IV Community Use"
@@ -31,38 +28,6 @@ TPP:
     - date: 2023-03-01
       description: Initial draft
 
-TCP:
-  status: not-started
-
-assay_cascade:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
 TEP:
   status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-hit_to_lead:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-lead_optimization:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-preclinical:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-IND:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-clinical:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-NDA:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-

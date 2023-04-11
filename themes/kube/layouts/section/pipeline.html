@@ -55,6 +55,7 @@
 </div>
 
 <!-- List all programs for each viral family -->
+{{ $not_started := "not-started" }}
 {{ range $viral_family := $viral_families }}
   <div class="row"> 
     <!-- Show the viral family -->
@@ -80,17 +81,17 @@
                 <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                 <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
 
-                {{ with .DMS }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .TPP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .TEP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .assay_cascade }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .TCP }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .hit_to_lead }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .lead_optimization }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .preclinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .IND }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .clinical }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-                {{ with .NDA }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+                <a href="{{ .DMS.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .DMS.status               | default $not_started }}.png"></a>
+                <a href="{{ .TPP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status               | default $not_started }}.png"></a>
+                <a href="{{ .TEP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
+                <a href="{{ .assay_cascade.url }}">    <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
+                <a href="{{ .TCP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
+                <a href="{{ .hit_to_lead.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
+                <a href="{{ .lead_optimization.url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>
+                <a href="{{ .preclinical.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .preclinical.status       | default $not_started }}.png"></a>
+                <a href="{{ .IND.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .IND.status               | default $not_started }}.png"></a>
+                <a href="{{ .clinical.url }}">         <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .clinical.status          | default $not_started }}.png"></a>
+                <a href="{{ .NDA.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .NDA.status               | default $not_started }}.png"></a>
               </div>
             </div>
           </div>
