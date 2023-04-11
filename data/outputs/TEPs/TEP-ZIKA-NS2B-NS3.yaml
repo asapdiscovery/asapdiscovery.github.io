@@ -4,6 +4,14 @@ TEP:
   # Status is one of ['not-started', 'in-progress', 'completed']
   status: in-progress
   # ASAP-specific information
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: completed
+    tep_evaluation: completed
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
     viral_family: flaviviridae
@@ -18,7 +26,7 @@ TEP:
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
   uniprot: 64320
   # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
-  3.4.21.91
+  EC: 3.4.21.91
   # Target nominator
   nominator: Karla Kirkegaard
   # Lead investigator at Diamond
@@ -58,7 +66,7 @@ TEP:
     # Construct / plasmid resource
     - name: XX01ZVNS2B-c002
       # Brief description of the plasmid
-      description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB: 5GPI
+      description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -99,7 +107,3 @@ TEP:
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
-        
-    
-    
-    
