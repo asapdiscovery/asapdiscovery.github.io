@@ -1,20 +1,17 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus A71 3C protease"
+  name: "Enterovirus A71 3CD protease"
   target: 3CLpro
-  program_code: ASAPPTPOAP
-  program_nickname: ASAP-EVA71-3CLPRO
+  program_code: ASAPPWGUTW
+  program_nickname: ASAP-EVD68-3CDPRO
   viruses:
     - Enterovirus D68
   img: "enterovirus-3C-protease.png"
 
 targeting_opportunity:
-  status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
+  status: not-started
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3CD-protease-A71-D68-ec695f209d914ae5b0c2de42c694c232?pvs=4
 
 TPP:
   status: completed

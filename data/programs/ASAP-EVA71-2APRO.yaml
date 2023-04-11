@@ -1,17 +1,16 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus A71 3C protease"
-  target: 3CLpro
-  program_code: ASAPPTPOAP
-  program_nickname: ASAP-EVA71-3CLPRO
+  name: "Enterovirus A71 2A protease"
+  target: 2Apro
+  program_code: ASAPPTBOAM
+  program_nickname: ASAP-EVA71-2APRO
   viruses:
-    - Enterovirus D68
-  img: "enterovirus-3C-protease.png"
-
+    - Enterovirus A71
+  img: "enterovirus-2A-protease.png"
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
   events:
     - date: 2023-03-22
       description: Initial draft  
@@ -29,4 +28,5 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#enterovirus-a71-3cl-protease
+  url: /outputs/target-enabling-packages/#enterovirus-a71-2a-protease
+
