@@ -1,5 +1,3 @@
-# This file is organized in a manner that allows the top-level sections to be broken into separate YAML files later.
-# For example, `overview:` becomes `overview.yaml`, `DMS:` becomes `DMS.yaml`, etc.
 overview:
   order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
