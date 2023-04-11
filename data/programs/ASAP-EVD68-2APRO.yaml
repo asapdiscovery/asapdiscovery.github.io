@@ -1,20 +1,20 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus D68 3C protease"
-  target: 3CLpro
-  program_code: ASAPPSOTNS
-  program_nickname: ASAP-EVD68-3CLPRO
+  name: "Enterovirus D68 2A protease"
+  target: 2Apro
+  program_code: ASAPPWAUTP
+  program_nickname: ASAP-EVD68-2APRO
   viruses:
     - Enterovirus D68
-  img: "enterovirus-3C-protease.png"
+  img: "enterovirus-2A-protease.png"
 
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4  
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
   events:
     - date: 2023-03-22
-      description: Initial draft  
+      description: Initial draft    
 
 TPP:
   status: completed
@@ -28,4 +28,3 @@ TPP:
 TEP:
   status: in-progress
   url: https://dndi.org/diseases/covid-19/target-product-profile/
-
