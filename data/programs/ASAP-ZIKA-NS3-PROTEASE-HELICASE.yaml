@@ -4,17 +4,17 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "West Nile NS2B-NS3 protease"
+  name: "Zika NS2B-NS3 protease"
   target: NS2B-NS3
-  program_code: ASAPPNTTOW
-  program_nickname: ASAP-WNV-NS2B-NS3 
+  program_code: ASAPPPOEAD
+  program_nickname: ASAP-ZIKA-NS3-PROTEASE-HELICASE
   viruses:
-    - West Nile
+    - Zika
   img: "DENV-ns2b-ns3.png"
 
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
   events:
     - date: 2023-03-19
       description: Initial draft    
@@ -23,4 +23,4 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#west-nile-ns2b-ns3-protease
+  url: /outputs/target-enabling-packages/#zika-ns2b-ns3-protease-helicase

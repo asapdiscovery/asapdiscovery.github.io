@@ -4,28 +4,29 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 nucleocapsid"
-  target: Nucleocapsid
-  program_code: ASAPPBBTAH
-  program_nickname: ASAP-SARS-COV-2-NPROTEIN
+  name: "SARS-CoV-2 nsp15 endoribonuclease"
+  target: nsp15
+  program_code: ASAPPFWOJB
+  program_nickname: ASAP-SARS-COV-2-ENDORIBONUCLEASE
   viruses:
     - SARS-CoV-2
-  img: "nucleocapsid.png"
+  img: "coronavirus-endoribonuclease.png"
+
 targeting_opportunity:
-  status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
-  events:
-    - date: 2023-03-19
-      description: Initial draft  
+  status: not-started
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Coronavirus-nsp15-endoribonuclease-SARS-CoV-2-1973d0a3d65c4262aec8a98b034e02ed?pvs=4
+
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
-  url: https://jbloomlab.github.io/SARS2-mut-fitness/N.html
+  url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp15.html
+  # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
+  #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
   products:
   # This paper is citeable
-  - name: Analysis of circulating variants of SARS-CoV-2 N protein
+  - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp15)
     date-completed: 2023-01-31
-    url: https://jbloomlab.github.io/SARS2-mut-fitness/N.html
+    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp15.html
     preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
     RPPR: [P1]
     events:
@@ -57,3 +58,9 @@ TPP:
   events:
     - date: 2023-03-01
       description: Initial draft
+
+TEP:
+  # TODO: Can we pull the status rom the TEP itself?
+  status: in-progress
+  # TODO: Can we auto-generate the URL from the program_code?
+  url: /outputs/target-enabling-packages/#sars-cov-2-nsp15-endoribonuclease

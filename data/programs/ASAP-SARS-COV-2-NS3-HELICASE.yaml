@@ -4,28 +4,29 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 nsp15 endoribonuclease"
-  target: nsp15
-  program_code: ASAPPXXXXX
-  program_nickname: ASAP-SARS-COV-2-NSP15
+  name: "SARS-CoV-2 nsp13 helicase"
+  target: nsp13 helicase
+  program_code: ASAPPITANL
+  program_nickname: ASAP-SARS-COV-2-NS3-HELICASE
   viruses:
     - SARS-CoV-2
-  img: "coronavirus-endoribonuclease.png"
-
+  img: "nsp13.png"
 targeting_opportunity:
-  status: not-started
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Coronavirus-nsp15-endoribonuclease-SARS-CoV-2-1973d0a3d65c4262aec8a98b034e02ed?pvs=4
+  status: completed
+  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
+  events:
+    - date: 2023-03-19
+      description: Initial draft  
 
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
-  # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
-  #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
+  url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp13.html
   products:
   # This paper is citeable
-  - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp5)
+  - name: Analysis of circulating variants of SARS-CoV-2 nsp13 (helicase) protein
     date-completed: 2023-01-31
-    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
+    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp13.html
     preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
     RPPR: [P1]
     events:
@@ -58,29 +59,8 @@ TPP:
     - date: 2023-03-01
       description: Initial draft
 
-TCP:
-  status: not-started
-
-assay_cascade:
-  status: not-started
-
 TEP:
-  status: in-progress
-
-hit_to_lead:
-  status: not-started
-
-lead_optimization:
-  status: not-started
-
-preclinical:
-  status: not-started
-
-IND:
-  status: not-started
-
-clinical:
-  status: not-started
-
-NDA:
-  status: not-started
+  # TODO: Can we pull the status rom the TEP itself?
+  status: completed
+  # TODO: Can we auto-generate the URL from the program_code?
+  url: /outputs/target-enabling-packages/#sars-cov-2-nsp13-helicase

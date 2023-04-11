@@ -4,10 +4,10 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus A71 2A protease"
+  name: "Enterovirus A71 2A protease (intramolecular)"
   target: 2Apro
-  program_code: ASAPPTBOAM
-  program_nickname: ASAP-EVA71-2APRO
+  program_code: ASAPPMAANT
+  program_nickname: ASAP-EVA71-2APRO-INTRAMOL
   viruses:
     - Enterovirus A71
   img: "enterovirus-2A-protease.png"
@@ -31,5 +31,4 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#enterovirus-a71-2a-protease
-
+  url: /outputs/target-enabling-packages/#enterovirus-a71-2a-protease-intramolecular-cleavage

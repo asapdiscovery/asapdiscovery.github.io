@@ -21,8 +21,7 @@ targeting_opportunity:
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
-  # 'dates' section: can (optionally) list 'started', 'completed', and 'updated'
-  #   is used to determine whether to report these products in the RPPR or to highlight new data on the Pipeline diagram
+  url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
   products:
   # This paper is citeable
   - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp5)
@@ -76,30 +75,14 @@ assay_cascade:
   url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 TEP:
-  status: completed
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  # TODO: Can we pull the status rom the TEP itself?
+  status: in-progress
+  # TODO: Can we auto-generate the URL from the program_code?
+  url: /outputs/target-enabling-packages/#sars-cov-2-mpro
 
 hit_to_lead:
   status: completed
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
 
 lead_optimization:
   status: in-progress
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-preclinical:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-IND:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-clinical:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
-
-NDA:
-  status: not-started
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
 

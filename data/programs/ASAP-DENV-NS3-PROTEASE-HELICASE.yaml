@@ -4,19 +4,19 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "Dengue NS2B-NS3 protease"
+  name: "Dengue NS2B-NS3 protease-helicase"
   target: NS2B-NS3
-  program_code: ASAPPOWITW
-  program_nickname: ASAP-DENV-NS2B-NS3 
+  program_code: ASAPPOHAJC
+  program_nickname: ASAP-DENV-NS3-PROTEASE-HELICASE
   viruses:
     - Dengue serotype 2
   img: "DENV-ns2b-ns3.png"
 
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
   events:
-    - date: 2023-03-22
+    - date: 2023-03-21
       description: Initial draft
 
 TPP:
@@ -32,4 +32,4 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#denv-ns2b-ns3-protease
+  url: /outputs/target-enabling-packages/#denv-ns2b-ns3-protease-helicase
