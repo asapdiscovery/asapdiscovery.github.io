@@ -1,0 +1,156 @@
+TEP:
+  # Name of the TEP
+  name: SARS-CoV-2 nsp15
+  # Status is one of ['not-started', 'in-progress', 'completed']
+  status: completed
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: completed
+    tep_evaluation: completed
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: coronaviridae
+    viruses:
+    - SARS-CoV-2
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPFWOJB
+    program_nickname: ASAP-SARS-COV-2-NSP15  
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: 43740578
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: P0DTD1
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 2.7.7.48
+  # Target nominator
+  nominator: Andre Schutzer Godoy
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: NSP15 is a nidoviral RNA uridylate‐specific endoribonuclease (NendoU) from SARS-CoV-2, likely involved in innate immune evasion
+  list of authors:
+  - Andre Schutzer Godoy
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Tobias Krojer
+  - Aline M. Nakamura
+  - Alice Douangamath
+  - Gabriela D. Noske
+  - Victor O. Gawrijuk
+  - Rafaela S. Fernandes
+  - Glaucius Oliva
+  - Frank von Delft
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+      The non-structural protein 15 (NSP15, NendoU SARS-CoV-2) from severe acute respiratory syndrome 2 virus (SARS-CoV-2) is an uridylate-specific endoribonuclease, likely responsible in the viral immune evasion mechanism. This TEP provides a set of reagents for further interrogation of the molecular function of NSP15. We have established a purification protocol for the active protein for biochemical and structural studies. Moreover, we have crystallised the protein and performed a crystallographic fragment screen which yielded several hits. Data generated here will be used for the development of enzyme inhibitors that would illuminate the biological role of the gene product, and eventually point the way to new antiviral therapies. 
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    SARS-CoV-2 is the causative agent of COVID-19. NSP15 from SARS-CoV-2 is a nidoviral RNA uridylate-specific endoribonuclease that is part of the EndoU family [[1](https://doi.org/10.1002/pro.3873)]. Members of the family act on RNA processing being active on both single-stranded RNA and double-stranded (ds) RNA, cleaving 3’of urydilates thereby generating a 2’, 3’ cyclic phosphate and 5’-hydroxyl termini [[2](https://doi.org/10.4161/rna.8.2.15196)]. NSP15 domains are highly conserved amongst all nidoviruses and have not been identified in other RNA virus families, thus qualifying them as genetic markers of this order [[3](https://doi.org/10.1016/j.virusres.2006.01.017), [4](https://doi.org/10.1073/pnas.0403127101)]. Initially, NSP15 was thought to be required for the viral replication process, acting on viral RNA synthesis. However, studies have revealed that catalytic mutant viruses for NSP15 replicate as well as wild-type virus [[5](https://doi.org/10.1371/journal.ppat.1006195)]. Subsequently, it was revealed that NSP15 acts by limiting the sensing of viral RNA by the host, inhibiting the innate immune response, like type I interferon response in macrophages during viral infection by evading dsRNA sensors (such as MDA5, PKR and OAS/RNaseL) [[5](https://doi.org/10.1371/journal.ppat.1006195), [6](https://doi.org/10.1073/pnas.1618310114), [7](https://doi.org/10.1073/pnas.1921485117)]. The potential of NSP15 as a target for direct acting antiviral therapies has not been yet fully explored.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    We have produced active recombinant NSP15 protein that could be crystallised and used for structure determination at high resolution. We also obtained data from the NSP15 in complex with several fragments, which should provide valuable information for the development of a new enzyme inhibitor. Furthermore, we established a stable assay that can be used for further enzyme characterization.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: We have produced active recombinant NSP15 protein that could be crystallised and used for structure determination at high resolution.
+      # Brief description of the plasmid
+      description:  NSP15 is a346 amino acid long polypeptide of approximately 38 kDa that forms a three-domain protein.
+            These monomers are known to self-assemble as a barrel-shaped hexamer with D3 symmetry, totalling 228
+            kDa. For this project, we recombinantly purified NSP15 in its monomeric form. The mechanism involved in
+            hexamerisation in-vitro and in-situ is still under investigation. Although recombinant protein obtained was monomeric, crystal packing revealed that NSP15 formed the expected hexamer during crystallization. The active site of NSP15 [[2](https://doi.org/10.4161/rna.8.2.15196)] was found to be in complex with citrate, which is a component of the crystallisation condition.
+      # Date it was provided
+      date: 2020-11-01
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: assay
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url:  
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Andre Schutzer Godoy
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        SARS-COV2 cDNA sample was donated by Dr. Edilson Durigon (GenBank MT126808.1), generated using SCRIPT
+        One-Step RT-PCR (Cellco Biotec) and random hexamer primers. NSP15 coding sequence was amplified using
+        FastPol (Cellco Biotec) with primers 5’-CAGGGCGCCATGAGTTTAGAAAATGTGGCTTTTAATG-3’ and 5’-
+        GACCCGACGCGGTTATTGTAATTTTGGGTAAAATGTTTCTAC-3’, and inserted pET28-LIC (gently donated by Dr.
+        Arie Geerlof) using Ligation-Independent Cloning method (8). The final construct pET28-LIC -NSP15 included a
+        N-terminal 6xHis-tag followed by a TEV cleaving site and residues 1-346 of NSP15.
+        Buffers used are detailed hereafter:
+        Buffer A: 50 mM TRIS-HCl pH 8.0, 300 mM NaCl, 10% glycerol, 20 mM imidazole
+        Buffer B: 50 mM TRIS-HCl pH 8.0, 300 mM NaCl, 10% glycerol, 300 mM imidazole
+        Buffer C: 20 mM HEPES pH 7.5, 150 mM NaCl, 5% (v/v) glycerol, 0.5 mM TCEP
+        Transformed BL21(DE3) cells were growth in LB Lennox medium supplemented with kanamycin at 37oC until
+        DO600 = 1.0, and kept for 16h at 18oC after induction with 0.5 mM isopropyl β-D-1-thiogalactopyranoside.
+        Harvested cells were resuspended in Buffer A supplemented with 0.1 mg/mLlysozyme, 10 U of benzonase
+        (Cellco Biotec) and 1.0 mM DTT, and disrupted using sonication. Cleared lysate was passed through a HisTrap
+        HP 5 mL (GE Healthcare) equilibrated in Buffer A, and them protein was eluted with Buffer B. Excessive
+        imidazole was removed using a Sephadex XK 26/60 column (GE Healthcare) equilibrated with Buffer A. Sample
+        was incubated overnight at 8oC with 4 mM DTT and 0.1 mg/mL TEV protease, then passed through a HisTrap HP 5 mL equilibrated in Buffer A to remove non-cleaved protein and TEV protease. Final purification was
+        performed by size exclusion chromatography using a HiLoad Superdex 75 16/60 (GE Healthcare) equilibrated
+        with Buffer C. Purity was confirmed by SDS-PAGE 12%. Protein concentration was estimated using the
+        theoretical extinction coefficient at 280 nm of 33,140 M-1
+        .cm-1. The eluted protein was
+        pooled and concentrated to 3.4 mg/mL using a 30 kDa MWCO concentrator. 
+
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pET28-LIC
+        * Entry clone accession: MT126808.1
+        * Cell line: E. coli BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine tag Construct protein sequence
+        * (underlined sequence contains vector encoded His-tag and TEV protease cleavage site*):
+        * NendoUSARS-CoV-2
+        * (aa 1-346)
+        * Construct protein sequence: 
+          `MKHHHHHHPMSDYDIPTTENLYFQ*GAMSLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVN
+          VAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHISTIGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFR
+          NARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQSRNLQEFKPRSQMEIDFLELA
+          MDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSVIDLLLDDFV
+          EIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ`
+    
+
+    - name: Crystallographic fragment screening at Oxford/XChem
+      description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
+                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
+                    surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
+                    fragments were only bound to one protomer.
+      date: 2020-11-01
+      type: xray-fragment-screen
+      url: https://www.rcsb.org/groups/summary/entry/G_1002199
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity
+        assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30oC.
+        Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM
+        filters.
+        For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v)
+        PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20 oC by vapor diffusion in the presence of
+        10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment
+        library (final concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid
+        handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before
+        being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated
+        mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement
+        using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined
+        using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for
+        exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
+    
+    
+    
