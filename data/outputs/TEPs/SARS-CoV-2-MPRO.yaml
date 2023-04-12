@@ -153,19 +153,19 @@ TEP:
 
         Crystallographic fragment screening. 
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
-        Diamond Light Source (11), which variously combine XDS (12), xia2 (13), autoPROC (14) and DIALS (15), and
+        Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and
         select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
-        analysis was performed through XChemExplorer (16): for each dataset, the version of processed data was
-        selected by the default XChemExplorer score, and electron density maps were generated with Dimple (17).
-        Ligand-binding events were identified using PanDDA (18) (both the released version 0.2 and a pre-release
+        analysis was performed through XChemExplorer [[16](https://doi.org/10.1107%2FS2059798316020234)]: for each dataset, the version of processed data was
+        selected by the default XChemExplorer score, and electron density maps were generated with Dimple.
+        Ligand-binding events were identified using PanDDA [[18](https://doi.org/10.1038/ncomms15123)] (both the released version 0.2 and a pre-release
         development version (https://github.com/ConorFWild/pandda), and ligands were modelled into PanDDAcalculated
-        event maps using Coot (19). Restraints were calculated with ACEDRG (20) or GRADE (21),
-        structures were refined with Refmac (22) and Buster (23).
+        event maps using Coot [[19](https://doi.org/10.1107/s0907444910007493)]. Restraints were calculated with ACEDRG [[20](https://doi.org/10.1107%2FS2059798317000067)] or GRADE,
+        structures were refined with Refmac [[22](https://doi.org/10.1107/s0907444911001314)] and Buster.
             
         Fragments were soaked into crystals by adding dissolved compound directly to the crystallisation drops. The
-        following libraries were screened: the DSipoised library (Enamine), a version of the poised library (24); a
-        version of the MiniFrags library (25) assembled in-house; the FragLites library (26); a library of shape-diverse
-        3D fragments (“York3D”) (27); heterocyclic electrophiles (28); and the SpotFinder library. All fragments were    
+        following libraries were screened: the DSipoised library (Enamine), a version of the poised library [[24](https://doi.org/10.1039/C5SC03115J)]; a
+        version of the MiniFrags library [[25](https://doi.org/10.1016/j.drudis.2019.03.009)] assembled in-house; the FragLites library; a library of shape-diverse
+        3D fragments (“York3D”) [[27](https://doi.org/10.1002/chem.202001123)]; heterocyclic electrophiles [[28](http://xlink.rsc.org/?DOI=c8md00327k)]; and the SpotFinder library. All fragments were    
         in 100% DMSO at varying stock concentrations, detailed at https://www.diamond.ac.uk/Instruments/Mx/
         Fragment-Screening/Fragment-Libraries.html). In brief, 55 nl of fragment stock solutions in DMSO (DSIpoised,
         FragLite, PepLites, York 3D, Covalent Heterocylces and SpotFinder all at 500 mM, MiniFrags at 1 M
