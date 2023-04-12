@@ -1,0 +1,206 @@
+TEP:
+  # Name of the TEP
+  name: SARS-CoV-2 Mpro
+  # Status is one of ['not-started', 'in-progress', 'completed']
+  status: in-progress
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: completed
+    tep_evaluation: in-progress
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: coronaviridae
+    viruses:
+    - SARS-CoV-2
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPTGTTM
+    program_nickname: SAP-SARS-COV-2-MPRO
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: 43740578
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: P0C6U8
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.22.69
+  # Target nominator
+  nominator: Martin Walsh
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: The SARS-Cov-2 main protease (Mpro) is responsible for viral polyprotein processing and therefore a therapeutic target.
+  list of authors:
+  - Alice Douangamath
+  - Daren Fearon
+  - Paul Gehrtz
+  - Petra Lukacik
+  - C. David Owen
+  - Efrat Resnick
+  - Claire Strain-Damerell
+  - Anthony Aimon
+  - Péter Ábrányi-Balogh
+  - José Brandão-Neto
+  - Anna Carbery
+  - Gemma Davison
+  - Alexandre Dias
+  - Thomas D. Downes
+  - Louise Dunnett
+  - James D. Firth
+  - S. Paul Jones
+  - Aaron Keeley
+  - György M. Keserü
+  - Hanna F. Klein
+  - Mathew P. Martin
+  - Martin E. M. Noble
+  - Peter O’Brien
+  - Ailsa Powell
+  - Rambabu N. Reddi
+  - Rachael Skyner
+  - Matthew Snee
+  - Tika R. Malla
+  - Anthony Tumber
+  - Lennart Brewitz
+  - Michael J. Waring
+  - Christopher Schofield
+  - John D. Chodera
+  - Alpha Lee
+  - Nir London
+  - Martin A. Walsh
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The COVID-19 outbreak of 2020 caused more than one million fatalities so far, it led to a world-wide disruption of public life and triggered economic upheaval. The disease is triggered by SARS-CoV-2, a coronavirus for which there are currently no effective therapeutics available. The SARS-CoV-2 main protease (Mpro) is essential for viral replication and therefore an attractive target to stop the virus. This TEP includes crystal structures of ligand-free Mpro and numerous protein-ligand complexes which are the result of an extensive crystallographic fragment screen. Moreover, it contains information about different enzymatic and viral replication assays for orthogonal validation of small molecule inhibitors in order determine structure-activity relationships. Further hit-to-lead progression of the screening hits was facilitated by the COVID Moonshot consortium and this resulted in several lead series with sub-micromolar potencies.  All data for over 1200 synthesised compounds are fully open and constitute a unique resource, not only for this target, but for improving methodology of fragment-to-hit and hit-to-lead progression.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    The emergence of COVID-19 has caused a global pandemic of unexpected scale. The disease is caused by the SARS-Cov-2 virus [[1](https://doi.org/10.1016%2FS1473-3099(20)30144-4), [2](https://doi.org/10.1038/s41586-020-2008-3), [3](https://doi.org/10.1056/nejmoa2001017)] for which no approved drugs exist or are in the pipeline. This disease has so far claimed more than 1.2 million lives world-wide (November 2020, https://covid19.who.int), despite numerous regional lockdowns in order to stop the spread of the virus. However, despite the fact that SARS-CoV-2 is already the third zoonotic coronavirus outbreak after the emergence of SARS-CoV-1 in 2002 and the Middle East Respiratory Syndrome (MERS-CoV) in 2012 [[4](https://pubmed.ncbi.nlm.nih.gov/23078800/), [5](https://doi.org/10.1016/s0140-6736(03)13967-0), [6](https://doi.org/10.1056/nejmoa1211721)], there is a notable lack of antiviral treatment options. SARS-CoV-2 is a large enveloped, positive-sense, single-stranded RNA Betacoronavirus from the order of nidoviruses. Its RNA encodes two open reading frames that, through ribosome frame-shifting, generates two polyproteins pp1a and pp1ab [[7](https://doi.org/10.1093%2Fnar%2F18.7.1825)]. The genome contains a large replicase gene encompassing nonstructural proteins (Nsps), followed by structural and accessory genes. The polyproteins are processed by two viral cysteine proteases: a papain-like protease (PLpro) which cleaves three sites, releasing non-structural proteins nsp1-3 and a 3C-like protease, also referred to as the main protease (Mpro), that cleaves at 11 sites to release non-structural proteins (nsp4-16). These non-structural proteins form the replicase complex responsible for replication and transcription of the viral genome and have led to Mpro and PLPro being the primary targets for antiviral drug development [[8](https://doi.org/10.1111/febs.12936)].
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    This TEP provides a comprehensive sampling of the binding properties of the active site of SARS-Cov-2
+    main protease by small molecule fragment molecules. Together with the established enzymatic assays, it
+    forms the bases for rational, structure-based drug development. The usefulness of the data and protocols
+    presented in this TEP have been demonstrated by the [COVID Moonshot consortium](https://covid.postera.ai/covid) successfully
+    developing sub-micromolar binders, that are now in lead optimisation.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: Protein expression
+      # Brief description of the plasmid
+      description:  Mpro from SARS-Cov-2 was cloned into pGEX-6P-1 for heterologous protein expression in Escherichia coli.
+            The protein was purified by Ni-affinity chromatography, followed by HRV 3C protease treatment which
+            yielded native N- and C-termini. HRV 3C protease was removed by reverse Ni-affinity chromatography,
+            followed by a gel filtration step. The purified protein appears as a dimer in size-exclusion chromatography.
+      # Date it was provided
+      date: TBD # TODO
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url:  
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+        -
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        The expression clone of Mpro (Accession: YP_009725301, Protein Region: S1-Q306) consists of a synthetic
+        gene in pGEX-6P-1 expression plasmid containing N-terminal GST and C-terminal 3C PROTEASE and 6xHIS
+        tags. After transformation into BL21(DE3)-R3-pRARE2, expression was performed in Auto Induction Medium
+        supplemented with glycerol and 100 μg/ml Carbenicillin. The cultures were grown at 37 °C, 200 rpm for 5 h
+        before switching to 18 °C, 200 rpm for a further 10 h. The cells were harvested by centrifugation and stored
+        at -80 °C. Cell pellets were resuspended in buffer containing 50 mM Tris pH 8, 300 mM NaCl, 10 mM
+        Imidazole and 0.03 μg/ml Benzonase before disrupting with a highpressure homogeniser (3 passes, 30 kpsi, 4
+        °C). The lysate was clarified by centrifugation at 50,000 × g and the supernatant applied to a Nickel-NTA
+        gravity column and washed with buffer containing 50 mM Tris pH 8, 300 mM NaCl and 25 mM imidazole pH
+        8. The protein was eluted using a gradient of 25–500 mM imidazole. N-terminal His-tagged HRV 3 C Protease
+        was added to the eluted protein at 1:10 w/w ratio. The mixture was dialysed overnight at 4 °C against 50 mM
+        Tris pH 8, 300 mM NaCl, 1 mM TCEP, after which the HRV 3 C protease and other impurities were removed
+        from the cleaved target protein by reverse Nickel-NTA. The relevant fractions were concentrated and applied
+        to an S200 16/60 gel filtration column equilibrated in 20 mM HEPES pH 7.5, 50 mM NaCl buffer. The protein
+        was concentrated to 30 mg/ml using a 10 kDa MWCO centrifugal filter device.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+    - name: Crystallographic fragment screening at Oxford/XChem
+      description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
+                    opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
+                    screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
+                    a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This
+                    resulted in determination of 91 protein-fragment structures.
+      date: TBD
+      type: xray-fragment-screen
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Crystallization and Structure determination.
+        Protein was thawed and diluted to 5 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. The sample was
+        centrifuged at 100 000 g for 15 minutes to remove aggregates. MPRO crystals were obtained by mixing 150nL
+        of protein in with 300 nL of reservoir solution containing 0.1 M MES pH 6.5, 15% PEG6K, 5% DMSO and 50nL
+        seed stock. Crystals were grown using the sitting drop vapor diffusion method at 20°C and appeared within
+        24 hours.
+
+
+        Crystallographic fragment screening. 
+        Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
+        Diamond Light Source (11), which variously combine XDS (12), xia2 (13), autoPROC (14) and DIALS (15), and
+        select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
+        analysis was performed through XChemExplorer (16): for each dataset, the version of processed data was
+        selected by the default XChemExplorer score, and electron density maps were generated with Dimple (17).
+        Ligand-binding events were identified using PanDDA (18) (both the released version 0.2 and a pre-release
+        development version (https://github.com/ConorFWild/pandda), and ligands were modelled into PanDDAcalculated
+        event maps using Coot (19). Restraints were calculated with ACEDRG (20) or GRADE (21),
+        structures were refined with Refmac (22) and Buster (23).
+            
+        Fragments were soaked into crystals by adding dissolved compound directly to the crystallisation drops. The
+        following libraries were screened: the DSipoised library (Enamine), a version of the poised library (24); a
+        version of the MiniFrags library (25) assembled in-house; the FragLites library (26); a library of shape-diverse
+        3D fragments (“York3D”) (27); heterocyclic electrophiles (28); and the SpotFinder library. All fragments were    
+        in 100% DMSO at varying stock concentrations, detailed at https://www.diamond.ac.uk/Instruments/Mx/
+        Fragment-Screening/Fragment-Libraries.html). In brief, 55 nl of fragment stock solutions in DMSO (DSIpoised,
+        FragLite, PepLites, York 3D, Covalent Heterocylces and SpotFinder all at 500 mM, MiniFrags at 1 M
+        and Cysteine covalent library at 20 mM) were transferred directly to 500 nl crystallisation drops using an
+        ECHO liquid handler giving a final compound concentration of 2–100 mM and DMSO concentration of 10%.
+        Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
+        without the addition of further cryoprotectant.
+
+
+        FRET-based proteolytic assay.
+        Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
+        Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. Mpro is pre-incubated for 15 minutes at
+        room temperature with the inhibitor compounds before the substrate is added to initiate the reaction.
+        Protease reaction was measured continuously in a BMG Pherastar FS with a 480/520 ex/em filter set. The
+        final reaction concentrations are 20 mM HEPES pH 7.3, 1 mM TCEP, 50 mM NaCl, 0.01% Tween-20, 10%
+        glycerol, 5 nM Mpro, 375 nM fluorogenic peptide substrate ([5-FAM]-AVLQSGFR-[Lys(Dabcyl)]-K-amide) in 20
+        μL. All data is directly uploaded to the Moonshot vault on the Collaborative Drug Discovery Inc. (CDD)
+        website for data analysis. The readouts are converted to % inhibition and the Levenberg–Marquardt
+        algorithm is used to fit a Hill equation to dose-response data constrained with minimum value = 0.0 and
+        maximum value = 100 to calculate IC50 values.
+
+
+        RapidFire Mass Spectrometry assay.
+        Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
+        Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. A 15 μM enzyme stock solution is
+        prepared in 20 mM HEPES, pH 7.5 and 300 mM NaCl, and subsequently diluted to a working solution of 300
+        nM Mpro in assay buffer (20 mM HEPES, pH 7.5 and 50 mM NaCl). Mpro is pre-incubated for 15 minutes at
+        room temperature with the inhibitor compounds before the addition of substrate to initiate the reaction. The
+        final reaction concentrations are 20 mM HEPES pH 7.5, 50 mM NaCl, 150 nM Mpro and 2 μM substrate
+        (TSAVLQSGFRK-NH2) in 50 μL. The reaction is incubated for 10 min at room temperature before quenching
+        with 10% formic acid. The reactions are analysed with MS using RapidFire (RF) 365 high-throughput
+        sampling robot (Agilent) connected to an iFunnel Agilent 6550 accurate mass quadrupole time-of-flight (QTOF)
+        mass spectrometer using electrospray. RapidFire integrator software (Agilent) was used to extract the
+        m/z (+1) charge states of both the substrate (1191.67 Da) and cleaved N-terminal product TSAVLQ (617.34
+        Da) from the total ion chromatogram data which is used to calculate the percentage inhibition. All data is
+        directly uploaded to the Moonshot vault for data analysis. The readouts are converted to % inhibition and
+        the Levenberg–Marquardt algorithm is used to fit a Hill equation to dose-response data constrained with
+        minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
