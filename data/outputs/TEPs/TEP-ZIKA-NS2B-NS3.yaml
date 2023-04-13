@@ -1,0 +1,109 @@
+TEP:
+  # Name of the TEP
+  name: Zika NS2B-NS3 protease
+  # Status is one of ['not-started', 'in-progress', 'completed']
+  status: in-progress
+  # ASAP-specific information
+  stages:
+    crystallography_construct: completed
+    assay_construct: completed
+    biophysical_assay: completed
+    robust_crystal: completed
+    biochemical_assay: completed
+    fragment_screen: completed
+    tep_evaluation: completed
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: flaviviridae
+    viruses:
+    - Zika
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPADTOT
+    program_nickname: ASAP-ZIKA-NS2B-NS3 (protease only)
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: 7751225
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: 64320
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.21.91
+  # Target nominator
+  nominator: Karla Kirkegaard
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: NS3 encodes protease that is important for processing the viral polyprotein 
+  list of authors:
+  - Lizbé Koekemoer
+  - Michael Fairhead
+  - Xiaomin Ni
+  - Blake Balcomb
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Daren Fearon
+  - Andre de Godoy
+  - Charlie Tomlinson 
+  - Ryan Lithgo  
+  - Jasmine Aschenbrenner
+  - Peter Marples
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The NS3 protease from Zika virus is expressed with the NS2B cofactor needed for activity. This TEP provides early tools to develop NS3 protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    The Zika virus (ZIKV) has become a global public health threat since it was related to major neurological disorders in both infants and adults [[1](https://doi.org/10.1016/S0140-6736(17)31450-2), [2](https://doi.org/10.1016/S0140-6736(16)00562-6)]. 
+    TO WRITE
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    Here we have established a purification protocol for recombinant NS2b-NS3 protease from Zika viruses and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: XX01ZVNS2B-c002
+      # Brief description of the plasmid
+      description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        TO WRITE
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pET_trx/LIC-ZIKVNS3hMR766
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, Thioredoxin, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
+          NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
+    - name: Crystallographic fragment screening at Oxford/XChem
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of XX fragments, which yielded XX unique binders.
+      date: XX
+      type: xray-fragment-screen
+      url: N/A
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        ZIKV NS2B3 was concentrated to a final concentration of 15 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 2000, 0.2 M Ammonium sulphate and 0.1 M acetate buffer, pH 4.8 (Molecular Dimensions). Fragments were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, XX% DMSO); drops were incubated for approximately XX hours before mounting and flash-freezing in liquid nitrogen. 
+        Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
+        Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
