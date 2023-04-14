@@ -35,10 +35,9 @@ TEP:
   therapeutic_area: Infectious diseases
   # Disease relevance statement
   disease_relevance: NSP15 is a nidoviral RNA uridylate‐specific endoribonuclease (NendoU) from SARS-CoV-2, likely involved in innate immune evasion
-  list of authors:
-  - Andre Schutzer Godoy
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
+  - Andre Schutzer Godoy
   - Tobias Krojer
   - Aline M. Nakamura
   - Alice Douangamath

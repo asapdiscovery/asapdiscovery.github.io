@@ -31,14 +31,13 @@ TEP:
   # Therapeutic area
   therapeutic_area: Infectious diseases
   # Disease relevance statement
-  disease_relevance: 3C proteases are a clinically validated target
+  disease_relevance: 3C proteases are a clinically validated target.
   # List of authors
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
   - Lizbé Koekemoer
   - Annette von Delft
-  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
-  contributors:
   - Blake Balcomb
   - Charlie Tomlinson
   - Charline Giroud
@@ -49,6 +48,7 @@ TEP:
   - Peter Marples
   - Ryan Lithgo
   - Xiaomin Ni
+  fragscreen_pdb_group_decomposition: N/A
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
