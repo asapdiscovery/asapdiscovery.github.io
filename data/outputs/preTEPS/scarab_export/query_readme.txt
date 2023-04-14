@@ -1,0 +1,1 @@
+Query is saved in ASAP Scarab. Location path: Users/lkoekemoer/Queries/TEP data. Query: TEP data
