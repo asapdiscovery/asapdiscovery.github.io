@@ -5,13 +5,13 @@
     <div id="hero">
       <h1> {{ .Title}} </h1>
       <p class="hero-lead">
-           {{ .Params.bref | safeHTML }}.
+           {{ .Params.bref | safeHTML }}
       </p>
-
+      <a class="button primary big" href="/scarab/scarab_export_cleaned.csv" download="scarab_export_ASAP.csv" >Download pre-TEP Scarab export (csv)</a>
     </div> 
     <div id="kube-component" class="content">
     {{ partial "toc" .}}
-
+    
     {{ .Content}}
 <!-- Inject script tag in this template  -->
     {{if .Params.script}}
