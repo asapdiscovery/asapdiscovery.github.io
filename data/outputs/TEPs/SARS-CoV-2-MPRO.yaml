@@ -35,7 +35,7 @@ TEP:
   therapeutic_area: Infectious diseases
   # Disease relevance statement
   disease_relevance: The SARS-Cov-2 main protease (Mpro) is responsible for viral polyprotein processing and therefore a therapeutic target.
-  list of authors:
+  contributors:
   - Alice Douangamath
   - Daren Fearon
   - Paul Gehrtz
@@ -87,7 +87,9 @@ TEP:
     main protease by small molecule fragment molecules. Together with the established enzymatic assays, it
     forms the bases for rational, structure-based drug development. The usefulness of the data and protocols
     presented in this TEP have been demonstrated by the [COVID Moonshot consortium](https://covid.postera.ai/covid) successfully
-    developing sub-micromolar binders, that are now in lead optimisation.
+    developing sub-micromolar binders, that are now in lead optimisation. 
+
+    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002153
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource

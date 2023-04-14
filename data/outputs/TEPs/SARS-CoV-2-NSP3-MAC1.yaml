@@ -41,7 +41,6 @@ TEP:
   - Marion Schuller
   - Galen J. Correy
   - Stefan Gahbauer
-  - a merry band of players
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -65,6 +64,8 @@ TEP:
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
     Here we have established a purification protocol for recombinant Nsp3 Mac1 from Sars-CoV-2 and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits which were validated by biophysical assays established in this work. The ligands and assays established in this work will pave the way for future drug discovery endeavours targeting Nsp3 Mac1.
+  
+    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002238
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource

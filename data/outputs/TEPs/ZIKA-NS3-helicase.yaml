@@ -36,9 +36,9 @@ TEP:
   # Disease relevance statement
   disease_relevance: NS3 encodes a helicase that is important for viral replication
   list of authors:
-  - Andre Schutzer Godoy
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
+  - Andre Schutzer Godoy
   - Nathalya Cristina de Moraes Roso Mesquita
   - Gabriela Dias Noske
   - Rafaela Sachetto Fernandes
@@ -67,6 +67,8 @@ TEP:
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
     Here we have established a purification protocol for recombinant NS3 helicase from Zika viruses and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits.
+  
+    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002158
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource

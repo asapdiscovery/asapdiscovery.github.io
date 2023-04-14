@@ -35,10 +35,9 @@ TEP:
   therapeutic_area: Infectious diseases
   # Disease relevance statement
   disease_relevance: NSP13 is a DNA/RNA helicase that is essential for SARS-Cov-2 replication, inhibitors to NSP13 could be developed as antiviral drugs.
-  list of authors:
-  - Opher Gileadi.
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
+  - Opher Gileadi.
   - Joseph Newman
   - Yuliana Yosaatmadja
   - Alice Douangamath
@@ -90,6 +89,8 @@ TEP:
     DNA/RNA interface which may be developed into ATP or DNA competitive inhibitors. Alternatively, several
     pockets were discovered at interfaces between domains that could lead to allosteric inhibitors that prevent
     domain movements that occur as part of the helicase catalytic cycle.
+
+    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002164
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource

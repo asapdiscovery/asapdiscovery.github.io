@@ -35,13 +35,12 @@ TEP:
   therapeutic_area: Infectious diseases
   # Disease relevance statement
   disease_relevance: NS3 encodes protease that is important for processing the viral polyprotein 
-  list of authors:
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
   - Lizbé Koekemoer
   - Michael Fairhead
   - Xiaomin Ni
   - Blake Balcomb
-  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
-  contributors:
   - Daren Fearon
   - Andre de Godoy
   - Charlie Tomlinson 
