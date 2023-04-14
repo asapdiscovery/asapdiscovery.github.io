@@ -10,6 +10,8 @@ pygmentsStyle = "colorful"
 
 # Generate robots.txt
 enableRobotsTXT = "true"
+# ignore files on build:
+ignoreFiles = ['data/outputs/preTEPS/']
 
 [Params]
   RSSLink = "/index.xml"
