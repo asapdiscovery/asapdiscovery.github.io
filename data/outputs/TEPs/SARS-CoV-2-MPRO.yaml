@@ -87,9 +87,11 @@ TEP:
     main protease by small molecule fragment molecules. Together with the established enzymatic assays, it
     forms the bases for rational, structure-based drug development. The usefulness of the data and protocols
     presented in this TEP have been demonstrated by the [COVID Moonshot consortium](https://covid.postera.ai/covid) successfully
-    developing sub-micromolar binders, that are now in lead optimisation. 
+    developing sub-micromolar binders, that are now in lead optimisation.
 
-    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002153
+    * Fragalysis interactive structure viewer (and downloads of all structures): https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
+    
+    * Fragment screen PDB group deposition (currently contains only a subset of structures): https://www.rcsb.org/groups/summary/entry/G_1002153
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
@@ -100,12 +102,12 @@ TEP:
             yielded native N- and C-termini. HRV 3C protease was removed by reverse Ni-affinity chromatography,
             followed by a gel filtration step. The purified protein appears as a dimer in size-exclusion chromatography.
       # Date it was provided
-      date: TBD # TODO
+      date: 2020-02-14
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url:  
+      url: https://www.diamond.ac.uk/dam/jcr:feefeac2-8f38-4dba-84e4-139f83e8a375/ProteaseMandM_v4.docx
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -139,21 +141,22 @@ TEP:
                     screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
                     a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This
                     resulted in determination of 91 protein-fragment structures.
-      date: TBD
+      date: 2020-03-18
       type: xray-fragment-screen
-      url: 
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Crystallization and Structure determination.
+        **Crystallization and Structure determination**<br>
+
         Protein was thawed and diluted to 5 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. The sample was
         centrifuged at 100 000 g for 15 minutes to remove aggregates. MPRO crystals were obtained by mixing 150nL
         of protein in with 300 nL of reservoir solution containing 0.1 M MES pH 6.5, 15% PEG6K, 5% DMSO and 50nL
         seed stock. Crystals were grown using the sitting drop vapor diffusion method at 20°C and appeared within
         24 hours.
 
+        **Crystallographic fragment screening**<br>
 
-        Crystallographic fragment screening. 
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
         Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and
         select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
@@ -176,8 +179,7 @@ TEP:
         Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
         without the addition of further cryoprotectant.
 
-
-        FRET-based proteolytic assay.
+        **FRET-based proteolytic assay**<br>
         Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
         Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. Mpro is pre-incubated for 15 minutes at
         room temperature with the inhibitor compounds before the substrate is added to initiate the reaction.
@@ -189,8 +191,7 @@ TEP:
         algorithm is used to fit a Hill equation to dose-response data constrained with minimum value = 0.0 and
         maximum value = 100 to calculate IC50 values.
 
-
-        RapidFire Mass Spectrometry assay.
+        **RapidFire Mass Spectrometry assay**<br>
         Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
         Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. A 15 μM enzyme stock solution is
         prepared in 20 mM HEPES, pH 7.5 and 300 mM NaCl, and subsequently diluted to a working solution of 300
@@ -206,3 +207,19 @@ TEP:
         directly uploaded to the Moonshot vault for data analysis. The readouts are converted to % inhibition and
         the Levenberg–Marquardt algorithm is used to fit a Hill equation to dose-response data constrained with
         minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
+
+        Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
+    - name: PDB group deposition of crystallographic fragment screen
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
+        Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
+        electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
+        at the XChem facility of Diamond Light Source beamline I04-1
+
+        Selected structures were deposited in the PDB via a group deposition.
+
+      date: 2020-04-07
+      type: xray-fragment-screen
+      url: https://www.rcsb.org/groups/summary/entry/G_1002153
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
