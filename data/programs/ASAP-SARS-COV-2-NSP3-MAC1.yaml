@@ -13,6 +13,7 @@ funding_source:
   funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
   grant: U19AI171399
   img: niaid-logo.png
+  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
   
 targeting_opportunity:
   status: completed
@@ -81,3 +82,6 @@ TEP:
   # TODO: Can we auto-generate the URL from the program_code?
   url: /outputs/target-enabling-packages/#sars-cov-2-nsp3-mac1
 
+hit_to_lead:
+  status: in-progress
+  url: https://app.postera.ai/manifold/48d9653d-9b45-443d-b9b2-67c331afd6e2

@@ -4,6 +4,7 @@ title: Viral Families
 description: Viral families targeted by ASAP
 toc: true
 draft: false
+layout: single
 ---
 
 ### Coronaviruses
@@ -12,6 +13,7 @@ draft: false
 
 ### Picornaviruses
 
+<!--
 ### Influenza
 
 (not funded by AViDD U19)
@@ -19,6 +21,8 @@ draft: false
 ### Togaviruses
 
 (collaboration with NCATS)
+
+-->
 
 ### Other viral families
 
