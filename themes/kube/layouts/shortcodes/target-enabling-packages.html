@@ -11,9 +11,13 @@
 {{ range $.Site.Data.outputs.TEPs }}
     {{ $TEP_index = add $TEP_index 1 }}
     {{ $program_code := .TEP.asap.program_code }}
+    {{ $program_nickname := .TEP.asap.program_nickname }}
 
     <!-- Title -->
-    {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }}
+    
+    <!-- {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
+
+    {{ with .TEP.name }} <h3 id={{ $program_nickname }}>{{ . }}</h3> {{ end }}
     
     <!-- Status is shown as stages instead-->
     <!--

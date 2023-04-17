@@ -21,6 +21,7 @@ targeting_opportunity:
   events:
     - date: 2023-03-19
       description: Initial draft  
+
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -61,3 +62,6 @@ TPP:
   events:
     - date: 2023-03-01
       description: Initial draft
+
+TEP:
+  status: in-progress

@@ -7,6 +7,7 @@ TEP:
     viral_family: coronaviridae
     viruses:
     - SARS-CoV-2
+    - MERS-CoV
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPTGTTM

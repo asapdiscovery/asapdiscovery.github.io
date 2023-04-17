@@ -2,7 +2,7 @@ TEP:
   # Name of the TEP
   name: SARS-CoV-2 Mpro
   # ASAP-specific information
-  status:
+  stages:
     crystallography_construct: completed
     assay_construct: completed
     robust_crystal: completed

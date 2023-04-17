@@ -34,5 +34,4 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#denv-ns2b-ns3-protease
+

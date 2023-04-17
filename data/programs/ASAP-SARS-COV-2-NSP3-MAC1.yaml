@@ -79,8 +79,7 @@ assay_cascade:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: completed
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#sars-cov-2-nsp3-mac1
+
 
 hit_to_lead:
   status: in-progress

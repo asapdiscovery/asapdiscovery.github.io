@@ -25,5 +25,3 @@ targeting_opportunity:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#west-nile-ns2b-ns3-protease-helicase
