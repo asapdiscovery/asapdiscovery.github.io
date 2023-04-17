@@ -1,16 +1,6 @@
 TEP:
   # Name of the TEP
   name: Enterovirus D68 3C protease
-  # Status is one of ['not-started', 'in-progress', 'completed']
-  status: in-progress
-  stages:
-    crystallography_construct: completed
-    assay_construct: completed
-    biophysical_assay: completed
-    robust_crystal: completed
-    biochemical_assay: completed
-    fragment_screen: in-progress
-    tep_evaluation: in-progress  
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
@@ -18,7 +8,8 @@ TEP:
     viruses: enterovirus D68
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program: ASAPPNBTAE
+    program_code: ASAPPSOTNS
+    program_nickname: ASAP-EVD68-3CLPRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: NP_740535.1
   # Uniprot ID:
