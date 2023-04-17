@@ -1,0 +1,33 @@
+TEP:
+  # Name of the TEP
+  name: Enterovirus D68 2A protease
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: picronaviridae
+    viruses: enterovirus D68
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPWAUTP
+    program_nickname: ASAP-EVD68-2APRO
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  #gene: 
+  # Uniprot ID:
+  #uniprot:
+  # EC ID
+  #EC: 
+  # Generic URL source
+  gene_url: https://www.ncbi.nlm.nih.gov/nuccore/KM881710
+  # Target nominator
+  nominator: Alpha Lee
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: 3C proteases are a clinically validated target.
+  # List of authors
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Lizbé Koekemoer

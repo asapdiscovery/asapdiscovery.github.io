@@ -9,6 +9,12 @@ overview:
     - Enterovirus D68
   img: "enterovirus-3C-protease.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
+  
 targeting_opportunity:
   status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
@@ -28,5 +34,3 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#enterovirus-a71-3cl-protease

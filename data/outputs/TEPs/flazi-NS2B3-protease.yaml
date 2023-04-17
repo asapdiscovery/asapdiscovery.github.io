@@ -1,17 +1,6 @@
 TEP:
   # Name of the TEP
   name: Zika NS2B-NS3 protease
-  # Status is one of ['not-started', 'in-progress', 'completed']
-  status: in-progress
-  # ASAP-specific information
-  stages:
-    crystallography_construct: completed
-    assay_construct: completed
-    biophysical_assay: completed
-    robust_crystal: completed
-    biochemical_assay: completed
-    fragment_screen: completed
-    tep_evaluation: completed
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
     viral_family: flaviviridae
@@ -20,7 +9,7 @@ TEP:
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPADTOT
-    program_nickname: ASAP-ZIKA-NS2B-NS3 (protease only)
+    program_nickname: ASAP-ZIKA-NS2B-NS3
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: 7751225
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/

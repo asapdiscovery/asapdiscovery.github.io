@@ -1,17 +1,6 @@
 TEP:
   # Name of the TEP
-  name: SARS-CoV-2 nsp13
-  # Status is one of ['not-started', 'in-progress', 'completed']
-  status: completed
-  # ASAP-specific information
-  stages:
-    crystallography_construct: completed
-    assay_construct: completed
-    biophysical_assay: completed
-    robust_crystal: completed
-    biochemical_assay: completed
-    fragment_screen: completed
-    tep_evaluation: completed
+  name: SARS-CoV-2 nsp13 helicase
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
     viral_family: coronaviridae
@@ -20,7 +9,7 @@ TEP:
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPITANL
-    program_nickname: ASAP-SARS-COV-2-NSP13 
+    program_nickname: ASAP-SARS-COV-2-NS3-HELICASE 
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: NSP13
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/

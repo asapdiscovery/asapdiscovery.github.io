@@ -8,6 +8,13 @@ overview:
   viruses:
     - SARS-CoV-2
   img: "nsp13.png"
+
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
+  
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
@@ -59,5 +66,3 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: completed
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#sars-cov-2-nsp13-helicase

@@ -1,0 +1,25 @@
+TEP:
+  # Name of the TEP
+  name: Dengue NS2B-NS3 protease
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: flaviviridae
+    viruses:
+    - Dengue
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPOWITW
+    program_nickname: ASAP-DENV-NS2B-NS3
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: 2155258
+  # Target nominator
+  nominator: Karla Kirkegaard
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: NS3 encodes protease that is important for processing the viral polyprotein 
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Lizbé Koekemoer

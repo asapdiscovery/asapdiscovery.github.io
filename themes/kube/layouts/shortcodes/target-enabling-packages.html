@@ -3,26 +3,69 @@
 {{ $font := resources.GetRemote "https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Black.ttf" }}
 {{ $fontsize := 26 }}
 
+<!-- Get TEP in-progress status -->
+{{ $TEP_status := getCSV "," "https://docs.google.com/spreadsheets/d/e/2PACX-1vQit4u7d3lBlnX0Tu79Ep6pxSLiCvDn1PppulKgs5-C0SM0jlT9C491wstbZAJk7nm5BhJUlc9Op1gA/pub?gid=125511302&single=true&output=csv" }}
+
 <!-- TODO: How should we sort the target data? -->
 {{ $TEP_index := 0 }}
 {{ range $.Site.Data.outputs.TEPs }}
     {{ $TEP_index = add $TEP_index 1 }}
+    {{ $program_code := .TEP.asap.program_code }}
+    {{ $program_nickname := .TEP.asap.program_nickname }}
 
     <!-- Title -->
-    {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }}
+    
+    <!-- {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
 
-    <!-- Status -->
+    {{ with .TEP.name }} <h3 id={{ $program_nickname }}>{{ . }}</h3> {{ end }}
+    
+    <!-- Status is shown as stages instead-->
+    <!--
     <b>Status:</b> 
     {{ if eq .TEP.status "in-progress" }} <span class="label warning">In progress</span> {{ end }}
     {{ if eq .TEP.status "completed" }} <span class="label success">Completed</span> {{ end }}
     {{ if eq .TEP.status "not-started" }} <span class="label error">Not started</span> {{ end }}    
     <br>
+    -->
 
+    <!-- Pull TEP stages and override YAML if found in online TEP status spreadsheet -->
+    <!-- default -->
+    {{ $TEP_stages := dict 
+        "crystallography_construct" "not-started"
+        "assay_construct" "not-started"
+        "robust_crystal" "not-started"
+        "biophysical_assay" "not-started"
+        "biochemical_assay" "not-started"
+        "fragment_screen" "not-started"
+        "tep_evaluation" "not-started"
+    }}
+    <!-- YAML -->    
+    {{ if .TEP.stages }}        
+        {{ $TEP_stages = .TEP.stages }} 
+    {{ end }}
+    <!-- online TEP spreadsheet -->
+    {{ range $row := (after 5 $TEP_status) }}
+        <!-- If program code matches, pull data from spreadsheet instead -->
+        {{ if eq $program_code (index $row 7) }}
+            {{ $TEP_stages = dict 
+                "crystallography_construct" (index $row 11)
+                "assay_construct" (index $row 12)
+                "robust_crystal" (index $row 14)
+                "biophysical_assay" (index $row 15)
+                "biochemical_assay" (index $row 16)
+                "fragment_screen" (index $row 17)
+                "tep_evaluation" (index $row 18)
+            }}
+        {{ end }}
+    {{ end }}
+    <!-- DEBUG -->
+        
     <!-- Gene | Uniprot | EC -->
     <div class="row align-center">    
-        <a href="{{ printf "https://www.ncbi.nlm.nih.gov/protein/%s" .TEP.gene }}" > <span class="label success"> Gene: {{ .TEP.gene | markdownify }} </span> </a> &nbsp;
-        <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" .TEP.uniprot }}" > <span class="label error">  Uniprot: {{ .TEP.uniprot | markdownify }} </span> </a> &nbsp;
-        <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" .TEP.EC }}" > <span class="label warning"> EC: {{ .TEP.EC | markdownify }} </span> </a> 
+        {{ with .TEP.gene_url }} <a href="{{ . }}" > <span class="label success"> Genetic source </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.gene }} <a href="{{ printf "https://www.ncbi.nlm.nih.gov/protein/%s" . }}" > <span class="label success"> Gene: {{ . | markdownify }} </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.uniprot }} <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" . }}" > <span class="label error">  Uniprot: {{ . | markdownify }} </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.EC }} <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" . }}" > <span class="label warning"> EC: {{ . | markdownify }} </span> </a> {{ end }}
     </div>
     <br>
 
@@ -34,11 +77,19 @@
                 <td>
                     <!-- Crystallography construct -->
                     {{ $text := "Crystallography construct" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.crystallography_construct ".png"}}
+                    {{ $status := $TEP_stages.crystallography_construct }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x88" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -51,11 +102,19 @@
                     <br>
                     <!-- Assay construct -->
                     {{ $text := "Assay construct" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.assay_construct ".png"}}
+                    {{ $status := $TEP_stages.assay_construct }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x88" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -69,11 +128,19 @@
                 <td>
                     <!-- Biophysical assay -->
                     {{ $text := "Biophysical assay" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.biophysical_assay ".png"}}
+                    {{ $status := $TEP_stages.biophysical_assay }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -86,11 +153,19 @@
                     <br>
                     <!-- Robust crystal -->
                     {{ $text := "Robust crystals" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.robust_crystal ".png"}}
+                    {{ $status := $TEP_stages.robust_crystal }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -103,11 +178,19 @@
                     <br>
                     <!-- Biochemical assay -->
                     {{ $text := "Biochemical assay" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.biochemical_assay ".png"}}
+                    {{ $status := $TEP_stages.biochemical_assay }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x55" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -121,11 +204,19 @@
                 <td>
                     <!-- X-ray fragment screen -->
                     {{ $text := "X-ray fragment screen and structural analysis" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.fragment_screen ".png"}}
+                    {{ $status := $TEP_stages.fragment_screen }}
+
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x180" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -139,11 +230,18 @@
                 <td>
                     <!-- Compound design and TEP evaluation -->
                     {{ $text := "Compound design and TEP validation" }}
-                    {{ $filename := print "images/icons/tep-stage-" .TEP.stages.tep_evaluation ".png"}}
+                    {{ $status := $TEP_stages.tep_evaluation }}
+                    {{ $icon := "not-started" }}
+                    {{ if strings.Contains $status "completed" }}
+                        {{ $icon = "completed" }}
+                    {{ else if strings.Contains $status "in-progress" }}
+                        {{ $icon = "in-progress" }}
+                    {{ end }}
+                    {{ $filename := print "images/icons/tep-stage-" $icon ".png"}}
                     {{ $image := resources.GetMatch $filename }}
                     {{ $image := $image.Resize "300x180" }}
                     {{ $image = $image.Filter (images.Text $text (dict
-                    "color" "#ffffff"
+                    "color" "#000000"
                     "size" $fontsize
                     "linespacing" 2
                     "x" 10
@@ -177,22 +275,30 @@
     <b>Authors:</b> {{ with .TEP.contributors }}{{ delimit . ", "}}{{ end }} <br> 
     </div>
     
+    {{ with .TEP.summary }}
     <div class="prettybox success" data-component="prettybox"> 
         <h4>Summary of Project</h4>
-        {{ .TEP.summary | markdownify }} 
+        {{ . | markdownify }} 
     </div>
+    {{ end }}
     
+    {{ with .TEP.scientific_background }}
     <div class="prettybox focus" data-component="prettybox">
         <h4>Scientific Background</h4>
-        {{ .TEP.scientific_background | markdownify }}
+        {{ . | markdownify }}
     </div>
+    {{ end }}
 
+    {{ with .TEP.conclusion }}
     <div class="prettybox error" data-component="prettybox">
         <h4>Conclusion</h4>
-        {{ .TEP.conclusion | markdownify }}
+        {{ . | markdownify }}
     </div>
+    {{ end }}
 
-    <h4>Resources</h4>
+    {{ if .TEP.resources }}
+        <h4>Resources</h4>
+    {{ end }}
 
     {{ $resource_index := 0 }}
     {{ range .TEP.resources }}
@@ -229,9 +335,10 @@
             </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     {{ end }}
 
+    <hr>
 
 {{ end }}

@@ -9,6 +9,12 @@ overview:
     - Dengue serotype 2
   img: "DENV-ns2b-ns3.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
+  
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
@@ -28,5 +34,4 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
-  # TODO: Can we auto-generate the URL from the program_code?
-  url: /outputs/target-enabling-packages/#denv-ns2b-ns3-protease
+

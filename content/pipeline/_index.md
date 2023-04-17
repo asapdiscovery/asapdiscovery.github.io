@@ -5,6 +5,10 @@ description: "ASAP direct-acting antiviral discovery programs and research outpu
 layout: pipeline
 robotsdisallow: true
 ---
+
+<!-- TODO: Should we integrate the Mpro program here as well? -->
+For data from the COVID Moonshot predecessor program, please see the [preprint](https://doi.org/10.1101/2020.10.29.339317), [COVID Moonshot data portal](https://covid.postera.ai/covid/activity_data), and [Fragalysis X-ray structure hub](https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro).
+
 <!-- ASAP resources -->
 
 <a id="asap-resources"></a>

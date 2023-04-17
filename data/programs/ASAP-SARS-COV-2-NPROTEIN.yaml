@@ -8,12 +8,20 @@ overview:
   viruses:
     - SARS-CoV-2
   img: "nucleocapsid.png"
+
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
+
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
   events:
     - date: 2023-03-19
       description: Initial draft  
+
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed
@@ -54,3 +62,6 @@ TPP:
   events:
     - date: 2023-03-01
       description: Initial draft
+
+TEP:
+  status: in-progress

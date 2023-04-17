@@ -7,14 +7,18 @@
 <div class="col col-10">
   <h5><b>{{ .title }}</b></h5>
   <p>
-    {{ .authors }}<br>
+    <!-- Authors -->
+    <!-- TODO: Hyperlink authors via ORCIDs -->
+    <em>{{ .authors }}</em><br>
 
+    <!-- Optional preprint -->
     {{ with .preprint }}
       Preprint ahead of publication: <a href={{ .url }}>[{{ .server }}]</a>
       {{ partial "license" . }}
       <br>
     {{ end }}
 
+    <!-- Optional journal publication -->
     {{ with .published }}
       Published: <b>{{ .journal }}</b>
       {{ if .volume }}
@@ -28,12 +32,31 @@
       <br>
     {{ end }}
 
+    <!-- Optional github link -->
     {{ with .github }}
         Code accompanying the publication: <a href="http://github.com/{{ . }}"> <img width="20" src="img/github.png"> <b>{{ . }}</b> </a>
         <br>
     {{ end }}
 
-    <i>{{ .summary }}</i><br>
+    <!-- Optional dataset link -->
+    {{ with .data }}
+        Data accompanying the publication: <a href="{{ . }}"> <img width="20" src="img/data.png"> <b>{{ . }}</b> </a>
+        <br>
+    {{ end }}    
+
+    <!-- Contributing Projects and Cores -->
+    <!-- TODO: Make these links to Projects and Cores -->
+    Contributing Projects and Cores: 
+    {{ range .projects }}
+      <span class="label warning">{{ . }}</span>
+    {{ end }}        
+    {{ range .cores }}
+      <span class="label success">{{ . }}</span>
+    {{ end }}        
+    <br>
+
+    <!-- Summary of paper / relevance to ASAP goals -->
+    <i>{{ .summary | markdownify }}</i><br>
   </p>
 </div>
 

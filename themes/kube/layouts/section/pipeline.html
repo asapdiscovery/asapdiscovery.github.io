@@ -5,7 +5,7 @@
 
 <div id="hero" class="wrap">
   <h1>{{.Title }}</h1>
-    <p>{{.Params.description}}<br></p>
+    <p>{{.Params.description}}</p>
 </div>
 <div id="main">
 
@@ -15,93 +15,104 @@
 
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
-{{ $icon_width := "39" }}
+{{ $icon_width := "35" }}
 
 
 <div class="container">
 
-<!-- Header -->
-<div class="row"> 
-  <div class="col-1">
-    <!-- Family -->
-  </div>
-  <div class="col-11">  
-    <div class="row"> 
-      <div class="col-4">
-        <h3>Discovery Program</h3>
-      </div>
-      <div class="col-8">
-        <a href="#targeting-opportunity"><img title="Molecular target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
-        <a href="#targeting-opportunity"><img title="Targeting Opportunity" width="{{ $icon_width }}" src="img/icons/target.png"></a>
-
-        <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
-        <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
-        <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/papers.png"></a>
-
-        <a href="#mutational-data"><img title="Deep mutational scanning data on the target" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
-        <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
-        <a href="#target-enabling-package"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
-        <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
-        <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
-        <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
-        <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
-        <a href="#preclinical-programs"><img title="Preclinical (IND-enabling) studies" width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
-        <a href="#investigational-new-drugs"><img title="Investigational New Drug (IND) approval" width="{{ $icon_width }}" src="img/icons/ind.png"></a>
-        <a href="#clinical-trials"><img title="Clinical trials" width="{{ $icon_width }}" src="img/icons/clinical-trials.png"></a>
-        <a href="#new-drug-approval"><img title="New Drug Approval (NDA)" width="{{ $icon_width }}" src="img/icons/NDA.png"></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- List all programs for each viral family -->
-{{ $not_started := "not-started" }}
-{{ range $viral_family := $viral_families }}
+  <!-- Header -->
   <div class="row"> 
-    <!-- Show the viral family -->
-    <!-- This will probably break the view on Phones/small screens. There's a way in bootstrap to adjust this so that the icons are smaller. https://getbootstrap.com/docs/4.1/layout/grid/. MatteoFerla might know how to do this!-->
-    <div class="col-1" style="display: flex;  align-items: center;">
-      <img width="80" src="img/viruses/{{ $viral_family }}.png"></a>
+    <div class="col-1">
+      <!-- Family -->
     </div>
-    <!-- List the programs for this family -->
     <div class="col-11">  
-      {{ range $.Site.Data.programs }}
-        {{ if in .overview.family $viral_family }}
-          <div class="container">
-            <div class="row"> 
-              <div class="col-4" style="display: flex;  align-items: center;">
-                <b>{{ .overview.name }}</b>
-              </div>
-              <div class="col-8">
-                {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
+      <div class="row"> 
+        <div class="col-4">
+          <h3>Discovery Program</h3>
+        </div>
+        <div class="col-8">
+          <a href="#funding-source"><img title="Funding Source" width="{{ $icon_width }}" src="img/icons/funding-source.png"></a>
 
-                {{ with .targeting_opportunity }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
-            
-                <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
-                <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
-                <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+          <a href="#targeting-opportunity"><img title="Molecular Target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
+          <a href="#targeting-opportunity"><img title="Targeting Opportunity" width="{{ $icon_width }}" src="img/icons/target.png"></a>
 
-                <a href="{{ .DMS.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .DMS.status               | default $not_started }}.png"></a>
-                <a href="{{ .TPP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status               | default $not_started }}.png"></a>
-                <a href="{{ .TEP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
-                <a href="{{ .assay_cascade.url }}">    <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
-                <a href="{{ .TCP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
-                <a href="{{ .hit_to_lead.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
-                <a href="{{ .lead_optimization.url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>
-                <a href="{{ .preclinical.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .preclinical.status       | default $not_started }}.png"></a>
-                <a href="{{ .IND.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .IND.status               | default $not_started }}.png"></a>
-                <a href="{{ .clinical.url }}">         <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .clinical.status          | default $not_started }}.png"></a>
-                <a href="{{ .NDA.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .NDA.status               | default $not_started }}.png"></a>
+          <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
+          <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+          <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/papers.png"></a>
+
+          <a href="#mutational-data"><img title="Deep Mutational Scanning (DMS) data on the target" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
+          <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
+          <a href="#target-enabling-package"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+          <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
+          <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
+          <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
+          <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
+          <a href="#preclinical-programs"><img title="Preclinical (IND-enabling) studies" width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
+          <a href="#investigational-new-drugs"><img title="Investigational New Drug (IND) approval" width="{{ $icon_width }}" src="img/icons/ind.png"></a>
+          <a href="#clinical-trials"><img title="Clinical trials" width="{{ $icon_width }}" src="img/icons/clinical-trials.png"></a>
+          <a href="#new-drug-approval"><img title="New Drug Approval (NDA)" width="{{ $icon_width }}" src="img/icons/NDA.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- List all programs for each viral family -->
+  {{ $not_started := "not-started" }}
+  {{ range $viral_family := $viral_families }}
+    <div class="row"> 
+      <!-- Show the viral family -->
+      <!-- This will probably break the view on Phones/small screens. There's a way in bootstrap to adjust this so that the icons are smaller. https://getbootstrap.com/docs/4.1/layout/grid/. MatteoFerla might know how to do this!-->
+      <div class="col-1" style="display: flex;  align-items: center;">
+        <img width="80" src="img/viruses/{{ $viral_family }}.png"></a>
+      </div>
+      <!-- List the programs for this family -->
+      <div class="col-11">  
+        {{ range $.Site.Data.programs }}
+          {{ if in .overview.family $viral_family }}
+            <div class="container">
+              <div class="row"> 
+                <div class="col-4" style="display: flex;  align-items: center;">
+                  <b>{{ .overview.name }}</b>
+                </div>
+                <div class="col-8">
+                  {{ with .funding_source }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/icons/{{ .img }}"></a> {{ end }}
+
+                  {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
+
+                  {{ with .targeting_opportunity }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
+              
+                  <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+                  <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+                  <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+
+                  <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
+                  <a href="{{ .DMS.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .DMS.status               | default $not_started }}.png"></a>
+                  <a href="{{ .TPP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status               | default $not_started }}.png"></a>
+                  <a href="/outputs/target-enabling-packages/#{{ .overview.program_nickname }}">  <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
+                  <a href="{{ .assay_cascade.url }}">    <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
+                  <a href="{{ .TCP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
+                  <a href="{{ .hit_to_lead.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
+                  <a href="{{ .lead_optimization.url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>
+                  <a href="{{ .preclinical.url }}">      <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .preclinical.status       | default $not_started }}.png"></a>
+                  <a href="{{ .IND.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .IND.status               | default $not_started }}.png"></a>
+                  <a href="{{ .clinical.url }}">         <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .clinical.status          | default $not_started }}.png"></a>
+                  <a href="{{ .NDA.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .NDA.status               | default $not_started }}.png"></a>
+                </div>
               </div>
             </div>
-          </div>
+          {{ end }}
         {{ end }}
-      {{ end }}
+      </div>
+      <!-- Add whitespace between virus particles to divide them slightly -->
+      &nbsp
     </div>
-    <!-- Add whitespace between virus particles to divide them slightly -->
-    &nbsp
-  </div>
-{{ end }}
+  {{ end }}
+
+  <center>
+    <i>Click on any shaded box to view data and resources associated with that stage.</i>
+  </center>
+
+  <br>
 
 </div>
 
