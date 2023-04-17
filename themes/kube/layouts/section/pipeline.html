@@ -15,16 +15,10 @@
 
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
-{{ $icon_width := "39" }}
+{{ $icon_width := "35" }}
 
 
 <div class="container">
-
-  <center>
-    <i>Click on any shaded box to view data and resources associated with that stage.</i>
-  </center>
-
-  <br>
 
   <!-- Header -->
   <div class="row"> 
@@ -37,6 +31,8 @@
           <h3>Discovery Program</h3>
         </div>
         <div class="col-8">
+          <a href="#funding-source"><img title="Funding Source" width="{{ $icon_width }}" src="img/icons/funding-source.png"></a>
+
           <a href="#targeting-opportunity"><img title="Molecular Target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
           <a href="#targeting-opportunity"><img title="Targeting Opportunity" width="{{ $icon_width }}" src="img/icons/target.png"></a>
 
@@ -79,6 +75,8 @@
                   <b>{{ .overview.name }}</b>
                 </div>
                 <div class="col-8">
+                  {{ with .funding_source }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/icons/{{ .img }}"></a> {{ end }}
+
                   {{ with .overview }}  <a href="{{ .url }}"> <img width="{{ $icon_width }}" src="img/targets/{{ .img }}"></a> {{ end }}
 
                   {{ with .targeting_opportunity }} <a href="{{ .url }}"><img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .status }}.png"></a> {{ end }}
@@ -87,6 +85,7 @@
                   <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                   <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
 
+                  <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
                   <a href="{{ .DMS.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .DMS.status               | default $not_started }}.png"></a>
                   <a href="{{ .TPP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status               | default $not_started }}.png"></a>
                   <a href="{{ .TEP.url }}">              <img width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
@@ -108,6 +107,12 @@
       &nbsp
     </div>
   {{ end }}
+
+  <center>
+    <i>Click on any shaded box to view data and resources associated with that stage.</i>
+  </center>
+
+  <br>
 
 </div>
 

@@ -9,6 +9,11 @@ overview:
     - Zika
   img: "zika_ns5b.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS3-helicase-Dengue-Zika-West-Nile-d3ef36412b7947418a8b782626860a65

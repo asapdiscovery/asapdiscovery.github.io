@@ -9,6 +9,11 @@ overview:
     - West Nile
   img: "DENV-ns2b-ns3.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2

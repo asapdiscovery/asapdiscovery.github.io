@@ -21,3 +21,4 @@ Icons are CC-BY from [The Noun Project](https://thenounproject.com/)
 * `TPP.png` : `noun-pill-1056341` : Pill by Stephen Kelly from <a href="https://thenounproject.com/browse/icons/term/pill/" target="_blank" title="Pill Icons">Noun Project</a> 
 * `vertical-separator.png` : `noun-vertical-line-1729056` : Vertical Line by Lance B from <a href="https://thenounproject.com/browse/icons/term/vertical-line/" target="_blank" title="Vertical Line Icons">Noun Project</a>
 * `molecular-target.png` : `nount-disease-5624380` : Disease by Nadia from <a href="https://thenounproject.com/browse/icons/term/disease/" target="_blank" title="Disease Icons">Noun Project</a>
+* `funding-source.png` : `bank-348330` : Bank by Alfredo @ IconsAlfredo.us from <a href="https://thenounproject.com/browse/icons/term/bank/" target="_blank" title="Bank Icons">Noun Project</a>

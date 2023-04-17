@@ -9,6 +9,11 @@ overview:
     - Enterovirus D68
   img: "enterovirus-3C-protease.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  
 targeting_opportunity:
   status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4

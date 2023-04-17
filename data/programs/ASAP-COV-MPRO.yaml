@@ -1,5 +1,4 @@
 overview:
-  order: 1
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
   name: "SARS-CoV-2 / MERS-CoV Mpro protease"
@@ -10,12 +9,19 @@ overview:
     - MERS-CoV
     - SARS-CoV-2
   img: "SARS-CoV-2 Mpro.png"
+
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+
 targeting_opportunity:
   status: completed
   url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
   events:
     - date: 2023-03-19
       description: Initial draft
+
 DMS:
   # 'status' controls the status box rendered for this stage
   status: completed

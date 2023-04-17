@@ -9,6 +9,11 @@ overview:
     - SARS-CoV-2
   img: "coronavirus-endoribonuclease.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  
 targeting_opportunity:
   status: not-started
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Coronavirus-nsp15-endoribonuclease-SARS-CoV-2-1973d0a3d65c4262aec8a98b034e02ed?pvs=4

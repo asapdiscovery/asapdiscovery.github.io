@@ -9,6 +9,11 @@ overview:
     - Zika
   img: "DENV-ns2b-ns3.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  
 targeting_opportunity:
   status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4

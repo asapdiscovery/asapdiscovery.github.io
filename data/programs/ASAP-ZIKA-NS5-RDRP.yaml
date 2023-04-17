@@ -9,48 +9,21 @@ overview:
     - Zika
   img: "flavivirus-RdRp.png"
 
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+
 targeting_opportunity:
   status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Flavivirus-NS5-RdRp-Dengue-Zika-West-Nile-4df7478086d948d8adff6495e4c7c2f0?pvs=4
   events:
     - date: 2023-03-27
       description: Initial draft      
-DMS:
-  # 'status' controls the status box rendered for this stage
-  status: not-started
-  
-# TODO: Create separate pages for TPPs and TCPs defined in Markdown so we can assign them separate stable URLs
-# These URLS can be reported in the RPPR
-TPP:
-  status: not-started
-
-TCP:
-  status: not-started
-
-assay_cascade:
-  status: not-started
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
   # TODO: Can we auto-generate the URL from the program_code?
   url: /outputs/target-enabling-packages/#zika-ns5-rdrp
-
-hit_to_lead:
-  status: not-started
-
-lead_optimization:
-  status: not-started
-
-preclinical:
-  status: not-started
-
-IND:
-  status: not-started
-
-clinical:
-  status: not-started
-
-NDA:
-  status: not-started
 

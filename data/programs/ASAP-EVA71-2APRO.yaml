@@ -8,6 +8,12 @@ overview:
   viruses:
     - Enterovirus A71
   img: "enterovirus-2A-protease.png"
+
+funding_source:  
+  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+  grant: U19AI171399
+  img: niaid-logo.png
+  
 targeting_opportunity:
   status: completed
   url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
