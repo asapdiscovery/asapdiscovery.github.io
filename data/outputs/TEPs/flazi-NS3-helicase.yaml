@@ -1,0 +1,13 @@
+TEP:
+  # Name of the TEP
+  name: Dengue ns3 helicase
+  # ASAP-specific information
+  asap:
+    # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
+    viral_family: flaviviridae
+    viruses:
+    - Dengue
+    # ASAP program codename. From this list:
+    # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
+    program_code: ASAPPDFMAR
+    program_nickname: ASAP-DENV-NS3-HELICASE   

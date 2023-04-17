@@ -11,7 +11,6 @@
 {{ range $.Site.Data.outputs.TEPs }}
     {{ $TEP_index = add $TEP_index 1 }}
     {{ $program_code := .TEP.asap.program_code }}
-    {{ $program_code }} <br>
 
     <!-- Title -->
     {{ with .TEP.name }} {{ printf "### %s" . | markdownify }} {{ end }}
@@ -59,9 +58,10 @@
         
     <!-- Gene | Uniprot | EC -->
     <div class="row align-center">    
-        <a href="{{ printf "https://www.ncbi.nlm.nih.gov/protein/%s" .TEP.gene }}" > <span class="label success"> Gene: {{ .TEP.gene | markdownify }} </span> </a> &nbsp;
-        <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" .TEP.uniprot }}" > <span class="label error">  Uniprot: {{ .TEP.uniprot | markdownify }} </span> </a> &nbsp;
-        <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" .TEP.EC }}" > <span class="label warning"> EC: {{ .TEP.EC | markdownify }} </span> </a> 
+        {{ with .TEP.gene_url }} <a href="{{ . }}" > <span class="label success"> Genetic source </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.gene }} <a href="{{ printf "https://www.ncbi.nlm.nih.gov/protein/%s" . }}" > <span class="label success"> Gene: {{ . | markdownify }} </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.uniprot }} <a href="{{ printf "https://www.uniprot.org/uniprotkb/%s" . }}" > <span class="label error">  Uniprot: {{ . | markdownify }} </span> </a> &nbsp; {{ end }}
+        {{ with .TEP.EC }} <a href="{{ printf "https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=%s" . }}" > <span class="label warning"> EC: {{ . | markdownify }} </span> </a> {{ end }}
     </div>
     <br>
 
@@ -271,22 +271,30 @@
     <b>Authors:</b> {{ with .TEP.contributors }}{{ delimit . ", "}}{{ end }} <br> 
     </div>
     
+    {{ with .TEP.summary }}
     <div class="prettybox success" data-component="prettybox"> 
         <h4>Summary of Project</h4>
-        {{ .TEP.summary | markdownify }} 
+        {{ . | markdownify }} 
     </div>
+    {{ end }}
     
+    {{ with .TEP.scientific_background }}
     <div class="prettybox focus" data-component="prettybox">
         <h4>Scientific Background</h4>
-        {{ .TEP.scientific_background | markdownify }}
+        {{ . | markdownify }}
     </div>
+    {{ end }}
 
+    {{ with .TEP.conclusion }}
     <div class="prettybox error" data-component="prettybox">
         <h4>Conclusion</h4>
-        {{ .TEP.conclusion | markdownify }}
+        {{ . | markdownify }}
     </div>
+    {{ end }}
 
-    <h4>Resources</h4>
+    {{ if .TEP.resources }}
+        <h4>Resources</h4>
+    {{ end }}
 
     {{ $resource_index := 0 }}
     {{ range .TEP.resources }}
@@ -323,9 +331,10 @@
             </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     {{ end }}
 
+    <hr>
 
 {{ end }}
