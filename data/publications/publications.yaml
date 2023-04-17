@@ -3,6 +3,7 @@
   summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a [detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins](https://jbloomlab.github.io/SARS2-mut-fitness/) to inform the discovery of antivirals that avoid intrinsic resistance.  
   img: SARS-CoV-2-fitness-effects.png
   date: 2023-01-31
+  programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
   projects: [Project 1]
   cores: []
   preprint:
