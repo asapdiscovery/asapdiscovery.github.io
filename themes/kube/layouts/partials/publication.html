@@ -33,7 +33,12 @@
         <br>
     {{ end }}
 
-    <i>{{ .summary }}</i><br>
+    {{ with .data }}
+        Data accompanying the publication: <a href="{{ . }}"> <img width="20" src="img/data.png"> <b>{{ . }}</b> </a>
+        <br>
+    {{ end }}    
+
+    <i>{{ .summary | markdownify }}</i><br>
   </p>
 </div>
 
