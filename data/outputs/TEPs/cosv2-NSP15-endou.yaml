@@ -126,8 +126,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30^o^C. Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM
-        filters.
+        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30^o^C. Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM filters.
     
     
     
