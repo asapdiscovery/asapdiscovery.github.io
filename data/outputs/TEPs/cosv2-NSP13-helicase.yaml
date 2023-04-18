@@ -26,7 +26,7 @@ TEP:
   disease_relevance: NSP13 is a DNA/RNA helicase that is essential for SARS-Cov-2 replication, inhibitors to NSP13 could be developed as antiviral drugs.
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Opher Gileadi.
+  - Opher Gileadi
   - Joseph Newman
   - Yuliana Yosaatmadja
   - Alice Douangamath
@@ -85,7 +85,7 @@ TEP:
     # Construct / plasmid resource
     - name: Protein Expression and Purification
       # Brief description of the plasmid
-      description: We have expressed and purified full length NSP13 (1-601) in E. coli cells.
+      description: We have expressed and purified full length NSP13 (1-601) in *E. coli* cells.
       # Date it was provided
       date: 2020-11-01
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -185,13 +185,11 @@ TEP:
             TGCAACGTGAACCGCTTCAATGTAGCGATCACCCGTGCGAAGGTAGGTATTTTGTGCATCATGTCCGACCGTGATCTGT
             ATGACAAATTGCAGTTTACCAGCCTGGAAATCCCTCGCCGTAACGTGGCAACCCTTCAATAACAGTAAAGGTGGATACG
             GATCCGAATTCGAGCTCCGTCGACAAGCTTGCGGCCGCACTCGAGCACCACCACCACCACCACTGA
-    - name: Cystallisation and crystallographic fragment screening at Oxford/XChem
-      description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
-                    hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
-                    collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 
+    - name: Cystallisation
+      description:  The NSP13 crystal form contains two protomers in the P1 spacegroup and diffracts to 2.2 Å.
       date: 2020-09-16
       type: xray-fragment-screen
-      url: https://www.rcsb.org/groups/summary/entry/G_1002164
+      url: https://www.rcsb.org/structure/7NIO
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -210,7 +208,17 @@ TEP:
         Data Processing: The structure was solved by molecular replacement using the program PHASER and the
         structure of SARS-CoV-1 NSP13 (6JYT) as a search model. Refinement was performed using PHENIX REFINE to
         a final Rfactor = 20.9%, Rfree = 25.3%.
-        Fragment soaking: Fragments from the DSI-Poised library were added to the crystallisation drops by acoustic
+    - name: Crystallographic fragment screening at Diamond XChem
+      description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
+                    hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
+                    collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 
+      date: 2020-09-16
+      type: xray-fragment-screen
+      url: https://www.rcsb.org/groups/summary/entry/G_1002164
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Fragments from the DSI-Poised library were added to the crystallisation drops by acoustic
         dispensing using an ECHO acoustic liquid handler from a 500 mM stock concentration dissolved in DMSO to a
         final concentration of 10%. Soaking times varied from 1 to 3 hours.
         Data Collection: Data were collected at Diamond light source beamline I04-1 and processed using the XChem
