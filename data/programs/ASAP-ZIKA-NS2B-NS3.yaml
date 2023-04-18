@@ -27,6 +27,11 @@ targeting_opportunity:
     - date: 2023-03-19
       description: Initial draft    
 
+TPP:
+  status: completed
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g22f99006697_0_0
+
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
+
