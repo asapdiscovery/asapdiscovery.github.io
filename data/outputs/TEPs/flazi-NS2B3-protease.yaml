@@ -26,10 +26,10 @@ TEP:
   disease_relevance: NS3 encodes protease that is important for processing the viral polyprotein 
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Lizbé Koekemoer
-  - Michael Fairhead
   - Xiaomin Ni
   - Blake Balcomb
+  - Michael Fairhead
+  - Lizbé Koekemoer
   - Daren Fearon
   - Andre de Godoy
   - Charlie Tomlinson 
@@ -52,7 +52,7 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: XX01ZVNS2B-c002
+    - name: Crystallography construct XX01ZVNS2B-c002
       # Brief description of the plasmid
       description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -72,18 +72,158 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        TO WRITE
+        **Transformation** 
+        • thaw component cells BL21 (DE3) on ice
+        • add 1 µl of plasmid (100-200 ng/µl ) into 50 µl component cells 
+        • incubate on ice for 30 min
+        • 42°C heat shock for 40s, put back on ice for another 5 mins
+        • add 500 µl room temperature SOC medium
+        • incubate at 37°C for 1h no shaking
+        • plate on 90 mm LB-agar kanamycin plate, incubate at 37°C overnight
+
+        **Expression**
+        • Use 5-10 colonies to inoculate 100 ml of SOC kanamycin medium in a 250 ml baffled flask and grow overnight 37°C
+        • Use 15 mL to inoculate 1 L of TB medium in a 2.5 L UltraYield Flask
+        • Shake 37°C 180 rpm for 3-4 h (OD600 of 1-2)
+        • Lower temperature of incubator to 18°C and after 1 h induce protein expression with 0.5 mM IPTG and continue shaking overnight
+        • Harvest cells by centrifugation at 4000 g, 20 minutes, 4°C
+        • Freeze cell paste at -80°C
+
+        **Purification**   (100g cell pellet)
+        Day 1
+        • Dissolve cell pellet in 500ml Base buffer + 0.5mg/ml Lysozyme + 0.1mg/ml Benzonase + 1 % TX-100 + 30 mM imidazole (Base Buffer:10 mM HEPES, 500 mM NaCl, 5 % glycerol, 0.5 mM TCEP, pH 7.5)
+        • Incubate on ice 1 h
+        • Centrifuge 30,000 g for 1 h, 4°C 
+        • Transfer SN to 15 ml Ni-sepharose ff (column pre-equilibrated in Base buffer + 30 mM imidazole)
+        • Wash with 3 x 100ml Base buffer + 30 mM imidazole
+        • Elute protein with Base Buffer + 500 mM imidazole 6 x 10 ml
+        • Pool peak fractions and add TEV protease (1 OD unit TEV for every 10 OD units of target) and dialyze overnight 4°C against 3 L base buffer + 30 mM imidazole
+
+        Day2
+        • Pass dialyzed sample over 15 ml Ni-sepharose ff (column pre-equilibrated in Base buffer + 30 mM imidazole)
+        • Wash with 3 x 10ml Base buffer + 30 mM imidazole
+        • Pool samples and concentrate to around 20 mg/mL run over SEPAX SEC 3000 using mobile phase of 25mM HEPEs pH7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol.
+
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
-        * Vector: pET_trx/LIC-ZIKVNS3hMR766
+        * Vector: pNIC-6HIS-GST-TEV-GG
         * Entry clone accession: 
         * Cell line: E. coli Rosetta 2 strain BL21(DE3)
-        * Tags and additions: N-terminal, Thioredoxin, TEV protease cleavable hexahistidine
+        * Tags and additions: N-terminal, TEV protease cleavable GST hexahistidine
         * Construct protein sequence: 
           NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
           NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
-    - name: Crystallographic fragment screening at Oxford/XChem
+    - name: Assay construct QQ01ZVNS2B-c001
+      # Brief description of the plasmid
+      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
+        - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
+      # Brief description of the plasmid
+      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used as negative controle for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWAVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE            
+    - name: Initial crystallography with NS2B3 fusion protein expressed from QQ01ZVNS2B-c002 diffracted to 4.36 Å and not suitable for fragment soaking.
+      description:  
+      date: 2022-11-26
+      type: xray-fragment-screen
+      url: N/A
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        ZIKA NS2B3 was concentrated to a final concentration of 33 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 1000, 0.1 M SPG, pH 47.0 (Molecular Dimensions) at 20^o^C. One crystal was obtained after 28 days. 
+        Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and [xia2 3dii](https://doi.org/10.1107/s0907444913015308).
+    - name: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to xx Å and suitable for fragment soaking.
+      description:  
+      date: 2022-11-26
+      type: xray-fragment-screen
+      url: N/A
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Plate format: Swiss CI 3 lens
+        Screen: 30% w/v PEG 2000, 0.2M Ammonium sulfate, 0.1M acetate (pH 4.8)
+        Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+        Concentration: 15 mg/ml
+        Reservoir volume: 30 µl
+        Protein needed: 40 µl per full plate
+        Drop ratio:  1:1 ratio of protein: reservoir solution
+                     150nl of NS2B3: 150nl reservoir solution
+        Final volume: 300 nl
+        Incubation temperature: 20°C in Formulatrix
+        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
+        Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
+        Size:  ~75-100um in length, width and depth 
+    - name: Crystallographic fragment screening at the Diamond XChem facility
       description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of XX fragments, which yielded XX unique binders.
       date: XX
       type: xray-fragment-screen
@@ -94,4 +234,4 @@ TEP:
         ZIKV NS2B3 was concentrated to a final concentration of 15 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 2000, 0.2 M Ammonium sulphate and 0.1 M acetate buffer, pH 4.8 (Molecular Dimensions). Fragments were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, XX% DMSO); drops were incubated for approximately XX hours before mounting and flash-freezing in liquid nitrogen. 
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
-        Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400).
