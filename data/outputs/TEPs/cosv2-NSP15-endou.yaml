@@ -74,28 +74,19 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        SARS-COV2 cDNA sample was donated by Dr. Edilson Durigon (GenBank MT126808.1), generated using SCRIPT
-        One-Step RT-PCR (Cellco Biotec) and random hexamer primers. NSP15 coding sequence was amplified using
-        FastPol (Cellco Biotec) with primers 5’-CAGGGCGCCATGAGTTTAGAAAATGTGGCTTTTAATG-3’ and 5’-
-        GACCCGACGCGGTTATTGTAATTTTGGGTAAAATGTTTCTAC-3’, and inserted pET28-LIC (gently donated by Dr.
-        Arie Geerlof) using Ligation-Independent Cloning method (8). The final construct pET28-LIC -NSP15 included a
-        N-terminal 6xHis-tag followed by a TEV cleaving site and residues 1-346 of NSP15.
-        Buffers used are detailed hereafter:
+        SARS-COV2 cDNA sample was donated by Dr. Edilson Durigon (GenBank MT126808.1), generated using SCRIPT One-Step RT-PCR (Cellco Biotec) and random hexamer primers. NSP15 coding sequence was amplified using
+        FastPol (Cellco Biotec) with primers 5’-CAGGGCGCCATGAGTTTAGAAAATGTGGCTTTTAATG-3’ and 5’-GACCCGACGCGGTTATTGTAATTTTGGGTAAAATGTTTCTAC-3’, and inserted pET28-LIC (donated by Dr.
+        Arie Geerlof) using Ligation-Independent Cloning method (8). The final construct pET28-LIC -NSP15 included a N-terminal 6xHis-tag followed by a TEV cleaving site and residues 1-346 of NSP15.
+        Buffers used are detailed hereafter: 
         Buffer A: 50 mM TRIS-HCl pH 8.0, 300 mM NaCl, 10% glycerol, 20 mM imidazole
         Buffer B: 50 mM TRIS-HCl pH 8.0, 300 mM NaCl, 10% glycerol, 300 mM imidazole
         Buffer C: 20 mM HEPES pH 7.5, 150 mM NaCl, 5% (v/v) glycerol, 0.5 mM TCEP
-        Transformed BL21(DE3) cells were growth in LB Lennox medium supplemented with kanamycin at 37oC until
-        DO600 = 1.0, and kept for 16h at 18oC after induction with 0.5 mM isopropyl β-D-1-thiogalactopyranoside.
-        Harvested cells were resuspended in Buffer A supplemented with 0.1 mg/mLlysozyme, 10 U of benzonase
-        (Cellco Biotec) and 1.0 mM DTT, and disrupted using sonication. Cleared lysate was passed through a HisTrap
-        HP 5 mL (GE Healthcare) equilibrated in Buffer A, and them protein was eluted with Buffer B. Excessive
-        imidazole was removed using a Sephadex XK 26/60 column (GE Healthcare) equilibrated with Buffer A. Sample
-        was incubated overnight at 8oC with 4 mM DTT and 0.1 mg/mL TEV protease, then passed through a HisTrap HP 5 mL equilibrated in Buffer A to remove non-cleaved protein and TEV protease. Final purification was
-        performed by size exclusion chromatography using a HiLoad Superdex 75 16/60 (GE Healthcare) equilibrated
-        with Buffer C. Purity was confirmed by SDS-PAGE 12%. Protein concentration was estimated using the
-        theoretical extinction coefficient at 280 nm of 33,140 M-1
-        .cm-1. The eluted protein was
-        pooled and concentrated to 3.4 mg/mL using a 30 kDa MWCO concentrator. 
+        Transformed *BL21(DE3)* cells were grown in LB Lennox medium supplemented with kanamycin at 37^o^C until OD~600~ = 1.0, and kept for 16h at 18^o^C after induction with 0.5 mM isopropyl β-D-1-thiogalactopyranoside.
+        Harvested cells were resuspended in Buffer A supplemented with 0.1 mg/mL lysozyme, 10 U of benzonase (Cellco Biotec) and 1.0 mM DTT, and disrupted using sonication. Cleared lysate was passed through a HisTrap
+        HP 5 mL (GE Healthcare) equilibrated in Buffer A, and them protein was eluted with Buffer B. Excessive imidazole was removed using a Sephadex XK 26/60 column (GE Healthcare) equilibrated with Buffer A. Sample
+        was incubated overnight at 8^o^C with 4 mM DTT and 0.1 mg/mL TEV protease, then passed through a HisTrap HP 5 mL equilibrated in Buffer A to remove non-cleaved protein and TEV protease. Final purification was
+        performed by size exclusion chromatography using a HiLoad Superdex 75 16/60 (GE Healthcare) equilibrated with Buffer C. Purity was confirmed by SDS-PAGE 12%. Protein concentration was estimated using the
+        theoretical extinction coefficient at 280 nm of 33,140 M^-1^.cm^-1^. The eluted protein was pooled and concentrated to 3.4 mg/mL using a 30 kDa MWCO concentrator. 
 
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
@@ -114,7 +105,6 @@ TEP:
           MDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSVIDLLLDDFV
           EIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ`
     
-
     - name: Crystallographic fragment screening at Oxford/XChem
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
                     fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
@@ -126,20 +116,18 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity
-        assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30oC.
-        Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM
+        For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v) PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20^o^C by vapor diffusion in the presence of 10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment library (library concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
+
+    - name: FRET assay
+      description: 
+      date: 2020-11-01
+      type: assay
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30^o^C. Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM
         filters.
-        For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v)
-        PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20 oC by vapor diffusion in the presence of
-        10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment
-        library (final concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid
-        handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before
-        being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated
-        mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement
-        using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined
-        using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for
-        exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
     
     
     
