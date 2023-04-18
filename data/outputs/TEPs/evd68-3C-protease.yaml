@@ -24,6 +24,7 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
+  - Ryan Lithgo
   - Lizbé Koekemoer
   - Annette von Delft
   - Blake Balcomb
@@ -34,7 +35,6 @@ TEP:
   - Michael Fairhead
   - Oleg Fedorov
   - Peter Marples
-  - Ryan Lithgo
   - Xiaomin Ni
   fragscreen_pdb_group_decomposition: N/A
   # Summary of Project
@@ -45,7 +45,7 @@ TEP:
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
-    While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause [acute flacid myelitis (AFM)](https://www.cdc.gov/acute-flaccid-myelitis/index.html), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via [CDC](https://www.cdc.gov/non-polio-enterovirus/about/ev-d68.html)).
+    While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause [acute flaccid myelitis (AFM)](https://www.cdc.gov/acute-flaccid-myelitis/index.html), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via [CDC](https://www.cdc.gov/non-polio-enterovirus/about/ev-d68.html)).
     Enterovirus 3C protease is required to cleave the nonstructural region of the viral polyprotein. 
     3C also cleaves many host proteins to facilitate viral infection; thus, inhibition can reinstate the antiviral functions of some of these targets.
     The protease has a typical chymotrypsin fold with a Cys-His-Glu catalytic triad.
