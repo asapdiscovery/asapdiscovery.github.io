@@ -106,3 +106,12 @@ TEP:
         |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
+    - name: First round crystallization
+      # Date it was provided
+      date: 22-10-19
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: xray-fragment-screen
+      metadata: |
+        ![image](/img/tep_images/flawn-ns2b3-crystal_1.png)
+        ![image](/img/tep_images/flawn-ns2b3-crystal_2.png)
+        ![image](/img/tep_images/flawn-ns2b3-crystal_3.png)
