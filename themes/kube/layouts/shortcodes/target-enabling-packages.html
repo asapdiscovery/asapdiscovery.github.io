@@ -332,6 +332,12 @@
                 </div>
                 {{ end }}                
 
+                {{ with .metadata }} 
+                <button data-component="toggleme" data-target="#togglebox-metadata-{{ $TEP_index }}-{{ $resource_index }}" data-text="Hide Metadata">Metadata</button>
+                <div id="togglebox-metadata-{{ $TEP_index }}-{{ $resource_index }}" class="hide">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}    
             </div>
             </div>
         </div>
