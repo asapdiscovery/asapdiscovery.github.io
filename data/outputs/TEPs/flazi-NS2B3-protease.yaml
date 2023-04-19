@@ -282,6 +282,8 @@ TEP:
       protocol: >
         ZIKA NS2B3 was concentrated to a final concentration of 33 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 1000, 0.1 M SPG, pH 47.0 (Molecular Dimensions) at 20^o^C. One crystal was obtained after 28 days. 
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and [xia2 3dii](https://doi.org/10.1107/s0907444913015308).
+      metadata: |
+        ![image](/img/tep_images/flazi-ns2b3-crystal_1.png)
     - name: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to xx Å and suitable for fragment soaking.
       description:  
       date: 2022-11-26
