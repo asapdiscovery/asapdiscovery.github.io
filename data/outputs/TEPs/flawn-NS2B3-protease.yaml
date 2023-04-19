@@ -32,3 +32,77 @@ TEP:
   - Peter Marples
   - Ryan Lithgo 
   - Xiaomin Ni
+  resources:
+    - name: Protease Assay
+      # Date it was provided
+      date: date TBD
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: assay
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url:  
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - TBD
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: |
+        * Thaw enzymes on ice and centrifuged 5 min, 4 C, 15000 rpm.
+        * Prepare 0.2 µM of 2X enzyme in volume of 10 µl per well.
+        * Prepare 10 µM of 2X substrate in volume of 10 µl per well.
+        * Dispense 10 µl buffer to positive control wells (wells 1,23 - no enzyme, no compound). 
+        * Dispense 10 µl enzyme to wells 2-22,24 (wells 2,24 negative control: enzyme + substrate, no compound)
+        * Briefly spin down plate and incubate for 2 hours in RT.
+        * Dispense 10 µl substrate to full plate.
+        * Briefly spin down plate and incubate for 30 min in RT.
+        * Read in Pherastar plate reader (BMG) in Ex: 360nm, Em: 470nm, Gain 300.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        Enzyme: WNV-NS2BgsgNS3
+
+        Substrate:
+        * Boc-Gly-Arg-Arg-AMC
+        * CAS [113866-14-1(free base)]
+        * Biosynth (FB110553)
+        * 0.9 mg dissolved in 140 µL of DMSO and aliquoted to 50 ul --> stored at -80C as 10mM
+        
+        Buffer: Enzymes storage buffer 10 mM HEPES pH 7.3, 500 mM NaCl, 5% glycerol, 0.5 mM TCEP.
+        
+        Assay Buffer (final conc. In plate):
+        * 10 mM HEPES pH 7.3
+        * 50 mM NaCl
+        * 5 % glycerol
+        * 1 mM TCEP
+        * 0.05 % Igepal
+        
+        Glycerol, Igepal and TCEP are added to the assay buffer before each run.
+
+        Design:
+        * 10 µL of 10 µM substrate + 10 µL of 0.2 µM enzyme in assay buffer 
+        * (final assay volume: 20 µl). 
+        * Inhibitor compounds were pre-dispensed (from DMSO stock) in duplicates to 384 small volume, black plate (Greiner-784076) and stored in -20 until use (control wells - DMSO only, no compounds). 
+        * Dispensing performed using the GNF dispenser
+
+        Sequence: SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQL
+        MNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSY
+        QAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKL
+        QHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSG
+        SPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
+
+        MW: 26401.64, Conc (uM): 227, Extinction Coefficient: 54430
+
+        Example Plate Layout:
+        
+        |   Compounds conc. (µM)   |       |   1                        |                 2                |   3                                        |   ….                                       |   22                                       |   23                       |   24                             |
+        |--------------------------|-------|----------------------------|:--------------------------------:|--------------------------------------------|--------------------------------------------|--------------------------------------------|----------------------------|----------------------------------|
+        |   100                    |   A   |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |
+        |   50                     |   B   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |   25                     |   C   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
