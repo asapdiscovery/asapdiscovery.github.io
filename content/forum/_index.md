@@ -40,7 +40,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-mar"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* 
-* TBD
+* Andre de Godoy, University of Sao Paulo: *Structural insights on the SARS-CoV-2 Main Protease maturation process and inhibition*
 
 # Past Presentations
 
