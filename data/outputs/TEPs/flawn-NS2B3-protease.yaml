@@ -32,3 +32,96 @@ TEP:
   - Peter Marples
   - Ryan Lithgo 
   - Xiaomin Ni
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    This TEP is being compiled to provide early tools to develop NS3 protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    NS2B/3 performs all cleavages on the cytoplasmic side of the polyprotein.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    This is a summary of the work we have done on the NS2b-NS3 protease from West Nile viruses to date. 
+  # List of resources associated with this TEP
+  resources:
+    - name: Assay construct QQ01WNVNS2B-c003
+      # Brief description of the plasmid
+      description:  Construct expressing a non selfcleaving version of the NS2B cofactor fused to the NS3 protease from West nile virus used for FRET assay and initial crystallization trials. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI.
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      - Ekaterina Kot
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWAGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK 
+        - name: Inactive assay construct QQ01WNVNS2B-c002 with His to Ala mutation 
+      # Brief description of the plasmid
+      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from West nile virus used as negative controle for FRET assay and in initial crystallography studies. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWATTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
