@@ -126,7 +126,8 @@ TEP:
         * Construct protein sequence: 
           SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWATTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
     - name: Initial Crystallography with NS2B and NS3 coexpressed protein.
-      description: The NS2B-NS3 fusion protein with the catalytically important His mutated to Ala crystallized in various coarse screen conditions. We obtained crystal which diffracted to 1.6 Å, but it is unsuitable for fragment soaking since the active site is occluded. PDB to be released: 8CO8.
+      description: |
+        The NS2B-NS3 fusion protein with the catalytically important His mutated to Ala crystallized in various coarse screen conditions. We obtained crystal which diffracted to 1.6 Å, but it is unsuitable for fragment soaking since the active site is occluded. PDB to be released: 8CO8.
       date: 2022-11-26
       type: xray-fragment-screen
       url: N/A
@@ -140,7 +141,7 @@ TEP:
         Reservoir volume: 30 µl
         Protein needed: 40 µl per full plate
         Drop ratio:  1:2 ratio of protein: reservoir solution
-                     50nl of NS2B3: 100nl reservoir solution
+                    50nl of NS2B3: 100nl reservoir solution
         Final volume: 150 nl
         Incubation temperature: 20°C in Formulatrix
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
