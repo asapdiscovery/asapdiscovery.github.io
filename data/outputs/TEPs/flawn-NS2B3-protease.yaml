@@ -12,6 +12,11 @@ TEP:
     program_nickname: ASAP-WNV-NS2B-NS3
   # Target nominator
   nominator: Karla Kirkegaard
+  gene: AF404756.1
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: Q9Q6P4
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.21.91
   # Lead investigator at Diamond
   investigator: Frank von Delft
   # Therapeutic area

@@ -11,7 +11,9 @@ TEP:
     program_code: ASAPPTPOAP
     program_nickname: ASAP-EVA71-3CLPRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  gene: YP_009505605.1
+  gene: JN544418.1
+  EC: 3.4.22.28
+  uniprot: Q66479
   # Target nominator
   nominator: Alpha Lee
   # Lead investigator at Diamond

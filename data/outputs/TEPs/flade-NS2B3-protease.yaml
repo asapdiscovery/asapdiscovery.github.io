@@ -11,7 +11,9 @@ TEP:
     program_code: ASAPPOWITW
     program_nickname: ASAP-DENV-NS2B-NS3
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  gene: 2155258
+  gene: U87411.1
+  EC: 3.4.21.91 
+  uniprot: P14340
   # Target nominator
   nominator: Karla Kirkegaard
   # Lead investigator at Diamond
