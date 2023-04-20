@@ -149,6 +149,7 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        <a href="/pdfs/PAGE22-01756 - ASAP; Dengue, Zika and West Nile NS2B3; First round crystallization.pdf" download>Download experimental metadata</a>
         * Vector: pNIC-NHStIIT
         * Entry clone accession: 
         * Cell line: E. coli Rosetta 2 strain BL21(DE3)
@@ -156,47 +157,8 @@ TEP:
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
         - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
-      # Brief description of the plasmid
-      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used as negative controle for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
-      # Date it was provided
-      date: 2022-10-24
-      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: plasmid
-      # URL pointing to resource
-      # For a plasmid, this should be an AddGene entry
-      url: N/A 
-      # ASAP Projects and Cores that contributed to this resource
-      # e.g. ['Project 2', 'Structural Biology Core']
-      projects: [Project 2]
-      # Contributors / authors
-      contributors:
-      - Michael Fairhead
-      # Detailed expression protocol associated with this plasmid
-      # This is Markdown: See https://www.markdownguide.org/ for guide    
-      # TODO: In future, this should be a protocols.io link
-      protocol: >
-        Transformed BL21[DE3]RR with plasmid
-        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
-        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
-        Harvested 4000 g 20 minutes
-        Froze pellet -80^o^C (approx 45 g wcw/L)
-        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
-        Centrifuge 30,000g 1 h 12^o^C
-        Apply soluble fracction to 5 mL Ni-Speharose FF
-        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
-        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
-      # Details associated with this plasmid
-      # TODO: Eliminate this, since this duplicative of the AddGene site.
-      details: |
-        * Vector: pNIC-NHStIIT
-        * Entry clone accession: 
-        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
-        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
-        * Construct protein sequence: 
-          NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWAVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE            
-    
-    
-    
+
+
     - name: Protease Assay
       # Date it was provided
       date: 2022-10-24
@@ -271,7 +233,6 @@ TEP:
         |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
 
-
     - name: Initial crystallography with NS2B3 fusion protein expressed from QQ01ZVNS2B-c002 diffracted to 4.36 Å and not suitable for fragment soaking.
       description:  
       date: 2022-11-26
@@ -282,8 +243,9 @@ TEP:
       protocol: >
         ZIKA NS2B3 was concentrated to a final concentration of 33 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 1000, 0.1 M SPG, pH 47.0 (Molecular Dimensions) at 20^o^C. One crystal was obtained after 28 days. 
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and [xia2 3dii](https://doi.org/10.1107/s0907444913015308).
-      metadata: |
-        ![image](/img/tep_images/flazi-ns2b3-crystal_1.png)
+      details: |
+        <a href="/pdfs/PAGE22-01614 - AVIDD ASAP; NS2B-GSG-NS3 fusions for assays.pdf" download>Download experimental metadata</a>
+ 
     - name: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to xx Å and suitable for fragment soaking.
       description:  
       date: 2022-11-26
@@ -304,7 +266,7 @@ TEP:
         Incubation temperature: 20°C in Formulatrix
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
         Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
-        Size:  ~75-100um in length, width and depth 
+        Size:  ~75-100um in length, width and depth
     - name: Crystallographic fragment screening at the Diamond XChem facility
       description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of XX fragments, which yielded XX unique binders.
       date: XX
