@@ -60,9 +60,26 @@ TEP:
         * Dispense 10 µl substrate to full plate.
         * Briefly spin down plate and incubate for 30 min in RT.
         * Read in Pherastar plate reader (BMG) in Ex: 360nm, Em: 470nm, Gain 300.
+      
+        Purification Protocol:
+        * Base Buffer: 10 mM HEPES pH7.5, 500 mM NaCl, 5 % glycerol, 0.5 mM TCEP
+        * Dissolved pellet (114.2g) in 500mL Base Buffer (+5mM imidazole). Sonicate (5sec on/5sec off for 15 min)
+        * Centrifuge 30,000g 1hr 12C
+        * Add supernatant to 12mL of TALON resin
+        * Incubate while spinning for 20min at 4C
+        * Centrifuge 1,000g 10min 12C
+        * Pack into a column
+        * Wash 1: 500mL of Base Buffer with 5mM imidazole
+        * Wash 2: 250mL of Base Buffer with 15mM imidazole
+        * Elution: 30mL of Base Buffer with 150mM imidazole
+        * Concentration: 1.474 mg/mL (30mL) [44mg yield]
+        * Protein flash frozen and stored at -80C
+        * Dialyze 30mL sample o/n against 4L of Base Buffer after adding 1:10 TEVsh
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        <a href="/pdfs/flawn_n2b3 - ASAP WNV mutant  live Purification.pdf" download>Download experimental metadata</a>
+
         Enzyme: WNV-NS2BgsgNS3
 
         Substrate:
@@ -106,8 +123,3 @@ TEP:
         |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
-    - name: First round crystallization
-      # Date it was provided
-      date: 22-10-19
-      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: xray-fragment-screen
