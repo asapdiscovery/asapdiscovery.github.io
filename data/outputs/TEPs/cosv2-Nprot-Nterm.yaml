@@ -113,7 +113,7 @@ TEP:
         ![image](/img/tep_images/sars2_nprot_example_gel_1.png)
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
 
-    - name: Trptophan quench
+    - name: Tryptophan quench
       description: Final concentration of protein is 14 uM (arbitrary, once compounds get more potent this will become limiting). Note that because of the way the dilutions are done, final compound concentrations are 0.9x of the designed titration. 
       date: 2021-11-15
       type: xray-fragment-screen
@@ -121,6 +121,37 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
+        N-protein crystallization conditions:
+
+        * Protein Buffer - 50 mM Tris pH 8, 300 mM NaCl, 1 mM DTT
+        
+        * Reservoir Solution - 23 % PEG 4000, 0.1 M HEPES pH 7.8, 10 % isopropanol
+
+        * protein concentration - 20 mg/mlSeed stock - 1/100 dilution
+
+        * Reservoir well volume - 30 ul
+
+        * Drop volume - 400 nl
+
+        * Protein volume in drop - 200 nl
+
+        * Reservoir volume in drop - 170 nl
+
+        * seed volume in drop - 30 nl 
+
+        * Temperature: 20°C
+
+        * visible growth in 12 hours, full growth in 36 hours
+
+        * DMSO tolerance: 20%
+
+        * Average resolution (Å): 1.7
+
+        * Crystal morphology: Bi-pyramid
+
+
+        Steps:
+
         * Prepare working stock (10X) of p1127; 140 uM in Assay buffer without DMSO
         
         * Prepare compound dilutions in a 96 well plate, need 45 uL per well. If running a duplicate with blank dilution for compound fluorescence prepare 200 uL of each concentration. Normally I was doing a 1:1.5 dilution series to get a good coverage at the higher concentrations for weak compounds.  
@@ -143,4 +174,5 @@ TEP:
         PHERAstar reader 
         
         384 well low-binding plate (CLS3575)
+
  
