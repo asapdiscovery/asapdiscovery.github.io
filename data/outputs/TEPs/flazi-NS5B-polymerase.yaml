@@ -8,8 +8,14 @@ TEP:
     - Zika
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program_code: ASAPPWCTFT
+    program_code: ASAPPNBTAE
     program_nickname: ASAP-ZIKA-NS5-RDRP
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: AY632535.2
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: Q32ZE1
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.21.91
   # Target nominator
   nominator: Karla Kirkegaard
   # Lead investigator at Diamond
@@ -20,4 +26,44 @@ TEP:
   disease_relevance: NS5 encodes an RNA-dependent RNA polymerase
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Lizbé Koekemoer
+    - Andre Schutzer Godoy
+    - Rafaela Sachetto Fernandes
+    - Glaucius Oliva
+    - Daren Fearon
+    - Charlie Tomlinson  
+    - Ryan Lithgo  
+    - Blake Balcomb
+    - Jasmine Aschenbrenner
+    - Peter Marples
+  summary: >
+    The RdRp is responsible for synthesizing a complementary negative-sense RNA strand that can then be used as a template to produce extra positive-sense RNA genomes. 
+  scientific_background: >
+    The Zika virus (ZIKV) has become a global public health threat since it was related to major neurological disorders in both infants and adults [[1](https://doi.org/10.1016/S0140-6736(17)31450-2), [2](https://doi.org/10.1016/S0140-6736(16)00562-6)]. The non-structural protein 5 (NS5) is the largest non-structural protein from flaviviruses. The N-terminal of NS5 encodes the viral methyltransferase, while the C-terminal encodes an RNA-dependent RNA polymerase (RdRp) [[3](https://doi.org/10.1038/ncomms14764)]. The RdRp is responsible for synthesizing a complementary negative-sense RNA strand that can then be used as a template to produce extra positive-sense RNA genomes. Not only critical to viral replication, the flaviviruses RdRp is also a highly conserved multidomain protein, therefore being one of the most valuable targets for the development of new antivirals, including nucleoside and non-nucleoside analogs [[4](https://doi.org/10.1016/j.sbi.2019.02.014)]. 
+  conclusion: >
+    Here we have established a purification protocol for recombinant 
+    Truncated ZIKV RdRp from Zika viruses and established a robust crystallisation suitable for fragment screening
+  
+  resources:
+      # Construct / plasmid resource
+      - name: Truncated ZIKV RdRp construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+        # Brief description of the plasmid
+        description: This protein construct yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.9 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+        # Date it was provided
+        date: TBD
+        # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+        type: plasmid
+        protocol: |
+          A synthetic DNA fragment of the ZIKV NS5 (GenBank: AY632535.2) was codon optimized and synthesized by Genscript. The truncated version for crystallization was amplified using primers 5′-CAGGGCGCCATGTACCATGGGAGCTACGAAGC-3′ and 5′-GACCCGACGCGGTTACAACACTCCGGGTGTGG-3′ and inserted into the expression vector pETTrx-1a/LIC by ligation-independent cloning, as previously described [[3](https://doi.org/10.1038/ncomms14764)].
+        details: |
+          Construct protein sequence: 
+          YHGSYEAPTQGSASSLVNGVVRLLSKPWDVVTGVTGIAMTDTTPYGQQRVFKEKVDTR
+          VPDPQEGTRQVMNIVSSWLWKELGKRKRPRVCTKEEFINKVRSNAALGAIFEEEKEWK
+          TAVEAVNDPRFWALVDREREHHLRGECHSCVYNMMGKREKKQGEFGKAKGSRAIWYMW
+          LGARFLEFEALGFLNEDHWMGRENSGGGVEGLGLQRLGYILEEMNRAPGGKMYADDTA
+          GWDTRISKFDLENEALITNQMEEGHRTLALAVIKYTYQNKVVKVLRPAEGGKTVMDIIS
+          RQDQRGSGQVVTYALNTFTNLVVQLIRNMEAEEVLEMQDLWLLRKPEKVTRWLQSNGW
+          DRLKRMAVSGDDCVVKPIDDRFAHALRFLNDMGKVRKDTQEWKPSTGWSNWEEVPFCS
+          HHFNKLYLKDGRSIVVPCRHQDELIGRARVSPGAGWSIRETACLAKSYAQMWQLLYFH
+          RRDLRLMANAICSAVPVDWVPTGRTTWSIHGKGEWMTTEDMLMVWNRVWIEENDHMED
+          KTPVTKWTDIPYLGKREDLWCGSLIGHRPRTTWAENIKDTVNMVRRIIGDEEKYMDYL
+          STQVRYLGEEGSTPGVL
