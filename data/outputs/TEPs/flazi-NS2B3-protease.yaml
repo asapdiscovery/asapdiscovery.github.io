@@ -152,7 +152,7 @@ TEP:
         <a href="/pdfs/PAGE22-01756 - ASAP; Dengue, Zika and West Nile NS2B3; First round crystallization.pdf" download>Download experimental metadata</a>
         * Vector: pNIC-NHStIIT
         * Entry clone accession: 
-        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
@@ -172,7 +172,8 @@ TEP:
       projects: [Project 2]
       # Contributors / authors
       contributors:
-      - TBD
+      - Michael Fairhead
+      - Xiaomin Ni
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
@@ -189,6 +190,13 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+        NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWAVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
+        
         Enzyme: ZV-NS2BgsgNS3
 
         Substrate:
@@ -233,6 +241,7 @@ TEP:
         |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
         |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
 
+
     - name: Initial crystallography with NS2B3 fusion protein expressed from QQ01ZVNS2B-c002 diffracted to 4.36 Å and not suitable for fragment soaking.
       description:  
       date: 2022-11-26
@@ -243,6 +252,7 @@ TEP:
       protocol: >
         ZIKA NS2B3 was concentrated to a final concentration of 33 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 1000, 0.1 M SPG, pH 47.0 (Molecular Dimensions) at 20^o^C. One crystal was obtained after 28 days. 
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and [xia2 3dii](https://doi.org/10.1107/s0907444913015308).
+
       details: |
         <a href="/pdfs/PAGE22-01614 - AVIDD ASAP; NS2B-GSG-NS3 fusions for assays.pdf" download>Download experimental metadata</a>
  
@@ -275,7 +285,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        ZIKV NS2B3 was concentrated to a final concentration of 15 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 2000, 0.2 M Ammonium sulphate and 0.1 M acetate buffer, pH 4.8 (Molecular Dimensions). Fragments were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, XX% DMSO); drops were incubated for approximately XX hours before mounting and flash-freezing in liquid nitrogen. 
+        ZIKV NS2B3 was concentrated to a final concentration of 15 mg/ml and apo crystals were grown in crystallisation solution containing 30% PEG 2000, 0.2 M Ammonium sulphate and 0.1 M acetate buffer, pH 4.8 (Molecular Dimensions). Fragments (libraries: DSIPoised, Probing all fragments, SpotXplorer, CovHetLib) were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, XX% DMSO); drops were incubated for approximately XX hours before mounting and flash-freezing in liquid nitrogen. 
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400).

@@ -38,9 +38,9 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* 
-* TBD
+* **[Andre de Godoy, University of Sao Paulo](https://scholar.google.com/citations?user=1bIgVeMAAAAJ&hl=en)**: *Structural insights on the SARS-CoV-2 Main Protease maturation process and inhibition*
 
 # Past Presentations
 
