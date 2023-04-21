@@ -35,10 +35,10 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 
-**Wed 21 June 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+**Wed 17 May 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
-*Moderator:* [**Frank von Delft, Diamond Light Source**](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html)
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Mauro Teixeira, UFMG](https://scholar.google.com/citations?user=njJyXhsAAAAJ&hl=en)**: *Anti-inflammatory drugs for infectious diseases: the case for pro-resolving molecules*  
 * **TBD**
 
