@@ -35,28 +35,34 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 
-**Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+**Wed 21 June 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* 
-* **[Andre de Godoy, University of Sao Paulo](https://scholar.google.com/citations?user=1bIgVeMAAAAJ&hl=en)**: *Structural insights on the SARS-CoV-2 Main Protease maturation process and inhibition*
+*Moderator:* [**Frank von Delft, Diamond Light Source**](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html)
+* **[Mauro Teixeira, UFMG](https://scholar.google.com/citations?user=njJyXhsAAAAJ&hl=en)**: *Anti-inflammatory drugs for infectious diseases: the case for pro-resolving molecules*  
+* **TBD**
 
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+* 
+<a name="2023-april"></a>
+
+**Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*<br> 
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* **[[Video]](https://youtu.be/Q4wl1S-3WWE)**
+* **[Andre de Godoy, University of Sao Paulo](https://scholar.google.com/citations?user=1bIgVeMAAAAJ&hl=en)**: *Structural insights on the SARS-CoV-2 Main Protease maturation process and inhibition* **[[Video]](https://youtu.be/cKlGMGWotCE)** **[[Slides]](https://zenodo.org/record/7853715#.ZELyD-zML0o)** 
 
 <a name="2023-march"></a>
 
-**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)*
-
+**Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)*<br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors* **[[Video]](https://www.youtube.com/watch?v=boaTNFr7k_8)**
 * **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** **[[Slides]](https://zenodo.org/record/7781958#.ZCRJa-zML0o)** 
 
 <a name="2023-feb"></a>
 
-**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*  
+**Wed 15 Feb 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*<br>
 *Moderator:* [**John Chodera**](http://choderalab.org) ([MSKCC](http://mskcc.org))
 * **[Brian Shoichet, UCSF](https://bkslab.org/) ([QBI Coronavirus Research Group](https://qcrg.ucsf.edu/))**: *False-positives in anti-viral drug discovery: mechanistic bases and rapid counterscreening assays* **[[Video]](https://www.youtube.com/watch?v=aZ-60is_yTs)** **[[Aggregator Advisor]](https://advisor.bkslab.org/)**
 * **[Jesse Bloom, Fred Hutch](https://research.fredhutch.org/bloom/en.html?_gl=1*1yavwop*_ga*OTA1MTQwMjA4LjE2NzUwODY5Mzk.*_ga_CMZTF4L2MS*MTY3NTA4NjkzOS4xLjEuMTY3NTA4Njk0OS4wLjAuMA..&_ga=2.174333858.1431722787.1675086940-905140208.1675086939) ([ASAP](https://asapdiscovery.org/))**: *Fitness effects of mutations to SARS-CoV-2 proteins* **[[Video]](https://www.youtube.com/watch?v=mxwonR3Ky44)** **[[Slides]](https://zenodo.org/record/7651363#.Y-_r8ezML0o)** **[[Interactive Slides](https://slides.com/jbloom/sars2-mut-fitness)** **[[Interactive Data Browser]](https://jbloomlab.github.io/SARS2-mut-fitness/)** **[[Preprint]](https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1 )**
