@@ -11,3 +11,8 @@ TEP:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPDFMAR
     program_nickname: ASAP-DENV-NS3-HELICASE   
+  gene: AF404756.1
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: A0A142I5B9
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.6.4.13

@@ -12,6 +12,11 @@ TEP:
     program_nickname: ASAP-WNV-NS2B-NS3
   # Target nominator
   nominator: Karla Kirkegaard
+  gene: AF404756.1
+  # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
+  uniprot: Q9Q6P4
+  # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: 3.4.21.91
   # Lead investigator at Diamond
   investigator: Frank von Delft
   # Therapeutic area
@@ -61,8 +66,86 @@ TEP:
       projects: [Project 2]
       # Contributors / authors
       contributors:
-      - Michael Fairhead
-      - Ekaterina Kot
+
+      - TBD
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: |
+        * Thaw enzymes on ice and centrifuged 5 min, 4 C, 15000 rpm.
+        * Prepare 0.2 µM of 2X enzyme in volume of 10 µl per well.
+        * Prepare 10 µM of 2X substrate in volume of 10 µl per well.
+        * Dispense 10 µl buffer to positive control wells (wells 1,23 - no enzyme, no compound). 
+        * Dispense 10 µl enzyme to wells 2-22,24 (wells 2,24 negative control: enzyme + substrate, no compound)
+        * Briefly spin down plate and incubate for 2 hours in RT.
+        * Dispense 10 µl substrate to full plate.
+        * Briefly spin down plate and incubate for 30 min in RT.
+        * Read in Pherastar plate reader (BMG) in Ex: 360nm, Em: 470nm, Gain 300.
+      
+        Purification Protocol:
+        * Base Buffer: 10 mM HEPES pH7.5, 500 mM NaCl, 5 % glycerol, 0.5 mM TCEP
+        * Dissolved pellet (114.2g) in 500mL Base Buffer (+5mM imidazole). Sonicate (5sec on/5sec off for 15 min)
+        * Centrifuge 30,000g 1hr 12C
+        * Add supernatant to 12mL of TALON resin
+        * Incubate while spinning for 20min at 4C
+        * Centrifuge 1,000g 10min 12C
+        * Pack into a column
+        * Wash 1: 500mL of Base Buffer with 5mM imidazole
+        * Wash 2: 250mL of Base Buffer with 15mM imidazole
+        * Elution: 30mL of Base Buffer with 150mM imidazole
+        * Concentration: 1.474 mg/mL (30mL) [44mg yield]
+        * Protein flash frozen and stored at -80C
+        * Dialyze 30mL sample o/n against 4L of Base Buffer after adding 1:10 TEVsh
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        <a href="/pdfs/flawn_n2b3 - ASAP WNV mutant  live Purification.pdf" download>Download experimental metadata</a>
+
+        Enzyme: WNV-NS2BgsgNS3
+
+        Substrate:
+        * Boc-Gly-Arg-Arg-AMC
+        * CAS [113866-14-1(free base)]
+        * Biosynth (FB110553)
+        * 0.9 mg dissolved in 140 µL of DMSO and aliquoted to 50 ul --> stored at -80C as 10mM
+        
+        Buffer: Enzymes storage buffer 10 mM HEPES pH 7.3, 500 mM NaCl, 5% glycerol, 0.5 mM TCEP.
+        
+        Assay Buffer (final conc. In plate):
+        * 10 mM HEPES pH 7.3
+        * 50 mM NaCl
+        * 5 % glycerol
+        * 1 mM TCEP
+        * 0.05 % Igepal
+        
+        Glycerol, Igepal and TCEP are added to the assay buffer before each run.
+
+        Design:
+        * 10 µL of 10 µM substrate + 10 µL of 0.2 µM enzyme in assay buffer 
+        * (final assay volume: 20 µl). 
+        * Inhibitor compounds were pre-dispensed (from DMSO stock) in duplicates to 384 small volume, black plate (Greiner-784076) and stored in -20 until use (control wells - DMSO only, no compounds). 
+        * Dispensing performed using the GNF dispenser
+
+        Sequence: SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQL
+        MNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSY
+        QAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKL
+        QHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSG
+        SPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
+
+        MW: 26401.64, Conc (uM): 227, Extinction Coefficient: 54430
+
+        Example Plate Layout:
+        
+        |   Compounds conc. (µM)   |       |   1                        |                 2                |   3                                        |   ….                                       |   22                                       |   23                       |   24                             |
+        |--------------------------|-------|----------------------------|:--------------------------------:|--------------------------------------------|--------------------------------------------|--------------------------------------------|----------------------------|----------------------------------|
+        |   100                    |   A   |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |
+        |   50                     |   B   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |   25                     |   C   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+        |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
+    - name: Inactive assay construct QQ01WNVNS2B-c002 with His to Ala mutation 
+
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
@@ -86,7 +169,7 @@ TEP:
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWAGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK 
-        - name: Inactive assay construct QQ01WNVNS2B-c002 with His to Ala mutation 
+        
       # Brief description of the plasmid
       description:  Construct expressing the NS2B cofactor fused to the NS3 protease from West nile virus used as negative controle for FRET assay and in initial crystallography studies. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided

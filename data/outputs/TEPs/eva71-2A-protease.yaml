@@ -11,11 +11,11 @@ TEP:
     program_code: ASAPPTBOAM
     program_nickname: ASAP-EVA71-2APRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  #gene: 
+  gene: JN544418.1
   # Uniprot ID:
-  #uniprot:
+  uniprot: Q66479
   # EC ID
-  #EC: 
+  EC: 3.4.22.29
   # Generic URL source
   gene_url: https://www.ncbi.nlm.nih.gov/nuccore/JN544418
   # Target nominator
