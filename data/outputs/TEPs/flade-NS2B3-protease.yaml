@@ -31,12 +31,106 @@ TEP:
   - Daren Fearon
   - Haim Barr
   - Jasmin Aschenbrenner
+  - Lucas Ferreira
   - Michael Fairhead
   - Noa Lahav
   - Peter Marples
-  - Ryan Lithgo 
+  - Ryan Lithgo
+  - Tamas Szommer
   - Xiaomin Ni
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    This TEP is being compiled to provide early tools to develop NS3 protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    NS2B/3 performs all cleavages on the cytoplasmic side of the polyprotein.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    This is a summary of the work we have done on the NS2b-NS3 protease from Dengue viruses to date.
+  # List of resources associated with this TEP
   resources:
+    # Construct / plasmid resource
+    - name: Crystallography construct QQ01D2VNS2B-c001
+      # Brief description of the plasmid
+      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Dengue virus used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWHVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
+     - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
+      # Brief description of the plasmid
+      description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used as negative controle for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        Transformed BL21[DE3]RR with plasmid
+        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+        Harvested 4000 g 20 minutes
+        Froze pellet -80^o^C (approx 45 g wcw/L)
+        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+        Centrifuge 30,000g 1 h 12^o^C
+        Apply soluble fracction to 5 mL Ni-Speharose FF
+        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWAVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
       - name: Protease Assay
         # Date it was provided
         date: date TBD
@@ -50,7 +144,8 @@ TEP:
         projects: [Project 2]
         # Contributors / authors
         contributors:
-        - TBD
+        - Noa Lahav
+        - Haim Barr
         # Detailed expression protocol associated with this plasmid
         # This is Markdown: See https://www.markdownguide.org/ for guide    
         # TODO: In future, this should be a protocols.io link
@@ -115,3 +210,19 @@ TEP:
         date: 22-10-19
         # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
         type: xray-fragment-screen
+        url: N/A
+        projects: [Project 2]
+        cores: [Structural Biology Core]     
+        protocol: >
+          Plate format: Swiss CI 3 lens
+          Screen: 20% PEG6000, 10% ethylene glycol, 0.01M zinc chloride (Ligand Friendly Screen, Molecular Dimensions)
+          Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+          Concentration: 49 mg/ml
+          Reservoir volume: 30 µl
+          Protein needed: 40 µl per full plate
+          Drop ratio:  1:1 ratio of protein: reservoir solution
+                       75nl of NS2B3: 75nl reservoir solution
+          Final volume: 150 nl
+          Incubation temperature: 20°C in Formulatrix
+          Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections. 
+          Size:  Platelets
