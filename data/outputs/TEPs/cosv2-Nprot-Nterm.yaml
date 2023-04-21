@@ -18,29 +18,30 @@ TEP:
   # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   EC: TBD
   # Target nominator
-  nominator: TBD
+  nominator: Jakub Luptak
   # Lead investigator at Diamond
-  investigator: TBD
+  investigator: Frank von Delft
   # Therapeutic area
   therapeutic_area: Infectious diseases
   # Disease relevance statement
-  disease_relevance: TBD
+  disease_relevance: Infectious diseases
   # List of authors
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - TBD
+  - Jakub Luptak
+  - Leo James
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
-    TBD
+    This TEP currently contains the information of the work done by Jakub Luptak on characterizing SARS-CoV2 N-protein.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
-    TBD
+    Nucleocapsid protein undergoes several assembly and disassembly events during the viral infectious cycle. Within virions, it protects the RNA genome. Its oligomeric structure must be dismantled to release viral RNA during cell entry, then newly synthesized protein must assemble to make new virions.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
-    TBD
+    TEP still in progress.
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
@@ -59,27 +60,17 @@ TEP:
       projects: [Project 2]
       # Contributors / authors
       contributors:
-      - TBD
+      - Jakub Luptak
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
         Expression conditions:
-
-    
         Plasmid was transformed into C41 competent E. coli and single colony used to inoculate an overnight starter culture (100 mL in LB). Next morning, N x 0.5 L of ZYP-5052 autoinduction media (with 1X Ampicillin) were inoculated 1:100 with the starter culture. Cultures were then incubated for 3 hours at 37 °C after which the cells were cooled down to 25C and left to grow overnight. In the morning cells were pelleted by centrifugation (25 min; 5000rpm any compatible centrifuge). Pellet was snap frozen in liquid nitrogen until processed.
-      
-
         Lysis:
-
-
         Pellet was resuspended in Lysis buffer to achieve a final volume of ~150 mL. To achieve complete lysis, resuspended cells were sonicated on ice at 70% amp, 5s on 10s off for 7 minutes. Soluble protein had been recovered by centrifugation (18 000rpm in JA25.50 rotor for 45 minutes).
         Lysis buffer: 1 M NaCl, 10 mM Imidazole, 50 mM Tris pH 8, 2 mM DTT, cOmplete Roche Protease inhibitor tablets, 15% v/v 1XBugBuster+Benzonase
-
-
         IMAC:
-
-
         Soluble protein was applied onto a gravity flow column, which has been prepared with 10 mL of Ni-NTA Agarose (5 mL of beads) washed in Buffer B. The lysate was allowed to drip slowly through the resin and the flow through collected for analysis. Next, the column was washed in 100 mL of Buffer B and collected as Wash. Finally, the protein was eluted with Buffer E in 3 mL fractions (total ~24 ml)
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
@@ -90,11 +81,9 @@ TEP:
           * Theoretical pI: 9.60	
           * Ext. coefficient    16960	
           * Abs 0.1% (=1 g/l)   1.208
-
         Sequence: MAHHHHHHMSAAEASKKPRQKRTATKAYNVTQAFGRRGPEQTQG
         NFGDQELIRQGTDYKHWPQIAQFAPSASAFFGMSRIGMEVTPSGTWLTYTGAIK
         LDDKDPNFKDQVILLNKHIDAYKTFP
-
 
         p1127-pOPTH-Covid-19-NP-Cterm Map_N-prot sequence:
         AGCGCAGCAGAAGCAAGCAAAAAACCGCGTCAGAAACGTACCGCAACCAAAGCA
@@ -105,10 +94,7 @@ TEP:
         ATGATAAAGATCCGAACTTCAAGGATCAGGTGATTCTGCTGAACAAACATATCGA
         TGCCTATAAAACATTTCCG
 
-
         Buffer B: 300 mM NaCl, 10 mM Imidazole, 50 mM Tris pH 8, 1 mM DTT
-        
-        
         Buffer E: 300 mM NaCl, 400 mM Imidazole, 50 mM Tris pH 8, 1 mM DTT   
         ![image](/img/tep_images/sars2_nprot_example_gel_1.png)
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
@@ -124,47 +110,28 @@ TEP:
         N-protein crystallization conditions:
 
         * Protein Buffer - 50 mM Tris pH 8, 300 mM NaCl, 1 mM DTT
-        
         * Reservoir Solution - 23 % PEG 4000, 0.1 M HEPES pH 7.8, 10 % isopropanol
-
         * protein concentration - 20 mg/mlSeed stock - 1/100 dilution
-
         * Reservoir well volume - 30 ul
-
         * Drop volume - 400 nl
-
         * Protein volume in drop - 200 nl
-
         * Reservoir volume in drop - 170 nl
-
         * seed volume in drop - 30 nl 
-
         * Temperature: 20°C
-
         * visible growth in 12 hours, full growth in 36 hours
-
         * DMSO tolerance: 20%
-
         * Average resolution (Å): 1.7
-
         * Crystal morphology: Bi-pyramid
-
 
         Steps:
 
         * Prepare working stock (10X) of p1127; 140 uM in Assay buffer without DMSO
-        
         * Prepare compound dilutions in a 96 well plate, need 45 uL per well. If running a duplicate with blank dilution for compound fluorescence prepare 200 uL of each concentration. Normally I was doing a 1:1.5 dilution series to get a good coverage at the higher concentrations for weak compounds.  
-        
         * Pipette 5 uL of 10X protein into 384 well plate for compound titrations 
-          * (if needed) Pipette 5 uL of assay buffer into 384 well plate for blank titrations 
-        
+        * (if needed) Pipette 5 uL of assay buffer into 384 well plate for blank titrations 
         * Pipette 45 uL of compound dilution on top of the 5 uL of 10X protein, including just assay buffer+DMSO
-        
         * Equilibrate for 10 min 
-        
         * Read fluorescence at 350nm
-        
         * If needed subtract compound fluorescence and fit using 4 parameter dose-response in Prism. 
       details: |
         Assay buffer: 150 mM NaCl, 50 mM Tris pH 8, 1 mM DTT(usually prepared as aliquots of 10X, frozen and thawed for use). DMSO added to 1-5% v/v depending on compounds.
