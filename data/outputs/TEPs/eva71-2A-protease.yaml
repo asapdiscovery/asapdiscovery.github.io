@@ -30,4 +30,61 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Lizbé Koekemoer
+  - Michael Fairhead
+  - Ryan Lithgo
+  - Andre de Godoy
+  - Blake Balcomb
+  - Charlie Tomlinson
+  - Daren Fearon
+  - Haim Barr
+  - Jasmin Aschenbrenner
+  - Lucas Ferreira
+  - Lizbé Koekemoer  
+  - Noa Lahav
+  - Peter Marples
+  - Tamas Szommer
+  - Xiaomin Ni
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    This TEP is being compiled to provide early tools to develop 2A protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    The first cleavage in the enterovirus polyprotein is made by 2A protease's cleaving itself from the capsids. This enables capsid protein folding.  When inhibited, capsid protein folding is deranged.
+    2A also cleaves many host proteins, notably eIF4G. Not only does this inhibit the translation of capped (host) transcripts, but a fragment of eIF4G specifically activates viral translation.  There are several other host targets as well.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    This is a summary of the work we have done on the Enterovirus A71 2A protease to date.
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: Crystallography construct A71EV2A-c012
+      # Brief description of the plasmid
+      description:  Construct expressing SUMO-fused 2A protease.
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: 
+        * Tags and additions: SUMO-tag
+        * Construct protein sequence: 
+          SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
