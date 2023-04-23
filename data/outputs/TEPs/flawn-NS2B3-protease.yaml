@@ -208,3 +208,25 @@ TEP:
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWATTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
+    - name: Initial Crystallography with NS2B and NS3 coexpressed protein.
+      description: |
+        The NS2B-NS3 fusion protein with the catalytically important His mutated to Ala crystallized in various coarse screen conditions. We obtained crystal which diffracted to 1.6 Å, but it is unsuitable for fragment soaking since the active site is occluded. PDB to be released: 8CO8.
+      date: 2022-11-26
+      type: xray-fragment-screen
+      url: N/A
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Plate format: Swiss CI 3 lens
+        Screen: 0.12M Monosaccharides--0.1M Buffer System 3 pH8.5--50% v/v Precipitant Mix 4 (Morpheus)
+        Buffer: 25mM HEPES, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+        Concentration: 94 mg/ml
+        Reservoir volume: 30 µl
+        Protein needed: 40 µl per full plate
+        Drop ratio:  1:2 ratio of protein: reservoir solution
+                    50nl of NS2B3: 100nl reservoir solution
+        Final volume: 150 nl
+        Incubation temperature: 20°C in Formulatrix
+        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
+        Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
+        Size:  ~75-100um in length, width and depth
