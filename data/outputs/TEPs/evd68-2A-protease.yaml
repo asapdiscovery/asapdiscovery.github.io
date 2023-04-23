@@ -11,11 +11,11 @@ TEP:
     program_code: ASAPPWAUTP
     program_nickname: ASAP-EVD68-2APRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  #gene: 
+  gene: KM881710.2
   # Uniprot ID:
-  #uniprot:
+  uniprot: Q68T42
   # EC ID
-  #EC: 
+  EC: 3.4.22.29
   # Generic URL source
   gene_url: https://www.ncbi.nlm.nih.gov/nuccore/KM881710
   # Target nominator
