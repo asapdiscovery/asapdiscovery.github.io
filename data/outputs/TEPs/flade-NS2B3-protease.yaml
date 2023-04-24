@@ -11,7 +11,9 @@ TEP:
     program_code: ASAPPOWITW
     program_nickname: ASAP-DENV-NS2B-NS3
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  gene: 2155258
+  gene: U87411.1
+  EC: 3.4.21.91 
+  uniprot: P14340
   # Target nominator
   nominator: Karla Kirkegaard
   # Lead investigator at Diamond
@@ -29,8 +31,198 @@ TEP:
   - Daren Fearon
   - Haim Barr
   - Jasmin Aschenbrenner
+  - Lucas Ferreira
   - Michael Fairhead
   - Noa Lahav
   - Peter Marples
-  - Ryan Lithgo 
+  - Ryan Lithgo
+  - Tamas Szommer
   - Xiaomin Ni
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    This TEP is being compiled to provide early tools to develop NS3 protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    NS2B/3 performs all cleavages on the cytoplasmic side of the polyprotein.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    This is a summary of the work we have done on the NS2b-NS3 protease from Dengue viruses to date.
+  # List of resources associated with this TEP
+  resources:
+  # Construct / plasmid resource
+  - name: Crystallography construct QQ01D2VNS2B-c001
+    # Brief description of the plasmid
+    description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Dengue virus used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+    # Date it was provided
+    date: 2022-10-24
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: plasmid
+    # URL pointing to resource
+    # For a plasmid, this should be an AddGene entry
+    url: N/A 
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Michael Fairhead
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
+    protocol: >
+      Transformed BL21[DE3]RR with plasmid
+      Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+      Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+      Harvested 4000 g 20 minutes
+      Froze pellet -80^o^C (approx 45 g wcw/L)
+      Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+      Centrifuge 30,000g 1 h 12^o^C
+      Apply soluble fracction to 5 mL Ni-Speharose FF
+      Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+      Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+    # Details associated with this plasmid
+    # TODO: Eliminate this, since this duplicative of the AddGene site.
+    details: |
+      * Vector: pNIC-NHStIIT
+      * Entry clone accession: 
+      * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
+      * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+      * Construct protein sequence: 
+        NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWHVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
+  - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
+    # Brief description of the plasmid
+    description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used as negative controle for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+    # Date it was provided
+    date: 2022-10-24
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: plasmid
+    # URL pointing to resource
+    # For a plasmid, this should be an AddGene entry
+    url: N/A 
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Michael Fairhead
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
+    protocol: >
+      Transformed BL21[DE3]RR with plasmid
+      Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
+      Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
+      Harvested 4000 g 20 minutes
+      Froze pellet -80^o^C (approx 45 g wcw/L)
+      Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
+      Centrifuge 30,000g 1 h 12^o^C
+      Apply soluble fracction to 5 mL Ni-Speharose FF
+      Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
+      Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+    # Details associated with this plasmid
+    # TODO: Eliminate this, since this duplicative of the AddGene site.
+    details: |
+      * Vector: pNIC-NHStIIT
+      * Entry clone accession: 
+      * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
+      * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
+      * Construct protein sequence: 
+        NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWAVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
+  - name: Protease Assay
+    # Date it was provided
+    date: date TBD
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: assay
+    # URL pointing to resource
+    # For a plasmid, this should be an AddGene entry
+    url:  
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Noa Lahav
+    - Haim Barr
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
+    protocol: |
+      * Thaw enzymes on ice and centrifuged 5 min, 4 C, 15000 rpm.
+      * Prepare 0.2 µM of 2X enzyme in volume of 10 µl per well.
+      * Prepare 10 µM of 2X substrate in volume of 10 µl per well.
+      * Dispense 10 µl buffer to positive control wells (wells 1,23 - no enzyme, no compound). 
+      * Dispense 10 µl enzyme to wells 2-22,24 (wells 2,24 negative control: enzyme + substrate, no compound)
+      * Briefly spin down plate and incubate for 2 hours in RT.
+      * Dispense 10 µl substrate to full plate.
+      * Briefly spin down plate and incubate for 30 min in RT.
+      * Read in Pherastar plate reader (BMG) in Ex: 360nm, Em: 470nm, Gain 300.
+    # Details associated with this plasmid
+    # TODO: Eliminate this, since this duplicative of the AddGene site.
+    details: |
+      Enzyme: DV2-NS2BgsgNS3
+
+      Substrate:
+      * Bz-Nle-Lys-Lys-Arg-AMC
+      * CAS # 863975-32-0
+      * Cayman (#27710)
+      * 5 mg dissolved in 600 µL of DMSO and aliquoted to 50 ul --> stored at -80C as 10mM
+      
+      Buffer: Enzymes storage buffer 10 mM HEPES pH 7.3, 500 mM NaCl, 5% glycerol, 0.5 mM TCEP.
+      
+      Assay Buffer (final conc. In plate):
+      * 10 mM HEPES pH 7.3
+      * 50 mM NaCl
+      * 5 % glycerol
+      * 1 mM TCEP
+      * 0.05 % Igepal
+      
+      Glycerol, Igepal and TCEP are added to the assay buffer before each run.
+
+      Design:
+      * 10 µL of 10 µM substrate + 10 µL of 0.2 µM enzyme in assay buffer 
+      * (final assay volume: 20 µl). 
+      * Inhibitor compounds were pre-dispensed (from DMSO stock) in duplicates to 384 small volume, black plate (Greiner-784076) and stored in -20 until use (control wells - DMSO only, no compounds). 
+      * Dispensing performed using the GNF dispenser
+
+      Sequence: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNE
+      EEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGA
+      GVYKEGTFHTMWHVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKE
+      GEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKG
+      KVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
+
+      MW: 25849.03, Conc (uM): 217, Extinction Coefficient: 41940
+
+      Example Plate Layout:
+      
+      |   Compounds conc. (µM)   |       |   1                        |                 2                |   3                                        |   ….                                       |   22                                       |   23                       |   24                             |
+      |--------------------------|-------|----------------------------|:--------------------------------:|--------------------------------------------|--------------------------------------------|--------------------------------------------|----------------------------|----------------------------------|
+      |   100                    |   A   |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |    5 µM substrate +buffer  |   5 µM substrate +0.1 µM enzyme  |
+      |   50                     |   B   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+      |   25                     |   C   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+      |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+      |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
+      |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
+  - name: First round crystallization
+    # Date it was provided
+    date: 22-10-19
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: xray-fragment-screen
+    url: N/A
+    projects: [Project 2]
+    cores: [Structural Biology Core]     
+    protocol: >
+      Plate format: Swiss CI 3 lens <br>
+      Screen: 20% PEG6000, 10% ethylene glycol, 0.01M zinc chloride (Ligand Friendly Screen, Molecular Dimensions) <br>
+      Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol <br>
+      Concentration: 49 mg/ml <br>
+      Reservoir volume: 30 µl <br>
+      Protein needed: 40 µl per full plate <br>
+      Drop ratio:  1:1 ratio of protein: reservoir solution <br>
+                    75nl of NS2B3: 75nl reservoir solution <br>
+      Final volume: 150 nl <br>
+      Incubation temperature: 20°C in Formulatrix <br>
+      Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.  <br>
+      Size:  Platelets

@@ -11,7 +11,9 @@ TEP:
     program_code: ASAPPTPOAP
     program_nickname: ASAP-EVA71-3CLPRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  gene: YP_009505605.1
+  gene: JN544418.1
+  EC: 3.4.22.28
+  uniprot: Q66479
   # Target nominator
   nominator: Alpha Lee
   # Lead investigator at Diamond
@@ -44,3 +46,36 @@ TEP:
   #  Conclusion goes here.
   # List of resources associated with this TEP
   resources:
+    - name: Crystallization
+      description: Optimised conditions to reproduce crystals for fragment screening.
+      date: 2023-02-28
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      # TODO: Create category for "crystallization conditions".
+      # TODO: Move this to protocols.io
+      type: xray-fragment-screen
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: |
+        Plate format: SwissCI 3 lens
+
+        Screen: 0.1M Tris (pH 8.50), 0.2M Magnesium Cloride Hexahydrate, 30% w/v PEG 4000
+
+        Reservoir volume: 30 μl
+
+        Protein needed: 43.2ul per full plate
+
+        Drop ratio:  1:1
+
+        EVA71: 150nl
+
+        Final volume: 300 nl
+
+        Incubation temperature: 20°C in Formulatrix
+
+        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections. Crystal typically form after ~24hrs, after which they have reached the maximum size typically however precipitant often remains. Crystals typically form on their own. Crystals are sturdy and can be manipulated in solution readily.
+        
+        Morphology: typically thin rectangles with pointed ends.
+        
+        Size: ~50um in length and ~25um in width, depth of the crystals is ~5um, giving a glass shard appearance:
+        ![image](/img/tep_images/eva71_cystal.png)

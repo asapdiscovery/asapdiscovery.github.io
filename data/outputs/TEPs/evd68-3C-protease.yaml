@@ -11,7 +11,9 @@ TEP:
     program_code: ASAPPSOTNS
     program_nickname: ASAP-EVD68-3CLPRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
-  gene: NP_042242.1
+  gene: NP_042242.1 
+  EC: 3.4.22.28
+  uniprot: Q68T42
   # Target nominator
   nominator: Alpha Lee
   # Lead investigator at Diamond
