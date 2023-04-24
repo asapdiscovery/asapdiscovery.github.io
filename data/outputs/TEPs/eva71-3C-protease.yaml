@@ -26,7 +26,20 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-  - Lizbé Koekemoer
+  - Michael Fairhead
+  - Ryan Lithgo
+  - Andre de Godoy
+  - Blake Balcomb
+  - Charlie Tomlinson
+  - Daren Fearon
+  - Haim Barr
+  - Jasmin Aschenbrenner
+  - Lucas Ferreira
+  - Lizbé Koekemoer  
+  - Noa Lahav
+  - Peter Marples
+  - Tamas Szommer
+  - Xiaomin Ni
   #fragscreen_pdb_group_decomposition: 
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
@@ -43,9 +56,131 @@ TEP:
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   #conclusion: >
-  #  Conclusion goes here.
+  #  This is a summary of the work we have done on the Enterovirus A71 3C protease to date.
   # List of resources associated with this TEP
   resources:
+    # Construct / plasmid resource
+    - name: A71EV3CPROA-c001
+      # Brief description of the plasmid
+      description:  Construct for enzyme assays crystallography.
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >      
+        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. For protein crystallization protein was exchanged into a buffer of 10 mM Bicine pH 8.5, 500 mM NaCl, 5 % Glycerol, 0.5 mM TCEP to allow a higher final protein concentration.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: 
+        * Tags and additions: His-tag
+        * Construct protein sequence: 
+          MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
+    - name: A71EV3CPROA-c002 
+      # Brief description of the plasmid
+      description:  Inactive C2A mutant for for enzyme assays.
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >      
+        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. For protein crystallization protein was exchanged into a buffer of 10 mM Bicine pH 8.5, 500 mM NaCl, 5 % Glycerol, 0.5 mM TCEP to allow a higher final protein concentration.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: 
+        * Tags and additions: His-tag
+        * Construct protein sequence: 
+          MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQAGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
+    - name: A71EV3CPROA-c003 
+      # Brief description of the plasmid
+      description:  Construct with Avi-tag for Biophysics
+      # Date it was provided
+      date: 2022-10-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url: N/A 
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >      
+        The construct was transformed into the E. coli strain BL21(DE3)-RR-BirA (pCDF-BirA), and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml) and streptomycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C. After 30 minutes 0.5 mM D-biotin was added and then after a further 30 minutes induction of protein expression was induced by adding 0.5 mM IPTG and growth continued overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase, 0.5 mM D-Biotin]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen,and stored at -80°C until required.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pNIC-NHStIIT
+        * Entry clone accession: 
+        * Cell line: 
+        * Tags and additions: His-Avi-tag
+        * Construct protein sequence: 
+          MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHHGLNDIFEAQKIEWHE
+    - name: Protease Assay
+      description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs: 336 nm; em: 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
+      # Date it was provided
+      date: 2023-04-24
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: assay
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url:  
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Charline Giroud
+      - Oleg Federov
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: 
+        Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol and 0.5 mM DTT (optional).
+        Incubation: 1 hour at room temperature.
+        EV-71 3C: protein stocks were stored at -80C and used as 2x solution (20 µM, 10 µM final assay concentration) in assay buffer.
+        Substrate: Dabcyl-IEALFQGPPKFRE-Edans (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
+        Positive control: GC376 (Pubchem CID 71481119), 50 µM top final assay concentration.
+        Plates: ProxiPlate-384 Plus, white, Greiner cat# 6008280.
+        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
+        Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
+        Protocol EV-A71 3C Pro:
+        Ten µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate and incubate with the enzyme for one hour at room temperature. Enzymatic reaction was initiated by the addition of 10 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 490 nm was read every 30 seconds for 2 hours in kinetic mode.
+        The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
     - name: Crystallization
       description: Optimised conditions to reproduce crystals for fragment screening.
       date: 2023-02-28
@@ -58,24 +193,14 @@ TEP:
       cores: [Structural Biology Core]
       protocol: |
         Plate format: SwissCI 3 lens
-
         Screen: 0.1M Tris (pH 8.50), 0.2M Magnesium Cloride Hexahydrate, 30% w/v PEG 4000
-
         Reservoir volume: 30 μl
-
         Protein needed: 43.2ul per full plate
-
         Drop ratio:  1:1
-
         EVA71: 150nl
-
         Final volume: 300 nl
-
         Incubation temperature: 20°C in Formulatrix
-
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections. Crystal typically form after ~24hrs, after which they have reached the maximum size typically however precipitant often remains. Crystals typically form on their own. Crystals are sturdy and can be manipulated in solution readily.
-        
         Morphology: typically thin rectangles with pointed ends.
-        
         Size: ~50um in length and ~25um in width, depth of the crystals is ~5um, giving a glass shard appearance:
         ![image](/img/tep_images/eva71_cystal.png)
