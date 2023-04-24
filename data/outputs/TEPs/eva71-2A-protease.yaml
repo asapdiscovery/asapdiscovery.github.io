@@ -13,7 +13,7 @@ TEP:
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: JN544418.1
   # Uniprot ID:
-  uniprot: Q66479
+  uniprot: Q66479 (closest match)
   # EC ID
   EC: 3.4.22.29
   # Generic URL source
@@ -62,7 +62,7 @@ TEP:
     # Construct / plasmid resource
     - name: Crystallography construct A71EV2A-c012
       # Brief description of the plasmid
-      description:  Construct expressing SUMO-fused 2A protease.
+      description:  His-tagged 2A protease.
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -79,6 +79,9 @@ TEP:
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
+      protocol: >
+        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The SUMO tag was removed by digestion with SENP1 protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, SUMO tagged protein and his tagged SENP1 was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected.
+        Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. 
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -87,4 +90,19 @@ TEP:
         * Cell line: 
         * Tags and additions: SUMO-tag
         * Construct protein sequence: 
-          SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
+          MHHHHHHGSGDQEAKPSTEDLGDKKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQGVPMNSLRFLFEGQRIADNHTPKELGMEEEDVIEVYQEQTGG//SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
+    - name: Initial crystal obtained that diffracted to 1.6 Å in C121 space group.
+      description:  
+      date: 2022-11-26
+      type: xray-fragment-screen
+      url: N/A
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Plate format: Swiss CI 3 lens
+        Screen: 0.5 M magnesiumformate 0.1 M HEPES pH 7.5  (condition B3 of Hampton Index screen)
+        Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+        Concentration: 12.5 mg/ml
+        Drop ratio:  2:1 ratio of protein: reservoir solution
+        Incubation: 4°C in Formulatrix for 4 days
+        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
