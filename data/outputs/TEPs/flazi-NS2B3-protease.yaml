@@ -157,8 +157,6 @@ TEP:
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
         - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
-
-
     - name: Protease Assay
       # Date it was provided
       date: 2022-10-24
@@ -278,8 +276,8 @@ TEP:
         Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
         Size:  ~75-100um in length, width and depth
     - name: Crystallographic fragment screening at the Diamond XChem facility
-      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of XX fragments, which yielded XX unique binders.
-      date: XX
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source. The analysis is still ongoing.
+      date: ongoing
       type: xray-fragment-screen
       url: N/A
       projects: [Project 2]
