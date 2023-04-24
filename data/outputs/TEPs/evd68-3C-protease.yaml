@@ -110,6 +110,8 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata</a>
+
         * Vector: pNIC
         * Entry clone accession: 
         * Cell line: E. coli Rosetta strain BL21(DE3)-RR

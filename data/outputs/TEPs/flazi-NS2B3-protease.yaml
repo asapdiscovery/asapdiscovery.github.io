@@ -289,3 +289,5 @@ TEP:
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400).
+      details: |
+        <a href="/pdfs/PAGE23-00345 - AVIDD ASAP; MVMPROA, ZVNS2B & A71EV2A xtal mounting,screening.pdf" download>Download experimental metadata</a>
