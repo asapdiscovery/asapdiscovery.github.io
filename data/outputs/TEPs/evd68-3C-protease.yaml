@@ -158,6 +158,10 @@ TEP:
           dose-response curve in Prism (v8.0) software.
 
           ![Example assay data](../img/outputs/EV-D68-3C-protease/dose_response.png)
+      details: |
+        <a href="/pdfs/PAGE23-00660 - EV-D68 3C pro vs GC376 IC50.pdf" download>Download experimental metadata 1</a>
+        <a href="/pdfs/TEP EV-D68 3C PAGE23-00660.pdf" download>Download experimental metadata 2</a>
+
 
     - name: Crystallization
       description: Optimised conditions to reproduce crystals for fragment screening.
