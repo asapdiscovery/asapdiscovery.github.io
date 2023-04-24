@@ -30,4 +30,19 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
+  - Michael Fairhead
   - Lizbé Koekemoer
+  - Charline Giroud
+  #fragscreen_pdb_group_decomposition: 
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The conserved 2A protease of enterovirus D68 is required to cleave the nonstructural region of the viral polyprotein.
+    This TEP aims to provide early tools for structure-based discovery of 3C protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause acute flaccid myelitis (AFM), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via CDC).
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  #conclusion: No viable constructs yet.
+  # This is a summary of the work we have done on the Enterovirus A71 3C protease to date.
