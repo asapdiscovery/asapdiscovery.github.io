@@ -64,7 +64,8 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: D68EV3CPROA-c001 
+    - name: Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21
+      scarab_id: D68EV3CPROA-c001 
       # Brief description of the plasmid
       description:  Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21. This protein yielded highly reproducible crystals upon 
         microseeding, which typically diffracted to 1.7 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
@@ -89,12 +90,15 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata</a>
+
         * Vector: pNIC
         * Entry clone accession: 
         * Cell line: E. coli Rosetta strain BL21(DE3)-RR
         * Tags and additions: C-terminal, non-cleavable hexahistidine
         * Construct protein sequence: MGPGFDFAQAIMKKNTVIARTEKGEFTMLGVYDRVAVIPTHASVGEIIYINDVETRVLDACALRDLTDTNLEITIVKLDRNQKFRDIRHFLPRCEDDYNDAVLSVHTSKFPNMYIPVGQVTNYGFLNLGGTPTHRILMYNFPTRAGQCGGVVTTTGKVIGIHVGGNGAQGFAAMLLHSYFTDTQKHHHHHH
-    - name: D68EV3CPROA-c002 
+    - name: Assay construct with Avi-tag for biophysics
+      scarab_id: D68EV3CPROA-c002 
       # Brief description of the plasmid
       description:  Assay construct with Avi-tag for biophysics
       # Date it was provided
@@ -103,7 +107,7 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: 
+      #url: 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -128,7 +132,7 @@ TEP:
       date: 2023-02-28
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: assay
-      url: 
+      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
@@ -144,6 +148,9 @@ TEP:
         Ten µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate and incubate with the enzyme for one hour at room temperature. Enzymatic reaction was initiated by the addition of 10 uL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 490 nm was read every 30 seconds for 2 hours in kinetic mode.
         The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
           ![Example assay data](../img/outputs/EV-D68-3C-protease/dose_response.png)
+      details: |
+        <a href="/pdfs/PAGE23-00660 - EV-D68 3C pro vs GC376 IC50.pdf" download>Download experimental metadata 1</a>
+        <a href="/pdfs/TEP EV-D68 3C PAGE23-00660.pdf" download>Download experimental metadata 2</a>
     - name: Crystallization
       description: Optimised conditions to reproduce crystals for fragment screening.
       date: 2023-02-28
@@ -151,7 +158,7 @@ TEP:
       # TODO: Create category for "crystallization conditions".
       # TODO: Move this to protocols.io
       type: xray-fragment-screen
-      url: 
+      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
@@ -171,10 +178,11 @@ TEP:
           ![EV D68 3C protease crystal shards](../img/outputs/EV-D68-3C-protease/crystal_shards.png)
     - name: Crystallographic fragment screening at Oxford/XChem
       description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
-      date: 2021-06-01
+      #date: 2021-06-01
+      date: 2023-04-26 # date fragment screen was uploaded to fragalysis
       type: xray-fragment-screen
       # TODO: link to the X-ray fragment screen
-      url: 
+      url: https://fragalysis.diamond.ac.uk/viewer/react/projects/2721/2259
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >

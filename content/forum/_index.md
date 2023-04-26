@@ -40,7 +40,14 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-mar"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Mauro Teixeira, UFMG](https://scholar.google.com/citations?user=njJyXhsAAAAJ&hl=en)**: *Anti-inflammatory drugs for infectious diseases: the case for pro-resolving molecules*  
-* **TBD**
+* **[Reuben Harris, UT Health San Antonio](https://directory.uthscsa.edu/academics/profile/rsh) ([Midwest AViDD Center](https://midwestavidd.umn.edu/midwest-avidd-center-abstract))**: *Rapid methods for Mpro inhibitor resistance profiling*  
+
+**Wed 21 June 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
+<a name="2023-mar"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
+* **[Johan Neyts, Ku Leuven](https://rega.kuleuven.be/cmt/jn/staff-1/staff/00014425)**: *TBD*  
+* *TBD*
 
 # Past Presentations
 

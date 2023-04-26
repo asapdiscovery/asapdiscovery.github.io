@@ -157,8 +157,6 @@ TEP:
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
         - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
-
-
     - name: Protease Assay
       # Date it was provided
       date: 2022-10-24
@@ -278,8 +276,8 @@ TEP:
         Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
         Size:  ~75-100um in length, width and depth
     - name: Crystallographic fragment screening at the Diamond XChem facility
-      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of XX fragments, which yielded XX unique binders.
-      date: XX
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source. The analysis is still ongoing.
+      date: ongoing
       type: xray-fragment-screen
       url: N/A
       projects: [Project 2]
@@ -289,3 +287,5 @@ TEP:
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400).
+      details: |
+        <a href="/pdfs/PAGE23-00345 - AVIDD ASAP; MVMPROA, ZVNS2B & A71EV2A xtal mounting,screening.pdf" download>Download experimental metadata</a>
