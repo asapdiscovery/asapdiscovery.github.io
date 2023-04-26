@@ -60,7 +60,8 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: A71EV3CPROA-c001
+    - name: Construct for biochemical assays of protease activity and crystallography.
+      scarab_id: A71EV3CPROA-c001
       # Brief description of the plasmid
       description:  Construct for enzyme assays crystallography.
       # Date it was provided
@@ -90,9 +91,10 @@ TEP:
         * Tags and additions: His-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
-    - name: A71EV3CPROA-c002 
+    - name: Inactive C2A mutant for enzyme assays.
+      scarab_id: A71EV3CPROA-c002 
       # Brief description of the plasmid
-      description:  Inactive C2A mutant for for enzyme assays.
+      description:  Plasmid encoding an inactive C2A mutant suitable for crystallography.
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -120,7 +122,8 @@ TEP:
         * Tags and additions: His-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQAGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
-    - name: A71EV3CPROA-c003 
+    - name: Protein construct with Avi-tag suitable for biophysical assays.
+      scarab_id: A71EV3CPROA-c003 
       # Brief description of the plasmid
       description:  Construct with Avi-tag for Biophysics
       # Date it was provided
@@ -140,7 +143,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >      
-        The construct was transformed into the E. coli strain BL21(DE3)-RR-BirA (pCDF-BirA), and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml) and streptomycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C. After 30 minutes 0.5 mM D-biotin was added and then after a further 30 minutes induction of protein expression was induced by adding 0.5 mM IPTG and growth continued overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase, 0.5 mM D-Biotin]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen,and stored at -80°C until required.
+        The construct was transformed into the E. coli strain BL21(DE3)-RR-BirA (pCDF-BirA), and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml) and streptomycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C. After 30 minutes 0.5 mM D-biotin was added and then after a further 30 minutes induction of protein expression was induced by adding 0.5 mM IPTG and growth continued overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase, 0.5 mM D-Biotin]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash-frozen in liquid nitrogen,and stored at -80°C until required.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -150,8 +153,8 @@ TEP:
         * Tags and additions: His-Avi-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHHGLNDIFEAQKIEWHE
-    - name: Protease Assay
-      description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
+    - name: Fluorescence intensity protease activity biochemical assay protocol
+      description: This method is intended to measure the activity of viral proteases by using a specific labeled peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
       # Date it was provided
       date: 2023-04-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
