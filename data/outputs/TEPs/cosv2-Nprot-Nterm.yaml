@@ -134,6 +134,7 @@ TEP:
         * Read fluorescence at 350nm
         * If needed subtract compound fluorescence and fit using 4 parameter dose-response in Prism. 
       details: |
+        <a href="/pdfs/PAGE22-01018 - ASAP; SARS-CoV2; N-protein; protocol transfer from Jakub Luptak.pdf" download>Download experimental metadata</a>
         Assay buffer: 150 mM NaCl, 50 mM Tris pH 8, 1 mM DTT(usually prepared as aliquots of 10X, frozen and thawed for use). DMSO added to 1-5% v/v depending on compounds.
         
         Protein: p1127 (nprot) in 300 mM NaCl, 50 mM Tris pH 8, 1 mM DTT

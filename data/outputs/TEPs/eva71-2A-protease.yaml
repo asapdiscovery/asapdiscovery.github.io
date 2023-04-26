@@ -85,6 +85,9 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
+        <a href="/pdfs/PAGE23-00246 - AVIDD ASAP; A71EV2A trunc08 A71EV2A-c012 Expression and Purification.pdf" download>Download experimental metadata 1</a>
+        <a href="/pdfs/PAGE23-00312 - AVIDD ASAP; A71EV2A trunc08 A71EV2A-c012 p003 crystallization & co-crystallization with telaprevir.pdf" download>Download experimental metadata 2</a>
+        <a href="/pdfs/PAGE23-00345 - AVIDD ASAP; MVMPROA, ZVNS2B & A71EV2A xtal mounting,screening.pdf" download>Download experimental metadata 3</a>
         * Vector: pNIC-NHStIIT
         * Entry clone accession: 
         * Cell line: 

@@ -125,6 +125,10 @@ TEP:
         to an S200 16/60 gel filtration column equilibrated in 20 mM HEPES pH 7.5, 50 mM NaCl buffer. The protein
         was concentrated to 30 mg/ml using a 10 kDa MWCO centrifugal filter device.
       # Details associated with this plasmid
+      details: |
+        <a href="/pdfs/PAGE22-01340 - AVIDD ASAP; MERS mPRO aka 3CL protease.pdf" download>Download experimental metadata</a>
+        <a href="/pdfs/PAGE23-00183 - AVIDD ASAP; MVMPROA c907 (c900 Arg mutant) Sequencing Expression and Purification.pdf" download>Download experimental metadata 2</a>
+
       # TODO: Eliminate this, since this duplicative of the AddGene site.
     - name: Crystallographic fragment screening at Oxford/XChem
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
@@ -200,6 +204,9 @@ TEP:
         minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
 
         Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
+      details: |
+        <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
+
     - name: PDB group deposition of crystallographic fragment screen
       description:  >
         SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
