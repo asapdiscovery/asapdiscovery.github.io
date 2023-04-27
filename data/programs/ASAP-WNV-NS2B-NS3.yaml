@@ -25,3 +25,11 @@ targeting_opportunity:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
+
+assay_cascade:
+  status: in-progress
+  #url: https://covid.postera.ai/covid/activity_data
+
+covalent_targeting:
+  status: in-progress
+  #url: https://covid.postera.ai/covid/activity_data
