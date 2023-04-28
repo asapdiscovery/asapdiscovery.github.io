@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 30
 title: Molecules
 description: ASAP antivirals and assayed compounds
 toc: true

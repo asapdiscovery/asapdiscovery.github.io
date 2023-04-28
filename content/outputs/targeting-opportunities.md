@@ -1,5 +1,8 @@
 ---
-weight: 1
+weight: 20
 title: Targeting Opportunities
 description: ASAP identified discovery opportunities for broad antiviral activity
+toc: true
 ---
+
+{{< targeting-opportunities >}}

@@ -8,7 +8,7 @@ TEP:
     - Zika
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program_code: ASAPPNBTAE
+    program_code: ASAPPWCTFT
     program_nickname: ASAP-ZIKA-NS5-RDRP
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: AY632535.2

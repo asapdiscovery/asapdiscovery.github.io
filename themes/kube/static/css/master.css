@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #contents {
   counter-reset: count;
-  max-width: 400px;
+  max-width: 600px;
   margin: 24px auto 60px auto;
   padding: 32px;
   background: #fbfbfb;

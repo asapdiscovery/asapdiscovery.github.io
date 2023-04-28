@@ -83,10 +83,13 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
 
-
 hit_to_lead:
   status: completed
 
+covalent_targeting:
+  status: in-progress
+  #url: https://covid.postera.ai/covid/activity_data
+  
 lead_optimization:
   status: in-progress
 

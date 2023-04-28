@@ -55,3 +55,14 @@
     year: 2023
     pmcid: PMC10089178
   github: kadiliissaar/ligand_design_structural_biology
+- title: "Accelerating antiviral drug discovery: lessons from COVID-19"
+  authors: "Annette von Delft, Matthew D. Hall, Ann Kwong, Lisa A. Purcell, Kumar Singh Saikatendu, Uli Schmitz, John A. Tallarico, and Alpha Lee"
+  summary: We present a broad industry and academic perspective on key stages in the small-molecule antiviral discovery process and present strategies that could accelerate future efforts.
+  img: target-product-profile.png
+  programs: []
+  projects: [Project 6]
+  published:
+    doi: 10.1038/s41573-023-00692-8
+    journal: Nature Reviews Drug Discovery
+    date: 2023-04-29
+    year: 2023

@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "Zika NS2B-NS3 protease"
+  name: "Zika NS2B-NS3 protease-helicase"
   target: NS2B-NS3
   program_code: ASAPPPOEAD
   program_nickname: ASAP-ZIKA-NS3-PROTEASE-HELICASE
