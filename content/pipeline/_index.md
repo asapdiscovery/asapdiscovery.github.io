@@ -17,7 +17,7 @@ ASAP maintains several open community resources to help foster a global antivira
 * Mutational fitness scans from analysis of circulating variants: [SARS-CoV-2](https://jbloomlab.github.io/SARS2-mut-fitness/)
 * Wetlab protocols are hosted at the [ASAP protocols.io page](https://protocols.io/workspaces/asap-discovery)
 * ASAP talks and datasets at the [ASAP Zenodo Community](https://zenodo.org/communities/asapdrugdiscovery/?page=1&size=20)
-* ASAP plasmid resources are available through the [ASAP AddGene page](http://addgene.org/asap)
+* ASAP plasmid resources are available through the [ASAP AddGene page](http://addgene.org/asap) under the permissive [OpenMTA](https://www.nature.com/articles/nbt.4263) whenever possible
 * ASAP compounds are available through [Enamine](https://enamine.net/) without the need for an MTA
 * Recorded talks on the [ASAP YouTube](https://www.youtube.com/channel/UCJDt-ivduVKzjnK9XmCSlmQ) and [Open Antivirals YouTube](https://www.youtube.com/@AViDD-OSF) channels
 * The [Open Antiviral Discovery Forum](http://openantivirals.org) enables multiple AViDD Centers to rapidly share information and resources for antiviral drug discovery
