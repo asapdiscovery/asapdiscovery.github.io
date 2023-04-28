@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "West Nile NS2B-NS3 protease"
+  name: "West Nile NS2B-NS3 protease-helicase"
   target: NS2B-NS3
   program_code: ASAPPTSBOE
   program_nickname: ASAP-WNV-NS3-PROTEASE-HELICASE 
