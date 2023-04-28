@@ -132,6 +132,15 @@ ASAP aims to produce high-quality lead compounds for nine viral targets within f
 [🔎 View all ASAP Hit-to-Lead packages of high-quality lead compounds](/outputs/hit-to-lead)
 
 
+<!-- Covalent targeting -->
+<a id="hit-to-lead"></a>
+#### Covalent Targeting
+
+ASAP is exploring covalent targeting strategies for Cysteine proteases.
+
+[🔎 View all ASAP Covalent Targeting data packages](/outputs/covalent-targeting)
+
+
 <!-- Lead optimization -->
 <a id="lead-optimization"></a>
 #### Lead Optimization
