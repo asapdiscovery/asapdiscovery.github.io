@@ -33,4 +33,6 @@ If you're interested in joining or collaborating with the ASAP Consortium, pleas
 
 ## How is ASAP funded?
 
-ASAP is currently funded by the [National Institutes of Health](https://www.nih.gov/) grant number [1U19AI171399-01](https://reporter.nih.gov/search/tQZEDoMwKEyA2VFeZPJo9w/projects) via the [Antiviral Drug Discovery (AViDD) U19 Centers](https://www.niaid.nih.gov/research/antiviral-discovery), part of the [Antiviral Program for Pandemics](https://www.niaid.nih.gov/research/antivirals).
+ASAP is currently funded by:
+* Numerous discovery programs are funded by the [National Institutes of Health](https://www.nih.gov/) grant number [1U19AI171399-01](https://reporter.nih.gov/search/tQZEDoMwKEyA2VFeZPJo9w/projects) via the [Antiviral Drug Discovery (AViDD) U19 Centers](https://www.niaid.nih.gov/research/antiviral-discovery), part of the [Antiviral Program for Pandemics](https://www.niaid.nih.gov/research/antivirals)
+* The SARS-CoV-2 Mpro preclinical program directed by the [Drugs for Neglected Diseases Initiative](http://dndi.org) is funded by the [Wellcome Trust via the World Health Organization (WHO) Access to COVID Tools Accelerator (ACT-A) grant 224021/Z/21/Z](https://dndi.org/press-releases/2021/covid-moonshot-funded-by-wellcome-to-rapidly-develop-safe-globally-accessible-affordable-antiviral-pill/) 
