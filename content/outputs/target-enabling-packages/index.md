@@ -1,5 +1,5 @@
 ---
-weight: 9
+weight: 80
 title: Target Enabling Packages (TEPs)
 description: ASAP Target Enabling Packages (TEPs) for initiating structure-based drug discovery programs
 toc: true
