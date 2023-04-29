@@ -57,6 +57,22 @@
     </div>
   </div>
 
+  <!-- Build a priority list for programs based on number of started stages for each program -->
+  {{ $programs := slice }}
+  {{ range $program := $.Site.Data.programs }}
+    {{ $in_progress := 0 }}
+    {{ range $stage := $program }}      
+      {{ if not (eq $stage.status "not-started")  }}
+        {{ $in_progress = add $in_progress 1 }}
+      {{ end }}
+    {{ end }}
+    {{ $program = merge $program (dict "priority" $in_progress) }}
+    {{ $programs = $programs | append (slice $program) }} 
+  {{ end }}
+
+  <!-- Iterate through $.Site.Data.programs in descending order based on the value in $program_progress -->
+
+  
   <!-- List all programs for each viral family -->
   {{ $not_started := "not-started" }}
   {{ range $viral_family := $viral_families }}
@@ -68,7 +84,7 @@
       </div>
       <!-- List the programs for this family -->
       <div class="col-11">  
-        {{ range $.Site.Data.programs }}
+        {{ range sort $programs "priority" "desc" }}
           {{ if in .overview.family $viral_family }}
             <div class="container">
               <div class="row"> 
