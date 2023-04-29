@@ -93,7 +93,6 @@ A **[Target Product Profile (TPP)](https://www.who.int/observatories/global-obse
 All ASAP TPPs are *draft TPPs* intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
 ASAP works with stakeholders around the globe (such as the [World Health Organization](https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles)) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.
 
-<!-- {{< TPP >}} -->
 [🔎 View all ASAP Target Product Profiles (TPPs)](/outputs/target-product-profiles)
 
 <!-- Target Candidate Profiles (TCPs) -->
@@ -103,7 +102,6 @@ ASAP works with stakeholders around the globe (such as the [World Health Organiz
 A [Target Candidate Profile (TCP)](https://www.mmv.org/research-development/information-scientists/target-product-profiles-target-candidate-profiles) describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
 Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#target-product-profile) for the corresponding disease.
 
-<!-- {{< TCP >}} -->
 [🔎 View all ASAP Target Candidate Profiles (TCPs)](/outputs/target-candidate-profiles)
 
 <!-- Target Candidate Profiles (TCPs) -->

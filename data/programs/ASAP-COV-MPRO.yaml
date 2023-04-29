@@ -63,12 +63,7 @@ TPP:
 
 TCP:
   status: completed
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe4124e9_2_11
-  anchor: ASAP-COV-MPRO-TCP
-  title: MERS-CoV & SARS-CoV-2 Oral MPro inhibitor
-  events:
-    - date: 2023-03-01
-      description: Initial draft  
+  id: ASAP-TCP-COV-MPRO
 
 assay_cascade:
   status: completed
