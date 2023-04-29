@@ -40,6 +40,11 @@ ignoreFiles = ['data/outputs/preTEPS/']
     url = "/members/"
     identifier = "members"
 [[menu.main]]
+    name = "SAB"
+    weight = -25
+    url = "/sab/"
+    identifier = "sab"
+[[menu.main]]
     name = "FAQ"
     weight = -20
     url = "/faq/"
