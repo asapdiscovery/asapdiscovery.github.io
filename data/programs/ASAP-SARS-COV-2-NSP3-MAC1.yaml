@@ -64,7 +64,7 @@ TCP:
 
 assay_cascade:
   status: in-progress
-  url: https://dndi.org/diseases/covid-19/target-product-profile/
+  id: ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?

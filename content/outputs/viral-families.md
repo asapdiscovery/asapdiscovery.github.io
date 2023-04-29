@@ -6,6 +6,8 @@ toc: true
 draft: false
 ---
 
+ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.
+
 ### coronaviridae
 
 Coronavirus antiviral discovery is funded by [NIAID grant U19AI171399 from the National Institutes of Health](https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865).

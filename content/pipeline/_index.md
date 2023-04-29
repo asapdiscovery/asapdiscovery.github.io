@@ -104,7 +104,7 @@ Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#tar
 
 [🔎 View all ASAP Target Candidate Profiles (TCPs)](/outputs/target-candidate-profiles)
 
-<!-- Target Candidate Profiles (TCPs) -->
+<!-- Assay Cascades -->
 <a id="assay-cascade"></a>
 #### Assay cascades
 

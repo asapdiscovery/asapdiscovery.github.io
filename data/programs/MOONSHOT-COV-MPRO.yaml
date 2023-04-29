@@ -62,11 +62,11 @@ TPP:
 
 TCP:
   status: completed
-  id: ASAP-TCP-MOONSHOT
+  id: MOONSHOT-TCP
 
 assay_cascade:
   status: completed
-  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0
+  id: MOONSHOT-ASSAY
 
 TEP:
   status: completed
