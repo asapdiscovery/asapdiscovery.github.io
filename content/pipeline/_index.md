@@ -17,7 +17,7 @@ ASAP maintains several open community resources to help foster a global antivira
 * Mutational fitness scans from analysis of circulating variants: [SARS-CoV-2](https://jbloomlab.github.io/SARS2-mut-fitness/)
 * Wetlab protocols are hosted at the [ASAP protocols.io page](https://protocols.io/workspaces/asap-discovery)
 * ASAP talks and datasets at the [ASAP Zenodo Community](https://zenodo.org/communities/asapdrugdiscovery/?page=1&size=20)
-* ASAP plasmid resources are available through the [ASAP AddGene page](http://addgene.org/asap)
+* ASAP plasmid resources are available through the [ASAP AddGene page](http://addgene.org/asap) under the permissive [OpenMTA](https://www.nature.com/articles/nbt.4263) whenever possible
 * ASAP compounds are available through [Enamine](https://enamine.net/) without the need for an MTA
 * Recorded talks on the [ASAP YouTube](https://www.youtube.com/channel/UCJDt-ivduVKzjnK9XmCSlmQ) and [Open Antivirals YouTube](https://www.youtube.com/@AViDD-OSF) channels
 * The [Open Antiviral Discovery Forum](http://openantivirals.org) enables multiple AViDD Centers to rapidly share information and resources for antiviral drug discovery
@@ -93,24 +93,22 @@ A **[Target Product Profile (TPP)](https://www.who.int/observatories/global-obse
 All ASAP TPPs are *draft TPPs* intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
 ASAP works with stakeholders around the globe (such as the [World Health Organization](https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles)) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.
 
-<!-- {{< TPP >}} -->
 [🔎 View all ASAP Target Product Profiles (TPPs)](/outputs/target-product-profiles)
 
 <!-- Target Candidate Profiles (TCPs) -->
 <a id="target-candidate-profile"></a>
 #### Target Candidate Profile (TCP)
 
-A [Target Candidate Profile (TCP)]() describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
-Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#TPP) for the corresponding disease.
+A [Target Candidate Profile (TCP)](https://www.mmv.org/research-development/information-scientists/target-product-profiles-target-candidate-profiles) describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
+Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#target-product-profile) for the corresponding disease.
 
-<!-- {{< TCP >}} -->
 [🔎 View all ASAP Target Candidate Profiles (TCPs)](/outputs/target-candidate-profiles)
 
-<!-- Target Candidate Profiles (TCPs) -->
+<!-- Assay Cascades -->
 <a id="assay-cascade"></a>
 #### Assay cascades
 
-An **[assay cascade]() is a defined set of assays and progression criteria used by a drug discovery program to achieve its [Target Candidate Profile (TCP)](#TCP) goals in a time- and cost-effective manner.
+An **[assay cascade](https://www.researchgate.net/figure/Drug-discovery-assay-cascade-Example-assay-cascade-for-drug-discovery-and-where-3D_fig2_348991791)** is a defined set of assays and progression criteria used by a drug discovery program to achieve its [Target Candidate Profile (TCP)](#target-candidate-profile) goals in a time- and cost-effective manner.
 
 [🔎 View all ASAP assay cascades](/outputs/assay-cascades)
 
@@ -130,6 +128,15 @@ Pioneered by the [Structural Genomics Consortium](https://www.thesgc.org/tep), e
 ASAP aims to produce high-quality lead compounds for nine viral targets within five years.
 
 [🔎 View all ASAP Hit-to-Lead packages of high-quality lead compounds](/outputs/hit-to-lead)
+
+
+<!-- Covalent targeting -->
+<a id="hit-to-lead"></a>
+#### Covalent Targeting
+
+ASAP is exploring covalent targeting strategies for Cysteine proteases.
+
+[🔎 View all ASAP Covalent Targeting data packages](/outputs/covalent-targeting)
 
 
 <!-- Lead optimization -->

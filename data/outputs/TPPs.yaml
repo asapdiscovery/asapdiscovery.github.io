@@ -1,0 +1,59 @@
+- id: ASAP-TPP-SARS-CoV-2
+  status: draft
+  name: SARS-CoV-2 Oral Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g217bd676945_0_540
+  events:
+    - date: 2023-02-15
+      description: Initial draft
+- id: ASAP-TPP-MERS-CoV-SARS-CoV-2
+  status: draft
+  name: SARS-CoV-2 and MERS-CoV Mpro Oral Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_3
+  events:
+    - date: 2023-02-15
+      description: Initial draft
+- id: ASAP-TPP-DENV
+  status: draft
+  name: Dengue Oral Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe410ef5_0_117
+  events:
+    - date: 2023-02-27
+      description: Initial draft based on DNDi draft Dengue antiviral TPP guidance    
+- id: ASAP-TPP-EVD68-ADULT
+  status: draft
+  name: Enterovirus D68 Adult Oral/IV Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g217bd676945_0_0
+  events:
+    - date: 2023-03-01
+      description: Initial draft
+    - date: 2023-03-08
+      description: Modifications to reflect minimal vs ideal treatment populations
+- id: ASAP-TPP-EVD68-PEDIATRIC
+  status: draft
+  name: Enterovirus D68 Pediatric Hospital and Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddb939d024_0_2
+  events:
+    - date: 2023-03-08
+      description: Initial draft
+- id: ASAP-TPP-EVA71-ADULT
+  status: draft
+  name: Enterovirus A71 Adult Oral/IV Community Use
+  events:
+    - date: 2023-03-01
+      description: Initial draft
+    - date: 2023-03-08
+      description: Modifications to reflect minimal vs ideal treatment populations
+- id: ASAP-TPP-EVA71-PEDIATRIC
+  status: draft
+  name: Enterovirus A71 Pediatric Hospital and Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g217bd676945_0_9
+  events:
+    - date: 2023-03-08
+      description: Initial draft
+- id: ASAP-TPP-ZIKA
+  status: draft
+  name: Zika Oral Community Use
+  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g22f99006697_0_0
+  events:
+    - date: 2023-04-18
+      description: Initial draft 

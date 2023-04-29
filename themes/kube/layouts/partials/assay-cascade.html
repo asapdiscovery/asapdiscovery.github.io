@@ -4,7 +4,7 @@
 
 <h3 style="text-align: left;" id={{ .id }}>{{ .name }}</h3>
 
-<a href="{{ .url }}">Targent Product Profile for {{ .name }} </a>
+<a href="{{ .url }}">{{ .name }} </a>
 {{ if eq .status "draft" }}
     <span class="label warning">{{ .status }}</span>
 {{ end }}   
