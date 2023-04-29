@@ -1,7 +1,7 @@
 <!-- Photo -->
 <div class="row gutters">
 <div class="col col-2">
-  <img src=../members/img/people/{{ .img }}>
+  {{ with .img }} <img src=../members/img/people/{{ . }}> {{ end }}
 </div>
 <!-- Info -->
 <div class="col col-9">
@@ -12,6 +12,8 @@
   <p>
     <b>{{ .role }}</b><br>
     {{ .title }}, {{ .institution }}<br>
+    {{ if in .lab "P" }} <span class="label success">{{ .lab }}</span><br> {{ end }}
+    {{ if in .lab "Core" }} <span class="label warning">{{ .lab }}</span><br> {{ end }}
     {{ with .webpage }} web: <a href={{ . }}>{{ . }}</a><br> {{ end }}
     {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a> {{ end }}
     {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
