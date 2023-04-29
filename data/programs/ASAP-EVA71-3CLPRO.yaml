@@ -24,12 +24,7 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  title: "Enterovirus A71 Oral/IV Community Use"
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddb939d024_0_2
-  anchor: ASAP-EVA71-TPP
-  events:
-    - date: 2023-03-08
-      description: Initial draft
+  id: ASAP-TPP-EVA71-ADULT
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?

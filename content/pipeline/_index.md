@@ -100,8 +100,8 @@ ASAP works with stakeholders around the globe (such as the [World Health Organiz
 <a id="target-candidate-profile"></a>
 #### Target Candidate Profile (TCP)
 
-A [Target Candidate Profile (TCP)]() describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
-Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#TPP) for the corresponding disease.
+A [Target Candidate Profile (TCP)](https://www.mmv.org/research-development/information-scientists/target-product-profiles-target-candidate-profiles) describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
+Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#target-product-profile) for the corresponding disease.
 
 <!-- {{< TCP >}} -->
 [🔎 View all ASAP Target Candidate Profiles (TCPs)](/outputs/target-candidate-profiles)
@@ -110,7 +110,7 @@ Our TCPs are informed by the corresponding [Target Product Profiles (TPPs)](#TPP
 <a id="assay-cascade"></a>
 #### Assay cascades
 
-An **[assay cascade]() is a defined set of assays and progression criteria used by a drug discovery program to achieve its [Target Candidate Profile (TCP)](#TCP) goals in a time- and cost-effective manner.
+An **[assay cascade](https://www.researchgate.net/figure/Drug-discovery-assay-cascade-Example-assay-cascade-for-drug-discovery-and-where-3D_fig2_348991791)** is a defined set of assays and progression criteria used by a drug discovery program to achieve its [Target Candidate Profile (TCP)](#target-candidate-profile) goals in a time- and cost-effective manner.
 
 [🔎 View all ASAP assay cascades](/outputs/assay-cascades)
 

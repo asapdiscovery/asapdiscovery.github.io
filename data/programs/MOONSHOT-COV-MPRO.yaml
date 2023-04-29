@@ -58,9 +58,7 @@ DMS:
   
 TPP:
   status: completed
-  title: SARS-CoV-2 Mpro oral community use
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g217bd676945_0_540
-  anchor: MOONSHOT-SARS-CoV-2-TPP
+  id: ASAP-TPP-SARS-CoV-2
 
 TCP:
   status: completed
