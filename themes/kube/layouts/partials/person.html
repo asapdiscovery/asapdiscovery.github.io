@@ -1,4 +1,5 @@
 <!-- Photo -->
+<div class="row gutters">
 <div class="col col-2">
   <img src=../members/img/people/{{ .img }}>
 </div>
@@ -16,5 +17,6 @@
     {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
     <i>{{ .description | markdownify }}</i>
   </p>
-  <hr>
 </div>
+</div>
+<hr>

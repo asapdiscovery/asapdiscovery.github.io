@@ -47,9 +47,7 @@
 <ul>
 {{ range $.Site.Data.members }}
   {{ if in .role "Project Lead" }}
-  <div class="row gutters">
     {{ partial "person" . }}
-  </div>
   {{ end }}
 {{ end }}
 </ul>
@@ -61,9 +59,7 @@
 <ul>
 {{ range $.Site.Data.members }}
   {{ if in .role "Core Lead" }}
-  <div class="row gutters">
     {{ partial "person" . }}
-  </div>
   {{ end }}
 {{ end }}
 </ul>
@@ -75,42 +71,36 @@
 <ul>
 {{ range $.Site.Data.members }}
   {{ if in .role "Co-Investigator" }}
-  <div class="row gutters">
     {{ partial "person" . }}
-  </div>
   {{ end }}
 {{ end }}
 </ul>
 
-<!-- External SAB -->
+<!-- Scientists -->
 
-<!--
-<h2>External Scientific Advisory Board</h2>
+<h2>Scientists and Collabortors</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if in .role "External Scientific Advisory Board Member" }}
-  <div class="row gutters">
+  {{ if in .role "Scientist" }}
     {{ partial "person" . }}
-  </div>
   {{ end }}
 {{ end }}
 </ul>
--->
 
 <!-- Collaborators -->
 
+<!--
 <h2>Collaborators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
   {{ if in .role "Collaborator" }}
-  <div class="row gutters">
     {{ partial "person" . }}
-  </div>
   {{ end }}
 {{ end }}
 </ul>
+-->
 
 <!-- End -->
 
