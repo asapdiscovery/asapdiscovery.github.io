@@ -1,0 +1,60 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>{{.Title }}</h1>
+    <p>{{.Params.description}}<br></p>
+</div>
+<div id="main">
+{{.Content}}
+
+<!-- Split out lastname from members so we can sort alphabetically -->
+{{ $members := slice }}
+{{ range $member := $.Site.Data.members }}
+    {{ $names := split .name " " }}
+    {{ $reverse_names := last 1 $names }}
+    {{ $member = merge $member (dict "firstname" (index $names 0) "lastname" (index $reverse_names 0)) }}    
+    {{ $members = $members | append $member }}
+{{ end }}
+
+<!-- External SAB -->
+
+<h2>External Scientific Advisory Board (SAB) Members</h2>
+
+<ul>
+{{ range sort $members "lastname" "asc" }}
+  {{ if in .role "External Scientific Advisory Board Member" }}
+    {{ partial "person" . }}
+  {{ end }}
+{{ end }}
+</ul>
+
+<!-- Internal SAB -->
+
+<h2>Internal Scientific Advisory Board (SAB) Members</h2>
+
+<ul>
+{{ range sort $members "lastname" "asc" }}
+    {{ if in .role "Principal Investigator" }}
+        {{ partial "person" . }}
+    {{ end }}
+{{ end }}
+</ul>
+
+<ul>
+{{ range sort $members "lastname" "asc" }}
+  {{ if in .role "Internal Scientific Advisory Board Member" }}
+    {{ partial "person" . }}
+  {{ end }}
+{{ end }}
+</ul>
+
+<!-- End -->
+
+</div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
