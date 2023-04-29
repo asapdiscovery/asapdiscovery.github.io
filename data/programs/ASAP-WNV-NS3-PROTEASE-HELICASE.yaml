@@ -24,4 +24,4 @@ targeting_opportunity:
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: not-started
