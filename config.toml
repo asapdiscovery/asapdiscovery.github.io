@@ -20,6 +20,11 @@ ignoreFiles = ['data/outputs/preTEPS/']
   email = "john.chodera@choderalab.org"
 
 [[menu.main]]
+    name = "Open Science"
+    weight = 0
+    url = "/open-science/"
+    identifier = "open-science"
+[[menu.main]]
     name = "Pipeline"
     weight = -50
     url = "/pipeline/"
@@ -66,7 +71,7 @@ ignoreFiles = ['data/outputs/preTEPS/']
     identifier = "forum"
 [[menu.main]]
     name = "COVID Moonshot"
-    weight = 0
+    weight = -2
     url = "https://postera.ai/moonshot/"
     identifier = "moonshot"
 
