@@ -3,6 +3,7 @@ permalink: /open-science/
 title: "Open Science"
 description: "Ensuring global, equitable, and affordable access to life-saving oral antivirals: The ASAP approach to intellectual property"
 layout: faq
+robotsdisallow: true # Don't allow robots to index this for now
 ---
 
 
