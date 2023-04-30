@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /outputs/
+Disallow: /open-science/
 Disallow: /pipeline/
+Disallow: /reports/
 
