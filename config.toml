@@ -19,16 +19,16 @@ ignoreFiles = ['data/outputs/preTEPS/']
   github = "https://github.com/asapdiscovery" # add your github profile name
   email = "john.chodera@choderalab.org"
 
-#[[menu.main]]
-#    name = "Pipeline"
-#    weight = -50
-#    url = "/pipeline/"
-#    identifier = "pipeline"
-#[[menu.main]]
-#    name = "Outputs"
-#    weight = -45
-#    url = "/outputs/"
-#    identifier = "outputs"
+[[menu.main]]
+    name = "Pipeline"
+    weight = -50
+    url = "/pipeline/"
+    identifier = "pipeline"
+[[menu.main]]
+    name = "Outputs"
+    weight = -45
+    url = "/outputs/"
+    identifier = "outputs"
 [[menu.main]]
     name = "Concept"
     weight = -40
@@ -64,9 +64,14 @@ ignoreFiles = ['data/outputs/preTEPS/']
     weight = -5
     url = "/forum/"
     identifier = "forum"
+#[[menu.main]]
+#    name = "Open Science"
+#    weight = 0
+#    url = "/open-science/"
+#    identifier = "open-science"
 [[menu.main]]
     name = "COVID Moonshot"
-    weight = 0
+    weight = -2
     url = "https://postera.ai/moonshot/"
     identifier = "moonshot"
 

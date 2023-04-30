@@ -43,8 +43,8 @@
           <a href="#mutational-data"><img title="Resistance data" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
           <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
           <a href="#target-enabling-package"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
-          <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
           <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
+          <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
           <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
           <a href="#covalent-targeting"><img title="Covalent targeting" width="{{ $icon_width }}" src="img/icons/covalent-targeting.png"></a>
           <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
@@ -107,8 +107,8 @@
                   <a href="/outputs/target-product-profiles/#{{ .TPP.id }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status               | default $not_started }}.png"></a>
                   <!-- TODO: Can we pull TEP status from the TEP data directly? -->
                   <a href="/outputs/target-enabling-packages/#{{ .overview.program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
-                  <a href="/outputs/assay-cascades/#{{ .assay_cascade.id }}"> <img title="Assay cascade for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
                   <a href="/outputs/target-candidate-profiles/#{{ .TCP.id }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
+                  <a href="/outputs/assay-cascades/#{{ .assay_cascade.id }}"> <img title="Assay cascade for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
                   <a href="{{ .hit_to_lead.url }}">      <img title="Hit-to-lead for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
                   <a href="{{ .covalent_targeting.url }}"><img title="Covalent targeting for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .covalent_targeting.status | default $not_started }}.png"></a>
                   <a href="{{ .lead_optimization.url }}"><img title="Lead optimization for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>

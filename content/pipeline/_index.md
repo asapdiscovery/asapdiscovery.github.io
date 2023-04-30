@@ -3,7 +3,7 @@ permalink: /pipeline/
 title: "Pipeline"
 description: "ASAP direct-acting antiviral discovery programs and research outputs"
 layout: pipeline
-robotsdisallow: true
+robotsdisallow: true # Don't allow robots to index this for now
 ---
 
 <!-- TODO: Should we integrate the Mpro program here as well? -->
