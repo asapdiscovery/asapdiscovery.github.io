@@ -38,7 +38,7 @@ molecules:
   releases:
   - name: "WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
     metadata: https://www.notion.so/asapdiscovery/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f
-    data: https://app.postera.ai/account/molecule-set/ecbd3a60-4d5a-41cf-a907-1da6f8097331
+    data: https://app.postera.ai/account/molecule-set/1dceb602-0e0b-4bb0-8ee8-158669f6203d
     assay_protocol: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
     project: "Project 4"
     core: "Biochemical Assay Core"

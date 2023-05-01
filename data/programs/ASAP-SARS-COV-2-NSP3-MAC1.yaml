@@ -72,12 +72,12 @@ TEP:
 
 hit_to_lead:
   status: in-progress
-  url: https://app.postera.ai/manifold/48d9653d-9b45-443d-b9b2-67c331afd6e2
+  url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
 
 molecules:
   releases:
   - name: "SARS-CoV-2 nsp3 Mac1 macrodomain assay data"
-    data: https://app.postera.ai/manifold/48d9653d-9b45-443d-b9b2-67c331afd6e2
-    metadata: https://www.notion.so/asapdiscovery/2023-04-16-MAC1-Draft-Export-02eaf4238c0640729c9771b93247eafe
+    data: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
+    metadata: https://www.notion.so/asapdiscovery/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-0ecb0d3d0cfc466cbc81096160f330e2
     description: |
       All biochemical data from the COVID Moonshot has been disclosed.
