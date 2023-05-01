@@ -83,3 +83,12 @@ covalent_targeting:
 lead_optimization:
   status: in-progress
 
+molecules:
+  releases:
+  - name: "SARS-CoV-2/MERS-CoV Mpro lead optimization biochemical assay - negative data"
+    metadata: https://www.notion.so/asapdiscovery/2023-04-17-Mpro-Draft-Export-a23b21fe8fce4e1494c4c6720b072c1e
+    data: https://app.postera.ai/account/molecule-set/01c243c9-078b-409c-b826-850a855e6de6
+    project: "Project 5"
+    core: "Biochemical Assay Core"
+    description: |
+        This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program.

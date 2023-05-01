@@ -87,3 +87,10 @@ preclinical:
   status: in-progress
   url: https://dndi.org/research-development/portfolio/covid-moonshot/
 
+molecules:
+  releases:
+  - name: "SARS-CoV-2 Mpro biochemical assay data"
+    data: https://covid.postera.ai/covid/activity_data
+    metadata: https://doi.org/10.1101/2020.10.29.339317
+    description: |
+      All biochemical data from the COVID Moonshot has been disclosed.
