@@ -1,11 +1,9 @@
 ---
 weight: 120
-title: Hit-to-Lead
-description: Hit-to-lead data packages
+title: Covalent targeting
+description: Covalent targeting data packages
 toc: true
 draft: false
 ---
 
-### Program 1
-
-### Program 2
+{{< covalent-targeting >}}

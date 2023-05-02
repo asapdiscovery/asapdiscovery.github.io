@@ -1,0 +1,28 @@
+<!-- Title -->
+
+<!-- {{ with .name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
+
+
+<h3 style="text-align: left;" id={{ .asap.program_nickname }}>{{ .program_name }}</h3>
+
+<a href="{{ .url }}"></a><b>{{ .name }}</b></a> <br>
+<i>[ {{ .date }} ]</i> <br>
+
+<!-- Contributing Projects and Cores -->
+<!-- TODO: Make these links to Projects and Cores -->
+Contributing Projects and Cores: 
+{{ range .projects }}
+    <span class="label warning">{{ . }}</span>
+{{ end }}        
+{{ range .cores }}
+    <span class="label success">{{ . }}</span>
+{{ end }}        
+<br>
+
+
+<br>
+{{ with .description }}{{ . | markdownify }}<br>{{ end }}
+<br>
+
+<hr>
+

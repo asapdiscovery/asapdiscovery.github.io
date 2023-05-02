@@ -6,6 +6,4 @@ toc: true
 draft: false
 ---
 
-### Program 1
-
-### Program 2
+{{< structures >}}
