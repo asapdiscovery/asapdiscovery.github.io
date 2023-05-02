@@ -79,5 +79,7 @@ molecules:
   - name: "SARS-CoV-2 nsp3 Mac1 macrodomain assay data"
     data: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
     metadata: https://www.notion.so/asapdiscovery/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-0ecb0d3d0cfc466cbc81096160f330e2
+    project: "Project 3"
+    cores: "Biochemical Assay Core"
     description: |
       All biochemical data from the COVID Moonshot has been disclosed.

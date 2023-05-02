@@ -1,0 +1,11 @@
+<!-- TODO: How should we sort the target data? -->
+{{ range $program := $.Site.Data.programs }}
+
+    {{ range $molecule := $program.molecules.releases }}
+        {{ $molecule = merge $molecule (dict "overview" $program.overview) }}
+        {{ if eq $molecule.project "Project 3"}}
+            {{ partial "molecule.html" $molecule }}
+        {{ end }}
+    {{ end }}
+
+{{ end }} 
