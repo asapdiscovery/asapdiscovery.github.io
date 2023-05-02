@@ -64,11 +64,11 @@ ignoreFiles = ['data/outputs/preTEPS/']
     weight = -5
     url = "/forum/"
     identifier = "forum"
-#[[menu.main]]
-#    name = "Open Science"
-#    weight = 0
-#    url = "/open-science/"
-#    identifier = "open-science"
+[[menu.main]]
+    name = "Open Science"
+    weight = 0
+    url = "/open-science/"
+    identifier = "open-science"
 [[menu.main]]
     name = "COVID Moonshot"
     weight = -2
