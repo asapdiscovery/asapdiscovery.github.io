@@ -99,10 +99,10 @@ TEP:
         ![image](/img/tep_images/sars2_nprot_example_gel_1.png)
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
 
-    - name: X-ray fragment screen of SARS-CoV_2 N protein
+    - name: X-ray fragment screen of SARS-CoV-2 N-protein
       description: 
-      date:
-      type: x-ray fragment screen
+      date: 2021-11-15
+      type: xray-fragment screen
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -123,8 +123,7 @@ TEP:
         * Average resolution (Å): 1.7
         * Crystal morphology: Bi-pyramid
 
-
-    - name: Tryptophan quenching assay
+    - name: Tryptophan quenching biophysical assay for SARS-CoV-2 N-protein binding
       description: Final concentration of protein is 14 uM (arbitrary, once compounds get more potent this will become limiting). Note that because of the way the dilutions are done, final compound concentrations are 0.9x of the designed titration. 
       date: 2021-11-15
       type: biophysical-assay

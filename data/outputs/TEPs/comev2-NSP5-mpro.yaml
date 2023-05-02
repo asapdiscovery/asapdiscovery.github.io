@@ -217,7 +217,7 @@ TEP:
         Selected structures were deposited in the PDB via a group deposition.
 
       date: 2020-04-07
-      type: xray-fragment-screen
+      type: pdb-group-deposition
       url: https://www.rcsb.org/groups/summary/entry/G_1002153
       projects: [Project 2]
       cores: [Structural Biology Core]     
