@@ -46,7 +46,7 @@ covalent_targeting:
 molecules:
   releases:
   - name: "ZIKV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
-    metadata: https://www.notion.so/asapdiscovery/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5
+    metadata: https://asapdiscovery.notion.site/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5
     data: https://app.postera.ai/account/molecule-set/9064058b-0da4-4164-bed0-3bccf2289a84
     assay_protocol: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
     project: "Project 4"

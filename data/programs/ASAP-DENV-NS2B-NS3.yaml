@@ -41,7 +41,7 @@ covalent_targeting:
 molecules:
   releases:
   - name: "DENV-2 NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
-    metadata: https://www.notion.so/asapdiscovery/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815
+    metadata: https://asapdiscovery.notion.site/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815
     data: https://app.postera.ai/account/molecule-set/dc3ad20d-5271-4609-96f5-dc14ab360ee5
     assay_protocol: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
     project: "Project 4"
