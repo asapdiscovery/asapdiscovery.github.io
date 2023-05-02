@@ -87,7 +87,7 @@ molecules:
   releases:
   - name: "SARS-CoV-2/MERS-CoV Mpro lead optimization biochemical assay - negative data"
     metadata: https://www.notion.so/asapdiscovery/SARS-CoV-2-and-MERS-Main-Protease-Mpro-Fluorescence-Dose-Response-Data-a23b21fe8fce4e1494c4c6720b072c1e
-    data: https://app.postera.ai/account/molecule-set/01c243c9-078b-409c-b826-850a855e6de6
+    data: https://app.postera.ai/account/molecule-set/cf233d08-520b-4934-a647-932d7b8b2a06
     project: "Project 5"
     core: "Biochemical Assay Core"
     description: |
