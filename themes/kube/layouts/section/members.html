@@ -89,12 +89,13 @@
 </ul>
 
 <!-- Scientists -->
+{{ $scientist_roles := slice "Scientist" "Scientific Coordinator" "Post Doc" "Research Assistant" "Other Personnel" }}
 
 <h2>Scientists and Collaborators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if in .role "Scientist" }}
+  {{ if in $scientist_roles .role }}
     {{ partial "person" . }}
   {{ end }}
 {{ end }}
