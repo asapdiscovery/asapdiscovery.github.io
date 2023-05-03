@@ -97,8 +97,8 @@ TEP:
     - name: Initial crystal obtained that diffracted to 1.6 Å in C121 space group.
       description:  
       date: 2022-11-26
-      type: xray-fragment-screen
-      url: N/A
+      type: pdb-structure
+      #url: N/A
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
