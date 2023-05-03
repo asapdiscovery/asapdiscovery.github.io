@@ -130,7 +130,7 @@ TEP:
         <a href="/pdfs/PAGE23-00183 - AVIDD ASAP; MVMPROA c907 (c900 Arg mutant) Sequencing Expression and Purification.pdf" download>Download experimental metadata 2</a>
 
       # TODO: Eliminate this, since this duplicative of the AddGene site.
-    - name: Crystallographic fragment screening at Oxford/XChem
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
                     opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
                     screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
@@ -207,7 +207,7 @@ TEP:
       details: |
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
 
-    - name: PDB group deposition of crystallographic fragment screen
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
       description:  >
         SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
         Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 

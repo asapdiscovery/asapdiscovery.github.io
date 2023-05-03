@@ -105,14 +105,26 @@ TEP:
           MDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSVIDLLLDDFV
           EIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ`
     
-    - name: Crystallographic fragment screening at Oxford/XChem
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp15
+      description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
+                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
+                    surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
+                    fragments were only bound to one protomer.
+      date: 2020-11-01
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002199
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v) PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20^o^C by vapor diffusion in the presence of 10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment library (library concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp15
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
                     fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
                     surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
                     fragments were only bound to one protomer.
       date: 2020-11-01
       type: xray-fragment-screen
-      url: https://www.rcsb.org/groups/summary/entry/G_1002199
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -130,3 +142,5 @@ TEP:
     
     
     
+
+

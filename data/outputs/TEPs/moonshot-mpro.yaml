@@ -133,7 +133,7 @@ TEP:
         was concentrated to 30 mg/ml using a 10 kDa MWCO centrifugal filter device.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
-    - name: Crystallographic fragment screening at Oxford/XChem
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
                     opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
                     screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
@@ -217,7 +217,7 @@ TEP:
         Selected structures were deposited in the PDB via a group deposition.
 
       date: 2020-04-07
-      type: xray-fragment-screen
+      type: pdb-group-deposition
       url: https://www.rcsb.org/groups/summary/entry/G_1002153
       projects: [Project 2]
       cores: [Structural Biology Core]     

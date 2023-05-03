@@ -99,7 +99,7 @@ TEP:
         ![image](/img/tep_images/sars2_nprot_example_gel_1.png)
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
 
-    - name: X-ray fragment screen of SARS-CoV-2 N-protein
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein
       description: 
       date: 2021-11-15
       type: xray-fragment screen

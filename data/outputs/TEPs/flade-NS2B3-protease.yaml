@@ -92,7 +92,7 @@ TEP:
     type: plasmid
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    url: N/A 
+    #url: N/A 
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -117,7 +117,7 @@ TEP:
     # Date it was provided
     date: date TBD
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-    type: assay
+    type: biochemical-assay
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
     url:  
@@ -191,7 +191,7 @@ TEP:
     # Date it was provided
     date: 22-10-19
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-    type: xray-fragment-screen
+    type: crystallization-protocol
     url: N/A
     projects: [Project 2]
     cores: [Structural Biology Core]     

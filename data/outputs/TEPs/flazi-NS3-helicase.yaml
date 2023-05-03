@@ -1,18 +1,111 @@
 TEP:
   # Name of the TEP
-  name: Dengue ns3 helicase
+  name: Zika ns3 helicase
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
     viral_family: flaviviridae
     viruses:
-    - Dengue
+    - Zika
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
-    program_code: ASAPPDFMAR
-    program_nickname: ASAP-DENV-NS3-HELICASE   
-  gene: AF404756.1
+    program_code: ASAPPWDRPT
+    program_nickname: ASAP-ZIKA-NS3-HELICASE    
+  # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
+  gene: KF383119.1
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
-  uniprot: A0A142I5B9
+  uniprot: Q32ZE1
   # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   EC: 3.6.4.13
+  # Target nominator
+  nominator: Andre Schutzer Godoy
+  # Lead investigator at Diamond
+  investigator: Frank von Delft
+  # Therapeutic area
+  therapeutic_area: Infectious diseases
+  # Disease relevance statement
+  disease_relevance: NS3 encodes a helicase that is important for viral replication
+  list of authors:
+  # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
+  contributors:
+  - Andre Schutzer Godoy
+  - Nathalya Cristina de Moraes Roso Mesquita
+  - Gabriela Dias Noske
+  - Rafaela Sachetto Fernandes
+  - Glaucius Oliva
+  - Daren Fearon
+  - Lizbé Koekemoer
+  - Charlie Tomlinson 
+  - Ryan Lithgo  
+  - Blake Balcomb
+  - Jasmin Aschenbrenner
+  - Peter Marples
+  # Summary of Project
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  summary: >
+    The conserved helicase encoded by the C-terminal portion of the non-structural protein 3 (NS3hel) in flaviviruses is employed by the Zika virus (ZIKV) to unwind double stranded RNA during the replication process. This TEP provides early tools to develop NS3hel inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+  # Scientific Background:
+  # This is Markdown: See https://www.markdownguide.org/ for guide
+  scientific_background: >
+    The Zika virus (ZIKV) has become a global public health threat since it was related to major neurological disorders in both infants and adults [[1](https://doi.org/10.1016/S0140-6736(17)31450-2), [2](https://doi.org/10.1016/S0140-6736(16)00562-6)]. 
+    ZIKV NS3 helicase (NS3hel) is a multifunctional enzyme involved in double-stranded RNA unwind and formation of viral replication machinery, being therefore critical for viral replication [[3](https://doi.org/10.1016/j.antiviral.2015.03.011)]. 
+    NS3hel is composed by three domains, with motifs typically associated to RNA binding and ATP hydrolysis [[4](https://doi.org/10.1038/nsmb.3258)]. 
+    Both these activities seem to be essential for viral replication [[5](https://doi.org/10.1093/nar/gkz650)]. 
+    Moreover, drug candidates targeting NS3hel interactions with other viral proteins, such as non-structural protein 4B, was proved to be an effective way of blocking all Dengue serotypes, leading to two clinical candidates [[6](https://doi.org/10.1038/s41586-021-03990-6), [7](https://doi.org/10.1126/scitranslmed.abb2)]. 
+    In this way, ZIKV NS3hel is an attractive drug target for the development of antivirals.
+  # Scientific Background
+  # This is Markdown: See https://www.markdownguide.org/ for guide    
+  conclusion: >
+    Here we have established a purification protocol for recombinant NS3 helicase from Zika viruses and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits.
+  
+    Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002158
+  # List of resources associated with this TEP
+  resources:
+    # Construct / plasmid resource
+    - name: Full-length NS3 helicase construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+      # Brief description of the plasmid
+      description:  This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.5 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+      # Date it was provided
+      date: 2018-02-01
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      url:  
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Nathalya Cristina de Moraes Roso Mesquita
+      - Andre Schutzer Godoy
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: >
+        For expression of protein used for crystallisation, the construct was transformed into the E. coli Rosetta 2 strain BL21(DE3), and cells were grown at 37°C in ZYM5052 medium for auto-induction supplemented with kanamycin (50 μg/ml) and chloramphenicol (35 μg/ml). After reaching an optical density at 600 nm of 0.5 to 0.6, the temperature was lowered to 18°C before induction of protein expression overnight. Harvested cells were resuspended in lysis buffer [50 mM Tris  (pH 7.0), 500 mM NaCl, 10% glycerol, 40 mM imidazole] and stored at -20°C until purification. For protein purification, pellets were gently thawed in ice and added 0.2 mg/mL lysozyme, 2 mM DTT, 2 µM PMSF, 50 U benzonase, followed by 30min incubation on ice. Lysis was conducted by sonication for 10 min, 45s pulse ON, 60s pulse OFF, 40% amplitude. Lysate was centrifuged for 30min at 15,000g at 4oC for clarification. Proteins were purified by immobilized metal affinity chromatography (IMAC) using HiTrap HP 5.0mL Ni-Sepharose resin (GE Healthcare) equilibrated with buffer A. Then protein was washed with 10 column volumes of Buffer A, than with 10% Buffer B [50 mM Tris  (pH 7.0), 500 mM NaCl, 10% glycerol, 500 mM imidazole], followed by elution with 15 mL of 100% Buffer B. Removal of the His6 tag was carried out by addition of recombinant 2 mg of TEV protease and 4 mM DTT during overnight dialysis into 2L of buffer A, followed by purification on a second IMAC column, and lastly by SEC (Superdex 75 16/60, GE Healthcare) in a buffer consisting of 500 mM NaCl, 20 mM Bis-Tris, 10 % Glycerol, pH 7.0. Proteins were characterised by SDS-polyacrylamide gel electrophoresis, then concentrated to 5 mg/mL and flash- frozen in liquid nitrogen and stored at -80°C until required.
+      # Details associated with this plasmid
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: pET_trx/LIC-ZIKVNS3hMR766
+        * Entry clone accession: 
+        * Cell line: E. coli Rosetta 2 strain BL21(DE3)
+        * Tags and additions: N-terminal, Thioredoxin, TEV protease cleavable hexahistidine
+        * Construct protein sequence: 
+          `MKHHHHHHPMSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLAGSGSGSENLYFQ*GAMLKKKQLTVLDLHPGAGKTRRVLPEIVREAIKKRLRTVILAPTRVVAAEMEEALRGLPVRYMTTAVNVTHSGTEIVDLMCHATFTSRLLQPIRVPNYNLNIMDEAHFTDPSSIAARGYISTRVEMGEAAAIFMTATPPGTRDAFPDSNSPIMDTEVEVPERAWSSGFDWVTDHSGKTVWFVPSVRNGNEIAACLTKAGKRVIQLSRKTFETEFQKTKNQEWDFVITTDISEMGANFKADRVIDSRRCLKPVILDGERVILAGPMPVTHASAAQRRGRIGRNPNKPGDEYMYGGGCAETDEGHAHWLEARMLLDNIYLQDGLIASLYRPEADKVAAIEGEFKLRTEQRKTFVELMKRGDLPVWLAYQVASAGITYTDRRWCFDGTTNNTIMEDSVPAEVWTKYGEKRVLKPRWMDARVCSDHAALKSFKEFAAGKR`
+    - name: Zenodo deposition of X-ray fragment screen of ZIKV NS3 helicase.
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.
+      date: 2022-06-01
+      type: xray-fragment-screen
+      url: https://zenodo.org/record/7864388#.ZEgRzXbMKUk
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        ZIKV NS3hel was concentrated to a final concentration of 5 mg/ml and apo crystals were grown in crystallisation solution containing 0.12 M NPS Mix (0.3 M Sodium phosphate dibasic dihydrate, 0.3 M Ammonium sulphate and 0.3 M Sodium nitrate - Molecular Dimensions), 0.1 M MES/Imidazole pH 6.5 (Molecular Dimensions) and 33% Precipitant Mix 4 (11% MPD, 11% PEG 1,000 e 11% PEG 3,350 – Sigma Aldrich). Fragments were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drops using an Echo liquid handler (final concentration, 20% DMSO); drops were incubated for approximately 1 to 3 hours before mounting and flash-freezing in liquid nitrogen. 
+        Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
+        Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
+        
+    
+    
+    

@@ -132,7 +132,7 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
+      #url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -161,7 +161,7 @@ TEP:
       type: assay
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url:  
+      #url:  
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -185,11 +185,10 @@ TEP:
     - name: Crystallization
       description: Optimised conditions to reproduce crystals for fragment screening.
       date: 2023-02-28
-      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       # TODO: Create category for "crystallization conditions".
       # TODO: Move this to protocols.io
-      type: xray-fragment-screen
-      url: 
+      type: crystallization-protocol
+      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
