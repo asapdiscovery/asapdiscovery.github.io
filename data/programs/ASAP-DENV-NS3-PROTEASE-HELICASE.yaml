@@ -24,14 +24,9 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  name: Dengue Oral Community Use
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe410ef5_0_117
-  anchor: ASAP-DENV-TPP
-  events:
-    - date: 2023-03-01
-      description: Initial draft
+  id: ASAP-TPP-DENV
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: not-started
 

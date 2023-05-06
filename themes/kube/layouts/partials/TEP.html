@@ -253,13 +253,21 @@
         
     </table>
 </div>
-<br>
 
 <!-- 
 {{ with .gene }} {{ printf "**Gene:** [%s](https://www.ncbi.nlm.nih.gov/protein/%s)" . . | markdownify }} {{ end }} |
 {{ with .uniprot }} {{ printf "**Uniprot:** [%s](https://www.uniprot.org/uniprotkb/%s)" . . | markdownify }} {{ end }} |
 {{ with .EC }} {{ printf "**EC:** [%s](https://www.genome.jp/dbget-bin/www_bget?ec:/%s)" . . | markdownify }} {{ end }} <br>
 -->
+
+<!-- Contributors -->
+<b>Contributors:</b>
+{{ range .contributors }}
+    <span class="label success"> {{ . }} </span>
+{{ end }}
+<br>
+<br>
+
 
 <!-- Header information -->
 <div class="prettybox warning" data-component="prettybox"> 
@@ -311,6 +319,13 @@
             <b> {{ .name | markdownify }}</b> <br>
             {{ with .description }} {{ . | markdownify }} <br> {{ end }}
 
+            {{ with .scarab_id }}
+                <b>SCARAB ID:</b>
+                <img width="10" src="images/icons/scarab.png">
+                {{ . }}
+                <br>
+            {{ end }}
+            
             {{ .url | markdownify }}
             <cite>[ {{ .date }} ]</cite> 
             <br>

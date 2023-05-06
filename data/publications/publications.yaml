@@ -55,3 +55,26 @@
     year: 2023
     pmcid: PMC10089178
   github: kadiliissaar/ligand_design_structural_biology
+- title: "Accelerating antiviral drug discovery: lessons from COVID-19"
+  authors: "Annette von Delft, Matthew D. Hall, Ann Kwong, Lisa A. Purcell, Kumar Singh Saikatendu, Uli Schmitz, John A. Tallarico, and Alpha Lee"
+  summary: We present a broad industry and academic perspective on key stages in the small-molecule antiviral discovery process and present strategies that could accelerate future efforts.
+  img: target-product-profile.png
+  programs: []
+  projects: [Project 6]
+  published:
+    doi: 10.1038/s41573-023-00692-8
+    journal: Nature Reviews Drug Discovery
+    date: 2023-04-29
+    year: 2023
+- title: "Allosteric regulation and crystallographic fragment screening of SARS-CoV-2 NSP15 endoribonuclease"    
+  authors: "Andre Schutzer Godoy, Aline Minalli Nakamura, Alice Douangamath, Yun Song, Gabriela Dias Noske, Victor Oliveira Gawriljuk, Rafaela Sachetto Fernandes, Humberto D Muniz Pereira, Ketllyn Irene Zagato Oliveira, Daren Fearon, Alexandre Dias, Tobias Krojer, Michael Fairhead, Alisa Powell, Louise Dunnet, Jose Brandao-Neto, Rachael Skyner, Rod Chalk, Dávid Bajusz, Miklós Bege, Anikó Borbás, György Miklós Keserű, Frank von Delft, Glaucius Oliva"
+  summary: We conducted a large fragment screening campaign against SARS-CoV-2 nsp15 endoribonuclease and identified several new allosteric sites that could be targeted for the development of new inhibitors.
+  img: allosteric-regulation-nsp15-endoribonuclease.jpg
+  programs: [Structural Biology Core]
+  projects: [Project 2]
+  published:
+    doi: 10.1093/nar/gkad314
+    journal: Nucleic Acids Research
+    date: 2023-04-28
+    year: 2023
+  data: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B

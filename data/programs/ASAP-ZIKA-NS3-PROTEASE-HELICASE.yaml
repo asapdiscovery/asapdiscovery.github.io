@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "Zika NS2B-NS3 protease"
+  name: "Zika NS2B-NS3 protease-helicase"
   target: NS2B-NS3
   program_code: ASAPPPOEAD
   program_nickname: ASAP-ZIKA-NS3-PROTEASE-HELICASE
@@ -24,8 +24,8 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g22f99006697_0_0
-
+  id: ASAP-TPP-ZIKA
+  
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: not-started

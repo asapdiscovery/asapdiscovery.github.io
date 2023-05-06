@@ -1,19 +1,24 @@
-<!-- image --
+<!-- Photo -->
+<div class="row gutters">
 <div class="col col-2">
-  <img src=img/{{ .img }}>
+  {{ with .img }} <img src=../members/img/people/{{ . }}> {{ end }}
 </div>
--->
+<!-- Info -->
 <div class="col col-9">
   <h4><b>{{ .name }}</b>
-  {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="img/twitter.png"></a> {{ end }}
-  {{ with .github }} <a href="http://github.com/{{ . }}"><img width="20" src="img/github.png"></a> {{ end }}
+  {{ with .twitter }} <a href="http://twitter.com/{{ . }}"><img width="20" src="../members/img/icons/twitter.png"></a> {{ end }}
+  {{ with .github }} <a href="http://github.com/{{ . }}"><img width="20" src="../members/img/icons/github.png"></a> {{ end }}
   </h4>
   <p>
     <b>{{ .role }}</b><br>
     {{ .title }}, {{ .institution }}<br>
-    <i>{{ .description | markdownify }}</i><br>
+    {{ if in .lab "P" }} <span class="label success">{{ .lab }}</span><br> {{ end }}
+    {{ if in .lab "Core" }} <span class="label warning">{{ .lab }}</span><br> {{ end }}
     {{ with .webpage }} web: <a href={{ . }}>{{ . }}</a><br> {{ end }}
     {{ with .ORCID }} ORCID: <a href="https://orcid.org/{{ . }}">{{ . }}</a> {{ end }}
     {{ with .google_scholar }} | <a href="{{ . }}">Google Scholar</a> {{ end }}
+    <i>{{ .description | markdownify }}</i>
   </p>
 </div>
+</div>
+<hr>

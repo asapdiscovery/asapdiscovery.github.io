@@ -185,10 +185,10 @@ TEP:
             TGCAACGTGAACCGCTTCAATGTAGCGATCACCCGTGCGAAGGTAGGTATTTTGTGCATCATGTCCGACCGTGATCTGT
             ATGACAAATTGCAGTTTACCAGCCTGGAAATCCCTCGCCGTAACGTGGCAACCCTTCAATAACAGTAAAGGTGGATACG
             GATCCGAATTCGAGCTCCGTCGACAAGCTTGCGGCCGCACTCGAGCACCACCACCACCACCACTGA
-    - name: Cystallisation
+    - name: PDB X-ray structure of SARS-CoV-2 nsp13 helicase
       description:  The NSP13 crystal form contains two protomers in the P1 spacegroup and diffracts to 2.2 Å.
       date: 2020-09-16
-      type: xray-fragment-screen
+      type: pdb-structure
       url: https://www.rcsb.org/structure/7NIO
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -208,12 +208,12 @@ TEP:
         Data Processing: The structure was solved by molecular replacement using the program PHASER and the
         structure of SARS-CoV-1 NSP13 (6JYT) as a search model. Refinement was performed using PHENIX REFINE to
         a final Rfactor = 20.9%, Rfree = 25.3%.
-    - name: Crystallographic fragment screening at Diamond XChem
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp13 helicase
       description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
                     hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
                     collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 
       date: 2020-09-16
-      type: xray-fragment-screen
+      type: pdb-group-deposition
       url: https://www.rcsb.org/groups/summary/entry/G_1002164
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -226,4 +226,24 @@ TEP:
         Data Processing: Structures were solved by difference Fourier synthesis using the XChem Explorer pipeline.
         Fragment hits were identified using the PanDDA program. Refinement was performed using REFMAC or
         BUSTER.
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp13 helicase
+      description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
+                    hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
+                    collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 
+      date: 2020-09-16
+      type: xray-fragment-screen
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/nsp13
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        Fragments from the DSI-Poised library were added to the crystallisation drops by acoustic
+        dispensing using an ECHO acoustic liquid handler from a 500 mM stock concentration dissolved in DMSO to a
+        final concentration of 10%. Soaking times varied from 1 to 3 hours.
+        Data Collection: Data were collected at Diamond light source beamline I04-1 and processed using the XChem
+        Explorer pipeline.
+        Data Processing: Structures were solved by difference Fourier synthesis using the XChem Explorer pipeline.
+        Fragment hits were identified using the PanDDA program. Refinement was performed using REFMAC or
+        BUSTER.
     
+    
+

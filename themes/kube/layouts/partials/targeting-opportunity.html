@@ -1,0 +1,12 @@
+<!-- Title -->
+
+<!-- {{ with .name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
+
+<h3 style="text-align: left;" id={{ .overview.program_nickname }}>{{ .overview.name }}</h3>
+
+<a href="{{ .targeting_opportunity.url }}">Targeting Opportunity for {{ .overview.name }} </a><br>
+{{ range .targeting_opportunity.events }}
+  <i>[{{ .date }}]</i> {{ .description }}<br>
+{{ end }}
+
+<br>

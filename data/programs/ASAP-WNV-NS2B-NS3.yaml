@@ -25,3 +25,22 @@ targeting_opportunity:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
+
+assay_cascade:
+  status: in-progress
+  #url: https://covid.postera.ai/covid/activity_data
+
+covalent_targeting:
+  status: in-progress
+  #url: https://covid.postera.ai/covid/activity_data
+
+molecules:
+  releases:
+  - name: "WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
+    metadata: https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f
+    data: https://app.postera.ai/account/molecule-set/40f36173-05a8-42ef-8d1c-4250dff0893c
+    assay_protocol: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
+    project: "Project 4"
+    core: "Biochemical Assay Core"
+    description: |
+      Biochemical assay data for single-concentration fragment screen and follow-up multi-point titration for hits.

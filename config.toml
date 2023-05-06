@@ -19,16 +19,16 @@ ignoreFiles = ['data/outputs/preTEPS/']
   github = "https://github.com/asapdiscovery" # add your github profile name
   email = "john.chodera@choderalab.org"
 
-#[[menu.main]]
-#    name = "Pipeline"
-#    weight = -50
-#    url = "/pipeline/"
-#    identifier = "pipeline"
-#[[menu.main]]
-#    name = "Outputs"
-#    weight = -45
-#    url = "/outputs/"
-#    identifier = "outputs"
+[[menu.main]]
+    name = "Pipeline"
+    weight = -50
+    url = "/pipeline/"
+    identifier = "pipeline"
+[[menu.main]]
+    name = "Outputs"
+    weight = -45
+    url = "/outputs/"
+    identifier = "outputs"
 [[menu.main]]
     name = "Concept"
     weight = -40
@@ -40,15 +40,20 @@ ignoreFiles = ['data/outputs/preTEPS/']
     url = "/members/"
     identifier = "members"
 [[menu.main]]
+    name = "SAB"
+    weight = -25
+    url = "/sab/"
+    identifier = "sab"
+[[menu.main]]
     name = "FAQ"
     weight = -20
     url = "/faq/"
     identifier = "FAQ"
-[[menu.main]]
-    name = "Awards"
-    weight = -15
-    url = "/awards/"
-    identifier = "awards"
+#[[menu.main]]
+#    name = "Awards"
+#    weight = -15
+#    url = "/awards/"
+#    identifier = "awards"
 #[[menu.main]]
 #    name = "Jobs"
 #    weight = -10
@@ -60,8 +65,13 @@ ignoreFiles = ['data/outputs/preTEPS/']
     url = "/forum/"
     identifier = "forum"
 [[menu.main]]
-    name = "COVID Moonshot"
+    name = "Open Science"
     weight = 0
+    url = "/open-science/"
+    identifier = "open-science"
+[[menu.main]]
+    name = "COVID Moonshot"
+    weight = -2
     url = "https://postera.ai/moonshot/"
     identifier = "moonshot"
 

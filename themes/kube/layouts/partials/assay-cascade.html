@@ -1,0 +1,16 @@
+<!-- Title -->
+
+<!-- {{ with .name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
+
+<h3 style="text-align: left;" id={{ .id }}>{{ .name }}</h3>
+
+<a href="{{ .url }}">{{ .name }} </a>
+{{ if eq .status "draft" }}
+    <span class="label warning">{{ .status }}</span>
+{{ end }}   
+<br>
+{{ range .events }}
+    <small><i>[{{ .date }}]</i> {{ .description }}</small> <br>
+{{ end }}
+
+<br>

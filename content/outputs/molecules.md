@@ -1,12 +1,10 @@
 ---
-weight: 4
+weight: 30
 title: Molecules
-description: ASAP antivirals and assayed compounds
+description: Assayed compounds and biochemical data
 toc: true
 draft: false
 ---
 
-### SARS-CoV-2 ns3 Mac1 macrodomain
+{{< molecules >}}
 
-
-### Program 2

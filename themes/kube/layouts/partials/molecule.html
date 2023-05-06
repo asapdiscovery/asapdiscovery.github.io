@@ -1,0 +1,16 @@
+<!-- Title -->
+
+<!-- {{ with .name }} {{ printf "### %s" . | markdownify }} {{ end }} -->
+
+
+<h3 style="text-align: left;" id={{ .overview.program_nickname }}>{{ .overview.name }}</h3>
+
+<b>{{ .name }}</b><br>
+{{ with .data }} <a href="{{ . }}">[assay data]</a> {{ end }}
+{{ with .metadata }}<a href="{{ . }}">[metadata]</a>{{ end }}
+<br>
+{{ with .description }}{{ . }}<br>{{ end }}
+<br>
+<hr>
+
+

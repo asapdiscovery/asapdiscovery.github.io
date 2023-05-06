@@ -24,14 +24,9 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  title: "Enterovirus D68 Adult Oral/IV Community Use"
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g21244524222_3_15
-  anchor: ASAP-EVD68-ADULT-TPP
-  events:
-    - date: 2023-03-01
-      description: Initial draft
+  id: ASAP-TPP-EVD68-ADULT
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: not-started
 

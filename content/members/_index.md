@@ -2,6 +2,6 @@
 layout: single
 permalink: /members/
 title: "Members"
-description: "ASAP Investigators"
+description: "ASAP Personnel"
 layout: members
 ---

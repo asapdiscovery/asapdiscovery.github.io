@@ -1,0 +1,21 @@
+- id: MOONSHOT-ASSAY
+  name: SARS-CoV-2 Mpro assay cascade from the COVID Moonshot
+  status: completed
+  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0
+
+- id: ASAP-ASSAY-COV-MPRO
+  name: SARS-CoV-2 / MERS-CoV Mpro assay cascade
+  status: completed
+  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232fd5f2809_1_114
+  events:
+  - date: 2022-06-01
+    description: Initial draft
+
+- id: ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
+  name: SARS-CoV nsp3 Mac1 assay cascade for lead nomination
+  status: draft
+  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0
+  events:
+  - date: 2022-06-01
+    description: Initial draft
+

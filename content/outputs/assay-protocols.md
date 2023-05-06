@@ -1,5 +1,5 @@
 ---
-weight: 9
+weight: 95
 title: Assay Protocols
 description: Assay protocols developed for ASAP Discovery programs
 toc: true

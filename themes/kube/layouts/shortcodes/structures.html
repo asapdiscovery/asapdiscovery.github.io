@@ -1,0 +1,16 @@
+<!-- TODO: How should we sort the target data? -->
+
+{{ $structure_types := slice "xray-fragment-screen" "pdb-group-deposition" "pdb-structure"}}
+
+{{ range $TEP := $.Site.Data.outputs.TEPs }}
+
+{{ $TEP = $TEP.TEP }}
+
+    {{ range $resource := $TEP.resources }}
+        {{ $resource = merge $resource (dict "asap" $TEP.asap "program_name" $TEP.name) }}
+        {{ if in $structure_types $resource.type }}
+            {{ partial "structure.html" $resource }}
+        {{ end }}
+    {{ end }}
+
+{{ end }} 

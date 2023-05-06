@@ -99,11 +99,11 @@ TEP:
         ![image](/img/tep_images/sars2_nprot_example_gel_1.png)
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
 
-    - name: Tryptophan quench
-      description: Final concentration of protein is 14 uM (arbitrary, once compounds get more potent this will become limiting). Note that because of the way the dilutions are done, final compound concentrations are 0.9x of the designed titration. 
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein
+      description: 
       date: 2021-11-15
-      type: xray-fragment-screen
-      url: https://fragalysis.diamond.ac.uk/viewer/react/projects/2706/2244
+      type: xray-fragment screen
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -123,6 +123,14 @@ TEP:
         * Average resolution (Å): 1.7
         * Crystal morphology: Bi-pyramid
 
+    - name: Tryptophan quenching biophysical assay for SARS-CoV-2 N-protein binding
+      description: Final concentration of protein is 14 uM (arbitrary, once compounds get more potent this will become limiting). Note that because of the way the dilutions are done, final compound concentrations are 0.9x of the designed titration. 
+      date: 2021-11-15
+      type: biophysical-assay
+      url: https://fragalysis.diamond.ac.uk/viewer/react/projects/2706/2244
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
         Steps:
 
         * Prepare working stock (10X) of p1127; 140 uM in Assay buffer without DMSO
@@ -134,7 +142,8 @@ TEP:
         * Read fluorescence at 350nm
         * If needed subtract compound fluorescence and fit using 4 parameter dose-response in Prism. 
       details: |
-        Assay buffer: 150 mM NaCl, 50 mM Tris pH 8, 1 mM DTT(usually prepared as aliquots of 10X, frozen and thawed for use). DMSO added to 1-5% v/v depending on compounds.
+        <a href="/pdfs/PAGE22-01018 - ASAP; SARS-CoV2; N-protein; protocol transfer from Jakub Luptak.pdf" download>Download experimental metadata</a>
+        Assay buffer: 150 mM NaCl, 50 mM Tris pH 8, 1 mM DTT (usually prepared as aliquots of 10X, frozen and thawed for use). DMSO added to 1-5% v/v depending on compounds.
         
         Protein: p1127 (nprot) in 300 mM NaCl, 50 mM Tris pH 8, 1 mM DTT
         
