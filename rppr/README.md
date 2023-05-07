@@ -2,6 +2,8 @@
 
 These scripts automate the generation of the Progres Report Summary (Form Page 5)
 
+All styles are taken from the `2590_continuation-template.docx` template. Modifications to this document will be propagated through into generated Word documents.
+
 ## Prerequisites
 
 Install the prerequisites
@@ -15,6 +17,16 @@ Run the script
 ```bash
 python generate-rppr.py
 ```
+Generated word documents will be found in `outputs/`
+
+## Manifest
+* `component-names.yaml` : Official full names of Projects and Cores
+* `specific-aims.yaml` : Specific Aims for Projects and Cores
+
+## TODO
+* Check out https://github.com/mjanv/mistune-docx
+
+
 
 ---
 
