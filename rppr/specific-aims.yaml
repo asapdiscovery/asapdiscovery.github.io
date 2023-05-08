@@ -6,7 +6,6 @@
 # 'modified' is `true` or `false` depending on whether the aims were modified from the original competing application
 # 'aims' is the text of just the Specific Aims of the Project or Core. If the Aims have been modified from the competing application, the reason is included. Markdown is not currently supported.
 
-
 Project 1:
   - name: "Project 1: Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance"
   - type: Project

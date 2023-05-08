@@ -1,4 +1,3 @@
----
 Project 1: |
   * Determine mechanism of dominant disruption for VP1/2A fusion proteins generated during inhibition of 2A protease function and its effect on selection of drug-resistant variants. 
   * Define intramolecular- and intermolecular cleavage sites for Zika and West Nile NS2B/3 proteases. 
@@ -19,31 +18,31 @@ Project 3: |
   * Complete hit-to-lead for SARS-CoV-2 nsp3-mac1 and nucleocapsid protein. This either means transition to P5, or produce a data package that deprioritises the target using chemical matter discovered in the project.  
   * Commence hit-to-lead campaigns on 2 more TEPs from P2.  
 
-Project 4:
+Project 4: |
   * Optimize promising SARS-Cov-2 and MERS Mpro covalent inhibitors to reach criteria for transition to Project 5.
   * Execute covalent fragment screens against DENV, WNV, ZIKV NS2B-NS3 (from ad-hoc generated fragment libraries), A71 and D68 (enteroviruses) 2A & 3C proteases, and ZIKA NS3 helicase, from commercial fragment libraries (Aim 1). 
   * Propose covalent derivatives for fragments emerging from Project 2 (Aim 2).
   * Support Project 3 with high-throughput nanomole scale library synthesis (Aim 3).
   * Design, synthesize and test covalent (and non-covalent) PROTACs for SARS-CoV-2 Mpro (Aim 4).
 
-Project 5: 
+Project 5: |
   * Deliver a pre-clinical candidate for MERS + SARS oral antiviral with free drug Cmin > EC90 in both MERS + SARS2. Ensure appropriate in vitro and in vivo ADME data is generated to support efficacy testing in animal models and to generate a first estimate for projected human dose. Generate appropriate in vitro toxicity testing data to support pre-clinical development for use as a community therapeutic with no critical drug-drug interactions or requirements for PK enhancers.  
   * Initiate a second Lead optimisation program from the opportunities delivered by either Project 3 or Project 4 and generate early cellular and in vitro ADMET to identify critical issues of lead series.
 
-Project 6:
+Project 6: |
   * Prepare and refine TPPs with relevant clinicians for enterovirus D68 and A71.
   * Solidify hand-over criteria between P5 and P6. 
   * Detailed planning and procurement processes for early preclinical screens, initial scale-up, and multi-species PK to establish early dose estimates. 
   * Delivery of material for initial multi-species in vivo PK studies
   * Initiate initial route scouting, scale-up, and pre-clinical screens. PK and animal efficacy studies for the first advanced lead.
 
-Administrative Core:
+Administrative Core: |
   * Produce a live view of all open research products from ASAP and project status on the ASAP website.
   * Continue to refine our approach to extracting maximum value from ASAP Investigator, SAB, and NIAID meetings.
   * Migrate the Open Antivirals [http://openantivirals.org] website to a stand-alone entity that multiple AViDD Centers can use to share research outputs, resources, molecules, reagents, talks, and other antiviral dissemination materials.
   * Organize ASAP Annual Meeting to coordinate personnel, conduct retrospective project reviews, operational assessments and refinements, and strategic planning. The meeting will occur in NYC May 1-4 and will include the NIAID virtual reverse site-visit and in-person SAB meeting.
 
-Antiviral Core:
+Antiviral Core: |
   * Establish and optimize SOPs for IF-based antiviral assays for: enterovirus EV-D68 in RD cells, enterovirus poliovirus in A549 cells, coronavirus NL63 in LLC-MK2 cells, coronavirus OC43 in RD cells, flavivirus WNV in Vero E6 cells
   * Optimize the IF-based antiviral assay for EV-A71 in LLC-MK2 cells
   * Establish an Adv-hDPP4-transduced mouse model for in vivo efficacy testing of antivirals against MERS-CoV respiratory disease
@@ -53,7 +52,7 @@ Antiviral Core:
   * Establish SOPs for viral passaging and sequencing schemes for enterovirus and flavivirus antiviral resistance analysis of preclinical leads as proposed in Section 3.2.
   * Continue to screen with IF-based antiviral assays for SARS-CoV-2 and MERS-CoV with compounds supplied by Projects 1 to 6
 
-Biochemical Core:
+Biochemical Core: |
   * Continue support of hit-to-lead programs - SARS-Cov2/MERS Mpro, Mac1
   * Mitigate risk for Mac1 inhibitors with cell viability and cell painting assay
   * Develop automated pipeline for covalent protease profiling analysis
@@ -61,13 +60,13 @@ Biochemical Core:
   * Support Enterovirus protease inhibitor discovery via compound screening
   * Develop SARS-Cov2 Nucleocapsid screening assay 
 
-Data Core:
+Data Core: |
   * Continue developing data infrastructure to support ongoing medicinal chemistry campaigns, as well as new programs starting during 2023.
   * Develop an improved, fully functional shipment tracking system to track shipments and compound orders between the multinational teams on this project.
   * Create a portal that gives chemists the ability to action compounds for specific downstream assays following synthesis. Furthermore, the portal will allow for tracking of the status of specific compounds in each assay. With this data infrastructure, chemists will then have access to in depth tracking of compounds all the way from ideation and design to synthesis to primary assays and late-stage ADMET assays.
   * Develop improved workflow for publication of open-source data to the public, with fully annotated details regarding stereochemistry and progression through assay cascades.
 
-Structural Biology Core:
+Structural Biology Core: |
   * Finalize software infrastructure and Fragalysis upgrades for rapid data-to-dissemination
   * For P2, deliver fragment screens for 7 TEPs 
   * For P3, deliver fast turn-around of protein-ligand structures for 5 hit-to-lead projects

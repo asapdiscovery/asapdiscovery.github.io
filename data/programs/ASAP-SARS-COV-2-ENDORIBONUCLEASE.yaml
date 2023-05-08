@@ -31,7 +31,7 @@ DMS:
     date-completed: 2023-01-31
     url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp15.html
     preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
-    RPPR: [P1]
+    projects: [Project 1]
     events:
       - date: 2023-01-31
         description: A preprint was posted to bioRxiv.
@@ -51,7 +51,7 @@ DMS:
     date-completed: 2022-07-26
     publication: https://elifesciences.org/articles/77433    
     doi: 10.7554/eLife.77433
-    RPPR: []
+    projects: []
 
 TPP:
   status: completed

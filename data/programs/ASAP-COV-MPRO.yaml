@@ -33,7 +33,7 @@ DMS:
     date-completed: 2023-01-31
     url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
     preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
-    RPPR: [P1]
+    projects: [Project 1]
     events:
       - date: 2023-01-31
         description: A preprint was posted to bioRxiv.
@@ -88,7 +88,7 @@ molecules:
   - name: "SARS-CoV-2/MERS-CoV Mpro lead optimization biochemical assay - negative data"
     metadata: https://asapdiscovery.notion.site/SARS-CoV-2-and-MERS-Main-Protease-Mpro-Fluorescence-Dose-Response-Data-a23b21fe8fce4e1494c4c6720b072c1e
     data: https://app.postera.ai/account/molecule-set/cf233d08-520b-4934-a647-932d7b8b2a06
-    project: "Project 5"
-    core: "Biochemical Assay Core"
+    projects: [Project 5]
+    cores: [Biochemical Assay Core]
     description: |
         This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program.

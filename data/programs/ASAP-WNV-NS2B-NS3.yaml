@@ -40,7 +40,7 @@ molecules:
     metadata: https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f
     data: https://app.postera.ai/account/molecule-set/40f36173-05a8-42ef-8d1c-4250dff0893c
     assay_protocol: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
-    project: "Project 4"
-    core: "Biochemical Assay Core"
+    projects: [Project 4]
+    cores: [Biochemical Assay Core]
     description: |
       Biochemical assay data for single-concentration fragment screen and follow-up multi-point titration for hits.
