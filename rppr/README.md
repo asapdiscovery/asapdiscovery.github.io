@@ -8,7 +8,7 @@ All styles are taken from the `2590_continuation-template.docx` template. Modifi
 
 Install the prerequisites
 ```bash
-mamba create -n rppr python-docx
+mamba create -n rppr python-docx mistune<1.0 sympy pyyaml
 mamba activate rppr
 
 ## RPPR generation

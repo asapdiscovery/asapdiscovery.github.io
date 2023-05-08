@@ -4,86 +4,95 @@
 # The key (e.g. 'Project 1', 'Antiviral Core') corresponds to the keys used throughout all YAML files to associate research outputs and individuals with Projects and Cores
 # 'name' is used to render the full Project or Core name
 # 'modified' is `true` or `false` depending on whether the aims were modified from the original competing application
-# 'aims' is the text of just the Specific Aims of the Project or Core. If the Aims have been modified from the competing application, the reason is included. Markdown is not currently supported.
+# 'aims' is the text of just the Specific Aims of the Project or Core. If the Aims have been modified from the competing application, the reason is included. Markdown is supported.
 
 Project 1:
-  - name: "Project 1: Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance"
-  - type: Project
-  - significance: |
+  name: "Project 1: Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance"
+  type: Project
+  significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     Project 1 is the critical first step of this process, working to identify the specific Targeting Opportunity that forms the basis of each potential Discovery Program ASAP can pursue.
+
     A targeting opportunity provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action. This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
-    
     Critically, Project 1 is also responsible for identifying functionally tolerated mutations in the targeted region that may lead to resistance using analysis of circulating variants and deep mutational scanning techniques.
     This information is used by subsequent stages of discovery in order to avoid the potential for antivirals discovered by ASAP to be easily rendered useless by the emergence of or already extant resistance.
     During the discovery process, milestone compounds are also used to assess the potential for resistance and aid in making decisions of lead series to nominate for lead optimization or preclinical development.    
-  - funded_aims_modified: true
-  - aims: |
+  funded_aims_modified: true
+  aims: |
     The Specific Aims for Project 1 were modified at the request of NIAID personnel, which specifically requested:
-    "Project 1 Budget Revision: a 60% reduction in budget to focus Project 1 efforts on deep mutagenesis for resistance mapping (Aim 3) for existing targets."
+
+    *"Project 1 Budget Revision: a 60% reduction in budget to focus Project 1 efforts on deep mutagenesis for resistance mapping (Aim 3) for existing targets."*
 
     The revised aims were accepted by Maureen Beanan (NIAID) on 1 Apr 2022.
 
-    Aim 1: Minimizing selection for resistance to protease inhibitors. The proteases of positive-strand RNA viruses are crucial for viral protein processing and the inactivation or subversion of host proteins. First synthesized in the context of a polyprotein, these viral proteases often function first in cis to excise themselves from the polyprotein and then via conventional trans enzyme-substrate interactions. Inhibitors that show even partial inhibition of the initial cis-cleavages can cause accumulation of misprocessed viral proteins that can be dominant inhibitors of all viruses within a cell. Amino acids crucial for these activities will be identified by deep mutational scanning and targeted mutagenesis will identify those required for protease function in cis, trans or both. The identities of amino acids known to be required for viral fitness, cis-cleavage and trans-cleavage will assist with lead development. Then, DMS analysis will be used to determine the frequency and location of any mutations that confer resistance as antiviral optimization continues.
+    **Aim 1: Minimizing selection for resistance to protease inhibitors.** The proteases of positive-strand RNA viruses are crucial for viral protein processing and the inactivation or subversion of host proteins. First synthesized in the context of a polyprotein, these viral proteases often function first in cis to excise themselves from the polyprotein and then via conventional trans enzyme-substrate interactions. Inhibitors that show even partial inhibition of the initial cis-cleavages can cause accumulation of misprocessed viral proteins that can be dominant inhibitors of all viruses within a cell. Amino acids crucial for these activities will be identified by deep mutational scanning and targeted mutagenesis will identify those required for protease function in cis, trans or both. The identities of amino acids known to be required for viral fitness, cis-cleavage and trans-cleavage will assist with lead development. Then, DMS analysis will be used to determine the frequency and location of any mutations that confer resistance as antiviral optimization continues.
 
-    Aim 2: Minimizing selection for resistance to inhibitors of structural protein function. The fragment-screening approach of this AViDD consortium is ideal for identifying surfaces of viral structural proteins amenable to the binding of small molecules. As conformational modulators of picornaviral and flaviviral capsids, and of coronavirus M and N proteins are identified, DMS analyses will identifiy binding regions where amino acid identity is crucial for viral fitness. Drug-bound subunits of monomers that assemble into oligomeric structures can be dominant inhibitors of the entire chimeric structure; oligomerization analyses will reveal whether individual compound-bound monomers alter the stability of complexes and whether intracellular mixing occurs. As conformational modulators are developed, DMS analysis will be used to further define the fitness landscpe, enabling medicinal chemistry to optimize dominant inhibition and fitness cost, thus increasing the genetic barrier to drug resistance.  
+    **Aim 2: Minimizing selection for resistance to inhibitors of structural protein function.** The fragment-screening approach of this AViDD consortium is ideal for identifying surfaces of viral structural proteins amenable to the binding of small molecules. As conformational modulators of picornaviral and flaviviral capsids, and of coronavirus M and N proteins are identified, DMS analyses will identifiy binding regions where amino acid identity is crucial for viral fitness. Drug-bound subunits of monomers that assemble into oligomeric structures can be dominant inhibitors of the entire chimeric structure; oligomerization analyses will reveal whether individual compound-bound monomers alter the stability of complexes and whether intracellular mixing occurs. As conformational modulators are developed, DMS analysis will be used to further define the fitness landscpe, enabling medicinal chemistry to optimize dominant inhibition and fitness cost, thus increasing the genetic barrier to drug resistance.  
 
 Project 2:
-  - name: "Project 2: Target enablement"
-  - type: Project
-  - significance: |
+  name: "Project 2: Target enablement"
+  type: Project
+  significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     Project 2 generates Target Enabling Packages that provide complete starting points for structure-based drug discovery.
 
-    A Target Enabling Package (TEP) is a complete data package needed to enable structure-based drug discovery against an antiviral target. Pioneered by the Structural Genomics Consortium, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an X-ray fragment screen at the Diamond Light Source XChem facility, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: Establish biochemical and crystal structure tractability of all novel targets identified in Project 1. This entails streamlined progression of tens of expression constructs through purification, crystallization, and structure solution. Innovations include Gluebodies for up-front discovery of alternative crystal forms.
+    A **Target Enabling Package (TEP)** is a complete data package needed to enable structure-based drug discovery against an antiviral target. Pioneered by the Structural Genomics Consortium, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an X-ray fragment screen at the Diamond Light Source XChem facility, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.
+  funded_aims_modified: false
+  aims: |
+    **Aim 1: Establish biochemical and crystal structure tractability of all novel targets identified in Project 1.** This entails streamlined progression of tens of expression constructs through purification, crystallization, and structure solution. Innovations include Gluebodies for up-front discovery of alternative crystal forms.
 
-    Aim 2: Develop robust crystallization protocols, and orthogonal assays for biochemical activity and biophysical affinity. Further expression constructs will be progressed to ensure that crystals are suitable for XChem fragment screens, that biochemical assays proposed in Project 1 are enabled, that biophysical assays are set up, and that initial assay calibrations are performed.
+    **Aim 2: Develop robust crystallization protocols, and orthogonal assays for biochemical activity and biophysical affinity.** Further expression constructs will be progressed to ensure that crystals are suitable for XChem fragment screens, that biochemical assays proposed in Project 1 are enabled, that biophysical assays are set up, and that initial assay calibrations are performed.
 
-    Aim 3: Complete and analyze crystallographic fragment screens. With the Structural Biology core, crystal forms will be assessed and optimized for fragment screening, and hits promptly annotated and published.
+    **Aim 3: Complete and analyze crystallographic fragment screens.** With the Structural Biology core, crystal forms will be assessed and optimized for fragment screening, and hits promptly annotated and published.
 
-    Aim 4: Finalize TEPs by validating assays and binding pose with hit compounds derived from observed fragments. Using newly developed algorithms for fragment merging, catalog compounds will be sourced; tested for co-crystal structure solution, biophysical affinity and biochemical activity; and consistency confirmed with small sets of analogs for on-scale compounds.
+    **Aim 4: Finalize TEPs by validating assays and binding pose with hit compounds derived from observed fragments.** Using newly developed algorithms for fragment merging, catalog compounds will be sourced; tested for co-crystal structure solution, biophysical affinity and biochemical activity; and consistency confirmed with small sets of analogs for on-scale compounds.
 
 Project 3:
-  - name: "Project 3: Fragment-to-lead and target validation"
-  - significance: |
+  name: "Project 3: Fragment-to-lead and target validation"
+  significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     Project 3 starts from X-ray fragment screens generated by Project 2 (which generally do not have experimentally measurable potency) to produce good lead compounds that could serve as input for Project 5 (Lead Optimization).
     These early leads are also used to probe target biology and de-risk the Discovery Program by enabling go/no-go decisions based on whether the target biology leads to useful antiviral effects in cells.
-  - type: Project
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: To establish biological hypotheses via chemical modulation of targets. To enable target establishment, we aim to deliver ligands that are potent and with demonstrable structure-activity relationship to de-risk false positives. We anticipate pharmacophoric fragment merging as the dominant strategy to rapidly arrive at these initial ligands, arriving at: (i) potent inhibitor in biochemical assays with  IC50<1uM; (ii) measurable inhibition in cellular antiviral assays with EC50<5μM and cytotoxicity CC50>50 μM; and (iii) characterized structure-activity relationships: At least 10 compounds in a congeneric chemical series with biochemical (in)activity translating to antiviral (in)activity. 
+  type: Project
+  funded_aims_modified: false
+  aims: |
+    **Aim 1: To establish biological hypotheses via chemical modulation of targets.** To enable target establishment, we aim to deliver ligands that are potent and with demonstrable structure-activity relationship to de-risk false positives. We anticipate pharmacophoric fragment merging as the dominant strategy to rapidly arrive at these initial ligands, arriving at: (i) potent inhibitor in biochemical assays with  IC50<1uM; (ii) measurable inhibition in cellular antiviral assays with EC50<5μM and cytotoxicity CC50>50 μM; and (iii) characterized structure-activity relationships: At least 10 compounds in a congeneric chemical series with biochemical (in)activity translating to antiviral (in)activity. 
 
-    Aim 2: To generate therapeutically developable lead molecules. Therapeutically developable compounds require additional ADMET properties. We will profile and optimize our lead series against the following endpoints. We anticipate pharmacophoric fragment expansion as a strategy to further expand early hits to arrive at acceptable drug-like properties:  (i) potent inhibitor in biochemical assays with  IC50<500 nM; (ii) inhibition in cellular antiviral assays with EC50<3μM and cytotoxicity CC50>50 μM; (iii) developable Tier 1 ADME and physicochemical properties: clog P<4, kinetic solubility > 10 μM, rat and human microsomal stability CLint<50 μl/min/mg, MDCK-LE permeability Papp>1x106cm/s; and (iv) no detected off-target effect, at 10 uM concentration; at this stage profiling will only be carried out if off-target activity is likely, as evidenced by high level of similarity to host protein active site. 
+    **Aim 2: To generate therapeutically developable lead molecules.** Therapeutically developable compounds require additional ADMET properties. We will profile and optimize our lead series against the following endpoints. We anticipate pharmacophoric fragment expansion as a strategy to further expand early hits to arrive at acceptable drug-like properties:  (i) potent inhibitor in biochemical assays with  IC50<500 nM; (ii) inhibition in cellular antiviral assays with EC50<3μM and cytotoxicity CC50>50 μM; (iii) developable Tier 1 ADME and physicochemical properties: clog P<4, kinetic solubility > 10 μM, rat and human microsomal stability CLint<50 μl/min/mg, MDCK-LE permeability Papp>1x106cm/s; and (iv) no detected off-target effect, at 10 uM concentration; at this stage profiling will only be carried out if off-target activity is likely, as evidenced by high level of similarity to host protein active site. 
 
 Project 4:
-  - name: "Project 4: Covalent targeting strategies"
-  - type: Project
-  - significance: |
+  name: "Project 4: Covalent targeting strategies"
+  type: Project
+  significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
-    As many of the antiviral targets pursued by ASAP are cysteine or serine p
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: Optimize chemistries and fragment libraries to identify covalent fragments for anti-viral targets. We aim to build and validate new, improved covalent fragment libraries suitable for application to diverse protein targets. We will screen libraries against targets identified by Project 1 and produced by Project 2.  Validated hits will be progressed to Project 3. Overall, we will screen 1-4 libraries for each target and we expect to identify 1-3 validated hits per target for use to validation (Project 1) and further optimization (Projects 3,5).
+    As many of the antiviral targets pursued by ASAP are cysteine or serine proteases, there are numerous opportunities to introduce covalent wareheads or exploit other covalent targeting opportunities to significantly increase antiviral potency or enhance antiviral activity by actively degrading viral target proteins.
+    Project 4 identifies opportunities to exploit covalent targeting for leads originating from Project 3 (Fragment-to-Lead), and also identifies opportunities to covalentize leads in Project 5 (Lead Optimization).
+    If its transition criteria are met, covalent antivirals developed by Project 4 can initiate into full lead optimization programs for Project 5 to produce candidates for preclinical development.
+  funded_aims_modified: false
+  aims: |
+    **Aim 1: Optimize chemistries and fragment libraries to identify covalent fragments for anti-viral targets.** We aim to build and validate new, improved covalent fragment libraries suitable for application to diverse protein targets. We will screen libraries against targets identified by Project 1 and produced by Project 2.  Validated hits will be progressed to Project 3. Overall, we will screen 1-4 libraries for each target and we expect to identify 1-3 validated hits per target for use to validation (Project 1) and further optimization (Projects 3,5).
 
-    Aim 2: Apply covalent derivatization to generate improved anti-viral lead molecules. Covalent inhibitors can be generated from non-covalent scaffolds by installation of an electrophile. However, this process has remained largely stochastic, requiring synthesis of many, often complex, molecules to find a functional lead molecule. To facilitate and improve the success of this process, we have devised a computational protocol termed ‘Covalentizer’. We will further optimize this protocol by expanding the scope of electrophiles considered, the types of amino acids targeted and improve the accuracy of its predictions. We will apply this protocol to fragments and optimized leads generated by Projects 3 and 5.
+    **Aim 2: Apply covalent derivatization to generate improved anti-viral lead molecules.** Covalent inhibitors can be generated from non-covalent scaffolds by installation of an electrophile. However, this process has remained largely stochastic, requiring synthesis of many, often complex, molecules to find a functional lead molecule. To facilitate and improve the success of this process, we have devised a computational protocol termed ‘Covalentizer’. We will further optimize this protocol by expanding the scope of electrophiles considered, the types of amino acids targeted and improve the accuracy of its predictions. We will apply this protocol to fragments and optimized leads generated by Projects 3 and 5.
 
-    Aim 3: Apply high throughput chemistry and covalent phage display to identify lead molecules for viral targets. We will develop electrophile-compatible chemistries suitable for use in nanomole scale high throughput chemistry. This will enable rapid hit-to-lead and lead-optimization of covalent assets. In addition, we will leverage covalent phage display to screen highly diverse libraries of covalent compounds against challenging extracellular viral targets.
+    **Aim 3: Apply high throughput chemistry and covalent phage display to identify lead molecules for viral targets.** We will develop electrophile-compatible chemistries suitable for use in nanomole scale high throughput chemistry. This will enable rapid hit-to-lead and lead-optimization of covalent assets. In addition, we will leverage covalent phage display to screen highly diverse libraries of covalent compounds against challenging extracellular viral targets.
 
-    Aim 4: Develop covalent PROTACs targeting viral proteins. Proteolysis Targeting Chimeras (PROTACs) are a new class of therapeutics that function by inducing degradation of a target protein. Like covalent drugs, efficacy of PROTACs is not linked to ADME properties and because induced degradation of the target is irreversible and catalytic, PROTACs have a prolonged duration of activity at low drug doses. The London Lab has incorporated reversible covalent chemistry into PROTACs to synergize the selectivity and potency of covalent inhibition with the catalytic mode of action of PROTACs. We will apply this technology to degrade antiviral targets using scaffolds discovered in this project as well as other lead molecules of the consortium.
+    **Aim 4: Develop covalent PROTACs targeting viral proteins.** Proteolysis Targeting Chimeras (PROTACs) are a new class of therapeutics that function by inducing degradation of a target protein. Like covalent drugs, efficacy of PROTACs is not linked to ADME properties and because induced degradation of the target is irreversible and catalytic, PROTACs have a prolonged duration of activity at low drug doses. The London Lab has incorporated reversible covalent chemistry into PROTACs to synergize the selectivity and potency of covalent inhibition with the catalytic mode of action of PROTACs. We will apply this technology to degrade antiviral targets using scaffolds discovered in this project as well as other lead molecules of the consortium.
 
 Project 5:
-  - name: "Project 5: Lead optimization"
-  - type: Project
-  - funded_aims_modified: false
-  - aims: |
+  name: "Project 5: Lead optimization"
+  type: Project
+  funded_aims_modified: false
+  significance: |
+    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+
+    Project 5 accepts lead compounds from Projects 3 and 4 that meet certain criteria for developable leads and conducts a full lead optimization campaign to produce candidates for preclinical development.
+    Project 5 defines **Target Candidate Profiles** based on draft Target Product Profiles created in collaboration with Project 6 (Prelinical development), and integrates input about potential resistance mutations from Project 1.
+    This stage is the most critical stage of the drug discovery process, as it is required to produce candidates for preclinical development.
+  aims: |
     Aim 1: Antiviral efficacy: design, synthesize, and assay to deliver compounds with antiviral activity EC50 < 200nM, which demonstrate an adequate spectrum of antiviral efficacy and minimal resistance potential. 
 
     Aim 2: Oral in vivo exposure: design and synthesize compounds that show measurable in vivo exposure in a rat from a 10mg/kg PO dose, while also maintaining the antiviral profile [Aim 1].
@@ -93,15 +102,21 @@ Project 5:
     Aim 4: PK/PD target: further optimise the antiviral profile, exposure and safety profile of the compounds [Aims 1-3] to generate 1-3 compounds expected to generate >=10 fold free drug cover over the antiviral EC50 consistent with TID or better dosing in humans. 
 
 Project 6:
-  - name: "Project 6: Preclinical development and translation"
-  - type: Project
-  - funded_aims_modified: false
-  - aims: |
+  name: "Project 6: Preclinical development and translation"
+  type: Project
+  significance: |
+    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+
+    Project 6 accepts candidates for preclinical development from Project 5 that meet a defined Target Candidate Profile and carry them to IND readiness through a preclinical development process.
+    As the major goal of AViDD is to produce clinic-ready antivirals, this is a critical component of ASAP.
+
+  funded_aims_modified: false
+  aims: |
     The goal of Research Project 6 is to complete full IND standard preclinical profiling and packages for up to three direct-acting antiviral projects resulting from Project 5: Lead Optimization. 
 
-    Aim 1: Complete Preclinical Packages
+    **Aim 1: Complete Preclinical Packages**
 
-    For each chemical series successfully delivered to this project to this project from Project 5, we will take up to three (3) optimized leads and run these through a series of defined preclinical profiling experiments, including, but not limited to, 
+    For each chemical series successfully delivered to this project to this project from Project 5, we will take up to three (3) optimized leads and run these through a series of defined preclinical profiling experiments, including, but not limited to,
     * Multi-gram scale up (up to 30g);
     * Early process R&D (route scouting for manufacturing);
     * Solid form evaluation (salt screening, polymorph profiling);
@@ -119,43 +134,18 @@ Project 6:
     Once complete, we will prepare and file the relevant regulatory dossier (e.g. IND) to enable phase I studies on each compound successfully completing these profilings.
 
 Administrative Core:
-  - name: "Administrative Core"
-  - type: Core
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: Establish an efficient administrative structure to coordinate all ASAP Center activities. Our leadership plan will maximize Center productivity and proactively identify opportunities to enhance efficiency. We will work with the Data Infrastructure Core to develop public, online dashboards to convey overall Center outputs. Inspired by the successful NCI Open Science RAS Initiative, we will maximize the value of all research outputs by ensuring that all generated data and resources are widely disseminated and used.
+  name: "Administrative Core"
+  type: Core
+  significance: |
+    The Administrative Core coordinates all aspects of ASAP, and is essential to its operation. This core is required to
+    * Aid efficient execution of Research Projects; 
+    * Coordinate strategic and timely transitions of discovery programs among research projects;
+    * Shepherd progress through sequential stages of the discovery pipeline; 
+    * Oversee efficient management of Scientific Cores supporting these efforts; and 
+    * Assist in the rapid dissemination of all scientific output to the global antiviral discovery community. 
 
-    Aim 2: Maintain a Scientific Advisory Board (SAB) to support ASAP decision making in discovery, development, and clinical translation. We will work with NIAID to recruit an SAB that will complement investigator expertise, help identify new technologies to enhance structure-enabled discovery, provide external oversight of Center operations, and augment collaborative links with the global antiviral discovery community. Aim 3: Administer a Developmental Projects program. We will identify and fund new projects with the potential to accelerate discovery or validate complex new target biology refractory to Center expertise, enabling the Center to remain nimble and integrate critical new technologies or additional investigators.
-
-    Aim 4: Administer a Mentored Projects program. Mentored projects will bring new innovations into AI-driven structure-enabled antiviral discovery. We will attract new interdisciplinary researchers working at the interface of new technologies to antiviral discovery.
-
-Structural Biology Core:
-  - name: "Structural Biology Core"
-  - type: Core
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: Deliver successful crystallographic (XChem) fragment screens for at least 10 targets enabled in Project 2. These results are a key component of each Target Enabling Package, providing a 3D interaction map of the binding sites; they also provide the raw data for first round compound design in Project 2, and subsequent compound progression algorithms in Project 3, to drive the development of potent, ligand-efficient, diverse chemotypes that satisfy the minimal TPP relevant for chemical probes.
-
-    Aim 2: Deliver rapid turn-around of protein-ligand crystal structures for all compounds generated in Projects 2, 3, 4 and 5.  The turn-around time is crucial to achieving fully rational medicinal chemistry design needed to accelerate the production of oral antivirals with pan-viral activity.
-
-    Aim 3: Ensure all crystal structures are promptly available, at high quality and fully annotated, in the public domain. This high-level goal of the Center has historically never been sustained for 3D structural protein-ligand data by any project anywhere; the Structural Biology Core therefore commits to delivering the innovations that will address the many existing technical challenges.
-
-Biochemical Assay Core:
-  - name: "Biochemical Assay Core"
-  - type: Core
-  - funded_aims_modified: false
-  - aims: |
-    Aim 1: We aim to adopt, modify, and optimize biochemical activity assays for automated and semi-automated protocols to enable the testing of 1,000-10,000 assays per run. The Core will adopt assays and protein reagents from Project 2 (Target Enablement). For each Target Enabling Package developed by Project 2, consultation with the Core will propose an assay which represents a disease modulating activity for the target of interest.  The Biochemical Assay Core will also support the project group with consultation and guidance during development of the primary assay. Ideally, the assay will be fit for transfer to core upon completion of assay development. However, practical issues of reagent supply or instrument adaptation and miniaturization may require additional work by the Core to adapt the assay prior to integration in the Core workflow. Clear controls and standards will be used to enable comparison of data for similar compounds over multiple runs and assays in order to develop robust structure-activity relationships.
-
-    Aim 2: This core will collaborate with the Data Infrastructure Core to distribute and disseminate its results across the consortium via a database to host assay results and compound structures. This will facilitate the overall consortium as compounds are being synthesized and tested. The database will be the primary tool for developing structural-activity relationships and will increase the probability for a successful translation to pre-clinical and clinical testing. Early identification of problematic compounds (flagged for promiscuity, toxicity, metabolic liabilities, etc.) will be recorded in order to guide optimal use of resources.
-
-    Aim 3: If required, the core will reduce the risk of compound series attrition by generating alternative compound series for development via high-throughput screening of industrial-scale compound libraries. When possible, amenable targets and assays will be investigated by high throughput screening of a 200,000 compound library of diverse chemical structures, maintained by the Core. 
-
-Antiviral Core:
-  - name: "Antiviral Efficacy and Resistance Core"
-  - type: Core
-  - funded_aims_modified: false
-  - aims: |
+  funded_aims_modified: false
+  aims: |
     Aim 1: Establish an efficient administrative structure to coordinate all ASAP Center activities. Our  leadership plan will maximize Center productivity and proactively identify opportunities to enhance efficiency. We will work with the Data Infrastructure Core to develop public, online dashboards to convey overall Center outputs. Inspired by the successful NCI Open Science RAS Initiative, we will maximize the value of all research outputs by ensuring that all generated data and resources are widely disseminated and used.
 
     Aim 2: Maintain a Scientific Advisory Board (SAB) to support ASAP decision making in discovery, development, and clinical translation. We will work with NIAID to recruit an SAB that will complement investigator expertise, help identify new technologies to enhance structure-enabled discovery, provide external oversight of Center operations, and augment collaborative links with the global antiviral discovery community.
@@ -164,11 +154,75 @@ Antiviral Core:
 
     Aim 4: Administer a Mentored Projects program. Mentored projects will bring new innovations into AI-driven structure-enabled antiviral discovery. We will attract new interdisciplinary researchers working at the interface of new technologies to antiviral discovery.
 
+Structural Biology Core:
+  name: "Structural Biology Core"
+  type: Core
+  significance: |
+    ASAP uses structure-enabled drug discovery process. The structural biology core is essential in providing the capability of using X-ray crystallography to structurally enable antiviral targets pursued by its discovery programs, providing X-ray structures of apo and liganded targets to support Projects 2, 3, 4, and 5.
+
+  funded_aims_modified: false
+  aims: |
+    Aim 1: Deliver successful crystallographic (XChem) fragment screens for at least 10 targets enabled in Project 2. These results are a key component of each Target Enabling Package, providing a 3D interaction map of the binding sites; they also provide the raw data for first round compound design in Project 2, and subsequent compound progression algorithms in Project 3, to drive the development of potent, ligand-efficient, diverse chemotypes that satisfy the minimal TPP relevant for chemical probes.
+
+    Aim 2: Deliver rapid turn-around of protein-ligand crystal structures for all compounds generated in Projects 2, 3, 4 and 5.  The turn-around time is crucial to achieving fully rational medicinal chemistry design needed to accelerate the production of oral antivirals with pan-viral activity.
+
+    Aim 3: Ensure all crystal structures are promptly available, at high quality and fully annotated, in the public domain. This high-level goal of the Center has historically never been sustained for 3D structural protein-ligand data by any project anywhere; the Structural Biology Core therefore commits to delivering the innovations that will address the many existing technical challenges.
+
+Biochemical Assay Core:
+  name: "Biochemical Assay Core"
+  type: Core
+  significance: |
+    Reliable, quantitative high-throughput biochemical assay data is required in Tier 1 of the assay cascades for all ASAP Discovery Programs.
+    The Biochemical Assay Core provides these measurements with rapid turn-around time for all ASAP Programs.
+  
+  funded_aims_modified: false
+  aims: |
+    Aim 1: We aim to adopt, modify, and optimize biochemical activity assays for automated and semi-automated protocols to enable the testing of 1,000-10,000 assays per run. The Core will adopt assays and protein reagents from Project 2 (Target Enablement). For each Target Enabling Package developed by Project 2, consultation with the Core will propose an assay which represents a disease modulating activity for the target of interest.  The Biochemical Assay Core will also support the project group with consultation and guidance during development of the primary assay. Ideally, the assay will be fit for transfer to core upon completion of assay development. However, practical issues of reagent supply or instrument adaptation and miniaturization may require additional work by the Core to adapt the assay prior to integration in the Core workflow. Clear controls and standards will be used to enable comparison of data for similar compounds over multiple runs and assays in order to develop robust structure-activity relationships.
+
+    Aim 2: This core will collaborate with the Data Infrastructure Core to distribute and disseminate its results across the consortium via a database to host assay results and compound structures. This will facilitate the overall consortium as compounds are being synthesized and tested. The database will be the primary tool for developing structural-activity relationships and will increase the probability for a successful translation to pre-clinical and clinical testing. Early identification of problematic compounds (flagged for promiscuity, toxicity, metabolic liabilities, etc.) will be recorded in order to guide optimal use of resources.
+
+    Aim 3: If required, the core will reduce the risk of compound series attrition by generating alternative compound series for development via high-throughput screening of industrial-scale compound libraries. When possible, amenable targets and assays will be investigated by high throughput screening of a 200,000 compound library of diverse chemical structures, maintained by the Core. 
+
+Antiviral Core:
+  name: "Antiviral Efficacy and Resistance Core"
+  type: Core
+  significance: |
+    Activity in cellular antiviral assays and minimal cellular cytotoxicity are required as part of the Target Candidate Profile (TCP) for all ASAP programs.
+    The Antiviral Efficacy and Resistance Core provides these measurements to support all ASAP programs.
+
+    In addition, when animal efficacy data is needed, the Core conducts these experiments in accordance with approved protocols.
+
+    The Core can also perform passaging experiments with non-clinical lead compounds to identify potential resistance mutations in accordance with approved protocols to inform futher lead optimization and the selection of lead series for lead optimization or preclinical development.
+
+  funded_aims_modified: false
+  aims: |
+    Aim 1. Multi-tiered screening of novel antiviral compounds against a panel of human coronaviruses, flaviviruses, and picornaviruses in multiple model systems.
+    * 1.1.	High-throughput screening of synthesized compounds in live virus and replicon assays.
+    * 1.2.	Analysis of breadth of inhibition across a diverse set of viral family members in live virus assays.
+    * 1.3.	Analysis of top antiviral leads in primary cell model systems of viral infection.
+
+    Aim 2. Antiviral resistance pattern analysis and combination strategies for resistance prevention.
+    * 2.1.	Generation of resistance mutations against lead antiviral compounds, including viral fitness analysis.
+    * 2.2.	Antiviral combination analysis for synergistic interactions and resistance prevention.
+  
+    Aim 3. Analysis of lead compounds in animal models of coronavirus, flavivirus, and picornavirus infection.
+    * 3.1.	Comprehensive analysis of in vivo antiviral activity and reduction in viral pathogenesis in established animal models of coronavirus, flavivirus, and picornavirus infection.
+    * 3.2.	In vivo analysis of antiviral resistance patterns, fitness of resistant mutants, and combination treatments to enhance antiviral activity and reduce resistance mutations.
+
 Data Core:
-  - name: "Data Infrastructure Core"
-  - type: Core
-  - funded_aims_modified: false
-  - aims: |
+  name: "Data Infrastructure Core"
+  type: Core
+  significance: |
+    Drug discovery requires the generation, collection, and analysis of data. Each decision regarding drug targets to pursue, compounds to make, and assays to action necessarily involves review of past results to guide future development. A key lesson from the COVID-19 pandemic is that existing infrastructure for global antiviral development, and cooperative drug development at large, is woefully inadequate. 
+
+    Around the world, groups repeatedly performed the same repurposing screens and docking experiments of the same drugs against the same proteins, attempting similar viral assays consuming valuable limited capacity, hindered by limited knowledge sharing tools, resulting in enormous duplicated wasted effort. A vision of this data infrastructure core is to prevent this misuse of research talent, resources, and time in antiviral discovery through both internally and publicly disseminated data.
+
+    The principal goal of this core is to develop and provide data infrastructure that greatly augments—rather than hinders—biologists, chemists, machine learning engineers, and others as they develop therapeutics to prevent future pandemics. These technical solutions will enable a disciplined process of collection, annotation, and analysis of data from all other Cores and Projects, which further engenders the success of machine learning models, simulation workflows, and creative human decisions informed by real data. We aim to not only maximally reduce friction for internal Center decision making, but to fully embrace our open science / open data paradigm to accelerate antiviral discovery globally by making critical data available much more rapidly.
+
+    The expected outcome of this work is an extension of the end-to-end infrastructure originally developed for the COVID Moonshot (the predecessor to this Center) that allowed tracking of biology and chemistry results from research organizations distributed across the world. From molecule design to synthesis, through in vitro and in vivo experiments, all results are closely tracked in structured formats that respect the provenance of the data, unlike simple spreadsheets. This Core will extend that architecture to include early biological target-enabling results and provide improved sharing of bespoke antiviral, structural, and other ADME data to collaborators. The COVID Moonshot infrastructure has been tremendously successful both internally (enabling fragment-to-candidate discovery campaign) but also externally, spawning over 100 research projects using this data worldwide in advance of a major publication. We build on the successful infrastructure for the COVID Moonshot that enabled fault-tolerant and cost-efficient global utilization of CROs and laboratories to drive progress even during pandemic-driven shutdowns. These improvements will result in an efficient system, where more time is spent on creating scientific breakthroughs rather than solving logistical challenges.
+
+  funded_aims_modified: false
+  aims: |
     Aim 1: To collect and annotate data from this center. We will extend existing software infrastructure used successfully by the COVID Moonshot project to deliver a preclinical candidate, integrating with additional third-party services such as electronic lab notebooks, chemical registration software, molecular simulation solutions, and data processing pipelines in our Cores and CROs to ensure ensure seamless integration of raw and processed data and provenance metadata. 
 
     Aim 2: To capture design decisions and track progress. We will extend our infrastructure for capturing compound designs and provenance to automatically add annotations with predicted synthetic routes and feasibility/cost, affinity to multiple viral target variants, propensity for eliciting resistance mutations, and a variety of relevant ADMET properties. We will provide the chemistry teams with infrastructure for capturing compound synthesis priorities and actioning compound orders and assays outside of the automated assay cascade progression. Tracking tools will be developed to unify and present past and future experimental data on any biological target or compound. For each designed compound, synthesis progress, quantity of material available at each site, queued assays, logistical shipping details, and assay results will be easily accessible, providing a unified understanding of progress and design focus to all Cores. 
