@@ -85,6 +85,7 @@ Project 4:
 Project 5:
   name: "Project 5: Lead optimization"
   type: Project
+  uses_vertebrate_animals: true
   funded_aims_modified: false
   significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
@@ -104,11 +105,16 @@ Project 5:
 Project 6:
   name: "Project 6: Preclinical development and translation"
   type: Project
+  uses_vertebrate_animals: true
   significance: |
     ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     Project 6 accepts candidates for preclinical development from Project 5 that meet a defined Target Candidate Profile and carry them to IND readiness through a preclinical development process.
     As the major goal of AViDD is to produce clinic-ready antivirals, this is a critical component of ASAP.
+
+  product_development_milestones: |
+    Project 6 is responsible for preclinical product development activities.
+    While no Discovery Programs have reached Project 6 yet, the Project 6 investigators team is closely monitoring the learnings from the COVID Moonshot preclinical development program and adapting strategies to further streamline planned product development activities.
 
   funded_aims_modified: false
   aims: |
@@ -160,6 +166,12 @@ Structural Biology Core:
   significance: |
     ASAP uses structure-enabled drug discovery process. The structural biology core is essential in providing the capability of using X-ray crystallography to structurally enable antiviral targets pursued by its discovery programs, providing X-ray structures of apo and liganded targets to support Projects 2, 3, 4, and 5.
 
+  projects_served: |
+    * **Project 2 (Target Enablement):** This core produces X-ray fragment screens of new targets as reported in Significant Core-Generated Resources.
+    * **Project 3 (Fragment-to-lead):** This core generates X-ray structures of new protein-ligand complexes for ligands synthesized by Project 3 to aid in structure-based design.
+    * **Project 4 (Covalent targeting strategies):** This core generates X-ray structures of new protein-ligand complexes for ligands synthesized by Project 4 to aid in structure-based design, which also aids in determining whether successful covalent targeting is achieved.
+    * **Project 5 (Lead optimization):** This core generates X-ray structures of new protein-ligand complexes for ligands synthesized by Project 5 to aid in structure-based design.
+
   funded_aims_modified: false
   aims: |
     Aim 1: Deliver successful crystallographic (XChem) fragment screens for at least 10 targets enabled in Project 2. These results are a key component of each Target Enabling Package, providing a 3D interaction map of the binding sites; they also provide the raw data for first round compound design in Project 2, and subsequent compound progression algorithms in Project 3, to drive the development of potent, ligand-efficient, diverse chemotypes that satisfy the minimal TPP relevant for chemical probes.
@@ -175,6 +187,11 @@ Biochemical Assay Core:
     Reliable, quantitative high-throughput biochemical assay data is required in Tier 1 of the assay cascades for all ASAP Discovery Programs.
     The Biochemical Assay Core provides these measurements with rapid turn-around time for all ASAP Programs.
   
+  projects_served: |
+    * **Project 3 (Hit-to-lead):** This core produces biochemical activity data for ligands synthesized by Project 3 as part of Tier 1 of the Assay Cascade.
+    * **Project 4 (Covalent targeting strategies):** This core produces biochemical activity data for ligands synthesized by Project 4 as part of Tier 1 of the Assay Cascade.
+    * **Project 5 (Lead optimization):** This core produces biochemical activity data for ligands synthesized by Project 5 as part of Tier 1 of the Assay Cascade.    
+
   funded_aims_modified: false
   aims: |
     Aim 1: We aim to adopt, modify, and optimize biochemical activity assays for automated and semi-automated protocols to enable the testing of 1,000-10,000 assays per run. The Core will adopt assays and protein reagents from Project 2 (Target Enablement). For each Target Enabling Package developed by Project 2, consultation with the Core will propose an assay which represents a disease modulating activity for the target of interest.  The Biochemical Assay Core will also support the project group with consultation and guidance during development of the primary assay. Ideally, the assay will be fit for transfer to core upon completion of assay development. However, practical issues of reagent supply or instrument adaptation and miniaturization may require additional work by the Core to adapt the assay prior to integration in the Core workflow. Clear controls and standards will be used to enable comparison of data for similar compounds over multiple runs and assays in order to develop robust structure-activity relationships.
@@ -186,6 +203,13 @@ Biochemical Assay Core:
 Antiviral Core:
   name: "Antiviral Efficacy and Resistance Core"
   type: Core
+  uses_vertebrate_animals: true
+  projects_served: |
+    * **Project 3 (Hit-to-lead):** This core produces cellular antiviral activity and cytotoxicity data for ligands synthesized by Project 3 as part of Tier 2 of the Assay Cascade.
+    * **Project 4 (Covalent targeting strategies):** This core produces cellular antiviral activity and cytotoxicity data for ligands synthesized by Project 4 as part of Tier 2 of the Assay Cascade.
+    * **Project 5 (Lead optimization):** This core produces cellular antiviral activity and cytotoxicity data for ligands synthesized by Project 5 as part of Tier 2 of the Assay Cascade. This core may also be called on to produce animal efficacy data for candidates for preclinical development to aid in go/no-go decisions for advancing preclinical development.
+    * **Project 6 (Preclinical development):** This core may be called on to produce animal efficacy data for candidates for preclinical development to aid in go/no-go decisions for advancing preclinical development.
+
   significance: |
     Activity in cellular antiviral assays and minimal cellular cytotoxicity are required as part of the Target Candidate Profile (TCP) for all ASAP programs.
     The Antiviral Efficacy and Resistance Core provides these measurements to support all ASAP programs.

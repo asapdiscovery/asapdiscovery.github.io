@@ -215,17 +215,53 @@ def generate_progress_report(component_shortname, component, output_path):
     # Construct markdown text for content of the report
     markdown_text = ""
 
-    # Significant changes in the Specific Aims
-    # TODO: Should this section describe any changes in approach during the past year?
-    markdown_text += "# Significant changes in the Specific Aims\n\n"
-    if component['funded_aims_modified']:
-        markdown_text += 'The Specific Aims have been modified from the original, competing application as described in "A. Specific Aims" below.\n\n'
-    else:
-        markdown_text += 'The Specific Aims have not been modified from the original, competing application.\n\n'
+    # Add heading for Project/Core name
+    document.add_heading(component['name'], 0)
+
+    if component['type'] == 'Project':
+        #
+        # Project-specific narrative
+        #
+
+        # Significant changes in the Specific Aims
+        # TODO: Should this section describe any changes in approach during the past year?
+        markdown_text += "# Significant changes in the Specific Aims\n\n"
+        if component['funded_aims_modified']:
+            markdown_text += 'The Specific Aims have been modified from the original, competing application as described in "A. Specific Aims" below.\n\n'
+        else:
+            markdown_text += 'The Specific Aims have not been modified from the original, competing application.\n\n'
+            
+        # Significance of the work
+        markdown_text += '# Significance of the work\n\n'
+        markdown_text += component['significance'] + '\n\n'
+
+        # Significance of the work
+        markdown_text += '# Product development milestones\n\n'
+        if 'product_development_milestones' in component:
+            markdown_text += component['product_development_milestones'] + '\n\n'
+        else:
+            markdown_text += 'This component does not have any product development milestones because it only supports the discovery stage.\n\n'
+
+        # Significant Project-generated resources
+        markdown_text += "# Significant Project-Generated Resources\n\n"
+        # TODO
+        #markdown_text += get_component_resources
+
+    elif (component['type'] == 'Core') and (component_shortname != 'Administrative Core'):
+        #
+        # Core-specific narrative (except for Administrative Core, which has text prepended manually)
+        #
         
-    # Significance of the work
-    markdown_text += '# Significance of the work\n\n'
-    markdown_text += component['significance'] + '\n\n'
+        # Individual Research Projects served and activities performed and/or completed
+        markdown_text += "# Individual Research Projects served and activities performed and/or completed\n\n"
+        if 'projects_served' in component:
+            markdown_text += component['projects_served'] + '\n\n'
+        # TODO: List activities performed and/or completed
+
+        # Significant Core-generated resources (if any)
+        markdown_text += "# Significant Core-Generated Resources\n\n"
+        # TODO
+        #markdown_text += get_component_resources
 
     # A. Specific Aims
     markdown_text += '# A. Specific Aims\n\n'
@@ -236,7 +272,10 @@ def generate_progress_report(component_shortname, component, output_path):
 
     # B. Studies and Results
     markdown_text += '# B. Studies and Results\n\n'
+    markdown_text += 'Significant accomplishments include:\n\n'
     markdown_text += accomplishments[component_shortname] + '\n\n'
+    markdown_text += f'Other major results and outputs from this {component["type"]} have been posted online and are listed in Significant Project-Generated Resources.\n\n'
+    # TODO: Include statistics about Project and Core outputs
 
     # C. Significance
     markdown_text += '# C. Significance\n\n'
@@ -244,7 +283,40 @@ def generate_progress_report(component_shortname, component, output_path):
 
     # D. Plans
     markdown_text += '# D. Plans\n\n'
+    markdown_text += 'Plans for the next project period include:\n\n'
     markdown_text += plans[component_shortname] + '\n\n'
+
+    # Human Subjects
+    markdown_text += "# Human Subjects\n\n"
+    markdown_text += 'Not Applicable\n\n'
+
+    # Inclusion of Women and Minorities in Clinical Research
+    markdown_text += "# Inclusion of Women and Minorities in Clinical Research\n\n"
+    markdown_text += 'Not Applicable\n\n'
+
+    # Human Subjects Education Requirement
+    markdown_text += "# Human Subjects Education Requirement\n\n"
+    markdown_text += 'Not Applicable\n\n'
+
+    # Vertebrate Animals
+    markdown_text += "# Human Subjects Education Requirement\n\n"
+    if component.get('uses_vertebrate_animals', False):
+        markdown_text += '----> **[INCLUDE VERTEBRATE ANIMALS SECTION]** <----\n\n'
+    else:
+        markdown_text += 'Not Applicable\n\n'
+
+    # Select Agent Research
+    markdown_text += "# Select Agent Research\n\n"
+    markdown_text += 'Not Applicable\n\n'
+
+    # Human Embryonic Stem Cell Line(s) Used
+    markdown_text += "# Human Embryonic Stem Cell Line(s) Used\n\n"
+    markdown_text += 'Not Applicable\n\n'
+
+    # Project Generated Resources
+    if component['type'] == 'Project':
+        markdown_text += "# Project Generated Resources\n\n"
+        # TODO: Include project-generated resources
 
     # Render markdown to document
     renderer = PythonDocxRenderer()
