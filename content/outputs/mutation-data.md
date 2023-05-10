@@ -6,10 +6,4 @@ toc: true
 draft: false
 ---
 
-{{< DMS >}}
-
-### Coronavirus MERS-CoV/SARS-CoV-2 Mpro
-
-### Coronavirus nsp3-mac1
-
-### Item 3
+{{< mutations >}}

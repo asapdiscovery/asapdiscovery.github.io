@@ -49,8 +49,8 @@ ASAP aims to discover direct-acting antivirals with broad antiviral activity wit
 <a id="targeting-opportunity"></a>
 #### Targeting Opportunity
 
-A **targeting opportunity** provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action.
-This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
+A **Targeting Opportunity** provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action.
+This overview summarizes relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign against the target.
 
 [🔎 View all ASAP Targeting Opportunities](/outputs/targeting-opportunities)
 
@@ -138,7 +138,7 @@ ASAP aims to produce high-quality lead compounds for nine viral targets within f
 <a id="hit-to-lead"></a>
 #### Covalent Targeting
 
-ASAP is exploring covalent targeting strategies for Cysteine proteases.
+ASAP is exploring covalent targeting strategies for cysteine and serine proteases.
 
 [🔎 View all ASAP Covalent Targeting data packages](/outputs/covalent-targeting)
 

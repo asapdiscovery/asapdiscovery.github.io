@@ -1,0 +1,13 @@
+<!-- TODO: How should we sort the target data? -->
+{{ range $program_nickname, $target_mutation_data := $.Site.Data.outputs.mutations }}
+
+    <!-- Look up program data based on .program_nickname -->
+    {{ $program := index $.Site.Data.programs $program_nickname }}
+
+    <!-- merge in program_nickname -->
+    {{ $target_mutation_data = merge $target_mutation_data ( dict "overview" $program.overview ) }}
+
+    <!-- render mutational data -->
+    {{ partial "target-mutational-data.html" $target_mutation_data }}
+    
+{{ end }} 

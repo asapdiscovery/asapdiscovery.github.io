@@ -1,11 +1,10 @@
 - title: "Fitness effects of mutations to SARS-CoV-2 proteins"
   authors: "Jesse D. Bloom, Richard A. Neher"
-  summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a [detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins](https://jbloomlab.github.io/SARS2-mut-fitness/) to inform the discovery of antivirals that avoid intrinsic resistance.  
+  summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins to inform the discovery of antivirals that avoid intrinsic resistance.
   img: SARS-CoV-2-fitness-effects.png
   date: 2023-01-31
   programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
   projects: [Project 1]
-  cores: []
   preprint:
     server: bioRxiv
     url: https://doi.org/10.1101/2023.01.30.526314
@@ -21,9 +20,9 @@
   date: 2023-03-20
   programs: [ASAPPTGTTM]
   projects: [Project 2]
-  cores: []
   preprint:
     server: bioRxiv
+    date: 2021-01-22
     url: https://doi.org/10.1101/2020.12.23.424149
     license: "CC-BY-NC-ND 4.0 International license"
   published:
@@ -46,6 +45,7 @@
   cores: [Biochemical Assay Core, Structural Biology Core]
   preprint:
     server: bioRxiv
+    date: 2021-10-15
     url: https://doi.org/10.1101/2021.10.15.464568
     license: "CC-BY-NC 4.0 International license"
   published:
@@ -67,6 +67,7 @@
   published:
     doi: 10.1038/s41573-023-00692-8
     journal: Nature Reviews Drug Discovery
+    pages: in press
     date: 2023-04-29
     year: 2023
 
@@ -80,6 +81,7 @@
   published:
     doi: 10.1093/nar/gkad314
     journal: Nucleic Acids Research
+    pages: in press
     date: 2023-04-28
     year: 2023
   data: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B

@@ -22,38 +22,9 @@ targeting_opportunity:
     - date: 2023-03-19
       description: Initial draft  
 
-DMS:
-  # 'status' controls the status box rendered for this stage
+mutations:
   status: completed
-  url: https://jbloomlab.github.io/SARS2-mut-fitness/N.html
-  products:
-  # This paper is citeable
-  - name: Analysis of circulating variants of SARS-CoV-2 N protein
-    date-completed: 2023-01-31
-    url: https://jbloomlab.github.io/SARS2-mut-fitness/N.html
-    preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
-    projects: [Project 1]
-    events:
-      - date: 2023-01-31
-        description: A preprint was posted to bioRxiv.
-      - date: 2023-01-31
-        description: A public website was posted.
-    links:
-      - action: Download simulation scripts
-        short: GitHub
-        description: Scripts for structure preparation, docking, and simulation of MEN1 mutants interacting with inhibitors
-        url: https://github.com/choderalab/men1
-      - action: Download the datasets
-        short: OSF
-        description: Data from free energy calculations, Folding@home trajectories, and Markov state models of MEN1 mutants
-        url: https://osf.io/uge5j/
-  # NOTE: This paper is not citeable by the RPPR, but we will be able to cite it if we reformat it as an interactive website
-  - name: Deep mutational scanning of SARS-CoV-2 Mpro
-    date-completed: 2022-07-26
-    publication: https://elifesciences.org/articles/77433    
-    doi: 10.7554/eLife.77433
-    projects: []
-
+  
 TPP:
   status: completed
   id: ASAP-TPP-SARS-CoV-2
