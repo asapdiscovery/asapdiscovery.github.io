@@ -1,6 +1,10 @@
 """
 Generate the RPPR report for ASAP AViDD U19 year 1.
 
+TODO:
+* Switch to using markdown2docx in future, which enables better control over mappings from Markdown styles to Word Styles?
+  https://pypi.org/project/Markdown2docx/
+
 """
 
 # -*- coding: utf-8 -*-
@@ -172,6 +176,22 @@ def get_specific_aims(component_name):
     else:
         return "The Aims of this component have not been modified from the original, competing application."
 
+def get_publications():
+    """
+    Retrieve all publications
+
+    Returns
+    -------
+    publications : list of dict
+        publication[index] is the dict with info on a publication
+
+    """
+    import yaml
+    publications_filename = '../data/publications/publications.yaml'
+    with open(publications_filename, 'r') as f:
+        publications = yaml.load(f, Loader=yaml.SafeLoader)
+    return publications
+
 def generate_progress_report(component_shortname, component, output_path):
     """
     Generate a project report for the specified Project or Core
@@ -218,7 +238,16 @@ def generate_progress_report(component_shortname, component, output_path):
     # Add heading for Project/Core name
     document.add_heading(component['name'], 0)
 
-    if component['type'] == 'Project':
+    # Add requested narrative information to go before the standard Progress Report material
+    if component_shortname == 'Administrative Core':
+        #
+        # Administrative core
+        #
+        
+        # A manually-asembled narrative goes in front
+        pass        
+
+    elif component['type'] == 'Project':
         #
         # Project-specific narrative
         #
@@ -247,7 +276,7 @@ def generate_progress_report(component_shortname, component, output_path):
         # TODO
         #markdown_text += get_component_resources
 
-    elif (component['type'] == 'Core') and (component_shortname != 'Administrative Core'):
+    elif component['type'] == 'Core':
         #
         # Core-specific narrative (except for Administrative Core, which has text prepended manually)
         #
@@ -313,6 +342,39 @@ def generate_progress_report(component_shortname, component, output_path):
     markdown_text += "# Human Embryonic Stem Cell Line(s) Used\n\n"
     markdown_text += 'Not Applicable\n\n'
 
+    # Publications (only in Administrative Core)
+    if component_shortname == 'Administrative Core':
+        markdown_text += "# Publications\n\n"
+
+        publications = get_publications()
+
+        if len(publications) == 0:
+            markdown_text += "N/A\n\n"
+
+        for publication in publications:
+            # TODO: Check dates of publications and preprint/published version
+            
+            markdown_text += f"## {publication['title']}\n\n"
+            markdown_text += f"*Authors:* {publication['authors']}\n\n"
+            markdown_text += f"*Summary:* {publication['summary']}\n\n"
+            if 'projects' in publication:
+                markdown_text += f"*Contributing Projects:* " + ', '.join(publication['projects']) + "\n\n"
+            if 'cores' in publication:
+                markdown_text += f"*Contributing Cores:* " + ', '.join(publication['cores']) + "\n\n"
+            if 'published' in publication:
+                published = publication['published']
+                if published['pages'] == 'in press':
+                    markdown_text += f"*Publication {published['date']}:* *{published['journal']}* *in press* doi:{published['doi']}\n\n"
+                    markdown_text += f"PMCID: This article is in press and has not yet received a PMCID.\n\n"
+                else:
+                    markdown_text += f"*Publication {published['date']}:* *{published['journal']}* **{published['volume']}**:{published['pages']}, {published['year']} doi:{published['doi']}\n\n"
+                    markdown_text += f"PMCID: {published['pmcid']}\n\n"
+            elif 'preprint' in publication:
+                preprint = publication['preprint']
+                markdown_text += f"*Preprint {preprint['date']}:* {preprint['server']} {preprint['url']}\n\n" 
+                markdown_text += f"PMCID: This preprint has not yet been published.\n\n"
+            
+
     # Project Generated Resources
     if component['type'] == 'Project':
         markdown_text += "# Project Generated Resources\n\n"
@@ -344,5 +406,9 @@ if __name__ == "__main__":
     output_path = 'outputs'
     os.makedirs(output_path, exist_ok=True)
     for component_shortname, component in components.items():
+        # Skip the Administrative Core since this is a special case we are handling manually
+        if component_shortname == 'Administrative Core':
+            continue
+
         print(f"Generating report for {component['name']}")
         generate_progress_report(component_shortname, component, output_path)
