@@ -1,7 +1,7 @@
 Project 1: |
   Drafted 22 concrete Targeting Opportunity assessments to guide P2-P6 activities for discovery programs (Kirkegaard):
-  * **SARS CoV-2:** Nucleocapsid, nsp3-Mac1, nsp13 helicase, nsp15 nuclease
-  * **MERS/SARS-CoV-2:** Mpro
+  * **SARS-CoV-2:** Nucleocapsid, nsp3 Mac1 macrodomain, nsp13 helicase, nsp15 nuclease
+  * **MERS-CoV/SARS-CoV-2:** Mpro
   * **Dengue virus:** NS2B/3 protease, NS3 helicase, full-length NS3
   * **Zika virus:** NS2B/3 protease, NS3 helicase, full-length NS3, NS5B polymerase, capsid
   * **West Nile virus:** NS2B/3 protease, full-length NS3, NS5B polymerase
@@ -25,8 +25,8 @@ Project 2: |
   * Initiated a streamlined workflow for Gluebody generation to be used for discovery of alternative crystal forms (Aim 1). 
 
 Project 3: |
-  * Progressed SARS-CoV-2 nsp3-mac1 from fragments to a 70nM inhibitor, with another backup series 
-  * Formulated lead transition plan for nsp3-mac1, including the critical path of assays 
+  * Progressed SARS-CoV-2 nsp3 Mac1 macrodomain hit-to-lead program from fragments to a 70 nM inhibitor, with another backup series
+  * Formulated three-month transition plan for SARS-CoV-2 nsp3 Mac1 program to transition to Project 5: Lead Optimization, including key experiments and critical assay path 
   * Initiated chemistry to progress fragments hits against SARS-CoV-2 nucleocapsid protein  
 
 Project 4: |
@@ -37,13 +37,13 @@ Project 4: |
   * Developed fluorescent reporter Mpro cells line to support PROTAC development. Currently validating this protocol prior to making resources available.
 
 Project 5: |
-  * Initiated a broad spectrum MERS & SARS2 inhibitor program, with lead compounds currently showing  sub 250 nM cellular activity against both SARS2 and MERS and low in vitro metabolism. 
+  * Initiated a broad spectrum MERS-CoV / SARS-CoV-2 inhibitor lead optimization program, with lead compounds currently showing cellular antiviral EC50 <250 nM activity against both MERS-CoV and SARS-CoV-2 and low in vitro metabolism. 
   * Active compound testing initiated and active at CROs: Bienta, Ukraine and Concept Life Sciences, United Kingdom for in vitro and in vivo ADMET data. 
   * Full compound and data logistics capability operational. 
   * Integration of structure based and ligand based computational chemistry approaches into medicinal chemistry design process and tracking of compound designs team.
 
 Project 6: |
-  * Development of initial Target Product Profiles for SARS2, MERS + SARS2, Dengue, ENV-D68 and ENV-A71, and Target Candidate Profiles for:  MERS & SARS2 Oral MPro inhibitor SARS2 Oral MPro inhibitor, SARS2 Oral Mac1 inhibitor. 
+  * Development of initial draft Target Product Profiles for SARS2, MERS + SARS2, Dengue, ENV-D68 and ENV-A71, and Target Candidate Profiles for:  MERS & SARS2 Oral MPro inhibitor SARS2 Oral MPro inhibitor, SARS2 Oral Mac1 inhibitor. 
   * Developed an intellectual property policy for the ASAP AViDD Center that integrates lessons from the COVID Moonshot development efforts.
 
 Administrative Core: |
@@ -76,13 +76,13 @@ Antiviral Core: |
 Biochemical Assay Core: |
   * Hired biochemical core project manager
   * Established work-flow of compound logistics to assay to data dissemination 
-  * Developed SOP for SARS-Cov2 and MERS protease assays including standards for assay acceptance and validity using probe compounds
-  * Screening in process for SARS-Cov2 and MERS protease inhibitors
-  * Developed SOP for Mac1 ADPr peptide binding assay
-  * Screening in process for Mac1 inhibitors
+  * Developed SOP for SARS-CoV-2 and MERS-CoV protease assays including standards for assay acceptance and validity using probe compounds
+  * Screening in process for SARS-CoV-2 and MERS-CoV protease inhibitors
+  * Developed SOP for SARS-CoV-2 nsp3 Mac1 macrodomain ADPr peptide binding assay
+  * Screening in process for SARS-CoV-2 nsp3 Mac1 macrodomain inhibitors
   * Initiated assay development for Nucleocapsid inhibitors
   * Developed screening cascade for covalent protease inhibitors using intact protein MS and activity assays to rank inhibitors using Ki/Kinact
-  * Developed screening assays and SOPs for filovirus proteases (Dengue, Zika, WNV) 
+  * Developed screening assays and SOPs for filovirus proteases (DENV-2, ZIKV, WNV)
 
 Data Core: |
   * All software contracts needed for ASAP execution in Year 1 reviewed and completed, with software quickly in scientists hands to begin projects.
@@ -96,5 +96,5 @@ Structural Biology Core: |
   * Recruited and trained the full team; upgraded equipment, labware, software and algorithms to meet the throughput demands of the ASAP Center; and progressed upgrades to Fragalysis Cloud.  
   * In support of Project 2: completed fragment screens for 2 TEPs, optimized crystals for 3 TEPs, and solved initial structures for 5 TEPs. 
   * In support of Project 3: performed extensive experimental exploration in order to generate co-crystal structures of the lead compounds.  
-  * In support of Project 5: in collaboration with P2 and the Biochemical Core performed and coordinated extensive troubleshooting of the crystal system for the active hit-to-lead program.  
+  * In support of Project 5: in collaboration with Project 2 and the Biochemical Core performed and coordinated extensive troubleshooting of the crystal system for the active hit-to-lead program.  
   

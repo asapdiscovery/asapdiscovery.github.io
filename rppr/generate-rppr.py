@@ -176,22 +176,6 @@ def get_specific_aims(component_name):
     else:
         return "The Aims of this component have not been modified from the original, competing application."
 
-def get_publications():
-    """
-    Retrieve all publications
-
-    Returns
-    -------
-    publications : list of dict
-        publication[index] is the dict with info on a publication
-
-    """
-    import yaml
-    publications_filename = '../data/publications/publications.yaml'
-    with open(publications_filename, 'r') as f:
-        publications = yaml.load(f, Loader=yaml.SafeLoader)
-    return publications
-
 def generate_progress_report(component_shortname, component, output_path):
     """
     Generate a project report for the specified Project or Core
@@ -292,6 +276,9 @@ def generate_progress_report(component_shortname, component, output_path):
         # TODO
         #markdown_text += get_component_resources
 
+    # Page separator
+    markdown_text += "---\n\n"
+
     # A. Specific Aims
     markdown_text += '# A. Specific Aims\n\n'
     if component['funded_aims_modified']:        
@@ -299,84 +286,92 @@ def generate_progress_report(component_shortname, component, output_path):
     else:
         markdown_text += 'The Specific Aims have not been modified from the original, competing application.\n\n'
 
+    markdown_text += "---\n\n"
+
     # B. Studies and Results
     markdown_text += '# B. Studies and Results\n\n'
     markdown_text += 'Significant accomplishments include:\n\n'
     markdown_text += accomplishments[component_shortname] + '\n\n'
-    markdown_text += f'Other major results and outputs from this {component["type"]} have been posted online and are listed in Significant Project-Generated Resources.\n\n'
+    markdown_text += f'Other major results and outputs from this {component["type"]} have are listed in Significant Project Generated Resources and have been posted online.\n\n'
     # TODO: Include statistics about Project and Core outputs
+    markdown_text += "---\n\n"
 
     # C. Significance
     markdown_text += '# C. Significance\n\n'
     markdown_text += component['significance'] + '\n\n'
+    markdown_text += "---\n\n"
 
     # D. Plans
     markdown_text += '# D. Plans\n\n'
     markdown_text += 'Plans for the next project period include:\n\n'
     markdown_text += plans[component_shortname] + '\n\n'
+    markdown_text += "---\n\n"
 
     # Human Subjects
     markdown_text += "# Human Subjects\n\n"
-    markdown_text += 'Not Applicable\n\n'
+    markdown_text += 'Not applicable\n\n'
 
     # Inclusion of Women and Minorities in Clinical Research
     markdown_text += "# Inclusion of Women and Minorities in Clinical Research\n\n"
-    markdown_text += 'Not Applicable\n\n'
+    markdown_text += 'Not applicable\n\n'
 
     # Human Subjects Education Requirement
     markdown_text += "# Human Subjects Education Requirement\n\n"
-    markdown_text += 'Not Applicable\n\n'
+    markdown_text += 'Not applicable\n\n'
 
     # Vertebrate Animals
     markdown_text += "# Human Subjects Education Requirement\n\n"
     if component.get('uses_vertebrate_animals', False):
-        markdown_text += '----> **[INCLUDE VERTEBRATE ANIMALS SECTION]** <----\n\n'
+        markdown_text += 'No change\n\n'
     else:
-        markdown_text += 'Not Applicable\n\n'
+        markdown_text += 'Not applicable\n\n'
 
     # Select Agent Research
     markdown_text += "# Select Agent Research\n\n"
-    markdown_text += 'Not Applicable\n\n'
+    markdown_text += 'Not applicable\n\n'
 
     # Human Embryonic Stem Cell Line(s) Used
     markdown_text += "# Human Embryonic Stem Cell Line(s) Used\n\n"
-    markdown_text += 'Not Applicable\n\n'
+    markdown_text += 'Not applicable\n\n'
 
     # Publications (only in Administrative Core)
     if component_shortname == 'Administrative Core':
         markdown_text += "# Publications\n\n"
 
-        publications = get_publications()
+        publications = get_components('../data/publications/publications.yaml')
 
         if len(publications) == 0:
-            markdown_text += "N/A\n\n"
+            markdown_text += "Not applicable\n\n"
 
         for publication in publications:
             # TODO: Check dates of publications and preprint/published version
-            
-            markdown_text += f"## {publication['title']}\n\n"
-            markdown_text += f"*Authors:* {publication['authors']}\n\n"
-            markdown_text += f"*Summary:* {publication['summary']}\n\n"
-            if 'projects' in publication:
-                markdown_text += f"*Contributing Projects:* " + ', '.join(publication['projects']) + "\n\n"
-            if 'cores' in publication:
-                markdown_text += f"*Contributing Cores:* " + ', '.join(publication['cores']) + "\n\n"
+
+            markdown_text += f"{publication['authors']}."
+            markdown_text += f" **{publication['title']}**. " 
+
             if 'published' in publication:
                 published = publication['published']
                 if published['pages'] == 'in press':
-                    markdown_text += f"*Publication {published['date']}:* *{published['journal']}* *in press* doi:{published['doi']}\n\n"
-                    markdown_text += f"PMCID: This article is in press and has not yet received a PMCID.\n\n"
+                    markdown_text += f" {published['journal']} *in press*. {published['date']}\n\n"
+                    #markdown_text += f"; PubMed Central PMCID: This article is in press and has not yet received a PMCID.\n\n"
                 else:
-                    markdown_text += f"*Publication {published['date']}:* *{published['journal']}* **{published['volume']}**:{published['pages']}, {published['year']} doi:{published['doi']}\n\n"
-                    markdown_text += f"PMCID: {published['pmcid']}\n\n"
+                    markdown_text += f" {published['journal']} {published['volume']}:{published['pages']}, {published['year']}. Publication {published['date']}."
+                    markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
             elif 'preprint' in publication:
                 preprint = publication['preprint']
-                markdown_text += f"*Preprint {preprint['date']}:* {preprint['server']} {preprint['url']}\n\n" 
-                markdown_text += f"PMCID: This preprint has not yet been published.\n\n"
-            
+                markdown_text += f"{preprint['server']} [**Preprint**]. {preprint['date']}. Available from: {preprint['url']}\n\n" 
 
+            markdown_text += f"*{publication['summary']}*\n\n"
+
+            if 'projects' in publication:
+                markdown_text += f"**Contributing Projects:** " + ', '.join(publication['projects']) + "\n\n"
+            if 'cores' in publication:
+                markdown_text += f"**Contributing Cores:** " + ', '.join(publication['cores']) + "\n\n"
+            
+            markdown_text += "--\n\n"
     # Project Generated Resources
-    if component['type'] == 'Project':
+    if component['type'] == 'Project' or component_shortname == 'Administrative Core':
+        markdown_text += "---\n\n"    
         markdown_text += "# Project Generated Resources\n\n"
         # TODO: Include project-generated resources
 

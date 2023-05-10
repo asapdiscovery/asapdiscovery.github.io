@@ -15,23 +15,23 @@ Project 2: |
   * Demonstrate (or disprove) that Fragment Knitting is an effective approach to progressing fragment hits, specifically combining Fragment Network and Fragmentstein to find catalog compounds that merge fragment hits.
 
 Project 3: |
-  * Complete hit-to-lead for SARS-CoV-2 nsp3-mac1 and nucleocapsid protein. This either means transition to P5, or produce a data package that deprioritises the target using chemical matter discovered in the project.  
+  * Complete hit-to-lead for SARS-CoV-2 nsp3 Mac1 macrodomain and nucleocapsid protein. This either means transition to Project 5: Lead Optimization, or produce a data package that deprioritises the target using chemical matter discovered in the project.  
   * Commence hit-to-lead campaigns on 2 more TEPs from P2.  
 
 Project 4: |
-  * Optimize promising SARS-Cov-2 and MERS Mpro covalent inhibitors to reach criteria for transition to Project 5.
+  * Optimize promising SARS-CoV-2 and MERS Mpro covalent inhibitors to reach criteria for transition to Project 5: Lead Optimization.
   * Execute covalent fragment screens against DENV, WNV, ZIKV NS2B-NS3 (from ad-hoc generated fragment libraries), A71 and D68 (enteroviruses) 2A & 3C proteases, and ZIKA NS3 helicase, from commercial fragment libraries (Aim 1). 
   * Propose covalent derivatives for fragments emerging from Project 2 (Aim 2).
   * Support Project 3 with high-throughput nanomole scale library synthesis (Aim 3).
   * Design, synthesize and test covalent (and non-covalent) PROTACs for SARS-CoV-2 Mpro (Aim 4).
 
 Project 5: |
-  * Deliver a pre-clinical candidate for MERS + SARS oral antiviral with free drug Cmin > EC90 in both MERS + SARS2. Ensure appropriate in vitro and in vivo ADME data is generated to support efficacy testing in animal models and to generate a first estimate for projected human dose. Generate appropriate in vitro toxicity testing data to support pre-clinical development for use as a community therapeutic with no critical drug-drug interactions or requirements for PK enhancers.  
+  * Deliver a pre-clinical candidate for MERS-CoV / SARS-CoV-2 oral antiviral with free drug Cmin > EC90 in both MERS-CoV and SARS-CoV-2. Ensure appropriate in vitro and in vivo ADME data is generated to support efficacy testing in animal models and to generate a first estimate for projected human dose. Generate appropriate in vitro toxicity testing data to support pre-clinical development for use as a community therapeutic with no critical drug-drug interactions or requirements for PK enhancers.  
   * Initiate a second Lead optimisation program from the opportunities delivered by either Project 3 or Project 4 and generate early cellular and in vitro ADMET to identify critical issues of lead series.
 
 Project 6: |
   * Prepare and refine TPPs with relevant clinicians for enterovirus D68 and A71.
-  * Solidify hand-over criteria between P5 and P6. 
+  * Solidify hand-over criteria between Project 5 and Project 6. 
   * Detailed planning and procurement processes for early preclinical screens, initial scale-up, and multi-species PK to establish early dose estimates. 
   * Delivery of material for initial multi-species in vivo PK studies
   * Initiate initial route scouting, scale-up, and pre-clinical screens. PK and animal efficacy studies for the first advanced lead.
@@ -53,12 +53,12 @@ Antiviral Core: |
   * Continue to screen with IF-based antiviral assays for SARS-CoV-2 and MERS-CoV with compounds supplied by Projects 1 to 6
 
 Biochemical Assay Core: |
-  * Continue support of hit-to-lead programs - SARS-Cov2/MERS Mpro, Mac1
-  * Mitigate risk for Mac1 inhibitors with cell viability and cell painting assay
+  * Continue support of hit-to-lead programs - SARS-Cov2/MERS-CoV Mpro, SARS-CoV-2 nsp3 Mac1 macrodomain
+  * Mitigate risk for SARS-CoV-2 nsp3 Mac1 macrodomain inhibitors with cell viability and cell painting assay
   * Develop automated pipeline for covalent protease profiling analysis
-  * Transfer Enterovirus protease assay technology from target enablement and develop screening SOPs
+  * Transfer Enterovirus protease assay technology from Project 2: Target Enablement and develop screening SOPs
   * Support Enterovirus protease inhibitor discovery via compound screening
-  * Develop SARS-Cov2 Nucleocapsid screening assay 
+  * Develop SARS-CoV-2 Nucleocapsid screening assay 
 
 Data Core: |
   * Continue developing data infrastructure to support ongoing medicinal chemistry campaigns, as well as new programs starting during 2023.
@@ -68,6 +68,6 @@ Data Core: |
 
 Structural Biology Core: |
   * Finalize software infrastructure and Fragalysis upgrades for rapid data-to-dissemination
-  * For P2, deliver fragment screens for 7 TEPs 
-  * For P3, deliver fast turn-around of protein-ligand structures for 5 hit-to-lead projects
-  * For P5, deliver fast turn-around of protein-inhibitor structures for 3 hit-to-lead projects
+  * For Project 2: Target Enablement, deliver fragment screens for 7 TEPs 
+  * For Project 3: Fragment-to-lead, deliver fast turn-around of protein-ligand structures for 5 hit-to-lead projects
+  * For Project 5: Lead Optimization, deliver fast turn-around of protein-inhibitor structures for 3 hit-to-lead projects
