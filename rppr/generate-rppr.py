@@ -410,6 +410,7 @@ def render_TEP_outputs(component_shortname):
             # Render links
             if 'id' in resource:
                 url = 'http://asapdiscovery.org/outputs/target-enabling-packages/#' + resource['id']
+                markdown_text += f"{url}\n\n"
             elif 'url' in resource:
                 markdown_text += f"{resource['url']}\n\n"
             else:
