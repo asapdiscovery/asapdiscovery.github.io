@@ -216,6 +216,37 @@ def get_specific_aims(component_name):
     else:
         return "The Aims of this component have not been modified from the original, competing application."
 
+def component_contributed_to_output(component_shortname, output):
+    """
+    Return True if specified component contributed to this research output
+    """
+    projects = output.get('projects', list())
+    cores = output.get('cores', list())
+    if (component_shortname in projects) or (component_shortname in cores):
+        return True
+    else:
+        return False
+
+def filter_events_to_reporting_period(output):
+    """
+    Remove events not in reporting period
+
+    Return True if at least one event remains; else False
+    """
+    import datetime
+    events = list()
+    for event in output['events']:
+        text_date = str(event['date'])
+        event_date = datetime.date.fromisoformat(text_date)
+        if reporting_period_start <= event_date <= reporting_period_end:
+            events.append(event)
+    output['events'] = events
+
+    if len(events) > 0:
+        return True
+    else:
+        return False
+
 def render_products_to_markdown(yaml_filepath, component_shortname):
     """
     Render list of products to Markdown from a given YAML file or folder of YAML files.
@@ -233,9 +264,48 @@ def render_products_to_markdown(yaml_filepath, component_shortname):
         Markdown text for the research outputs of this Project/Core
 
     """
+    # Get all research outputs
+    outputs = get_components(yaml_filename=yaml_filepath)
+
     markdown_text = ""
-    for product in entity['products']:
-        markdown_text += f"**{product['name']}\n\n"
+
+    # Flatten to list
+    if hasattr(outputs, 'items'):
+        outputs = list(outputs.values())
+
+    # Iterate over outputs and include those that match this component
+    for output in outputs:
+        # Check if the component contributed to this output        
+        if component_contributed_to_output(component_shortname, output) and filter_events_to_reporting_period(output):
+
+            # Name
+            markdown_text += f"**{output['name']}**"
+            if output.get('status', None) == 'draft':
+                markdown_text += ' [DRAFT]'
+            markdown_text += '\n\n'
+
+            # Description
+            if 'description' in output:
+                markdown_text += f"{output['description']}\n\n"
+
+            # Render links
+            if 'permalink' in output:
+                markdown_text += f"**permalink:** {output['permalink']}\n\n"
+
+            for link in output['links']:
+                markdown_text += f"* _{link['name']}_\n\n"
+                markdown_text += f"{link['url']}\n\n"
+
+            # Render contributing Projects and Cores
+            markdown_text += 'Contributing Projects and Cores: '
+            markdown_text += ', '.join(output.get('projects', []) + output.get('cores', []))
+            markdown_text += '\n\n'
+
+            # Render events
+            for event in output['events']:
+                markdown_text += f"* {event['date']} : {event['description']}\n"                 
+
+            markdown_text += '\n'
 
     return markdown_text
 
@@ -256,13 +326,13 @@ def render_research_outputs(component_shortname):
 
     # Resources to process
     resource_filenames = [
-        'targeting_opportunities.yaml' # project 1
-        'mutations.yaml', # project 1
-        'TEPs/', # project 2
-        'molecule_sets.yaml', # projects 3, 4, 5
+        'targeting_opportunities.yaml', # project 1
+        'circulating_variants.yaml', # project 1
+        #'TEPs/', # project 2
+        'molecules.yaml', # projects 3, 4, 5
         'TCPs.yaml', # project 5
         'TPPs.yaml', # project 6
-        'assay_cascades.yaml' # Projects 3, 4, 5
+        'assay_cascades.yaml', # Projects 3, 4, 5
         'assay_protocols.yaml', # Biochemical Assay and Antiviral Core
     ]
 
@@ -273,7 +343,7 @@ def render_research_outputs(component_shortname):
     for resource_filename in resource_filenames:
         import os
         resource_filepath = os.path.join('../data/outputs', resource_filename)
-        markdown_text += render_products_to_markdown(resource_filename, component_shortname)
+        markdown_text += render_products_to_markdown(resource_filepath, component_shortname)
 
     return markdown_text
 
@@ -358,8 +428,7 @@ def generate_progress_report(component_shortname, component, output_path):
 
         # Significant Project-generated resources
         markdown_text += "# Significant Project-Generated Resources\n\n"
-        # TODO
-        #markdown_text += get_component_resources
+        markdown_text += "See Project Generated Resources\n\n"
 
     elif component['type'] == 'Core':
         #

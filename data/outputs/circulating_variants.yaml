@@ -8,7 +8,7 @@ NONE-SARS-COV-2-NSP1:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 ASAP-SARS-COV-2-NSP3-MAC1:
@@ -21,7 +21,7 @@ ASAP-SARS-COV-2-NSP3-MAC1:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 ASAP-COV-MPRO:
@@ -34,7 +34,7 @@ ASAP-COV-MPRO:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 NONE-SARS-COV-2-NSP12:
@@ -47,7 +47,7 @@ NONE-SARS-COV-2-NSP12:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 ASAP-SARS-COV-2-NS3-HELICASE:
@@ -60,7 +60,7 @@ ASAP-SARS-COV-2-NS3-HELICASE:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 NONE-SARS-COV-2-NSP14:
@@ -73,7 +73,7 @@ NONE-SARS-COV-2-NSP14:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 ASAP-SARS-COV-2-ENDORIBONUCLEASE:
@@ -86,7 +86,7 @@ ASAP-SARS-COV-2-ENDORIBONUCLEASE:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 ASAP-SARS-COV-2-NPROTEIN:
@@ -99,7 +99,7 @@ ASAP-SARS-COV-2-NPROTEIN:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 NONE-SARS-COV-2-S:
@@ -112,7 +112,7 @@ NONE-SARS-COV-2-S:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
 
@@ -126,4 +126,4 @@ MOONSHOT-COV-MPRO:
     url: https://doi.org/10.1101/2023.01.30.526314
   events:
   - date: 2023-01-31
-    name: Preprint and interactive mutation viewer posted.
+    description: Preprint and interactive mutation viewer posted.
