@@ -25,6 +25,15 @@
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
   {{ template "_internal/google_analytics_async.html" . }} 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3L857X90H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M3L857X90H');
+  </script>
 
   <link rel="canonical" href="{{ .Permalink }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}

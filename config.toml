@@ -8,8 +8,6 @@ publishDir = "./public"
 pygmentsCodefences = true
 pygmentsStyle = "colorful"
 
-# Google analytics
-googleAnalytics = 'G-M3L857X90H'
 
 # Generate robots.txt
 enableRobotsTXT = "true"
