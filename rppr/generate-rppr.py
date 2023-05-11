@@ -378,7 +378,6 @@ def render_TEP_outputs(component_shortname):
             if 'date' not in resource:
                 print(resource)
 
-
             # Check if this resource is in the reporting period
             try:
                 text_date = str(resource['date'])
