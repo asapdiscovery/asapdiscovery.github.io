@@ -115,3 +115,15 @@ NONE-SARS-COV-2-S:
     name: Preprint and interactive mutation viewer posted.
   projects: [Project 1]
 
+
+MOONSHOT-COV-MPRO:
+  name: Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease
+  description: Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants
+  links:
+  - name: interactive viewer
+    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
+  - name: bioRxiv preprint
+    url: https://doi.org/10.1101/2023.01.30.526314
+  events:
+  - date: 2023-01-31
+    name: Preprint and interactive mutation viewer posted.

@@ -22,7 +22,7 @@ targeting_opportunity:
     - date: 2023-03-19
       description: Initial draft  
 
-mutations:
+circulating_variants:
   status: completed
   
 TPP:

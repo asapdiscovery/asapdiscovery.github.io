@@ -19,7 +19,7 @@ funding_source:
 targeting_opportunity:
   status: completed
 
-mutations:
+circulating_variants:
   status: completed
   
 TPP:
