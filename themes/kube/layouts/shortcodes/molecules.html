@@ -1,9 +1,7 @@
 <!-- TODO: How should we sort the target data? -->
-{{ range $program := $.Site.Data.programs }}
+{{ range $program_nickname, $output := $.Site.Data.outputs.molecules }}
 
-    {{ range $molecule := $program.molecules.releases }}
-        {{ $molecule = merge $molecule (dict "overview" $program.overview) }}
-        {{ partial "molecule.html" $molecule }}
-    {{ end }}
+    {{ $output := merge $output (dict "id" $program_nickname) }}
+    {{ partial "research-output.html" $output }}
 
-{{ end }} 
+{{ end }}

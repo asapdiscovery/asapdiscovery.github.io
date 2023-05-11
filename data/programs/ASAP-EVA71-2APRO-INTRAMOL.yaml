@@ -17,10 +17,6 @@ funding_source:
 
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
 
 TPP:
   status: completed

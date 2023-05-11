@@ -1,0 +1,78 @@
+<!-- Render program title with permalink -->
+<h3 style="text-align: left;" id={{ .overview.program_nickname }}>{{ .overview.name }}</h3>
+
+{{ range .products }}
+
+    <div class="prettybox" data-component="prettybox"> 
+    
+    <!-- Name -->
+    <b>{{ .name }}</b> <br>
+
+    <!-- Description -->
+    {{ with .description }} {{ . }} <br> {{ end }} 
+
+    <!-- Links -->
+    {{ range .links }}
+        <b>{{ .action }}</b>: <a href="{{ .url }}">[{{ .short }}] </a> <br>
+        <i>{{ .description }}</i> <br>
+    {{ end }}
+
+
+    <!-- Contributing Projects and Cores -->
+    <!-- TODO: Make these links to Projects and Cores -->
+    {{ if or .projects .cores }}
+        Contributing Projects and Cores: 
+        {{ range .projects }}
+        <span class="label warning">{{ . }}</span>
+        {{ end }}        
+        {{ range .cores }}
+        <span class="label success">{{ . }}</span>
+        {{ end }}        
+        <br>
+    {{ end }}
+
+    </div>
+
+
+    <!-- Select enclosing box type -->
+    {{ $typeclass := "label" }}
+    {{ $typename := "unknown" }}
+    {{ if eq .type "deep-mutational-scanning" }}
+        {{ $typeclass = "label error" }}
+        {{ $typename = "Deep Mutational Scanning" }}
+    {{ else if eq .type "analysis-of-circulating-variants" }}
+        {{ $typeclass = "label success" }}
+        {{ $typename = "Analysis of circulating variants" }}
+    {{ end }}
+
+    <div class="prettybox" data-component="prettybox"> 
+
+        <!-- Render product name and type -->
+        <a href="{{ .url }}"><b>{{ .name }}</b></a> <i>[{{ .date }}]</i> <br>
+
+        <span class="{{ $typeclass }}">{{  $typename }}</span> <br>
+
+        {{ with .preprint }} Preprint: <a href="{{ . }}">{{ . }}</a> <br> {{ end }}
+        {{ with .doi }} Publication DOI: <a href="http://doi.org/{{ . }}">{{ . }}</a> <br> {{ end }}
+
+        <!-- Contributing Projects and Cores -->
+        <!-- TODO: Make these links to Projects and Cores -->
+        {{ if or .projects .cores }}
+            Contributing Projects and Cores: 
+            {{ range .projects }}
+            <span class="label warning">{{ . }}</span>
+            {{ end }}        
+            {{ range .cores }}
+            <span class="label success">{{ . }}</span>
+            {{ end }}        
+            <br>
+        {{ end }}
+
+        <br>
+
+
+    </div>
+
+{{ end }}
+
+<br>

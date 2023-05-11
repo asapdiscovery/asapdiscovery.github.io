@@ -17,44 +17,9 @@ funding_source:
 
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
-  events:
-    - date: 2023-03-19
-      description: Initial draft
 
-DMS:
-  # 'status' controls the status box rendered for this stage
+circulating_variants:
   status: completed
-  url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
-  products:
-  # This paper is citeable
-  - name: Analysis of circulating variants of SARS-CoV-2 Mpro (nsp5)
-    date-completed: 2023-01-31
-    url: https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html
-    preprint: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1
-    RPPR: [P1]
-    events:
-      - date: 2023-01-31
-        description: A preprint was posted to bioRxiv.
-      - date: 2023-01-31
-        description: A public website was posted.
-    links:
-      - action: Download simulation scripts
-        short: GitHub
-        description: Scripts for structure preparation, docking, and simulation of MEN1 mutants interacting with inhibitors
-        url: https://github.com/choderalab/men1
-      - action: Download the datasets
-        short: OSF
-        description: Data from free energy calculations, Folding@home trajectories, and Markov state models of MEN1 mutants
-        url: https://osf.io/uge5j/
-  # NOTE: This paper is not citeable by the RPPR, but we will be able to cite it if we reformat it as an interactive website
-  - name: Deep mutational scanning of SARS-CoV-2 Mpro
-    url: https://elifesciences.org/articles/77433    
-    doi: 10.7554/eLife.77433
-    RPPR: []
-    events:
-      - date: 2022-07-26
-        description: Published in eLife.    
   
 TPP:
   status: completed
@@ -88,9 +53,4 @@ preclinical:
   url: https://dndi.org/research-development/portfolio/covid-moonshot/
 
 molecules:
-  releases:
-  - name: "SARS-CoV-2 Mpro biochemical assay data"
-    data: https://covid.postera.ai/covid/activity_data
-    metadata: https://doi.org/10.1101/2020.10.29.339317
-    description: |
-      All biochemical data from the COVID Moonshot has been disclosed.
+  status: completed

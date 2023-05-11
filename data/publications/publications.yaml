@@ -1,11 +1,10 @@
 - title: "Fitness effects of mutations to SARS-CoV-2 proteins"
   authors: "Jesse D. Bloom, Richard A. Neher"
-  summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a [detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins](https://jbloomlab.github.io/SARS2-mut-fitness/) to inform the discovery of antivirals that avoid intrinsic resistance.  
+  summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins to inform the discovery of antivirals that avoid intrinsic resistance.
   img: SARS-CoV-2-fitness-effects.png
   date: 2023-01-31
   programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
   projects: [Project 1]
-  cores: []
   preprint:
     server: bioRxiv
     url: https://doi.org/10.1101/2023.01.30.526314
@@ -13,6 +12,7 @@
     date: 2023-01-31
   github: jbloomlab/SARS2-mut-fitness
   data: https://jbloomlab.github.io/SARS2-mut-fitness/
+
 - title: "An in-solution snapshot of SARS-COV-2 main protease maturation process and inhibition"
   authors: "Gabriela Dias Noske, Yun Song, Rafaela Sachetto Fernandes, Rod Chalk, Haitem Elmassoudi, Lizbé Koekemoer, C. David Owen, Tarick J. El-Baba, Carol V. Robinson, The COVID Moonshot Consortium, Glaucius Oliva, Andre Schutzer Godoy"
   summary: A 3.5A cryo-EM structure of the SARS-CoV-2 main viral protease (Mpro) provides critical details of the N-terminal cleavage event and how different antivirals shift populations toward monomer or dimer.
@@ -20,9 +20,9 @@
   date: 2023-03-20
   programs: [ASAPPTGTTM]
   projects: [Project 2]
-  cores: []
   preprint:
     server: bioRxiv
+    date: 2021-01-22
     url: https://doi.org/10.1101/2020.12.23.424149
     license: "CC-BY-NC-ND 4.0 International license"
   published:
@@ -34,6 +34,7 @@
     year: 2023
     pmcid: PMC10027274
   data: https://www.nature.com/articles/s41467-023-37035-5#data-availability
+
 - title: "Turning high-throughput structural biology into predictive inhibitor design"
   authors: "Kadi L. Saar, William McCorkindale, Daren Fearon, Melissa Boby, Haim Barr, Amir Ben-Schmuel, The COVID Moonshot Consortium, Nir London, Frank von Delft, John D. Chodera, Alpha A. Lee"
   summary: We develop a machine learning framework that leverages high-throughput X-ray crystallography data to outperform ligand- or structure-based methods in predicting potent ligands, and use this approach to discover a noncovalent nonpeptidomimetic inhibitor with 120 nM antiviral efficacy.
@@ -44,6 +45,7 @@
   cores: [Biochemical Assay Core, Structural Biology Core]
   preprint:
     server: bioRxiv
+    date: 2021-10-15
     url: https://doi.org/10.1101/2021.10.15.464568
     license: "CC-BY-NC 4.0 International license"
   published:
@@ -55,26 +57,31 @@
     year: 2023
     pmcid: PMC10089178
   github: kadiliissaar/ligand_design_structural_biology
+
 - title: "Accelerating antiviral drug discovery: lessons from COVID-19"
   authors: "Annette von Delft, Matthew D. Hall, Ann Kwong, Lisa A. Purcell, Kumar Singh Saikatendu, Uli Schmitz, John A. Tallarico, and Alpha Lee"
   summary: We present a broad industry and academic perspective on key stages in the small-molecule antiviral discovery process and present strategies that could accelerate future efforts.
   img: target-product-profile.png
-  programs: []
+  programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
   projects: [Project 6]
   published:
     doi: 10.1038/s41573-023-00692-8
     journal: Nature Reviews Drug Discovery
+    pages: in press
     date: 2023-04-29
     year: 2023
+
 - title: "Allosteric regulation and crystallographic fragment screening of SARS-CoV-2 NSP15 endoribonuclease"    
   authors: "Andre Schutzer Godoy, Aline Minalli Nakamura, Alice Douangamath, Yun Song, Gabriela Dias Noske, Victor Oliveira Gawriljuk, Rafaela Sachetto Fernandes, Humberto D Muniz Pereira, Ketllyn Irene Zagato Oliveira, Daren Fearon, Alexandre Dias, Tobias Krojer, Michael Fairhead, Alisa Powell, Louise Dunnet, Jose Brandao-Neto, Rachael Skyner, Rod Chalk, Dávid Bajusz, Miklós Bege, Anikó Borbás, György Miklós Keserű, Frank von Delft, Glaucius Oliva"
   summary: We conducted a large fragment screening campaign against SARS-CoV-2 nsp15 endoribonuclease and identified several new allosteric sites that could be targeted for the development of new inhibitors.
   img: allosteric-regulation-nsp15-endoribonuclease.jpg
-  programs: [Structural Biology Core]
+  programs: [ASAPPFWOJB]
+  cores: [Structural Biology Core]
   projects: [Project 2]
   published:
     doi: 10.1093/nar/gkad314
     journal: Nucleic Acids Research
+    pages: in press
     date: 2023-04-28
     year: 2023
   data: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B

@@ -16,11 +16,7 @@ funding_source:
   url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
   
 targeting_opportunity:
-  status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS3-helicase-Dengue-Zika-West-Nile-d3ef36412b7947418a8b782626860a65
-  events:
-    - date: 2023-03-21
-      description: Initial draft    
+  status: completed 
 
 TPP:
   status: completed

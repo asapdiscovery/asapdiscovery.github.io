@@ -90,13 +90,16 @@
 
 <!-- Scientists -->
 {{ $scientist_roles := slice "Scientist" "Scientific Coordinator" "Post Doc" "Research Assistant" "Other Personnel" }}
+{{ $other_roles := slice "Principal Investigator" "Project Lead" "Core Lead" "Co-Investigator" "External Scientific Advisory Board Member" "Internal Scientific Advisory Board Member" }}
 
 <h2>Scientists and Collaborators</h2>
 
 <ul>
 {{ range $.Site.Data.members }}
-  {{ if in $scientist_roles .role }}
-    {{ partial "person" . }}
+  {{ if not (in $other_roles .role) }}
+    {{ if not (in .lab "Administrative Core") }}
+      {{ partial "person" . }}
+    {{ end }}
   {{ end }}
 {{ end }}
 </ul>

@@ -6,7 +6,6 @@ layout: faq
 robotsdisallow: true # Don't allow robots to index this for now
 ---
 
-
 *April 2023*
 
 Authors: <br>
@@ -59,3 +58,4 @@ Our intent is to publish both the ASAP IP policy with the background and rationa
 ### Conclusion
 
 ASAP IP policy aims to use patents rights as a tool to avoid some of the short-comings of a pure open-science approach tested by the Moonshot consortium, while contractually conditioning the use of patent rights to the ASAP fundamental goal of global equitable access.
+

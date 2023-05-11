@@ -1,0 +1,100 @@
+Project 1: |
+  Drafted 22 concrete Targeting Opportunity assessments to guide P2-P6 activities for discovery programs (Kirkegaard):
+  * **SARS-CoV-2:** Nucleocapsid, nsp3 Mac1 macrodomain, nsp13 helicase, nsp15 nuclease
+  * **MERS-CoV/SARS-CoV-2:** Mpro
+  * **Dengue virus:** NS2B/3 protease, NS3 helicase, full-length NS3
+  * **Zika virus:** NS2B/3 protease, NS3 helicase, full-length NS3, NS5B polymerase, capsid
+  * **West Nile virus:** NS2B/3 protease, full-length NS3, NS5B polymerase
+  * **Enterovirus A-71:** 2A protease, 2A protease precursor, 3C protease
+  * **Enterovirus D-68:** 2A protease, 2A protease precursor, 3C protease
+  Enabling biochemistry for enterovirus protease targets
+  * Identified obligatory intramolecular cleavage for 2A proteases, intermolecular for 3C proteases
+  * Developed quasi-intramolecular cleavage assay via rapamycin-dependent dimerization of two half-proteases (Kirkegaard/Bogyo)
+  Deep mutational scanning and phylogeny to identify mutationally inflexible residues:
+  * Assessment of millions of circulating SARS-CoV-2 variants preprinted and online (Jessie Bloom) 
+  * Identified additional laboratories and resources needed to provide good DMS coverage for viral families and targets of immediate interest to ASAP discovery programs
+    * Daniel Bolon / Celia Schiffer / Julia Flynn (U Mass) SARS-CoV-2 Mpro immediate support with DMS for compounds. Preliminary SARS-CoV-2 Mpro DMS data has now been generated for three inhibitors and is currently under review prior to disclosure.
+    * Matt Evans / Blake Richardson (Mount Sinai) Zika polymerase, protease and capsid. Completed deep mutational scanning of all 903 amino acids of ZIKV NS5 polymerase.
+    * Identified Brett Lindenbach (Yale) to provide DMS support for SARS-CoV-2 targets.  Developmental Award proposal solicited for full PHS398 application to NIAID.
+    
+Project 2: |
+  * Brought online all capabilities required to deliver Aims 1, 2, and 3 and demonstrated effectiveness by initiating 18 TEPs, with 2 progressed to 75% completion (fragment screen complete). 
+  * Together with P1, established best-practice procedures for defining Targeting Opportunities to serve as initiation activity for any TEP activity, and defined outline rationales all 18 initiated TEPs, with 4 recent additions to investigate precursor conformations, with full documentation in progress.  
+  * Purchased and commissioned the budgeted Creoptix WAVE instrument and initiated working protocols for fragment expansion (Aim 4).  
+  * Hardened the front-line algorithm for progressing fragment hits (Aim 4), namely the combined Fragment Network and Fragmenstein approach for finding fragment merges in commercial catalogs.  
+  * Initiated a streamlined workflow for Gluebody generation to be used for discovery of alternative crystal forms (Aim 1). 
+
+Project 3: |
+  * Progressed SARS-CoV-2 nsp3 Mac1 macrodomain hit-to-lead program from fragments to a 70 nM inhibitor, with another backup series
+  * Formulated three-month transition plan for SARS-CoV-2 nsp3 Mac1 program to transition to Project 5: Lead Optimization, including key experiments and critical assay path 
+  * Initiated chemistry to progress fragments hits against SARS-CoV-2 nucleocapsid protein  
+
+Project 4: |
+  * Designed and tested new covalent inhibitors for SARS-CoV-2 Mpro. 5 with IC50 better than 1μM. Multiple chemical series, differentiated from previous known inhibitors. Covalent labeling validated by Mass Spectrometry.
+  * Identified covalent binder for MERS with preliminary promising cellular activity.
+  * Sourced and integrated new covalent fragment library (n=7,600); Completed 4 covalent fragment screens (MERS Mpro, ZIKA, DENG, WNV NS2B-NS3 protease).
+  * Expanded high-throughput chemistry capabilities (800 amine building blocks); Applied to generate new covalent fragment libraries (ureas, carbamates). 
+  * Developed fluorescent reporter Mpro cells line to support PROTAC development. Currently validating this protocol prior to making resources available.
+
+Project 5: |
+  * Initiated a broad spectrum MERS-CoV / SARS-CoV-2 inhibitor lead optimization program, with lead compounds currently showing cellular antiviral EC50 <250 nM activity against both MERS-CoV and SARS-CoV-2 and low in vitro metabolism. 
+  * Active compound testing initiated and active at CROs: Bienta, Ukraine and Concept Life Sciences, United Kingdom for in vitro and in vivo ADMET data. 
+  * Full compound and data logistics capability operational. 
+  * Integration of structure based and ligand based computational chemistry approaches into medicinal chemistry design process and tracking of compound designs team.
+
+Project 6: |
+  * Development of initial draft Target Product Profiles for SARS2, MERS + SARS2, Dengue, ENV-D68 and ENV-A71, and Target Candidate Profiles for:  MERS & SARS2 Oral MPro inhibitor SARS2 Oral MPro inhibitor, SARS2 Oral Mac1 inhibitor. 
+  * Developed an intellectual property policy for the ASAP AViDD Center that integrates lessons from the COVID Moonshot development efforts.
+
+Administrative Core: |
+  * Hired Administrative Director (Maggie Jameson) and Project Coordinators (Jessie Slater, Ashley Souffrant)
+  * Created ASAP website listing mission, strategy, investigators, researchers, Scientific Advisory Board, and contacts [http://asapdiscovery.org]
+  * Created data infrastructure for disseminating ASAP Pipeline [http://asapdiscovery.org/pipeline] and all research outputs [http://asapdiscovery.org/outputs] 
+  * Set up online organizational and communication workspaces for intra-ASAP communication (Slack, Google Drive, Notion) 
+  * All CRO contracts and subawards are now active, and contingency plans are in progress to enable continued productivity should any CROs be temporarily unable to deliver services
+  * Initiated investigator and team meetings, which are now at steady-state pacing
+  * Established consistent ASAP onboarding process across organizations
+  * Initiated AViDD Open Science Forum [http://openantivirals.org]. The Open Science Forum features monthly talks from scientists from NIH-funded Antiviral Drug Discovery (AViDD) Centers who elect to provide updates on target priorities, advertise available resources and reagents, disclose chemical matter (such as hits, leads, and chemical tool compounds) and associated antiviral data, share findings regarding in vivo efficacy models, discuss downstream development and translation models, and share ideas. Talks are public, recorded, and shared online along with links to relevant resources and reagents for the benefit of other AViDD Centers and the global antiviral drug discovery community. An unrecorded discussion with the speakers follows each pair of talks for those that wish to discuss the science behind the work more deeply. It has held monthly meetings since Oct 2022 : 7 meetings, 16 talks, numerous linked antiviral discovery open science resources
+  * Established the ASAP Policy on Target Conflicts.
+  * Recruited Scientific Advisory Board (SAB) and executed contracts (with CDAs) with SAB members
+  * Initiated inter-AViDD collaborative discussions, including UCSF QCRG (both groups are working on SARS-CoV-2 nsp3-mac1 and SARS-CoV-2 Mpro)
+  * Initiated collaboration with NCATS to pursue discovery on CHIKV nsp2 and nsp3-mac1
+  * Completed Developmental and Mentored Award Program application solicitation and review and coordinated invited applications (now under NIAID review)
+
+Antiviral Core: | 
+  * Hired 3 Research Associates to run in vitro and in vivo antiviral assays.
+  * Designed, purchased, and built a Biomek liquid handling robotics system for full automation of live-virus antiviral assays under BSL2 conditions and partial automation for BSL3 assays. The central unit of the system is a Biomek i7 Hybrid liquid handler, which has an onboard thermocycler for full automation of our NGS library preparations for antiviral resistance analysis. The system has a Biotek Cytation 1 plate reader/imager and a Cytomat10 plate hotel integrated for maximum flexibility and throughput, respectively.
+  * Purchased a Tecan D300e Digital drug dispenser and established direct-dilution semi-automated protocols for drug dilutions series in our standard antiviral assays.
+  * Established SOPs for IF-based antiviral assays for the SARS-CoV-2 BA.5 and XBB1.5 variants in HeLa-ACE2 cells, MERS-CoV in Vero E6 cells, EVA-71 in RD cells, and dengue virus serotype 2 in Vero E6 cells.
+  * Screened 42 compounds against MERS-CoV under enhanced BSL3 conditions in Mpro targeted program with a 6-point dose-response live virus assay and concurrent cytotoxicity assay.
+  * Screened 42 compounds against SARS-CoV-2 under BSL3 conditions in Mpro targeted program with a 6-point dose-response live virus assay and concurrent cytotoxicity assay.
+  * Screened 13 compounds against SARS-CoV-2 under BSL3 conditions in macrodomain targeted program with a 6-point dose-response live virus assay and concurrent cytotoxicity assay.
+  * Established an in-house SOP for SARS-CoV-2 Illumina sequencing pipeline of antiviral resistance analysis, including: a SARS-CoV-2 passaging scheme under selective pressure from novel compounds, SARS-CoV-2 sequence amplification with ARTIC primers and Illumina library preparation, and loading on an in-house NextSeq 550 followed by variant call analysis using an in-house pipeline.
+  * Explored in vitro antiviral assays targeting the SARS-CoV-2 macrodomain, including: assays quantifying ADP-ribosylation directly using IF-based assays in standard cell lines, potentiating PARP activity with IFN treatment to sensitize antiviral assays in standard cell lines to macrodomain inhibitors, and antiviral assays in primary-like iPSC-derived pneumocytes.
+  * Explored novel animal models for antiviral efficacy analysis, including: The 8HUM mouse model for its human-like pharmacokinetic properties and the SCARB2-expression mouse model for oral EV-A71. .
+
+Biochemical Assay Core: |
+  * Hired biochemical core project manager
+  * Established work-flow of compound logistics to assay to data dissemination 
+  * Developed SOP for SARS-CoV-2 and MERS-CoV protease assays including standards for assay acceptance and validity using probe compounds
+  * Screening in process for SARS-CoV-2 and MERS-CoV protease inhibitors
+  * Developed SOP for SARS-CoV-2 nsp3 Mac1 macrodomain ADPr peptide binding assay
+  * Screening in process for SARS-CoV-2 nsp3 Mac1 macrodomain inhibitors
+  * Initiated assay development for Nucleocapsid inhibitors
+  * Developed screening cascade for covalent protease inhibitors using intact protein MS and activity assays to rank inhibitors using Ki/Kinact
+  * Developed screening assays and SOPs for filovirus proteases (DENV-2, ZIKV, WNV)
+
+Data Core: |
+  * All software contracts needed for ASAP execution in Year 1 reviewed and completed, with software quickly in scientists hands to begin projects.
+  * Quickly developed data infrastructure to get 3 separate medicinal chemistry programs and running, with molecule designs and syntheses digitally captured.
+  * Prototype shipment and compound ordering workflows developed for the entire consortium, to allow efficient delivery of compounds for logistically complex projects.
+  * Advanced stereochemistry handling implemented in tracking of compounds and mixtures, all the way from ideation to synthesis and further testing.
+  * Developed design portal that tracks compound designs and allows for tracking of ongoing synthesis queue. The design portal is also used for tracking computational experiments on designed compounds.
+  * Assay data available internally for all projects, with shipment and data upload workflows working. External data sharing plan being developed, as subsets of compound data are now in state appropriate for external consumption.
+
+Structural Biology Core: |
+  * Recruited and trained the full team; upgraded equipment, labware, software and algorithms to meet the throughput demands of the ASAP Center; and progressed upgrades to Fragalysis Cloud.  
+  * In support of Project 2: completed fragment screens for 2 TEPs, optimized crystals for 3 TEPs, and solved initial structures for 5 TEPs. 
+  * In support of Project 3: performed extensive experimental exploration in order to generate co-crystal structures of the lead compounds.  
+  * In support of Project 5: in collaboration with Project 2 and the Biochemical Core performed and coordinated extensive troubleshooting of the crystal system for the active hit-to-lead program.  
+  

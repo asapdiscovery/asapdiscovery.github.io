@@ -1,6 +1,8 @@
 <!-- TODO: How should we sort the target data? -->
-{{ range $.Site.Data.outputs.TPPs }}
+{{ range $id, $output := $.Site.Data.outputs.TPPs }}
 
-    {{ partial "TPP.html" . }}
+    {{ $output := merge $output (dict "id" $id) }}
+    {{ partial "research-output.html" $output }}
 
-{{ end }} 
+{{ end }}
+

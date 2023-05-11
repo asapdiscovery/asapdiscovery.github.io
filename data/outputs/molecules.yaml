@@ -1,0 +1,98 @@
+ASAP-COV-MPRO:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-COV-MPRO
+  name: "SARS-CoV-2/MERS-CoV Mpro lead optimization assay data"
+  description: This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program.
+  projects: [Project 5]
+  cores: [Biochemical Assay Core]
+  links:
+  - name: metadata
+    url: https://asapdiscovery.notion.site/SARS-CoV-2-and-MERS-Main-Protease-Mpro-Fluorescence-Dose-Response-Data-a23b21fe8fce4e1494c4c6720b072c1e
+  - name: (negative) assay data
+    url: https://app.postera.ai/account/molecule-set/cf233d08-520b-4934-a647-932d7b8b2a06 
+  - name: SARS-CoV-2 Mpro assay protocol
+    url: https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk/v1
+  - name: MERS-CoV Mpro assay protocol
+    url: https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9/v1
+  events:
+  - date: 2023-04-30
+    description: Initial public release of negative biochemical activity data for 182 molecules.
+
+ASAP-SARS-COV-2-NSP3-MAC1:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-SARS-COV-2-NSP3-MAC1
+  name: "SARS-CoV-2 nsp3 Mac1 macrodomain assay data"
+  description: Biochemical assay data for hit-to-lead program
+  projects: [Project 3]
+  cores: [Biochemical Assay Core]
+  links:
+  - name: metadata
+    url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-0ecb0d3d0cfc466cbc81096160f330e2
+  - name: assay data
+    url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
+  - name: assay protocol
+    url: https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2
+  events: 
+  - date: 2023-04-30
+    description: Initial public release of hit-to-lead biochemical assay data for 783 molecules.
+
+ASAP-DENV-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-DENV-NS2B-NS3
+  name: "DENV-2 NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
+  description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
+  projects: [Project 4]
+  cores: [Biochemical Assay Core]
+  links:
+  - name: metadata
+    url: https://asapdiscovery.notion.site/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815
+  - name: assay data
+    url: https://app.postera.ai/account/molecule-set/dc3ad20d-5271-4609-96f5-dc14ab360ee5
+  - name: assay protocol
+    url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
+  events:
+  - date: 2023-04-30
+    description: Initial public release of covalent fragment screen and hit confirmation assay data for 652 molecules.
+
+ASAP-WNV-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-WNV-NS2B-NS3
+  name: "WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
+  description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
+  projects: [Project 4]
+  cores: [Biochemical Assay Core]
+  links:
+  - name: metadata
+    url: https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f
+  - name: assay data
+    url: https://app.postera.ai/account/molecule-set/40f36173-05a8-42ef-8d1c-4250dff0893c
+  - name: assay protocol
+    url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
+  events:
+  - date: 2023-04-30
+    description: Initial public release of covalent fragment screen and hit confirmation assay data for 646 molecules.
+
+ASAP-ZIKA-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-ZIKA-NS2B-NS3
+  name: "ZIKV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
+  description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
+  projects: [Project 4]
+  cores: [Biochemical Assay Core]
+  links:
+  - name: metadata
+    url: https://asapdiscovery.notion.site/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5
+  - name: assay data
+    url: https://app.postera.ai/account/molecule-set/9064058b-0da4-4164-bed0-3bccf2289a84
+  - name: assay protocol
+    url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1
+  events:
+  - date: 2023-04-30
+    description: Initial public release of covalent fragment screen and hit confirmation assay data for 653 molecules.
+
+MOONSHOT:  
+  name: "SARS-CoV-2 Mpro biochemical assay data from the COVID Moonshot"
+  description: All biochemical data from the COVID Moonshot has been disclosed.  
+  links:
+    - name: assay data
+      url: https://covid.postera.ai/covid/activity_data
+    - name: bioRxiv preprint
+      url: https://doi.org/10.1101/2020.10.29.339317
+  events:
+  - date: 2022-07-31
+    description: Nomination of candidate for prelinical development

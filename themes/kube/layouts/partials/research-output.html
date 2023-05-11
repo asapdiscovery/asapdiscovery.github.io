@@ -1,0 +1,55 @@
+<!-- Render a research product -->
+
+
+<!-- name with optional anchor -->
+{{ if .id }}
+    <div class="prettybox" data-component="prettybox">
+    <h3 style="text-align: left;" id="{{ .id }}"> {{ .name }} </h3> 
+{{ else }}
+    <div class="prettybox" data-component="prettybox">
+    <b> {{ .name }} </b> <br>
+{{ end }}
+
+<!-- optional draft status -->
+<!-- TODO: Generalize status badging -->
+{{ with .status }}
+    {{ if eq . "draft" }}
+        <span class="label warning">{{ . }}</span> <br>
+    {{ end }}   
+{{ end }}
+
+<!-- render URL as a URL if provided -->
+{{ with .url }}
+    <a href="{{ . }}">{{ . }}</a> <br>
+{{ end }}
+
+<!-- render links -->
+{{ range .links }}
+    <a href="{{ .url }}">[{{ .name }}]</a>
+{{ end }}
+<br>
+
+<!-- optional description -->
+{{ with .description }}
+    {{ . | markdownify }} <br>
+{{ end }}
+
+<!-- Contributing Projects and Cores -->
+<!-- TODO: Make these links to Projects and Cores -->
+{{ if or .projects .cores}}
+    Contributing Projects and Cores: 
+    {{ range .projects }}
+        <span class="label focus">{{ . }}</span>
+    {{ end }}        
+    {{ range .cores }}
+        <span class="label success">{{ . }}</span>
+    {{ end }}        
+    <br>
+{{ end }}
+
+<!-- render events -->
+{{ range .events }}
+    <small><i>[{{ .date }}]</i> {{ .description | markdownify }}</small> <br>
+{{ end }}
+
+</div>

@@ -1,23 +1,39 @@
-- id: ASAP-TCP-COV-MPRO
+ASAP-COV-MPRO:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-COV-MPRO
   name: MERS-CoV and SARS-CoV-2 Oral MPro protease inhibitor
+  type: Target Candidate Profile
   status: completed
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe4124e9_2_11
+  projects: [Project 5]
+  links:
+  - name: Target Candidate Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe4124e9_2_11
   events:
     - date: 2023-03-01
       description: Initial draft  
   
-- id: MOONSHOT-TCP
+MOONSHOT-COV-MPRO:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#MOONSHOT-TCP
   name: SARS-CoV-2 Oral MPro protease inhibitor  
+  projects: [Project 5]
+  type: Target Candidate Profile
   status: completed
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_13
+  links:
+  - name: Target Candidate Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_13
+  date: 2020-04-01
   events:
     - date: 2020-04-01
       description: Initial draft  
 
-- id: ASAP-TCP-SARS-COV-2-NSP3-MAC1
+ASAP-SARS-COV-2-NSP3-MAC1:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-SARS-COV-2-NSP3-MAC1
   name: SARS-CoV-2 Oral nsp3 Mac1 macrodomain inhibitor
+  type: Target Candidate Profile
+  projects: [Project 3, Project 5]
   status: completed
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_24
+  links:
+  - name: Target Candidate Profile for lead nomination
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_24
   events:
     - date: 2023-03-01
       description: Initial draft  

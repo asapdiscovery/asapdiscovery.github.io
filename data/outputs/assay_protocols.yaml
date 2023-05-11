@@ -1,0 +1,57 @@
+- id: MERS-CoV_Mpro_fluorescence-assay
+  permalink: http://asapdiscovery.org/outputs/assay-protocols/#MERS-CoV_Mpro_fluorescence-assay
+  name: MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay
+  description: |
+    This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease. 
+    Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. 
+  links:
+  - name: assay protocol
+    url: https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9
+  type: biochemical-assay-protocol
+  cores: [Biochemical Assay Core]
+  events:
+  - date: 2023-04-19
+    description: draft v3
+
+- id: SARS-CoV-2_Mpro_fluorescence-assay
+  permalink: http://asapdiscovery.org/outputs/assay-protocols/#SARS-CoV-2_Mpro_fluorescence-assay
+  name: SARS-CoV-2 main protease (Mpro) activity fluorescence dose response biochemical assay
+  description: |
+    This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-CoV-2 3C-like main viral protease (MPro). 
+    Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. 
+  links:
+  - name: assay protocol
+    url: https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk
+  type: biochemical-assay-protocol
+  cores: [Biochemical Assay Core]
+  events:
+  - date: 2023-04-28
+    description: draft v3
+
+- id: SARS-CoV-2_nsp3_TRFRET-assay
+  permalink: http://asapdiscovery.org/outputs/assay-protocols/#SARS-CoV-2_nsp3_TRFRET-assay
+  name: SARS-CoV-2 nsp3 Mac1 macrodomain TR-FRET peptide displacement biochemical assay
+  description: |
+    This is a TR-FRET peptide displacement assay to measure binding of small molecules to the active site of nsp3 Mac1 macrodomain
+  type: biochemical-assay-protocol
+  cores: [Biochemical Assay Core]
+  links:
+  - name: assay protocol
+    url: https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2
+  events:
+  - date: 2023-04-28
+    description: draft v2
+
+- id: flaviviruses_ns2ns3_fluorescence-assay
+  permalink: http://asapdiscovery.org/outputs/assay-protocols/#flaviviruses_ns2ns3_fluorescence-assay
+  name: Flaviviruses (West Nile, Zika, Dengue) NS2B/NS3 protease activity fluorescence dose response biochemical assay
+  description: |
+    This is a functional biochemical assay used to identify inhibitors of flavivirus (specifically West Nile, Zika, and Dengue) NS2B/NS3 protease activity.
+  type: biochemical-assay-protocol
+  cores: [Biochemical Assay Core]
+  links:
+  - name: assay protocol
+    url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v2  
+  events:
+  - date: 2023-04-28
+    description: draft v3

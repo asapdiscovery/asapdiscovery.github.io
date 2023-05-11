@@ -17,19 +17,10 @@ funding_source:
 
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
 
 TPP:
   status: completed
-  title: "Enterovirus A71 Oral/IV Community Use"
-  url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddb939d024_0_2
-  anchor: ASAP-EVA71-TPP
-  events:
-    - date: 2023-03-08
-      description: Initial draft
+
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
