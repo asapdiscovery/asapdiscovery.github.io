@@ -45,16 +45,18 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: P1127 C term domain (248-365) of Sars-CoV-2
+    - name: Protein expression construct for SARS-CoV-2 N-protein P1127 C-terminal domain (248-365)
+      id: cosv2-Nprot-Nterm_plasmid
       # Brief description of the plasmid
-      description:  High yield, 1-2 litres enough for 50-100mg, works with 2XTY and minimal media as well
+      description: High yield expression construct produces 50-100 mg in 1-2. Works with 2XTY and minimal media as well.
       # Date it was provided
-      date: TBD
+      # TODO: Check
+      date: 2022-10-01
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: TBD
+      #url: TBD
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -100,9 +102,9 @@ TEP:
         ![image](/img/tep_images/sars2_nprot_example_gel_2.png)
 
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein
-      description: 
+      id: cosv2-Nprot-Nterm_fragment-screen-fragalysis
       date: 2021-11-15
-      type: xray-fragment screen
+      type: xray-fragment-screen
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -124,6 +126,7 @@ TEP:
         * Crystal morphology: Bi-pyramid
 
     - name: Tryptophan quenching biophysical assay for SARS-CoV-2 N-protein binding
+      id: cosv2-Nprot-Nterm_biophysical-assay
       description: Final concentration of protein is 14 uM (arbitrary, once compounds get more potent this will become limiting). Note that because of the way the dilutions are done, final compound concentrations are 0.9x of the designed titration. 
       date: 2021-11-15
       type: biophysical-assay

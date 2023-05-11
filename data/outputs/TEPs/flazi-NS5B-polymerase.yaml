@@ -45,9 +45,14 @@ TEP:
   
   resources:
       # Construct / plasmid resource
-      - name: Truncated ZIKV RdRp construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+      - name: Protein expression construct of ZIKV NS5B RdRp suitable for crystallography
+        id: flazi-NSF5B-polymerase_plasmid-crystallography
+        # TODO: Check
+        date: 2022-10-01
         # Brief description of the plasmid
-        description: This protein construct yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.9 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+        description: |
+          Truncated ZIKV RdRp construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+          This protein construct yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.9 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
         # Date it was provided
         date: TBD
         # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']

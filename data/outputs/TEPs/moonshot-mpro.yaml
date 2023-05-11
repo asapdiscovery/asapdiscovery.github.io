@@ -93,9 +93,10 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Protein expression
+    - name: Protein expression construct of SARS-CoV-2 Mpro suitable for crystallographyic fragment screens
+      id: moonshot-mpro_plasmid-crystallography
       # Brief description of the plasmid
-      description:  Mpro from SARS-Cov-2 was cloned into pGEX-6P-1 for heterologous protein expression in Escherichia coli.
+      description:  Mpro from SARS-CoV-2 was cloned into pGEX-6P-1 for heterologous protein expression in Escherichia coli.
             The protein was purified by Ni-affinity chromatography, followed by HRV 3C protease treatment which
             yielded native N- and C-termini. HRV 3C protease was removed by reverse Ni-affinity chromatography,
             followed by a gel filtration step. The purified protein appears as a dimer in size-exclusion chromatography.
@@ -134,6 +135,7 @@ TEP:
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: moonshot-mpro-fragment-screen-fragalysis
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
                     opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
                     screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
@@ -207,7 +209,8 @@ TEP:
         minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
 
         Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
-    - name: PDB group deposition of crystallographic fragment screen
+    - name: PDB group deposition of crystallographic fragment screen of SARS-CoV-2 Mpro
+      id: moonshot-mpro-fragment-screen-pdb-group-deposition
       description:  >
         SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
         Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 

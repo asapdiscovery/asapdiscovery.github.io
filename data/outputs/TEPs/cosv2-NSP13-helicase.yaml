@@ -83,7 +83,8 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Protein Expression and Purification
+    - name: Protein expression construct and expression and purification protocols for SARS-CoV-2 nsp13 helicase
+      id: cosv2-NSP13-helicase_plasmid
       # Brief description of the plasmid
       description: We have expressed and purified full length NSP13 (1-601) in *E. coli* cells.
       # Date it was provided
@@ -185,10 +186,11 @@ TEP:
             TGCAACGTGAACCGCTTCAATGTAGCGATCACCCGTGCGAAGGTAGGTATTTTGTGCATCATGTCCGACCGTGATCTGT
             ATGACAAATTGCAGTTTACCAGCCTGGAAATCCCTCGCCGTAACGTGGCAACCCTTCAATAACAGTAAAGGTGGATACG
             GATCCGAATTCGAGCTCCGTCGACAAGCTTGCGGCCGCACTCGAGCACCACCACCACCACCACTGA
-    - name: PDB X-ray structure of SARS-CoV-2 nsp13 helicase
+    - name: X-ray structure of SARS-CoV-2 nsp13 helicase
+      id: cosv2-NSP13-PDB_structure-7NIO
       description:  The NSP13 crystal form contains two protomers in the P1 spacegroup and diffracts to 2.2 Å.
       date: 2020-09-16
-      type: pdb-structure
+      type: structure
       url: https://www.rcsb.org/structure/7NIO
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -209,6 +211,7 @@ TEP:
         structure of SARS-CoV-1 NSP13 (6JYT) as a search model. Refinement was performed using PHENIX REFINE to
         a final Rfactor = 20.9%, Rfree = 25.3%.
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp13 helicase
+      id: cosv2-NSP13-PDB_fragment-screen-pdb-group-deposition
       description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
                     hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
                     collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 
@@ -227,6 +230,7 @@ TEP:
         Fragment hits were identified using the PanDDA program. Refinement was performed using REFMAC or
         BUSTER.
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp13 helicase
+      id: cosv2-NSP13-PDB_fragment-screen-fragalysis
       description:  The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment
                     hits across 51 datasets. These structures have been published in the PDB and are featured as a curated
                     collection in the [RCSB PDB SARS-CoV-2](https://www.rcsb.org/groups/summary/entry/G_1002164) resource. 

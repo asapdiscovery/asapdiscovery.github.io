@@ -60,16 +60,16 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Crystallography construct A71EV2A-c012
+    - name: Protein construct for EV-A71 2A protease suitable for crystallography (A71EV2A-c012)
+      id: eva71-2A-protease_plasmid-crystallography
       # Brief description of the plasmid
-      description:  His-tagged 2A protease.
+      description: His-tagged protein expression construction for EV-A71 2A protease
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -94,11 +94,11 @@ TEP:
         * Tags and additions: SUMO-tag
         * Construct protein sequence: 
           MHHHHHHGSGDQEAKPSTEDLGDKKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQGVPMNSLRFLFEGQRIADNHTPKELGMEEEDVIEVYQEQTGG//SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
-    - name: Initial crystal obtained that diffracted to 1.6 Å in C121 space group.
+    - name: Crystal structure of EV-A71 2A protease at 1.6 Å resolution in C121 space group
+      id: eva71-2A-protease_structure-initial
       description:  
       date: 2022-11-26
-      type: pdb-structure
-      #url: N/A
+      type: structure
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >

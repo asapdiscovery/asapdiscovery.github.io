@@ -51,19 +51,20 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: We have produced active recombinant NSP15 protein that could be crystallised and used for structure determination at high resolution.
+    - name: Protein expression construct for SARS-CoV-2 nsp15 endoribonuclease suitable for X-ray crystallography
+      id: ccosv2-NSP15-endou_plasmid-crystallography
       # Brief description of the plasmid
       description:  NSP15 is a346 amino acid long polypeptide of approximately 38 kDa that forms a three-domain protein.
             These monomers are known to self-assemble as a barrel-shaped hexamer with D3 symmetry, totalling 228
             kDa. For this project, we recombinantly purified NSP15 in its monomeric form. The mechanism involved in
             hexamerisation in-vitro and in-situ is still under investigation. Although recombinant protein obtained was monomeric, crystal packing revealed that NSP15 formed the expected hexamer during crystallization. The active site of NSP15 [[2](https://doi.org/10.4161/rna.8.2.15196)] was found to be in complex with citrate, which is a component of the crystallisation condition.
+            We have produced active recombinant NSP15 protein that could be crystallised and used for structure determination at high resolution.
       # Date it was provided
       date: 2020-11-01
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: assay
+      type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url:  
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -74,7 +75,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        SARS-COV2 cDNA sample was donated by Dr. Edilson Durigon (GenBank MT126808.1), generated using SCRIPT One-Step RT-PCR (Cellco Biotec) and random hexamer primers. NSP15 coding sequence was amplified using
+        SARS-CoV-2 cDNA sample was donated by Dr. Edilson Durigon (GenBank MT126808.1), generated using SCRIPT One-Step RT-PCR (Cellco Biotec) and random hexamer primers. NSP15 coding sequence was amplified using
         FastPol (Cellco Biotec) with primers 5’-CAGGGCGCCATGAGTTTAGAAAATGTGGCTTTTAATG-3’ and 5’-GACCCGACGCGGTTATTGTAATTTTGGGTAAAATGTTTCTAC-3’, and inserted pET28-LIC (donated by Dr.
         Arie Geerlof) using Ligation-Independent Cloning method (8). The final construct pET28-LIC -NSP15 included a N-terminal 6xHis-tag followed by a TEV cleaving site and residues 1-346 of NSP15.
         Buffers used are detailed hereafter: 
@@ -105,7 +106,8 @@ TEP:
           MDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSVIDLLLDDFV
           EIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ`
     
-    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp15
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp15 endoribonuclease
+      id: ccosv2-NSP15-endou_fragment-screen-pdb-group-deposition
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
                     fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
                     surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
@@ -117,7 +119,8 @@ TEP:
       cores: [Structural Biology Core]     
       protocol: >
         For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v) PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20^o^C by vapor diffusion in the presence of 10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment library (library concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
-    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp15
+    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp15 endoribonuclease
+      id: ccosv2-NSP15-endou_fragment-screen-fragalysis
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
                     fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
                     surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
@@ -130,15 +133,17 @@ TEP:
       protocol: >
         For the fragment screening campaign, 30 nL protein (3.4 mg/mL) and 30 nL well solution containing 14% (w/v) PEG 6,000 and 0.1 M tri-sodium citrate pH 5.0 were equilibrated at 20^o^C by vapor diffusion in the presence of 10 nL of seeds stocks. For soaking, 40 nL of each fragment compound from the OPEN-EU DRIVE fragment library (library concentration of 100 mM) was added to a crystallisation drop using an ECHO acoustic liquid handler dispenser at the Diamond light source XChem facility [[9](https://doi.org/10.1107/s205979831700331x)]. Crystals were soaked for two hours before being harvested using XChem SHIFTER technology, and data was collected at the beamline I04-1 in automated mode. The XChemExplorer pipeline [[10](https://doi.org/10.1107%2FS2059798316020234)] was used for structure solution with parallel molecular replacement using DIMPLE [[11](https://www.semanticscholar.org/paper/DIMPLE-a-pipeline-for-the-rapid-generation-of-maps-Wojdyr-Keegan/c715d7fd1fae575c9f80d540f4130c3011cb447d)]. Fragments were identified using PANDDA software [[12](https://doi.org/10.1038/ncomms15123)]. Data was modelled and refined using BUSTER and COOT [[13](https://doi.org/10.1107/s0907444910007493)], and validated using Molprobity [[14](https://doi.org/10.1107/s0907444909042073)]. Coordinates and structure factors for exemplary data sets with bound fragments are deposited in the RCSB Protein Data Bank.
 
-    - name: FRET assay
+    - name: Biochemical assay for SARS-CoV-2 nsp15 endoribonuclease activity using FRET
+      id: ccosv2-NSP15-endou_biochemical-assay
       description: 
       date: 2020-11-01
-      type: assay
-      url: 
+      type: biochemical-assay
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. Activity assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30^o^C. Time-curse reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM filters.
+        Fluorogenic oligonucleotide substrate 5'6-FAM-dArUdAdA-6-TAMRA3’ was purchased from GenScript. 
+        Activity assays were performed in 25 mM BIS-Tris-HCl buffer 6.0 pH, 0.25 μM substrate and 100 nM NSP15mon at 30 C. 
+        Time-course reactions were directly monitored in a Stratagene Mx3005P (Agilent Technologies) using FAM filters.
     
     
     

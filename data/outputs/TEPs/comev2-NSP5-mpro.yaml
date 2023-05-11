@@ -86,9 +86,10 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Protein expression
+    - name: Plasmid for protein expression of SARS-CoV-2 Mpro protease for assays and crystallography
+      id: comev2-NSP5-mpro_expression-construct
       # Brief description of the plasmid
-      description:  Mpro from SARS-Cov-2 was cloned into pGEX-6P-1 for heterologous protein expression in Escherichia coli.
+      description:  Mpro from SARS-CoV-2 was cloned into pGEX-6P-1 for heterologous protein expression in Escherichia coli.
             The protein was purified by Ni-affinity chromatography, followed by HRV 3C protease treatment which
             yielded native N- and C-termini. HRV 3C protease was removed by reverse Ni-affinity chromatography,
             followed by a gel filtration step. The purified protein appears as a dimer in size-exclusion chromatography.
@@ -98,7 +99,7 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: https://www.diamond.ac.uk/dam/jcr:feefeac2-8f38-4dba-84e4-139f83e8a375/ProteaseMandM_v4.docx
+      #url: https://www.diamond.ac.uk/dam/jcr:feefeac2-8f38-4dba-84e4-139f83e8a375/ProteaseMandM_v4.docx
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -131,6 +132,7 @@ TEP:
 
       # TODO: Eliminate this, since this duplicative of the AddGene site.
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-fragalysis
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
                     opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
                     screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall,
@@ -208,6 +210,7 @@ TEP:
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
 
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
       description:  >
         SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
         Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 

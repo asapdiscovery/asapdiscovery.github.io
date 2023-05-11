@@ -60,6 +60,7 @@ TEP:
   resources:
     # Construct / plasmid resource
     - name: Full-length Nsp3 Mac1 construct bearing a N-terminal His-tag followed by a TEV-cleavage site that crystallised in the space group P4<sub>3</sub>
+      id: cosv2-NSP3-macro_plasmid-crystallography-P43
       # Brief description of the plasmid
       description:  This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 0.85 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
       # Date it was provided
@@ -92,6 +93,7 @@ TEP:
         RVCVDTVRTNVYLAVFDKNLYDKLVSSFL`
     # Construct / plasmid resource
     - name: Full-length Nsp3 Mac1 construct bearing a N-terminal His-tag followed by a TEV-cleavage site that crystallised in the space group C2
+      id: cosv2-NSP3-macro_plasmid-crystallography-C2
       description:  This construct consistently crystallised in C2 and also diffracted to a high- resolution of 0.77 Å, although was less tolerant to DMSO than the construct above-cited.
       date: 2021-06-01
       type: plasmid
@@ -111,6 +113,7 @@ TEP:
       protocol: >
         SARS-CoV-2 Nsp3 Mac1 (residues 2 to 170) was cloned into a pET22b(+) expression vector with an N-terminal His6 tag and a tobacco etch virus (TEV) protease recognition site for removal of the tag (GenScript). In addition, a short linker (Asn-Ala-Gly) was included between the TEV recognition site and the Mac1 gene. To express Mac1, plasmid DNA was transformed into BL21(DE3) Escherichia coli. After overnight growth on lysogeny broth (LB) agar supplemented with carbenicillin (100 g/ml), starter cultures (10 ml of LB) were grown at 37°C for 8 hours. Large-scale cultures (1 litre of terrific broth) were grown at 37°C until an optical density of 0.8. Cultures were cooled at 4°C for 15 min, before protein expression was induced with 1 mM isopropyl ß-d-1-thiogalactopyranoside (IPTG), and the cultures were shaken at 20°C for 12 hours. Cells were collected by centrifugation and frozen at -80°C. All purification steps were performed at 4°C using an AKTA fast protein liquid chromatography system (Cytiva). Cells were resuspended in Ni-nitrilotriacetic acid (NTA) binding buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 10 mM imidazole, 5% glycerol, and 2 mM ß-mercaptoethanol (ßME) supplemented with Turbo-Nuclease (5 U/ml; Sigma-Aldrich, T4330)] and lysed by sonication. Cell debris was collected by centrifugation, and the lysate was applied to a 5-ml HisTrap HP column (Cytiva, 17524802). The column was washed with 25 ml of binding buffer followed by 25 ml of 5% Ni-NTA elution buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 500 mM imidazole, 5% glycerol, and 2 mM ßME] and then eluted with 100% elution buffer. Eluted protein was exchanged into TEV reaction buffer [50 mM tris (pH 8.0), 100 mM NaCl, 1 mM dithiothreitol (DTT), and 1% glycerol] using a HiPrep 26/10 desalting column (Cytiva, 17508701). To cleave the His6 tag, Mac1 was diluted to 1.5 mg/ml using TEV reaction buffer and incubated with recombinant TEV protease at a 1:20 ratio (Mac1:TEV) for 16 hours at 4°C. Cleaved Mac1 was separated from the uncleaved protein and TEV protease by rerunning the sample over a HisTrap HP column (pre-equilibrated with TEV reaction buffer) and collecting the flow-through. The flow-through was supplemented with 10 mM DTT and concentrated to 2.5 ml using a 10-kDa molecular weight cutoff (MWCO) centrifugal concentrator (Amicon, UFC901024). The sample was further purified by size exclusion chromatography (SEC) using a HiLoad 16/600 Superdex 75 pg column (Cytiva, 28989333) equilibrated with SEC buffer [20 mM tris (pH 8.0), 150 mM NaCl, 5% glycerol, and 2 mM DTT]. Eluted fractions were concentrated to 15 mg/ml, flash-frozen in liquid nitrogen, and stored at -80°C. Protein used for ITC was purified in the same manner, but the SEC was run with 150 mM NaCl and 20 mM tris (pH 8.0). Protein was concentrated to 10.8 mg/ml before flash-freezing in liquid nitrogen and storage at -80°C.       
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain
+      id: cosv2-NSP3-macro_fragment-screen-fragalysis
       description: We performed X-ray crystallography screening at the Diamond Light Source XChem facility and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
       date: 2021-06-01
       type: xray-fragment-screen
@@ -125,6 +128,7 @@ TEP:
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
         Coordinates, structure factors, and PanDDA event maps for the structures discussed are deposited in the Protein Data Bank.
     - name: Fragment Binding to the Nsp3 Macrodomain of SARS-CoV-2 Identified Through Crystallographic Screening and Computational Docking
+      id: cosv2-NSP3-macro_fragment-screen-preprint
       date: 2020-11-24
       type: preprint
       url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
@@ -140,18 +144,20 @@ TEP:
       - Iris D. Young
       - Luan Carvalho Martins
     - name: High-throughput differential scanning fluorimetry (DSF) assay
+      id: cosv2-NSP3-macro_biophysical-assay-DSF
       description: A 384-well differential scanning fluorimetry (DSF) assay suitable for high-throughput quantitative screening was established.
       date: 2020-11-24
-      type: assay
+      type: biophysical-assay
       url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
       projects: [Project 2]
       cores: [Biochemical Assay Core]
       protocol: >
         Compounds were dissolved in DMSO to a final concentration of 100 mM and placed in a 384-well Echo source plate (Labcyte, PP0200). Using a Labcyte Echo, each compound was dispensed into a 384-well storage plate (Greiner Bio-One, 781280) in five stock concentrations in twofold serial dilutions (compounds, 6.25 to 100 mM; ADPr, 0.625 to 10 mM) and a final volume of 750 nl in triplicate. A protein-free plate was created as a control. Echo dispensing instructions were created by an in-house app (https://gestwickilab.shinyapps.io/echo_layout_maker/). DSF buffer was prepared by adding 10 µl of SYPRO Orange (Thermo Fisher Scientific, S6650) to 10 ml of buffer [50 mM tris- HCl (pH 7.5), 150 mM NaCl, 1 mM EDTA, 1 mM DTT, and 0.01% Triton X-100] for a final dye concentration of 5x (10 µM) SYPRO Orange. A compound plate was resuspended by the addition of 20 µl of DSF buffer and set aside for 20 min in the dark. Purified Mac1 (P43 construct purified at UCSF) was diluted to 10 µM in DSF buffer, and 2 µl of either protein solution or protein-free buffer was added to each well of a 384-well white PCR plate (Axygen, PCR-384- LC480WNFBC) using an E1 ClipTip P125 electronic pipette. Eight microlitres of resuspended compound was transferred to each well of the protein- and buffer-containing PCR plate using an Opentrons OT-2 liquid handling system, yielding the following final conditions: 2 µM Mac1, 5x (10 µM) SYPRO Orange, 3% DMSO, 0.1 to 3 mM fragments, and 0.1 to 1 mM ADPr. The PCR plate was spun briefly in a salad spinner to remove bubbles and sealed with an optically clear film (Applied Biosystems, MicroAmp Optical Adhesive Film, 4311971). In an Analytik Jena qTOWER 384G quantitative PCR instrument, plate was continuously heated from 25° to 94°C at a rate of 1°C/min, and fluorescence was measured at each degree in the TAMRA channel (535/580 nm). Fifty- three of 54 fragments were able to be tested up to 3 mM without assay interference under these conditions. Tm values were calculated online at DSFworld (https://bio.tools/dsfworld).
     - name: Homogeneous time-resolved fluorescence (HTRF)-based peptide displacement assay
+      id: cosv2-NSP3-macro_biophysical-assay-HTRF
       description: A 384-well Homogeneous time-resolved fluorescence (HTRF)-based peptide displacement assay suitable for high-throughput quantitative screening was established.
       date: 2020-11-24
-      type: assay
+      type: biophysical-assay
       url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
       projects: [Project 2]
       cores: [Biochemical Assay Core]
