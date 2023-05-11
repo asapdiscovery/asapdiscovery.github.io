@@ -105,7 +105,7 @@
                   <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
                   <a href="/outputs/circulating-variants/#{{ .overview.program_nickname }}"> <img title="Analysis of circulating variants for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .circulating_variants.status | default $not_started }}.png"></a>
 
-                  <a href="/outputs/target-product-profiles/#{{ .overview.program_nickname }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
+                  <a href="/outputs/target-product-profiles/#{{ .TPP.id }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
                   <!-- TODO: Can we pull TEP status from the TEP data directly? -->
                   <a href="/outputs/target-enabling-packages/#{{ .overview.program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
                   <a href="/outputs/target-candidate-profiles/#{{ .overview.program_nickname }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 

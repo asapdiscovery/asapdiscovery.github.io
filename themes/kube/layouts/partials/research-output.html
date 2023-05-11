@@ -3,8 +3,8 @@
 
 <!-- name with optional anchor -->
 {{ if .id }}
-    <div class="prettybox" data-component="prettybox" id="{{ .id }}">
-    <h3 style="text-align: left;" > {{ .name }} </h3> 
+    <div class="prettybox" data-component="prettybox">
+    <h3 style="text-align: left;" id="{{ .id }}"> {{ .name }} </h3> 
 {{ else }}
     <div class="prettybox" data-component="prettybox">
     <b> {{ .name }} </b> <br>

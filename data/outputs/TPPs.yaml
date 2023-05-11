@@ -12,6 +12,7 @@ ASAP-TPP-SARS-CoV-2:
       description: Initial draft
 
 ASAP-TPP-MERS-CoV-SARS-CoV-2:
+  permalink: http://asapdiscovery.org/outputs/target-product-profile/#ASAP-TPP-MERS-CoV-SARS-CoV-2
   status: draft
   name: SARS-CoV-2 and MERS-CoV Mpro Oral Community Use
   type: Target Product Profile
@@ -24,6 +25,7 @@ ASAP-TPP-MERS-CoV-SARS-CoV-2:
       description: Initial draft
 
 ASAP-TPP-DENV:
+  permalink: http://asapdiscovery.org/outputs/target-product-profile/#ASAP-TPP-DENV
   status: draft
   name: Dengue Oral Community Use
   type: Target Product Profile
@@ -88,6 +90,7 @@ ASAP-TPP-EVA71-PEDIATRIC:
       description: Initial draft
 
 ASAP-TPP-ZIKA:
+  permalink: http://asapdiscovery.org/outputs/target-product-profile/#ASAP-TPP-ZIKA
   status: draft
   name: Zika Oral Community Use
   type: Target Product Profile
