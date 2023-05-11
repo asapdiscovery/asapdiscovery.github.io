@@ -7,11 +7,51 @@ TODO:
 
 """
 
+#
+# Date range
+#
+
+import datetime
+reporting_period_start = datetime.date.fromisoformat('2022-05-01')
+reporting_period_end = datetime.date.fromisoformat('2023-04-30')
+grant_id = 'NIH U19 AI171399' 
+
 # -*- coding: utf-8 -*-
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt, Cm
+
+# Date functions
+def published_during_reporting_period(paper):
+    """Return True if paper was published during the grant reporting period.
+    """
+    try:
+        if reporting_period_start <= paper['published']['dates']['published'] <= reporting_period_end:
+            return True
+    except Exception as e:
+        pass
+    return False
+
+def accepted_during_reporting_period(paper):
+    """Return True if paper was published during the grant reporting period.
+    """
+    try:
+        if reporting_period_start <= paper['published']['dates']['accepted'] <= reporting_period_end:
+            return True
+    except Exception as e:
+        pass
+    return False
+
+def preprinted_during_reporting_period(paper):
+    """Return True if paper was published during the grant reporting period.
+    """
+    try:
+        if reporting_period_start <= paper['preprint']['date'] <= reporting_period_end:
+            return True
+    except Exception as e:
+        pass
+    return False
 
 #
 # Define Markdown to docx renderer
@@ -175,6 +215,67 @@ def get_specific_aims(component_name):
         return specific_aims[component_name]['aims']
     else:
         return "The Aims of this component have not been modified from the original, competing application."
+
+def render_products_to_markdown(yaml_filepath, component_shortname):
+    """
+    Render list of products to Markdown from a given YAML file or folder of YAML files.
+
+    Parameters
+    ----------
+    yaml_filepath : str
+        Path to a YAML file or folder of YAML files containing products to render
+    component_shortname : str
+        The short name of the Project/Core to render research outputs for
+
+    Returns
+    -------
+    markdown_text : str
+        Markdown text for the research outputs of this Project/Core
+
+    """
+    markdown_text = ""
+    for product in entity['products']:
+        markdown_text += f"**{product['name']}\n\n"
+
+    return markdown_text
+
+def render_research_outputs(component_shortname):
+    """
+    Render research outputs for this Project/Core to Markdown.
+
+    Parameters
+    ----------
+    component_shortname : str
+        The short name of the Project/Core to render research outputs for
+
+    Returns
+    -------
+    markdown_text : str
+        Markdown text for the research outputs of this Project/Core
+    """
+
+    # Resources to process
+    resource_filenames = [
+        'targeting_opportunities.yaml' # project 1
+        'mutations.yaml', # project 1
+        'TEPs/', # project 2
+        'molecule_sets.yaml', # projects 3, 4, 5
+        'TCPs.yaml', # project 5
+        'TPPs.yaml', # project 6
+        'assay_cascades.yaml' # Projects 3, 4, 5
+        'assay_protocols.yaml', # Biochemical Assay and Antiviral Core
+    ]
+
+    # TODO: add counts for Structural Biology, Biochemical Assay, and Antiviral Core
+    # TODO: Check antiviral core progress report
+
+    markdown_text = ""
+    for resource_filename in resource_filenames:
+        import os
+        resource_filepath = os.path.join('../data/outputs', resource_filename)
+        markdown_text += render_products_to_markdown(resource_filename, component_shortname)
+
+    return markdown_text
 
 def generate_progress_report(component_shortname, component, output_path):
     """
@@ -373,7 +474,7 @@ def generate_progress_report(component_shortname, component, output_path):
     if component['type'] == 'Project' or component_shortname == 'Administrative Core':
         markdown_text += "---\n\n"    
         markdown_text += "# Project Generated Resources\n\n"
-        # TODO: Include project-generated resources
+        markdown_text += render_research_outputs(component_shortname)
 
     # Render markdown to document
     renderer = PythonDocxRenderer()

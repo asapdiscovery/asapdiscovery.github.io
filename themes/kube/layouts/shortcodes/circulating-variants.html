@@ -1,5 +1,5 @@
 <!-- TODO: How should we sort the target data? -->
-{{ range $program_nickname, $output := $.Site.Data.outputs.assay_cascades }}
+{{ range $program_nickname, $output := $.Site.Data.outputs.circulating_variants }}
 
     {{ $output := merge $output (dict "id" $program_nickname) }}
     {{ partial "research-output.html" $output }}

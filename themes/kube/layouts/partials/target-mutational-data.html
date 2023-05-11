@@ -3,6 +3,37 @@
 
 {{ range .products }}
 
+    <div class="prettybox" data-component="prettybox"> 
+    
+    <!-- Name -->
+    <b>{{ .name }}</b> <br>
+
+    <!-- Description -->
+    {{ with .description }} {{ . }} <br> {{ end }} 
+
+    <!-- Links -->
+    {{ range .links }}
+        <b>{{ .action }}</b>: <a href="{{ .url }}">[{{ .short }}] </a> <br>
+        <i>{{ .description }}</i> <br>
+    {{ end }}
+
+
+    <!-- Contributing Projects and Cores -->
+    <!-- TODO: Make these links to Projects and Cores -->
+    {{ if or .projects .cores }}
+        Contributing Projects and Cores: 
+        {{ range .projects }}
+        <span class="label warning">{{ . }}</span>
+        {{ end }}        
+        {{ range .cores }}
+        <span class="label success">{{ . }}</span>
+        {{ end }}        
+        <br>
+    {{ end }}
+
+    </div>
+
+
     <!-- Select enclosing box type -->
     {{ $typeclass := "label" }}
     {{ $typename := "unknown" }}

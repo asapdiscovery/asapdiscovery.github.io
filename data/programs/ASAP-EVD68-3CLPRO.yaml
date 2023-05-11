@@ -17,10 +17,6 @@ funding_source:
   
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4  
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
 
 TPP:
   status: completed

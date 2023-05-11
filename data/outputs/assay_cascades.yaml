@@ -1,20 +1,36 @@
-- id: MOONSHOT-ASSAY
-  name: SARS-CoV-2 Mpro assay cascade from the COVID Moonshot
-  status: completed
-  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0
+MOONSHOT:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#MOONSHOT
+  name: Assay cascade for SARS-CoV-2 Mpro oral antiviral
+  description: Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot
+  links:
+  - name: Assay Cascade (lead optimization)
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0
+  events:
+  - date: 2020-03-23
+    description: Initial draft for COVID Moonshot
 
-- id: ASAP-ASSAY-COV-MPRO
-  name: SARS-CoV-2 / MERS-CoV Mpro assay cascade
-  status: completed
-  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232fd5f2809_1_114
+ASAP-COV-MPRO:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-COV-MPRO
+  name: Assay cascade for MERS-CoV / SARS-CoV-2 oral antiviral
+  links:
+  - name: Asay Cascade (lead optimization)
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232fd5f2809_1_114
+  projects: [Project 5]
+  cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
   events:
   - date: 2022-06-01
     description: Initial draft
 
-- id: ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
-  name: SARS-CoV nsp3 Mac1 assay cascade for lead nomination
-  status: draft
-  url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0
+ASAP-ASSAY-SARS-COV-2-NSP3-MAC1:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
+  name: Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral
+  description: Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination
+  links:
+  - name: Assay Cascade (fragment-to-lead)
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0
+  projects: [Project 3, Project 5]
+  cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
   events:
   - date: 2022-06-01
     description: Initial draft

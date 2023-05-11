@@ -6,8 +6,8 @@ overview:
   program_code: ASAPPTGTTM
   program_nickname: ASAP-COV-MPRO
   viruses:
-    - MERS-CoV
     - SARS-CoV-2
+    - MERS-CoV
   img: "SARS-CoV-2 Mpro.png"
 
 funding_source:  
@@ -18,10 +18,6 @@ funding_source:
 
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
-  events:
-    - date: 2023-03-19
-      description: Initial draft
 
 mutations:
   status: completed
@@ -53,11 +49,4 @@ lead_optimization:
   status: in-progress
 
 molecules:
-  releases:
-  - name: "SARS-CoV-2/MERS-CoV Mpro lead optimization biochemical assay - negative data"
-    metadata: https://asapdiscovery.notion.site/SARS-CoV-2-and-MERS-Main-Protease-Mpro-Fluorescence-Dose-Response-Data-a23b21fe8fce4e1494c4c6720b072c1e
-    data: https://app.postera.ai/account/molecule-set/cf233d08-520b-4934-a647-932d7b8b2a06
-    projects: [Project 5]
-    cores: [Biochemical Assay Core]
-    description: |
-        This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program.
+  status: in-progress

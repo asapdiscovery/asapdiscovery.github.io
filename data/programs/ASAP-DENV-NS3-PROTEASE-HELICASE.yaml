@@ -17,10 +17,6 @@ funding_source:
   
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
-  events:
-    - date: 2023-03-21
-      description: Initial draft
 
 TPP:
   status: completed

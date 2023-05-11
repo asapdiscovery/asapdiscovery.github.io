@@ -60,7 +60,7 @@ This overview summarizes relevant information for drug hunters, including the re
 
 ASAP is synthesizing and assaying new molecules against numerous antiviral targets, and posting these publicly as part of our open science mission.
 
-[🔎 View all ASAP Molecules](/outputs/molecules)
+[🔎 View all ASAP molecules and assay data](/outputs/molecules)
 
 <!-- Structures -->
 <a id="structures"></a>
@@ -78,16 +78,23 @@ ASAP aims to publish preprints of all work to ensure our scientific advances are
 
 [🔎 View all ASAP Publications](/outputs/publications)
 
+<!-- Analysis of circulating variants data -->
+
+<a id="circulating-variants"></a>
+#### Analysis of circulating variants
+
+ASAP uses the **analysis of circulating variants** of viruses such as SARS-CoV-2 to identify functionally tolerated mutations to inform resistance-robust inhibitor discovery.
+
+[🔎 View all ASAP analysis of circulating variant data](/outputs/circulating-variants)
+
 <!-- Deep Mutational Scanning (DMS) data -->
-<a id="mutational-data"></a>
-#### Target Mutational Data
+<a id="deep-mutational-scanning"></a>
+#### Deep mutational scanning
 
 **Deep mutational scanning (DMS)** data helps identify mutations in the target that are functionally tolerated and could lead to resistance should these mutations abrogate binding of antivirals.
 ASAP is using multiple techniques to rapidly generate DMS data for all targets of interest in order to inform the discovery of resistance-robust direct-acting antivirals.
-ASAP is also pursuing **analysis of circulating variants** of SARS-CoV-2 and other viruses to identify functionally tolerated mutations to inform resistance-robust inhibitor discovery.
 
-<!-- {{< DMS >}} -->
-[🔎 View all ASAP target mutation data](/outputs/mutation-data)
+[🔎 View all ASAP deep mutational scanning data](/outputs/deep-mutational-scanning)
 
 <!-- Target Product Profiles (TPPs) -->
 <a id="target-product-profile"></a>
@@ -131,16 +138,16 @@ Pioneered by the [Structural Genomics Consortium](https://www.thesgc.org/tep), e
 
 ASAP aims to produce high-quality lead compounds for nine viral targets within five years.
 
-[🔎 View all ASAP Hit-to-Lead packages of high-quality lead compounds](/outputs/hit-to-lead)
+[🔎 View all ASAP molecules and assay data](/outputs/molecules)
 
 
 <!-- Covalent targeting -->
-<a id="hit-to-lead"></a>
+<a id="covalent-targeting"></a>
 #### Covalent Targeting
 
 ASAP is exploring covalent targeting strategies for cysteine and serine proteases.
 
-[🔎 View all ASAP Covalent Targeting data packages](/outputs/covalent-targeting)
+[🔎 View all ASAP molecules and assay data](/outputs/molecules)
 
 
 <!-- Lead optimization -->
@@ -149,7 +156,7 @@ ASAP is exploring covalent targeting strategies for cysteine and serine protease
 
 ASAP aims to pursue five lead optimization programs within five years, producing at least three candidates for preclinical development
 
-[🔎 View all ASAP Lead Optimization data packages](/outputs/lead-optimization)
+[🔎 View all ASAP molecules and assay data](/outputs/molecules)
 
 <!-- Preclinical programs -->
 <a id="preclinical-programs"></a>

@@ -40,7 +40,7 @@
           <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
           <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/papers.png"></a>
 
-          <a href="#mutational-data"><img title="Resistance data" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
+          <a href="#circulating-variants"><img title="Circulating Variants" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
           <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
           <a href="#target-enabling-package"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
           <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
@@ -103,7 +103,8 @@
                   <a href="../outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
 
                   <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
-                  <a href="/outputs/mutation-data/#{{ .overview.program_nickname }}">  <img title="Resistance data for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .mutations.status | default $not_started }}.png"></a>
+                  <a href="/outputs/circulating-variants/#{{ .overview.program_nickname }}"> <img title="Analysis of circulating variants for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .circulating_variants.status | default $not_started }}.png"></a>
+
                   <a href="/outputs/target-product-profiles/#{{ .TPP.id }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
                   <!-- TODO: Can we pull TEP status from the TEP data directly? -->
                   <a href="/outputs/target-enabling-packages/#{{ .overview.program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>

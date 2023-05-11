@@ -44,16 +44,18 @@
         <br>
     {{ end }}    
 
-    <!-- Contributing Projects and Cores -->
-    <!-- TODO: Make these links to Projects and Cores -->
-    Contributing Projects and Cores: 
-    {{ range .projects }}
-      <span class="label warning">{{ . }}</span>
-    {{ end }}        
-    {{ range .cores }}
+   <!-- Contributing Projects and Cores -->
+  <!-- TODO: Make these links to Projects and Cores -->
+  {{ if or .projects .cores}}
+  Contributing Projects and Cores: 
+  {{ range .projects }}
+      <span class="label focus">{{ . }}</span>
+  {{ end }}        
+  {{ range .cores }}
       <span class="label success">{{ . }}</span>
-    {{ end }}        
-    <br>
+  {{ end }}        
+  <br>
+  {{ end }}
 
     <!-- Summary of paper / relevance to ASAP goals -->
     <i>{{ .summary | markdownify }}</i><br>
