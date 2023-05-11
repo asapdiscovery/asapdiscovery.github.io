@@ -1,4 +1,4 @@
-MOONSHOT:
+MOONSHOT-COV-MPRO:
   permalink: http://asapdiscovery.org/outputs/assay-cascades/#MOONSHOT
   name: Assay cascade for SARS-CoV-2 Mpro oral antiviral
   description: Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot
@@ -21,7 +21,7 @@ ASAP-COV-MPRO:
   - date: 2022-06-01
     description: Initial draft
 
-ASAP-ASSAY-SARS-COV-2-NSP3-MAC1:
+ASAP-SARS-COV-2-NSP3-MAC1:
   permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
   name: Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral
   description: Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination

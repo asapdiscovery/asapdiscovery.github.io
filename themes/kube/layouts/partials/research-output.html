@@ -1,11 +1,12 @@
 <!-- Render a research product -->
 
-<div class="prettybox" data-component="prettybox">
 
 <!-- name with optional anchor -->
 {{ if .id }}
-    <h3 style="text-align: left;" id="{{ .id }}"> {{ .name }} </h3> 
+    <div class="prettybox" data-component="prettybox" id="{{ .id }}">
+    <h3 style="text-align: left;" > {{ .name }} </h3> 
 {{ else }}
+    <div class="prettybox" data-component="prettybox">
     <b> {{ .name }} </b> <br>
 {{ end }}
 

@@ -1,4 +1,4 @@
-ASAP-TCP-COV-MPRO:
+ASAP-COV-MPRO:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-COV-MPRO
   name: MERS-CoV and SARS-CoV-2 Oral MPro protease inhibitor
   type: Target Candidate Profile
@@ -11,7 +11,7 @@ ASAP-TCP-COV-MPRO:
     - date: 2023-03-01
       description: Initial draft  
   
-MOONSHOT-TCP:
+MOONSHOT-COV-MPRO:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#MOONSHOT-TCP
   name: SARS-CoV-2 Oral MPro protease inhibitor  
   projects: [Project 5]
@@ -25,7 +25,7 @@ MOONSHOT-TCP:
     - date: 2020-04-01
       description: Initial draft  
 
-ASAP-TCP-SARS-COV-2-NSP3-MAC1:
+ASAP-SARS-COV-2-NSP3-MAC1:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-SARS-COV-2-NSP3-MAC1
   name: SARS-CoV-2 Oral nsp3 Mac1 macrodomain inhibitor
   type: Target Candidate Profile

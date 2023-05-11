@@ -24,7 +24,7 @@
   <!-- Site verification -->
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
-  {{ template "_internal/google_analytics_async.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }} 
 
   <link rel="canonical" href="{{ .Permalink }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}

@@ -96,7 +96,7 @@
 
                   <a href="{{ .overview.url }}"> <img title="Target for {{ .overview.name }}" width="{{ $icon_width }}" src="img/targets/{{ .overview.img }}"></a>
 
-                  <a href="{{ .targeting_opportunity.url }}"><img title="Targeting opportunity for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .targeting_opportunity.status }}.png"></a>
+                  <a href="{{ .overview.program_nickname }}"><img title="Targeting opportunity for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .targeting_opportunity.status }}.png"></a>
               
                   <a href="/outputs/molecules/#{{ .overview.program_nickname }}"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
                   <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
@@ -105,18 +105,18 @@
                   <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
                   <a href="/outputs/circulating-variants/#{{ .overview.program_nickname }}"> <img title="Analysis of circulating variants for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .circulating_variants.status | default $not_started }}.png"></a>
 
-                  <a href="/outputs/target-product-profiles/#{{ .TPP.id }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
+                  <a href="/outputs/target-product-profiles/#{{ .overview.program_nickname }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
                   <!-- TODO: Can we pull TEP status from the TEP data directly? -->
                   <a href="/outputs/target-enabling-packages/#{{ .overview.program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
-                  <a href="/outputs/target-candidate-profiles/#{{ .TCP.id }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
-                  <a href="/outputs/assay-cascades/#{{ .assay_cascade.id }}"> <img title="Assay cascade for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
-                  <a href="{{ .hit_to_lead.url }}">      <img title="Hit-to-lead for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
-                  <a href="{{ .covalent_targeting.url }}"><img title="Covalent targeting for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .covalent_targeting.status | default $not_started }}.png"></a>
-                  <a href="{{ .lead_optimization.url }}"><img title="Lead optimization for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>
-                  <a href="{{ .preclinical.url }}">      <img title="Preclinical (IND-enabling) studies for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .preclinical.status       | default $not_started }}.png"></a>
-                  <a href="{{ .IND.url }}">              <img title="Investigational New Drug (IND) approval for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .IND.status               | default $not_started }}.png"></a>
-                  <a href="{{ .clinical.url }}">         <img title="Clinical trial for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .clinical.status          | default $not_started }}.png"></a>
-                  <a href="{{ .NDA.url }}">              <img title="New Drug Approval (NDA) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .NDA.status               | default $not_started }}.png"></a>
+                  <a href="/outputs/target-candidate-profiles/#{{ .overview.program_nickname }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
+                  <a href="/outputs/assay-cascades/#{{ .overview.program_nickname }}"> <img title="Assay cascade for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
+                  <a href="/outputs/molecules/#{{ .overview.program_nickname }}">      <img title="Hit-to-lead for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
+                  <a href="/outputs/molecules/#{{ .overview.program_nickname }}"><img title="Covalent targeting for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .covalent_targeting.status | default $not_started }}.png"></a>
+                  <a href="/outputs/molecules/#{{ .overview.program_nickname }}"><img title="Lead optimization for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .lead_optimization.status | default $not_started }}.png"></a>
+                  <a href="/outputs/preclinical/#{{ .overview.program_nickname }}">      <img title="Preclinical (IND-enabling) studies for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .preclinical.status       | default $not_started }}.png"></a>
+                  <a href="/outputs/investigational-new-drugs/#{{ .overview.program_nickname }}">              <img title="Investigational New Drug (IND) approval for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .IND.status               | default $not_started }}.png"></a>
+                  <a href="/outputs/clinical-trials/#{{ .overview.program_nickname }}">         <img title="Clinical trial for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .clinical.status          | default $not_started }}.png"></a>
+                  <a href="/outputs/new-drug-approvals/#{{ .overview.program_nickname }}">              <img title="New Drug Approval (NDA) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .NDA.status               | default $not_started }}.png"></a>
                 </div>
               </div>
             </div>
