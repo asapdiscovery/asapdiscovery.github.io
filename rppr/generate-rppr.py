@@ -428,7 +428,7 @@ def generate_progress_report(component_shortname, component, output_path):
 
         # Significant Project-generated resources
         markdown_text += "# Significant Project-Generated Resources\n\n"
-        markdown_text += "See Project Generated Resources\n\n"
+        markdown_text += render_research_outputs(component_shortname)
 
     elif component['type'] == 'Core':
         #
@@ -443,8 +443,7 @@ def generate_progress_report(component_shortname, component, output_path):
 
         # Significant Core-generated resources (if any)
         markdown_text += "# Significant Core-Generated Resources\n\n"
-        # TODO
-        #markdown_text += get_component_resources
+        markdown_text += render_research_outputs(component_shortname)
 
     # Page separator
     markdown_text += "---\n\n"
@@ -543,7 +542,7 @@ def generate_progress_report(component_shortname, component, output_path):
     if component['type'] == 'Project' or component_shortname == 'Administrative Core':
         markdown_text += "---\n\n"    
         markdown_text += "# Project Generated Resources\n\n"
-        markdown_text += render_research_outputs(component_shortname)
+        markdown_text += "See Significant Project Generated Resources above\n\n"
 
     # Render markdown to document
     renderer = PythonDocxRenderer()
