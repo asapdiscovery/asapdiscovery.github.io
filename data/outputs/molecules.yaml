@@ -85,7 +85,7 @@ ASAP-ZIKA-NS2B-NS3:
   - date: 2023-04-30
     description: Initial public release of covalent fragment screen and hit confirmation assay data for 653 molecules.
 
-MOONSHOT:  
+MOONSHOT-COV-MPRO:  
   name: "SARS-CoV-2 Mpro biochemical assay data from the COVID Moonshot"
   description: All biochemical data from the COVID Moonshot has been disclosed.  
   links:

@@ -17,10 +17,6 @@ funding_source:
   
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
-  events:
-    - date: 2023-03-19
-      description: Initial draft  
 
 circulating_variants:
   status: completed
@@ -32,3 +28,6 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: completed
+
+publications:
+  status: in-progress

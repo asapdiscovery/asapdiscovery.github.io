@@ -17,10 +17,6 @@ funding_source:
   
 targeting_opportunity:
   status: completed
-  url: https://asapdiscovery.notion.site/Targeting-Opportunity-Coronavirus-nsp3-Macrodomain-SARS-CoV-2-7ac57d8ba0e44758bd4350123e3524ae
-  events:
-    - date: 2023-03-19
-      description: Initial draft  
 
 circulating_variants:
   status: completed
@@ -47,3 +43,7 @@ hit_to_lead:
 
 molecules:
   status: in-progress
+
+publications:
+  status: in-progress
+
