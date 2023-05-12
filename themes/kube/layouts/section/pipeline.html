@@ -99,17 +99,17 @@
 
                   <a href="/outputs/targeting-opportunities/#{{ $program_nickname }}"><img title="Targeting opportunity for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .targeting_opportunity.status }}.png"></a>
               
-                  <a href="/outputs/molecules/#{{ $program_nickname }}"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
-                  <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
-                  <a href="../outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/icons/pipeline_link_context_{{ $viral_family }}.png"></a>
+                  <a href="/outputs/molecules/#{{ $program_nickname }}"><img title="Molecules" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .molecules.status | default $not_started }}.png"></a>
+                  <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status | default $not_started }}.png"></a>
+                  <a href="../outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .publications.status | default $not_started }}.png"></a>
 
                   <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
                   <a href="/outputs/circulating-variants/#{{ $program_nickname }}"> <img title="Analysis of circulating variants for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .circulating_variants.status | default $not_started }}.png"></a>
 
                   <a href="/outputs/target-product-profiles/#{{ .TPP.id }}"> <img title="Target Product Profile (TPP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TPP.status | default $not_started }}.png"></a>
                   <!-- TODO: Can we pull TEP status from the TEP data directly? -->
-                  <a href="/outputs/target-enabling-packages/#{{ $program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status               | default $not_started }}.png"></a>
-                  <a href="/outputs/target-candidate-profiles/#{{ $program_nickname }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status               | default $not_started }}.png"></a> 
+                  <a href="/outputs/target-enabling-packages/#{{ $program_nickname }}">  <img title="Target Enabling Package (TEP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status | default $not_started }}.png"></a>
+                  <a href="/outputs/target-candidate-profiles/#{{ $program_nickname }}"> <img title="Target Candidate Profile (TCP) for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TCP.status | default $not_started }}.png"></a> 
                   <a href="/outputs/assay-cascades/#{{ $program_nickname }}"> <img title="Assay cascade for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .assay_cascade.status     | default $not_started }}.png"></a>
                   <a href="/outputs/molecules/#{{ $program_nickname }}">      <img title="Hit-to-lead for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .hit_to_lead.status       | default $not_started }}.png"></a> 
                   <a href="/outputs/molecules/#{{ $program_nickname }}"><img title="Covalent targeting for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .covalent_targeting.status | default $not_started }}.png"></a>
