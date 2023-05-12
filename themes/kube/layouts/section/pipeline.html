@@ -100,8 +100,8 @@
                   <a href="/outputs/targeting-opportunities/#{{ $program_nickname }}"><img title="Targeting opportunity for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .targeting_opportunity.status }}.png"></a>
               
                   <a href="/outputs/molecules/#{{ $program_nickname }}"><img title="Molecules" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .molecules.status | default $not_started }}.png"></a>
-                  <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status | default $not_started }}.png"></a>
-                  <a href="../outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .publications.status | default $not_started }}.png"></a>
+                  <a href="/outputs/structures/#{{ $program_nickname }}"><img title="Structures" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .TEP.status | default $not_started }}.png"></a>
+                  <a href="/outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .publications.status | default $not_started }}.png"></a>
 
                   <!-- TODO: Refactor this into a method (?) to simplify, and ensure links only generated when .url target is populated -->
                   <a href="/outputs/circulating-variants/#{{ $program_nickname }}"> <img title="Analysis of circulating variants for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .circulating_variants.status | default $not_started }}.png"></a>

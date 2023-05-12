@@ -1,16 +1,45 @@
-<!-- TODO: How should we sort the target data? -->
-
 {{ $structure_types := slice "xray-fragment-screen" "pdb-group-deposition" "pdb-structure"}}
 
-{{ range $TEP := $.Site.Data.outputs.TEPs }}
+<!-- TODO: How should we sort the target data? -->
+{{ range $program := $.Site.Data.programs }}
 
-{{ $TEP = $TEP.TEP }}
+    <!-- Do we have any structures? -->
+    {{ $ndatasets := 0 }}
+    {{ range $TEP := $.Site.Data.outputs.TEPs }}
+        {{ $TEP = $TEP.TEP }}
+        {{ if (eq $program.overview.program_nickname $TEP.asap.program_nickname) }}
 
-    {{ range $resource := $TEP.resources }}
-        {{ $resource = merge $resource (dict "asap" $TEP.asap "program_name" $TEP.name) }}
-        {{ if in $structure_types $resource.type }}
-            {{ partial "structure.html" $resource }}
+            {{ range $resource := $TEP.resources }}
+                {{ if in $structure_types $resource.type }}
+                    {{ $ndatasets = add $ndatasets 1 }}
+                {{ end }}
+            {{ end }}
         {{ end }}
+
     {{ end }}
 
-{{ end }} 
+    <!-- Only display programs that have data -->
+    {{ if (gt $ndatasets 0) }}
+
+        <h3 style="text-align: left;" id="{{ $program.overview.program_nickname }}">{{ $program.overview.name }}</h3>
+        {{ $program.overview.program_nickname }}
+
+        {{ range $TEP := $.Site.Data.outputs.TEPs }}
+            {{ $TEP = $TEP.TEP }}
+            {{ if (eq $program.overview.program_nickname $TEP.asap.program_nickname ) }}
+
+                {{ range $resource := $TEP.resources }}
+                    {{ $resource = merge $resource (dict "asap" $TEP.asap "program_name" $TEP.name) }}
+                    {{ if in $structure_types $resource.type }}
+                        {{ partial "structure.html" $resource }}
+                    {{ end }}
+                {{ end }}
+
+            {{ end }}
+
+        {{ end }}
+
+    {{ end }}
+
+{{ end }}
+

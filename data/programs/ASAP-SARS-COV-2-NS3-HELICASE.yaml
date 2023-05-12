@@ -28,3 +28,6 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: completed
+
+publications:
+  status: in-progress
