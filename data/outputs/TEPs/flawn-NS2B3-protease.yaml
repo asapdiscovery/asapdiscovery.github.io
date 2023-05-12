@@ -58,7 +58,7 @@ TEP:
     id: flawn-NS2B3-protease_plasmid-biochemical
     # Brief description of the plasmid
     description: | 
-      Construct expressing a non selfcleaving version of the NS2B cofactor fused to the NS3 protease 
+      Construct expressing a non self-cleaving version of the NS2B cofactor fused to the NS3 protease 
       from West nile virus used for FRET assay and initial crystallization trials. 
       Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDBID: 5GPI [https://www.rcsb.org/structure/5GPI]
     # Date it was provided
@@ -92,7 +92,7 @@ TEP:
     id: flawn-NS2B3-protease_plasmid-inactive
     # Brief description of the plasmid
     description: |
-      Construct expressing the NS2B cofactor fused to the NS3 protease from West nile virus used as negative controle
+      Construct expressing the NS2B cofactor fused to the NS3 protease from West nile virus used as negative control
       for FRET assay and in initial crystallography studies. Generated using golden gate cloning and inverse PCR 
       for construct boundary exploration, based on PDBID: 5GPI [https://www.rcsb.org/structure/5GPI]
     # Date it was provided

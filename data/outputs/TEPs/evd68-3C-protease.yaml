@@ -130,7 +130,7 @@ TEP:
       # Construct / plasmid resource               
     - name: Biochemical assay protocol for EV-D68 3C protease activity measurements using fluorescence detection
       id: evd68-3C-protease_protocol-biochemical
-      description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
+      description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-terminal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
       date: 2023-02-28
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: assay

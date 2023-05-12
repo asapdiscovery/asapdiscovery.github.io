@@ -10,13 +10,13 @@ Project 1:
   name: "Project 1: Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance"
   type: Project
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
     Project 1 is the critical first step of this process, working to identify the specific Targeting Opportunity that forms the basis of each potential Discovery Program ASAP can pursue.
 
-    A targeting opportunity provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action. This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
+    A targeting opportunity provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action. This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery campaign against the target.
     Critically, Project 1 is also responsible for identifying functionally tolerated mutations in the targeted region that may lead to resistance using analysis of circulating variants and deep mutational scanning techniques.
     This information is used by subsequent stages of discovery in order to avoid the potential for antivirals discovered by ASAP to be easily rendered useless by the emergence of or already extant resistance.
     During the discovery process, milestone compounds are also used to assess the potential for resistance and aid in making decisions of lead series to nominate for lead optimization or preclinical development.    
@@ -30,13 +30,13 @@ Project 1:
 
     **Aim 1: Minimizing selection for resistance to protease inhibitors.** The proteases of positive-strand RNA viruses are crucial for viral protein processing and the inactivation or subversion of host proteins. First synthesized in the context of a polyprotein, these viral proteases often function first in cis to excise themselves from the polyprotein and then via conventional trans enzyme-substrate interactions. Inhibitors that show even partial inhibition of the initial cis-cleavages can cause accumulation of misprocessed viral proteins that can be dominant inhibitors of all viruses within a cell. Amino acids crucial for these activities will be identified by deep mutational scanning and targeted mutagenesis will identify those required for protease function in cis, trans or both. The identities of amino acids known to be required for viral fitness, cis-cleavage and trans-cleavage will assist with lead development. Then, DMS analysis will be used to determine the frequency and location of any mutations that confer resistance as antiviral optimization continues.
 
-    **Aim 2: Minimizing selection for resistance to inhibitors of structural protein function.** The fragment-screening approach of this AViDD consortium is ideal for identifying surfaces of viral structural proteins amenable to the binding of small molecules. As conformational modulators of picornaviral and flaviviral capsids, and of coronavirus M and N proteins are identified, DMS analyses will identifiy binding regions where amino acid identity is crucial for viral fitness. Drug-bound subunits of monomers that assemble into oligomeric structures can be dominant inhibitors of the entire chimeric structure; oligomerization analyses will reveal whether individual compound-bound monomers alter the stability of complexes and whether intracellular mixing occurs. As conformational modulators are developed, DMS analysis will be used to further define the fitness landscpe, enabling medicinal chemistry to optimize dominant inhibition and fitness cost, thus increasing the genetic barrier to drug resistance.  
+    **Aim 2: Minimizing selection for resistance to inhibitors of structural protein function.** The fragment-screening approach of this AViDD consortium is ideal for identifying surfaces of viral structural proteins amenable to the binding of small molecules. As conformational modulators of picornaviral and flaviviral capsids, and of coronavirus M and N proteins are identified, DMS analyses will identify binding regions where amino acid identity is crucial for viral fitness. Drug-bound subunits of monomers that assemble into oligomeric structures can be dominant inhibitors of the entire chimeric structure; oligomerization analyses will reveal whether individual compound-bound monomers alter the stability of complexes and whether intracellular mixing occurs. As conformational modulators are developed, DMS analysis will be used to further define the fitness landscape, enabling medicinal chemistry to optimize dominant inhibition and fitness cost, thus increasing the genetic barrier to drug resistance.  
 
 Project 2:
   name: "Project 2: Target enablement"
   type: Project
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
@@ -56,7 +56,7 @@ Project 2:
 Project 3:
   name: "Project 3: Fragment-to-lead and target validation"
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
@@ -73,11 +73,11 @@ Project 4:
   name: "Project 4: Covalent targeting strategies"
   type: Project
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
-    As many of the antiviral targets pursued by ASAP are cysteine or serine proteases, there are numerous opportunities to introduce covalent wareheads or exploit other covalent targeting opportunities to significantly increase antiviral potency or enhance antiviral activity by actively degrading viral target proteins.
+    As many of the antiviral targets pursued by ASAP are cysteine or serine proteases, there are numerous opportunities to introduce covalent warheads or exploit other covalent targeting opportunities to significantly increase antiviral potency or enhance antiviral activity by actively degrading viral target proteins.
     Project 4 identifies opportunities to exploit covalent targeting for leads originating from Project 3 (Fragment-to-Lead), and also identifies opportunities to covalentize leads in Project 5 (Lead Optimization).
     If its transition criteria are met, covalent antivirals developed by Project 4 can initiate into full lead optimization programs for Project 5 to produce candidates for preclinical development.
   funded_aims_modified: false
@@ -96,12 +96,12 @@ Project 5:
   uses_vertebrate_animals: true
   funded_aims_modified: false
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
     Project 5 accepts lead compounds from Projects 3 and 4 that meet certain criteria for developable leads and conducts a full lead optimization campaign to produce candidates for preclinical development.
-    Project 5 defines **Target Candidate Profiles** based on draft Target Product Profiles created in collaboration with Project 6 (Prelinical development), and integrates input about potential resistance mutations from Project 1.
+    Project 5 defines **Target Candidate Profiles** based on draft Target Product Profiles created in collaboration with Project 6 (Preclinical Development), and integrates input about potential resistance mutations from Project 1.
     This stage is the most critical stage of the drug discovery process, as it is required to produce candidates for preclinical development.
   aims: |
     Aim 1: Antiviral efficacy: design, synthesize, and assay to deliver compounds with antiviral activity EC50 < 200nM, which demonstrate an adequate spectrum of antiviral efficacy and minimal resistance potential. 
@@ -117,7 +117,7 @@ Project 6:
   type: Project
   uses_vertebrate_animals: true
   significance: |
-    ASAP is organized into a series of Projects responisble for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
+    ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 
     ![](asap-programs-projects.jpg)
 
@@ -236,7 +236,7 @@ Antiviral Core:
 
     In addition, when animal efficacy data is needed, the Core conducts these experiments in accordance with approved protocols.
 
-    The Core can also perform passaging experiments with non-clinical lead compounds to identify potential resistance mutations in accordance with approved protocols to inform futher lead optimization and the selection of lead series for lead optimization or preclinical development.
+    The Core can also perform passaging experiments with non-clinical lead compounds to identify potential resistance mutations in accordance with approved protocols to inform further lead optimization and the selection of lead series for lead optimization or preclinical development.
 
   funded_aims_modified: false
   aims: |
@@ -256,6 +256,16 @@ Antiviral Core:
 Data Core:
   name: "Data Infrastructure Core"
   type: Core
+  projects_served: |
+    * **Project 1 (Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance):** This core provides services for coordinating the synthesis of reference compounds used for resistance and mechanistic studies by Project 1
+    * **Project 2 (Target enablement):** This core provides services for coordinating the synthesis of fragment progressions, assay data, and X-ray structures generated in Project 2
+    * **Project 3 (Hit-to-lead):** This core provides services for coordinating the synthesis of all compounds and assay data for Project 3
+    * **Project 4 (Covalent targeting strategies):** This core provides services for coordinating the CRO synthesis of all compounds and assay data for Project 4
+    * **Project 5 (Lead optimization):** This core provides services for coordinating the CRO synthesis of all compounds and assay data for Project 5
+    * **Project 6 (Preclinical development):** This core provides services for managing all data generated for Project 6
+
+    ![](asap-programs-projects.jpg)
+
   significance: |
     Drug discovery requires the generation, collection, and analysis of data. Each decision regarding drug targets to pursue, compounds to make, and assays to action necessarily involves review of past results to guide future development. A key lesson from the COVID-19 pandemic is that existing infrastructure for global antiviral development, and cooperative drug development at large, is woefully inadequate. 
 

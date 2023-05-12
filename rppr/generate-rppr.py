@@ -541,7 +541,7 @@ def generate_progress_report(component_shortname, component, output_path):
     markdown_text += '# B. Studies and Results\n\n'
     markdown_text += 'Significant accomplishments include:\n\n'
     markdown_text += accomplishments[component_shortname] + '\n\n'
-    markdown_text += f'Other major results and outputs from this {component["type"]} have are listed in Significant Project Generated Resources and have been posted online.\n\n'
+    markdown_text += f'Other major results and outputs from this {component["type"]} are listed in Significant Project Generated Resources and have been posted online.\n\n'
     # Include statistics
     if component_shortname == 'Structural Biology Core':
         spreadsheets = {
