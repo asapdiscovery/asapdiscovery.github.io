@@ -4,7 +4,7 @@ overview:
   name: "West Nile NS2B-NS3 protease-helicase"
   target: NS2B-NS3
   program_code: ASAPPTSBOE
-  program_nickname: ASAP-WNV-NS3-PROTEASE-HELICASE 
+  program_nickname: ASAP-WNV-NS3-PROTEASE-HELICASE
   viruses:
     - West Nile
   img: "DENV-ns2b-ns3.png"
@@ -17,10 +17,6 @@ funding_source:
   
 targeting_opportunity:
   status: completed
-  url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
-  events:
-    - date: 2023-03-19
-      description: Initial draft    
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
