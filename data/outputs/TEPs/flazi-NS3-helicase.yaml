@@ -62,9 +62,12 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Full-length NS3 helicase construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+    - name: Full-length ZIKV NS3 helicase construct suitable for crystallography
+      id: flazi-NS3-helicase_plasmid-crystallography
       # Brief description of the plasmid
-      description:  This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.5 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+      description: |
+        Full-length ZIKV NS3 helicase construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
+        This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.5 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
       # Date it was provided
       date: 2018-02-01
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -93,7 +96,8 @@ TEP:
         * Tags and additions: N-terminal, Thioredoxin, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           `MKHHHHHHPMSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLAGSGSGSENLYFQ*GAMLKKKQLTVLDLHPGAGKTRRVLPEIVREAIKKRLRTVILAPTRVVAAEMEEALRGLPVRYMTTAVNVTHSGTEIVDLMCHATFTSRLLQPIRVPNYNLNIMDEAHFTDPSSIAARGYISTRVEMGEAAAIFMTATPPGTRDAFPDSNSPIMDTEVEVPERAWSSGFDWVTDHSGKTVWFVPSVRNGNEIAACLTKAGKRVIQLSRKTFETEFQKTKNQEWDFVITTDISEMGANFKADRVIDSRRCLKPVILDGERVILAGPMPVTHASAAQRRGRIGRNPNKPGDEYMYGGGCAETDEGHAHWLEARMLLDNIYLQDGLIASLYRPEADKVAAIEGEFKLRTEQRKTFVELMKRGDLPVWLAYQVASAGITYTDRRWCFDGTTNNTIMEDSVPAEVWTKYGEKRVLKPRWMDARVCSDHAALKSFKEFAAGKR`
-    - name: Zenodo deposition of X-ray fragment screen of ZIKV NS3 helicase.
+    - name: X-ray fragment screen of ZIKV NS3 helicase - Zenodo deposition
+      id: flaxi-NS3-helicase_fragment-screen-zenodo
       description:  We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.
       date: 2022-06-01
       type: xray-fragment-screen

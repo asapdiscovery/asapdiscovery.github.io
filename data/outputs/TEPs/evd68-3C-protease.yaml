@@ -64,10 +64,12 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21
+    - name: EV-D68 3C protease construct suitable for crystallography in space group P21<sub>21</sub>21.
+      id: evd68-3C-protease_plasmid-crystallography
       scarab_id: D68EV3CPROA-c001 
       # Brief description of the plasmid
-      description:  Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21. This protein yielded highly reproducible crystals upon 
+      description: EV-D68 bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21.
+        Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21. This protein yielded highly reproducible crystals upon 
         microseeding, which typically diffracted to 1.7 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
       # Date it was provided
       date: 2022-03-24
@@ -75,7 +77,6 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -97,7 +98,8 @@ TEP:
         * Cell line: E. coli Rosetta strain BL21(DE3)-RR
         * Tags and additions: C-terminal, non-cleavable hexahistidine
         * Construct protein sequence: MGPGFDFAQAIMKKNTVIARTEKGEFTMLGVYDRVAVIPTHASVGEIIYINDVETRVLDACALRDLTDTNLEITIVKLDRNQKFRDIRHFLPRCEDDYNDAVLSVHTSKFPNMYIPVGQVTNYGFLNLGGTPTHRILMYNFPTRAGQCGGVVTTTGKVIGIHVGGNGAQGFAAMLLHSYFTDTQKHHHHHH
-    - name: Assay construct with Avi-tag for biophysics
+    - name: EV-D68 3C protease construct suitable for biophysical assays that require immobilization (Avi-tag)
+      id: evd68-3C-protease_plasmid-biophysics
       scarab_id: D68EV3CPROA-c002 
       # Brief description of the plasmid
       description:  Assay construct with Avi-tag for biophysics
@@ -107,7 +109,6 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      #url: 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -127,12 +128,12 @@ TEP:
         * Tags and additions: C-terminal, non-cleavable hexahistidine
         * Construct protein sequence: MGPGFDFAQAIMKKNTVIARTEKGEFTMLGVYDRVAVIPTHASVGEIIYINDVETRVLDACALRDLTDTNLEITIVKLDRNQKFRDIRHFLPRCEDDYNDAVLSVHTSKFPNMYIPVGQVTNYGFLNLGGTPTHRILMYNFPTRAGQCGGVVTTTGKVIGIHVGGNGAQGFAAMLLHSYFTDTQKHHHHHHGLNDIFEAQKIEWHE
       # Construct / plasmid resource               
-    - name: FRET activity assay
+    - name: Biochemical assay protocol for EV-D68 3C protease activity measurements using fluorescence detection
+      id: evd68-3C-protease_protocol-biochemical
       description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
       date: 2023-02-28
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: assay
-      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
@@ -151,14 +152,14 @@ TEP:
       details: |
         <a href="/pdfs/PAGE23-00660 - EV-D68 3C pro vs GC376 IC50.pdf" download>Download experimental metadata 1</a>
         <a href="/pdfs/TEP EV-D68 3C PAGE23-00660.pdf" download>Download experimental metadata 2</a>
-    - name: Crystallization protocol for 3C protease 
+    - name: Crystallization protocol for EV-D68 3C protease suitable for fragment screening
+      id: evd68-3C-protease_crystallization-protocol
       description: Optimised conditions to reproduce crystals for fragment screening.
       date: 2023-02-28
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       # TODO: Create category for "crystallization conditions".
       # TODO: Move this to protocols.io
       type: crystallization-protocol
-      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
@@ -177,6 +178,7 @@ TEP:
         Size:  ~100um in length and ~50um in width, depth of the crystals is ~10um, giving a glass shard appearance (see image below).
           ![EV D68 3C protease crystal shards](../img/outputs/EV-D68-3C-protease/crystal_shards.png)
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
+      id: evd68-3C-protease_fragment-screening-fragalysis
       description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
       #date: 2021-06-01
       date: 2023-04-26 # date fragment screen was uploaded to fragalysis

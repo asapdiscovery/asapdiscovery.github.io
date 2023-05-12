@@ -54,19 +54,19 @@ TEP:
     This is a summary of the work we have done on the NS2b-NS3 protease from West Nile viruses to date. 
   # List of resources associated with this TEP
   resources:
-  - name: Assay construct QQ01WNVNS2B-c003
+  - name: Protein expression construct for WNV NS2B-NS3 protease suitable for biochemical assays (construct QQ01WNVNS2B-c003)
+    id: flawn-NS2B3-protease_plasmid-biochemical
     # Brief description of the plasmid
     description: | 
       Construct expressing a non selfcleaving version of the NS2B cofactor fused to the NS3 protease 
       from West nile virus used for FRET assay and initial crystallization trials. 
-      Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on [PDBID 5GPI](https://www.rcsb.org/structure/5GPI).
+      Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDBID: 5GPI [https://www.rcsb.org/structure/5GPI]
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    #url: N/A 
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -88,19 +88,19 @@ TEP:
       * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
       * Construct protein sequence: 
         SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWAGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
-  - name: Inactive assay construct QQ01WNVNS2B-c002 with His to Ala mutation 
+  - name: Protein expression construct for inactive WNV NS2B-NS3 protease (construct QQ01WNVNS2B-c002)
+    id: flawn-NS2B3-protease_plasmid-inactive
     # Brief description of the plasmid
     description: |
       Construct expressing the NS2B cofactor fused to the NS3 protease from West nile virus used as negative controle
       for FRET assay and in initial crystallography studies. Generated using golden gate cloning and inverse PCR 
-      for construct boundary exploration, based on [PDBID 5GPI](https://www.rcsb.org/structure/5GPI)
+      for construct boundary exploration, based on PDBID: 5GPI [https://www.rcsb.org/structure/5GPI]
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    url: N/A 
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -121,14 +121,14 @@ TEP:
       * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
       * Construct protein sequence: 
         SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWATTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
-  - name: Initial Crystallography with NS2B and NS3 coexpressed protein.
+  - name: Experimental crystallization protocol for WNV NS2B-NS3 protease - not yet suitable for fragment screening
+    id: flawn-NS2B3-protease_crystallization-protocol-1
     description: |
       The NS2B-NS3 fusion protein with the catalytically important His mutated to Ala crystallized in various coarse screen conditions. 
       We obtained crystal which diffracted to 1.6 Å, but it is unsuitable for fragment soaking since the active site is occluded. 
-      PDB to be released: [PDBID: 8CO8](https://www.rcsb.org/structure/unreleased/8CO8).
+      PDB to be released: PDBID: 8CO8 [https://www.rcsb.org/structure/unreleased/8CO8]
     date: 2022-11-26
     type: xray-fragment-screen
-    url: N/A
     projects: [Project 2]
     cores: [Structural Biology Core]     
     protocol: >

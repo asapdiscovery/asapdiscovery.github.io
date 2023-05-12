@@ -143,7 +143,8 @@ class PythonDocxRenderer(mistune.Renderer):
         return "p = document.add_paragraph()\np.add_run(\"%s\")\np.style = 'BlockCode'\np.add_run().add_break()\n" % code
 
     def link(self, link, title, content):
-        return f'p.add_run("{content} [")\np.add_run("{link}", style="CodeSpan")\np.add_run("]")\n'
+        #return f'p.add_run("{content} [")\np.add_run("{link}", style="CodeSpan")\np.add_run("]")\n'
+        return f'p.add_run("{content} [{link}]")\n'
 
     def autolink(self, link, is_email=False):
         # TODO: Render autolinks
@@ -222,7 +223,7 @@ def component_contributed_to_output(component_shortname, output):
     """
     projects = output.get('projects', list())
     cores = output.get('cores', list())
-    if (component_shortname in projects) or (component_shortname in cores):
+    if component_shortname in (projects + cores):
         return True
     else:
         return False
@@ -328,7 +329,6 @@ def render_research_outputs(component_shortname):
     resource_filenames = [
         'targeting_opportunities.yaml', # project 1
         'circulating_variants.yaml', # project 1
-        #'TEPs/', # project 2
         'molecules.yaml', # projects 3, 4, 5
         'TCPs.yaml', # project 5
         'TPPs.yaml', # project 6
@@ -344,6 +344,84 @@ def render_research_outputs(component_shortname):
         import os
         resource_filepath = os.path.join('../data/outputs', resource_filename)
         markdown_text += render_products_to_markdown(resource_filepath, component_shortname)
+
+    return markdown_text
+
+def render_TEP_outputs(component_shortname):
+    """
+    Render TEP outputs for this Project/Core to Markdown.
+
+    Parameters
+    ----------
+    component_shortname : str
+        The short name of the Project/Core to render research outputs for
+
+    Returns
+    -------
+    markdown_text : str
+        Markdown text for the research outputs of this Project/Core
+    """
+
+    markdown_text = ""
+
+    # Get all TEPs
+    import glob
+    yaml_filenames = glob.glob('../data/outputs/TEPs/*.yaml')
+    for yaml_filename in yaml_filenames:
+        TEP = get_components(yaml_filename=yaml_filename)['TEP']
+        # Skip TEPs without reported resources
+        if not 'resources' in TEP:
+            continue
+
+        # Assess resources for inclusion
+        for resource in TEP['resources']:
+            if 'date' not in resource:
+                print(resource)
+
+            # Check if this resource is in the reporting period
+            try:
+                text_date = str(resource['date'])
+                import datetime
+                event_date = datetime.date.fromisoformat(text_date)
+            except ValueError as e:
+                print(e)
+                continue
+            if not (reporting_period_start <= event_date <= reporting_period_end):
+                continue
+
+            # Check if this component contributed to this output
+            if not component_contributed_to_output(component_shortname, resource):
+                continue
+
+            # Don't report things without URLs
+            #if not 'url 'in resource:
+            #    continue
+
+            # Render the resource
+            markdown_text += f"**{resource['name']}**\n\n"
+            markdown_text += f"*Date completed:* {resource['date']}\n\n"
+
+            # Description
+            if 'description' in resource:
+                description = str(resource['description'])
+                markdown_text += f"{description}\n\n"
+
+            # Render links
+            if 'id' in resource:
+                url = 'http://asapdiscovery.org/outputs/target-enabling-packages/#' + resource['id']
+                markdown_text += f"{url}\n\n"
+            elif 'url' in resource:
+                markdown_text += f"{resource['url']}\n\n"
+            else:
+                markdown_text += f"Web link pending\n\n"
+
+            # Render contributing Projects and Cores
+            markdown_text += 'Contributing Projects and Cores: '
+            markdown_text += ', '.join(resource.get('projects', []) + resource.get('cores', []))
+            markdown_text += '\n\n'
+
+    #for index, line in enumerate(markdown_text.split('\n')):
+    #    print(f'{index:8d}: {line}')
 
     return markdown_text
 
@@ -429,6 +507,7 @@ def generate_progress_report(component_shortname, component, output_path):
         # Significant Project-generated resources
         markdown_text += "# Significant Project-Generated Resources\n\n"
         markdown_text += render_research_outputs(component_shortname)
+        markdown_text += render_TEP_outputs(component_shortname)
 
     elif component['type'] == 'Core':
         #
@@ -444,6 +523,7 @@ def generate_progress_report(component_shortname, component, output_path):
         # Significant Core-generated resources (if any)
         markdown_text += "# Significant Core-Generated Resources\n\n"
         markdown_text += render_research_outputs(component_shortname)
+        markdown_text += render_TEP_outputs(component_shortname)
 
     # Page separator
     markdown_text += "---\n\n"
@@ -462,7 +542,24 @@ def generate_progress_report(component_shortname, component, output_path):
     markdown_text += 'Significant accomplishments include:\n\n'
     markdown_text += accomplishments[component_shortname] + '\n\n'
     markdown_text += f'Other major results and outputs from this {component["type"]} have are listed in Significant Project Generated Resources and have been posted online.\n\n'
-    # TODO: Include statistics about Project and Core outputs
+    # Include statistics
+    if component_shortname == 'Structural Biology Core':
+        spreadsheets = {
+            'SARS-CoV-2 Mpro protease' : 'SARS_Mpro_SBC_Analysis.xlsx',
+            'MERS-CoV Mpro protease' : 'MERS_Mpro_SBC_Analysis.xlsx',
+            'SARS-CoV-2 nsp3 Mac1 macrodomain' : 'Nsp3_Mac1_SBC_Analysis.xlsx',
+            }
+
+        for target, filename in spreadsheets.items():
+            import pandas as pd
+            sheet = pd.read_excel(f'structural-biology-core-data/{filename}', sheet_name='Experiment_Summary')
+            markdown_text += f'For **{target}**, the following experiments have been conducted during the reporting period:\n\n'
+            # Count the number of times each value appears in 'Experiment Status' column and collect counts into a dict
+            counts = sheet['Experiment Status'].value_counts().to_dict()
+            for count, name in counts.items():
+                markdown_text += f'* {count} : {name}\n'
+            markdown_text += '\n'
+
     markdown_text += "---\n\n"
 
     # C. Significance
@@ -489,7 +586,7 @@ def generate_progress_report(component_shortname, component, output_path):
     markdown_text += 'Not applicable\n\n'
 
     # Vertebrate Animals
-    markdown_text += "# Human Subjects Education Requirement\n\n"
+    markdown_text += "# Vertebrate Animals\n\n"
     if component.get('uses_vertebrate_animals', False):
         markdown_text += 'No change\n\n'
     else:
@@ -547,8 +644,8 @@ def generate_progress_report(component_shortname, component, output_path):
     # Render markdown to document
     renderer = PythonDocxRenderer()
     render_code = MarkdownWithMath(renderer=renderer)(markdown_text)
-    for index, line in enumerate(render_code.split('\n')):
-        print(f'{index:8d}: {line}')
+    #for index, line in enumerate(render_code.split('\n')):
+    #    print(f'{index:8d}: {line}')
     exec(render_code)
 
     # Save the report

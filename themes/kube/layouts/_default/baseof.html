@@ -25,6 +25,8 @@
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
   {{ template "_internal/google_analytics_async.html" . }} 
+  <!-- GDPR compliant google tag analytics -->
+  {{ partial "cookie-consent.html" .}}
 
   <link rel="canonical" href="{{ .Permalink }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}

@@ -53,16 +53,18 @@ TEP:
   # List of resources associated with this TEP
   resources:
   # Construct / plasmid resource
-  - name: Crystallography construct QQ01D2VNS2B-c001
+  - name: Protein expression construct for DENV-2 NS2B-NS3 protease suitable for crystallography (construct QQ01D2VNS2B-c001)
+    id: flade-NS2B3-protease_plasmid-crystallography
     # Brief description of the plasmid
-    description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Dengue virus used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+    description:  |
+      Construct expressing the NS2B cofactor fused to the NS3 protease from Dengue virus serotype 2 used for FRET assay. 
+      Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    url: N/A 
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -82,17 +84,20 @@ TEP:
       * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
       * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
       * Construct protein sequence: 
-        NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWHVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
-  - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
+        NS2B3: 
+        SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWHVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
+  - name: Protein expression construct for inactive mutant of DENV-2 NS2B-NS3 protease (construct QQ01ZVNS2B-c002)
+    id: flade-NS2B3-protease_plasmid-inactive
     # Brief description of the plasmid
-    description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used as negative controle for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
+    description:  |
+      His to Ala mutation used to inactivate catalytic activity.
+      Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    #url: N/A 
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -113,14 +118,14 @@ TEP:
       * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
       * Construct protein sequence: 
         NS2B3: SMADLELERAADVKWEDQAEISGSSPILSITISEDGSMSIKNEEEEQTLGGGGSGGGGAGVLWDVPSPPPMGKAELEDGAYRIKQKGILGYSQIGAGVYKEGTFHTMWAVTRGAVLMHKGKRIEPSWADVKKDLISYGGGWKLEGEWKEGEEVQVLALEPGKNPRAVQTKPGLFKTNAGTIGAVSLDFSPGTSGSPIIDKKGKVVGLYGNGVVTRSGAYVSAIAQTEKSIEDNPEIEDDIFRK
-  - name: Protease Assay
+  - name: DENV-2 NS2B-NS3 protease activity biochemical assay
     # Date it was provided
-    date: date TBD
+    # TODO: Check
+    date: 2022-11-01
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: biochemical-assay
     # URL pointing to resource
     # For a plasmid, this should be an AddGene entry
-    url:  
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
     projects: [Project 2]
@@ -187,12 +192,12 @@ TEP:
       |                          |   D   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
       |                          |   E   |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +0.1 µM enzyme +compound  |   5 µM substrate +buffer   |   5 µM substrate +0.1 µM enzyme  |
       |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
-  - name: First round crystallization
+  - name: Crystallization protocol of DENV-2 NS2B-NS3 protease
+    id: flade-NS2B3-protease_crystallization-protocol-1
     # Date it was provided
-    date: 22-10-19
+    date: 2022-10-19
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: crystallization-protocol
-    url: N/A
     projects: [Project 2]
     cores: [Structural Biology Core]     
     protocol: >

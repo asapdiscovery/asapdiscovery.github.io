@@ -54,7 +54,8 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Crystallography construct XX01ZVNS2B-c002
+    - name: Protein expression construct of ZIKV NS2B-NS3 protease suitable for crystallography (construct XX01ZVNS2B-c002)
+      id: flazi-NS2B3-protease_plasmid-crystallography
       # Brief description of the plasmid
       description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -116,7 +117,8 @@ TEP:
         * Construct protein sequence: 
           NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
           NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
-    - name: Assay construct QQ01ZVNS2B-c001
+    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay (construct QQ01ZVNS2B-c001)
+      id: flazi-NS2B3-protease_plasmid-biochemical
       # Brief description of the plasmid
       description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -125,7 +127,6 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -157,14 +158,14 @@ TEP:
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
         - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
-    - name: Protease Assay
+    - name: ZIKV NS2B-NS3 protease activity biochemical assay
+      id: flazi-NS2B3-protease_assay-biochemical
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: assay
+      type: biochemical-assay
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url:  
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -240,11 +241,11 @@ TEP:
         |                          |       |   = positive control       |   = negative control             |   = contains compound                      |   = contains compound                      |   = contains compound                      |    = positive control      |   = negative control             |                                                                                            
 
 
-    - name: Initial crystallography with NS2B3 fusion protein expressed from QQ01ZVNS2B-c002 diffracted to 4.36 Å and not suitable for fragment soaking.
-      description:  
+    - name: Experimental crystallization protocol for ZIKV NS2B-NS3 - unsuitable for fragment soaking
+      id: flazi-NS2B3-protease_crystallization-protocol-1
+      description: Initial crystallography with NS2B3 fusion protein expressed from QQ01ZVNS2B-c002 diffracted to 4.36 Å and not suitable for fragment soaking.
       date: 2022-11-26
-      type: xray-fragment-screen
-      url: N/A
+      type: crystallization-protocol
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -254,11 +255,11 @@ TEP:
       details: |
         <a href="/pdfs/PAGE22-01614 - AVIDD ASAP; NS2B-GSG-NS3 fusions for assays.pdf" download>Download experimental metadata</a>
  
-    - name: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to xx Å and suitable for fragment soaking.
-      description:  
+    - name: Crystallization protocol for ZIKV NS2B-NS3 protease suitable for fragment soaking
+      id: flazi-NS2B3-protease_crystallization-protocol-soaking
+      description: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to 1.6 Å and suitable for fragment soaking.
       date: 2022-11-26
-      type: xray-fragment-screen
-      url: N/A
+      type: crystallization-protocol
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -275,11 +276,11 @@ TEP:
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
         Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
         Size:  ~75-100um in length, width and depth
-    - name: Crystallographic fragment screening at the Diamond XChem facility
-      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source. The analysis is still ongoing.
-      date: ongoing
+    - name: ZIKV NS2B-NS3 protease crystallographic fragment screen at the Diamond XChem facility
+      id: flazi-NS2B3-protease_fragment-screen
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source and collected experimental datasets. The analysis is still ongoing.
+      date: 2023-04-30
       type: xray-fragment-screen
-      url: N/A
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >

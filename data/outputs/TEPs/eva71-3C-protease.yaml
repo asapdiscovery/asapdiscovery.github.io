@@ -60,7 +60,8 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Construct for biochemical assays of protease activity and crystallography.
+    - name: Protein construct for EV-A71 3C protease suitable for biochemical assays of protease activity and crystallography
+      id: eva71-3C-protease_plasmid-biochemical-assay
       scarab_id: A71EV3CPROA-c001
       # Brief description of the plasmid
       description:  Construct for enzyme assays crystallography.
@@ -70,7 +71,6 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -91,17 +91,17 @@ TEP:
         * Tags and additions: His-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
-    - name: Inactive C2A mutant for enzyme assays.
+    - name: Protein construct of inactive mutant of EV-A71 3C protease suitbale for crystallography
+      id: eva71-3C-protease_plasmid-crystallography
       scarab_id: A71EV3CPROA-c002 
       # Brief description of the plasmid
-      description:  Plasmid encoding an inactive C2A mutant suitable for crystallography.
+      description: Plasmid encoding an inactive mutant suitable for crystallography.
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -122,17 +122,17 @@ TEP:
         * Tags and additions: His-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQAGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHH
-    - name: Protein construct with Avi-tag suitable for biophysical assays.
+    - name: Protein construct of EV-A71 3C protease with Avi-tag suitable for biophysical assays
+      id: eva71-3C-protease_plasmid-biophysical
       scarab_id: A71EV3CPROA-c003 
       # Brief description of the plasmid
-      description:  Construct with Avi-tag for Biophysics
+      description: Construct with Avi-tag suitable for biophysical assays requiring protein immobilization
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      #url: N/A 
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -153,15 +153,15 @@ TEP:
         * Tags and additions: His-Avi-tag
         * Construct protein sequence: 
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHHGLNDIFEAQKIEWHE
-    - name: Fluorescence intensity protease activity biochemical assay protocol
+    - name: EV-A71 3C protease activity biochemical assay using fluorescence intensity measurements
+      id: eva71-3C-protease_biochemical-assay
       description: This method is intended to measure the activity of viral proteases by using a specific labeled peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
       # Date it was provided
       date: 2023-04-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: assay
+      type: biochemical-assay
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
-      #url:  
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
@@ -182,13 +182,13 @@ TEP:
         Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
         Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
         Protocol EV-A71 3C Pro: Ten µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate and incubate with the enzyme for one hour at room temperature. Enzymatic reaction was initiated by the addition of 10 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 490 nm was read every 30 seconds for 2 hours in kinetic mode.The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
-    - name: Crystallization
+    - name: Crystallization protocol for producing soakable crystals suitable for fragment screening
+      id: eva71-3C-protease_crystallization-protocol
       description: Optimised conditions to reproduce crystals for fragment screening.
       date: 2023-02-28
       # TODO: Create category for "crystallization conditions".
       # TODO: Move this to protocols.io
       type: crystallization-protocol
-      #url: 
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |

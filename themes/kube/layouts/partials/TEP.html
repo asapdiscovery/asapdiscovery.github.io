@@ -313,9 +313,9 @@
     <div class="container">
         <div class="row"> 
           <div class="col-1" style="display: flex;  align-items: center;">
-            <a href="{{ .url }}"><img title="Molecules" width="{{ $icon_width }}" src="../img/icons/{{ .type }}.png"></a>
+            <a href="{{ .url }}"><img title="{{ .type }}" width="{{ $icon_width }}" src="../img/icons/{{ .type }}.png"></a>
           </div>
-          <div class="col-11">                
+          <div {{ with .id }} id="{{ . }}" {{ end }} class="col-11">                
             <b> {{ .name | markdownify }}</b> <br>
             {{ with .description }} {{ . | markdownify }} <br> {{ end }}
 
