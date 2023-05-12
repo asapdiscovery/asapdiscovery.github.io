@@ -3,7 +3,7 @@ ASAP-COV-MPRO:
   name: "SARS-CoV-2/MERS-CoV Mpro lead optimization assay data"
   description: This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program.
   projects: [Project 5]
-  cores: [Biochemical Assay Core]
+  cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/SARS-CoV-2-and-MERS-Main-Protease-Mpro-Fluorescence-Dose-Response-Data-a23b21fe8fce4e1494c4c6720b072c1e
@@ -22,7 +22,7 @@ ASAP-SARS-COV-2-NSP3-MAC1:
   name: "SARS-CoV-2 nsp3 Mac1 macrodomain assay data"
   description: Biochemical assay data for hit-to-lead program
   projects: [Project 3]
-  cores: [Biochemical Assay Core]
+  cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-0ecb0d3d0cfc466cbc81096160f330e2
@@ -39,7 +39,7 @@ ASAP-DENV-NS2B-NS3:
   name: "DENV-2 NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
   description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
   projects: [Project 4]
-  cores: [Biochemical Assay Core]
+  cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815
@@ -56,7 +56,7 @@ ASAP-WNV-NS2B-NS3:
   name: "WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
   description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
   projects: [Project 4]
-  cores: [Biochemical Assay Core]
+  cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f
@@ -73,7 +73,7 @@ ASAP-ZIKA-NS2B-NS3:
   name: "ZIKV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data"
   description: Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits.
   projects: [Project 4]
-  cores: [Biochemical Assay Core]
+  cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5

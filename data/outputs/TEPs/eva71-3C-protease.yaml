@@ -155,7 +155,7 @@ TEP:
           MGPSLDFALSLLRRNIRQVQTDQGHFTMLGVRDRLAVLPRHSQPGKTIWVEHKLINILDAVELVDEQGVNLELTLVTLDTNEKFRDITKFIPENISAASDATLVINTEHMPSMFVPVGDVVQYGFLNLSGKPTHRTMMYNFPTKAGQCGGVVTSVGKVIGIHIGGNGRQGFCAGLKRSYFASEQLEHHHHHHGLNDIFEAQKIEWHE
     - name: EV-A71 3C protease activity biochemical assay using fluorescence intensity measurements
       id: eva71-3C-protease_biochemical-assay
-      description: This method is intended to measure the activity of viral proteases by using a specific labeled peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
+      description: This method is intended to measure the activity of viral proteases by using a specific labeled peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (abs 336 nm; em 490 nm) and in N-terminal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 490 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection. 
       # Date it was provided
       date: 2023-04-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
