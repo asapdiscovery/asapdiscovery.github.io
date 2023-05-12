@@ -291,11 +291,11 @@ def render_products_to_markdown(yaml_filepath, component_shortname):
 
             # Render links
             if 'permalink' in output:
-                markdown_text += f"**permalink:** {output['permalink']}\n\n"
-
-            for link in output['links']:
-                markdown_text += f"* _{link['name']}_\n\n"
-                markdown_text += f"{link['url']}\n\n"
+                markdown_text += f"{output['permalink']}\n\n"
+            else:
+                for link in output['links']:
+                    markdown_text += f"* _{link['name']}_\n\n"
+                    markdown_text += f"{link['url']}\n\n"
 
             # Render contributing Projects and Cores
             markdown_text += 'Contributing Projects and Cores: '
