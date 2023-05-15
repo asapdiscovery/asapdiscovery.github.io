@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus D68 2A protease (intraomolecular)"
+  name: "Enterovirus D68 2A protease (intramolecular)"
   target: 2Apro
   program_code: ASAPPEADIT
   program_nickname: ASAP-EVD68-2APRO-INTRAMOL
