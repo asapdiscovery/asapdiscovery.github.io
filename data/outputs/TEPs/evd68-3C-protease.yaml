@@ -68,8 +68,8 @@ TEP:
       id: evd68-3C-protease_plasmid-crystallography
       scarab_id: D68EV3CPROA-c001 
       # Brief description of the plasmid
-      description: EV-D68 bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21.
-        Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P21<sub>21</sub>21. This protein yielded highly reproducible crystals upon 
+      description: EV-D68 bearing a C-terminal His-tag that crystallised in the space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>.
+        Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>. This protein yielded highly reproducible crystals upon 
         microseeding, which typically diffracted to 1.7 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
       # Date it was provided
       date: 2022-03-24
