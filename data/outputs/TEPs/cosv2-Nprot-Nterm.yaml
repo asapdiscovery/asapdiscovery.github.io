@@ -30,6 +30,10 @@ TEP:
   contributors:
   - Jakub Luptak
   - Leo James
+  - Alice Douangamath
+  - Daren Fearon
+  - Jasmin Aschenbrenner
+  - Peter Marples
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -118,7 +122,7 @@ TEP:
         * Drop volume - 400 nl
         * Protein volume in drop - 200 nl
         * Reservoir volume in drop - 170 nl
-        * seed volume in drop - 30 nl 
+        * seed volume in drop - 30 nl
         * Temperature: 20°C
         * visible growth in 12 hours, full growth in 36 hours
         * DMSO tolerance: 20%
