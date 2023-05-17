@@ -63,6 +63,14 @@ TEP:
   - Alpha Lee
   - Nir London
   - Martin A. Walsh
+  - Marco Mazzorano
+  - Michael Fairhead
+  - Blake Blacomb
+  - Charlie Tomlinson
+  - Lizbé Koekemoer
+  - Eleanor Williams
+  - Ryan Lithgo
+  - Peter Marples
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -74,7 +82,7 @@ TEP:
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
-    This TEP provides a comprehensive sampling of the binding properties of the active site of SARS-Cov-2
+    This TEP provides a comprehensive sampling of the binding properties of the active site of SARS-CoV-2
     main protease by small molecule fragment molecules. Together with the established enzymatic assays, it
     forms the bases for rational, structure-based drug development. The usefulness of the data and protocols
     presented in this TEP have been demonstrated by the [COVID Moonshot consortium](https://covid.postera.ai/covid) successfully
