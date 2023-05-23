@@ -64,18 +64,6 @@
 {{ end }}
 </ul>
 
-<!-- Administrative Core -->
-
-<h2>Administrative Core</h2>
-
-<ul>
-{{ range $.Site.Data.members }}
-  {{ if in .lab "Administrative Core" }}
-    {{ partial "person" . }}
-  {{ end }}
-{{ end }}
-</ul>
-
 <!-- Investigators -->
 
 <h2>Co-Investigators</h2>
@@ -117,6 +105,18 @@
 {{ end }}
 </ul>
 -->
+
+<!-- Administrative Core -->
+
+<h2>Administrative Core</h2>
+
+<ul>
+{{ range $.Site.Data.members }}
+  {{ if in .lab "Administrative Core" }}
+    {{ partial "person" . }}
+  {{ end }}
+{{ end }}
+</ul>
 
 <!-- End -->
 
