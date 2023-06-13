@@ -38,16 +38,22 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_VTbYckS0RUWw67N8TrS23Q) 
 <a name="2023-mar"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
-* **[Johan Neyts, Ku Leuven](https://rega.kuleuven.be/cmt/jn/staff-1/staff/00014425)**: *TBD*  
-* *TBD*
+* **[Johan Neyts, Ku Leuven](https://rega.kuleuven.be/cmt/jn/staff-1/staff/00014425)**: *The Battle of Leuven against Viruses*  
+* **[Ryan Lithgo, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/MPL/Staff/Lithgo.html) ([ASAP](http://asapdiscovery.org))**: *TBD*
 
 **Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-mar"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * *TBD*  
 * *TBD*
 
+**Wed 20 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-mar"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *TBD*  
+* **[Rommie Amaro, UCSD](https://amarolab.ucsd.edu/)**: *TBD*  
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
