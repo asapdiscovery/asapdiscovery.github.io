@@ -53,7 +53,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-mar"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *TBD*  
-* **[Rommie Amaro, UCSD](https://amarolab.ucsd.edu/)**: *TBD*  
+* **[Melanie Ott, UCSF](https://bms.ucsf.edu/people/melanie-ott-md-phd)**: *Understanding SARS-CoV-2 Variants through Reverse Genetics*  
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
