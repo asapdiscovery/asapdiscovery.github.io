@@ -42,7 +42,7 @@ ASAP-EVA71-2APRO:
     - date: 2023-03-22
       description: Initial draft  
 
-SAP-EVA71-3CLPRO:  
+ASAP-EVA71-3CLPRO:
   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-3CLPRO
   name: "Targeting Opportunity: EV-A71 3C protease"
   projects: [Project 1]
