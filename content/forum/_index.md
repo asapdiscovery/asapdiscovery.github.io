@@ -37,17 +37,39 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-mar"></a><br>
+<a name="2023-july"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * *TBD*  
 * *TBD*
 
 **Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-mar"></a><br>
+<a name="2023-aug"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *TBD*  
-* **[Melanie Ott, UCSF](https://bms.ucsf.edu/people/melanie-ott-md-phd)**: *Understanding SARS-CoV-2 Variants through Reverse Genetics*  
+* **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *TBD*
+* **[Melanie Ott, UCSF](https://bms.ucsf.edu/people/melanie-ott-md-phd)**: *Understanding SARS-CoV-2 Variants through Reverse Genetics*
+
+* **Wed 20 September 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-sept"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* *TBD*  
+* *TBD*
+
+**Wed 18 October 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-oct"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
+* *TBD*
+ 
+**Wed 15 November 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-nov"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
+* **[Ivan Ahel, University of Oxford](https://www.path.ox.ac.uk/content/ivan-ahel)**: *TBD*  
+* **[Craig Cameron, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/craig-e-cameron-phd/)**: *TBD*  
+
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
