@@ -35,14 +35,22 @@ TEP:
   - Andre de Godoy
   - Blake Balcomb
   - Charlie Tomlinson
+  - Charline Giroud
   - Daren Fearon
+  - Dong Wang
+  - Eleanor Williams
   - Haim Barr
   - Jasmin Aschenbrenner
-  - Lucas Ferreira
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris  
   - Lizbé Koekemoer  
+  - Lucas Ferreira
   - Noa Lahav
+  - Oleg Fedorov
   - Peter Marples
   - Tamas Szommer
+  - Warren Thompson
   - Xiaomin Ni
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
@@ -80,8 +88,8 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The SUMO tag was removed by digestion with SENP1 protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, SUMO tagged protein and his tagged SENP1 was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected.
-        Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. 
+        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 20 mM imidazole]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 20 mM imidazole, 1.0 mM TCEP] and target protein eluted using same buffer containing 300 mM imidazole. The SUMO tag was removed by digestion with SENP1 protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, SUMO tagged protein and his tagged SENP1 was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected.
+        Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 25 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. 
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
