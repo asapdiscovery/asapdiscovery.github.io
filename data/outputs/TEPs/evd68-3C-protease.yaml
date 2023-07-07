@@ -32,11 +32,18 @@ TEP:
   - Charlie Tomlinson
   - Charline Giroud
   - Daren Fearon
+  - Dong Wang
   - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris
   - Lizbé Koekemoer
+  - Lucas Ferreira
   - Michael Fairhead
   - Oleg Fedorov
   - Peter Marples
+  - Tamas Szommer
+  - Warren Thompson
   - Xiaomin Ni
   fragscreen_pdb_group_decomposition: N/A
   # Summary of Project
@@ -87,7 +94,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
+        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in TB autoinduction medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 2, the temperature was lowered to 18°C for 24h to allow autoinduction through lactose metabolism was triggered overnight. Harvested cells were resuspended in lysis buffer [50 mM HEPES pH 7.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP] with addition of 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with wash buffer [10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP, 30mM imidazole] and target protein eluted using same buffer containing 300 mM imidazole. Protein was lastly purified by SEC (sepax SEC SRT-100) in a buffer consisting of 10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
