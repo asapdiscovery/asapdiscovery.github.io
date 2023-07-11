@@ -19,7 +19,7 @@ TEP:
   # EC ID: Prefix https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   EC: 3.4.22.69
   # Target nominator
-  nominator: Martin Walsh
+  nominator: Martin Walsh and Ed Griffen
   # Lead investigator at Diamond
   investigator: Frank von Delft
   # Therapeutic area
@@ -27,54 +27,69 @@ TEP:
   # Disease relevance statement
   disease_relevance: The SARS-Cov-2 main protease (Mpro) is responsible for viral polyprotein processing and therefore a therapeutic target.
   contributors:
-  - Alice Douangamath
-  - Daren Fearon
-  - Paul Gehrtz
-  - Petra Lukacik
-  - C. David Owen
-  - Efrat Resnick
-  - Claire Strain-Damerell
-  - Anthony Aimon
-  - Péter Ábrányi-Balogh
-  - José Brandão-Neto
-  - Anna Carbery
-  - Gemma Davison
-  - Alexandre Dias
-  - Thomas D. Downes
-  - Louise Dunnett
-  - James D. Firth
-  - S. Paul Jones
   - Aaron Keeley
-  - György M. Keserü
-  - Hanna F. Klein
-  - Mathew P. Martin
-  - Martin E. M. Noble
-  - Peter O’Brien
   - Ailsa Powell
-  - Rambabu N. Reddi
-  - Rachael Skyner
-  - Matthew Snee
-  - Tika R. Malla
-  - Anthony Tumber
-  - Lennart Brewitz
-  - Michael J. Waring
-  - Christopher Schofield
-  - John D. Chodera
+  - Alexandre Dias
+  - Alice Douangamath
   - Alpha Lee
-  - Nir London
-  - Martin A. Walsh
-  - Marco Mazzorano
-  - Michael Fairhead
-  - Blake Blacomb
+  - Andre de Godoy
+  - Anna Carbery
+  - Anthony Aimon
+  - Anthony Tumber
+  - Blake Balcomb
+  - C. David Owen
   - Charlie Tomlinson
-  - Lizbé Koekemoer
+  - Charline Giroud
+  - Christopher Schofield
+  - Claire Strain-Damerell
+  - Daren Fearon
+  - Dong Wang
+  - Efrat Resnick
   - Eleanor Williams
-  - Ryan Lithgo
+  - Gemma Davison
+  - György M. Keserü
+  - Haim Barr
+  - Hanna F. Klein
+  - James D. Firth
+  - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - John D. Chodera
+  - José Brandão-Neto
+  - Korvus Wang
+  - Lee Harris
+  - Lennart Brewitz
+  - Lizbé Koekemoer
+  - Louise Dunnett
+  - Lucas Ferreira
+  - Marco Mazzorano
+  - Martin A. Walsh
+  - Martin E. M. Noble
+  - Mathew P. Martin
+  - Matthew Snee
+  - Michael Fairhead
+  - Michael J. Waring
+  - Nir London
+  - Noa Lahav
+  - Oleg Fedorov
+  - Paul Gehrtz
   - Peter Marples
+  - Peter O’Brien
+  - Petra Lukacik
+  - Péter Ábrányi-Balogh
+  - Rachael Skyner
+  - Rambabu N. Reddi
+  - Ryan Lithgo
+  - S. Paul Jones
+  - Tamas Szommer
+  - Thomas D. Downes
+  - Tika R. Malla
+  - Warren Thompson
+  - Xiaomin Ni
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
-    The COVID-19 outbreak of 2020 caused more than one million fatalities so far, it led to a world-wide disruption of public life and triggered economic upheaval. The disease is triggered by SARS-CoV-2, a coronavirus for which there are currently no effective therapeutics available. The SARS-CoV-2 main protease (Mpro) is essential for viral replication and therefore an attractive target to stop the virus. This TEP includes crystal structures of ligand-free Mpro and numerous protein-ligand complexes which are the result of an extensive crystallographic fragment screen. Moreover, it contains information about different enzymatic and viral replication assays for orthogonal validation of small molecule inhibitors in order determine structure-activity relationships. Further hit-to-lead progression of the screening hits was facilitated by the COVID Moonshot consortium and this resulted in several lead series with sub-micromolar potencies.  All data for over 1200 synthesised compounds are fully open and constitute a unique resource, not only for this target, but for improving methodology of fragment-to-hit and hit-to-lead progression.
+    The coronavirus family poses a major global health concern.  Notably, Severe Acute Respiratory Syndrome (SARS), Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) also known as COVID-19 cause severe illness in mammals and birds. The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies of pandemic preparedness. 
+    MERS-CoV is a zoonotic virus that was first discovered in 2012 [9](https://doi: 10.1056/NEJMoa1211721)]. The disease has spread rapidly with large outbreaks as recent as 2015 and 2018 [[10](https://www.who.int/en/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)), [11](https:)//doi: 10.1016/S0140-6736(15)60454-8), [12](https://www.emro.who.int/health-topics/mers-cov/mers-outbreaks.html), [13](https://doi: 10.1128/genomeA.00818-15]. Currently there is no therapeutic intervention for MERS-CoV with 35% of reported cases resulting in human death [11](https://pubmed.ncbi.nlm.nih.gov/26049252/)]. Like-wise to SARS-CoV-2, MERS-CoV produces a main protease (Mpro) which is essential for viral replication and therefore an attractive target to stop the virus [[14](https://doi: 10.1074/jbc.M115.651463), [15](https://doi: 10.1016/j.virusres.2015.05.018), [16](https://doi: 10.1016/j.virusres.2015.02.025)]. This TEP includes the protocols used for producing recombinant MERS-CoV Mpro (comer-NSP5-mpro), assay documentation as well as crystallization protocols. Moreover, it contains information about different enzymatic and viral replication assays for orthogonal validation of small molecule inhibitors in order determine structure-activity relationships. All data are fully open and constitute a unique resource, not only for this target, but for improving methodology of fragment-to-hit and hit-to-lead progression.
   # Scientific Background:
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
@@ -147,12 +162,27 @@ TEP:
                     a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This
                     resulted in determination of 91 protein-fragment structures.
       date: 2020-03-18
+      type: crystlallization
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
+        **Initial Crystallization and Structure determination of MERS-CoV Mpro**<br>
+
+        MERS Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.
+
+        ** Data collection**
+
+        Data were collected to 1.78Å resolution at Diamond light source beamline I04-1. 
+
+        **Data processing**
+        The structure was solved by molecular replacement using the structure of MERS coronavirus main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
       type: xray-fragment-screen
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        **Crystallization and Structure determination**<br>
+        **Initial Crystallization and Structure determination of SARS-CoV2 Mpro**<br>
 
         Protein was thawed and diluted to 5 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. The sample was
         centrifuged at 100 000 g for 15 minutes to remove aggregates. MPRO crystals were obtained by mixing 150nL
@@ -160,7 +190,7 @@ TEP:
         seed stock. Crystals were grown using the sitting drop vapor diffusion method at 20°C and appeared within
         24 hours.
 
-        **Crystallographic fragment screening**<br>
+        **Crystallographic fragment screening agains SARS-CoV2 Mpro**<br>
 
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
         Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and
