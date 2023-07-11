@@ -26,7 +26,30 @@ TEP:
   disease_relevance: NS5 encodes an RNA-dependent RNA polymerase
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-    - Andre Schutzer Godoy
+    - Andre de Godoy
+    - Rafaela Sachetto Fernandes
+    - Glaucius Oliva
+    - Blake Balcomb
+    - Charlie Tomlinson
+    - Charline Giroud
+    - Daren Fearon
+    - Dong Wang
+    - Eleanor Williams
+    - Haim Barr
+    - Jasmin Aschenbrenner
+    - Jessica Dixon
+    - Korvus Wang
+    - Lee Harris
+    - Lizbé Koekemoer 
+    - Lucas Ferreira
+    - Michael Fairhead
+    - Noa Lahav
+    - Oleg Fedorov
+    - Peter Marples
+    - Ryan Lithgo
+    - Tamas Szommer
+    - Warren Thompson
+    - Xiaomin Ni
     - Rafaela Sachetto Fernandes
     - Glaucius Oliva
     - Daren Fearon
