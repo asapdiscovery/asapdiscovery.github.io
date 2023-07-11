@@ -65,8 +65,6 @@ TEP:
   conclusion: >
     Here we have established a purification protocol for recombinant 
     Truncated ZIKV RdRp from Zika viruses and established a robust crystallisation suitable for fragment screening
-  
-  resources:
   resources:
       # Construct / plasmid resource
       - name: Protein expression construct of ZIKV NS5B RdRp suitable for crystallography
