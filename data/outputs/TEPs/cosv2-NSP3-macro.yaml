@@ -31,6 +31,20 @@ TEP:
   - Marion Schuller
   - Galen J. Correy
   - Stefan Gahbauer
+  - Blake Balcomb
+  - Charlie Tomlinson
+  - Daren Fearon
+  - Dong Wang
+  - Eleanor Williams
+  - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris
+  - Lizbé Koekemoer
+  - Michael Fairhead
+  - Peter Marples
+  - Ryan Lithgo
+  - Warren Thompson
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -112,7 +126,27 @@ TEP:
         TVRTNVYLAVFDKNLYDKLVSSFLE`        
       protocol: >
         SARS-CoV-2 Nsp3 Mac1 (residues 2 to 170) was cloned into a pET22b(+) expression vector with an N-terminal His6 tag and a tobacco etch virus (TEV) protease recognition site for removal of the tag (GenScript). In addition, a short linker (Asn-Ala-Gly) was included between the TEV recognition site and the Mac1 gene. To express Mac1, plasmid DNA was transformed into BL21(DE3) Escherichia coli. After overnight growth on lysogeny broth (LB) agar supplemented with carbenicillin (100 g/ml), starter cultures (10 ml of LB) were grown at 37°C for 8 hours. Large-scale cultures (1 litre of terrific broth) were grown at 37°C until an optical density of 0.8. Cultures were cooled at 4°C for 15 min, before protein expression was induced with 1 mM isopropyl ß-d-1-thiogalactopyranoside (IPTG), and the cultures were shaken at 20°C for 12 hours. Cells were collected by centrifugation and frozen at -80°C. All purification steps were performed at 4°C using an AKTA fast protein liquid chromatography system (Cytiva). Cells were resuspended in Ni-nitrilotriacetic acid (NTA) binding buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 10 mM imidazole, 5% glycerol, and 2 mM ß-mercaptoethanol (ßME) supplemented with Turbo-Nuclease (5 U/ml; Sigma-Aldrich, T4330)] and lysed by sonication. Cell debris was collected by centrifugation, and the lysate was applied to a 5-ml HisTrap HP column (Cytiva, 17524802). The column was washed with 25 ml of binding buffer followed by 25 ml of 5% Ni-NTA elution buffer [50 mM tris-HCl (pH 8.0), 500 mM NaCl, 500 mM imidazole, 5% glycerol, and 2 mM ßME] and then eluted with 100% elution buffer. Eluted protein was exchanged into TEV reaction buffer [50 mM tris (pH 8.0), 100 mM NaCl, 1 mM dithiothreitol (DTT), and 1% glycerol] using a HiPrep 26/10 desalting column (Cytiva, 17508701). To cleave the His6 tag, Mac1 was diluted to 1.5 mg/ml using TEV reaction buffer and incubated with recombinant TEV protease at a 1:20 ratio (Mac1:TEV) for 16 hours at 4°C. Cleaved Mac1 was separated from the uncleaved protein and TEV protease by rerunning the sample over a HisTrap HP column (pre-equilibrated with TEV reaction buffer) and collecting the flow-through. The flow-through was supplemented with 10 mM DTT and concentrated to 2.5 ml using a 10-kDa molecular weight cutoff (MWCO) centrifugal concentrator (Amicon, UFC901024). The sample was further purified by size exclusion chromatography (SEC) using a HiLoad 16/600 Superdex 75 pg column (Cytiva, 28989333) equilibrated with SEC buffer [20 mM tris (pH 8.0), 150 mM NaCl, 5% glycerol, and 2 mM DTT]. Eluted fractions were concentrated to 15 mg/ml, flash-frozen in liquid nitrogen, and stored at -80°C. Protein used for ITC was purified in the same manner, but the SEC was run with 150 mM NaCl and 20 mM tris (pH 8.0). Protein was concentrated to 10.8 mg/ml before flash-freezing in liquid nitrogen and storage at -80°C.       
-    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain
+    # Construct / plasmid resource
+    - name: Full-length Nsp3 Mac1 construct bearing a N-terminal His-tag followed by a TEV-cleavage site that crystallised in the space group P121
+      id: cosv2-NSP3-macro_plasmid-crystallography-P121
+      scarab id: CVNSP3A-c004
+      description:  This construct encodes a SUMO1 Mac fusion which when purified crystallised in P121.
+      date: 2021-06-01
+      type: plasmid
+      url: https://www.addgene.org/169209/
+      projects: [Project 2]
+      cores: []
+      authors:
+      - Michael Fairhead
+      details: |
+        * Vector: pNIC
+        * Entry clone accession: MT215193.1
+        * Cell line: E. coli BL21(DE3)
+        * Tags and additions: SUMO
+        * Construct protein sequence: MHHHHHHGSGDQEAKPSTEDLGDKKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQGVPMNSLRFLFEGQRIADNHTPKELGMEEEDVIEVYQEQTGG//GEVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFLEMKSEK
+      protocol: >
+        A synthetic gene (IDT) encoding a his tag sumo1 SARS-CoV-2 Nsp3 Mac1 fusion construct was cloned into the pNIC-NOTAG vector (pET28 derivative) via golden gate. The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in AIM-TB medium (FORMEDIUM) supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The SUMO tag was removed by digestion with ULP1 protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, SUMO tagged protein and his tagged ULP1 was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected. Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 20 mM Tris-HCl (pH 8), 150 mM NaCl, 5% glycerol and 1 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis and mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
+      - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain
       id: cosv2-NSP3-macro_fragment-screen-fragalysis
       description: We performed X-ray crystallography screening at the Diamond Light Source XChem facility and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
       date: 2021-06-01
