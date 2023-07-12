@@ -219,13 +219,11 @@ TEP:
         Buffer: Enzymes storage buffer 10 mM HEPES pH 7.3, 500 mM NaCl, 5% glycerol, 0.5 mM TCEP.
         
         Assay Buffer (final conc. In plate):
-        * 10 mM HEPES pH 7.3
-        * 50 mM NaCl
-        * 5 % glycerol
-        * 1 mM TCEP
-        * 0.05 % Igepal
+        * 20 mM Tris, pH 8.5
+        * 10 % glycerol
+        * 0.01 % Triton
         
-        Glycerol, Igepal and TCEP are added to the assay buffer before each run.
+        Glycerol and Triton are added to the assay buffer before each run.
 
         Design:
         * 10 µL of 10 µM substrate + 10 µL of 0.2 µM enzyme in assay buffer 
