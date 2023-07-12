@@ -70,7 +70,7 @@ TEP:
       # Brief description of the plasmid
       description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
-      date: 2022-10-24
+      date: 2023-02-07
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
       # URL pointing to resource
@@ -128,7 +128,7 @@ TEP:
         * Construct protein sequence: 
           NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
           NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
-    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay
+    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay (ZV-NS2BgsgNS3)
       id: flazi-NS2B3-protease_plasmid-biochemical
       Scarab id: QQ01ZVNS2B-c001
       # Brief description of the plasmid
@@ -149,16 +149,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        Transformed BL21[DE3]RR with plasmid
-        Used to inoculate 15 mL SOC grown o/n 37^o^C 200 rpm
-        Used 15 mL of o/n to inoculate 1L of AIM-TB and grew 37C 200 rpm 3 h then 21 h 18^o^C 200 rpm
-        Harvested 4000 g 20 minutes
-        Froze pellet -80^o^C (approx 45 g wcw/L)
-        Dissolved pellet in 200 mL base buffer + 1 % TX-100 and 0.5 mg/mL lysozyme and 1 ug/mL benzonase
-        Centrifuge 30,000g 1 h 12^o^C
-        Apply soluble fracction to 5 mL Ni-Speharose FF
-        Wash 50 mL of BaseBuffer + 30 mM Imidazole 3x
-        Elute 2 x 10 mL BaseBuffer + 300 mM Imidazole
+        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in AIM-TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The his twin strep tag was removed by digestion with TEV protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, his twin strep tagged protein and his tagged TEV was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected. Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis and mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -169,13 +160,13 @@ TEP:
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
-        - name: Inactive assay construct QQ01ZVNS2B-c002 with His to Ala mutation 
-    - name: ZIKV NS2B-NS3 protease activity biochemical assay
+     - name: ZIKV NS2B-NS3 protease activity biochemical assay: Inactive assay construct with His to Ala mutatio
       id: flazi-NS2B3-protease_assay-biochemical
+      Scarab id: QQ01ZVNS2B-c002
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
-      type: biochemical-assay
+      type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
       # ASAP Projects and Cores that contributed to this resource
@@ -184,20 +175,11 @@ TEP:
       # Contributors / authors
       contributors:
       - Michael Fairhead
-      - Xiaomin Ni
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: |
-        * Thaw enzymes on ice and centrifuged 5 min, 4 C, 15000 rpm.
-        * Prepare 0.2 µM of 2X enzyme in volume of 10 µl per well.
-        * Prepare 10 µM of 2X substrate in volume of 10 µl per well.
-        * Dispense 10 µl buffer to positive control wells (wells 1,23 - no enzyme, no compound). 
-        * Dispense 10 µl enzyme to wells 2-22,24 (wells 2,24 negative control: enzyme + substrate, no compound)
-        * Briefly spin down plate and incubate for 2 hours in RT.
-        * Dispense 10 µl substrate to full plate.
-        * Briefly spin down plate and incubate for 30 min in RT.
-        * Read in Pherastar plate reader (BMG) in Ex: 360nm, Em: 470nm, Gain 300.
+        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in AIM-TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The his twin strep tag was removed by digestion with TEV protease and the mixture dialysed overnight against [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP]. Undigested protein, his twin strep tagged protein and his tagged TEV was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected. Protein was lastly purified by SEC (Superose 12 pg, Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis and mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -206,7 +188,7 @@ TEP:
         * Cell line: *E. coli* Rosetta 2 strain BL21(DE3)
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
-        NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWAVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
+        NS2B3: MSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWAVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
         
         Enzyme: ZV-NS2BgsgNS3
 
