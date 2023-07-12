@@ -29,15 +29,25 @@ TEP:
   - Xiaomin Ni
   - Blake Balcomb
   - Andre de Godoy
+  - Annette von Delft
+  - Beth MacLean
   - Charlie Tomlinson
+  - Charline Giroud
   - Daren Fearon
-  - Haim Barr
+  - Dong Wang
+  - Eleanor Williams
   - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris
   - Lizbé Koekemoer
+  - Lucas Ferreira
   - Michael Fairhead
-  - Noa Lahav
+  - Oleg Fedorov
   - Peter Marples
-  - Ryan Lithgo 
+  - Ryan Lithgo
+  - Tamas Szommer
+  - Warren Thompson
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -54,8 +64,9 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Protein expression construct of ZIKV NS2B-NS3 protease suitable for crystallography (construct XX01ZVNS2B-c002)
+    - name: Protein expression construct of ZIKV NS2B-NS3 protease suitable for crystallography
       id: flazi-NS2B3-protease_plasmid-crystallography
+      Scarab id: XX01ZVNS2B-c002
       # Brief description of the plasmid
       description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -117,8 +128,9 @@ TEP:
         * Construct protein sequence: 
           NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
           NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
-    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay (construct QQ01ZVNS2B-c001)
+    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay
       id: flazi-NS2B3-protease_plasmid-biochemical
+      Scarab id: QQ01ZVNS2B-c001
       # Brief description of the plasmid
       description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
