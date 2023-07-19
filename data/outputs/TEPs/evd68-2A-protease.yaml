@@ -45,6 +45,7 @@ TEP:
     While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause acute flaccid myelitis (AFM), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via CDC).
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   #conclusion: No viable constructs yet.
+  resources:  
   # This is a summary of the work we have done on the Enterovirus A71 3C protease to date.
   - name: EV-D68 2A protease activity biochemical assay using fluorescence intensity measurements
     id: evd68-3A-protease_biochemical-assay
