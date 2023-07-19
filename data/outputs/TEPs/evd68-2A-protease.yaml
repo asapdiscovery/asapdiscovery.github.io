@@ -49,7 +49,8 @@ TEP:
   # This is a summary of the work we have done on the Enterovirus A71 3C protease to date.
   - name: EV-D68 2A protease activity biochemical assay using fluorescence intensity measurements
     id: evd68-3A-protease_biochemical-assay
-    description: This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (ex 336 nm; em: 455 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 455 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
+    description: |
+      This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (ex 336 nm; em: 455 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 455 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
     # Date it was provided
     date: 2023-04-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
