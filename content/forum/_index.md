@@ -61,7 +61,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-oct"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
-* *TBD*
+* **[David Perlin](https://hmh-cdi.org/our-team/perlin-lab/)** and **[Ching Wen-Chen](https://scholar.google.com/citations?user=zK5eDiEAAAAJ&hl=zh-TW)**, **[Center for Discovery and Innovation](https://hmh-cdi.org/) ([MAVDA](https://www.mavdaresearch.org/en))**: *TBD*
  
 **Wed 15 November 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
