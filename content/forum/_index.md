@@ -35,13 +35,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 
-**Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-july"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Karla Kirkegaard, Stanford University](https://web.stanford.edu/group/kirkegaard/karla.html) ([ASAP](http://asapdiscovery.org))**: *Biochemistry of suppressing drug resistance by viral quasispecies* 
-* **[Marnix van Loock, Johnson & Johnson](https://organovir.com/marnix-van-loock/)**: *The role of public-private partnerships in the discovery and development of a pan-serotype antiviral to prevent and treat dengue*
-
 **Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-aug"></a><br>
@@ -68,12 +61,25 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-nov"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
 * **[Ivan Ahel, University of Oxford](https://www.path.ox.ac.uk/content/ivan-ahel)**: *TBD*  
-* **[Craig Cameron, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/craig-e-cameron-phd/)**: *TBD*  
+* **[Craig Cameron, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/craig-e-cameron-phd/)**: *TBD*
+
+**Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-nov"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))([ASAP](https://asapdiscovery.org/))
+* **[Alejando Chavez, UC San Diego](https://chavezlab.com/)**: *TBD*  
+* **[Duncan Scott, University of Dundee](https://www.dundee.ac.uk/people/duncan-scott)**: *TBD*  
 
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+<a name="2023-july"></a><br>
+**Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Karla Kirkegaard, Stanford University](https://web.stanford.edu/group/kirkegaard/karla.html) ([ASAP](http://asapdiscovery.org))**: *Biochemistry of suppressing drug resistance by viral quasispecies*  **[[Video]](https://youtu.be/XpKjrsBQlYA)** 
+* **[Marnix van Loock, Johnson & Johnson](https://organovir.com/marnix-van-loock/)**: *The role of public-private partnerships in the discovery and development of a pan-serotype antiviral to prevent and treat dengue* **[[Video]](https://youtu.be/9Kb2CdlUwoo)** 
 <a name="2023-june"></a>
 
 **Wed 21 June 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
