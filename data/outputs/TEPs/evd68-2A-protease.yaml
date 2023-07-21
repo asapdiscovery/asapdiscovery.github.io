@@ -45,4 +45,36 @@ TEP:
     While enterovirus D68 (EV-D68) typically causes respiratory illness, which can be mild or severe, it can also cause acute flaccid myelitis (AFM), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via CDC).
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   #conclusion: No viable constructs yet.
+  resources:  
   # This is a summary of the work we have done on the Enterovirus A71 3C protease to date.
+  - name: EV-D68 2A protease activity biochemical assay using fluorescence intensity measurements
+    id: evd68-3A-protease_biochemical-assay
+    description: |
+      This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (ex 336 nm; em: 455 nm) and in N-ternimal by the quencher Dabcyl (abs 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 455 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
+    # Date it was provided
+    date: 2023-04-24
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: biochemical-assay
+    # URL pointing to resource
+    # For a plasmid, this should be an AddGene entry
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Charline Giroud
+    - Oleg Federov
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
+    protocol: |
+      Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol and 0.5 mM DTT (optional).
+      Incubation: 1 hour at room temperature.
+      EV-A71 2A: protein stocks were stored at -80C and used as 2x solution (20 µM, 10 µM final assay concentration) in assay buffer.
+      Substrate: Dabcyl-TAITTLGKFGQE-Edans (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
+      Positive control: Telaprevir (Pubchem CID 3010818), 50 µM top final assay concentration.
+      Plates: 384 well plate, white, f-bottom (Greiner #781074).
+      Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA).
+      Plate reader: Pherastar FS, BMG Labtech (Germany), 350-460 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
+      Method: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement.
+      The IC<50> was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.  
