@@ -102,7 +102,7 @@ TEP:
         * Tags and additions: SUMO-tag
         * Construct protein sequence: 
           MHHHHHHGSGDQEAKPSTEDLGDKKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQGVPMNSLRFLFEGQRIADNHTPKELGMEEEDVIEVYQEQTGG//SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
-    - name: Crystal structure of EV-A71 2A protease at 1.6 Å resolution in C121 space group
+    - name: Crystal structure of EV-A71 2A protease at 1.6 Å resolution in C121 space group, PDB: 8POA
       id: eva71-2A-protease_structure-initial
       date: 2022-11-26
       type: structure
@@ -110,11 +110,11 @@ TEP:
       cores: [Structural Biology Core]     
       protocol: >
         Plate format: Swiss CI 3 lens
-        Screen: 0.5 M magnesiumformate 0.1 M HEPES pH 7.5  (condition B3 of Hampton Index screen)
+        Screen: 0.2M Ammonium Formate and 20% PEG 3350 (Condition H01 of ShotGun 1 screen)
         Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
         Concentration: 12.5 mg/ml
         Drop ratio:  2:1 ratio of protein: reservoir solution
-        Incubation: 4°C in Formulatrix for 4 days
+        Incubation: 20°C in Formulatrix for 3 days
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections
     - name: EV-A71 2A protease activity biochemical assay using fluorescence intensity measurements
       id: eva71-3C-protease_biochemical-assay
