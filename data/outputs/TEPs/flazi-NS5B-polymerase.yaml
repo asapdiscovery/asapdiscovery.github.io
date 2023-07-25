@@ -27,14 +27,14 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
     - Andre de Godoy
-    - Rafaela Sachetto Fernandes
-    - Glaucius Oliva
+    - Annette von Delft
     - Blake Balcomb
     - Charlie Tomlinson
     - Charline Giroud
     - Daren Fearon
     - Dong Wang
     - Eleanor Williams
+    - Glaucius Oliva
     - Haim Barr
     - Jasmin Aschenbrenner
     - Jessica Dixon
@@ -46,18 +46,12 @@ TEP:
     - Noa Lahav
     - Oleg Fedorov
     - Peter Marples
+    - Peter Marples
+    - Rafaela Sachetto Fernandes
     - Ryan Lithgo
     - Tamas Szommer
     - Warren Thompson
     - Xiaomin Ni
-    - Rafaela Sachetto Fernandes
-    - Glaucius Oliva
-    - Daren Fearon
-    - Charlie Tomlinson  
-    - Ryan Lithgo  
-    - Blake Balcomb
-    - Jasmine Aschenbrenner
-    - Peter Marples
   summary: >
     The RdRp is responsible for synthesizing a complementary negative-sense RNA strand that can then be used as a template to produce extra positive-sense RNA genomes. 
   scientific_background: >
