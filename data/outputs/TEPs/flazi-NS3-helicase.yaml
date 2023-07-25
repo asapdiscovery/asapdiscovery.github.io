@@ -109,7 +109,7 @@ TEP:
         Data were collected at the I04-1 beamline at 100 K and automatically processed with Diamond Light Source's autoprocessing pipelines using XDS (9) and either [xia2](https://doi.org/10.1107/s0907444913015308) or [DIALS](https://doi.org/10.1107/s2059798317017235). 
         Further analysis was performed with [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron density maps were generated with DIMPLE and ligand-binding events were identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
-        
+        PDB codes: 7G9K, 7G9L, 7G9M, 7G9N, 7G9O, 7G9P, 7G9Q, 7G9R, 7G9S, 7G9T, 7G9U, 7G9V, 7G9W, 7G9X, 7G9Y, 7G9Z, 7GA0, 7GA1, 7GA2, 7GA3, 7GA4, 7GA5, 7GA6, 7GA7
     
     
     
