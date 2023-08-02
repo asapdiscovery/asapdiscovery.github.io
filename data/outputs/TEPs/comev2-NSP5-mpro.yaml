@@ -154,7 +154,7 @@ TEP:
         <a href="/pdfs/PAGE23-00183 - AVIDD ASAP; MVMPROA c907 (c900 Arg mutant) Sequencing Expression and Purification.pdf" download>Download experimental metadata 2</a>
 
       # TODO: Eliminate this, since this duplicative of the AddGene site.
-    - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro
+    - name: XChem crystallographic fragment screen of SARS-CoV-2 Mpro
       id: comev2-NSP15-mpro_fragment-screen-fragalysis
       description:  We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify
                     opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was
@@ -162,46 +162,23 @@ TEP:
                     a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This
                     resulted in determination of 91 protein-fragment structures.
       date: 2020-03-18
-      type: crystlallization
+      type: crystallization
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        **Initial Crystallization and Structure determination of MERS-CoV Mpro**<br>
-
-        MERS Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.
-
-        ** Data collection**
-
-        Data were collected to 1.78Å resolution at Diamond light source beamline I04-1. 
-
-        **Data processing**
-        The structure was solved by molecular replacement using the structure of MERS coronavirus main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
-      type: xray-fragment-screen
-      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
-      projects: [Project 2]
-      cores: [Structural Biology Core]     
-      protocol: >
-        **Initial Crystallization and Structure determination of SARS-CoV2 Mpro**<br>
-
         Protein was thawed and diluted to 5 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. The sample was
         centrifuged at 100 000 g for 15 minutes to remove aggregates. MPRO crystals were obtained by mixing 150nL
         of protein in with 300 nL of reservoir solution containing 0.1 M MES pH 6.5, 15% PEG6K, 5% DMSO and 50nL
         seed stock. Crystals were grown using the sitting drop vapor diffusion method at 20°C and appeared within
         24 hours.
-
-        **Crystallographic fragment screening agains SARS-CoV2 Mpro**<br>
-
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
-        Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and
-        select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
+        Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
         analysis was performed through XChemExplorer [[16](https://doi.org/10.1107%2FS2059798316020234)]: for each dataset, the version of processed data was
         selected by the default XChemExplorer score, and electron density maps were generated with Dimple.
         Ligand-binding events were identified using PanDDA [[18](https://doi.org/10.1038/ncomms15123)] (both the released version 0.2 and a pre-release
         development version (https://github.com/ConorFWild/pandda), and ligands were modelled into PanDDAcalculated
-        event maps using Coot [[19](https://doi.org/10.1107/s0907444910007493)]. Restraints were calculated with ACEDRG [[20](https://doi.org/10.1107%2FS2059798317000067)] or GRADE,
-        structures were refined with Refmac [[22](https://doi.org/10.1107/s0907444911001314)] and Buster.
-            
+        event maps using Coot [[19](https://doi.org/10.1107/s0907444910007493)]. Restraints were calculated with ACEDRG [[20](https://doi.org/10.1107%2FS2059798317000067)] or GRADE, structures were refined with Refmac [[22](https://doi.org/10.1107/s0907444911001314)] and Buster.
         Fragments were soaked into crystals by adding dissolved compound directly to the crystallisation drops. The
         following libraries were screened: the DSipoised library (Enamine), a version of the poised library [[24](https://doi.org/10.1039/C5SC03115J)]; a
         version of the MiniFrags library [[25](https://doi.org/10.1016/j.drudis.2019.03.009)] assembled in-house; the FragLites library; a library of shape-diverse
@@ -213,8 +190,45 @@ TEP:
         ECHO liquid handler giving a final compound concentration of 2–100 mM and DMSO concentration of 10%.
         Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
         without the addition of further cryoprotectant.
+    - name: Initial crystallization and structure determination of MERS-CoV Mpro
+      id: comev2-NSP15-mpro_fragment-screen-fragalysis
+      description:  Protocol to product MERS-CoV Mpro crystal diffracting to 1.78 Å in C2221 spacegroup
+      date: 2022-08-02
+      type: crystlallization
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
+      projects: [Project 2]
+      cores: [Structural Biology Core]   
+      protocol: >
+        ** Crystallization**
+        MERS Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.
+        ** Data collection**
+        Data were collected to 1.78Å resolution at Diamond light source beamline I04-1. 
+        **Data processing**
+        The structure was solved by molecular replacement using the structure of MERS coronavirus main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
+        Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
+        electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
+        at the XChem facility of Diamond Light Source beamline I04-1
 
-        **FRET-based proteolytic assay**<br>
+        Selected structures were deposited in the PDB via a group deposition.
+
+      date: 2020-04-07
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002153
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: FRET-based proteolytic assay of SARS-CoV-2 Mpro
+      id: 
+      description:  Fluorescent-based assay t0 measure peptide cleavage
+      date: 2020-03-18
+      type: assay
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
         Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
         Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. Mpro is pre-incubated for 15 minutes at
         room temperature with the inhibitor compounds before the substrate is added to initiate the reaction.
@@ -225,8 +239,15 @@ TEP:
         website for data analysis. The readouts are converted to % inhibition and the Levenberg–Marquardt
         algorithm is used to fit a Hill equation to dose-response data constrained with minimum value = 0.0 and
         maximum value = 100 to calculate IC50 values.
-
-        **RapidFire Mass Spectrometry assay**<br>
+    - name: RapidFire Mass Spectrometry assay
+      id: 
+      description:  Mass spectroscopy-based assay to measure peptide cleavage
+      date: 2020-03-18
+      type: assay
+      url: 
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+      protocol: >
         Assays are performed in Greiner 384 low volume plates into which the compounds are dispensed using an
         Echo 555 acoustic dispenser keeping the DMSO concentration < 1%. A 15 μM enzyme stock solution is
         prepared in 20 mM HEPES, pH 7.5 and 300 mM NaCl, and subsequently diluted to a working solution of 300
@@ -246,19 +267,3 @@ TEP:
         Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
       details: |
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
-
-    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
-      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
-      description:  >
-        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
-        Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
-        electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
-        at the XChem facility of Diamond Light Source beamline I04-1
-
-        Selected structures were deposited in the PDB via a group deposition.
-
-      date: 2020-04-07
-      type: pdb-group-deposition
-      url: https://www.rcsb.org/groups/summary/entry/G_1002153
-      projects: [Project 2]
-      cores: [Structural Biology Core]     
