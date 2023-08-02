@@ -160,6 +160,7 @@ TEP:
         * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
         * Construct protein sequence: 
           NS2B3: SMSGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEDDGPPMREGGGGSGGGGGSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGSALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGHSEVQLLAVPPGERARNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGRREEETPVE
+
     - name: "ZIKV NS2B-NS3 protease activity biochemical assay: Inactive assay construct with His to Ala mutation"
       id: flazi-NS2B3-protease_assay-biochemical
       Scarab id: QQ01ZVNS2B-c002
