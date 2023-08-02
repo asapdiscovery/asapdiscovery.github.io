@@ -31,14 +31,22 @@ TEP:
   - Andre de Godoy
   - Blake Balcomb
   - Charlie Tomlinson
+  - Charline Giroud
   - Daren Fearon
+  - Eleanor Williams
+  - Dong Wang
   - Haim Barr
   - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris
+  - Lizbé Koekemoer 
   - Lucas Ferreira
-  - Lizbé Koekemoer  
   - Noa Lahav
+  - Oleg Fedorov
   - Peter Marples
   - Tamas Szommer
+  - Warren Thompson
   - Xiaomin Ni
   #fragscreen_pdb_group_decomposition: 
   # Summary of Project
@@ -81,8 +89,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >      
-        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. For protein crystallization protein was exchanged into a buffer of 10 mM Bicine pH 8.5, 500 mM NaCl, 5 % Glycerol, 0.5 mM TCEP to allow a higher final protein concentration.
-      # Details associated with this plasmid
+        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in TB autoinduction medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 2, the temperature was lowered to 18°C for 24h to allow autoinduction through lactose metabolism was triggered overnight. Harvested cells were resuspended in lysis buffer [50 mM HEPES pH 7.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP] with addition of 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with wash buffer [10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP, 30mM imidazole] and target protein eluted using same buffer containing 300 mM imidazole. Protein was lastly purified by SEC (sepax SEC SRT-100) in a buffer consisting of 10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
         * Vector: pNIC-NHStIIT
@@ -95,7 +102,7 @@ TEP:
       id: eva71-3C-protease_plasmid-crystallography
       scarab_id: A71EV3CPROA-c002 
       # Brief description of the plasmid
-      description: Plasmid encoding an inactive mutant suitable for crystallography.
+      description:  Construct with Avi-tag suitable for biophysical assays requiring protein immobilization
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -112,7 +119,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >      
-        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, the temperature was lowered to 18°C before induction of protein expression overnight by adding 0.5 mM IPTG. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. For protein crystallization protein was exchanged into a buffer of 10 mM Bicine pH 8.5, 500 mM NaCl, 5 % Glycerol, 0.5 mM TCEP to allow a higher final protein concentration.
+        The construct was transformed into the *E. coli* strain BL21(DE3)-RR, and cells were grown at 37°C in TB medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 1, , the temperature was lowered to 18°C. After 1 hour 0.5 mM D-biotin was added and then after a further 1 hour induction of protein expression was induced by adding 0.5 mM IPTG and growth continued overnight. Harvested cells were resuspended in lysis buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP, 1% TX-100, 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase]. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 30 mM imidazole, 0.5 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. Protein was lastly purified by SEC (Superose 12 pg,Cytiva) in a buffer consisting of 10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol and 0.5 mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required. For protein crystallization protein was exchanged into a buffer of 10 mM Bicine pH 8.5, 500 mM NaCl, 5 % Glycerol, 0.5 mM TCEP to allow a higher final protein concentration.
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -126,7 +133,7 @@ TEP:
       id: eva71-3C-protease_plasmid-biophysical
       scarab_id: A71EV3CPROA-c003 
       # Brief description of the plasmid
-      description: Construct with Avi-tag suitable for biophysical assays requiring protein immobilization
+      description: Construct encoding an inactive version of the protein for crystallization controle.
       # Date it was provided
       date: 2022-10-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -181,7 +188,7 @@ TEP:
         Plates: ProxiPlate-384 Plus, white, Greiner cat# 6008280.
         Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
         Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
-        Protocol EV-A71 3C Pro: Ten µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate and incubate with the enzyme for one hour at room temperature. Enzymatic reaction was initiated by the addition of 10 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 490 nm was read every 30 seconds for 2 hours in kinetic mode.The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
+        Protocol EV-A71 3C Pro: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement. The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
     - name: Crystallization protocol for producing soakable crystals suitable for fragment screening
       id: eva71-3C-protease_crystallization-protocol
       description: Optimised conditions to reproduce crystals for fragment screening.

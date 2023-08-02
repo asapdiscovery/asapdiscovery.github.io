@@ -42,7 +42,7 @@ ASAP-EVA71-2APRO:
     - date: 2023-03-22
       description: Initial draft  
 
-ASAP-EVA71-3CLPRO:  
+ASAP-EVA71-3CLPRO:
   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-3CLPRO
   name: "Targeting Opportunity: EV-A71 3C protease"
   projects: [Project 1]
@@ -81,7 +81,7 @@ ASAP-EVD68-3CLPRO:
   projects: [Project 1]
   links:
   - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
+    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Enterovirus-D-68-protease-3C-52dcf83866b4444ebf4ee51085b8de10
   events:
     - date: 2023-03-22
       description: Initial draft  

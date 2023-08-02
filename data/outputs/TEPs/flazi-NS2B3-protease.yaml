@@ -29,15 +29,25 @@ TEP:
   - Xiaomin Ni
   - Blake Balcomb
   - Andre de Godoy
+  - Annette von Delft
+  - Beth MacLean
   - Charlie Tomlinson
+  - Charline Giroud
   - Daren Fearon
-  - Haim Barr
+  - Dong Wang
+  - Eleanor Williams
   - Jasmin Aschenbrenner
+  - Jessica Dixon
+  - Korvus Wang
+  - Lee Harris
   - Lizbé Koekemoer
+  - Lucas Ferreira
   - Michael Fairhead
-  - Noa Lahav
+  - Oleg Fedorov
   - Peter Marples
-  - Ryan Lithgo 
+  - Ryan Lithgo
+  - Tamas Szommer
+  - Warren Thompson
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
@@ -54,8 +64,9 @@ TEP:
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
-    - name: Protein expression construct of ZIKV NS2B-NS3 protease suitable for crystallography (construct XX01ZVNS2B-c002)
+    - name: Protein expression construct of ZIKV NS2B-NS3 protease suitable for crystallography
       id: flazi-NS2B3-protease_plasmid-crystallography
+      Scarab id: XX01ZVNS2B-c002
       # Brief description of the plasmid
       description:  Bicistronic construct expressing the NS2B cofactor and NS3 protease from Zika virus (64320) used for protein crystallography. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -117,8 +128,9 @@ TEP:
         * Construct protein sequence: 
           NS2B: SMGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEE
           NS3: MKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE
-    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay (construct QQ01ZVNS2B-c001)
+    - name: Protein expression construct of ZIKV NS2B-NS3 suitable for biochemical assay
       id: flazi-NS2B3-protease_plasmid-biochemical
+      Scarab id: QQ01ZVNS2B-c001
       # Brief description of the plasmid
       description:  Construct expressing the NS2B cofactor fused to the NS3 protease from Zika virus (64320) used for FRET assay. Generated using golden gate cloning and inverse PCR for construct boundary exploration, based on PDB 5GPI
       # Date it was provided
@@ -207,13 +219,11 @@ TEP:
         Buffer: Enzymes storage buffer 10 mM HEPES pH 7.3, 500 mM NaCl, 5% glycerol, 0.5 mM TCEP.
         
         Assay Buffer (final conc. In plate):
-        * 10 mM HEPES pH 7.3
-        * 50 mM NaCl
-        * 5 % glycerol
-        * 1 mM TCEP
-        * 0.05 % Igepal
+        * 20 mM Tris, pH 8.5
+        * 10 % glycerol
+        * 0.01 % Triton
         
-        Glycerol, Igepal and TCEP are added to the assay buffer before each run.
+        Glycerol and Triton are added to the assay buffer before each run.
 
         Design:
         * 10 µL of 10 µM substrate + 10 µL of 0.2 µM enzyme in assay buffer 
@@ -257,15 +267,15 @@ TEP:
  
     - name: Crystallization protocol for ZIKV NS2B-NS3 protease suitable for fragment soaking
       id: flazi-NS2B3-protease_crystallization-protocol-soaking
-      description: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to 1.6 Å and suitable for fragment soaking.
-      date: 2022-11-26
+      description: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to 1.6 Å and suitable for fragment soaking. PDB code: 8PN6
+      date: 2023-01-31
       type: crystallization-protocol
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
         Plate format: Swiss CI 3 lens
         Screen: 30% w/v PEG 2000, 0.2M Ammonium sulfate, 0.1M acetate (pH 4.8)
-        Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+        Buffer: 25mM HEPES, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
         Concentration: 15 mg/ml
         Reservoir volume: 30 µl
         Protein needed: 40 µl per full plate

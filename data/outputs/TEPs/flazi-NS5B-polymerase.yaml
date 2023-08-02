@@ -26,15 +26,33 @@ TEP:
   disease_relevance: NS5 encodes an RNA-dependent RNA polymerase
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
-    - Andre Schutzer Godoy
-    - Rafaela Sachetto Fernandes
-    - Glaucius Oliva
-    - Daren Fearon
-    - Charlie Tomlinson  
-    - Ryan Lithgo  
+    - Andre de Godoy
+    - Annette von Delft
+    - Anu Chandran
     - Blake Balcomb
-    - Jasmine Aschenbrenner
+    - Charlie Tomlinson
+    - Charline Giroud
+    - Daren Fearon
+    - Dong Wang
+    - Eleanor Williams
+    - Glaucius Oliva
+    - Haim Barr
+    - Jasmin Aschenbrenner
+    - Jessica Dixon
+    - Korvus Wang
+    - Lee Harris
+    - Lizbé Koekemoer 
+    - Lucas Ferreira
+    - Michael Fairhead
+    - Noa Lahav
+    - Oleg Fedorov
     - Peter Marples
+    - Peter Marples
+    - Rafaela Sachetto Fernandes
+    - Ryan Lithgo
+    - Tamas Szommer
+    - Warren Thompson
+    - Xiaomin Ni
   summary: >
     The RdRp is responsible for synthesizing a complementary negative-sense RNA strand that can then be used as a template to produce extra positive-sense RNA genomes. 
   scientific_background: >
@@ -42,41 +60,50 @@ TEP:
   conclusion: >
     Here we have established a purification protocol for recombinant 
     Truncated ZIKV RdRp from Zika viruses and established a robust crystallisation suitable for fragment screening
-  
   resources:
       # Construct / plasmid resource
       - name: Protein expression construct of ZIKV NS5B RdRp suitable for crystallography
         id: flazi-NSF5B-polymerase_plasmid-crystallography
-        # TODO: Check
-        date: 2022-10-01
+        scarab_id: XXX
         # Brief description of the plasmid
         description: |
           Truncated ZIKV RdRp construct bearing a N-terminal His-tag followed by a thioredoxin followed by a TEV-cleavage site.
           This protein construct yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.9 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
         # Date it was provided
-        date: TBD
+        date: 2022-10-01
         # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
         type: plasmid
+        # URL pointing to resource
+        # For a plasmid, this should be an AddGene entry
+        # ASAP Projects and Cores that contributed to this resource
+        # e.g. ['Project 2', 'Structural Biology Core']
+        # Contributors / authors
+        projects: [Project 2]
+        contributors:
+        - Andre de Godoy     
         protocol: |
-          A synthetic DNA fragment of the ZIKV NS5 (GenBank: AY632535.2) was codon optimized and synthesized by Genscript. The truncated version for crystallization was amplified using primers 5′-CAGGGCGCCATGTACCATGGGAGCTACGAAGC-3′ and 5′-GACCCGACGCGGTTACAACACTCCGGGTGTGG-3′ and inserted into the expression vector pETTrx-1a/LIC by ligation-independent cloning, as previously described [[3](https://doi.org/10.1038/ncomms14764)].
+          A synthetic DNA fragment of the ZIKV NS5 (GenBank: AY632535.2) was codon optimized and synthesized by Genscript. The truncated version for crystallization was amplified using primers 5′-CAGGGCGCCATGTACCATGGGAGCTACGAAGC-3′ and 5′-GACCCGACGCGGTTACAACACTCCGGGTGTGG-3′ and inserted into the expression vector pETTrx-1a/LIC by ligation-independent cloning, as previously described [[3](https://doi.org/10.1038/ncomms14764)]. The construct was transformed into the E.coli strain BL21(DE3)-RR and cells were grown at 37˚C in LB media supplemented with kanamycin (50µg/ml) shaking at 250 rpm. After reaching an optical density at 600 nm of 0.6, the temperature was lowered to 18˚C before induction of protein expression overnight with the addition of 0.5 mM IPTG. Shaking was reduced to 160 rpm to slow protein expression. Harvested cells were resuspended in lysis buffer (50 mM HEPES pH 7.5, 500 mM NaCl 25 mM Imidazole, 5 % (v/v) Glycerol, 0.5 mM TCEP-HCl, supplemented with 0.5 mg/mL Lysozyme, 1 X cOmplete™ EDTA free Protease Inhibitor, Benzonase and 2 mM MgCl2). Proteins were first purified by immobilized metal affinity chromatography (IMAC) at 4˚C using Ni-Sepharose 6 FF resin (Cytiva). The sample was incubated with the beads for no more than 15 minutes before the column was washed with binding buffer [10 mM Hepes (pH 7.5), 500 mM NaCl, 5% glycerol, 20 mM imidazole, 1 mM TCEP] and target protein eluted using same buffer containing 500 mM imidazole. The sample was desalted using a HiPrep 26/10 Desalting column (Cytiva) into TEV Cleavage Buffer (50 mM HEPES pH 7.5, 500 mM NaCl, 5 % (v/v) Glycerol 2 mM MgCl2 and 0.5 mM TCEP-HCl). The tag was removed by rapid digestion with Tev protease at a ratio of 1:10 incubating at room temperature while agitated for 1h. Cleaved tag and un-cleaved protein was removed by using Ni-Sepharose 6 FF resin (Cytiva) and the unbound fraction containing untagged protein collected. Note: Sensitivity to Ni resin of cleaved protein necessitates minimal contact with resin at this point, three passes through a gravity column were used. The resulting protein was pooled, concentrated and injected into a HiLoad 16/60 Superdex 200 column (Cytiva) equilibrated with Gel Filtration Buffer (50 mM HEPES pH 7.5, 500 mM NaCl, 5 % (v/v) Glycerol and 0.5 mM TCEP-HCl). Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
         details: |
-          Construct protein sequence: 
-          YHGSYEAPTQGSASSLVNGVVRLLSKPWDVVTGVTGIAMTDTTPYGQQRVFKEKVDTR
-          VPDPQEGTRQVMNIVSSWLWKELGKRKRPRVCTKEEFINKVRSNAALGAIFEEEKEWK
-          TAVEAVNDPRFWALVDREREHHLRGECHSCVYNMMGKREKKQGEFGKAKGSRAIWYMW
-          LGARFLEFEALGFLNEDHWMGRENSGGGVEGLGLQRLGYILEEMNRAPGGKMYADDTA
-          GWDTRISKFDLENEALITNQMEEGHRTLALAVIKYTYQNKVVKVLRPAEGGKTVMDIIS
-          RQDQRGSGQVVTYALNTFTNLVVQLIRNMEAEEVLEMQDLWLLRKPEKVTRWLQSNGW
-          DRLKRMAVSGDDCVVKPIDDRFAHALRFLNDMGKVRKDTQEWKPSTGWSNWEEVPFCS
-          HHFNKLYLKDGRSIVVPCRHQDELIGRARVSPGAGWSIRETACLAKSYAQMWQLLYFH
-          RRDLRLMANAICSAVPVDWVPTGRTTWSIHGKGEWMTTEDMLMVWNRVWIEENDHMED
-          KTPVTKWTDIPYLGKREDLWCGSLIGHRPRTTWAENIKDTVNMVRRIIGDEEKYMDYL
-          STQVRYLGEEGSTPGVL
+          * Vector: pETTrx-1a/LIC
+          * Entry clone accession: AY632535.2
+          * Cell line: E. coli Rosetta strain E.coli strain BL21(DE3)-RR
+          * Tags and additions: C-terminal, cleavable hexahistidine
+          * Construct protein sequence: YHGSYEAPTQGSASSLVNGVVRLLSKPWDVVTGVTGIAMTDTTPYGQQRVFKEKVDTRVPDPQEGTRQVMNIVSSWLWKELGKRKRPRVCTKEEFINKVRSNAALGAIFEEEKEWKTAVEAVNDPRFWALVDREREHHLRGECHSCVYNMMGKREKKQGEFGKAKGSRAIWYMWLGARFLEFEALGFLNEDHWMGRENSGGGVEGLGLQRLGYILEEMNRAPGGKMYADDTAGWDTRISKFDLENEALITNQMEEGHRTLALAVIKYTYQNKVVKVLRPAEGGKTVMDIISRQDQRGSGQVVTYALNTFTNLVVQLIRNMEAEEVLEMQDLWLLRKPEKVTRWLQSNGWDRLKRMAVSGDDCVVKPIDDRFAHALRFLNDMGKVRKDTQEWKPSTGWSNWEEVPFCS
+          HHFNKLYLKDGRSIVVPCRHQDELIGRARVSPGAGWSIRETACLAKSYAQMWQLLYFHRRDLRLMANAICSAVPVDWVPTGRTTWSIHGKGEWMTTEDMLMVWNRVWIEENDHMEDKTPVTKWTDIPYLGKREDLWCGSLIGHRPRTTWAENIKDTVNMVRRIIGDEEKYMDYLSTQVRYLGEEGSTPGVL
 
           Purification trials:
 
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 3.pdf" download>Download experimental metadata of trial 3</a>
           
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 4.pdf" download>Download experimental metadata of trial 4</a>
-
-
+  - name: Experimental crystallization protocol for Zika NS5 RNA-dependent RNA polymerase; not yet tested for fragment screening suitability
+    id: Initial crystallization screen
+    description: |
+      We obtained crystal which diffracted to 2.0 Å.
+      PDB to be released: 
+    date: 2022-11-26
+    type: xray-fragment-screen
+    projects: [Project 2]
+    cores: [Structural Biology Core]     
+    protocol: >
+      Initial diffracting crystals were found in the Morpheus screen from Molecular dimensions using the protein at 6 mg/ml in 300 nl drops (1:1 ratio). Crystals grew at 20 degrees in most conditions containing 10 % w/v PEG 8000, 20 % v/v ethylene glycol and a mix of additives with either 0.1 M MOPS/HEPES-Na, pH 7.5, or 0.1 M bicine/Trizma base, pH 8.5. For further crystallisation plates, the protein was crystallised in 0.1 M MOPS/HEPES-Na, pH 7.5, 10 % w/v PEG 8000, 20 % v/v ethylene glycol and 0.03 M of each ethylene glycol additive mix. Crystals diffracted on average to 2.0 Å.
