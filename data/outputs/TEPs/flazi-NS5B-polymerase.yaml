@@ -96,7 +96,7 @@ TEP:
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 3.pdf" download>Download experimental metadata of trial 3</a>
           
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 4.pdf" download>Download experimental metadata of trial 4</a>
-  - name: Experimental crystallization protocol for ika NS5 RNA-dependent RNA polymerase; not yet tested for fragment screening suitability
+  - name: Experimental crystallization protocol for Zika NS5 RNA-dependent RNA polymerase; not yet tested for fragment screening suitability
     id: Initial crystallization screen
     description: |
       We obtained crystal which diffracted to 2.0 Å.
