@@ -102,7 +102,7 @@ TEP:
         * Tags and additions: SUMO-tag
         * Construct protein sequence: 
           MHHHHHHGSGDQEAKPSTEDLGDKKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQGVPMNSLRFLFEGQRIADNHTPKELGMEEEDVIEVYQEQTGG//SGAIYVGNYRVVNRHLATHNDWANLVWEDSSRDLLVSSTTAQGCDTIARCDCQTGVYYCSSRRKHYPVSFSKPSLIFVEASEYYPARYQSHLMLAVGHSEPGDCGGILRCQHGVVGIVSTGGNGLVGFADVRDLLWLDEEAMEQ  
-    - name: Crystal structure of EV-A71 2A protease at 1.6 Å resolution in C121 space group, PDB: 8POA
+    - name: "Crystal structure of EV-A71 2A protease at 1.6 Å resolution in C121 space group, PDB: 8POA"
       id: eva71-2A-protease_structure-initial
       date: 2022-11-26
       type: structure
