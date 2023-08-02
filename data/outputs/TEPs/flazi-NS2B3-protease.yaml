@@ -267,15 +267,16 @@ TEP:
  
     - name: Crystallization protocol for ZIKV NS2B-NS3 protease suitable for fragment soaking
       id: flazi-NS2B3-protease_crystallization-protocol-soaking
-      description: Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to 1.6 Å and suitable for fragment soaking.
-      date: 2022-11-26
+      description: >
+        Crystallography with NS2B and NS3 coexpressed protein from XX01ZVNS2B-c002 diffracted to 1.6 Å and suitable for fragment soaking. PDB code: 8PN6
+      date: 2023-01-31
       type: crystallization-protocol
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
         Plate format: Swiss CI 3 lens
         Screen: 30% w/v PEG 2000, 0.2M Ammonium sulfate, 0.1M acetate (pH 4.8)
-        Buffer: 25mM HEPEs, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
+        Buffer: 25mM HEPES, pH 7.5, 150mM NaCl, 0.5mM TCEP, 5% Glycerol
         Concentration: 15 mg/ml
         Reservoir volume: 30 µl
         Protein needed: 40 µl per full plate

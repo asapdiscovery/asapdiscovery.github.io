@@ -27,14 +27,15 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
     - Andre de Godoy
-    - Rafaela Sachetto Fernandes
-    - Glaucius Oliva
+    - Annette von Delft
+    - Anu Chandran
     - Blake Balcomb
     - Charlie Tomlinson
     - Charline Giroud
     - Daren Fearon
     - Dong Wang
     - Eleanor Williams
+    - Glaucius Oliva
     - Haim Barr
     - Jasmin Aschenbrenner
     - Jessica Dixon
@@ -46,18 +47,12 @@ TEP:
     - Noa Lahav
     - Oleg Fedorov
     - Peter Marples
+    - Peter Marples
+    - Rafaela Sachetto Fernandes
     - Ryan Lithgo
     - Tamas Szommer
     - Warren Thompson
     - Xiaomin Ni
-    - Rafaela Sachetto Fernandes
-    - Glaucius Oliva
-    - Daren Fearon
-    - Charlie Tomlinson  
-    - Ryan Lithgo  
-    - Blake Balcomb
-    - Jasmine Aschenbrenner
-    - Peter Marples
   summary: >
     The RdRp is responsible for synthesizing a complementary negative-sense RNA strand that can then be used as a template to produce extra positive-sense RNA genomes. 
   scientific_background: >
@@ -101,3 +96,14 @@ TEP:
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 3.pdf" download>Download experimental metadata of trial 3</a>
           
           <a href="/pdfs/flazi_ns5_rdrp Expression and Purification of Zika NS5 RDRP Trial 4.pdf" download>Download experimental metadata of trial 4</a>
+      - name: Experimental crystallization protocol for Zika NS5 RNA-dependent RNA polymerase; not yet tested for fragment screening suitability
+        id: Initial crystallization screen
+        description: |
+          We obtained crystal which diffracted to 2.0 Å.
+          PDB to be released:
+        date: 2022-11-26
+        type: xray-fragment-screen
+        projects: [Project 2]
+        cores: [Structural Biology Core]
+        protocol: >
+          Initial diffracting crystals were found in the Morpheus screen from Molecular dimensions using the protein at 6 mg/ml in 300 nl drops (1:1 ratio). Crystals grew at 20 degrees in most conditions containing 10 % w/v PEG 8000, 20 % v/v ethylene glycol and a mix of additives with either 0.1 M MOPS/HEPES-Na, pH 7.5, or 0.1 M bicine/Trizma base, pH 8.5. For further crystallisation plates, the protein was crystallised in 0.1 M MOPS/HEPES-Na, pH 7.5, 10 % w/v PEG 8000, 20 % v/v ethylene glycol and 0.03 M of each ethylene glycol additive mix. Crystals diffracted on average to 2.0 Å.
