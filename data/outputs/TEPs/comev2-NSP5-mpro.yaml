@@ -267,3 +267,49 @@ TEP:
         Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
       details: |
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
+    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
+        Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
+        electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
+        at the XChem facility of Diamond Light Source beamline I04-1
+
+        Selected structures were deposited in the PDB via a group deposition.
+
+      date: 2020-04-07
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002153
+      projects: [Project 2]
+      cores: [Structural Biology Core] 
+      
+    - name: Fluorescence assay for MERS-Mpro activity measurement
+      id: MERS-Mpro-protease_biochemical-assay
+      description: |
+        This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence specific to the tested protease and is labeled in C-terminal by the fluorophore Edans (ex 336 nm; em: 455 nm) and in N-ternimal by the quencher Dabcyl (ex 472 nm). In the case of a non-cleaved substrate, the proximity of Dabcyl to Edans prevents the emission and the detection of the fluorescence at 455 nm. The cleavage of the peptide by the protease allows Edans’ fluorescence emission and detection.
+      # Date it was provided
+      date: 2023-07-13
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: biochemical-assay
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Charline Giroud
+      - Oleg Federov
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol: |
+        Assay buffer: 20mM NaCl, 25 mM HEPES, 0.05% Tween-20, 0.05% BSA
+        Incubation: 1 hour at room temperature.
+        MERS Mpro: protein stocks were stored at -80C and used as 2x solution (1 µM, 0.5 µM final assay concentration) in assay buffer.
+        Substrate: Edans-GVLQSGLV-LysDabcyl-K (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
+        Plates: 384 well plate, white, f-bottom (Greiner #781074).
+        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
+        Plate reader: Pherastar FS, BMG Labtech (Germany), 350-460 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
+        Method: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement.
+        The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
