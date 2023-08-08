@@ -68,7 +68,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-nov"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))([ASAP](https://asapdiscovery.org/))
 * **[Alejandro Chavez, UC San Diego](https://chavezlab.com/)**: *TBD*  
-* **[Duncan Scott, University of Dundee](https://www.dundee.ac.uk/people/duncan-scott)**: *TBD*  
+* **[Duncan Scott, University of Dundee](https://www.dundee.ac.uk/people/duncan-scott)**: *Targeting the nsp14 methyltransferase of coronaviruses*  
 
 # Past Presentations
 
