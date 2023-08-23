@@ -35,13 +35,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 
-**Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-aug"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *Fighting recent outbreaks of RNA viruses in Brazil*
-* **[Melanie Ott, UCSF](https://bms.ucsf.edu/people/melanie-ott-md-phd)**: *Understanding SARS-CoV-2 Variants through Reverse Genetics*
-
 **Wed 20 September 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-sept"></a><br>
@@ -53,59 +46,92 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-oct"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
 * **[David Perlin](https://hmh-cdi.org/our-team/perlin-lab/)** and **[Ching Wen-Chen](https://scholar.google.com/citations?user=zK5eDiEAAAAJ&hl=zh-TW)**, **[Center for Discovery and Innovation](https://hmh-cdi.org/) ([MAVDA](https://www.mavdaresearch.org/en))**: *TBD*
+* *TBD*
  
 **Wed 15 November 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-nov"></a><br>
-*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
 * **[Ivan Ahel, University of Oxford](https://www.path.ox.ac.uk/content/ivan-ahel)**: *TBD*  
 * **[Craig Cameron, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/craig-e-cameron-phd/)**: *TBD*
 
 **Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-nov"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))([ASAP](https://asapdiscovery.org/))
+<a name="2023-dec"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Alejandro Chavez, UC San Diego](https://chavezlab.com/)**: *TBD*  
 * **[Duncan Scott, University of Dundee](https://www.dundee.ac.uk/people/duncan-scott)**: *Targeting the nsp14 methyltransferase of coronaviruses*  
+
+**Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-jan"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Timothy Sheahan, UNC Chapel Hill](https://sph.unc.edu/adv_profile/timothy-sheahan-phd/) ([READDI-AC](https://readdi.org/))**: *Preparing for tomorrow’s pandemics today through the development of broad-spectrum antivirals*  
+* **[Sumit Chanda, Scripps Research](https://www.chandalab.org/) ([CAMPP](https://www.campp.org/))**: *TBD*
+  
+**Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-nov"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/?)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*  
+* **[Ralph Baric, UNC Chapel Hill](https://sph.unc.edu/adv_profile/ralph-s-baric-phd/) ([READDI-AC](https://readdi.org/))**: *TBD*
+
+**Wed 20 March 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-nov"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Melissa Barber, Harvard University](https://scholar.harvard.edu/melissabarber/home)**: *TBD*
+* **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*TBD*
+
+**Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-nov"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
+* *TBD*
+
 
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
-<a name="2023-july"></a><br>
-**Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+**Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2023-aug"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Thiago Moreno L. Souza, Center for Technological Development in Health (CDTS/Fiocruz)](https://scholar.google.com/citations?user=7wajRZsAAAAJ&hl=pt-BR)**: *Fighting recent outbreaks of RNA viruses in Brazil* **[[Video]](https://youtu.be/wjIY-ZwbNeM)** 
+* **[Melanie Ott, UCSF](https://bms.ucsf.edu/people/melanie-ott-md-phd)**: *Understanding SARS-CoV-2 Variants through Reverse Genetics* **[[Video]](https://youtu.be/h27qVj1UVqE)**
 
+**Wed 19 July 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2023-july"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Karla Kirkegaard, Stanford University](https://web.stanford.edu/group/kirkegaard/karla.html) ([ASAP](http://asapdiscovery.org))**: *Biochemistry of suppressing drug resistance by viral quasispecies*  **[[Video]](https://youtu.be/XpKjrsBQlYA)** 
 * **[Marnix van Loock, Johnson & Johnson](https://organovir.com/marnix-van-loock/)**: *The role of public-private partnerships in the discovery and development of a pan-serotype antiviral to prevent and treat dengue* **[[Video]](https://youtu.be/9Kb2CdlUwoo)**  **[[Slides]](https://zenodo.org/record/8187650)**
-<a name="2023-june"></a>
 
 **Wed 21 June 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 
+<a name="2023-june"></a>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html)([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))([ASAP](https://asapdiscovery.org/))
 * **[Johan Neyts, Ku Leuven](https://rega.kuleuven.be/cmt/jn/staff-1/staff/00014425)**: *The Battle of Leuven against Viruses*  **[[Video]](https://youtu.be/pWFyLVcDGkg)**
 * **[Ryan Lithgo, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/MPL/Staff/Lithgo.html) ([ASAP](http://asapdiscovery.org))**: *Crystallographic fragment screening of Enterovirus D68 3C protease as part of the AI-driven Structure-enabled Antiviral Platform (ASAP)* **[[Video]](https://youtu.be/5e52JSNia4o)**
 
-<a name="2023-may"></a>
 
 **Wed 17 May 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2023-may"></a>
 
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Mauro Teixeira, UFMG](https://scholar.google.com/citations?user=njJyXhsAAAAJ&hl=en)**: *Anti-inflammatory drugs for infectious diseases: the case for pro-resolving molecules*  **[[Video]](https://www.youtube.com/watch?v=pRBV85NrHG8)**
 * **[Reuben Harris, UT Health San Antonio](https://directory.uthscsa.edu/academics/profile/rsh) ([Midwest AViDD Center](https://midwestavidd.umn.edu/midwest-avidd-center-abstract))**: *Rapid methods for Mpro inhibitor resistance profiling* **[[Video]](https://www.youtube.com/watch?v=YkCDnNZarGw)**
 
-<a name="2023-april"></a>
-
 **Wed 19 April 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*<br> 
+<a name="2023-april"></a>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Matthias Gotte, University of Alberta](https://www.ualberta.ca/medicine/about/people/details.html?n=matthias-gotte)**: *What is the value of mechanism of action studies in the development of nucleotide analogue polymerase inhibitors?* **[[Video]](https://youtu.be/Q4wl1S-3WWE)**
 * **[Andre de Godoy, University of Sao Paulo](https://scholar.google.com/citations?user=1bIgVeMAAAAJ&hl=en)**: *Structural insights on the SARS-CoV-2 Main Protease maturation process and inhibition* **[[Video]](https://youtu.be/cKlGMGWotCE)** **[[Slides]](https://zenodo.org/record/7853715#.ZELyD-zML0o)** 
 
-<a name="2023-march"></a>
 
 **Wed 15 Mar 2023**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)*<br>
+<a name="2023-march"></a>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Celia Schiffer, UMass Chan](https://www.umassmed.edu/schifferlab/) ([ASAP](https://asapdiscovery.org/))**: *Avoiding drug resistance:  Defining the substrate envelope for the design of viral protease inhibitors* **[[Video]](https://www.youtube.com/watch?v=boaTNFr7k_8)**
 * **[Alison Krentel, University of Ottawa](https://med.uottawa.ca/epidemiology/people/krentel-alison)**: *Now it’s been made, how will it be used? Exploring the pathway from lab to community* **[[Video]](https://www.youtube.com/watch?v=a1jUteI-PVs)** **[[Slides]](https://zenodo.org/record/7781958#.ZCRJa-zML0o)** 
