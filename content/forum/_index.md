@@ -38,8 +38,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 20 September 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-sept"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* *TBD*  
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Stephanie Wills, University of Oxford](https://www.stats.ox.ac.uk/people/stephanie-wills)**: *TBD*  
 * *TBD*
 
 **Wed 18 October 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
