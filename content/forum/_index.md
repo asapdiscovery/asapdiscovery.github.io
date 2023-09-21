@@ -35,13 +35,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
 
-**Wed 20 September 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-sept"></a><br>
-*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
-* **[Stephanie Wills, University of Oxford](https://www.stats.ox.ac.uk/people/stephanie-wills)**: *Algorithms for progressing crystallographic fragment hits at XChem: Fragment merging using the Fragment Network*  
-* **[Serghei Glinca, CrystalsFirst](https://www.crystalsfirst.com/)**: *Magnet for the needle in haystacks: Unlocking chemical matter using “crystal structure first” fragment hits*
-
 **Wed 18 October 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-oct"></a><br>
@@ -95,6 +88,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 20 September 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2023-sept"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Stephanie Wills, University of Oxford](https://www.stats.ox.ac.uk/people/stephanie-wills)**: *Algorithms for progressing crystallographic fragment hits at XChem: Fragment merging using the Fragment Network*  
+* **[Serghei Glinca, CrystalsFirst](https://www.crystalsfirst.com/)**: *Magnet for the needle in haystacks: Unlocking chemical matter using “crystal structure first” fragment hits*
 
 **Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2023-aug"></a><br>
