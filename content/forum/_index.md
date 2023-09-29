@@ -93,8 +93,8 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-sept"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
-* **[Stephanie Wills, University of Oxford](https://www.stats.ox.ac.uk/people/stephanie-wills)**: *Algorithms for progressing crystallographic fragment hits at XChem: Fragment merging using the Fragment Network*  
-* **[Serghei Glinca, CrystalsFirst](https://www.crystalsfirst.com/)**: *Magnet for the needle in haystacks: Unlocking chemical matter using “crystal structure first” fragment hits*
+* **[Stephanie Wills, University of Oxford](https://www.stats.ox.ac.uk/people/stephanie-wills)**: *Algorithms for progressing crystallographic fragment hits at XChem: Fragment merging using the Fragment Network*  **[[Video]](https://youtu.be/bkWyWhZAIpE)**  **[[Slides]](https://zenodo.org/record/8393682)** **[[Paper]](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00276#)**
+* **[Serghei Glinca, CrystalsFirst](https://www.crystalsfirst.com/)**: *Magnet for the needle in haystacks: Unlocking chemical matter using “crystal structure first” fragment hits* **[[Video]](https://youtu.be/ByEWk20Ru7I)**  **[[Slides]](https://zenodo.org/record/8393694)** **[[Paper]](https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.2c00813)**
 
 **Wed 16 August 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2023-aug"></a><br>
