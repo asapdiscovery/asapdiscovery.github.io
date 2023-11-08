@@ -25,14 +25,16 @@ ASAP-SARS-COV-2-NSP3-MAC1:
   cores: [Biochemical Assay Core, Data Core]
   links:
   - name: metadata
-    url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-0ecb0d3d0cfc466cbc81096160f330e2
-  - name: assay data
-    url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
-  - name: assay protocol
+    url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-Inhibitor-Data-Release-9e454e794ee44df693251477ff8686e9
+  - name: complete assay data
+    url: https://app.postera.ai/account/molecule-set/60333b19-8605-424c-a1d9-f2651026153f
+  - name: biochemical assay protocol
     url: https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2
   events: 
   - date: 2023-04-30
     description: Initial public release of hit-to-lead biochemical assay data for 783 molecules.
+  - date: 2023-11-07
+    description: Complete public data release of hit-to-lead biochemical assay and ADMET data for 1107 molecules.
 
 ASAP-DENV-NS2B-NS3:
   permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-DENV-NS2B-NS3
