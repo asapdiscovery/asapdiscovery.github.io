@@ -1,12 +1,13 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus D68 3C protease"
+  name: "EV-D68/A71 3C protease"
   target: 3CLpro
   program_code: ASAPPSOTNS
   program_nickname: ASAP-EVD68-3CLPRO
   viruses:
-    - Enterovirus D68
+    - EV-D68
+    - EV-A71
   img: "enterovirus-3C-protease.png"
 
 funding_source:  
@@ -20,9 +21,24 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  id: ASAP-TPP-EVD68-ADULT
+  id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
+  status: completed
+
+TCP:
+  status: completed
+  id: ASAP-EVD68-3CLPRO
+
+assay_cascade:
+  status: in-progress
+  id: ASAP-ASSAY-EVD68-3CLPRO
+
+hit_to_lead:
   status: in-progress
 
+molecules:
+  status: in-progress
 
+publications:
+  status: in-progress
