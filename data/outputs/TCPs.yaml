@@ -6,7 +6,7 @@ ASAP-COV-MPRO:
   projects: [Project 5]
   links:
   - name: Target Candidate Profile
-    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g1ddbe4124e9_2_11
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_227
   events:
     - date: 2023-03-01
       description: Initial draft  
@@ -19,7 +19,7 @@ MOONSHOT-COV-MPRO:
   status: completed
   links:
   - name: Target Candidate Profile
-    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_13
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_155
   date: 2020-04-01
   events:
     - date: 2020-04-01
@@ -33,8 +33,39 @@ ASAP-SARS-COV-2-NSP3-MAC1:
   status: completed
   links:
   - name: Target Candidate Profile for lead nomination
-    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g208e3a5fffa_0_24
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_165
   events:
     - date: 2023-03-01
       description: Initial draft  
+
+ASAP-EVD68-3CLPRO:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-EVD68-3CLPRO
+  name: EV-D68/A71 Oral 3C protease inhibitor
+  type: Target Candidate Profile
+  projects: [Project 3, Project 5]
+  status: completed
+  links:
+  - name: Lead Transition Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2881a7b0765_4_0
+  - name: Target Candidate Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_165
+  events:
+    - date: 2023-06-22
+      description: Initial drafts
+
+ASAP-ZIKA-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-ZIKA-NS2B-NS3
+  name: Target Candidate Profile Dengue & Zika NS2B-NS3 Protease Oral Community
+  type: Target Candidate Profile
+  projects: [Project 3, Project 5]
+  status: completed
+  links:
+  - name: Target Candidate Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_340
+  events:
+    - date: 2023-03-01
+      description: Initial draft  
+    - date: 2023-05-11
+      description: Consolidate DENV/ZIKV
+
 

@@ -27,9 +27,12 @@ TPP:
   status: completed
   id: ASAP-TPP-ZIKA
 
+TCP:
+  status: completed
+  id: ASAP-ZIKA-NS2B-NS3
+
 TEP:
-  # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: completed
 
 assay_cascade:
   status: in-progress
@@ -37,5 +40,11 @@ assay_cascade:
 covalent_targeting:
   status: in-progress
 
+hit_to_lead:
+  status: in-progress
+
 molecules:
+  status: in-progress
+
+publications:
   status: in-progress

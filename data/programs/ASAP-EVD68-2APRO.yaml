@@ -1,12 +1,14 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus D68 2A protease"
+  name: "EV-D68/A71 2A protease"
   target: 2Apro
   program_code: ASAPPWAUTP
   program_nickname: ASAP-EVD68-2APRO
   viruses:
-    - Enterovirus D68
+    - EV-D68
+    - EV-A71
+
   img: "enterovirus-2A-protease.png"
 
 funding_source:  
@@ -20,7 +22,7 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  id: ASAP-TPP-EVD68-ADULT
+  id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
   status: not-started

@@ -1,12 +1,13 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "Enterovirus A71 3CD protease"
+  name: "EV-D68/A71 3CD protease"
   target: 3CLpro
   program_code: ASAPPWGUTW
   program_nickname: ASAP-EVD68-3CDPRO
   viruses:
-    - Enterovirus D68
+    - EV-D68
+    - EV-A71
   img: "enterovirus-3C-protease.png"
 
 funding_source:  
@@ -20,7 +21,7 @@ targeting_opportunity:
 
 TPP:
   status: completed
-  id: ASAP-TPP-EVD68-ADULT
+  id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?

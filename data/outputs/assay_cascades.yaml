@@ -30,8 +30,19 @@ ASAP-SARS-COV-2-NSP3-MAC1:
     url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0
   projects: [Project 3, Project 5]
   cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
-  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
   events:
   - date: 2022-06-01
     description: Initial draft
 
+ASAP-ZIKA-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-ZIKA-NS2B-NS3
+  name: EV-D68 / EV-A71 3C Protease Assay Cascade
+  description: Assay cascade for EV-D68 / EV-A71 3C Protease oral antiviral
+  links:
+  - name: Assay Cascade
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g2593c546e58_0_0
+  projects: [Project 3, Project 5]
+  cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
+  events:
+  - date: 2022-07-14
+    description: Initial draft
