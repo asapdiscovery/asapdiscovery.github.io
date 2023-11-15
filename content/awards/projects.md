@@ -32,3 +32,26 @@ Antiviral drug development is confounded by the use of cell lines that do not fa
 ### Project Leader: Thomas Zwaka, Icahn School of Medicine at Mount Sinai, New York, NY
 
 ---
+
+# Mentored Research Projects
+
+---
+
+## Bespoke Molecular Models for the AI-Driven Structure-Enabled Antiviral Platform
+
+The AI-driven Structure-Enabled Antiviral Platform (ASAP) employs state-of-the-art massively distributed computational free energy calculations to predict binding affinities between a lead compound and its therapeutic target in order to make efficient use of synthetic resources. Yet
+the predictive ability is critically reliant on the accuracy of the simplified computational models (or force fields) that underlie the atomistic simulations. I propose to leverage breakthroughs in my work with the Open Force Field Initiative, to build bespoke force fields for the accurate description of the dynamics and interactions of compound series relevant to the ASAP goals.
+
+### Project Leader: Joshua Horton, Newcastle University, Newcastle upon Tyne, United Kingdom
+
+---
+
+## Rapid, expansive and out-of-catalogue exploration of fragment merges via synthesis on low-cost robotics
+Aim 1: 10 - 100x sampling of fragment merges within catalogue-scale budget. This project aims to make
+multi-step synthesis of antiviral compounds cheap (<5k) and rapid (<4 weeks) for the exploration of the merge-design space, a product of generative design algorithms, that uses the power of multiple fragments, to maximise the number of protein interactions through combining experimentally determined fragment structural-poses (3D) and electron density distribution (functional groups). [1-3]
+Aim 2: Escape catalogues by multi-step reactions within realistic budget. To fully exploit the antiviral
+merging design space required to achieve Aim 1, this project aims to digitise multi-step chemistry as required, by reaction pathways suggested my Manifold, for the synthesis of merging designs. Reaction protocols, CAR’s digitised reaction repertoire, will be generalised for automated chemistry suitability, as required by merging designs.
+Aim 3: Mitigate synthetic attrition by executing multiple reaction routes per compound. Synthetic protocol
+development requires exploration of multiple condition parameters and should not be limited to traditional bench- based investigations. This project aims to expand CAR’s ability to execute multiple protocols per reaction type, using the power of automation, to rapidly explore multiple reaction conditions. This extends to utilising multiple protocols for the synthesis of antivirals requiring chemistry, example Buchwald-Hartwig, sensitive to parameter choice.
+
+### Project Leader: Warren Thompson, Diamond Light Source, Oxford, United Kingdom
