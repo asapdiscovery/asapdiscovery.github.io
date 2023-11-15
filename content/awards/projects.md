@@ -1,3 +1,10 @@
+---
+description: "Developmental Research Project and Mentored Project Awards"
+title: "projects"
+draft: false
+layout: faq
+---
+
 # Developmental Research Projects
 
 ## Defining mutational constraints of ASAP-prioritized SARS-CoV-2 target proteins via multiplexed, yeast-based cDNA
