@@ -68,7 +68,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-nov"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
-* *TBD*
+* **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Covalent approaches for anti-virals*
 
 
 # Past Presentations
