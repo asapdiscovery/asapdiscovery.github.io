@@ -59,7 +59,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 20 March 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-nov"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Melissa Barber, Harvard University](https://scholar.harvard.edu/melissabarber/home)**: *TBD*
 * **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
