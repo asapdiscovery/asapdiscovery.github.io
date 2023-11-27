@@ -38,35 +38,35 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-dec"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Alejandro Chavez, UC San Diego](https://chavezlab.com/)**: *TBD*  
 * **[Duncan Scott, University of Dundee](https://www.dundee.ac.uk/people/duncan-scott)**: *Targeting the nsp14 methyltransferase of coronaviruses*  
 
 **Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-jan"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
 * **[Timothy Sheahan, UNC Chapel Hill](https://sph.unc.edu/adv_profile/timothy-sheahan-phd/) ([READDI-AC](https://readdi.org/))**: *Preparing for tomorrow’s pandemics today through the development of broad-spectrum antivirals*  
 * **[Sumit Chanda, Scripps Research](https://www.chandalab.org/) ([CAMPP](https://www.campp.org/))**: *TBD*
   
 **Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-nov"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/?)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*  
 * **[Ralph Baric, UNC Chapel Hill](https://sph.unc.edu/adv_profile/ralph-s-baric-phd/) ([READDI-AC](https://readdi.org/))**: *TBD*
 
 **Wed 20 March 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-nov"></a><br>
-*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Melissa Barber, Harvard University](https://scholar.harvard.edu/melissabarber/home)**: *TBD*
 * **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-nov"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[John Young, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
 * **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Covalent approaches for anti-virals*
 
