@@ -130,7 +130,7 @@ TEP:
       * Tags and additions: N-terminal, TEV protease cleavable hexahistidine
       * Construct protein sequence: 
         SMSTDMWIERTADISWESDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKGGGGSGGGGGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWATTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPIPAGFEPEMLRKK
-  - name: Experimental crystallization protocol for WNV NS2B-NS3 protease - not yet suitable for fragment screening
+  - name: Experimental crystallization protocol of inactive WNV NS2B-NS3 protease (construct QQ01WNVNS2B-c002) - not suitable for fragment screening
     id: flawn-NS2B3-protease_crystallization-protocol-1
     description: |
       The NS2B-NS3 fusion protein with the catalytically important His mutated to Ala crystallized in various coarse screen conditions. 
@@ -154,3 +154,46 @@ TEP:
       Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections. <br>
       Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance.  <br>
       Size:  ~75-100um in length, width and depth 
+  - name: Additional constructs cloned and availible on addgene
+    id: flawn-NS2B3-protease_plasmid-biochemical
+    # Brief description of the plasmid
+    description: | 
+      Construct expressing literature construct 
+      PDBID: 2GGV [https://www.rcsb.org/structure/2GGV]
+    # Date it was provided
+    date: 2022-10-24
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: plasmid
+    # URL pointing to resource
+      addgene: https://www.addgene.org/204797/
+    # For a plasmid, this should be an AddGene entry
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Michael Fairhead
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
+    id: flawn-NS2B3-protease_plasmid-biochemical
+    # Brief description of the plasmid
+    description: | 
+      Construct expressing literature construct 
+      PDBID: 2IJO [https://www.rcsb.org/structure/2IJO]
+    # Date it was provided
+    date: 2022-10-24
+    # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+    type: plasmid
+    # URL pointing to resource
+      https://www.addgene.org/204799/
+    # For a plasmid, this should be an AddGene entry
+    # ASAP Projects and Cores that contributed to this resource
+    # e.g. ['Project 2', 'Structural Biology Core']
+    projects: [Project 2]
+    # Contributors / authors
+    contributors:
+    - Michael Fairhead
+    # Detailed expression protocol associated with this plasmid
+    # This is Markdown: See https://www.markdownguide.org/ for guide    
+    # TODO: In future, this should be a protocols.io link
