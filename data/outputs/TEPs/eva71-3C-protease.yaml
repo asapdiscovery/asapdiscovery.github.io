@@ -200,7 +200,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol:
-        url: dx.doi.org/10.17504/protocols.io.yxmvm3e89l3p/v1
+        Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.yxmvm3e89l3p/v1)
       details: 
         <a href="/pdfs/PAGE23-00333 - AVIDD ASAP; A71EV3CPROA & D68EV3CPROA & A71EV2A Avitag insertion and C2A mutations.pdf" download>Download experimental metadata 1</a>
         <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata 2</a>

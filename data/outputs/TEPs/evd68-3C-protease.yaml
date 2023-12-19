@@ -170,7 +170,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
-        url: dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1
+        Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1)
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
       description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
