@@ -165,7 +165,7 @@ TEP:
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
-      url: https://www.addgene.org/204797/
+    url: https://www.addgene.org/204797/
     # For a plasmid, this should be an AddGene entry
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
@@ -176,6 +176,7 @@ TEP:
     # Detailed expression protocol associated with this plasmid
     # This is Markdown: See https://www.markdownguide.org/ for guide    
     # TODO: In future, this should be a protocols.io link
+  - name: Additional constructs cloned and availible on addgene -- continued
     id: flawn-NS2B3-protease_plasmid-biochemical
     # Brief description of the plasmid
     description: | 
@@ -186,7 +187,7 @@ TEP:
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
-      url: https://www.addgene.org/204799/
+    url: https://www.addgene.org/204799/
     # For a plasmid, this should be an AddGene entry
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
