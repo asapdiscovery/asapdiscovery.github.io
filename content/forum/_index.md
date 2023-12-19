@@ -40,7 +40,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2023-dec"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Alejandro Chavez, UC San Diego](https://chavezlab.com/)**: *High-throughput approaches to viral drug discovery*  
-* **[Matteo Ferla, University of Oxford](https://www.stats.ox.ac.uk/people/dr-matteo-ferla)**: *TBD: Fragmenstein*  
+* **[Matteo Ferla, University of Oxford](https://www.stats.ox.ac.uk/people/dr-matteo-ferla)**: *Advancing Fragment-Based Drug Discovery in the ASAP Consortium with Fragmenstein*  
 
 **Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
