@@ -158,14 +158,14 @@ TEP:
     id: flawn-NS2B3-protease_plasmid-biochemical
     # Brief description of the plasmid
     description: | 
-      Construct expressing literature construct 
-      PDBID: 2GGV [https://www.rcsb.org/structure/2GGV]
+      Construct expressing literature construct PDBID: 2GGV
+      url: https://www.rcsb.org/structure/2GGV
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
-      addgene: https://www.addgene.org/204797/
+      url: https://www.addgene.org/204797/
     # For a plasmid, this should be an AddGene entry
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
@@ -179,14 +179,14 @@ TEP:
     id: flawn-NS2B3-protease_plasmid-biochemical
     # Brief description of the plasmid
     description: | 
-      Construct expressing literature construct 
-      PDBID: 2IJO [https://www.rcsb.org/structure/2IJO]
+      Construct expressing literature construct PDBID: 2IJO
+      url: https://www.rcsb.org/structure/2IJO
     # Date it was provided
     date: 2022-10-24
     # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
     type: plasmid
     # URL pointing to resource
-      https://www.addgene.org/204799/
+      url: https://www.addgene.org/204799/
     # For a plasmid, this should be an AddGene entry
     # ASAP Projects and Cores that contributed to this resource
     # e.g. ['Project 2', 'Structural Biology Core']
