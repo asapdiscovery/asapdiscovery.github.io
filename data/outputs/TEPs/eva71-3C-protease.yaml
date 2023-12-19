@@ -191,27 +191,16 @@ TEP:
         Protocol EV-A71 3C Pro: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement. The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
     - name: Crystallization protocol for producing soakable crystals suitable for fragment screening
       id: eva71-3C-protease_crystallization-protocol
-      description: Optimised conditions to reproduce crystals for fragment screening.
+      description: url: https://www.rcsb.org/structure/8CNY
       date: 2023-02-28
       # TODO: Create category for "crystallization conditions".
       # TODO: Move this to protocols.io
       type: crystallization-protocol
       projects: [Project 2]
       cores: [Structural Biology Core]
-      protocol: |
-        Plate format: SwissCI 3 lens
-        Screen: 0.1M Tris (pH 8.50), 0.2M Magnesium Cloride Hexahydrate, 30% w/v PEG 4000
-        Reservoir volume: 30 μl
-        Protein needed: 43.2ul per full plate
-        Drop ratio:  1:1
-        EVA71: 150nl
-        Final volume: 300 nl
-        Incubation temperature: 20°C in Formulatrix
-        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections. Crystal typically form after ~24hrs, after which they have reached the maximum size typically however precipitant often remains. Crystals typically form on their own. Crystals are sturdy and can be manipulated in solution readily.
-        Morphology: typically thin rectangles with pointed ends.
-        Size: ~50um in length and ~25um in width, depth of the crystals is ~5um, giving a glass shard appearance:
-        ![image](/img/tep_images/eva71_cystal.png)
-      details: |
+      protocol:
+        url: dx.doi.org/10.17504/protocols.io.yxmvm3e89l3p/v1
+      details: 
         <a href="/pdfs/PAGE23-00333 - AVIDD ASAP; A71EV3CPROA & D68EV3CPROA & A71EV2A Avitag insertion and C2A mutations.pdf" download>Download experimental metadata 1</a>
         <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata 2</a>
         <a href="/pdfs/TEP EV-A71 3C PAGE23-00676.pdf" download>Download experimental metadata 3</a>
