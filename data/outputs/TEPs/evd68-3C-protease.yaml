@@ -83,7 +83,7 @@ TEP:
       date: 2022-03-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
       type: plasmid
-      # URL pointing to resource
+      # url: https://www.addgene.org/204817/
       # For a plasmid, this should be an AddGene entry
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
@@ -100,7 +100,6 @@ TEP:
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
         <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata</a>
-
         * Vector: pNIC
         * Entry clone accession: 
         * Cell line: E. coli Rosetta strain BL21(DE3)-RR
@@ -171,20 +170,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
-        Plate format: SwissCI 3 lens
-        Screen: 0.1M Tris (pH 8.14), 0.2M Ammonium acetate, 25% w/v PEG 3350
-        Reservoir volume: 30 μl
-        Protein needed: 32ul per full plate
-        EV D68 seeds (1:100,000), 16ul per full plate
-        Drop ratio:  1:2:0.5 
-        ratio of EVD68: reservoir solution: seeds / 100nl of EVD68: 200nl reservoir solution: 50nl seeds
-        Final volume: 350 nl
-        Incubation temperature: 20°C in Formulatrix
-        Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
-          Crystal typically form after ~12hrs, after 24hrs they have reached their maximum size and most of the precipitant has gone. Crystals typically either form on their own or in a small cluster of 4-6, giving a flower like  arrangement. However, upon mounting a gentle nudge dissociates the formation. 
-        Morphology: typically thin rectangles with pointed ends. 
-        Size:  ~100um in length and ~50um in width, depth of the crystals is ~10um, giving a glass shard appearance (see image below).
-          ![EV D68 3C protease crystal shards](../img/outputs/EV-D68-3C-protease/crystal_shards.png)
+        url: dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
       description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
@@ -193,6 +179,7 @@ TEP:
       type: xray-fragment-screen
       # TODO: link to the X-ray fragment screen
       url: https://fragalysis.diamond.ac.uk/viewer/react/projects/2721/2259
+        PDB codes: 7GNV, 7GNW, 7GNX, 7GNY, 7GNZ, 7GO0, 7GO1, 7GO2, 7GO3, 7GO4, 7GO5, 7GO6, 7GO7, 7GO8, 7GO9, 7GOA, 7GOB, 7GOC, 7GOD, 7GOE, 7GOF, 7GOG, 7GOH, 7GOI, 7GOJ, 7GOK, 7GOL, 7GOM, 7GON, 7GOO, 7GOP, 7GOQ, 7GOR, 7GOS, 7GOT, 7GOU, 7GOV, 7GOW, 7GOX, 7GOY, 7GOZ, 7GP0, 7GP1, 7GP2, 7GP3, 7GP4, 7GP5, 7GP6, 7GP7, 7GP8, 7GP9, 7GPA, 7GPC, 7GPD, 7GPE, 7GPF, 7GPG, 7GPH, 7GPI, 7GPJ, 7GPK, 7GPL, 7GPM, 7GPN, 7GPO, 7GPP, 7GPQ, 7GPR, 7GPS, 7GPT, 7GPU, 7GPV, 7GPW, 7GPX, 7GPY, 7GPZ, 7GQ0, 7GQ1, 7GQ2, 7GQ3, 7GQ4, 7GQ5, 7GQ6, 7GQ7, 7GQ8, 7GQ9, 7GQA, 7GQB, 7GQC, 7GQD, 7GQE, 7GQF, 7GQG, 7GQH, 7GQI, 7GQJ, 7GQK, 7GQL, 7GQM, 7GQN, 7GQO, 7GQP, 7GQQ, 7GQR
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >
