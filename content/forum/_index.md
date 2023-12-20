@@ -34,14 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-
-**Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-dec"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Alejandro Chavez, UC San Diego](https://chavezlab.com/) ([MAVDA](https://midwestavidd.umn.edu/midwest-avidd-center-abstract))**: *High-throughput approaches to viral drug discovery*  
-* **[Matteo Ferla, University of Oxford](https://www.stats.ox.ac.uk/people/dr-matteo-ferla) ([ASAP](http://asapdiscovery.org))**: *Advancing Fragment-Based Drug Discovery in the ASAP Consortium with Fragmenstein*  
-
 **Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2023-jan"></a><br>
@@ -74,6 +66,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2023-dec"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Alejandro Chavez, UC San Diego](https://chavezlab.com/) ([MAVDA](https://midwestavidd.umn.edu/midwest-avidd-center-abstract))**: *High-throughput approaches to viral drug discovery*  **[[Video]](https://youtu.be/8uJwoKbkmHE)**
+* **[Matteo Ferla, University of Oxford](https://www.stats.ox.ac.uk/people/dr-matteo-ferla) ([ASAP](http://asapdiscovery.org))**: *Advancing Fragment-Based Drug Discovery in the ASAP Consortium with Fragmenstein*  **[[Video]](https://youtu.be/kieDWYkzmiE)**
 
 **Wed 15 November 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2023-nov"></a><br>
