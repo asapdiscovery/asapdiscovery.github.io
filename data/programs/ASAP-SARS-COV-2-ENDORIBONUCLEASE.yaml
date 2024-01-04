@@ -14,7 +14,10 @@ funding_source:
   grant: U19AI171399
   img: niaid-logo.png
   url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
-  
+
+differentiators:
+  novel_mechanism_of_action: completed
+
 targeting_opportunity:
   status: not-started
  

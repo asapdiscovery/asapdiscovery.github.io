@@ -1,23 +1,25 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "DENV/ZIKV NS2B/3 protease"
-  target: NS2B-NS3
-  program_code: ASAPPADTOT
-  program_nickname: ASAP-DENV-ZIKA-NS2B-NS3 
+  name: "DENV/ZIKV/WNV NS5 methyltransferase"
+  target: methyltransferase
+  program_code: PLACEHOLDER
+  program_nickname: ASAP-DENV-NS5-MT
   viruses:
     - DENV-1
     - DENV-2
     - DENV-3
     - DENV-4
     - ZIKV
-  img: "DENV-ns2b-ns3.png"
+    - WNV
+
+  img: "zika_ns5b.png"
 
 differentiators:
   clinically_unprecedented: completed
   novel_mechanism_of_action: completed
   broad_spectrum: completed
-
+  
 funding_source:  
   funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
   grant: U19AI171399
@@ -25,34 +27,14 @@ funding_source:
   url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
   
 targeting_opportunity:
-  status: completed
+  status: completed 
 
-# TODO: Share the Fitness Viewer and DMS data
-circulating_variants:
-  status: completed
-  
 TPP:
   status: completed
-  id: ASAP-TPP-DENV
+  id: ASAP-TPP-ZIKA
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  status: not-started
 
-TCP:
-  status: completed
-  id: ASAP-ZIKA-NS2B-NS3
 
-hit_to_lead:
-  status: play
-
-assay_cascade:
-  status: in-progress
-  #url: https://covid.postera.ai/covid/activity_data
-
-covalent_targeting:
-  status: in-progress
-  #url: https://covid.postera.ai/covid/activity_data
-
-molecules:
-  status: in-progress
