@@ -1,3 +1,5 @@
+# Images reside in ./content/outputs/publications/img/
+
 - title: "Fitness effects of mutations to SARS-CoV-2 proteins"
   authors: "Jesse D. Bloom, Richard A. Neher"
   summary: In this work, we present an analysis of SARS-CoV-2 circulating variants to develop a detailed map of functional tolerance to mutations of all SARS-CoV-2 target proteins to inform the discovery of antivirals that avoid intrinsic resistance.
@@ -85,3 +87,21 @@
     date: 2023-04-28
     year: 2023
   data: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B
+
+- title: "Open science discovery of potent noncovalent SARS-CoV-2 main protease inhibitors"    
+  authors: "Melissa L. Boby, Daren Fearon, Matteo Ferla, Mihajlo Filep, Lizbé Koekemoer, Matthew C. Robinson, The COVID Moonshot Consortium, John D. Chodera, Alpha A. Lee, Nir London, Annette von Delft, Frank von Delft"
+  summary: We describe the open science discovery of a potent noncovalent SARS-CoV-2 main protease inhibitor, which was discovered through a combination of high-throughput crystallography, machine learning, and synthetic chemistry.
+  img: moonshot-paper-cover-mockup.jpg
+  programs: [MOONSHOT]
+  cores: []
+  projects: []
+  published:
+    doi: 10.1126/science.abo7201
+    journal: Science
+    volume: 382
+    pages:  eabo7201
+    date: 2023-11-10
+    year: 2023
+  data: https://www.science.org/doi/10.1126/science.abo7201
+
+
