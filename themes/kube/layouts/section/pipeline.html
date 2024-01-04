@@ -15,7 +15,7 @@
 
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
-{{ $icon_width := "34" }}
+{{ $icon_width := "28" }}
 
 
 <div class="container">
@@ -31,6 +31,10 @@
           <h3>Discovery Program</h3>
         </div>
         <div class="col-8">
+          <a href="#clinically-unprecedented"><img title="No approved drugs available" width="{{ $icon_width }}" src="img/icons/clinically-unprecedented.png"></a>
+          <a href="#novel-mechanism-of-action"><img title="Novel mechanism of action" width="{{ $icon_width }}" src="img/icons/novel-mechanism.png"></a>
+          <a href="#broad-spectrum"><img title="Broad spectrum antvirial" width="{{ $icon_width }}" src="img/icons/broad-spectrum.png"></a>
+
           <a href="#funding-source"><img title="Funding Source" width="{{ $icon_width }}" src="img/icons/funding-source.png"></a>
 
           <a href="#targeting-opportunity"><img title="Molecular Target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
@@ -93,12 +97,17 @@
                   <b>{{ .overview.name }}</b>
                 </div>
                 <div class="col-8">
+                  <!-- Differentiators -->
+                  <img title="No approved drugs" width="{{ $icon_width }}" src="img/status/clinically-unprecedented_{{ .differentiators.clinically_unprecedented | default $not_started }}.png">
+                  <img title="Novel mechanism of action" width="{{ $icon_width }}" src="img/status/novel-mechanism_{{ .differentiators.novel_mechanism_of_action | default $not_started }}.png">
+                  <img title="Broad spectrum" width="{{ $icon_width }}" src="img/status/broad-spectrum_{{ .differentiators.broad_spectrum | default $not_started }}.png">
+
                   <a href="{{ .funding_source.url }}"> <img title="Funding source for {{ .overview.name }}" width="{{ $icon_width }}" src="img/icons/{{ .funding_source.img }}"></a>
 
                   <a href="{{ .overview.url }}"> <img title="Target for {{ .overview.name }}" width="{{ $icon_width }}" src="img/targets/{{ .overview.img }}"></a>
 
                   <a href="/outputs/targeting-opportunities/#{{ $program_nickname }}"><img title="Targeting opportunity for {{ .overview.name }}" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .targeting_opportunity.status }}.png"></a>
-              
+
                   <a href="/outputs/molecules/#{{ $program_nickname }}"><img title="Molecules" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .molecules.status | default $not_started }}.png"></a>
                   <a href="/outputs/structures/#{{ $program_nickname }}"><img title="Structures" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ if (eq .TEP.status "completed") }}completed{{ else }}not-started{{ end }}.png"></a>
                   <a href="/outputs/publications/"><img title="Publications" width="{{ $icon_width }}" src="img/status/{{ $viral_family }}_{{ .publications.status | default $not_started }}.png"></a>
