@@ -95,6 +95,11 @@
   programs: [MOONSHOT]
   cores: []
   projects: []
+  preprint:
+    server: bioRxiv
+    date: 2023-09-06
+    url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v5
+    license: "CC-BY 4.0 International license"  
   published:
     doi: 10.1126/science.abo7201
     journal: Science

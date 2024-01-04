@@ -35,8 +35,8 @@ assay_cascade:
   id: ASAP-ASSAY-COV-MPRO
 
 TEP:
-  # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  # TODO: Can we pull the status from the TEP itself?
+  status: completed
 
 hit_to_lead:
   status: completed
@@ -46,13 +46,13 @@ covalent_targeting:
   #url: https://covid.postera.ai/covid/activity_data
   
 lead_optimization:
-  status: in-progress
+  status: play
 
 molecules:
   status: in-progress
 
 publications:
-  status: completed
+  status: in-progress
 
 
 

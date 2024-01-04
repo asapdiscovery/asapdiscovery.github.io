@@ -30,7 +30,7 @@ TCP:
   id: ASAP-TCP-SARS-COV-2-NSP3-MAC1
 
 assay_cascade:
-  status: in-progress
+  status: completed
   id: ASAP-ASSAY-SARS-COV-2-NSP3-MAC1
 
 TEP:
@@ -38,11 +38,15 @@ TEP:
   status: completed
 
 hit_to_lead:
-  status: in-progress
+  status: completed
+  url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
+
+lead_optimization:
+  status: paused
   url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
 
 molecules:
-  status: in-progress
+  status: completed
 
 publications:
   status: in-progress
