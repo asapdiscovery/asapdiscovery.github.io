@@ -15,6 +15,11 @@ overview:
 
   img: "DENV-ns2b-ns3.png"
 
+differentiators:
+  clinically_unprecedented: completed
+  novel_mechanism_of_action: completed
+  broad_spectrum: completed
+
 funding_source:  
   funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
   grant: U19AI171399

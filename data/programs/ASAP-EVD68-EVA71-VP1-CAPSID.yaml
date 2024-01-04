@@ -1,14 +1,14 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: coronaviridae
-  name: "MERS-CoV/SARS-CoV-2 Mpro protease"
-  target: Mpro
-  program_code: ASAPPTGTTM
-  program_nickname: ASAP-COV-MPRO
+  family: picornaviridae
+  name: "EV-D68/A71 VP1 capsid"
+  target: 3CLpro
+  program_code: ASAPPTTFOG
+  program_nickname: ASAP-EVD68-EVA71-VP1-CAPSID
   viruses:
-    - SARS-CoV-2
-    - MERS-CoV
-  img: "SARS-CoV-2 Mpro.png"
+    - EV-D68
+    - EV-A71
+  img: "enterovirus-VP1-capsid.png"
 
 funding_source:  
   funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
@@ -18,44 +18,32 @@ funding_source:
 
 differentiators:
   clinically_unprecedented: completed
+  novel_mechanism_of_action: completed
   broad_spectrum: completed
-
+    
 targeting_opportunity:
-  status: completed
+  status: not-started
 
-circulating_variants:
-  status: completed
-  
 TPP:
   status: completed
-  id: ASAP-TPP-MERS-CoV-SARS-CoV-2
+  id: ASAP-TPP-EVD68-PEDIATRIC
+
+TEP:
+  status: not-started
 
 TCP:
   status: completed
-  id: ASAP-TCP-COV-MPRO
+  id: ASAP-EVD68-EVA71-VP1-CAPSID
 
 assay_cascade:
-  status: completed
-  id: ASAP-ASSAY-COV-MPRO
-
-TEP:
-  # TODO: Can we pull the status from the TEP itself?
-  status: completed
+  status: in-progress
+  id: ASAP-ASSAY-EVD68-EVA71-VP1-CAPSID
 
 hit_to_lead:
-  status: completed
-
-covalent_targeting:
-  status: in-progress
-  #url: https://covid.postera.ai/covid/activity_data
-  
-lead_optimization:
   status: play
 
 molecules:
   status: in-progress
 
-
-
-
-  
+publications:
+  status: in-progress
