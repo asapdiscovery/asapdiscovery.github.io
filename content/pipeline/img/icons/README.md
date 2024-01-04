@@ -22,3 +22,6 @@ Icons are CC-BY from [The Noun Project](https://thenounproject.com/)
 * `vertical-separator.png` : `noun-vertical-line-1729056` : Vertical Line by Lance B from <a href="https://thenounproject.com/browse/icons/term/vertical-line/" target="_blank" title="Vertical Line Icons">Noun Project</a>
 * `molecular-target.png` : `nount-disease-5624380` : Disease by Nadia from <a href="https://thenounproject.com/browse/icons/term/disease/" target="_blank" title="Disease Icons">Noun Project</a>
 * `funding-source.png` : `bank-348330` : Bank by Alfredo @ IconsAlfredo.us from <a href="https://thenounproject.com/browse/icons/term/bank/" target="_blank" title="Bank Icons">Noun Project</a>
+* `clinically-unprecedented.png` : `noun-pill-1243860` : Pill by Xinh Studio from <a href="https://thenounproject.com/browse/icons/term/pill/" target="_blank" title="Pill Icons">Noun Project</a> (CC BY 3.0)
+* `broad-spectrum.png` : `noun-viruses-3367265` : viruses by HideMaru from <a href="https://thenounproject.com/browse/icons/term/viruses/" target="_blank" title="viruses Icons">Noun Project</a> (CC BY 3.0)
+* `novel-mechanism.png` : `noun-light-bulb-6405088.png` : Light Bulb by Frank Hamaty from <a href="https://thenounproject.com/browse/icons/term/light-bulb/" target="_blank" title="Light Bulb Icons">Noun Project</a> (CC BY 3.0)
