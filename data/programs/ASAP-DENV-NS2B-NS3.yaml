@@ -1,12 +1,16 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "Dengue NS2B-NS3 protease"
+  name: "DENV/ZIKV NS2B/3 protease"
   target: NS2B-NS3
-  program_code: ASAPPOWITW
-  program_nickname: ASAP-DENV-NS2B-NS3 
+  program_code: ASAPPADTOT
+  program_nickname: ASAP-DENV-ZIKA-NS2B-NS3 
   viruses:
-    - Dengue serotype 2
+    - DENV-1
+    - DENV-2
+    - DENV-3
+    - DENV-4
+    - ZIKV
   img: "DENV-ns2b-ns3.png"
 
 funding_source:  
@@ -18,6 +22,10 @@ funding_source:
 targeting_opportunity:
   status: completed
 
+# TODO: Share the Fitness Viewer and DMS data
+circulating_variants:
+  status: completed
+  
 TPP:
   status: completed
   id: ASAP-TPP-DENV
@@ -25,6 +33,13 @@ TPP:
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: in-progress
+
+TCP:
+  status: completed
+  id: ASAP-ZIKA-NS2B-NS3
+
+hit_to_lead:
+  status: play
 
 assay_cascade:
   status: in-progress
