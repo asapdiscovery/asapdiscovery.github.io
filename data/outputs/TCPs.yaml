@@ -1,6 +1,6 @@
 ASAP-COV-MPRO:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-COV-MPRO
-  name: MERS-CoV and SARS-CoV-2 Oral MPro protease inhibitor
+  name: MERS-CoV / SARS-CoV-2 MPro protease oral inhibitor
   type: Target Candidate Profile
   status: completed
   projects: [Project 5]
@@ -27,7 +27,7 @@ MOONSHOT-COV-MPRO:
 
 ASAP-SARS-COV-2-NSP3-MAC1:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-TCP-SARS-COV-2-NSP3-MAC1
-  name: SARS-CoV-2 Oral nsp3 Mac1 macrodomain inhibitor
+  name: SARS-CoV-2 nsp3 Mac1 macrodomain oral inhibitor
   type: Target Candidate Profile
   projects: [Project 3, Project 5]
   status: completed
@@ -40,7 +40,7 @@ ASAP-SARS-COV-2-NSP3-MAC1:
 
 ASAP-EVD68-3CLPRO:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-EVD68-3CLPRO
-  name: EV-D68/A71 Oral 3C protease inhibitor
+  name: EV-D68/A71 3C protease oral inhibitor
   type: Target Candidate Profile
   projects: [Project 3, Project 5]
   status: completed
@@ -48,17 +48,32 @@ ASAP-EVD68-3CLPRO:
   - name: Lead Transition Profile
     url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2881a7b0765_4_0
   - name: Target Candidate Profile
-    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_165
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_427
   events:
     - date: 2023-06-22
       description: Initial drafts
 
-ASAP-ZIKA-NS2B-NS3:
-  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-ZIKA-NS2B-NS3
-  name: Target Candidate Profile Dengue & Zika NS2B-NS3 Protease Oral Community
+ASAP-EVD68-EVA71-VP1-CAPSID:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-EVD68-EVA71-VP1-CAPSID
+  name: EV-D68/A71 VP1 capsid assembly oral inhibitor
   type: Target Candidate Profile
   projects: [Project 3, Project 5]
   status: completed
+  links:
+  - name: Lead Transition Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_10
+  - name: Target Candidate Profile
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_0
+  events:
+    - date: 2023-12-15
+      description: Initial drafts      
+
+ASAP-ZIKA-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-ZIKA-NS2B-NS3
+  name: DENV/ZIKV NS2B/3 protease oral inhibitor
+  type: Target Candidate Profile
+  projects: [Project 3, Project 5]
+  status: draft
   links:
   - name: Target Candidate Profile
     url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_340

@@ -43,15 +43,15 @@
 <!-- online TEP spreadsheet -->
 {{ range $row := (after 5 $TEP_status) }}
     <!-- If program code matches, pull data from spreadsheet instead -->
-    {{ if eq $program_code (index $row 8) }}
+    {{ if eq $program_code (index $row 9) }}
         {{ $TEP_stages = dict 
-            "crystallography_construct" (index $row 12)
-            "assay_construct" (index $row 13)
-            "robust_crystal" (index $row 15)
-            "biophysical_assay" (index $row 16)
-            "biochemical_assay" (index $row 17)
-            "fragment_screen" (index $row 18)
-            "chemical_matter" (index $row 19)
+            "crystallography_construct" (index $row 13)
+            "assay_construct" (index $row 14)
+            "robust_crystal" (index $row 16)
+            "biophysical_assay" (index $row 17)
+            "biochemical_assay" (index $row 18)
+            "fragment_screen" (index $row 19)
+            "chemical_matter" (index $row 20)
         }}
     {{ end }}
 {{ end }}

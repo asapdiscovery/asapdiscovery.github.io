@@ -25,5 +25,6 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: not-started
+  status: play
+  id: ASAP-TEP-EVA71-2APRO
 

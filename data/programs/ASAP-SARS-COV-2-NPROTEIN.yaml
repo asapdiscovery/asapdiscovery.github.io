@@ -26,8 +26,18 @@ TPP:
   id: ASAP-TPP-SARS-CoV-2
 
 TEP:
-  status: in-progress
+  status: completed
 
+TCP:
+  status: completed
+  id: ASAP-TCP-SARS-COV-2-NPROTEIN
+
+assay_cascade:
+  status: completed
+  id: ASAP-ASSAY-SARS-COV-2-NPROTEIN
+
+hit_to_lead:
+  status: paused
 
 publications:
   status: in-progress

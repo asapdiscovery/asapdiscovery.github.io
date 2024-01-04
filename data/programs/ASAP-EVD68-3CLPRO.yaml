@@ -24,7 +24,7 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: completed
+  status: not-started
 
 TCP:
   status: completed
@@ -35,7 +35,7 @@ assay_cascade:
   id: ASAP-ASSAY-EVD68-3CLPRO
 
 hit_to_lead:
-  status: in-progress
+  status: play
 
 molecules:
   status: in-progress

@@ -44,12 +44,12 @@ ASAP-TPP-EVD68-PEDIATRIC:
   projects: [Project 6, Project 5]
   links:
   - name: Target Product Profile
-    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g217bd676945_0_0
+    url: https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_417
   events:
     - date: 2023-03-08
       description: Initial draft
     - date: 2023-06-22
-      description: EV-D68 and EV-A71 combined TPP
+      description: Combined TPPs for EV-D68 and EV-A71
 
 ASAP-TPP-ZIKA:
   permalink: http://asapdiscovery.org/outputs/target-product-profile/#ASAP-TPP-ZIKA
