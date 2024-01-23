@@ -65,7 +65,7 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 <a name="2024-jan"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
 * **[Timothy Sheahan, UNC Chapel Hill](https://sph.unc.edu/adv_profile/timothy-sheahan-phd/) ([READDI-AC](https://readdi.org/))**: *Preparing for tomorrow’s pandemics today through the development of broad-spectrum antivirals*  **[[Video]](https://youtu.be/yIfklj2O_e8)** 
-* **[Sumit Chanda, Scripps Research](https://www.chandalab.org/) ([CAMPP](https://www.campp.org/))**: *CAMPP Pandemic Preparedness: Landing on a short runway* **[[Video]](https://youtu.be/1V8ZQqYofNE)**  
+* **[Sumit Chanda, Scripps Research](https://www.chandalab.org/) ([CAMPP](https://www.campp.org/))**: *CAMPP Pandemic Preparedness: Landing on a short runway* **[[Video]](https://youtu.be/1V8ZQqYofNE)**  **[[Slides]](https://zenodo.org/records/10558157)**
 
 **Wed 20 December 2023**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2023-dec"></a><br>
