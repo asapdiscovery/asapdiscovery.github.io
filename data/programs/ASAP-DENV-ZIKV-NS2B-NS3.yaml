@@ -4,7 +4,7 @@ overview:
   name: "DENV/ZIKV NS2B/3 protease"
   target: NS2B-NS3
   program_code: ASAPPADTOT
-  program_nickname: ASAP-DENV-ZIKA-NS2B-NS3 
+  program_nickname: ASAP-DENV-ZIKV-NS2B-NS3
   viruses:
     - DENV-1
     - DENV-2
@@ -41,7 +41,7 @@ TEP:
 
 TCP:
   status: completed
-  id: ASAP-ZIKA-NS2B-NS3
+  id: ASAP-DENV-ZIKV-NS2B-NS3
 
 hit_to_lead:
   status: play

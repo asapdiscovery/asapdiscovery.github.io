@@ -68,8 +68,8 @@ ASAP-EVD68-EVA71-VP1-CAPSID:
     - date: 2023-12-15
       description: Initial drafts      
 
-ASAP-ZIKA-NS2B-NS3:
-  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-ZIKA-NS2B-NS3
+ASAP-DENV-ZIKV-NS2B-NS3:
+  permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-DENV-ZIKV-NS2B-NS3
   name: DENV/ZIKV NS2B/3 protease oral inhibitor
   type: Target Candidate Profile
   projects: [Project 3, Project 5]

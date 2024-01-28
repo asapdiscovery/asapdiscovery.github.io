@@ -1,126 +1,9 @@
-ASAP-COV-MPRO:
-  name: "Targeting Opportunity: MERS-CoV / SARS-CoV-2 Mpro protease orthosteric substrate inhibitor"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-COV-MPRO
-  projects: [Project 1]  
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
-  events:
-    - date: 2023-03-19
-      description: Initial draft
-  
-ASAP-DENV-NS3-PROTEASE-HELICASE:
-  name: "Targeting Opportunity: Full-length DENV NS2B/3 protease/helicase"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-DENV-NS3-PROTEASE-HELICASE
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
-  events:
-    - date: 2023-03-21
-      description: Initial draft
-
-ASAP-EVA71-2APRO-INTRAMOL:
-  name: "Targeting Opportunity: EV-A71 2A protease intramolecular cleavage event"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO-INTRAMOL
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft        
-
-ASAP-EVA71-2APRO:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO
-  name: "Targeting Opportunity: EV-A71 2A protease" 
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
-
-ASAP-EVA71-3CLPRO:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-3CLPRO
-  name: "Targeting Opportunity: EV-A71 3C protease"
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
-
-ASAP-EVD68-2APRO:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-2APRO
-  name: "Targeting Opportunity: EV-D68 2A protease" 
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
-
-ASAP-EVD68-2APRO-INTRAMOL:
-  name: "Targeting Opportunity: EV-D68 2A protease intramolecular cleavage event"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-2APRO-INTRAMOL
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
-  events:
-    - date: 2023-03-22
-      description: Initial draft        
-
-ASAP-EVD68-3CLPRO:  
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-3CLPRO
-  name: "Targeting Opportunity: EV-D68 3C protease"
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Enterovirus-D-68-protease-3C-52dcf83866b4444ebf4ee51085b8de10
-  events:
-    - date: 2023-03-22
-      description: Initial draft  
-
-ASAP-SARS-COV-2-NPROTEIN:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-SARS-COV-2-NPROTEIN
-  name: "Targeting Opportunity: SARS-CoV-2 Nucleocapsid (N protein)"
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091    
-  events:
-    - date: 2023-03-19
-      description: Initial draft  
-
-ASAP-ZIKA-NS3-HELICASE:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS3-HELICASE
-  name: "Targeting Opportunity: ZIKV NS3 helicase"
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS3-helicase-Dengue-Zika-West-Nile-d3ef36412b7947418a8b782626860a65
-  events:
-    - date: 2023-03-21
-      description: Initial draft         
-
-ASAP-ZIKA-NS3-PROTEASE-HELICASE:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS3-PROTEASE-HELICASE
-  name: "Targeting Opportunity: Full-length ZIKV NS2B/3 protease/helicase"
-  projects: [Project 1]
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
-  events:
-    - date: 2023-03-19
-      description: Initial draft    
+#
+# Programs in P3-P5
+#
 
 MOONSHOT-COV-MPRO:
-  name: "Targeting Opportunity: SARS-CoV-2 Mpro protease orthosteric substrate inhibitor"
+  name: "Targeting Opportunity: SARS-CoV-2 Mpro protease"
   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#MOONSHOT-COV-MPRO
   links:
   - name: Targeting Opportunity
@@ -129,9 +12,21 @@ MOONSHOT-COV-MPRO:
     - date: 2023-03-19
       description: Initial draft
 
+ASAP-COV-MPRO:
+  name: "Targeting Opportunity: MERS-CoV/SARS-CoV-2 Mpro protease"
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-COV-MPRO
+  projects: [Project 1, Project 5]  
+  links:
+  - name: Targeting Opportunity
+    url: https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-warm-start-a8457fb68f794b398b5f902429917dd4
+  events:
+    - date: 2023-03-19
+      description: Initial draft
+  
 ASAP-SARS-COV-2-NSP3-MAC1:
   name: "Targeting Opportunity: SARS-CoV-2 nsp3 Mac1 macrodomain"
   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-SARS-COV-2-NSP3-MAC1
+  projects: [Project 1, Project 2, Project 3]
   links:
   - name: Targeting Opportunity
     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Coronavirus-nsp3-Macrodomain-SARS-CoV-2-7ac57d8ba0e44758bd4350123e3524ae
@@ -139,52 +34,171 @@ ASAP-SARS-COV-2-NSP3-MAC1:
     - date: 2023-03-19
       description: Initial draft  
 
-ASAP-SARS-COV-2-NS3-HELICASE:
-  name: SARS-CoV-2 nsp13 helicase
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-SARS-COV-2-NS3-HELICASE
+ASAP-DENV-ZIKV-NS2B-NS3:
+  name: "Targeting Opportunity: DENV/ZIKV NS2B/3 protease"
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-DENV-ZIKV-NS2B-NS3
+  projects: [Project 1, Project 2]  
   links:
   - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
-  events:
-    - date: 2023-03-19
-      description: Initial draft  
-
-ASAP-WNV-NS3-PROTEASE-HELICASE:
-  name: "Targeting Opportunity: West Nile NS2B-NS3 protease-helicase"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-WNV-NS3-PROTEASE-HELICASE 
-  links:
-  - name: Targeting Opportunity
-    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
-  events:
-  - date: 2023-03-19
-    description: Initial draft    
-
-ASAP-DENV-NS2B-NS3:
-  name: "Targeting Opportunity: Dengue NS2B-NS3 protease"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-DENV-NS2B-NS3
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+    url: https://asapdiscovery.notion.site/Wave-1-Target-Opportunity-NS2B-3-protease-Zika-Dengue-West-Nile-c8681db9ca054b1ab8b823802b7af80e?pvs=4
   events:
     - date: 2023-03-22
       description: Initial draft
 
-ASAP-WNV-NS2B-NS3:
-  name: "Targeting Opportunity: West Nile NS2B-NS3 protease"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-WNV-NS2B-NS3
+ASAP-SARS-COV-2-NPROTEIN:
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-SARS-COV-2-NPROTEIN
+  name: "Targeting Opportunity: SARS-CoV-2 N protein nucleocapsid"
+  projects: [Project 1, Project 2, Project 3]
   links:
   - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
-  events:
-    - date: 2023-03-19
-      description: Initial draft    
-
-ASAP-ZIKA-NS2B-NS3:
-  name: "Targeting Opportunity: Zika NS2B-NS3 protease"
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS2B-NS3
-  links:
-  - name: Targeting Opportunity
-    url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+    url: https://asapdiscovery.notion.site/Wave-1-Targeting-Opportunity-SARS-CoV-2-N-protein-nucleocapsid-4e62fc97f0eb4fe6a9309e6a3180e4e4?pvs=4  
   events:
     - date: 2023-03-19
       description: Initial draft  
+
+ASAP-EVD68-EVA71-3CLPRO:
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-EVA71-3CLPRO
+  name: "Targeting Opportunity: EV-D68/A71 3C protease"
+  projects: [Project 1, Project 2, Project 3]
+  links:
+  - name: Targeting Opportunity
+    url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Enterovirus-3C-protease-A71-D68-89ebfbb23d4d47f6848ecabc432fed17?pvs=4
+  events:
+    - date: 2023-03-22
+      description: Initial draft  
+
+
+# Missing ASAP-EVD68-EVA71-VP1-CAPSID
+
+#
+# These programs are not yet in P3-P5
+#
+
+# ASAP-DENV-NS3-PROTEASE-HELICASE:
+#   name: "Targeting Opportunity: Full-length DENV NS2B/3 protease/helicase"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-DENV-NS3-PROTEASE-HELICASE
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Wave-2-Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile--3167e078670e483ea24914e30920bc60?pvs=4
+#   events:
+#     - date: 2023-03-21
+#       description: Initial draft
+
+# ASAP-EVA71-2APRO-INTRAMOL:
+#   name: "Targeting Opportunity: EV-A71 2A protease intramolecular cleavage event"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO-INTRAMOL
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Wave-1-Targeting-Opportunity-2A-protease-Enterovirus-A-71-EV-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
+#   events:
+#     - date: 2023-03-22
+#       description: Initial draft        
+
+# ASAP-EVA71-2APRO:
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO
+#   name: "Targeting Opportunity: EV-A71 2A protease" 
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Wave-1-Targeting-Opportunity-2A-protease-Enterovirus-A-71-EV-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
+#   events:
+#     - date: 2023-03-22
+#       description: Initial draft  
+
+# ASAP-EVD68-2APRO:
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-2APRO
+#   name: "Targeting Opportunity: EV-D68 2A protease" 
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
+#   events:
+#     - date: 2023-03-22
+#       description: Initial draft  
+
+# ASAP-EVD68-2APRO-INTRAMOL:
+#   name: "Targeting Opportunity: EV-D68 2A protease intramolecular cleavage event"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-2APRO-INTRAMOL
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-2A-protease-Enterovirus-A71-D68-722b86dabde0429d9ddabb7e70f22ce8?pvs=4
+#   events:
+#     - date: 2023-03-22
+#       description: Initial draft        
+
+# ASAP-EVD68-3CLPRO:  
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-3CLPRO
+#   name: "Targeting Opportunity: EV-D68 3C protease"
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Enterovirus-D-68-protease-3C-52dcf83866b4444ebf4ee51085b8de10
+#   events:
+#     - date: 2023-03-22
+#       description: Initial draft  
+
+# ASAP-ZIKA-NS3-HELICASE:
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS3-HELICASE
+#   name: "Targeting Opportunity: ZIKV NS3 helicase"
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS3-helicase-Dengue-Zika-West-Nile-d3ef36412b7947418a8b782626860a65
+#   events:
+#     - date: 2023-03-21
+#       description: Initial draft         
+
+# ASAP-ZIKA-NS3-PROTEASE-HELICASE:
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS3-PROTEASE-HELICASE
+#   name: "Targeting Opportunity: Full-length ZIKV NS2B/3 protease/helicase"
+#   projects: [Project 1]
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
+#   events:
+#     - date: 2023-03-19
+#       description: Initial draft    
+
+# ASAP-SARS-COV-2-NS3-HELICASE:
+#   name: SARS-CoV-2 nsp13 helicase
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-SARS-COV-2-NS3-HELICASE
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Nucleocapsid-SARS-CoV-2-warm-start-834de198e6474a30b5b0d55df25aa091
+#   events:
+#     - date: 2023-03-19
+#       description: Initial draft  
+
+# ASAP-WNV-NS3-PROTEASE-HELICASE:
+#   name: "Targeting Opportunity: West Nile NS2B-NS3 protease-helicase"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-WNV-NS3-PROTEASE-HELICASE 
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://www.notion.so/asapdiscovery/Targeting-Opportunity-Full-length-NS2B-3-protease-helicase-Dengue-Zika-West-Nile-3167e078670e483ea24914e30920bc60?pvs=4
+#   events:
+#   - date: 2023-03-19
+#     description: Initial draft    
+
+
+# ASAP-WNV-NS2B-NS3:
+#   name: "Targeting Opportunity: West Nile NS2B-NS3 protease"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-WNV-NS2B-NS3
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+#   events:
+#     - date: 2023-03-19
+#       description: Initial draft    
+
+# ASAP-ZIKA-NS2B-NS3:
+#   name: "Targeting Opportunity: Zika NS2B-NS3 protease"
+#   permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-ZIKA-NS2B-NS3
+#   links:
+#   - name: Targeting Opportunity
+#     url: https://asapdiscovery.notion.site/Targeting-Opportunity-Flavivirus-NS2B-3-protease-Dengue-2-Zika-West-Nile-aa074c0559e2445482ae1f5a7cc545a2
+#   events:
+#     - date: 2023-03-19
+#       description: Initial draft  
