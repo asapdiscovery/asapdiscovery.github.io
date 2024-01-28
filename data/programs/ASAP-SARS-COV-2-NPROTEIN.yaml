@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: coronaviridae
-  name: "SARS-CoV-2 nucleocapsid"
+  name: "SARS-CoV-2 N protein nucleocapsid"
   target: Nucleocapsid
   program_code: ASAPPBBTAH
   program_nickname: ASAP-SARS-COV-2-NPROTEIN
