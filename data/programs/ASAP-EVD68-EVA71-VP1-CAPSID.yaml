@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "EV-D68/A71 VP1 capsid"
+  name: "EV-D68/A71 capsid assembly"
   target: 3CLpro
   program_code: ASAPPTTFOG
   program_nickname: ASAP-EVD68-EVA71-VP1-CAPSID
