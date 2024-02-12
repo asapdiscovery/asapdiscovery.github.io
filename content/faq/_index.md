@@ -36,3 +36,11 @@ If you're interested in joining or collaborating with the ASAP Consortium, pleas
 ASAP is currently funded by:
 * Numerous discovery programs are funded by the [National Institutes of Health](https://www.nih.gov/) grant number [1U19AI171399-01](https://reporter.nih.gov/search/tQZEDoMwKEyA2VFeZPJo9w/projects) via the [Antiviral Drug Discovery (AViDD) U19 Centers](https://www.niaid.nih.gov/research/antiviral-discovery), part of the [Antiviral Program for Pandemics](https://www.niaid.nih.gov/research/antivirals)
 * The SARS-CoV-2 Mpro preclinical program directed by the [Drugs for Neglected Diseases Initiative](http://dndi.org) is funded by the [Wellcome Trust via the World Health Organization (WHO) Access to COVID Tools Accelerator (ACT-A) grant 224021/Z/21/Z](https://dndi.org/press-releases/2021/covid-moonshot-funded-by-wellcome-to-rapidly-develop-safe-globally-accessible-affordable-antiviral-pill/) 
+
+## Acknowledgments
+
+In addition to the above funding, we are grateful to the following organizations for providing us with resources to pursue accelerated drug discovery for the public good:
+
+* **[OpenEye Scientific // Cadence Molecular Sciences](https://www.eyesopen.com/)** for granting us a license for the [OpenEye Toolkits](https://www.eyesopen.com/modeling-development-platform) and the [Orion Cloud Molecular Design Platform](https://www.eyesopen.com/orion) (see [Press Release](https://www.businesswire.com/news/home/20231207130587/en/Cadence-Partners-with-Antiviral-Discovery-Consortium-to-Spearhead-Rapid-Development-of-Treatments-for-Viral-Pandemics))
+* **[Enamine](http://enamine.net)**, our steadfast chemical synthesis partner---a Contract Research Organization (CRO) with an unmatched chemical building block library
+* **[Bienta](https://bienta.net/)**---a Contract Research Organization (CRO) co-localized with Enamine that provides our Tier 1 ADMET and onsite assay services
