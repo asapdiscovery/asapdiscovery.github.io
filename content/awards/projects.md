@@ -8,6 +8,11 @@ layout: faq
 
 # Developmental Research Projects
 
+Applications for the [ASAP AViDD Center Developmental Research Project Awards](https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern) and [Mentored Project Awards](https://asapdiscovery.org/awards/#mentored-project) closed on 13 Jan 2023. 
+After scoring applications by our Scientific Advisory Board, NIAID approved the following awards, which were issued on 1 May 2023.
+
+Funds for these awards are provided by the National Institutes of Health under award number [U19AI171399](https://reporter.nih.gov/search/w8DB-VjNEk2E-twKD4bPUQ/project-details/10513866) through the [NIAID Antiviral Drug Discovery (AViDD) U19 Program](https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-21-050.html).
+
 ## Defining mutational constraints of ASAP-prioritized SARS-CoV-2 target proteins via multiplexed, yeast-based cDNA
 
 **Project Leader:** [Ferren Isaacs](https://medicine.yale.edu/profile/farren-isaacs/), Yale University, New Haven, CT
