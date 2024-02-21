@@ -37,20 +37,20 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
   
 **Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-nov"></a><br>
+<a name="2024-feb"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Applying new covalent chemistries to Mpro inhibitors*
 
 **Wed 20 March 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-nov"></a><br>
+<a name="2024-mar"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Melissa Barber, Harvard University](https://scholar.harvard.edu/melissabarber/home)**: *TBD*
 * **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2023-nov"></a><br>
+<a name="2024-apr"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
 * **TBD**
