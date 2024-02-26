@@ -35,12 +35,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
   
-**Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-feb"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Applying new covalent chemistries to Mpro inhibitors*
-
 **Wed 20 March 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-mar"></a><br>
@@ -55,11 +49,37 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
 * **TBD**
 
+**Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2024-apr"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*
+* **TBD**
+
+**Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2024-apr"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Matthew Robinson, PostEra](https://postera.ai/)**: *TBD*
+* **TBD**
+
+**Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2024-apr"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *TBD*
+* **TBD**
 
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2024-feb"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Applying new covalent chemistries to Mpro inhibitors*
+  
 **Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-jan"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
