@@ -67,7 +67,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-apr"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *TBD*
+* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *Unrational drug discovery for antivirals targeting viral helicases*
 * **TBD**
 
 # Past Presentations
