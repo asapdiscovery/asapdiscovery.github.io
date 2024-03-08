@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-mar"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Melissa Barber, Harvard University](https://scholar.harvard.edu/melissabarber/home)**: *TBD*
+* **TBD**
 * **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
@@ -47,14 +47,14 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-apr"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
-* **TBD**
+* **[Jeanne Hardy, UMass Amherst](https://www.umass.edu/chemistry/faculty/jeanne-hardy)**: *Harnessing protease reactions for detection and treatment of viral infection*
 
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-apr"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh)**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity*
 * **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*
-* **TBD**
 
 **Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
@@ -75,10 +75,9 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
 **Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-feb"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Applying new covalent chemistries to Mpro inhibitors*
+* **[Nir London, Weizmann Institute of Science](https://www.weizmann.ac.il/Organic_Chemistry/London/) ([ASAP](http://asapdiscovery.org))**: *Applying new covalent chemistries to Mpro inhibitors* **[[Video]](https://youtu.be/G6T44HyIjZs?si=tAHr6S6LM1WhZDtc)**  
   
 **Wed 17 January 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-jan"></a><br>
