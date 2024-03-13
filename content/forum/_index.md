@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-mar"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **TBD**
+* **[Matt Bogyo, Stanford University](https://med.stanford.edu/bogyolab.html) ([ASAP](http://asapdiscovery.org))**: *Phage display and mRNA display methods to identify covalent binding inhibitors of protein targets*
 * **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
