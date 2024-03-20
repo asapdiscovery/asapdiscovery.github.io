@@ -51,31 +51,55 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-apr"></a><br>
+<a name="2024-may"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
 * **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh) ([ASAP](http://asapdiscovery.org))**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity*
 * **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*
 
 **Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-apr"></a><br>
+<a name="2024-jun"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[Matthew Robinson, PostEra](https://postera.ai/) ([ASAP](http://asapdiscovery.org))**: *TBD*
 * **TBD**
 
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-apr"></a><br>
+<a name="2024-jul"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Haim Barr, Weizmann Institute of Science](http://www.weizmann.ac.il/Staff_Scientists/haim-michael-barr) ([ASAP](http://asapdiscovery.org))**: *TBD*
 * **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *Unrational drug discovery for antivirals targeting viral helicases*
 
 **Wed 21 August 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-apr"></a><br>
+<a name="2024-aug"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Fang Li, University of Minnesota](https://med.umn.edu/bio/fang-li)**: *Nanobodies as novel entry inhibitors of pandemic viruses*
 * **[Margo Ann Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *TBD*
+
+**Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-sep"></a><br>
+*Moderator:* TBD
+* TBD
+* TBD
+
+**Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-oct"></a><br>
+*Moderator:* TBD
+* TBD
+* TBD
+
+**Wed 13 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-nov"></a><br>
+*Moderator:* TBD
+* TBD
+* TBD
+
+**Wed 18 December 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-dec"></a><br>
+*Moderator:* TBD
+* TBD
+* TBD
 
 # Past Presentations
 
