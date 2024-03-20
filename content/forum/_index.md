@@ -80,7 +80,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
 *Moderator:* TBD
-* TBD
+* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP AViDD Center](http://asapdiscovery.org)): Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery
 * TBD
 
 **Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
