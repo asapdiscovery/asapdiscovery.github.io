@@ -34,19 +34,11 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-  
-**Wed 20 March 2024**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-mar"></a><br>
-*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Matt Bogyo, Stanford University](https://med.stanford.edu/bogyolab.html) ([ASAP](http://asapdiscovery.org))**: *Phage display and mRNA display methods to identify covalent binding inhibitors of protein targets*
-* **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
-
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-apr"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *TBD*
+* **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *Insights regarding the development of influenza antivirals for seasonal and pandemic influenza*
 * **[Jeanne Hardy, UMass Amherst](https://www.umass.edu/chemistry/faculty/jeanne-hardy)**: *Harnessing protease reactions for detection and treatment of viral infection*
 
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
@@ -104,6 +96,14 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+  
+**Wed 20 March 2024**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)* 
+[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
+<a name="2024-mar"></a><br>
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
+* **[Matt Bogyo, Stanford University](https://med.stanford.edu/bogyolab.html) ([ASAP](http://asapdiscovery.org))**: *Phage display and mRNA display methods to identify covalent binding inhibitors of protein targets*
+* **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs*
 
 **Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-feb"></a><br>
