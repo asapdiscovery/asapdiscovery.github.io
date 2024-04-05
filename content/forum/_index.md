@@ -102,7 +102,7 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 <a name="2024-mar"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Matt Bogyo, Stanford University](https://med.stanford.edu/bogyolab.html) ([ASAP](http://asapdiscovery.org))**: *Phage display and mRNA display methods to identify covalent binding inhibitors of protein targets* **[[Video]](https://youtu.be/90L79KC5ses)** 
-* **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Targeting proteases with antiviral drugs* **[[Video]](https://youtu.be/xc2E3pg32Sw)** 
+* **[Nat Moorman, UNC Chapel Hill](https://www.med.unc.edu/microimm/directory/nat-morman-phd/) ([READDI-AC](https://readdi.org/))**:*Identification of Novel Targets for Broad Spectrum Alphavirus Drugs* **[[Video]](https://youtu.be/xc2E3pg32Sw)** 
 
 **Wed 21 February 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-feb"></a><br>
