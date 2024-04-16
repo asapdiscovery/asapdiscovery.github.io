@@ -24,7 +24,7 @@
   <!-- Site verification -->
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
-  {{ template "_internal/google_analytics_async.html" . }} 
+  {{ template "_internal/google_analytics.html" . }}
   <!-- GDPR compliant google tag analytics -->
   {{ partial "cookie-consent.html" .}}
 
