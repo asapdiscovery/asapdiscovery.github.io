@@ -38,7 +38,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-apr"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Aeron Hurt, Roche Pharma](https://www.intrepidalliance.org/board/john-young-phd)**: *Insights regarding the development of influenza antivirals for seasonal and pandemic influenza*
+* **[Aeron Hurt, Roche Pharma](https://ch.linkedin.com/in/aeron-hurt-07958539)**: *Insights regarding the development of influenza antivirals for seasonal and pandemic influenza*
 * **[Jeanne Hardy, UMass Amherst](https://www.umass.edu/chemistry/faculty/jeanne-hardy)**: *Harnessing protease reactions for detection and treatment of viral infection*
 
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
