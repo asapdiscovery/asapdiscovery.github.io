@@ -33,8 +33,8 @@ TEP:
   - Charlie Tomlinson
   - Charline Giroud
   - Daren Fearon
-  - Eleanor Williams
   - Dong Wang
+  - Eleanor Williams
   - Haim Barr
   - Jasmin Aschenbrenner
   - Jessica Dixon
@@ -52,14 +52,12 @@ TEP:
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
-    The conserved 3C protease of enterovirus A71 is required to cleave the nonstructural region of the viral polyprotein.
-    This TEP aims to provide early tools for structure-based discovery of 3C protease inhibitors, including purification protocols of recombinant proteins, and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
+    This TEP provides early tools for structure-based discovery of enterovirus A71 (EV-A71) 3C protease inhibitors, including protocols of recombinant protein production, biochemical assays and reproducible crystallisation condition suitable for X-ray crystallography fragment screening.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
     While enterovirus A71 (EV-A71) typically causes respiratory illness, which can be mild or severe, it can also cause [acute flaccid myelitis (AFM)](https://www.cdc.gov/acute-flaccid-myelitis/index.html), a serious neurological condition which mostly affects children that causes the muscles and reflexes in the body to become weak (via [CDC](https://www.cdc.gov/non-polio-enterovirus/about/ev-d68.html)).
-    Enterovirus 3C protease is required to cleave the nonstructural region of the viral polyprotein. 
-    3C also cleaves many host proteins to facilitate viral infection; thus, inhibition can reinstate the antiviral functions of some of these targets.
+    Enterovirus 3C protease is required to cleave the nonstructural region of the viral polyprotein and various host proteins to facilitate viral infection; thus, inhibition can reinstate the antiviral functions of some of these targets.
     The protease has a typical chymotrypsin fold with a Cys-His-Glu catalytic triad.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
@@ -89,7 +87,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >      
-        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in TB autoinduction medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 2, the temperature was lowered to 18°C for 24h to allow autoinduction through lactose metabolism was triggered overnight. Harvested cells were resuspended in lysis buffer [50 mM HEPES pH 7.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP] with addition of 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with wash buffer [10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP, 30mM imidazole] and target protein eluted using same buffer containing 300 mM imidazole. Protein was lastly purified by SEC (sepax SEC SRT-100) in a buffer consisting of 10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
+        Available at protocols.io [1L small scale expression](dx.doi.org/10.17504/protocols.io.dm6gpzrkdlzp/v1), [>6L large scale expression](dx.doi.org/10.17504/protocols.io.n92ld8yd7v5b/v1)
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
         * Vector: pNIC-NHStIIT
@@ -180,15 +178,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: |
-        Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol and 0.5 mM DTT (optional).
-        Incubation: 1 hour at room temperature.
-        EV-71 3C: protein stocks were stored at -80C and used as 2x solution (20 µM, 10 µM final assay concentration) in assay buffer.
-        Substrate: Dabcyl-IEALFQGPPKFRE-Edans (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
-        Positive control: GC376 (Pubchem CID 71481119), 50 µM top final assay concentration.
-        Plates: ProxiPlate-384 Plus, white, Greiner cat# 6008280.
-        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
-        Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
-        Protocol EV-A71 3C Pro: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement. The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
+        Available at [protocols.io](dx.doi.org/10.17504/protocols.io.261ge54jyg47/v1)
     - name: Crystallization protocol for producing soakable crystals suitable for fragment screening
       id: eva71-3C-protease_crystallization-protocol
       description:
