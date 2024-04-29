@@ -77,8 +77,7 @@ TEP:
       scarab_id: D68EV3CPROA-c001 
       # Brief description of the plasmid
       description: EV-D68 bearing a C-terminal His-tag that crystallised in the space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>.
-        Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>. This protein yielded highly reproducible crystals upon 
-        microseeding, which typically diffracted to 1.7 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
+        Enterovirus D68 3C protease construct bearing a C-terminal His-tag that crystallised in the space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>. This protein yielded highly reproducible crystals upon microseeding, which typically diffracted to 1.7 Å resolution. This crystal system was DMSO tolerant and therefore suitable for our subsequent fragment soaking.
       # Date it was provided
       date: 2022-03-24
       # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
@@ -95,7 +94,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: >
-        The construct was transformed into the E. coli strain BL21(DE3)-RR, and cells were grown at 37°C in TB autoinduction medium supplemented with kanamycin (50 µg/ml). After reaching an optical density at 600 nm of around 2, the temperature was lowered to 18°C for 24h to allow autoinduction through lactose metabolism was triggered overnight. Harvested cells were resuspended in lysis buffer [50 mM HEPES pH 7.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP] with addition of 0.5 mg/mL lysozyme, 0.05 mg/mL benzonase. Proteins were first purified by immobilized metal affinity chromatography (IMAC) using Ni-Sepharose 6 FF resin (Cytiva) the column was washed with wash buffer [10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP, 30mM imidazole] and target protein eluted using same buffer containing 300 mM imidazole. Protein was lastly purified by SEC (sepax SEC SRT-100) in a buffer consisting of 10 mM Bicine pH 8.5, 500 mM NaCl, 5% glycerol, 0.5mM TCEP. Proteins were characterised by SDS-polyacrylamide gel electrophoresis andd mass spec and then flash- frozen in liquid nitrogen, and stored at -80°C until required.
+        Available at [protocols.io](dx.doi.org/10.17504/protocols.io.dm6gpzrkdlzp/v1)
       # Details associated with this plasmid
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
@@ -144,17 +143,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
-        Assay buffer: 50 mM Tris pH 7.0, 150 mM NaCl, 10% glycerol and 0.5 mM DTT (optional).
-        Incubation: 1 hour at room temperature.
-        EV-D68 3C: protein stocks were stored at -80C and used as 2x solution (1 µM, 0.5 µM final assay concentration) in assay buffer.
-        Substrate: Dabcyl-KEALFQGPPQFE-Edans (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
-        Positive control: GC376 (Pubchem CID 71481119), 50  µM top final assay concentration.
-        Plates: ProxiPlate-384 Plus, white, Greiner cat# 6008280.
-        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
-        Plate reader: Pherastar FS, BMG Labtech (Germany), 350-490 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
-        Protocol EV-D68 3C Pro:
-        Ten µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate and incubate with the enzyme for one hour at room temperature. Enzymatic reaction was initiated by the addition of 10 uL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 490 nm was read every 30 seconds for 2 hours in kinetic mode.
-        The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
+        Available at [protocols.io](dx.doi.org/10.17504/protocols.io.261ge54jyg47/v1)
           ![Example assay data](../img/outputs/EV-D68-3C-protease/dose_response.png)
       details: |
         <a href="/pdfs/PAGE23-00660 - EV-D68 3C pro vs GC376 IC50.pdf" download>Download experimental metadata 1</a>
@@ -173,12 +162,14 @@ TEP:
         Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1)
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
-      description: We performed X-ray crystallography screening at XChem/Diamond Light Source and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1 231 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
       #date: 2021-06-01
       date: 2023-04-26 # date fragment screen was uploaded to fragalysis
       type: xray-fragment-screen
       # TODO: link to the X-ray fragment screen
-      url: https://fragalysis.diamond.ac.uk/viewer/react/projects/2721/2259
+      url: 
+        [PDB group depostion G_1002271](https://www.rcsb.org/search?request=%7B%22query%22%3A%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22text%22%2C%22parameters%22%3A%7B%22attribute%22%3A%22pdbx_deposit_group.group_id%22%2C%22negation%22%3Afalse%2C%22operator%22%3A%22in%22%2C%22value%22%3A%5B%22G_1002271%22%5D%7D%7D%5D%2C%22logical_operator%22%3A%22and%22%2C%22label%22%3A%22text%22%7D%5D%2C%22logical_operator%22%3A%22and%22%7D%2C%22return_type%22%3A%22entry%22%2C%22request_options%22%3A%7B%22paginate%22%3A%7B%22start%22%3A0%2C%22rows%22%3A25%7D%2C%22results_content_type%22%3A%5B%22experimental%22%5D%2C%22sort%22%3A%5B%7B%22sort_by%22%3A%22score%22%2C%22direction%22%3A%22desc%22%7D%5D%2C%22scoring_strategy%22%3A%22combined%22%7D%2C%22request_info%22%3A%7B%22query_id%22%3A%224619e33a5dc1f26803e521c2899e4037%22%7D%7D)
+        [Fragalysis](https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1)
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >
