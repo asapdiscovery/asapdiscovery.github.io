@@ -34,13 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-apr"></a><br>
-*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Aeron Hurt, Roche Pharma](https://ch.linkedin.com/in/aeron-hurt-07958539)**: *Insights regarding the development of influenza antivirals for seasonal and pandemic influenza*
-* **[Jeanne Hardy, UMass Amherst](https://www.umass.edu/chemistry/faculty/jeanne-hardy)**: *Harnessing protease reactions for detection and treatment of viral infection*
-
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-may"></a><br>
@@ -97,6 +90,11 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-apr"></a><br>
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
+* **[Aeron Hurt, Roche Pharma](https://ch.linkedin.com/in/aeron-hurt-07958539)**: *Insights regarding the development of influenza antivirals for seasonal and pandemic influenza* **[[Video]](https://youtu.be/O_Qndx7XIEQ)**  **[[Slides]](https://zenodo.org/records/11088111)**
+* **[Jeanne Hardy, UMass Amherst](https://www.umass.edu/chemistry/faculty/jeanne-hardy)**: *Harnessing protease reactions for detection and treatment of viral infection* **[[Video]](https://youtu.be/OnaiNqerUvw)**  
   
 **Wed 20 March 2024**: *8.00A PT / 11.00A ET / 3.00P UK (GMT+1) / 4.00P Geneva (GMT+2)* 
 <a name="2024-mar"></a><br>
