@@ -162,7 +162,7 @@ TEP:
         Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1)
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
-      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1 231 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1 231 fragments.
       #date: 2021-06-01
       date: 2023-04-26 # date fragment screen was uploaded to fragalysis
       type: xray-fragment-screen
