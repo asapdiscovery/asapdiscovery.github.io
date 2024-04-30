@@ -304,3 +304,34 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]   
       
+    - name: Crystallographic fragment screening delivers diverse chemical scaffolds for Zika virus NS2B-NS3 protease inhibitor development
+      id: flazi-NS2B3-protease_fragment-screen-preprint
+      description: Preprint describing X-ray fragment screen of ZIKV NS2B-NS3 protease, resolving 48 protein:ligand complexes
+      date: 2024-04-29
+      type: preprint
+      url: https://doi.org/10.1101/2024.04.29.591502
+      projects: [Project 2]
+      cores: [Structural Biology Core]   
+      contributors:
+      - Xiaomin Ni
+      - Andre Schutzer de Godoy
+      - Peter George Marples
+      - Michael Fairhead
+      - Blake H Balcomb
+      - Matteo P. Ferla
+      - Charles W. E. Tomlinson
+      - Siyi Wang
+      - Charline Girould
+      - Jasmin Cara Aschenbrenner
+      - Ryan Lithgo
+      - Max Winokan
+      - Anu V. Chandran
+      - Warren Thompson
+      - Mary-Ann Elvina Xavier
+      - Eleanor Williams
+      - Martin A. Walsh
+      - Daren Fearon
+      - Lizbe Koekemoer
+      - Frank von Delft
+
+            

@@ -175,3 +175,35 @@ TEP:
         Plate reader: Pherastar FS, BMG Labtech (Germany), 350-460 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
         Method: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement.
         The IC<50> was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.      
+    - name: Crystallographic Fragment Screen of Coxsackievirus A16 2A Protease identifies new opportunities for the development of broad-spectrum anti-enterovirals
+      id: eva71-2A-protease_fragment-screen-preprint
+      date: 2024-04-29
+      type: preprint
+      description: Preprint describing fragment screen of closely related protein to EV-A71 2A protease
+      url: https://doi.org/10.1101/2024.04.29.591684
+      cores: [Structural Biology Core]
+      projects: [Project 2]
+      contributors: 
+      - Ryan M Lithgo
+      - Charlie W. E. Tomlinson
+      - Michael Fairhead
+      - Max Winokan
+      - Warren Thompson
+      - Conor Wild
+      - Jasmin Aschenbrenner
+      - Blake Balcomb
+      - Peter G. Marples
+      - Anu V. Chandran
+      - Mathew N. Golding
+      - Lizbe Koekemoer
+      - Eleanor P. Williams
+      - SiYi Wang
+      - Xiaomin Ni
+      - Elizabeth M. Maclean
+      - Charline Giroud
+      - Tryfon Zarganes-Tzitzikas
+      - Andre Schutzer de Godoy
+      - Mary-Ann Xavier
+      - Martin Walsh
+      - Daren Fearon
+      - Frank von Delft
