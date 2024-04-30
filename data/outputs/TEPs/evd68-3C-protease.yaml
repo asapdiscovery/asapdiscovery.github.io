@@ -162,14 +162,12 @@ TEP:
         Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1)
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
-      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1 231 fragments.
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.
       #date: 2021-06-01
-      date: 2023-04-26 # date fragment screen was uploaded to fragalysis
+      date: 2023-08-24 # date of PDB deposition
       type: xray-fragment-screen
       # TODO: link to the X-ray fragment screen
-      url: 
-        [PDB group depostion G_1002271](https://www.rcsb.org/search?request=%7B%22query%22%3A%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22text%22%2C%22parameters%22%3A%7B%22attribute%22%3A%22pdbx_deposit_group.group_id%22%2C%22negation%22%3Afalse%2C%22operator%22%3A%22in%22%2C%22value%22%3A%5B%22G_1002271%22%5D%7D%7D%5D%2C%22logical_operator%22%3A%22and%22%2C%22label%22%3A%22text%22%7D%5D%2C%22logical_operator%22%3A%22and%22%7D%2C%22return_type%22%3A%22entry%22%2C%22request_options%22%3A%7B%22paginate%22%3A%7B%22start%22%3A0%2C%22rows%22%3A25%7D%2C%22results_content_type%22%3A%5B%22experimental%22%5D%2C%22sort%22%3A%5B%7B%22sort_by%22%3A%22score%22%2C%22direction%22%3A%22desc%22%7D%5D%2C%22scoring_strategy%22%3A%22combined%22%7D%2C%22request_info%22%3A%7B%22query_id%22%3A%224619e33a5dc1f26803e521c2899e4037%22%7D%7D)
-        [Fragalysis](https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1)
+      url: https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >
@@ -191,4 +189,31 @@ TEP:
         restraints were calculated with 
         [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were 
         refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
+    - name: PDB group deposition of X-ray fragment screen of EV-D68 3C protease
+      id: evd68-3C-protease_fragment-screen-pdb-group-deposition
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.
+      protocol: >
+        Fragments were soaked into crystals as previously described by 
+        adding dissolved compounds directly to the crystallisation drops using an 
+        Echo liquid handler (final concentration, 10% DMSO); drops were incubated 
+        for approximately 1 to 3 hours before mounting and flash-freezing in liquid
+        nitrogen.   
+        Data were collected at the I04-1 beamline at 100 K and 
+        automatically processed with Diamond Light Source's autoprocessing 
+        pipelines using XDS (9) and either 
+        [xia2](https://doi.org/10.1107/s0907444913015308) or 
+        [DIALS](https://doi.org/10.1107/s2059798317017235). 
+        Further analysis was performed with 
+        [XChemExplorer](https://doi.org/10.1107%2FS2059798316020234), electron 
+        density maps were generated with DIMPLE and ligand-binding events were 
+        identified using [PanDDA](https://doi.org/10.1038/ncomms15123). 
+        Ligands were modeled into PanDDA-calculated event maps using Coot, 
+        restraints were calculated with 
+        [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were 
+        refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
         PDB codes: 7GNV, 7GNW, 7GNX, 7GNY, 7GNZ, 7GO0, 7GO1, 7GO2, 7GO3, 7GO4, 7GO5, 7GO6, 7GO7, 7GO8, 7GO9, 7GOA, 7GOB, 7GOC, 7GOD, 7GOE, 7GOF, 7GOG, 7GOH, 7GOI, 7GOJ, 7GOK, 7GOL, 7GOM, 7GON, 7GOO, 7GOP, 7GOQ, 7GOR, 7GOS, 7GOT, 7GOU, 7GOV, 7GOW, 7GOX, 7GOY, 7GOZ, 7GP0, 7GP1, 7GP2, 7GP3, 7GP4, 7GP5, 7GP6, 7GP7, 7GP8, 7GP9, 7GPA, 7GPC, 7GPD, 7GPE, 7GPF, 7GPG, 7GPH, 7GPI, 7GPJ, 7GPK, 7GPL, 7GPM, 7GPN, 7GPO, 7GPP, 7GPQ, 7GPR, 7GPS, 7GPT, 7GPU, 7GPV, 7GPW, 7GPX, 7GPY, 7GPZ, 7GQ0, 7GQ1, 7GQ2, 7GQ3, 7GQ4, 7GQ5, 7GQ6, 7GQ7, 7GQ8, 7GQ9, 7GQA, 7GQB, 7GQC, 7GQD, 7GQE, 7GQF, 7GQG, 7GQH, 7GQI, 7GQJ, 7GQK, 7GQL, 7GQM, 7GQN, 7GQO, 7GQP, 7GQQ, 7GQR
+      date: 2023-08-24
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002271
+      projects: [Project 2]
+      cores: [Structural Biology Core] 
