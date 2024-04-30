@@ -160,6 +160,15 @@ TEP:
       cores: [Structural Biology Core]
       protocol: |
         Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.n92ldm6jnl5b/v1)
+    - name: Structure of Enterovirus D68 3C protease
+      id: evd68-3C-protease_apo-structure
+      description: Apo structure of EV-D68 3C protease
+      date: 2023-04-05
+      type: pdb-deposition
+      url: https://www.rcsb.org/structure/8CNX
+      cores: [Structural Biology Core]
+      projects: [Project 2]    
+
     - name: Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screening-fragalysis
       description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.
@@ -191,7 +200,7 @@ TEP:
         refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
     - name: PDB group deposition of X-ray fragment screen of EV-D68 3C protease
       id: evd68-3C-protease_fragment-screen-pdb-group-deposition
-      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.
+      description: We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments, generating 104 total structures of novel protein:ligand complexes.
       protocol: >
         Fragments were soaked into crystals as previously described by 
         adding dissolved compounds directly to the crystallisation drops using an 

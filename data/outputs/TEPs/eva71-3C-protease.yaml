@@ -195,3 +195,12 @@ TEP:
         <a href="/pdfs/PAGE23-00333 - AVIDD ASAP; A71EV3CPROA & D68EV3CPROA & A71EV2A Avitag insertion and C2A mutations.pdf" download>Download experimental metadata 1</a>
         <a href="/pdfs/PAGE22-01976 - AVIDD ASAP; EVD68 & EVA71 3C protease expression and purification.pdf" download>Download experimental metadata 2</a>
         <a href="/pdfs/TEP EV-A71 3C PAGE23-00676.pdf" download>Download experimental metadata 3</a>
+
+    - name: Structure of Enterovirus A71 3C protease
+      id: eva71-3C-protease_apo-structure
+      description: Apo structure of EV-A71 3C protease
+      date: 2023-04-05
+      url: https://www.rcsb.org/structure/8CNY
+      type: pdb-deposition
+      cores: [Structural Biology Core]
+      projects: [Project 2]    
