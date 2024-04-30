@@ -122,6 +122,12 @@ TEP:
       date: 2020-06-10
       url: https://www.rcsb.org/groups/summary/entry/G_1002158
       type: pdb-group-deposition    
+    - name: PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase
+      id: flazi-NS3-helicase_fragment-screen-pdb-group-deposition-2
+      description: PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase containing 24 fragment-bound complexes
+      date: 2023-07-23
+      url: https://www.rcsb.org/groups/summary/entry/G_1002270
+      type: pdb-group-deposition    
     - name: High-throughput crystallographic fragment screening of Zika virus NS3 Helicase
       description: Preprint describing the X-ray fragment screen of ZIKV NS3 helicase
       id: flazi-NS3-helicase_fragment-screen-preprint
