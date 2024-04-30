@@ -270,11 +270,21 @@ TEP:
         Imaging Schedule: first images after 12hrs and then following a Fibonacci sequence of days for further image collections.
         Crystal typically form within 12hrs, within 24hrs they have reached their maximum size with slight precipitant. Crystals form on their own and have cubic appearance. 
         Size:  ~75-100um in length, width and depth
-    - name: ZIKV NS2B-NS3 protease crystallographic fragment screen at the Diamond XChem facility
+
+    - name: Apo crystal structure of the ZIKV NS2B-NS3 protease 
+      id: flazi-NS2B3-protease_apo-structure
+      date: 2023-08-16
+      type: pdb-deposition
+      url: https://www.rcsb.org/structure/8PN6
+      projects: [Project 2]
+      cores: [Structural Biology Core]     
+
+    - name: Fragalysis interactive view of ZIKV NS2B-NS3 protease crystallographic fragment screen
       id: flazi-NS2B3-protease_fragment-screen
-      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source and collected experimental datasets. The analysis is still ongoing.
-      date: 2023-04-30
+      description:  We performed X-ray crystallography screening at XChem/Diamond Light Source and collected experimental datasets.
+      date: 2024-03-20
       type: xray-fragment-screen
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/XX01ZVNS2B/tas/lb32627-65
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
@@ -284,3 +294,13 @@ TEP:
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400).
       details: |
         <a href="/pdfs/PAGE23-00345 - AVIDD ASAP; MVMPROA, ZVNS2B & A71EV2A xtal mounting,screening.pdf" download>Download experimental metadata</a>
+
+    - name: PDB group deposition of ZIKV NS2B-NS3 protease crystallographic fragment screen
+      id: flazi-NS2B3-protease_fragment-screen-pdb-group-deposition
+      description: PDB group deposition of X-ray fragment screen
+      date: 2024-04-03
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002289
+      projects: [Project 2]
+      cores: [Structural Biology Core]   
+      

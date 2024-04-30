@@ -198,3 +198,12 @@ TEP:
     # Detailed expression protocol associated with this plasmid
     # This is Markdown: See https://www.markdownguide.org/ for guide
     # TODO: In future, this should be a protocols.io link
+
+  - name: Structure of West Nile Virus NS2B-NS3 protease
+    id: flawn-NS2B3-protease_apo-structure
+    description: Structure of apo WNV NS2B-NS3 protease
+    url: https://www.rcsb.org/structure/8CO8
+    date: 2023-09-06
+    type: pdb-deposition
+    cores: [Structural Biology Core]
+    projects: [Project 2]

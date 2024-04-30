@@ -1,6 +1,6 @@
 TEP:
   # Name of the TEP
-  name: SARS-CoV-2 / MERS-CoV Mpro
+  name: SARS-CoV-2 / MERS-CoV Mpro protease
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
@@ -162,7 +162,7 @@ TEP:
                     a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This
                     resulted in determination of 91 protein-fragment structures.
       date: 2020-03-18
-      type: crystallization
+      type: xray-fragment-screen
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
       projects: [Project 2]
       cores: [Structural Biology Core]     
@@ -190,21 +190,23 @@ TEP:
         ECHO liquid handler giving a final compound concentration of 2–100 mM and DMSO concentration of 10%.
         Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
         without the addition of further cryoprotectant.
-    - name: Initial crystallization and structure determination of MERS-CoV Mpro
-      id: comev2-NSP15-mpro_fragment-screen-fragalysis
-      description:  Protocol to product MERS-CoV Mpro crystal diffracting to 1.78 Å in C2221 spacegroup
-      date: 2022-08-02
-      type: crystlallization
-      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
+    - name: Crystal structure of MERS-CoV main protease
+      description: Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A resolution.
+      date: 2023-12-06
+      id: comev2-NSP15-mpro_apo-pdb-structure
+      type: pdb-deposition
+      url: https://www.rcsb.org/structure/8R5J
       projects: [Project 2]
-      cores: [Structural Biology Core]   
-      protocol: >
-        ** Crystallization**
-        MERS Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.
-        ** Data collection**
+      cores: [Structural Biology Core]
+      protocol: |
+        **Crystallization:**
+        MERS-CoV Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.        
+
+        **Data collection:**
         Data were collected to 1.78Å resolution at Diamond light source beamline I04-1. 
-        **Data processing**
-        The structure was solved by molecular replacement using the structure of MERS coronavirus main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
+
+        **Data processing:**
+        The structure was solved by molecular replacement using the structure of MERS-CoV main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
       id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
       description:  >

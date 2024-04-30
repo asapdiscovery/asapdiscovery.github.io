@@ -162,30 +162,29 @@ TEP:
         Ligands were modeled into PanDDA-calculated event maps using Coot, restraints were calculated with [AceDRG](http://dx.doi.org/10.1107/S2059798317000067), and structures were refined with [BUSTER](https://doi.org/10.1107/s0907444992010400). 
         Coordinates, structure factors, and PanDDA event maps for the structures discussed are deposited in the Protein Data Bank.
     - name: Crystallization of full-length Nsp3 Mac1 in P1211 spacegroup
-      id: Initial crystallization screen
+      id: cosv2-NSP3-macro_crystallization
       description: |
         We obtained crystal which diffracted to 1.2 Å.
       PDB to be released: 
       date: 2023-08-02
-      type: crystallization
+      type: protocol
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >
         SARS-CoV-2 nsp3 Mac1 was concentrated to a final concentration of 22 mg/ml. Apo crystals were grown in 0.1 M MES, pH 6.5, and 30 % w/v PEG 4000 in 800 nl drops containing 400 nl of protein, 300 nl of crystallisation solution and 100 nl of seed stock. Compounds were soaked into crystals as previously described by adding dissolved compounds directly to the crystallisation drop using an Echo liquid handler (final concentration 10 % DMSO) and incubated for 1 h before mounting and flash-freezing in liquid nitrogen
-    - name: Fragment Binding to the Nsp3 Macrodomain of SARS-CoV-2 Identified Through Crystallographic Screening and Computational Docking
-      id: cosv2-NSP3-macro_fragment-screen-preprint
     - name: Cocrystallization of full-length Nsp3 Mac1 with compounds in P1211 spacegroup
-      id: Cocrystallization
+      id: cosv2-NSP3-macro_cocrystallization
       description: |
         We obtained crystal which diffracted to 1.5 Å.
         PDB to be released:
       date: 2023-08-02
-      type: crystallization
+      type: protocol
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: >
         40 nl of compound (5 % of drop volume) was dispensed into wells using an Echo liquid handler before adding 400 nl of protein (22 mg/ml), 300 nl of crystallisation solution and 100 nl of seed stock. Crystals formed overnight and were mounted and flash-frozen in liquid nitrogen the next day.
     - name: Fragment Binding to the Nsp3 Macrodomain of SARS-CoV-2 Identified Through Crystallographic Screening and Computational Docking      
+      id: cosv2-NSP3-macro_fragment-screen-preprint
       date: 2020-11-24
       type: preprint
       url: https://www.biorxiv.org/content/10.1101/2020.11.24.393405v1
@@ -220,3 +219,13 @@ TEP:
       cores: [Biochemical Assay Core]
       protocol: >
         Fragment inhibitory activity on Mac1 was verified by the displacement of an ADPr-conjugated biotin peptide from the His6-tagged Mac1 using HTRF with an Eu3+-conjugated anti-His6 antibody donor and streptavidin- conjugated acceptor. Compounds were dispensed into white ProxiPlate-384 Plus (PerkinElmer) assay plates using an Echo 525 liquid handler (Labcyte). Binding assays were conducted in a final volume of 16 ul with 12.5 nM Mac1, 400 nM peptide ARTK(Bio)QTARK(Aoa-RADP)S [synthesised by Cambridge Peptides (Birmingham, UK)], 1:125 streptavidin-XL665 (Cisbio), and 1:20,000 anti-His6-Eu3+ cryptate (PerkinElmer) in assay buffer [25 mM Hepes (pH 7.0), 20 mM NaCl, 0.05% bovine serum albumin, and 0.05% Tween 20]. Assay reagents were dispensed into plates using a Multidrop combi (Thermo Fisher Scientific) and incubated at room temperature for 1 hour. Fluorescence was measured using a PHERAstar microplate reader (BMG) using the HTRF module with dual-emission protocol (A = excitation of 320 nm, emission of 665 nm and B = excitation of 320 nm, emission of 620 nm). Raw data were processed to give an HTRF ratio (channel A/B x 10,000), which was used to generate IC50 curves by nonlinear regression using GraphPad Prism v8 (GraphPad Software, CA, USA).
+    - name: PDB group deposition of crystal structures of SARS-CoV-2 NSP3 Macrodomain in complex with ASAP inhibitors
+      id: cosv2-NSP3-inhibitors-pdb-group-deposition
+      description:  >
+        SARS-CoV-2 nsp3 Mac1 macrodomain in complex with 90 ASAP inhibitors
+
+      date: 2024-01-23
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002283
+      projects: [Project 3]
+      cores: [Structural Biology Core]  

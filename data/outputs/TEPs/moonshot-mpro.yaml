@@ -224,3 +224,14 @@ TEP:
       url: https://www.rcsb.org/groups/summary/entry/G_1002153
       projects: [Project 2]
       cores: [Structural Biology Core]     
+
+    - name: PDB group deposition of SARS-CoV-2 main protease in compelex with inhibitors from the COVID Moonshot
+      id: moonshot-mpro-inhibitors-pdb-group-deposition
+      description:  >
+        SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+
+      date: 2023-11-29
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002272
+      projects: [Project 5]
+      cores: [Structural Biology Core]   
