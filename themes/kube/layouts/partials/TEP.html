@@ -5,7 +5,7 @@
 {{ $font := resources.GetRemote "https://github.com/google/fonts/raw/47ea46c388b5e33496168d9fb4e7ffb43e1142f4/apache/roboto/static/Roboto-Black.ttf" }}
 {{ $fontsize := 26 }}
 
-{{ $TEP_status := getCSV "," "https://docs.google.com/spreadsheets/d/e/2PACX-1vQit4u7d3lBlnX0Tu79Ep6pxSLiCvDn1PppulKgs5-C0SM0jlT9C491wstbZAJk7nm5BhJUlc9Op1gA/pub?gid=157915177&single=true&output=csv" }}
+{{ $TEP_status := getCSV "," "https://docs.google.com/spreadsheets/d/e/2PACX-1vQit4u7d3lBlnX0Tu79Ep6pxSLiCvDn1PppulKgs5-C0SM0jlT9C491wstbZAJk7nm5BhJUlc9Op1gA/pub?output=csv" }}
 
 {{ $program_code := .asap.program_code }}
 {{ $program_nickname := .asap.program_nickname }}
