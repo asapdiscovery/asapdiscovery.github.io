@@ -89,11 +89,11 @@ TEP:
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
     The coronavirus family poses a major global health concern.  Notably, Severe Acute Respiratory Syndrome (SARS), Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) also known as COVID-19 cause severe illness in mammals and birds. The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies of pandemic preparedness. 
-    MERS-CoV is a zoonotic virus that was first discovered in 2012 [9](https://doi: 10.1056/NEJMoa1211721)]. The disease has spread rapidly with large outbreaks as recent as 2015 and 2018 [[10](https://www.who.int/en/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)), [11](https:)//doi: 10.1016/S0140-6736(15)60454-8), [12](https://www.emro.who.int/health-topics/mers-cov/mers-outbreaks.html), [13](https://doi: 10.1128/genomeA.00818-15]. Currently there is no therapeutic intervention for MERS-CoV with 35% of reported cases resulting in human death [11](https://pubmed.ncbi.nlm.nih.gov/26049252/)]. Like-wise to SARS-CoV-2, MERS-CoV produces a main protease (Mpro) which is essential for viral replication and therefore an attractive target to stop the virus [[14](https://doi: 10.1074/jbc.M115.651463), [15](https://doi: 10.1016/j.virusres.2015.05.018), [16](https://doi: 10.1016/j.virusres.2015.02.025)]. This TEP includes the protocols used for producing recombinant MERS-CoV Mpro (comer-NSP5-mpro), assay documentation as well as crystallization protocols. Moreover, it contains information about different enzymatic and viral replication assays for orthogonal validation of small molecule inhibitors in order determine structure-activity relationships. All data are fully open and constitute a unique resource, not only for this target, but for improving methodology of fragment-to-hit and hit-to-lead progression.
+    MERS-CoV is a zoonotic virus that was first discovered in 2012 [1](https://doi: 10.1056/NEJMoa1211721). The disease has spread rapidly with large outbreaks as recent as 2015 and 2018 [2](https://www.who.int/en/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)), [3](https:)//doi: 10.1016/S0140-6736(15)60454-8), [4](https://www.emro.who.int/health-topics/mers-cov/mers-outbreaks.html), [5](https://doi: 10.1128/genomeA.00818-15). Currently there is no therapeutic intervention for MERS-CoV with 35% of reported cases resulting in human death [6](https://pubmed.ncbi.nlm.nih.gov/26049252/)]. Like-wise to SARS-CoV-2, MERS-CoV produces a main protease (Mpro) which is essential for viral replication and therefore an attractive target to stop the virus [7](https://doi: 10.1074/jbc.M115.651463), [8](https://doi: 10.1016/j.virusres.2015.05.018), [9](https://doi: 10.1016/j.virusres.2015.02.025). This TEP includes the protocols used for producing recombinant MERS-CoV Mpro, assay documentation as well as crystallization protocols. Moreover, it contains information about different enzymatic and viral replication assays for orthogonal validation of small molecule inhibitors in order determine structure-activity relationships. All data are fully open and constitute a unique resource, not only for this target, but for improving methodology of fragment-to-hit and hit-to-lead progression.
   # Scientific Background:
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
-    The emergence of COVID-19 has caused a global pandemic of unexpected scale. The disease is caused by the SARS-Cov-2 virus [[1](https://doi.org/10.1016%2FS1473-3099(20)30144-4), [2](https://doi.org/10.1038/s41586-020-2008-3), [3](https://doi.org/10.1056/nejmoa2001017)] for which no approved drugs exist or are in the pipeline. This disease has so far claimed more than 1.2 million lives world-wide (November 2020, https://covid19.who.int), despite numerous regional lockdowns in order to stop the spread of the virus. However, despite the fact that SARS-CoV-2 is already the third zoonotic coronavirus outbreak after the emergence of SARS-CoV-1 in 2002 and the Middle East Respiratory Syndrome (MERS-CoV) in 2012 [[4](https://pubmed.ncbi.nlm.nih.gov/23078800/), [5](https://doi.org/10.1016/s0140-6736(03)13967-0), [6](https://doi.org/10.1056/nejmoa1211721)], there is a notable lack of antiviral treatment options. SARS-CoV-2 is a large enveloped, positive-sense, single-stranded RNA Betacoronavirus from the order of nidoviruses. Its RNA encodes two open reading frames that, through ribosome frame-shifting, generates two polyproteins pp1a and pp1ab [[7](https://doi.org/10.1093%2Fnar%2F18.7.1825)]. The genome contains a large replicase gene encompassing nonstructural proteins (Nsps), followed by structural and accessory genes. The polyproteins are processed by two viral cysteine proteases: a papain-like protease (PLpro) which cleaves three sites, releasing non-structural proteins nsp1-3 and a 3C-like protease, also referred to as the main protease (Mpro), that cleaves at 11 sites to release non-structural proteins (nsp4-16). These non-structural proteins form the replicase complex responsible for replication and transcription of the viral genome and have led to Mpro and PLPro being the primary targets for antiviral drug development [[8](https://doi.org/10.1111/febs.12936)].
+    The emergence of COVID-19 has caused a global pandemic of unexpected scale. The disease is caused by the SARS-Cov-2 virus [10](https://doi.org/10.1016%2FS1473-3099(20)30144-4), [11](https://doi.org/10.1038/s41586-020-2008-3), [12](https://doi.org/10.1056/nejmoa2001017) for which no approved drugs exist or are in the pipeline. This disease has so far claimed more than [1.2 million lives world-wide](November 2020, https://covid19.who.int), despite numerous regional lockdowns in order to stop the spread of the virus. However, despite the fact that SARS-CoV-2 is already the third zoonotic coronavirus outbreak after the emergence of SARS-CoV-1 in 2002 and the Middle East Respiratory Syndrome (MERS-CoV) in 2012 [13](https://pubmed.ncbi.nlm.nih.gov/23078800/), [14](https://doi.org/10.1016/s0140-6736(03)13967-0), [15](https://doi.org/10.1056/nejmoa1211721), there is a notable lack of antiviral treatment options. SARS-CoV-2 is a large enveloped, positive-sense, single-stranded RNA Betacoronavirus from the order of nidoviruses. Its RNA encodes two open reading frames that, through ribosome frame-shifting, generates two polyproteins pp1a and pp1ab [16](https://doi.org/10.1093%2Fnar%2F18.7.1825). The genome contains a large replicase gene encompassing nonstructural proteins (Nsps), followed by structural and accessory genes. The polyproteins are processed by two viral cysteine proteases: a papain-like protease (PLpro) which cleaves three sites, releasing non-structural proteins nsp1-3 and a 3C-like protease, also referred to as the main protease (Mpro), that cleaves at 11 sites to release non-structural proteins (nsp4-16). These non-structural proteins form the replicase complex responsible for replication and transcription of the viral genome and have led to Mpro and PLPro being the primary targets for antiviral drug development [17](https://doi.org/10.1111/febs.12936).
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
@@ -103,9 +103,9 @@ TEP:
     presented in this TEP have been demonstrated by the [COVID Moonshot consortium](https://covid.postera.ai/covid) successfully
     developing sub-micromolar binders, that are now in lead optimisation.
 
-    * Fragalysis interactive structure viewer (and downloads of all structures): https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
-    
-    * Fragment screen PDB group deposition (currently contains only a subset of structures): https://www.rcsb.org/groups/summary/entry/G_1002153
+    SARS-CoV-2 Mpro:
+    * [Fragalysis interactive structure viewer](https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/Mpro/tas/lb18145-1) and downloads of all structures.
+    * Fragment screen PDB group deposition [G_1002135](https://www.rcsb.org/groups/summary/entry/G_1002135), [G_1002144](https://www.rcsb.org/groups/summary/entry/G_1002144), [G_1002151](https://www.rcsb.org/groups/summary/entry/G_1002151), [G_1002152](https://www.rcsb.org/groups/summary/entry/G_1002152), [G_1002153](https://www.rcsb.org/groups/summary/entry/G_1002153), [G_1002155](https://www.rcsb.org/groups/summary/entry/G_1002155), [G_1002156](https://www.rcsb.org/groups/summary/entry/G_1002156), [G_1002157](https://www.rcsb.org/groups/summary/entry/G_1002157), [G_1002163](https://www.rcsb.org/groups/summary/entry/G_1002163), [G_1002272](https://www.rcsb.org/groups/summary/entry/G_1002272)
   # List of resources associated with this TEP
   resources:
     # Construct / plasmid resource
@@ -132,22 +132,8 @@ TEP:
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
-      protocol: >
-        The expression clone of Mpro (Accession: YP_009725301, Protein Region: S1-Q306) consists of a synthetic
-        gene in pGEX-6P-1 expression plasmid containing N-terminal GST and C-terminal 3C PROTEASE and 6xHIS
-        tags. After transformation into BL21(DE3)-R3-pRARE2, expression was performed in Auto Induction Medium
-        supplemented with glycerol and 100 μg/ml Carbenicillin. The cultures were grown at 37 °C, 200 rpm for 5 h
-        before switching to 18 °C, 200 rpm for a further 10 h. The cells were harvested by centrifugation and stored
-        at -80 °C. Cell pellets were resuspended in buffer containing 50 mM Tris pH 8, 300 mM NaCl, 10 mM
-        Imidazole and 0.03 μg/ml Benzonase before disrupting with a highpressure homogeniser (3 passes, 30 kpsi, 4
-        °C). The lysate was clarified by centrifugation at 50,000 × g and the supernatant applied to a Nickel-NTA
-        gravity column and washed with buffer containing 50 mM Tris pH 8, 300 mM NaCl and 25 mM imidazole pH
-        8. The protein was eluted using a gradient of 25–500 mM imidazole. N-terminal His-tagged HRV 3 C Protease
-        was added to the eluted protein at 1:10 w/w ratio. The mixture was dialysed overnight at 4 °C against 50 mM
-        Tris pH 8, 300 mM NaCl, 1 mM TCEP, after which the HRV 3 C protease and other impurities were removed
-        from the cleaved target protein by reverse Nickel-NTA. The relevant fractions were concentrated and applied
-        to an S200 16/60 gel filtration column equilibrated in 20 mM HEPES pH 7.5, 50 mM NaCl buffer. The protein
-        was concentrated to 30 mg/ml using a 10 kDa MWCO centrifugal filter device.
+      protocol:
+        Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.rm7vzj8p8lx1/v1)      
       # Details associated with this plasmid
       details: |
         <a href="/pdfs/PAGE22-01340 - AVIDD ASAP; MERS mPRO aka 3CL protease.pdf" download>Download experimental metadata</a>
@@ -167,11 +153,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Protein was thawed and diluted to 5 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. The sample was
-        centrifuged at 100 000 g for 15 minutes to remove aggregates. MPRO crystals were obtained by mixing 150nL
-        of protein in with 300 nL of reservoir solution containing 0.1 M MES pH 6.5, 15% PEG6K, 5% DMSO and 50nL
-        seed stock. Crystals were grown using the sitting drop vapor diffusion method at 20°C and appeared within
-        24 hours.
+        Crystallization protocol [available at protocols.io](dx.doi.org/10.17504/protocols.io.kqdg326y7v25/v1) 
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
         Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
         analysis was performed through XChemExplorer [[16](https://doi.org/10.1107%2FS2059798316020234)]: for each dataset, the version of processed data was
@@ -190,23 +172,6 @@ TEP:
         ECHO liquid handler giving a final compound concentration of 2–100 mM and DMSO concentration of 10%.
         Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
         without the addition of further cryoprotectant.
-    - name: Crystal structure of MERS-CoV main protease
-      description: Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A resolution.
-      date: 2023-12-06
-      id: comev2-NSP15-mpro_apo-pdb-structure
-      type: pdb-deposition
-      url: https://www.rcsb.org/structure/8R5J
-      projects: [Project 2]
-      cores: [Structural Biology Core]
-      protocol: |
-        **Crystallization:**
-        MERS-CoV Mpro (comer-NSP5-mpro) crystals formed in SWISSCi 3-drop sitting drop plates. Needle like crystals form in a broad range of optimization conditions that centre around crystallization solution 1: 0.2M Sodium malonate dibasic monohydrate, 0.1M Bis-Tris propane pH 7.5, 20% w/v PEG 3350 as well as solution 2: 0.2M Sodium malonate dibasic monohydrate, 20% w/v PEG 3350. The addition of seed dramatically improved consistency of crystals (number of crystals formed per plate, as well as resolution). Seeding was performed by taking ~20 crystals from a single drop formed from solution 1 or solution 2 crystallization solution respectively. This crystal solution was transferred to 35 μl of crystallization well solution 1 or 2 respectively. Two seed beads were added, the mixture was sonicated for 30 seconds. This was repeated 3 times. A series of seed stock dilutions were prepared ranging from 1:10 – 1:10000. Optimum seed stock used was 1:10 and 1:1000. Crystal plates were setup using protein at 17 mg/ml (base buffer 50mM Tris, pH 8.0, 300 mM NaCl). Optimum drop volumes used were 300 nl drops (0.5:1 and 1:1 ratio protein to crystallization well solution) with 20 nl seeds. Crystallization well solution volume used was 35 μl. Crystals tolerate up to 30% DMSO for 2 hours. Compound soaking conditions were 30% DMSO, for 1 hour using crystal that formed from crystallization solution 1.        
-
-        **Data collection:**
-        Data were collected to 1.78Å resolution at Diamond light source beamline I04-1. 
-
-        **Data processing:**
-        The structure was solved by molecular replacement using the structure of MERS-CoV main protease in space group C2221 (5C3N) as a search model. Crystal packing belonged to space group C2221 with two Mpro molecules in ASU.
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
       id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
       description:  >
@@ -214,12 +179,10 @@ TEP:
         Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
         electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
         at the XChem facility of Diamond Light Source beamline I04-1
-
-        Selected structures were deposited in the PDB via a group deposition.
-
-      date: 2020-04-07
+      date: 2024-04-30
       type: pdb-group-deposition
-      url: https://www.rcsb.org/groups/summary/entry/G_1002153
+      url: 
+      Fragment screen PDB group deposition [G_1002135](https://www.rcsb.org/groups/summary/entry/G_1002135), [G_1002144](https://www.rcsb.org/groups/summary/entry/G_1002144), [G_1002151](https://www.rcsb.org/groups/summary/entry/G_1002151), [G_1002152](https://www.rcsb.org/groups/summary/entry/G_1002152), [G_1002153](https://www.rcsb.org/groups/summary/entry/G_1002153), [G_1002155](https://www.rcsb.org/groups/summary/entry/G_1002155), [G_1002156](https://www.rcsb.org/groups/summary/entry/G_1002156), [G_1002157](https://www.rcsb.org/groups/summary/entry/G_1002157), [G_1002163](https://www.rcsb.org/groups/summary/entry/G_1002163), [G_1002272](https://www.rcsb.org/groups/summary/entry/G_1002272)
       projects: [Project 2]
       cores: [Structural Biology Core]
     - name: FRET-based proteolytic assay of SARS-CoV-2 Mpro
@@ -265,7 +228,6 @@ TEP:
         directly uploaded to the Moonshot vault for data analysis. The readouts are converted to % inhibition and
         the Levenberg–Marquardt algorithm is used to fit a Hill equation to dose-response data constrained with
         minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
-
         Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
       details: |
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
@@ -276,15 +238,52 @@ TEP:
         Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
         electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
         at the XChem facility of Diamond Light Source beamline I04-1
-
         Selected structures were deposited in the PDB via a group deposition.
-
       date: 2020-04-07
       type: pdb-group-deposition
       url: https://www.rcsb.org/groups/summary/entry/G_1002153
       projects: [Project 2]
       cores: [Structural Biology Core] 
-      
+    # Construct / plasmid resource
+    - name: Protein construct for MERS-CoV protease suitable for both biochemical assays and crystallography
+      id: MERS-CoV-protease_plasmid-biochemical-assay
+      scarab_id: MVMPROA-c001
+      # Brief description of the plasmid
+      description:  Construct for enzyme assays crystallography.
+      # Date it was provided
+      date: 2024-04-30
+      # Type: One of ['plasmid', 'xray-fragment-screen', 'pdb-deposition', 'assay', 'compounds']
+      type: plasmid
+      # URL pointing to resource
+      # For a plasmid, this should be an AddGene entry
+      # ASAP Projects and Cores that contributed to this resource
+      # e.g. ['Project 2', 'Structural Biology Core']
+      projects: [Project 2]
+      # Contributors / authors
+      contributors:
+      - Michael Fairhead
+      # Detailed expression protocol associated with this plasmid
+      # This is Markdown: See https://www.markdownguide.org/ for guide    
+      # TODO: In future, this should be a protocols.io link
+      protocol:       
+        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.bp2l62b11gqe/v1)
+      # TODO: Eliminate this, since this duplicative of the AddGene site.
+      details: |
+        * Vector: 
+        * Entry clone accession: 
+        * Cell line: 
+        * Tags and additions: 
+        * Construct protein sequence: 
+    - name: Crystal structure of MERS-CoV main protease
+      description: Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A resolution.
+      date: 2023-12-06
+      id: comev2-NSP15-mpro_apo-pdb-structure
+      type: pdb-deposition
+      url: https://www.rcsb.org/structure/8R5J
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      protocol: |
+        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.ewov194x7lr2/v1)      
     - name: Fluorescence assay for MERS-Mpro activity measurement
       id: MERS-Mpro-protease_biochemical-assay
       description: |
@@ -306,12 +305,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: |
-        Assay buffer: 20mM NaCl, 25 mM HEPES, 0.05% Tween-20, 0.05% BSA
-        Incubation: 1 hour at room temperature.
-        MERS Mpro: protein stocks were stored at -80C and used as 2x solution (1 µM, 0.5 µM final assay concentration) in assay buffer.
-        Substrate: Edans-GVLQSGLV-LysDabcyl-K (LifeTein, USA) prepared as a stock solution at 5 mM in DMSO and used at 2x solution (40 µM, 20  µM final concentration assay concentration) in assay buffer.
-        Plates: 384 well plate, white, f-bottom (Greiner #781074).
-        Liquid handler: Echo® acoustic liquid handler (Beckman Coulter, USA)
+        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.8epv5rzm4g1b/v1) 
         Plate reader: Pherastar FS, BMG Labtech (Germany), 350-460 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
         Method: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement.
         The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
