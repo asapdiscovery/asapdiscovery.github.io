@@ -36,8 +36,10 @@ TPP:
   id: ASAP-TPP-DENV
 
 TEP:
-  # TODO: Can we pull the status rom the TEP itself?
-  status: in-progress
+  # TODO: Can we pull the status from the TEP itself?
+  status: completed
+  # TODO: We need to allow override to TEP location
+  id: ASAP-ZIKA-NS2B-NS3
 
 TCP:
   status: completed
