@@ -226,3 +226,34 @@ TEP:
       url: https://www.rcsb.org/groups/summary/entry/G_1002271
       projects: [Project 2]
       cores: [Structural Biology Core] 
+    - name: Crystallographic fragment screen of Enterovirus D68 3C protease and iterative design of lead-like compounds using structure-guided expansions
+      id: evd68-3C-protease_xray-fragment-screen-preprint
+      description: Preprint describing X-ray fragment screen against EV-D68 3C protease
+      date: 2024-05-01
+      type: preprint
+      url: https://doi.org/10.1101/2024.04.29.591650
+      contributors:
+      - Ryan M Lithgo
+      - Charlie W. E. Tomlinson
+      - Michael Fairhead
+      - Max Winokan
+      - Warren Thompson
+      - Conor Wild
+      - Jasmin Aschenbrenner
+      - Blake Balcomb
+      - Peter G. Marples
+      - Anu V. Chandran
+      - Mathew N. Golding
+      - Lizbe Koekemoer
+      - Eleanor P. Williams
+      - SiYi Wang
+      - Xiaomin Ni
+      - Elizabeth M. MacLean
+      - Charline Giroud
+      - Tryfon Zaraganes-Tzitzikas
+      - Andre Schutzer de Godoy
+      - Mary-Ann Xavier
+      - Martin Walsh
+      - Daren Fearon
+      - Frank von Delft
+    

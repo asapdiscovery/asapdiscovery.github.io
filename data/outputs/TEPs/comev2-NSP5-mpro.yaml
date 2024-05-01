@@ -133,7 +133,7 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol:
-        Available at [protocols.io](http://dx.doi.org/10.17504/protocols.io.rm7vzj8p8lx1/v1)      
+        Available at [protocols.io](http://doi.org/10.17504/protocols.io.rm7vzj8p8lx1/v1)      
       # Details associated with this plasmid
       details: |
         <a href="/pdfs/PAGE22-01340 - AVIDD ASAP; MERS mPRO aka 3CL protease.pdf" download>Download experimental metadata</a>
@@ -153,9 +153,10 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]     
       protocol: >
-        Crystallization protocol [available at protocols.io](dx.doi.org/10.17504/protocols.io.kqdg326y7v25/v1) 
+        Crystallization protocol [available at protocols.io](http://doi.org/10.17504/protocols.io.kqdg326y7v25/v1) 
+
         Data were collected at the beamline I04-1 at 100 K and processed with the fully automated pipelines at
-        Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://journals.iucr.org/https://dx.doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
+        Diamond Light Source [[11](https://doi.org/10.1016/j.ymeth.2011.06.010)], which variously combine XDS [[12](https://doi.org/10.1107/s0907444909047374)], xia2 [[13](https://doi.org/10.1107/s0907444913015308)], autoPROC [[14](https://doi.org/10.1107/S0907444911007773)] and DIALS [[15](https://doi.org/10.1107%2FS2059798317017235)], and select resolution limits algorithmically; no manual curation of processing parameters was applied. Further
         analysis was performed through XChemExplorer [[16](https://doi.org/10.1107%2FS2059798316020234)]: for each dataset, the version of processed data was
         selected by the default XChemExplorer score, and electron density maps were generated with Dimple.
         Ligand-binding events were identified using PanDDA [[18](https://doi.org/10.1038/ncomms15123)] (both the released version 0.2 and a pre-release
@@ -172,17 +173,104 @@ TEP:
         ECHO liquid handler giving a final compound concentration of 2–100 mM and DMSO concentration of 10%.
         Drops were incubated at room temperature for ~1 h prior to mounting and flash cooling in liquid nitrogen
         without the addition of further cryoprotectant.
-    - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
-      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition
+    - name: PDB group deposition G_1002135 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002135
       description:  >
-        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), 
-        Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), 
-        electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography 
-        at the XChem facility of Diamond Light Source beamline I04-1
-      date: 2024-04-30
+        COVID-19 main protease from Coronaviridae sp. screened against the DSI-poised Fragment Library by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-03-11
       type: pdb-group-deposition
-      url: 
-      Fragment screen PDB group deposition [G_1002135](https://www.rcsb.org/groups/summary/entry/G_1002135), [G_1002144](https://www.rcsb.org/groups/summary/entry/G_1002144), [G_1002151](https://www.rcsb.org/groups/summary/entry/G_1002151), [G_1002152](https://www.rcsb.org/groups/summary/entry/G_1002152), [G_1002153](https://www.rcsb.org/groups/summary/entry/G_1002153), [G_1002155](https://www.rcsb.org/groups/summary/entry/G_1002155), [G_1002156](https://www.rcsb.org/groups/summary/entry/G_1002156), [G_1002157](https://www.rcsb.org/groups/summary/entry/G_1002157), [G_1002163](https://www.rcsb.org/groups/summary/entry/G_1002163), [G_1002272](https://www.rcsb.org/groups/summary/entry/G_1002272)
+      url: https://www.rcsb.org/groups/summary/entry/G_1002135
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002144 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002135
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-04-01
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002144
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002151
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-03-25
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002151
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002151
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-03-25
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002151
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002152 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002135
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-04-15 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002152
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002153 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002153
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-04-15 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002153
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002155 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002155
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-05-27 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002155
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002156 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002156
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against electrophilic heterocycle and SpotFinder fragment libraries (Hungarian Academy of Sciences) by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-06-10 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002156
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002157 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002157
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallogra phy at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-06-10 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002157
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002163 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002163
+      description:  >
+        SARS-CoV-2 main protease from Coronaviridae sp. screened against computationally designed covalent inhibitors by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+      date: 2020-12-02 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002163
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+    - name: PDB group deposition G_1002272 of X-ray fragment screen of SARS-CoV-2 Mpro
+      id: comev2-NSP15-mpro_fragment-screen-pdb-group-deposition-G_1002272
+      description:  >
+        SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1.
+        466 structures in group deposition.
+      date: 2023-11-08 
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002272
       projects: [Project 2]
       cores: [Structural Biology Core]
     - name: FRET-based proteolytic assay of SARS-CoV-2 Mpro
@@ -265,8 +353,8 @@ TEP:
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
-      protocol:       
-        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.bp2l62b11gqe/v1)
+      protocol: |      
+        [Available at protocols.io](http://doi.org/10.17504/protocols.io.bp2l62b11gqe/v1)
       # TODO: Eliminate this, since this duplicative of the AddGene site.
       details: |
         * Vector: 
@@ -283,7 +371,7 @@ TEP:
       projects: [Project 2]
       cores: [Structural Biology Core]
       protocol: |
-        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.ewov194x7lr2/v1)      
+        [Available at protocols.io](http://doi.org/10.17504/protocols.io.ewov194x7lr2/v1)      
     - name: Fluorescence assay for MERS-Mpro activity measurement
       id: MERS-Mpro-protease_biochemical-assay
       description: |
@@ -305,7 +393,8 @@ TEP:
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
       protocol: |
-        [Available at protocols.io](dx.doi.org/10.17504/protocols.io.8epv5rzm4g1b/v1) 
+        [Available at protocols.io](http://doi.org/10.17504/protocols.io.8epv5rzm4g1b/v1) 
+
         Plate reader: Pherastar FS, BMG Labtech (Germany), 350-460 FI optic module, the plate is read every 30 s for 2 hours and shacked during 5 s before the first reading.
         Method: Fifty µL of 2x protein solution were added to each well containing the compounds to be tested previously dispensed onto the plate. The mix has been incubated for one hour at room temperature and the enzymatic reaction was initiated by the addition of 50 µL of 2x (40 µM) substrate solution using the plate reader injector. The fluorescence intensity at 460 nm was read every 30 seconds for 2 hours in kinetic mode, which include a shaking step of the plate between each measurement.
         The IC50 was calculated by plotting the initial velocity against various concentrations of tested inhibitor by using a four parameter dose−response curve in Prism (v8.0) software.
