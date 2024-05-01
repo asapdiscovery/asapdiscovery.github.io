@@ -29,14 +29,16 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: not-started
+  status: completed
+  # TODO: We need to allow override to TEP location
+  id: ASAP-EVD68-3CLPRO
 
 TCP:
   status: completed
   id: ASAP-EVD68-3CLPRO
 
 assay_cascade:
-  status: in-progress
+  status: completed
   id: ASAP-ASSAY-EVD68-3CLPRO
 
 hit_to_lead:

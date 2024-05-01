@@ -30,6 +30,7 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: play
-  id: ASAP-TEP-EVA71-2APRO
+  status: completed
+  # TODO: We need to allow override to TEP location
+  id: ASAP-EVA71-2APRO
 
