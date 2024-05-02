@@ -7,8 +7,10 @@ ASAP-COV-MPRO:
   links:
   - name: metadata
     url: https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-October-2023-Data-Release-e237e130fe574cb6a2c2e5bf70571302
-  - name: (negative) biochemical and liver microsome assay data
+  - name: (negative) biochemical and liver microsome assay data [Oct 2023]
     url: https://app.postera.ai/account/molecule-set/39d706a6-d1ff-4fc8-a8c6-681a5eb92783
+  - name: (negative) biochemical and liver microsome assay data [Mar 2024]
+    url: https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-March-2024-35dfdcf42ffb4d1ebc8a164d681b68eb
   - name: SARS-CoV-2 Mpro assay protocol
     url: https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk/v1
   - name: MERS-CoV Mpro assay protocol
@@ -18,6 +20,8 @@ ASAP-COV-MPRO:
     description: Initial public release of negative biochemical activity data for 182 molecules.
   - date: 2023-11-07
     description: Initial public release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro and HLM/MLM data for 266 molecules.
+  - date: 2024-03-12
+    description: Quarterly public data release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro for 360 molecules.
 
 ASAP-SARS-COV-2-NSP3-MAC1:
   permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-SARS-COV-2-NSP3-MAC1
