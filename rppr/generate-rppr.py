@@ -12,8 +12,10 @@ TODO:
 #
 
 import datetime
-reporting_period_start = datetime.date.fromisoformat('2022-05-01')
-reporting_period_end = datetime.date.fromisoformat('2023-04-30')
+#reporting_period_start = datetime.date.fromisoformat('2022-05-01')
+#reporting_period_end = datetime.date.fromisoformat('2023-04-30')
+reporting_period_start = datetime.date.fromisoformat('2023-05-01')
+reporting_period_end = datetime.date.fromisoformat('2024-04-30')
 grant_id = 'NIH U19 AI171399' 
 
 # -*- coding: utf-8 -*-
@@ -228,6 +230,12 @@ def component_contributed_to_output(component_shortname, output):
     else:
         return False
 
+def text_date_is_in_reporting_period(text_date):
+    """Return True if text date is in event reporting period"""
+    text_date = str(text_date)
+    event_date = datetime.date.fromisoformat(text_date)
+    return (reporting_period_start <= event_date <= reporting_period_end)
+
 def filter_events_to_reporting_period(output):
     """
     Remove events not in reporting period
@@ -237,9 +245,7 @@ def filter_events_to_reporting_period(output):
     import datetime
     events = list()
     for event in output['events']:
-        text_date = str(event['date'])
-        event_date = datetime.date.fromisoformat(text_date)
-        if reporting_period_start <= event_date <= reporting_period_end:
+        if text_date_is_in_reporting_period(event['date']):
             events.append(event)
     output['events'] = events
 
@@ -610,7 +616,17 @@ def generate_progress_report(component_shortname, component, output_path):
             markdown_text += "Not applicable\n\n"
 
         for publication in publications:
-            # TODO: Check dates of publications and preprint/published version
+            # Check dates of publications and preprint/published version
+            report_publication = False
+            if ('published' in publication) and text_date_is_in_reporting_period(publication['published']['date']):
+                report_publication = True
+            if ('preprint' in publication) and text_date_is_in_reporting_period(publication['preprint']['date']):
+                report_publication = True
+            # Don't report publications that didn't use Projects or Cores
+            if len(publication['cores']) + len(publication['projects']) == 0:
+                report_publication = False
+            if not report_publication:
+                continue
 
             markdown_text += f"{publication['authors']}."
             markdown_text += f" **{publication['title']}**. " 
@@ -622,7 +638,12 @@ def generate_progress_report(component_shortname, component, output_path):
                     #markdown_text += f"; PubMed Central PMCID: This article is in press and has not yet received a PMCID.\n\n"
                 else:
                     markdown_text += f" {published['journal']} {published['volume']}:{published['pages']}, {published['year']}. Publication {published['date']}."
-                    markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
+                    if 'pmcid' in published:
+                        markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
+                    elif 'nihmsid' in published:
+                        markdown_text += f"; Submitted to PubMed Central NIHMSID: {published['nihmsid']}\n\n"
+                    else:
+                        print(f'******* WARNING: No PMCID for {publication["title"]}')
             elif 'preprint' in publication:
                 preprint = publication['preprint']
                 markdown_text += f"{preprint['server']} [**Preprint**]. {preprint['date']}. Available from: {preprint['url']}\n\n" 
@@ -668,8 +689,8 @@ if __name__ == "__main__":
     os.makedirs(output_path, exist_ok=True)
     for component_shortname, component in components.items():
         # Skip the Administrative Core since this is a special case we are handling manually
-        if component_shortname == 'Administrative Core':
-            continue
+        #if component_shortname == 'Administrative Core':
+        #    continue
 
         print(f"Generating report for {component['name']}")
         generate_progress_report(component_shortname, component, output_path)
