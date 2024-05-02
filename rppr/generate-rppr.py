@@ -12,8 +12,10 @@ TODO:
 #
 
 import datetime
-reporting_period_start = datetime.date.fromisoformat('2022-05-01')
-reporting_period_end = datetime.date.fromisoformat('2023-04-30')
+#reporting_period_start = datetime.date.fromisoformat('2022-05-01')
+#reporting_period_end = datetime.date.fromisoformat('2023-04-30')
+reporting_period_start = datetime.date.fromisoformat('2023-05-01')
+reporting_period_end = datetime.date.fromisoformat('2024-04-30')
 grant_id = 'NIH U19 AI171399' 
 
 # -*- coding: utf-8 -*-
@@ -622,7 +624,10 @@ def generate_progress_report(component_shortname, component, output_path):
                     #markdown_text += f"; PubMed Central PMCID: This article is in press and has not yet received a PMCID.\n\n"
                 else:
                     markdown_text += f" {published['journal']} {published['volume']}:{published['pages']}, {published['year']}. Publication {published['date']}."
-                    markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
+                    if 'pmcid' in published:
+                        markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
+                    else:
+                        print(f'WARNING: No PMCID for {publication["title"]}')
             elif 'preprint' in publication:
                 preprint = publication['preprint']
                 markdown_text += f"{preprint['server']} [**Preprint**]. {preprint['date']}. Available from: {preprint['url']}\n\n" 
@@ -668,8 +673,8 @@ if __name__ == "__main__":
     os.makedirs(output_path, exist_ok=True)
     for component_shortname, component in components.items():
         # Skip the Administrative Core since this is a special case we are handling manually
-        if component_shortname == 'Administrative Core':
-            continue
+        #if component_shortname == 'Administrative Core':
+        #    continue
 
         print(f"Generating report for {component['name']}")
         generate_progress_report(component_shortname, component, output_path)
