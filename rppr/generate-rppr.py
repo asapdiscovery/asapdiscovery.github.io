@@ -626,8 +626,10 @@ def generate_progress_report(component_shortname, component, output_path):
                     markdown_text += f" {published['journal']} {published['volume']}:{published['pages']}, {published['year']}. Publication {published['date']}."
                     if 'pmcid' in published:
                         markdown_text += f"; PubMed Central PMCID: {published['pmcid']}\n\n"
+                    elif 'nihmsid' in published:
+                        markdown_text += f"; Submitted to PubMed Central NIHMSID: {published['nihmsid']}\n\n"
                     else:
-                        print(f'WARNING: No PMCID for {publication["title"]}')
+                        print(f'******* WARNING: No PMCID for {publication["title"]}')
             elif 'preprint' in publication:
                 preprint = publication['preprint']
                 markdown_text += f"{preprint['server']} [**Preprint**]. {preprint['date']}. Available from: {preprint['url']}\n\n" 

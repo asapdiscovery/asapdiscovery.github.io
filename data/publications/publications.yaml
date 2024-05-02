@@ -69,7 +69,8 @@
   published:
     doi: 10.1038/s41573-023-00692-8
     journal: Nature Reviews Drug Discovery
-    pages: in press
+    volume: 22
+    pages: 585
     date: 2023-04-29
     year: 2023
 
@@ -83,9 +84,11 @@
   published:
     doi: 10.1093/nar/gkad314
     journal: Nucleic Acids Research
-    pages: in press
+    volume: 51
+    pages: 5255
     date: 2023-04-28
     year: 2023
+    pmcid: PMC10250223
   data: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/NSP15_B
 
 - title: "Open science discovery of potent noncovalent SARS-CoV-2 main protease inhibitors"    
@@ -107,6 +110,7 @@
     pages:  eabo7201
     date: 2023-11-10
     year: 2023
+    nihmsid: 1984191
   data: https://www.science.org/doi/10.1126/science.abo7201
 
 - title: "Crystallographic Fragment Screen of Coxsackievirus A16 2A Protease identifies new opportunities for the development of broad-spectrum anti-enterovirals"    
