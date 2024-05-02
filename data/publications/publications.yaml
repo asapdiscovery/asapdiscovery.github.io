@@ -6,6 +6,7 @@
   img: SARS-CoV-2-fitness-effects.png
   date: 2023-01-31
   programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
+  cores: []
   projects: [Project 1]
   preprint:
     server: bioRxiv
@@ -21,6 +22,7 @@
   img: mpro-solution-snapshot.png
   date: 2023-03-20
   programs: [ASAPPTGTTM]
+  cores: []
   projects: [Project 2]
   preprint:
     server: bioRxiv
@@ -65,6 +67,7 @@
   summary: We present a broad industry and academic perspective on key stages in the small-molecule antiviral discovery process and present strategies that could accelerate future efforts.
   img: target-product-profile.png
   programs: [ASAPPTGTTM, ASAPPNBTAE, ASAPPBBTAH, ASAPPITANL, ASAPPFWOJB] # TODO: Add any other SARS-CoV-2 programs
+  cores: []
   projects: [Project 6]
   published:
     doi: 10.1038/s41573-023-00692-8
@@ -128,7 +131,7 @@
 
 - title: "Crystallographic fragment screen of Enterovirus D68 3C protease and iterative design of lead-like compounds using structure-guided expansions"    
   authors: "Ryan M Lithgo, Charlie W. E. Tomlinson, Michael Fairhead, Max Winokan, Warren Thompson, Conor Wild, Jasmin Aschenbrenner, Blake Balcomb, Peter G. Marples, Anu V. Chandran, Mathew N. Golding, Lizbe Koekemoer, Eleanor P. Williams, SiYi Wang, Xiaomin Ni, Elizabeth M. MacLean, Charline Giroud, Tryfon Zaraganes-Tzitzikas, Andre Schutzer de Godoy, Mary-Ann Xavier, Martin Walsh, Daren Fearon, Frank von Delft"
-  summary: We describe X-ray fragment screen against EV-D68 3C protease
+  summary: We describe an X-ray fragment screen against EV-D68 3C protease
   img: evd68-3C-protease-fragment-screen.jpg
   programs: [ASAP-EVD68-3CLPRO]
   cores: [Structural Biology Core]
@@ -137,6 +140,17 @@
     server: bioRxiv
     date: 2024-05-01
     url: https://doi.org/10.1101/2024.04.29.591650
+    license: "CC-BY 4.0 International license"  
+
+- title: "Crystallographic fragment screening delivers diverse chemical scaffolds for Zika virus NS2B-NS3 protease inhibitor development"
+  authors: Xiaomin Ni, Andre Schutzer de Godoy, Peter George Marples, Michael Fairhead, Blake H Balcomb, Matteo P. Ferla, Charles W. E. Tomlinson, Siyi Wang, Charline Girould, Jasmin Cara Aschenbrenner, Ryan Lithgo, Max Winokan, Anu V. Chandran, Warren Thompson, Mary-Ann Elvina Xavier, Eleanor Williams, Martin A. Walsh, Daren Fearon, Lizbe Koekemoer, Frank von Delft
+  summary: We describe an X-ray fragment screen of ZIKV NS2B-NS3 protease, resolving 48 protein:ligand complexes
+  projects: [Project 2]
+  cores: [Structural Biology Core]  
+  preprint:
+    server: bioRxiv
+    date: 2024-04-29
+    url: https://doi.org/10.1101/2024.04.29.591502
     license: "CC-BY 4.0 International license"  
 
 - title: "High-throughput crystallographic fragment screening of Zika virus NS3 Helicase"    

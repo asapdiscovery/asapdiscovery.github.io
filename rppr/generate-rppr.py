@@ -230,6 +230,12 @@ def component_contributed_to_output(component_shortname, output):
     else:
         return False
 
+def text_date_is_in_reporting_period(text_date):
+    """Return True if text date is in event reporting period"""
+    text_date = str(text_date)
+    event_date = datetime.date.fromisoformat(text_date)
+    return (reporting_period_start <= event_date <= reporting_period_end)
+
 def filter_events_to_reporting_period(output):
     """
     Remove events not in reporting period
@@ -239,9 +245,7 @@ def filter_events_to_reporting_period(output):
     import datetime
     events = list()
     for event in output['events']:
-        text_date = str(event['date'])
-        event_date = datetime.date.fromisoformat(text_date)
-        if reporting_period_start <= event_date <= reporting_period_end:
+        if text_date_is_in_reporting_period(event['date']):
             events.append(event)
     output['events'] = events
 
@@ -612,7 +616,17 @@ def generate_progress_report(component_shortname, component, output_path):
             markdown_text += "Not applicable\n\n"
 
         for publication in publications:
-            # TODO: Check dates of publications and preprint/published version
+            # Check dates of publications and preprint/published version
+            report_publication = False
+            if ('published' in publication) and text_date_is_in_reporting_period(publication['published']['date']):
+                report_publication = True
+            if ('preprint' in publication) and text_date_is_in_reporting_period(publication['preprint']['date']):
+                report_publication = True
+            # Don't report publications that didn't use Projects or Cores
+            if len(publication['cores']) + len(publication['projects']) == 0:
+                report_publication = False
+            if not report_publication:
+                continue
 
             markdown_text += f"{publication['authors']}."
             markdown_text += f" **{publication['title']}**. " 
