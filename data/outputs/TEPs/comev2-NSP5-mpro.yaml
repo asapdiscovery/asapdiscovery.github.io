@@ -1,6 +1,6 @@
 TEP:
   # Name of the TEP
-  name: SARS-CoV-2 / MERS-CoV Mpro protease
+  name: SARS-CoV-2 / MERS-CoV Mpro
   # ASAP-specific information
   asap:
     # Viral family is one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae', 'orthomyxoviridae']
@@ -25,7 +25,7 @@ TEP:
   # Therapeutic area
   therapeutic_area: Infectious diseases
   # Disease relevance statement
-  disease_relevance: The SARS-Cov-2 main protease (Mpro) is responsible for viral polyprotein processing and therefore a therapeutic target.
+  disease_relevance: The main protease (Mpro) is responsible for viral polyprotein processing and therefore a therapeutic target.
   contributors:
   - Aaron Keeley
   - Ailsa Powell
@@ -93,7 +93,7 @@ TEP:
   # Scientific Background:
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
-    The emergence of COVID-19 has caused a global pandemic of unexpected scale. The disease is caused by the SARS-Cov-2 virus [10](https://doi.org/10.1016%2FS1473-3099(20)30144-4), [11](https://doi.org/10.1038/s41586-020-2008-3), [12](https://doi.org/10.1056/nejmoa2001017) for which no approved drugs exist or are in the pipeline. This disease has so far claimed more than [1.2 million lives world-wide](November 2020, https://covid19.who.int), despite numerous regional lockdowns in order to stop the spread of the virus. However, despite the fact that SARS-CoV-2 is already the third zoonotic coronavirus outbreak after the emergence of SARS-CoV-1 in 2002 and the Middle East Respiratory Syndrome (MERS-CoV) in 2012 [13](https://pubmed.ncbi.nlm.nih.gov/23078800/), [14](https://doi.org/10.1016/s0140-6736(03)13967-0), [15](https://doi.org/10.1056/nejmoa1211721), there is a notable lack of antiviral treatment options. SARS-CoV-2 is a large enveloped, positive-sense, single-stranded RNA Betacoronavirus from the order of nidoviruses. Its RNA encodes two open reading frames that, through ribosome frame-shifting, generates two polyproteins pp1a and pp1ab [16](https://doi.org/10.1093%2Fnar%2F18.7.1825). The genome contains a large replicase gene encompassing nonstructural proteins (Nsps), followed by structural and accessory genes. The polyproteins are processed by two viral cysteine proteases: a papain-like protease (PLpro) which cleaves three sites, releasing non-structural proteins nsp1-3 and a 3C-like protease, also referred to as the main protease (Mpro), that cleaves at 11 sites to release non-structural proteins (nsp4-16). These non-structural proteins form the replicase complex responsible for replication and transcription of the viral genome and have led to Mpro and PLPro being the primary targets for antiviral drug development [17](https://doi.org/10.1111/febs.12936).
+    The emergence of COVID-19 has caused a global pandemic of unexpected scale. The disease is caused by the SARS-Cov-2 virus [10](https://doi.org/10.1016%2FS1473-3099(20)30144-4), [11](https://doi.org/10.1038/s41586-020-2008-3), [12](https://doi.org/10.1056/nejmoa2001017) and has so far claimed more than [7 million lives world-wide](November 2020, https://covid19.who.int), despite numerous regional lockdowns in order to stop the spread of the virus. However, despite the fact that SARS-CoV-2 is already the third zoonotic coronavirus outbreak after the emergence of SARS-CoV-1 in 2002 and the Middle East Respiratory Syndrome (MERS-CoV) in 2012 [13](https://pubmed.ncbi.nlm.nih.gov/23078800/), [14](https://doi.org/10.1016/s0140-6736(03)13967-0), [15](https://doi.org/10.1056/nejmoa1211721), there is a notable lack of antiviral treatment options. SARS-CoV-2 is a large enveloped, positive-sense, single-stranded RNA Betacoronavirus from the order of nidoviruses. Its RNA encodes two open reading frames that, through ribosome frame-shifting, generates two polyproteins pp1a and pp1ab [16](https://doi.org/10.1093%2Fnar%2F18.7.1825). The genome contains a large replicase gene encompassing nonstructural proteins (Nsps), followed by structural and accessory genes. The polyproteins are processed by two viral cysteine proteases: a papain-like protease (PLpro) which cleaves three sites, releasing non-structural proteins nsp1-3 and a 3C-like protease, also referred to as the main protease (Mpro), that cleaves at 11 sites to release non-structural proteins (nsp4-16). These non-structural proteins form the replicase complex responsible for replication and transcription of the viral genome and have led to Mpro and PLPro being the primary targets for antiviral drug development [17](https://doi.org/10.1111/febs.12936).
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
@@ -315,8 +315,7 @@ TEP:
         Da) from the total ion chromatogram data which is used to calculate the percentage inhibition. All data is
         directly uploaded to the Moonshot vault for data analysis. The readouts are converted to % inhibition and
         the Levenberg–Marquardt algorithm is used to fit a Hill equation to dose-response data constrained with
-        minimum value = 0.0 and maximum value = 100 to calculate IC50 values.
-        Protocols, data tables, and hits can be downloaded [here](https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem/Downloads.html).
+        minimum value = 0.0 and maximum value = 100 to calculate IC~50~ values.
       details: |
         <a href="/pdfs/PAGE23-00152 - AVIDD ASAP; MERS MPRO c900 (MVMPROA p001) crystallization and further concentration.pdf" download>Download experimental metadata</a>
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro
