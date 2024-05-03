@@ -10,7 +10,7 @@ TEP:
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPFWOJB
-    program_nickname: ASAP-SARS-COV-2-ENDORIBONUCLEASE  
+    program_nickname: ASAP-SARS-CoV-2-endoribonuclease 
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: 43740578
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
@@ -24,7 +24,7 @@ TEP:
   # Therapeutic area
   therapeutic_area: Infectious diseases
   # Disease relevance statement
-  disease_relevance: NSP15 is a nidoviral RNA uridylate‐specific endoribonuclease (NendoU) from SARS-CoV-2, likely involved in innate immune evasion
+  disease_relevance: nsp15 is a nidoviral RNA uridylate‐specific endoribonuclease (NendoU) from SARS-CoV-2, likely involved in innate immune evasion
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
   - Andre Schutzer Godoy
@@ -35,6 +35,7 @@ TEP:
   - Victor O. Gawrijuk
   - Rafaela S. Fernandes
   - Glaucius Oliva
+  - Daren Fearon
   - Frank von Delft
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
@@ -109,8 +110,8 @@ TEP:
     - name: PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp15 endoribonuclease
       id: ccosv2-NSP15-endou_fragment-screen-pdb-group-deposition
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
-                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
-                    surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
+                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible nsp15
+                    surface area. N.B. the asymmetric unit of nsp15 crystals contains two nsp15 protomers, but some
                     fragments were only bound to one protomer.
       date: 2020-11-01
       type: pdb-group-deposition
@@ -123,8 +124,8 @@ TEP:
     - name: Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp15 endoribonuclease
       id: ccosv2-NSP15-endou_fragment-screen-fragalysis
       description:  The crystallographic fragment discovery campaign using the XChem platform revealed chemically distinct
-                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible NSP15
-                    surface area. N.B. the asymmetric unit of NSP15 crystals contains two NSP15 protomers, but some
+                    fragments that could bind to NSP15. Fragment screening hits were found all over the accessible nsp15
+                    surface area. N.B. the asymmetric unit of nsp15 crystals contains two nsp15 protomers, but some
                     fragments were only bound to one protomer.
       date: 2020-11-01
       type: xray-fragment-screen
