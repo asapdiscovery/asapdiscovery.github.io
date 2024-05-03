@@ -45,16 +45,63 @@ TEP:
   - Peter Marples
   - Ryan Lithgo
   - Warren Thompson
+  - Taiasean Wu
+  - Roberto Efraín Díaz
+  - Iris D. Young
+  - Luan Carvalho Martins, Dominique H. Smith
+  - Ursula Schulze-Gahmen
+  - Tristan W. Owens
+  - Ishan Deshpande
+  - Gregory E. Merz
+  - Aye C. Thwin
+  - Justin T. Biel
+  - Jessica K. Peters
+  - Michelle Moritz
+  - Nadia Herrera
+  - Huong T. Kratochvil
+  - Anthony Aimon
+  - James M. Bennett
+  - Jose Brandao Neto
+  - Aina E. Cohen
+  - Alexandre Dias
+  - Alice Douangamath
+  - Louise Dunnett
+  - Oleg Fedorov
+  - Matteo P. Ferla
+  - Martin Fuchs
+  - Tyler J. Gorrie-Stone
+  - James M. Holton 
+  - Michael G. Johnson,
+  - George Meigs
+  - Ailsa J. Powell
+  - Johannes Gregor 
+  - Matthias Rack
+  - Victor L Rangel
+  - Silvia Russi
+  - Rachael E. Skyner
+  - Clyde A. Smith
+  - Alexei S. Soares
+  - Jennifer L. Wierman
+  - Kang Zhu
+  - Natalia Jura
+  - Alan Ashworth
+  - John Irwin
+  - Michael C. Thompson
+  - Jason E. Gestwicki
+  - Frank von Delft
+  - Brian K. Shoichet
+  - James S. Fraser
+  - Ivan Ahel
   # Summary of Project
   # This is Markdown: See https://www.markdownguide.org/ for guide
   summary: >
-    The conserved macrodomain encoded as non-structural protein 3 (Nsp3 Mac1) is employed by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to remove host-derived ribosylation, which is a post-translational modification involved in the production of antiviral cytokines. This TEP provides early tools to develop Nsp3 Mac1 inhibitors, including purification protocols of recombinant proteins, reproducible crystallisation condition suitable for X-ray crystallography fragment screening, biophysical (activity and binding) assays and over 200 fragment hits representing a wide range of chemotypes, that are a starting point for the development of more selective and potent compounds.
+    The conserved macrodomain encoded as non-structural protein 3 (nsp3 Mac1) is employed by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to remove host-derived ribosylation, which is a post-translational modification involved in the production of antiviral cytokines. This TEP provides early tools to develop nsp3 macrodomain inhibitors, including purification protocols of recombinant proteins, reproducible crystallisation condition suitable for X-ray crystallography fragment screening, biophysical (activity and binding) assays and over 200 fragment hits representing a wide range of chemotypes, that are a starting point for the development of more selective and potent compounds.
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide
   scientific_background: >
     The novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic, which causes the disease COVID-19, 
     has dramatically impacted the world and set the necessity for the development of efficient prophylactic and therapeutic approaches, 
-    such as antivirals. As of March 2020, [over 3 million people have died of COVID-19 worldwide](https://ourworldindata.org/covid-deaths). 
+    such as antivirals. As of April 2024, [over 7 million people have died of COVID-19 worldwide](https://ourworldindata.org/covid-deaths). 
     Adenosine diphosphate (ADP)-ribosylation is a highly conserved posttranslational modification related to the immune response which 
     supresses viral replication [[1](http://doi.org/10.1101/gad.334425.119), [2](https://doi.org/10.1128/mbio.01721-16)]. 
     For instance, the “antiviral poly(ADP-ribosyl) polymerase 14 (PARP14) promotes interleukin-4-dependent 
@@ -67,7 +114,7 @@ TEP:
   # Scientific Background
   # This is Markdown: See https://www.markdownguide.org/ for guide    
   conclusion: >
-    Here we have established a purification protocol for recombinant Nsp3 Mac1 from Sars-CoV-2 and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits which were validated by biophysical assays established in this work. The ligands and assays established in this work will pave the way for future drug discovery endeavours targeting Nsp3 Mac1.
+    Here we have established a purification protocol for recombinant nsp3 Mac1 from SARS-CoV-2 and established a robust crystallisation suitable for fragment screening. We have performed a substantial fragment screening campaign and identified many hits which were validated by biophysical assays established in this work. The ligands and assays established in this work will pave the way for future drug discovery endeavours targeting Nsp3 Mac1.
   
     Fragment screen PDB group deposition: https://www.rcsb.org/groups/summary/entry/G_1002238
   # List of resources associated with this TEP
@@ -133,7 +180,7 @@ TEP:
       description:  This construct encodes a SUMO1 Mac fusion which when purified crystallised in P121.
       date: 2021-06-01
       type: plasmid
-      url: https://www.addgene.org/169209/
+      url: 
       projects: [Project 2]
       cores: []
       authors:
