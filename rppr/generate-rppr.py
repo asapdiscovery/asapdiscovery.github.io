@@ -18,6 +18,9 @@ reporting_period_start = datetime.date.fromisoformat('2023-05-01')
 reporting_period_end = datetime.date.fromisoformat('2024-04-30')
 grant_id = 'NIH U19 AI171399' 
 
+# Source of written components in Word .docx format
+written_components_directory = 'written-components/2024 ASAP Progress Report written components/'
+
 # -*- coding: utf-8 -*-
 
 from docx import Document
@@ -457,6 +460,10 @@ def generate_progress_report(component_shortname, component, output_path):
     # See https://python-docx.readthedocs.io/
     import docx
 
+    #
+    # Create initial part of document via Markdown
+    #
+
     # Load the template and extract styles
     docx_template_filename = "2590_continuation-template.docx"
     document = docx.Document(docx_template_filename)
@@ -531,6 +538,35 @@ def generate_progress_report(component_shortname, component, output_path):
         markdown_text += render_research_outputs(component_shortname)
         markdown_text += render_TEP_outputs(component_shortname)
 
+    elif component['type'] in ['Developmental Award', 'Mentored Award']:
+        #
+        # Developmental Award, Mentored Award
+        #
+
+        # Significant changes in the Specific Aims
+        # TODO: Should this section describe any changes in approach during the past year?
+        markdown_text += "# Significant changes in the Specific Aims\n\n"
+        if component['funded_aims_modified']:
+            markdown_text += 'The Specific Aims have been modified from the original, competing application as described in "A. Specific Aims" below.\n\n'
+        else:
+            markdown_text += 'The Specific Aims have not been modified from the original, competing application.\n\n'
+            
+        # Significance of the work
+        markdown_text += '# Significance of the work\n\n'
+        markdown_text += component['significance'] + '\n\n'
+
+        # Significance of the work
+        markdown_text += '# Product development milestones\n\n'
+        if 'product_development_milestones' in component:
+            markdown_text += component['product_development_milestones'] + '\n\n'
+        else:
+            markdown_text += 'This component does not have any product development milestones because it only supports the discovery stage.\n\n'
+
+        # Significant Project-generated resources
+        markdown_text += "# Significant Project-Generated Resources\n\n"
+        markdown_text += render_research_outputs(component_shortname)
+        markdown_text += render_TEP_outputs(component_shortname)
+
     # Page separator
     markdown_text += "---\n\n"
 
@@ -543,41 +579,76 @@ def generate_progress_report(component_shortname, component, output_path):
 
     markdown_text += "---\n\n"
 
-    # B. Studies and Results
-    markdown_text += '# B. Studies and Results\n\n'
-    markdown_text += 'Significant accomplishments include:\n\n'
-    markdown_text += accomplishments[component_shortname] + '\n\n'
-    markdown_text += f'Other major results and outputs from this {component["type"]} are listed in Significant Project Generated Resources and have been posted online.\n\n'
-    # Include statistics
-    if component_shortname == 'Structural Biology Core':
-        spreadsheets = {
-            'SARS-CoV-2 Mpro protease' : 'SARS_Mpro_SBC_Analysis.xlsx',
-            'MERS-CoV Mpro protease' : 'MERS_Mpro_SBC_Analysis.xlsx',
-            'SARS-CoV-2 nsp3 Mac1 macrodomain' : 'Nsp3_Mac1_SBC_Analysis.xlsx',
-            }
+    # # B. Studies and Results
+    # markdown_text += '# B. Studies and Results\n\n'
+    # markdown_text += 'Significant accomplishments include:\n\n'
+    # markdown_text += accomplishments[component_shortname] + '\n\n'
+    # markdown_text += f'Other major results and outputs from this {component["type"]} are listed in Significant Project Generated Resources and have been posted online.\n\n'
 
-        for target, filename in spreadsheets.items():
-            import pandas as pd
-            sheet = pd.read_excel(f'structural-biology-core-data/{filename}', sheet_name='Experiment_Summary')
-            markdown_text += f'For **{target}**, the following experiments have been conducted during the reporting period:\n\n'
-            # Count the number of times each value appears in 'Experiment Status' column and collect counts into a dict
-            counts = sheet['Experiment Status'].value_counts().to_dict()
-            for count, name in counts.items():
-                markdown_text += f'* {count} : {name}\n'
-            markdown_text += '\n'
+    # # Include statistics
+    # if component_shortname == 'Structural Biology Core':
+    #     spreadsheets = {
+    #         'SARS-CoV-2 Mpro protease' : 'SARS_Mpro_SBC_Analysis.xlsx',
+    #         'MERS-CoV Mpro protease' : 'MERS_Mpro_SBC_Analysis.xlsx',
+    #         'SARS-CoV-2 nsp3 Mac1 macrodomain' : 'Nsp3_Mac1_SBC_Analysis.xlsx',
+    #         }
 
-    markdown_text += "---\n\n"
+    #     for target, filename in spreadsheets.items():
+    #         import pandas as pd
+    #         sheet = pd.read_excel(f'structural-biology-core-data/{filename}', sheet_name='Experiment_Summary')
+    #         markdown_text += f'For **{target}**, the following experiments have been conducted during the reporting period:\n\n'
+    #         # Count the number of times each value appears in 'Experiment Status' column and collect counts into a dict
+    #         counts = sheet['Experiment Status'].value_counts().to_dict()
+    #         for count, name in counts.items():
+    #             markdown_text += f'* {count} : {name}\n'
+    #         markdown_text += '\n'
 
-    # C. Significance
-    markdown_text += '# C. Significance\n\n'
-    markdown_text += component['significance'] + '\n\n'
-    markdown_text += "---\n\n"
+    # markdown_text += "---\n\n"
 
-    # D. Plans
-    markdown_text += '# D. Plans\n\n'
-    markdown_text += 'Plans for the next project period include:\n\n'
-    markdown_text += plans[component_shortname] + '\n\n'
-    markdown_text += "---\n\n"
+    # # C. Significance
+    # markdown_text += '# C. Significance\n\n'
+    # markdown_text += component['significance'] + '\n\n'
+    # markdown_text += "---\n\n"
+
+    # # D. Plans
+    # markdown_text += '# D. Plans\n\n'
+    # markdown_text += 'Plans for the next project period include:\n\n'
+    # markdown_text += plans[component_shortname] + '\n\n'
+    # markdown_text += "---\n\n"
+
+    # Render partial document from Markodwn
+    renderer = PythonDocxRenderer()
+    render_code = MarkdownWithMath(renderer=renderer)(markdown_text)
+    exec(render_code)
+
+    # Add page break
+    #document.add_page_break()
+
+    # Save initial part of document
+    initial_document = document
+
+    #
+    # Read written components from Word .docx files as middle part of document
+    #
+
+    written_component_filename = written_components_directory + component_shortname + '.docx'
+    print(f'Reading from {written_component_filename}')
+    middle_document = Document(written_component_filename)
+    #for element in written_component.element.body:
+    #    document.element.body.append(element)
+    #for paragraph in written_component.paragraphs:
+    #    document.add_paragraph(paragraph.text)
+    middle_document.add_page_break()
+
+
+    #
+    # Create the final part of the document
+    #
+
+    # Load the template and extract styles
+    document = docx.Document(docx_template_filename)
+    document.sections[0].header.paragraphs[0].add_run('Chodera, John Damon').bold = True
+    markdown_text = ""
 
     # Human Subjects
     markdown_text += "# Human Subjects\n\n"
@@ -668,11 +739,18 @@ def generate_progress_report(component_shortname, component, output_path):
     #for index, line in enumerate(render_code.split('\n')):
     #    print(f'{index:8d}: {line}')
     exec(render_code)
+    final_document = document
+
+    # Combine the documents
+    from docxcompose.composer import Composer
+    composer = Composer(initial_document)
+    composer.append(middle_document)
+    composer.append(final_document)
 
     # Save the report
     import os
     output_filename = os.path.join(output_path, component_shortname + '.docx')
-    document.save(output_filename)
+    composer.save(output_filename)
 
     # Clean up
     if os.path.exists('tmp'):

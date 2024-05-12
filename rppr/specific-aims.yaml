@@ -282,3 +282,88 @@ Data Core:
     Aim 2: To capture design decisions and track progress. We will extend our infrastructure for capturing compound designs and provenance to automatically add annotations with predicted synthetic routes and feasibility/cost, affinity to multiple viral target variants, propensity for eliciting resistance mutations, and a variety of relevant ADMET properties. We will provide the chemistry teams with infrastructure for capturing compound synthesis priorities and actioning compound orders and assays outside of the automated assay cascade progression. Tracking tools will be developed to unify and present past and future experimental data on any biological target or compound. For each designed compound, synthesis progress, quantity of material available at each site, queued assays, logistical shipping details, and assay results will be easily accessible, providing a unified understanding of progress and design focus to all Cores. 
 
     Aim 3: To establish a portal for internal and public dissemination of data. Though the COVID Moonshot project pioneered real-time dissemination of compound, synthesis, and bioactivity data from drug discovery campaigns, this Core aims to also enable the dissemination of ADMET data. An ASAP website will be established where updates and assay details can be publicly disseminated according to FAIR (Findable, Accessible, Interoperable, Reusable) guidelines, kindling rapid global progress in antiviral discovery. Data on any target or compound coming from every Core will be aggregated to deliver complete data packages. 
+
+Developmental Award - Isaacs:
+  name: "Defining mutational constraints of ASAP-prioritized SARS-CoV-2 target proteins via multiplexed, yeast-based cDNA"
+  type: Developmental Award
+  projects_served: |
+    * **Project 1 (Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance):** This Developmental Award enhances the deep mutational scanning capabilities of Project 1 by introducing the flexible eMAGE technology for rapidly assessing the impact of all point mutations on function at defined parts of the protein.
+
+    ![](asap-programs-projects.jpg)
+
+  significance: |
+    The intention of this work was to bring a new technology to rapidly edit the SARS-CoV-2 genome in vivo by using “eukaryotic multiplex automated genome engineering” (eMAGE). This synthetic biology approach, invented in the laboratory of co-PI Farren Isaacs, enables precise, multi-site (i.e., multiplex) gene modifications at single bp resolution, with high efficiency and without unintended mutagenic changes, at targeted genomic loci in Saccharomyces cerevisiae. This is especially valuable for work with RNA viral genomes, which encode proteases and viroporins that are often highly toxic to mammalian cells.  Furthermore, the large size of the yeast artificial chromosomes that carry the viral genomes facilitates work with large RNA viruses such as SARS-CoV-2. This method holds great promise for viral RNA research.  We had planned to install bursts of mutations into fragment-binding sites in SARS-CoV-2 proteins Mpro, N and Mac1, targets of interest to ASAP. In addition, full-length clones of EV-D68 and EV-A71 genomes were to be prepared and utilized for Targeted Deep Mutational Scanning at fragment-binding sites of interest to ASAP.
+
+    Unfortunately, most of the planned contributions of this Developmental Project have not been realized. Principal InvestigatorI Brett Lindenbach became gravely ill in the past year and ultimately succumbed to his disease on December 16, 2023. 
+
+  funded_aims_modified: false
+  aims: |
+    N/A
+
+Developmental Award - Waring:
+  name: "DNA-encoded libraries targeting viral proteases"
+  type: Developmental Award
+  projects_served: |
+    * **Project 1 (Increasing Efficacy of Antivirals by Reducing Selection for Drug Resistance):** This Developmental Award enhances the fragment library capabilities of Project 1 by introducing DNA-encoded libraries for screening against viral proteases.
+
+    ![](asap-programs-projects.jpg)
+  
+  significance: |
+    The project aims to provide DNA-encoded library screening to the consortium. This will provide an alternative source of hit finding for novel targets and a potential platform for finding hits against future targets in a rapid and efficient manner.
+
+  funded_aims_modified: false
+  aims: |
+    N/A
+
+Developmental Award - Zwaka:
+  name: "Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery"
+  type: Developmental Award
+  projects_served: |
+    * **Antiviral Core:** This Developmental Award enhances the cellular assay capabilities of the Antiviral Core by introducing iPSC-derived primary-like systems for medium-throughput antiviral drug discovery.
+    * **Project 3 (Fragment-to-lead):** This Developmental Award enhances the cellular assay capabilities supporting Project 3 by enhancing the capabiltiies of the Antiviral Core in assessing antiviral activity in cell lines that better mimic human disease settings.
+    * **Project 4 (Covalent targeting strategies):** This Developmental Award enhances the cellular assay capabilities supporting Project 4 by enhancing the capabiltiies of the Antiviral Core in assessing antiviral activity in cell lines that better mimic human disease settings.
+    * **Project 5 (Lead optimization):** This Developmental Award enhances the cellular assay capabilities supporting Project 5 by enhancing the capabiltiies of the Antiviral Core in assessing antiviral activity in cell lines that better mimic human disease settings.
+    * **Project 6 (Preclinical development):** This Developmental Award enhances the cellular assay capabilities supporting Project 6 by enhancing the capabiltiies of the Antiviral Core in assessing antiviral activity in cell lines that better mimic human disease settings.
+    
+    ![](asap-programs-projects.jpg)
+  
+  significance: |
+    The ongoing work is crucial for the advancement of antiviral drug development against a backdrop where rapid responses to emerging viral threats are increasingly necessary. By perfecting iPSC-derived models for high-throughput screening, we're paving the way for the discovery and optimization of antiviral compounds with greater efficiency and cost-effectiveness. This work directly addresses the urgent need for innovative approaches to antiviral therapy, particularly in the face of pandemics.
+
+  funded_aims_modified: false
+  aims: |
+    N/A
+
+Mentored Award - Horton:
+  name: "Bespoke Molecular Models for the AI-Driven Structure-Enabled Antiviral Platform"
+  type: Mentored Award
+  projects_served: |
+    * **Project 3 (Fragment-to-lead):** This Mentored Award enhances the computational chemistry support provided to Project 3 in effectively prioritizing potent compounds for synthesis.
+    * **Project 5 (Lead optimization):** This Mentored Award enhances the computational chemistry support provided to Project 3 in effectively prioritizing potent compounds for synthesis.
+    
+    ![](asap-programs-projects.jpg)
+
+  significance: |
+    The AI-driven Structure-Enabled Antiviral Platform (ASAP) employs state-of-the-art computational free energy calculations to predict binding affinities between a lead compound and its therapeutic target to efficiently use synthetic resources. While free energy calculations provide a formally rigorous protocol for extracting binding free energy data from the dynamics of candidate molecules in complex with their therapeutic target, they are only useful in guiding synthesis if sufficiently accurate (for example, <1 kcal/mol r.m.s. error). In practice, accuracy is limited by the general molecular mechanics force fields used to describe the dynamics and interactions. This project aims to improve the accuracy of these atomistic models by deriving molecule-specific parameters from high-level quantum mechanical (or machine learning) reference data on the fly providing more robust and accurate estimates of ligand binding affinity.
+
+  funded_aims_modified: false
+  aims: |
+    N/A
+
+Mentored Award - Thompson:
+  name: "Rapid, expansive and out-of-catalogue exploration of fragment merges via synthesis on low-cost robotics"
+  type: Mentored Award
+  projects_served: |
+    * **Project 2 (Target enablement):** This Mentored Award enhances the ability of Project 2 to deliver additional fragment-derived hits and hit compounds with measurable potency as part of its Target Enabling Packages
+    * **Project 3 (Fragment-to-lead):** This Mentored Award enables Project 2 to continue to generate additional fragment-derived hits that will provide more starting points for accelerated hit-to-lead discovery
+
+    ![](asap-programs-projects.jpg)
+  
+  significance: |
+    This project aims to address the current limitations and accelerate the “make” aspect of the Design Make Test Analyse (DMTA) cycle for the discovery of antivirals. This project will use low-cost robotics (<10k) and a digitized chemistry platform, Chemist Assisted Robotics (CAR), for the multi-step synthesis of 1000’s of out-of-catalogue compounds. This project aims to make fragment follow-up design cheap (<5k) and rapid (<4 weeks). CAR combines a cloud-based web-application, digitized chemistry (19 reactions tested and encoded), and automated code generation for reviewing, selecting, and executing the automated synthesis of follow-up compounds on a low-cost liquid handler. Follow-up compounds will be designed using a generative algorithm, that uses the power of multiple fragments, to maximize the number of protein interactions, to explore a massive merge-enumeration design space. To fully exploit the merge-design space, this project aims to digitize multi-step chemistry as required, by reaction pathways suggested my Manifold, for the synthesis of merging designs. To mitigate synthetic attrition and enable rapid discovery, the platform will be expanded to execute multiple protocols per reaction type, using the power of automation, to rapidly explore multiple reaction conditions. To avoid costly purification steps, this project will use crude multi-step reaction mixtures, using methodology developed at XChem, to yield large volume structural data to inform iterative design campaigns.    
+    
+  funded_aims_modified: false
+  aims: |
+    N/A
+
+  
