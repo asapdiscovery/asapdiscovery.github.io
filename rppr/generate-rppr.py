@@ -564,8 +564,7 @@ def generate_progress_report(component_shortname, component, output_path):
 
         # Significant Project-generated resources
         markdown_text += "# Significant Project-Generated Resources\n\n"
-        markdown_text += render_research_outputs(component_shortname)
-        markdown_text += render_TEP_outputs(component_shortname)
+        markdown_text += 'See "Significant project-generated resources" section below.\n\n'
 
     # Page separator
     markdown_text += "---\n\n"
