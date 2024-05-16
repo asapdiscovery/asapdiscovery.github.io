@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-may"></a><br>
-*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
-* **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh) ([ASAP](http://asapdiscovery.org))**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity*
-* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic*
 
 **Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
@@ -89,6 +83,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-may"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh) ([ASAP](http://asapdiscovery.org))**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity* **[[Video]](https://youtu.be/0o8QrKIQKk4)**
+* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic* **[[Video]](https://youtu.be/_zmeNY50MbQ)**
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-apr"></a><br>
