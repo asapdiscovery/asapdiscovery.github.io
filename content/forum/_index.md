@@ -87,8 +87,8 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-may"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
-* **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh) ([ASAP](http://asapdiscovery.org))**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity* **[[Video]](https://youtu.be/0o8QrKIQKk4)**
-* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic* **[[Video]](https://youtu.be/_zmeNY50MbQ)**
+* **[David Minh, Illinois Institute of Technology](https://www.iit.edu/directory/people/david-minh) ([ASAP](http://asapdiscovery.org))**: *Enzyme kinetics of the coronavirus main protease and connections to antiviral activity* **[[Video]](https://youtu.be/0o8QrKIQKk4)** **[[Slides]](https://zenodo.org/records/11210906)**
+* **[Andrew Owen, University of Liverpool](https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-owen/)**: *Lessons learned from the mechanism of action and pharmacokinetic-pharmacodynamic relationships for antiviral medicines evaluated during the COVID-19 pandemic* **[[Video]](https://youtu.be/_zmeNY50MbQ)** **[[Slides]](https://zenodo.org/records/11211106)**
 
 **Wed 17 April 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-apr"></a><br>
