@@ -39,8 +39,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-jun"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[Nick Lynch, Curlew Research](https://www.linkedin.com/in/nickjlynch/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Research Data Management - Being "FAIR enough"*
 * **[Matthew Robinson, PostEra](https://postera.ai/) ([ASAP](http://asapdiscovery.org))**: *TBD*
-* **TBD**
 
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
