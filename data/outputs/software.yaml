@@ -11,7 +11,7 @@ asapdiscovery:
 
 choppa:
   name: "choppa"
-  description: "A Python package for visualising DMS and other fitness data on protein structures."
+  description: "A Python library for visualizing DMS data and other fitness data directly on protein structures."
   permalink: http://asapdiscovery.org/outputs/software/#choppa
   projects: [Project 5, Computational Chemistry Core]
   links:
@@ -22,7 +22,7 @@ choppa:
 
 argos:
   name: "argos"
-  description: "A web based visualisation tool for DMS data on protein structures."
+  description: "A web based visualisation tool for viewing DMS data on protein structures."
   permalink: http://asapdiscovery.org/outputs/software/#argos
   projects: [Project 5, Computational Chemistry Core]
   links:
@@ -32,7 +32,7 @@ argos:
 
 hindsight:
   name: "hindsight"
-  description: "Continuously updated plots of comp-chem predictions vs experiment for lead optimisation campaigns"
+  description: "Generates and continuously updates plots comparing computational chemistry predictions with experimental data to aid in lead optimization campaigns."
   permalink: http://asapdiscovery.org/outputs/software/#hindsight
   projects: [Project 5, Computational Chemistry Core]
   links:
@@ -42,8 +42,8 @@ hindsight:
 
 falcbot:
   name: "falcbot"
-  description: "A slack integration for running computational chemistry workflows"
-  permalink: http://asapdiscovery.org/outputs/software/#FalcBot
+  description: "A slack integration for running computational chemistry workflows."
+  permalink: http://asapdiscovery.org/outputs/software/#falcbot
   projects: [Project 5, Computational Chemistry Core]
   links:
   - name: GitHub

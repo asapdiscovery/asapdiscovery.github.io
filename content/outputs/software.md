@@ -5,6 +5,6 @@ description: Software produced by ASAP
 toc: true
 ---
 
-Software produced by ASAP
+Software produced by ASAP.
 
 {{< software >}}
