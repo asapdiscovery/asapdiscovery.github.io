@@ -1,0 +1,8 @@
+<!-- TODO: How should we sort the software? -->
+{{ range $software := $.Site.Data.outputs.software }}
+
+    
+    {{ partial "research-output.html" $software }}
+
+
+{{ end }} 
