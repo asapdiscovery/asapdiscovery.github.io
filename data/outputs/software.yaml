@@ -1,7 +1,50 @@
-SOFTWARE:
+asapdiscovery:
   name: "asapdiscovery"
+  description: Monorepo for running computational chemistry project support for ASAP targets, including docking, free energy calculations, chemoinformatics  and machine learning.
   permalink: http://asapdiscovery.org/outputs/software/#asapdiscovery
-  projects: [Project 5]
+  projects: [Project 5, Computational Chemistry Core]
   links:
-  - name: asapdiscovery
+  - name: GitHub
     url: https://github.com/asapdiscovery/asapdiscovery
+  - name: Documentation
+    url: https://asapdiscovery.readthedocs.io/en/latest
+
+choppa:
+  name: "choppa"
+  description: "A Python package for visualising DMS and other fitness data on protein structures."
+  permalink: http://asapdiscovery.org/outputs/software/#choppa
+  projects: [Project 5, Computational Chemistry Core]
+  links:
+  - name: GitHub
+    url: https://github.com/asapdiscovery/choppa
+  - name: Documentation
+    url: https://choppa.readthedocs.io
+
+argos:
+  name: "argos"
+  description: "A web based visualisation tool for DMS data on protein structures."
+  permalink: http://asapdiscovery.org/outputs/software/#argos
+  projects: [Project 5, Computational Chemistry Core]
+  links:
+  - name: GitHub
+    url: https://github.com/asapdiscovery/argos 
+
+
+hindsight:
+  name: "hindsight"
+  description: "Continuously updated plots of comp-chem predictions vs experiment for lead optimisation campaigns"
+  permalink: http://asapdiscovery.org/outputs/software/#hindsight
+  projects: [Project 5, Computational Chemistry Core]
+  links:
+  - name: GitHub
+    url: https://github.com/asapdiscovery/hindsight-public
+
+
+falcbot:
+  name: "falcbot"
+  description: "A slack integration for running computational chemistry workflows"
+  permalink: http://asapdiscovery.org/outputs/software/#FalcBot
+  projects: [Project 5, Computational Chemistry Core]
+  links:
+  - name: GitHub
+    url: https://github.com/asapdiscovery/FALCBot
