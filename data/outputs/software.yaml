@@ -1,6 +1,6 @@
 asapdiscovery:
   name: "asapdiscovery"
-  description: Monorepo for running computational chemistry project support for ASAP targets, including docking, free energy calculations, chemoinformatics  and machine learning.
+  description: Monorepository for running computational chemistry project support for ASAP's viral targets, including docking, free energy calculations, chemoinformatics  and machine learning.
   permalink: http://asapdiscovery.org/outputs/software/#asapdiscovery
   projects: [Project 5, Computational Chemistry Core]
   links:
@@ -11,9 +11,9 @@ asapdiscovery:
 
 choppa:
   name: "choppa"
-  description: "A Python library for visualizing DMS data and other fitness data directly on protein structures."
+  description: "A Python library for visualizing Deep Mutational Scanning data and other fitness data directly onto protein structures to enable fitness-informed decision-making in medicinal chemistry workflows in P2-P5 of ASAP's drug discovery pipeline."
   permalink: http://asapdiscovery.org/outputs/software/#choppa
-  projects: [Project 5, Computational Chemistry Core]
+  projects: [Project 1, Computational Chemistry Core]
   links:
   - name: GitHub
     url: https://github.com/asapdiscovery/choppa
@@ -22,9 +22,9 @@ choppa:
 
 argos:
   name: "argos"
-  description: "A web based visualisation tool for viewing DMS data on protein structures."
+  description: "A web-based visualization tool for viewing DMS data on protein structures that allows users to generate and share these views using a web UI. See 'choppa' package below."
   permalink: http://asapdiscovery.org/outputs/software/#argos
-  projects: [Project 5, Computational Chemistry Core]
+  projects: [Project 2, Computational Chemistry Core]
   links:
   - name: GitHub
     url: https://github.com/asapdiscovery/argos 
@@ -32,7 +32,7 @@ argos:
 
 hindsight:
   name: "hindsight"
-  description: "Generates and continuously updates plots comparing computational chemistry predictions with experimental data to aid in lead optimization campaigns."
+  description: "Generates and continuously updates statistics and graphs comparing computational chemistry predictions with gathered experimental data to aid in hit-to-lead and lead optimization campaigns."
   permalink: http://asapdiscovery.org/outputs/software/#hindsight
   projects: [Project 5, Computational Chemistry Core]
   links:
@@ -42,7 +42,7 @@ hindsight:
 
 falcbot:
   name: "falcbot"
-  description: "A slack integration for running computational chemistry workflows."
+  description: "A slack integration for running computational chemistry workflows that are developed by ASAP's computational chemistry core."
   permalink: http://asapdiscovery.org/outputs/software/#falcbot
   projects: [Project 5, Computational Chemistry Core]
   links:
