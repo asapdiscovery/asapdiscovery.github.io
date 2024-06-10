@@ -40,7 +40,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-jun"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * **[John Pottage, Jr.](https://www.intrepidalliance.org/leadership/john-pottage-jr/) and [Jim Demarest](https://www.intrepidalliance.org/leadership/jim-demarest/) ([Intrepid Alliance](https://www.intrepidalliance.org/))**: *Antiviral Target Compound Profile (TCP) for Pandemic Preparedness*
-* TBD
+* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org))** : *The Open Science Discovery of DNDi-6510: An orally bioavailable SARS-CoV2 antiviral*
 
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
