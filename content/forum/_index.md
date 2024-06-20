@@ -34,14 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-
-**Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-jun"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* **[John Pottage, Jr.](https://www.intrepidalliance.org/leadership/john-pottage-jr/) and [Jim Demarest](https://www.intrepidalliance.org/leadership/jim-demarest/) ([Intrepid Alliance](https://www.intrepidalliance.org/))**: *Antiviral Target Compound Profile (TCP) for Pandemic Preparedness*
-* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org))** : *The Open Science Discovery of DNDi-6510: An orally bioavailable SARS-CoV-2 antiviral*
-
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-jul"></a><br>
@@ -83,6 +75,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-jun"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
+* **[John Pottage, Jr.](https://www.intrepidalliance.org/leadership/john-pottage-jr/) and [Jim Demarest](https://www.intrepidalliance.org/leadership/jim-demarest/) ([Intrepid Alliance](https://www.intrepidalliance.org/))**: *Antiviral Target Compound Profile (TCP) for Pandemic Preparedness* **[[Video]](https://youtu.be/DrfeQnwOhKo)**
+* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org))** : *The Open Science Discovery of DNDi-6510: An orally bioavailable SARS-CoV-2 antiviral* **[[Video]](https://youtu.be/sWzE6qJs6fk)** 
 
 **Wed 15 May 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-may"></a><br>
