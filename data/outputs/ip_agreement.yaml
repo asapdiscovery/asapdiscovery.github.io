@@ -1,0 +1,9 @@
+asapdiscovery:
+  name: "Open Science and Intellectual Property Agreement"
+  description: Griffen, E., & Boulet, P. (2024). ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0). Zenodo.
+  permalink: http://asapdiscovery.org/outputs/ip-agreement/#asapdiscovery
+  projects: [Project 5, Project 6, Admin Core]
+  links:
+  - name: Publication
+    url: https://doi.org/10.5281/zenodo.12191567
+

@@ -1,0 +1,7 @@
+<!-- TODO: How should we sort the target data? -->
+{{ range $package, $output := $.Site.Data.outputs.ip_agreement }}
+
+    {{ $output := merge $output (dict "id" $package) }}
+    {{ partial "research-output.html" $output }}
+
+{{ end }}
