@@ -10,10 +10,10 @@ Authors: <br>
 [**Pascale Boulet**](https://dndi.org/our-people/pascale-boulet/), *ASAP IP Strategy Consultant*, Intellectual Property & Access Leader, [DNDi](https://dndi.org/)<br>
 [**Dr Ed Griffen**](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en), *ASAP Lead Optimization Project Lead*, [MedChemica Consultancy Ltd](https://www.medchemica.com/)<br>
 
-Our approach to open science and intellectual property is described in detail in this journal article preprint:
+Our approach to open science and intellectual property is described in detail in our formal policy:
 > Griffen, E., & Boulet, P. (2024). ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0). Zenodo. https://doi.org/10.5281/zenodo.12191567
 
-Below, we provide a summary of the main principles of our approach to open science:
+Below, we provide a brief summary of the main principles of our approach to open science:
 
 ### Antivirals must be globally accessible to be effective against pandemics
 
@@ -64,6 +64,6 @@ ASAP IP policy aims to use patents rights as a tool to avoid some of the short-c
 
 ---
 
-You can find more details about our open science policy and approach toward intellectual property in this journal article preprint:
+Our Intellectual Property Management and Open Science Disclosure Policy is here:
 > Griffen, E., & Boulet, P. (2024). [ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0)](https://doi.org/10.5281/zenodo.12191567). Zenodo. https://doi.org/10.5281/zenodo.12191567
 
