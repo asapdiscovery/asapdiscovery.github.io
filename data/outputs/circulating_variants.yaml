@@ -127,3 +127,25 @@ MOONSHOT-COV-MPRO:
   events:
   - date: 2023-01-31
     description: Preprint and interactive mutation viewer posted.
+
+ASAP-ZIKV-NS2B3:
+  name: Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease
+  description: Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab
+  links:
+  - name: dataset download
+    url: https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master
+  events:
+  - date: 2023-11-01
+    description: Initial version of analyzed data posted.
+  projects: [Project 1]
+
+ASAP-ZIKV-RdRp-polymerase:
+  name: Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5)
+  description: Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab
+  links:
+  - name: dataset download
+    url: https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/tree/IFN_signaling
+  events:
+  - date: 2024-04-01
+    description: Initial version of analyzed data posted.
+  projects: [Project 1]
