@@ -34,13 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-jul"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Haim Barr, Weizmann Institute of Science](http://www.weizmann.ac.il/Staff_Scientists/haim-michael-barr) ([ASAP](http://asapdiscovery.org))**: *High-throughput biochemical assays for early antiviral discovery*
-* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *Discovery of antivirals targeting SARS-CoV2 viral helicase*
-
 **Wed 21 August 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 [![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
 <a name="2024-aug"></a><br>
@@ -76,6 +69,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-july"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Haim Barr, Weizmann Institute of Science](http://www.weizmann.ac.il/Staff_Scientists/haim-michael-barr) ([ASAP](http://asapdiscovery.org))**: *High-throughput biochemical assays for early antiviral discovery* **[[Video]](https://youtu.be/6qOPCaZ9R08)**
+* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *Discovery of antivirals targeting SARS-CoV2 viral helicase* **[[Video]](https://youtu.be/8ErfpJ-qQeI)**
+  
 **Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-jun"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
