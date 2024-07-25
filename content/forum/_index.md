@@ -44,8 +44,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
 *Moderator:* TBD
-* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP AViDD Center](http://asapdiscovery.org)): Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery
-* TBD
+* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP AViDD Center](http://asapdiscovery.org)): *Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery*
+* **[Fumiaki Yokokawa, Novartis Institutes for BioMedical Research (NIBR)](https://www.linkedin.com/in/fumiaki-yokokawa-24355918/):** *TBD*
 
 **Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-oct"></a><br>
@@ -65,6 +65,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * TBD
 * TBD
 
+**Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2025-jan"></a><br>
+*Moderator:* TBD
+* **[Sara Cherry, University of Pennsylvania](https://www.med.upenn.edu/cherrylab/) ([CAMPP](https://www.campp.org/))**: *Identifying antivirals active against emerging RNA viruses*
+* TBD
+
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
@@ -72,8 +78,8 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-july"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Haim Barr, Weizmann Institute of Science](http://www.weizmann.ac.il/Staff_Scientists/haim-michael-barr) ([ASAP](http://asapdiscovery.org))**: *High-throughput biochemical assays for early antiviral discovery* **[[Video]](https://youtu.be/6qOPCaZ9R08)**
-* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung)**: *Discovery of antivirals targeting SARS-CoV2 viral helicase* **[[Video]](https://youtu.be/8ErfpJ-qQeI)**
+* **[Haim Barr, Weizmann Institute of Science](http://www.weizmann.ac.il/Staff_Scientists/haim-michael-barr) ([ASAP](http://asapdiscovery.org))**: *High-throughput biochemical assays for early antiviral discovery* **[[Video]](https://youtu.be/6qOPCaZ9R08)** **[[Slides]](https://zenodo.org/records/12809005)**
+* **[Hoon Chung, University of Louisville](https://louisville.edu/medicine/departments/microbiology/about/faculty/chung) ([Midwest AViDD Center](https://midwestavidd.umn.edu/))**: *Discovery of antivirals targeting SARS-CoV2 viral helicase* **[[Video]](https://youtu.be/8ErfpJ-qQeI)** **[[Slides]](https://zenodo.org/records/12824478)**
   
 **Wed 19 June 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-jun"></a><br>
