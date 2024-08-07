@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-aug"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Fang Li, University of Minnesota](https://med.umn.edu/bio/fang-li)**: *Nanobodies as novel entry inhibitors of pandemic viruses*
-* **[Margo Ann Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *TBD*
+* **[Margo Ann Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *Conserved sequences in orthoflavivirus genome RNAs that form stable G-Quadruplexes as antiviral targets*
 
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
