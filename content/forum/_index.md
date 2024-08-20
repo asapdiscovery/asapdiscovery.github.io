@@ -39,7 +39,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-aug"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Srinivas Chamakuri, Baylor College of Medicine](https://www.bcm.edu/people-search/srinivas-chamakuri-19135)**: *DNA-encoded library screening yields mechanistically distinct inhibitors of antiviral targets*
-* **[Margo Ann Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *Conserved sequences in orthoflavivirus genome RNAs that form stable G-Quadruplexes as antiviral targets*
+* **[Margo Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *Conserved sequences in orthoflavivirus genome RNAs that form stable G-Quadruplexes as antiviral targets*
 
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
