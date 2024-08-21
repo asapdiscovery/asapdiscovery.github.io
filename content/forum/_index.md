@@ -43,27 +43,26 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
-*Moderator:* TBD
-* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP AViDD Center](http://asapdiscovery.org)): *Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery*
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP](http://asapdiscovery.org)): *Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery*
 * **[Fumiaki Yokokawa, Novartis Institutes for BioMedical Research (NIBR)](https://www.linkedin.com/in/fumiaki-yokokawa-24355918/):** *TBD*
 
 **Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-oct"></a><br>
-*Moderator:* TBD
+*Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Nick Lynch, Curlew Research](https://www.linkedin.com/in/nickjlynch/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Research Data Management - Being "FAIR enough"*
 * **[Matthew Robinson, PostEra](https://postera.ai/) ([ASAP](http://asapdiscovery.org))**: *TBD*
 
 **Wed 13 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-nov"></a><br>
-*Moderator:* TBD
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
 * TBD
 * TBD
 
 **Wed 18 December 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-dec"></a><br>
-*Moderator:* TBD
-* TBD
-* TBD
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org)) and [Pascale Boulet](https://dndi.org/our-people/pascale-boulet/) ([DNDi](http://dndi.org)) ([ASAP](http://asapdiscovery.org))**: *TBD*
 
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-jan"></a><br>
