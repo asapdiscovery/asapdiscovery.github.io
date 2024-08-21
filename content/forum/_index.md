@@ -56,13 +56,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 13 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-nov"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org))
-* TBD
-* TBD
+* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org)) and [Pascale Boulet](https://dndi.org/our-people/pascale-boulet/) ([DNDi](http://dndi.org)) ([ASAP](http://asapdiscovery.org))**: 
 
 **Wed 18 December 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-dec"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org)) and [Pascale Boulet](https://dndi.org/our-people/pascale-boulet/) ([DNDi](http://dndi.org)) ([ASAP](http://asapdiscovery.org))**: *TBD*
+* *TBD*
+* *TBD*
 
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-jan"></a><br>
