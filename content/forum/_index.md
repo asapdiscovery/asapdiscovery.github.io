@@ -34,13 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 21 August 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-[![Register](https://img.shields.io/badge/register-ZOOM-brightgreen)](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw#/registration) 
-<a name="2024-aug"></a><br>
-*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Srinivas Chamakuri, Baylor College of Medicine](https://www.bcm.edu/people-search/srinivas-chamakuri-19135)**: *DNA-encoded library screening yields mechanistically distinct inhibitors of antiviral targets*
-* **[Margo Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *Conserved sequences in orthoflavivirus genome RNAs that form stable G-Quadruplexes as antiviral targets*
-
 **Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-sep"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
@@ -66,13 +59,19 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-jan"></a><br>
-*Moderator:* TBD
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Sara Cherry, University of Pennsylvania](https://www.med.upenn.edu/cherrylab/) ([CAMPP](https://www.campp.org/))**: *Identifying antivirals active against emerging RNA viruses*
 * TBD
 
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 21 August 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-aug"></a><br>
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
+* **[Srinivas Chamakuri, Baylor College of Medicine](https://www.bcm.edu/people-search/srinivas-chamakuri-19135)**: *DNA-encoded library screening yields mechanistically distinct inhibitors of antiviral targets*
+* **[Margo Brinton, Georgia State University](https://cas.gsu.edu/profile/margo-brinton/)**: *Conserved sequences in orthoflavivirus genome RNAs that form stable G-Quadruplexes as antiviral targets*
 
 **Wed 17 July 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-july"></a><br>
