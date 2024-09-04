@@ -6,6 +6,11 @@
 <div id="hero" class="wrap">
   <h1>{{.Title }}</h1>
     <p>{{.Params.description}}</p>
+
+    <center>
+      <i>Click on any shaded box to view data and resources associated with that stage.</i>
+    </center>
+        
 </div>
 <div id="main">
 
@@ -16,7 +21,6 @@
 <!-- Define width for icons -->
 <!-- TODO: Can we shrink width as needed to make sure we fit on mobile without wrapping icons? -->
 {{ $icon_width := "28" }}
-
 
 <div class="container">
 
@@ -137,10 +141,6 @@
       &nbsp
     </div>
   {{ end }}
-
-  <center>
-    <i>Click on any shaded box to view data and resources associated with that stage.</i>
-  </center>
 
   <br>
 
