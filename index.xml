@@ -1,44 +1,6492 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI-driven Structure-enabled Antiviral Platform (ASAP) on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/</link><description>Recent content in AI-driven Structure-enabled Antiviral Platform (ASAP) on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://asapdiscovery.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Jun 17, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on June 17, 2020. The minutes are summarized as follows:
-Change in OpenFF leadership Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative.</description></item><item><title>May 20, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</link><pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on May 20, 2020. The minutes are summarized as follows:
-Infrastructure update J. Wagner gave an infrastructure update based on his talk presented during the recent virtual Third Open Force Field Workshop on May 4-5, 2020. Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes. At the moment, OpenFF is trying to generate SMILES before and after calculations.</description></item><item><title>Apr 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</link><pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on April 15, 2020. The minutes are summarized as follows:
-Brief Update D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study.</description></item><item><title>Mar 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on March 18, 2020. The minutes are summarized as follows:
-The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.</description></item><item><title>Feb 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on February 19, 2020. The minutes are summarized as follows:
-Next FF release plans I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released minor release - openff-1.1. D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures.</description></item><item><title>Jan 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</link><pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on January 15, 2020. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – Jan 19, 2020 Protein-ligand benchmarking D. Hahn gave an update on his progress with protein-ligand benchmarking of Parsley &amp;ndash; he is currently working on developing a repository for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc) D.</description></item><item><title>Nov 19, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</guid><description>The [Open Force Field Consortium Advisory Board] met on November 19, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – Nov 19, 2019 Personnel update Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado OpenFF is hiring more personnel, primarily software scientists OFF toolkit update Version 0.</description></item><item><title>Oct 16, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</guid><description>The Open Force Field Consortium Advisory Board had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.
-The minutes from the meeting held on Oct 16, 2019 are summarized as follows:</description></item><item><title>Jul 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</link><pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on July 17, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – July 17, 2019 The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!</description></item><item><title>Jun 13, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</link><pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 13 June, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – June 13, 2019 First optimized force field (D. Mobley):
-Aiming to have the first force field released by Sept 1 and evaluations performed by Oct 1. Specific discussion about it takes place in #release-1 channel on Slack.
-Types: The same typing tree as smirnoff99Frosst will be used, but the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters will be optimized;</description></item><item><title>May 15, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</link><pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 15 May, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – May 15, 2019 Overview of the roadmap for the remaining time of Year 1 and the accomplishments made so far (J. Chodera).
-Torsions update (L.-P. Wang):
-The selected set of molecules for initial torsion scanning contains 486 small and chemically diverse molecules provided by Roche (less than 30 heavy atoms)- “Roche set”- more fragments will be added to this set in the future;</description></item><item><title>April 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</link><pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 17 April 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – 17 April 2019 K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan Release update by Jeff Wagner: 0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th Version numbers indicate API is still in flux, there may be function call changes, etc.</description></item><item><title>March 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</link><pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 20 March, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – March 20, 2019 Status Updates: OFFI NIH proposal submitted and available publicly Hiring update: Karmen Condic-Jurkic starts April 1 as half-time scientific coordinator/project manager Interviews ongoing for bespoke torsion fitting and potentially electrostatics role Open Force Field Toolkit update: Alpha release slated for April 2 Will contain RDKit backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added) Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms) Differences in aromaticity models could result in some differences in corner cases We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields SDF with standardized tags will be the supported method for importing molecules with custom charges OpenEye and RDKit on-board with standardized tags for charges There may have been minor changes to XML forcefield format since the January preview release Changes are summarized here OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates Partners and users are directed to use the Github issue tracker to report issues or problems Technical questions – Desmond support How is Desmond currently used by Partners?</description></item><item><title>February 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</link><pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 20 February, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – February 20, 2019 Next release of toolkit currently being tested and finished Workflow documentation Next item on to-do list Call for additional desired workflows to be posted in #documentation channel Industry compound additions to parameterization sets Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures Industry partners should identify particularly high priority chemical space for initial parameterization Compounds/fragments to be sent via Slack or GitHub BI has SureChembl dump and scripts that may be able to be shared.</description></item><item><title>January 23, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</link><pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – January 23, 2019 RDKit Integration Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend Workflows Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion: Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description></item><item><title>January 7-8, 2019 Consortium Workshop</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</guid><description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
-Visit the agenda page for more details of the workshop.</description></item><item><title>October 29, 2018 Joint Governing/Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</link><pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</guid><description>Minutes: Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
-Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
-Funding/financials: Currently we have eight partners on board (with openforcefield.</description></item><item><title>October 11, 2018 Governing Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</guid><description>Agenda: October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date. Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
-Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, $ amounts, etc.</description></item><item><title>Viral Families</title><link>https://asapdiscovery.org/outputs/viral-families/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/viral-families/</guid><description>ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.
-coronaviridae Coronavirus antiviral discovery is funded by NIAID grant U19AI171399 from the National Institutes of Health.
-flaviviridae Flavivirus antiviral discovery is funded by NIAID grant U19AI171399 from the National Institutes of Health.</description></item><item><title>Software</title><link>https://asapdiscovery.org/outputs/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/software/</guid><description>Software produced by ASAP.
-argos [GitHub] A web-based visualization tool for viewing DMS data on protein structures that allows users to generate and share these views using a web UI. See &amp;lsquo;choppa&amp;rsquo; package below. Contributing Projects and Cores: Project 2 Computational Chemistry Core asapdiscovery [GitHub] [Documentation] Monorepository for running computational chemistry project support for ASAP&amp;rsquo;s viral targets, including docking, free energy calculations, chemoinformatics and machine learning. Contributing Projects and Cores: Project 5 Computational Chemistry Core choppa [GitHub] [Documentation] A Python library for visualizing Deep Mutational Scanning data and other fitness data directly onto protein structures to enable fitness-informed decision-making in medicinal chemistry workflows in P2-P5 of ASAP&amp;rsquo;s drug discovery pipeline.</description></item><item><title>Targeting Opportunities</title><link>https://asapdiscovery.org/outputs/targeting-opportunities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/targeting-opportunities/</guid><description>A targeting opportunity provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action. This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
-Targeting Opportunity: SARS-CoV-2 / MERS-CoV Mpro protease [Targeting Opportunity] Contributing Projects and Cores: Project 1 Project 5 [2023-03-19] Initial draft [2024-04-29] Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.</description></item><item><title>Molecules</title><link>https://asapdiscovery.org/outputs/molecules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/molecules/</guid><description>SARS-CoV-2/MERS-CoV Mpro lead optimization assay data [metadata] [(negative) biochemical and liver microsome assay data [Oct 2023]] [(negative) biochemical and liver microsome assay data [Mar 2024]] [SARS-CoV-2 Mpro assay protocol] [MERS-CoV Mpro assay protocol] This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program. Contributing Projects and Cores: Project 5 Biochemical Assay Core Data Core [2023-04-30] Initial public release of negative biochemical activity data for 182 molecules.</description></item><item><title>Structures</title><link>https://asapdiscovery.org/outputs/structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/structures/</guid><description>MERS-CoV/SARS-CoV-2 Mpro protease ASAP-COV-MPRO XChem crystallographic fragment screen of SARS-CoV-2 Mpro xray-fragment-screen [ 2020-03-18 ] Contributing Projects and Cores: Project 2 Structural Biology Core We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals.</description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.</description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease [interactive viewer] [bioRxiv preprint] Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants Contributing Projects and Cores: Project 1 [2023-01-31] Preprint and interactive mutation viewer posted. Analysis of circulating variants of SARS-CoV-2 nsp15 endoribonuclease [interactive viewer] [bioRxiv preprint] Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants Contributing Projects and Cores: Project 1 [2023-01-31] Preprint and interactive mutation viewer posted.</description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>A Target Product Profile (TPP) describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.
-All ASAP TPPs are draft TPPs intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium. ASAP works with stakeholders around the globe (such as the World Health Organization) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.</description></item><item><title>Target Enabling Packages (TEPs)</title><link>https://asapdiscovery.org/outputs/target-enabling-packages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-enabling-packages/</guid><description>A Target Enabling Package (TEP) is a complete data package needed to enable structure-based drug discovery against an antiviral target. Pioneered by the Structural Genomics Consortium, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an X-ray fragment screen at the Diamond Light Source XChem facility, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.</description></item><item><title>Assay Cascades</title><link>https://asapdiscovery.org/outputs/assay-cascades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-cascades/</guid><description>An assay cascade is a defined set of assays and progression criteria used by a drug discovery program to achieve its Target Candidate Profile (TCP) goals in a time- and cost-effective manner.
-Assay cascade for MERS-CoV / SARS-CoV-2 oral antiviral [Asay Cascade (lead optimization)] Contributing Projects and Cores: Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-06-01] Initial draft DENV/ZIKV NS2B/3 3C protease [Assay Cascade] Assay cascade for DENV/ZIKV NS2B/3 3C Protease oral antiviral Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2023-12-23] Initial draft EV-D68 / EV-A71 3C Protease Assay Cascade [Assay Cascade] Assay cascade for EV-D68 / EV-A71 3C Protease oral antiviral Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-07-14] Initial draft Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral [Assay Cascade (fragment-to-lead)] Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-06-01] Initial draft Assay cascade for SARS-CoV-2 Mpro oral antiviral [Assay Cascade (lead optimization)] Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot [2020-03-23] Initial draft for COVID Moonshot</description></item><item><title>Assay Protocols</title><link>https://asapdiscovery.org/outputs/assay-protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-protocols/</guid><description>ASAP frequently needs to develop or scale its own biochemical assay protocols to drive discovery programs. Whenever possible, we share these protocols through protocols.io, an industry standard platform for sharing and annotating assay protocols.
-MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay [assay protocol] This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease. Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity.</description></item><item><title>Target Candidate Profiles (TCPs)</title><link>https://asapdiscovery.org/outputs/target-candidate-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-candidate-profiles/</guid><description>A Target Candidate Profile (TCP) describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate. Our TCPs are informed by the corresponding Target Product Profiles (TPPs) for the corresponding disease.
-MERS-CoV / SARS-CoV-2 MPro protease oral inhibitor [Target Candidate Profile] Contributing Projects and Cores: Project 5 [2023-03-01] Initial draft DENV/ZIKV NS2B/3 protease oral inhibitor draft [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-03-01] Initial draft [2023-05-11] Consolidate DENV/ZIKV EV-D68/A71 3C protease oral inhibitor [Lead Transition Profile] [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-06-22] Initial drafts EV-D68/A71 VP1 capsid assembly oral inhibitor [Lead Transition Profile] [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-12-15] Initial drafts SARS-CoV-2 nsp3 Mac1 macrodomain oral inhibitor [Target Candidate Profile for lead nomination] Contributing Projects and Cores: Project 3 Project 5 [2023-03-01] Initial draft SARS-CoV-2 Oral MPro protease inhibitor [Target Candidate Profile] Contributing Projects and Cores: Project 5 [2020-04-01] Initial draft</description></item><item><title>Preclinical programs</title><link>https://asapdiscovery.org/outputs/preclinical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/preclinical/</guid><description>SARS-CoV-2 Mpro protease See the COVID Moonshot preclinical program.</description></item><item><title>Investigational New Drug (IND) filings</title><link>https://asapdiscovery.org/outputs/investigational-new-drugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/investigational-new-drugs/</guid><description>ASAP does not yet have any programs that have reached Investigational New Drug (IND) status.</description></item><item><title>Clinical trials</title><link>https://asapdiscovery.org/outputs/clinical-trials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/clinical-trials/</guid><description>ASAP does not currently have any programs that have reached clinical trials.</description></item><item><title>New Drug Approvals</title><link>https://asapdiscovery.org/outputs/new-drug-approvals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/new-drug-approvals/</guid><description>ASAP does not currently have any programs that have reached New Drug Approval (NDA) status.</description></item><item><title/><link>https://asapdiscovery.org/outputs/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/img/icons/readme/</guid><description>Icons from The Noun Project Icons are CC-BY from The Noun Project
-Credits (for CC-BY acknowledgments) assay-cascade.png : noun-chemistry-2954755 : Chemistry by Icon Factory from Noun Project clinical-trails.png : noun-medical-1053629 : medical by Raymond from Noun Project data.png : noun-save-5021426 : Save by Cetha Studio from Noun Project disease.png : noun-medical-3923610 : medical by Royyan Wijaya from Noun Project DMS.png : noun-mutation-4374976 : mutation by Adrien Coquet from Noun Project hit-to-lead.</description></item><item><title/><link>https://asapdiscovery.org/pipeline/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/pipeline/img/icons/readme/</guid><description>Icons from The Noun Project Icons are CC-BY from The Noun Project
-Credits (for CC-BY acknowledgments) assay-cascade.png : noun-chemistry-2954755 : Chemistry by Icon Factory from Noun Project clinical-trails.png : noun-medical-1053629 : medical by Raymond from Noun Project data.png : noun-save-5021426 : Save by Cetha Studio from Noun Project disease.png : noun-medical-3923610 : medical by Royyan Wijaya from Noun Project DMS.png : noun-mutation-4374976 : mutation by Adrien Coquet from Noun Project hit-to-lead.</description></item><item><title>Awards</title><link>https://asapdiscovery.org/awards/rfa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/awards/rfa/</guid><description>Applications for the ASAP AViDD Center Developmental Research Project Awards and Mentored Project Awards are currently under review with awards expected to be announced by April 2023.
-Funds for these awards are provided by the National Institutes of Health under award number U19AI171399 through the NIAID Antiviral Drug Discovery (AViDD) U19 Program.
-Developmental Research Project Awards Funding Opportunity Title
-AI-driven Structure-enabled Antiviral Platform (ASAP) Discovery Consortium Developmental Project Award Program</description></item><item><title>Developmental and Mentored Awards</title><link>https://asapdiscovery.org/awards/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/awards/projects/</guid><description>Developmental Research Projects Applications for the ASAP AViDD Center Developmental Research Project Awards and Mentored Project Awards closed on 13 Jan 2023. After scoring applications by our Scientific Advisory Board, NIAID approved the following awards, which were issued on 1 May 2023.
-Funds for these awards are provided by the National Institutes of Health under award number U19AI171399 through the NIAID Antiviral Drug Discovery (AViDD) U19 Program.
-Defining mutational constraints of ASAP-prioritized SARS-CoV-2 target proteins via multiplexed, yeast-based cDNA Project Leader: Farren Isaacs, Yale University, New Haven, CT</description></item><item><title>FAQ</title><link>https://asapdiscovery.org/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/privacy/</guid><description>ASAP Discovery Consortium Privacy Policy This Privacy Policy explains how ASAP Discovery Consortium (&amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) collects, uses, and safeguards your personal information when you visit our website and interact with our services. We are committed to protecting your privacy and complying with applicable data protection laws, including the General Data Protection Regulation (GDPR).
-By using the ASAP Discovery Consortium website and services, you consent to the terms outlined in this Privacy Policy.</description></item><item><title>Open Science</title><link>https://asapdiscovery.org/open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/open-science/</guid><description>Authors: Pascale Boulet, ASAP IP Strategy Consultant, Intellectual Property &amp;amp; Access Leader, DNDi
-Dr Ed Griffen, ASAP Lead Optimization Project Lead, MedChemica Consultancy Ltd
-Our approach to open science and intellectual property is described in detail in our formal policy:
-Griffen, E., &amp;amp; Boulet, P. (2024). ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0). Zenodo. https://doi.org/10.5281/zenodo.12191567
-Below, we provide a brief summary of the main principles of our approach to open science:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI-driven Structure-enabled Antiviral Platform (ASAP) on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/</link><description>Recent content in AI-driven Structure-enabled Antiviral Platform (ASAP) on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://asapdiscovery.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Jun 17, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on June 17, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="change-in-openff-leadership">Change in OpenFF leadership 
+ &lt;a href="#change-in-openff-leadership">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative. Lee-Ping will remain an active member of the Initiative in the co-investigator role.&lt;/li>
+&lt;/ul>
+&lt;h5 id="rca-and-bylaws">RCA and Bylaws 
+ &lt;a href="#rca-and-bylaws">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Certain modifications of the Research Collaboration Agreement and Bylaws have been suggested. The main change in the RCA refers to inclusion of prorated membership option for new members joining later in the Consortium funding year (starting in October).&lt;/li>
+&lt;li>Searching for a mechanism that would allow the Consortium to update these agreements outside of the renewal cycles.&lt;/li>
+&lt;li>Elections for the Advisory and Governing Board functions will take place every 12 months instead of every 6 months, which is the current election period.&lt;/li>
+&lt;/ul>
+&lt;h5 id="renewals">Renewals 
+ &lt;a href="#renewals">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Most of the partners are supportive of funding the OpenFF Consortium in Year 3, pending approval.&lt;/li>
+&lt;/ul>
+&lt;h5 id="independent-organization">Independent organization 
+ &lt;a href="#independent-organization">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>OpenFF is considering the formation of an independent entity around the effort to ensure longer term sustainability of the project. Different options are being explored to find the best organizational structure to support the mission driven by open science, open source and open data principles.&lt;/li>
+&lt;/ul></description></item><item><title>May 20, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</link><pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on May 20, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="infrastructure-update">Infrastructure update 
+ &lt;a href="#infrastructure-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Wagner gave an infrastructure update based on &lt;a href="https://youtu.be/NMyb_eWywvQ">his talk&lt;/a> presented during the recent virtual &lt;a href="https://openforcefield.org/news/may-2020-virtual-meeting/">Third Open Force Field Workshop&lt;/a> on May 4-5, 2020.&lt;/li>
+&lt;li>Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes.
+&lt;ul>
+&lt;li>At the moment, OpenFF is trying to generate SMILES before and after calculations. An external (searchable) server to index molecules on QCArchive with some additional information is under consideration.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Feedback requested for the &lt;a href="https://github.com/openforcefield/openforcefield/tree/master/examples/conformer_energies">CLI conformer minimization tool&lt;/a> (comes as an independent script). The tool uses OpenMM with default minimization criteria. More functionalities are expected in QCSubmit tool, for example, geomeTRIC implementation for geometry minimizations, but a lightweight CLI tool is generally considered useful.&lt;/li>
+&lt;li>System preparation should be made easier and the long term plan is to achieve that with a new System Object.&lt;/li>
+&lt;li>New OpenFF Toolkit (0.7.0) release announced for June 2020 and that will be the largest release to date.&lt;/li>
+&lt;/ul>
+&lt;h5 id="force-openforcefields">Force openforcefields 
+ &lt;a href="#force-openforcefields">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>New Parsley update (OpenFF-1.2.0) announced for late May or early June.&lt;/li>
+&lt;/ul>
+&lt;h5 id="openff-deliverables">OpenFF deliverables 
+ &lt;a href="#openff-deliverables">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Demonstrate steady progress of OpenFF force fields over time and their performance with respect to other public and commercial force fields. Identify useful indicators to track performance over time and review every year.&lt;/li>
+&lt;li>Running internal benchmarking done by industry partners is a possibility in cases where access to datasets is restricted.&lt;/li>
+&lt;li>For now, it has been decided to keep the focus on the QM benchmarking. Free energy calculations are of great interest, but it is understood that there are complexities associated with running those systematically, which will take more time to achieve.&lt;/li>
+&lt;li>Infrastructure improvements are also important and should be noted in the progress report.&lt;/li>
+&lt;/ul></description></item><item><title>Apr 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</link><pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on April 15, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="brief-update">Brief Update 
+ &lt;a href="#brief-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study. The infrastructure is moving towards providing support for WBO torsion interpolation, and SDF-compatible charges. More work is being done on protein-ligand benchmarking by D. Hahn, and J. Horton is building the bespoke parameterization pipeline. The new software scientist, M. Thompson, is looking into designing a system object.&lt;/li>
+&lt;li>Another task ahead is QM benchmarking for torsions and charged molecules. F. Pickard offered advice on choice of QM level of theory for charged species.&lt;/li>
+&lt;/ul>
+&lt;h5 id="bylaws-changes">Bylaws changes 
+ &lt;a href="#bylaws-changes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Suggested change for the Advisory Board officials &amp;ndash; remove the Vice-Chair and Secretary roles with the possibility of reinstatement of these roles at a later date if need arises. K. Condic-Jurkic will draft the changes in the Bylaws and send to partners for further inspection and potentially, legal department approval.&lt;/li>
+&lt;/ul>
+&lt;h5 id="virtual-meeting-format">Virtual meeting format 
+ &lt;a href="#virtual-meeting-format">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The in-person meeting has been cancelled due to Covid-19. It will be replaced by a virtual meeting. The format will rely on pre-recorded talks and the meeting time will be focused on discussions only.&lt;/li>
+&lt;/ul>
+&lt;h5 id="infrastructure">Infrastructure 
+ &lt;a href="#infrastructure">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Two new software scientists were hired recently:
+&lt;ul>
+&lt;li>David Dotson &amp;ndash; Formerly of MDAnalysis, experience with MolSSI, will be working on performance/distribution for property calculations.&lt;/li>
+&lt;li>Matt Thompson &amp;ndash; Formerly of MoSdef, will be working on interoperable System format.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Generally, increasing infrastructure capacity effectively amortizes the cost of “overhead”. Added infrastructure capacity can:
+&lt;ul>
+&lt;li>Push out new features and bugfixes faster&lt;/li>
+&lt;li>Maintain and refactor orphaned projects&lt;/li>
+&lt;li>Push on benchmarking dashboard/other new or common infrastructure&lt;/li>
+&lt;li>Provide support for storing reproducible calculations (like FF fits, benchmarks, etc)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>On Apr 23 the OpenFF team will have “best practices” workshop&lt;/li>
+&lt;/ul>
+&lt;h5 id="funding-extension">Funding extension 
+ &lt;a href="#funding-extension">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The Consortium could be funded for another year if the improved quality of OpenFF force fields can be clearly demonstrated &amp;ndash; this includes QM benchmarking, binding free energies and similar, but especially improvements on drug-like molecules.&lt;/li>
+&lt;li>Test sets like Baran’s &lt;a href="https://www.scripps.edu/baran/heterocycles/">“essential molecules of heterocyclic chemistry”&lt;/a> would be a convincing set for benchmarking, but additional molecule sets could be assembled by industry partners for this purpose.&lt;/li>
+&lt;li>Benchmarking dashboard might be a good way to demonstrate the improvements, but some tangible results would also be welcome (for example, predicting the correct crystal structure conformation).&lt;/li>
+&lt;/ul></description></item><item><title>Mar 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on March 18, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;p>The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.&lt;/p></description></item><item><title>Feb 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on February 19, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="next-ff-release-plans">Next FF release plans 
+ &lt;a href="#next-ff-release-plans">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released &lt;a href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.1.0">minor release&lt;/a> - &lt;code>openff-1.1&lt;/code>.&lt;/li>
+&lt;li>D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures. The aim was to find parameters that may lead to higher geometric deviations in RMSD/TFG.
+&lt;ul>
+&lt;li>C. Bayly and Y. Zhao agreed that this seems like an excellent diagnostic tool for identification of pathological cases, but also potentially for other purposes. Y. Zhao recommended creating an example notebook.&lt;/li>
+&lt;li>For the next FF release, the aim is to expand QM datasets, while improving molecule set selection to reduce overrepresentation of certain species.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>J. Chodera announced creation of a benchmarking dashboard, which will be developed in the near future, for exploring OpenFF datasets and comparison of different variables, including conformer energies, geometries, physical properties, and free energy data.&lt;/li>
+&lt;li>The question is raised about the best way to demonstrate progress and improvements achieved for the Consortium partners to share with their management. Any feedback is welcome.&lt;/li>
+&lt;li>Desired benchmarking results include binding free energies (for protein-ligand and host-guest systems), improved protein-ligand design (for example, ligand conformer scoring &amp;ndash; how to find 50 lowest energy conformers out of 1000, comparison with protein-ligand datasets. For the latter, a clear comparison protocol is required.
+&lt;ul>
+&lt;li>X. Hou and A. Gobbi can provide some molecule sets for this purpose.&lt;/li>
+&lt;li>Crystal structure comparisons are not of the immediate interest.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="nih-grant-announcement">NIH grant announcement 
+ &lt;a href="#nih-grant-announcement">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>M. Shirts and J. Chodera announced that the Open Force Field Initiative has been awarded the NIH grant to develop biopolymer force fields using Open Force Field framework and build Bayesian inference infrastructure for force field parameterization. This grant will complement the existing efforts focused on small molecule force fields, funded by the Open Force Field Consortium.&lt;/li>
+&lt;li>David Cerutti will join as a member of the OpenFF team and lead the biopolymer parameterization efforts, which will start with porting Amber protein force fields to SMIRNOFF format.&lt;/li>
+&lt;/ul>
+&lt;h5 id="miscellaneous">Miscellaneous 
+ &lt;a href="#miscellaneous">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Governing Board members / Ad. Board functions elections coming up. A clear voting protocol to be defined.
+&lt;ul>
+&lt;li>Daniel Kuhn wants to step down as the chair, T. Fox and K. Meier willing to remain in their Gov. Board roles&lt;/li>
+&lt;li>Mark Mackey (Cresset) volunteered for the Chair, X. Hou also potentially interested for the role.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Provisional financial report for Y1 and Y2 provided, the full report is still being processed.&lt;/li>
+&lt;li>Registration for the in-person meeting in Boston (May 4-5) is open.&lt;/li>
+&lt;li>The OpenFF Initiative has started using Confluence for project management and better documentation of research processes.&lt;/li>
+&lt;/ul></description></item><item><title>Jan 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</link><pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on January 15, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--jan-19-2020">Open Forcefield Advisory Board Meeting Minutes – Jan 19, 2020 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--jan-19-2020">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;h5 id="protein-ligand-benchmarking">Protein-ligand benchmarking 
+ &lt;a href="#protein-ligand-benchmarking">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Hahn gave an &lt;a href="2020-01-15-PLBenchmark-Update-David-Hahn.pdf">update&lt;/a> on his progress with protein-ligand benchmarking of &lt;a href="https://github.com/openforcefield/openforcefields">Parsley&lt;/a> &amp;ndash; he is currently working on developing a &lt;a href="https://github.com/openforcefield/PLBenchmarks">repository&lt;/a> for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc)&lt;/li>
+&lt;li>D. Hahn coordinates an effort to write a living document (&lt;a href="https://www.livecomsjournal.org/">LiveCoMS&lt;/a> review) capturing the current state of knowledge in this domain and everyone interested in contributing should reach out to him&lt;/li>
+&lt;li>Protein-ligand systems used in this study were primarily selected based on the pre-existing computational studies for easier comparison, but this initial set is expected to expand in the future and potentially divide into more specialised subsets appropriate for specific benchmarking tasks&lt;/li>
+&lt;li>Free energy calculations are following the same workflow developed by Vytas Gapsys based on the &lt;a href="https://pubs.rsc.org/en/content/articlehtml/2020/sc/c9sc03754c">non-equilibrium alchemy&lt;/a> and &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.23804">pmx&lt;/a> tools implemented in Gromacs. D. Hahn is using protein structures already used in the mentioned study by Gapsys et al. study for easier comparison with Parsley&lt;/li>
+&lt;li>D. Hahn might also perform a comparison between OPLS3e and QM optimized structures used in Parsley parameterization as a part of benchmarking study&lt;/li>
+&lt;li>Limited computational resources have an impact on the total progress made so far, although additional resources might become available in the future&lt;/li>
+&lt;/ul>
+&lt;h5 id="openmm-support-for-smirnoff-and-gaff-force-fields">OpenMM support for SMIRNOFF and GAFF force fields 
+ &lt;a href="#openmm-support-for-smirnoff-and-gaff-force-fields">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Chodera gave an overview of the recently implemented &lt;a href="https://github.com/openmm/openmm-forcefields">OpenMM support for SMIRNOFF and GAFF force fields&lt;/a>&lt;/li>
+&lt;li>An example for swapping Amber with OFF parameters can be found &lt;a href="https://github.com/openforcefield/openforcefield/tree/master/examples/swap_amber_parameters">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="torsion-drive-discussion">Torsion drive discussion 
+ &lt;a href="#torsion-drive-discussion">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>L.-P. Wang gave a brief &lt;a href="2020-01-15-torsiondrive-discusion-LPWang.pdf">update&lt;/a> of the recent (Slack) discussion about torsion drive procedures and the effects of conformations with intramolecular hydrogen bonds on the resulting surface&lt;/li>
+&lt;li>X. Lucas noticed that some molecules in the torsion drive datasets had a capability to form an intramolecular H-bond, but these conformations haven’t been captured in torsion drive scans&lt;/li>
+&lt;li>Torsion drive procedure is recursive to avoid hysteresis, discontinuities and getting stuck in high-energy minima, but there is no guarantee that torsion drive will be able to find a global minimum. However, it is able to stitch together results from multiple starting structures, for example, multiple starting points can be provided (“known” local minima) for torsion scans, which can subsequently decrease calculation walltime.&lt;/li>
+&lt;li>Torsion drive manuscript is nearly completed and submission is expected in the next month after it goes through the approval process&lt;/li>
+&lt;li>Preliminary decision is to create two torsion drive datasets for the next round of fitting - one with intramolecular H-bonds and one without to investigate the effect of intramolecular H-bond on parameters&lt;/li>
+&lt;li>Molecules inspected in the mentioned torsion drive scans are up to 30 heavy atoms and have not been fragmented&lt;/li>
+&lt;li>Another question to consider is how to prevent overbinding in gas-phase and how to include implicit solvent in gas phase? L.-P. Wang suggested using the same implicit solvent model for QM and MM computations (PCM/COSMO for example, as implemented in Tinker for AMOEBA)&lt;/li>
+&lt;li>The final torsion drive surface always contains only the lowest lying points, but the high energy conformations could be included, generated in the process&lt;/li>
+&lt;li>J. Chodera suggested using optimization datasets already stored in QCArchive with different conformations and associated gradients as additional source of information, but the most appropriate use cases for this incidentally generated data remains to be determined&lt;/li>
+&lt;li>J. Horton is working on bespoke workflow for fragmentation and torsion drives, but it may take time to get software ready, even though the science behind it has been done.&lt;/li>
+&lt;/ul>
+&lt;h5 id="properties">Properties 
+ &lt;a href="#properties">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Discussion around NIST/DIPPR property data selection can be followed &lt;a href="https://github.com/openforcefield/nistdataselection/issues/12">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="other-topics">Other topics 
+ &lt;a href="#other-topics">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The next in-person meeting will be held on May 4-5 in Cambridge, MA just before &lt;a href="http://www.alchemistry.org/wiki/2020_Workshop_on_Free_Energy_Methods_in_Drug_Design">2020 Workshop on Free Energy Methods in Drug Design&lt;/a> (May 6-8)&lt;/li>
+&lt;li>K. Condic-Jurkic will reach out and collect photos from the Board members for the new website&lt;/li>
+&lt;/ul></description></item><item><title>Nov 19, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on November 19, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--nov-19-2019">Open Forcefield Advisory Board Meeting Minutes – Nov 19, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--nov-19-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;h5 id="personnel-update">Personnel update 
+ &lt;a href="#personnel-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively&lt;/li>
+&lt;li>S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado&lt;/li>
+&lt;li>OpenFF is hiring more personnel, primarily software scientists&lt;/li>
+&lt;/ul>
+&lt;h5 id="off-toolkit-update">OFF toolkit update 
+ &lt;a href="#off-toolkit-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Version 0.6.0 released, with support for LibraryCharges (SMARTS-based charge assignment)
+&lt;ul>
+&lt;li>Release notes &lt;a href="https://open-forcefield-toolkit.readthedocs.io/en/0.6.0/releasehistory.html">here&lt;/a>&lt;/li>
+&lt;li>Currently only TIP3P is available, open to contributions of residue SMARTS-based protein FF&lt;/li>
+&lt;li>Important to note changes in charge assignment:
+&lt;ul>
+&lt;li>All molecules must be assigned charges by some method (&lt;code>charge_from_molecules&lt;/code> counts)&lt;/li>
+&lt;li>If partial charges don’t add up to formal charge, an error is raised&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Upcoming features:
+&lt;ul>
+&lt;li>ChargeIncrementModel: Several semiempirical methods paired with SMARTS-based BCCs&lt;/li>
+&lt;li>&lt;a href="https://github.com/openforcefield/openforcefield/pull/459">Contributors guide and developer documentation&lt;/a> (expectations for user experience and code)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="openeye-dependencies">OpenEye dependencies 
+ &lt;a href="#openeye-dependencies">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>OE tools are used in some of the OpenFF workflows, but the long term goal is to make Open Force Fields and fitting infrastructure independent of OE licenses&lt;/li>
+&lt;li>The goal is to make Open Force fields usable without OE dependence as soon as possible and we are working hard to make that happen, while the infrastructure used to build force fields will keep the current OE tools incorporated for a while longer, depending on the available developer time&lt;/li>
+&lt;li>J. Wagner will build a converter between &lt;em>mol2&lt;/em> and &lt;em>sdf&lt;/em> file formats (with charges) as a short-term solution for users without OE licenses&lt;/li>
+&lt;/ul>
+&lt;h5 id="protein-ligand-benchmarking-update">Protein-ligand benchmarking update 
+ &lt;a href="#protein-ligand-benchmarking-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Mobley gave a quick update on the current state of protein-ligand benchmarking, where everything is more or less ready for free energy (FE) calculations, but compute resources have been somewhat scarce lately&lt;/li>
+&lt;li>Additionally, preparation of the systems and the state of FE workflows made this effort harder than initially anticipated. For example, using Amber TI required 1 month of human time to generate input files. The selected method was based on V. Gapsys&amp;rsquo; &lt;a href="https://zenodo.org/record/3420778">non-equilibrium switching approach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="parsley-feedback">Parsley feedback 
+ &lt;a href="#parsley-feedback">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Checking who has used Parsley and what would make it easier for pharma partners to try it &amp;ndash; provided Jupyter notebooks were useful to play with &lt;em>Parsley&lt;/em> and simple protein-ligand systems&lt;/li>
+&lt;li>A desired feature for some partners is geometry optimizer to allow comparison of energies for different conformers &amp;ndash; this feature comes with high priority for toolkit development&lt;/li>
+&lt;li>The best way to get support if there are any issues with Parsley or the toolkit is to report it on &lt;a href="https://github.com/openforcefield/openforcefields">Github repository&lt;/a> and if any help is needed with in-house deployment of OpenFF tools, contact J. Wagner&lt;/li>
+&lt;/ul>
+&lt;h5 id="other-topics">Other topics 
+ &lt;a href="#other-topics">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Rodriguez-Guerra is working on &lt;a href="https://github.com/openforcefield/openmmgbsa/">GBSA energy&lt;/a> calculations support in OpenMm, which will hopefully become available by the end of the year&lt;/li>
+&lt;li>Eli Lilly, Cresset and OpenEye are joining the Consortium&lt;/li>
+&lt;/ul></description></item><item><title>Oct 16, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.&lt;/p>
+&lt;p>The minutes from the meeting held on Oct 16, 2019 are summarized as follows:&lt;/p></description></item><item><title>Jul 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</link><pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on July 17, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--july-17-2019">Open Forcefield Advisory Board Meeting Minutes – July 17, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--july-17-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!&lt;/p></description></item><item><title>Jun 13, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</link><pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 13 June, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--june-13-2019">Open Forcefield Advisory Board Meeting Minutes – June 13, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--june-13-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>&lt;strong>First optimized force field&lt;/strong> (D. Mobley):&lt;/p></description></item><item><title>May 15, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</link><pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 15 May, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--may-15-2019">Open Forcefield Advisory Board Meeting Minutes – May 15, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--may-15-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>&lt;strong>Overview&lt;/strong> of the &lt;a href="https://openforcefield.org/science/downloads/roadmap/roadmap-graphic-may-2019-update.pdf">roadmap&lt;/a> for the remaining time of Year 1 and the accomplishments made so far (J. Chodera).&lt;/p></description></item><item><title>April 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</link><pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 17 April 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--17-april-2019">Open Forcefield Advisory Board Meeting Minutes – 17 April 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--17-april-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan&lt;/li>
+&lt;li>Release update by Jeff Wagner:
+&lt;ul>
+&lt;li>0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th
+&lt;ul>
+&lt;li>Version numbers indicate API is still in flux, there may be function call changes, etc. in later versions, e.g., 0.3, 0.4, &amp;hellip;&lt;/li>
+&lt;li>Aiming to have more established base by version 1.0.0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Highlighted features of new release:
+&lt;ul>
+&lt;li>Independent of OpenEye by providing RDKit Cheminformatics support&lt;/li>
+&lt;li>The biggest issues appeared in aromaticity perception, but this has been addressed&lt;/li>
+&lt;li>Likely difference in partial charge assignment due to different methods for producing AM1-BCC charges (OpenEye vs. &lt;a href="http://ambermd.org/AmberTools.php">AmberTools&lt;/a> for RDKit)&lt;/li>
+&lt;li>No differences in available functionality&lt;/li>
+&lt;li>Changes to internal data structures to facilitate FF improvement&lt;/li>
+&lt;li>&lt;code>ForceField&lt;/code> class is an example, allowing parameter changes with python before assignment&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Short-term goals
+&lt;ul>
+&lt;li>Tarball build for non-Conda installation&lt;/li>
+&lt;li>Reading charges from SDF using standardized charge fields&lt;/li>
+&lt;li>Support for library charges for automated assignment&lt;/li>
+&lt;li>Fractional bond order interpolation&lt;/li>
+&lt;li>GBSA parameter assignment&lt;/li>
+&lt;li>Better file format conversion support&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Toolkit development progress can be tracked on github
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/openforcefield/openforcefield/milestones">https://github.com/openforcefield/openforcefield/milestones&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Video tutorial
+&lt;ul>
+&lt;li>Available at &lt;a href="https://youtu.be/oC8LXc0dhoE">https://youtu.be/oC8LXc0dhoE&lt;/a>&lt;/li>
+&lt;li>Please watch before 1:1 to facilitate 1:1 chats (to be setup)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Initially minor releases may come out weekly&lt;/strong> (e.g. 0.2.2, 0.2.3) while more significant changes may come out monthly (e.g. 0.3, 0.4)&lt;/li>
+&lt;li>Best places to go with problems (in no particular order):
+&lt;ul>
+&lt;li>Slack &lt;code>#tech-support&lt;/code> or &lt;code>#documentation&lt;/code> channels&lt;/li>
+&lt;li>Github issue tracker: &lt;a href="http://github.com/openforcefield/openforcefield/issues">http://github.com/openforcefield/openforcefield/issues&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Support for both RDKit and OE toolkits for now, long-term support will depend on the amount of resources available to maintain it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Applications/workflows
+&lt;ul>
+&lt;li>Examples of using SMIRNOFF in different ways would be helpful&lt;/li>
+&lt;li>Robustly developed workflows may be out of scope right now and the primary focus of OpenFF is force field development - making it easy for others to build their own apps using OpenFF resources&lt;/li>
+&lt;li>Example usage can be provided; requests in #documentation channel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hiring Update
+&lt;ul>
+&lt;li>Still trying to fill position for bespoke torsion fitting&lt;/li>
+&lt;li>Contract extension for Y. Qiu (Wang) and D. Slochower (Gilson) to work on ForceBalance parameter fitting and binding energy benchmarks, respectively&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Next meeting
+&lt;ul>
+&lt;li>Scientific updates highlighting scientific progress on the following topics:&lt;/li>
+&lt;li>Where we were when we met in January;&lt;/li>
+&lt;li>What progress has been made;&lt;/li>
+&lt;li>What is happening next?&lt;/li>
+&lt;li>Update on finances&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Other stuff:
+&lt;ul>
+&lt;li>OpenFF Seminar Series – contact David with ideas for speakers and topics of interest&lt;/li>
+&lt;li>Contact David/Karmen if you know of any additional interested pharma partners&lt;/li>
+&lt;li>Adding people on Slack&lt;/li>
+&lt;li>Karmen to try to provide digestible summaries of scientific progress in subgroups&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>March 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</link><pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 20 March, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--march-20-2019">Open Forcefield Advisory Board Meeting Minutes – March 20, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--march-20-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Status Updates:
+&lt;ul>
+&lt;li>OFFI NIH proposal submitted and &lt;a href="https://openforcefield.org/news/seeking-nih-funding/">available publicly&lt;/a>&lt;/li>
+&lt;li>Hiring update:
+&lt;ul>
+&lt;li>&lt;a href="http://www.choderalab.org/members/#karmen-condic-jurkic">Karmen Condic-Jurkic&lt;/a> starts April 1 as half-time scientific coordinator/project manager&lt;/li>
+&lt;li>Interviews ongoing for bespoke torsion fitting and potentially electrostatics role&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="http://github.com/openforcefield/openforcefield">Open Force Field Toolkit&lt;/a> update:
+&lt;ul>
+&lt;li>Alpha release slated for April 2&lt;/li>
+&lt;li>Will contain &lt;a href="http://www.rdkit.org/">RDKit&lt;/a> backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added)
+&lt;ul>
+&lt;li>Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms)
+&lt;ul>
+&lt;li>Differences in aromaticity models could result in some differences in corner cases&lt;/li>
+&lt;li>We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Chemical_table_file#SDF">SDF&lt;/a> with standardized tags will be the supported method for importing molecules with custom charges
+&lt;ul>
+&lt;li>OpenEye and RDKit on-board with standardized tags for charges&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>There may have been minor changes to XML forcefield format since the January preview release
+&lt;ul>
+&lt;li>Changes are summarized &lt;a href="https://github.com/openforcefield/openforcefield/issues/191">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates&lt;/li>
+&lt;li>Partners and users are directed to use the &lt;a href="ttps://github.com/openforcefield/openforcefield/issues/">Github issue tracker&lt;/a> to report issues or problems&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Technical questions – Desmond support
+&lt;ul>
+&lt;li>How is Desmond currently used by Partners? What kind of Desmond support is needed?
+&lt;ul>
+&lt;li>Need for &lt;a href="https://www.schrodinger.com/fep">FEP+&lt;/a> compatibility will likely have to involve discussions with Schrodinger&lt;/li>
+&lt;li>Industry would ideally like to compare forcefields (including OPLS3/3e) and FEP protocols (&lt;a href="https://www.schrodinger.com/fep">FEP+&lt;/a>, &lt;a href="http://getyank.org">YANK&lt;/a>, etc.)&lt;/li>
+&lt;li>Kaushik to work with PIs to provide some examples for testing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Desmond’s &lt;a href="https://github.com/DEShawResearch/msys">&lt;code>msys&lt;/code>&lt;/a> release allows dms files to be written directly, so could be used to construct system with SMIRNOFF parameters
+&lt;ul>
+&lt;li>Advantage of being independent of Maestro/Schrodinger&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Reports on usage by partners since January meeting:
+&lt;ul>
+&lt;li>Limited use so far - many people awaiting RDKit release to begin internal use&lt;/li>
+&lt;li>Training:
+&lt;ul>
+&lt;li>Plan for YouTube video for basics, followed by webex&lt;/li>
+&lt;li>Mobley to check with Jeff Wagner on training plan&lt;/li>
+&lt;li>Request for tutorial on using SMIRNOFF w/ &lt;a href="http://getyank.org">YANK&lt;/a>
+&lt;ul>
+&lt;li>Chodera to organize, probably need at least 1 month after April release to integrate SMIRNOFF support into YANK&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Other stuff
+&lt;ul>
+&lt;li>Poster at &lt;a href="http://pmx.mpibpc.mpg.de/workshop_alchemistry2019/index.html">ALCHEMICAL FREE ENERGY WORKSHOP 2019 in Göttingen&lt;/a>. Thoughts are to highlight OFF Consortium from industry (user) perspective (D. Kuhn, Katharina)
+&lt;ul>
+&lt;li>Daniel and Ross to connect to work on this to coordinate with GRC poster to ensure complimentarity and common usage of some materials. Mobley to help by providing figures, etc.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>GRC informal session/get-together
+&lt;ul>
+&lt;li>People still waiting to see who will be attending&lt;/li>
+&lt;li>1:1 time with Jeff Wagner might be better use of time at the GRC than an organized session&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Next Open Force Field Consortium face-to-face meeting scheduled for August 30-31, 2019 (Friday and Saturday) in San Diego&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Group for evaluating protein-ligand binding free energies being assembled by John Chodera ( see Slack ) to curate additional benchmark sets
+&lt;ul>
+&lt;li>Contact John Chodera or post or click “Star” here: &lt;a href="https://github.com/alchemistry/soft-benchmarks">https://github.com/alchemistry/soft-benchmarks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>February 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</link><pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 20 February, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--february-20-2019">Open Forcefield Advisory Board Meeting Minutes – February 20, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--february-20-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Next release of toolkit currently being tested and finished&lt;/li>
+&lt;li>Workflow documentation
+&lt;ul>
+&lt;li>Next item on to-do list&lt;/li>
+&lt;li>Call for additional desired workflows to be posted in #documentation channel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Industry compound additions to parameterization sets
+&lt;ul>
+&lt;li>Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures
+&lt;ul>
+&lt;li>Industry partners should identify particularly high priority chemical space for initial parameterization&lt;/li>
+&lt;li>Compounds/fragments to be sent via Slack or GitHub&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>BI has SureChembl dump and scripts that may be able to be shared. We will follow up asynchronously.&lt;/li>
+&lt;li>NN potential parameterization not in scope for SMIRNOFF at this stage, but considering using ANI-1 or similar for bespoke torsion fitting tool in addition to QM calculations.&lt;/li>
+&lt;li>Industry partners to provide SMILES of fragments and/or public molecules. No PDFs please.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Letter of support for NIH grant proposal needed by March 1st at latest&lt;/li>
+&lt;li>Call for all industry partners that are able to be listed on website as such (openforcefield.org/consortium) to contact David Mobley if not already listed.&lt;/li>
+&lt;li>Hiring update
+&lt;ul>
+&lt;li>Candidates being interviewed for development of bespoke torsion fitting tool&lt;/li>
+&lt;li>Candidates sought for postdoc position at Janssen for in-kind contribution – contact DM if you know of a good candidate.&lt;/li>
+&lt;li>Project manager hired at 50% ( remainder 50% in JC’s lab ) to oversee and coordinate OpenFF efforts.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Odds and Ends:
+&lt;ul>
+&lt;li>Investigating potential for porting in protein forcefields in SMIRNOFF format for use with toolkit.&lt;/li>
+&lt;li>Reminder of F2F meeting Aug 30-31st in San Diego following fall ACS&lt;/li>
+&lt;li>Nearly approved governance changes regarding discretionary spending as discussed in last advisory board meeting. Once approved, revised governance board documents to be distributed.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>January 23, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</link><pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 23 Jan 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--january-23-2019">Open Forcefield Advisory Board Meeting Minutes – January 23, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--january-23-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>RDKit Integration
+&lt;ul>
+&lt;li>Key infrastructure seems to be working&lt;/li>
+&lt;li>Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends&lt;/li>
+&lt;li>Documentation being worked on&lt;/li>
+&lt;li>Limited to SDF file format initially&lt;/li>
+&lt;li>&lt;a href="http://www.rdkit.org/">RDKit&lt;/a> support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development&lt;/li>
+&lt;li>Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Workflows
+&lt;ul>
+&lt;li>Workflow documentation / example requests should be posted to &lt;code>#documentation&lt;/code> Slack channel&lt;/li>
+&lt;li>Some suggested workflows from agenda and discussion:
+&lt;ul>
+&lt;li>Parameterization of protein-ligand system using SMIRNOFF&lt;/li>
+&lt;li>Conformer energy evaluation&lt;/li>
+&lt;li>Minimization of multiple ligands from SDF file (is this with protein, without, both?)&lt;/li>
+&lt;li>AMBER input files for TI
+&lt;ul>
+&lt;li>Writing out systems formed by swapping ligands from an SDF into an input complex structure&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Writing input for Desmond/Macromodel in Schrodinger Suite&lt;/li>
+&lt;li>OpenEye may be able to read SMIRNOFF format to assign parameters in tools such as Omega, but if so it is not released yet. Need to reach out to OpenEye to confirm&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Augmentation of input compound data sets with industry feedback
+&lt;ul>
+&lt;li>General consensus on the following strategy:
+&lt;ul>
+&lt;li>Identification of problematic molecules from internal datasets&lt;/li>
+&lt;li>Find compounds in public databases (&lt;a href="https://www.emolecules.com">eMolecules&lt;/a>, &lt;a href="downloads">GDB-n&lt;/a>, etc.) that contain that substructure or SMIRKS pattern&lt;/li>
+&lt;li>Share only the publically available compounds with group as additional chemical space to be parameterized&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How to identify problems?
+&lt;ul>
+&lt;li>Academic groups are currently using divergence between forcefields to highlight parameters that may need optimization&lt;/li>
+&lt;li>Could simply look to see which SMIRKS patterns receive very general parameters&lt;/li>
+&lt;li>In the future, potentially with bespoke parameterization tool, some scoring function to identify parameters in need of optimization could be developed&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Amending bylaws to facilitate reimbursement and funds dispersement
+&lt;ul>
+&lt;li>Proposed update to governance to change bylaws so governance board can vote on whether to pay for various discretionary expenses
+&lt;ul>
+&lt;li>Amended bylaws to be circulated to relevant parties. Original proposed addition:
+&lt;em>&amp;ldquo;Unanticipated expenses (such as travel for key Consortium collaborators, catering costs for major Consortium meetings, and Consortium management expenses) not explicitly delineated by other sections of the governance document will sometimes arise, and reasonable such expenses infrequently incurred in conducting Open Force Field Consortium activities can be reimbursed by unanimous approval of the governing board. If approved, individuals will be reimbursed directly by VT provided receipts documenting the approved expenses can be produced. At the end of each Consortium year, a report will be produced documenting the amount, reason, date, and recipient of all such authorized reimbursements.&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>Suggestion was made to include anticipated expenses as well. Revised proposed addition:
+&lt;em>&amp;ldquo;Expenses not otherwise delineated by other sections of the governance document (such as travel for key Consortium collaborators, catering costs for major Consortium meetings, and Consortium management expenses) will sometimes arise, and reasonable such expenses infrequently incurred in conducting Open Force Field Consortium activities can be reimbursed by unanimous approval of the governing board. If approved, individuals will be reimbursed directly by VT provided receipts documenting the approved expenses can be produced. At the end of each Consortium year, a report will be produced documenting the amount, reason, date, and recipient of all such authorized reimbursements.&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Update on hiring:
+&lt;ul>
+&lt;li>Interviewing candidates to develop bespoke torsion parameterization tool&lt;/li>
+&lt;li>Governance board to consider hiring of project / product manager
+&lt;ul>
+&lt;li>Industry partners seemed to agree that this would be helpful to the effort&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Meetings:
+&lt;ul>
+&lt;li>Next face-to-face meeting scheduled Aug 30-31st in San Diego temporally adjacent to &lt;a href="https://visitsandiego.com/event/august-25-2019-1200am/acs-fall-2019-national-meeting-exposition">ACS Fall 2019 National Meeting&lt;/a>&lt;/li>
+&lt;li>Scheduling of an in-person advisory board meeting at this face-to-face meeting was suggested and advisory board members generally seemed to agree.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>January 7-8, 2019 Consortium Workshop</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</guid><description>&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members&lt;/p></description></item><item><title>October 29, 2018 Joint Governing/Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</link><pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</guid><description>&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs, both governing board members, and most advisory board members, via Zoom.&lt;/p></description></item><item><title>October 11, 2018 Governing Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</guid><description>&lt;h2 id="agenda">Agenda: 
+ &lt;a href="#agenda">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>October meeting draft agenda and start time&lt;/li>
+&lt;li>January meeting location&lt;/li>
+&lt;li>Maat hiring&lt;/li>
+&lt;li>Slack&lt;/li>
+&lt;li>Funding processing update/onboarding update&lt;/li>
+&lt;li>Involvement with science meetings (subprojects) and project planning&lt;/li>
+&lt;li>Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.&lt;/li>
+&lt;/ul>
+&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier&lt;/p></description></item><item><title>Viral Families</title><link>https://asapdiscovery.org/outputs/viral-families/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/viral-families/</guid><description>&lt;p>ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.&lt;/p>
+&lt;h3 id="coronaviridae">coronaviridae 
+ &lt;a href="#coronaviridae">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>Coronavirus antiviral discovery is funded by &lt;a href="https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865">NIAID grant U19AI171399 from the National Institutes of Health&lt;/a>.&lt;/p></description></item><item><title>Software</title><link>https://asapdiscovery.org/outputs/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/software/</guid><description>&lt;p>Software produced by ASAP.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="argos"> argos &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/argos">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A web-based visualization tool for viewing DMS data on protein structures that allows users to generate and share these views using a web UI. See &amp;lsquo;choppa&amp;rsquo; package below. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="asapdiscovery"> asapdiscovery &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/asapdiscovery">[GitHub]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.readthedocs.io/en/latest">[Documentation]&lt;/a>
+
+&lt;br>
+
+
+
+ Monorepository for running computational chemistry project support for ASAP&amp;rsquo;s viral targets, including docking, free energy calculations, chemoinformatics and machine learning. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="choppa"> choppa &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/choppa">[GitHub]&lt;/a>
+
+ &lt;a href="https://choppa.readthedocs.io">[Documentation]&lt;/a>
+
+&lt;br>
+
+
+
+ A Python library for visualizing Deep Mutational Scanning data and other fitness data directly onto protein structures to enable fitness-informed decision-making in medicinal chemistry workflows in P2-P5 of ASAP&amp;rsquo;s drug discovery pipeline. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="falcbot"> falcbot &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/FALCBot">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A slack integration for running computational chemistry workflows that are developed by ASAP&amp;rsquo;s computational chemistry core. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="hindsight"> hindsight &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/hindsight-public">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ Generates and continuously updates statistics and graphs comparing computational chemistry predictions with gathered experimental data to aid in hit-to-lead and lead optimization campaigns. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div></description></item><item><title>Targeting Opportunities</title><link>https://asapdiscovery.org/outputs/targeting-opportunities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/targeting-opportunities/</guid><description>&lt;p>A &lt;strong>targeting opportunity&lt;/strong> provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action.
+This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Targeting Opportunity: SARS-CoV-2 / MERS-CoV Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-protease-db9902df352d4398ad284c490c4b6f5d?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> Targeting Opportunity: DENV/ZIKV NS2B/3 protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-DENV-ZIKV-NS2B-NS3-protease-bb724ef82e3b4abbb079fedac4009a63">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-22]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, protease biochemistry, target structure, targeting strategies, inhibitors, assays, and drug resistance&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVA71-2APRO"> Targeting Opportunity: EV-A71 2A protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-2A-protease-4064700e76c842aea4165bb6c83a30cb?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-3CLPRO"> Targeting Opportunity: EV-D68/A71 3C protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-3C-protease-f5c7d164c2dd41b5815b1f246675e926?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-22]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-04-29]&lt;/i> Major update of the targeting opportunity covering additional background, prototype viruses, clinical background, notable outbreaks/epidemics, target biochemistry, target structure, and known inhibitors&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> Targeting Opportunity: EV-D68/A71 VP1 capsid &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-VP1-capsid-6147e04894e34c569ab1823a41696c85?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN"> Targeting Opportunity: SARS-CoV-2 N protein nucleocapsid &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-N-protein-nucleocapsid-4112cd985b064524a25fee224be76d4f?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, target biophysics, target structure, targeting strategies for inhibitor discovery, known inhibitors, available assays, and considerations for drug resistance.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Targeting Opportunity: SARS-CoV-2 nsp3 Mac1 macrodomain &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-nsp3-Mac1-macrodomain-47af24638b994e8ba786303ec743926e?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, target structure, targeting strategies for inhibitor discovery, known inhibitors, and available assays.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Targeting Opportunity: SARS-CoV-2 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-protease-db9902df352d4398ad284c490c4b6f5d?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Molecules</title><link>https://asapdiscovery.org/outputs/molecules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/molecules/</guid><description>&lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> SARS-CoV-2/MERS-CoV Mpro lead optimization assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-October-2023-Data-Release-e237e130fe574cb6a2c2e5bf70571302">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/39d706a6-d1ff-4fc8-a8c6-681a5eb92783">[(negative) biochemical and liver microsome assay data [Oct 2023]]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-March-2024-35dfdcf42ffb4d1ebc8a164d681b68eb">[(negative) biochemical and liver microsome assay data [Mar 2024]]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk/v1">[SARS-CoV-2 Mpro assay protocol]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9/v1">[MERS-CoV Mpro assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of negative biochemical activity data for 182 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-11-07]&lt;/i> Initial public release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro and HLM/MLM data for 266 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-03-12]&lt;/i> Quarterly public data release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro for 360 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-NS2B-NS3"> DENV-2 NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/dc3ad20d-5271-4609-96f5-dc14ab360ee5">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 652 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> SARS-CoV-2 nsp3 Mac1 macrodomain assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-Inhibitor-Data-Release-9e454e794ee44df693251477ff8686e9">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/60333b19-8605-424c-a1d9-f2651026153f">[complete assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2">[biochemical assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for hit-to-lead program &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of hit-to-lead biochemical assay data for 783 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-11-07]&lt;/i> Complete public data release of hit-to-lead biochemical assay and ADMET data for 1107 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-WNV-NS2B-NS3"> WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/40f36173-05a8-42ef-8d1c-4250dff0893c">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 646 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS2B-NS3"> ZIKV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/9064058b-0da4-4164-bed0-3bccf2289a84">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 653 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> SARS-CoV-2 Mpro biochemical assay data from the COVID Moonshot &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://covid.postera.ai/covid/activity_data">[assay data]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2020.10.29.339317">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ All biochemical data from the COVID Moonshot has been disclosed. &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2022-07-31]&lt;/i> Nomination of candidate for prelinical development&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Structures</title><link>https://asapdiscovery.org/outputs/structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/structures/</guid><description>&lt;h3 style="text-align: left;" id="ASAP-COV-MPRO">MERS-CoV/SARS-CoV-2 Mpro protease&lt;/h3>
+ ASAP-COV-MPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>XChem crystallographic fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-03-18 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This resulted in determination of 91 protein-fragment structures.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002135">&lt;b>PDB group deposition G_1002135 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-11 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+COVID-19 main protease from Coronaviridae sp. screened against the DSI-poised Fragment Library by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002144">&lt;b>PDB group deposition G_1002144 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-25 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-25 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002152">&lt;b>PDB group deposition G_1002152 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition G_1002153 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002155">&lt;b>PDB group deposition G_1002155 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-05-27 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002156">&lt;b>PDB group deposition G_1002156 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against electrophilic heterocycle and SpotFinder fragment libraries (Hungarian Academy of Sciences) by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002157">&lt;b>PDB group deposition G_1002157 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallogra phy at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002163">&lt;b>PDB group deposition G_1002163 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-12-02 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against computationally designed covalent inhibitors by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002272">&lt;b>PDB group deposition G_1002272 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-11-08 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1. 466 structures in group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-07 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1 Selected structures were deposited in the PDB via a group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/8R5J">&lt;b>Crystal structure of MERS-CoV main protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2023-12-06 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A resolution.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO">EV-D68/A71 3C protease&lt;/h3>
+ ASAP-EVD68-3CLPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/8CNX">&lt;b>Structure of Enterovirus D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2023-04-05 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of EV-D68 3C protease&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2023-08-24 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002271">&lt;b>PDB group deposition of X-ray fragment screen of EV-D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-08-24 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments, generating 104 total structures of novel protein:ligand complexes.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN">SARS-CoV-2 N protein nucleocapsid&lt;/h3>
+ ASAP-SARS-COV-2-NPROTEIN
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2021-11-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NS3-HELICASE">SARS-CoV-2 nsp13 helicase&lt;/h3>
+ ASAP-SARS-COV-2-NS3-HELICASE
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp13 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-09-16 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment hits across 51 datasets. These structures have been published in the PDB and are featured as a curated collection in the &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">RCSB PDB SARS-CoV-2&lt;/a> resource.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/nsp13">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp13 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-09-16 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment hits across 51 datasets. These structures have been published in the PDB and are featured as a curated collection in the &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">RCSB PDB SARS-CoV-2&lt;/a> resource.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1">SARS-CoV-2 nsp3 Mac1 macrodomain&lt;/h3>
+ ASAP-SARS-COV-2-NSP3-MAC1
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mac1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2021-06-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at the Diamond Light Source XChem facility and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002283">&lt;b>PDB group deposition of crystal structures of SARS-CoV-2 NSP3 Macrodomain in complex with ASAP inhibitors&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2024-01-23 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 3&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 nsp3 Mac1 macrodomain in complex with 90 ASAP inhibitors&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS3-HELICASE">DENV/ZIKV/WNV NS3 helicase&lt;/h3>
+ ASAP-ZIKA-NS3-HELICASE
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/5RHY">&lt;b>Apo structure of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of ZIKV NS3 helicase at 1.36A resolution in P 1 21 1 space group.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://zenodo.org/record/7864388#.ZEgRzXbMKUk">&lt;b>Zenodo deposition of X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2022-06-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002158">&lt;b>PDB group deposition of X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+PDB group deposition of the X-ray fragment screen of ZIKV NS3 helicase containing 17 fragment-bound complexes&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002270">&lt;b>PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-07-23 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase containing 24 fragment-bound complexes&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO">SARS-CoV-2 Mpro protease&lt;/h3>
+ MOONSHOT-COV-MPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-03-18 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This resulted in determination of 91 protein-fragment structures.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition of crystallographic fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-07 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+Selected structures were deposited in the PDB via a group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002272">&lt;b>PDB group deposition of SARS-CoV-2 main protease in compelex with inhibitors from the COVID Moonshot&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-11-29 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 5&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr></description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>&lt;p>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.&lt;/p></description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>&lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-ENDORIBONUCLEASE"> Analysis of circulating variants of SARS-CoV-2 nsp15 endoribonuclease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp15.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN"> Analysis of circulating variants of SARS-CoV-2 N protein &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/N.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NS3-HELICASE"> Analysis of circulating variants of SARS-CoV-2 nsp13 helicase &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp13.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Analysis of circulating variants of SARS-CoV-2 nsp3 Mac1 macrodomain &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp3.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKV-NS2B3"> Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master">[dataset download]&lt;/a>
+
+&lt;br>
+
+
+
+ Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-11-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKV-RdRp-polymerase"> Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5) &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/tree/IFN_signaling">[dataset download]&lt;/a>
+
+&lt;br>
+
+
+
+ Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP1"> Analysis of circulating variants of SARS-CoV-2 nsp1 &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp1.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP12"> Analysis of circulating variants of SARS-CoV-2 nsp12 RdRp &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp12.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP14"> Analysis of circulating variants of SARS-CoV-2 nsp14 exonuclease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp14.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-S"> Analysis of circulating variants of SARS-CoV-2 S spike protein &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/S.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>&lt;p>A &lt;strong>&lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">Target Product Profile (TPP)&lt;/a>&lt;/strong> describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.&lt;/p>
+&lt;p>All ASAP TPPs are &lt;em>draft TPPs&lt;/em> intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
+ASAP works with stakeholders around the globe (such as the &lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">World Health Organization&lt;/a>) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.&lt;/p></description></item><item><title>Target Enabling Packages (TEPs)</title><link>https://asapdiscovery.org/outputs/target-enabling-packages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-enabling-packages/</guid><description>&lt;p>A &lt;a href="https://www.thesgc.org/tep">Target Enabling Package (TEP)&lt;/a> is a complete data package needed to enable structure-based drug discovery against an antiviral target.
+Pioneered by the &lt;a href="https://www.thesgc.org/tep">Structural Genomics Consortium&lt;/a>, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an &lt;a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html">X-ray fragment screen at the Diamond Light Source XChem facility&lt;/a>, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.&lt;/p></description></item><item><title>Assay Cascades</title><link>https://asapdiscovery.org/outputs/assay-cascades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-cascades/</guid><description>&lt;p>An &lt;strong>&lt;a href="https://www.researchgate.net/figure/Drug-discovery-assay-cascade-Example-assay-cascade-for-drug-discovery-and-where-3D_fig2_348991791">assay cascade&lt;/a>&lt;/strong> is a defined set of assays and progression criteria used by a drug discovery program to achieve its &lt;a href="../target-candidate-profiles">Target Candidate Profile (TCP)&lt;/a> goals in a time- and cost-effective manner.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Assay cascade for MERS-CoV / SARS-CoV-2 oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232fd5f2809_1_114">[Asay Cascade (lead optimization)]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-06-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> DENV/ZIKV NS2B/3 3C protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g1ec7fe0d8c6_0_0">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for DENV/ZIKV NS2B/3 3C Protease oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-12-23]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68 / EV-A71 3C Protease Assay Cascade &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g2593c546e58_0_0">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for EV-D68 / EV-A71 3C Protease oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-07-14]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0">[Assay Cascade (fragment-to-lead)]&lt;/a>
+
+&lt;br>
+
+
+
+ Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-06-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Assay cascade for SARS-CoV-2 Mpro oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0">[Assay Cascade (lead optimization)]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2020-03-23]&lt;/i> Initial draft for COVID Moonshot&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Assay Protocols</title><link>https://asapdiscovery.org/outputs/assay-protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-protocols/</guid><description>&lt;p>ASAP frequently needs to develop or scale its own biochemical assay protocols to drive discovery programs.
+Whenever possible, we share these protocols through &lt;a href="http://protocols.io">protocols.io&lt;/a>, an industry standard platform for sharing and annotating assay protocols.&lt;/p>
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MERS-CoV_Mpro_fluorescence-assay"> MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease.
+Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-19]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="SARS-CoV-2_Mpro_fluorescence-assay"> SARS-CoV-2 main protease (Mpro) activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-CoV-2 3C-like main viral protease (MPro).
+Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="SARS-CoV-2_nsp3_TRFRET-assay"> SARS-CoV-2 nsp3 Mac1 macrodomain TR-FRET peptide displacement biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a TR-FRET peptide displacement assay to measure binding of small molecules to the active site of nsp3 Mac1 macrodomain &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v2&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="flaviviruses_ns2ns3_fluorescence-assay"> Flaviviruses (West Nile, Zika, Dengue) NS2B/NS3 protease activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v2">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional biochemical assay used to identify inhibitors of flavivirus (specifically West Nile, Zika, and Dengue) NS2B/NS3 protease activity. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Target Candidate Profiles (TCPs)</title><link>https://asapdiscovery.org/outputs/target-candidate-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-candidate-profiles/</guid><description>&lt;p>A &lt;a href="https://www.mmv.org/research-development/information-scientists/target-product-profiles-target-candidate-profiles">Target Candidate Profile (TCP)&lt;/a> describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
+Our TCPs are informed by the corresponding &lt;a href="#target-product-profile">Target Product Profiles (TPPs)&lt;/a> for the corresponding disease.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> MERS-CoV / SARS-CoV-2 MPro protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_227">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> DENV/ZIKV NS2B/3 protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+ &lt;span class="label warning">draft&lt;/span> &lt;br>
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_340">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-05-11]&lt;/i> Consolidate DENV/ZIKV&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68/A71 3C protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2881a7b0765_4_0">[Lead Transition Profile]&lt;/a>
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_427">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-06-22]&lt;/i> Initial drafts&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> EV-D68/A71 VP1 capsid assembly oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_10">[Lead Transition Profile]&lt;/a>
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_0">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-12-15]&lt;/i> Initial drafts&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> SARS-CoV-2 nsp3 Mac1 macrodomain oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_165">[Target Candidate Profile for lead nomination]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> SARS-CoV-2 Oral MPro protease inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_155">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2020-04-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Preclinical programs</title><link>https://asapdiscovery.org/outputs/preclinical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/preclinical/</guid><description>&lt;h3 id="sars-cov-2-mpro-protease">SARS-CoV-2 Mpro protease 
+ &lt;a href="#sars-cov-2-mpro-protease">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>See the &lt;a href="https://dndi.org/research-development/portfolio/covid-moonshot/">COVID Moonshot preclinical program&lt;/a>.&lt;/p></description></item><item><title>Investigational New Drug (IND) filings</title><link>https://asapdiscovery.org/outputs/investigational-new-drugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/investigational-new-drugs/</guid><description>&lt;p>ASAP does not yet have any programs that have reached Investigational New Drug (IND) status.&lt;/p></description></item><item><title>Clinical trials</title><link>https://asapdiscovery.org/outputs/clinical-trials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/clinical-trials/</guid><description>&lt;p>ASAP does not currently have any programs that have reached clinical trials.&lt;/p></description></item><item><title>New Drug Approvals</title><link>https://asapdiscovery.org/outputs/new-drug-approvals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/new-drug-approvals/</guid><description>&lt;p>ASAP does not currently have any programs that have reached New Drug Approval (NDA) status.&lt;/p></description></item><item><title/><link>https://asapdiscovery.org/outputs/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/img/icons/readme/</guid><description>&lt;h1 id="icons-from-the-noun-project">Icons from The Noun Project 
+ &lt;a href="#icons-from-the-noun-project">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h1>&lt;p>Icons are CC-BY from &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a>&lt;/p></description></item><item><title/><link>https://asapdiscovery.org/pipeline/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/pipeline/img/icons/readme/</guid><description>&lt;h1 id="icons-from-the-noun-project">Icons from The Noun Project 
+ &lt;a href="#icons-from-the-noun-project">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h1>&lt;p>Icons are CC-BY from &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a>&lt;/p></description></item><item><title>Awards</title><link>https://asapdiscovery.org/awards/rfa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/awards/rfa/</guid><description>&lt;p>Applications for the &lt;a href="https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern">ASAP AViDD Center Developmental Research Project Awards&lt;/a> and &lt;a href="https://asapdiscovery.org/awards/#mentored-project">Mentored Project Awards&lt;/a> are currently under review with awards expected to be announced by April 2023.&lt;/p>
+&lt;p>Funds for these awards are provided by the National Institutes of Health under award number &lt;a href="https://reporter.nih.gov/search/w8DB-VjNEk2E-twKD4bPUQ/project-details/10513866">U19AI171399&lt;/a> through the &lt;a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-21-050.html">NIAID Antiviral Drug Discovery (AViDD) U19 Program&lt;/a>.&lt;/p>
+&lt;p>&lt;a id="developmental-research-project">&lt;/a>&lt;/p>
+&lt;h2 id="developmental-research-project-awards">Developmental Research Project Awards 
+ &lt;a href="#developmental-research-project-awards">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>&lt;strong>Funding Opportunity Title&lt;/strong>&lt;br>
+AI-driven Structure-enabled Antiviral Platform (ASAP) Discovery Consortium Developmental Project Award Program&lt;/p></description></item><item><title>Developmental and Mentored Awards</title><link>https://asapdiscovery.org/awards/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/awards/projects/</guid><description>&lt;h1 id="developmental-research-projects">Developmental Research Projects 
+ &lt;a href="#developmental-research-projects">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h1>&lt;p>Applications for the &lt;a href="https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern">ASAP AViDD Center Developmental Research Project Awards&lt;/a> and &lt;a href="https://asapdiscovery.org/awards/#mentored-project">Mentored Project Awards&lt;/a> closed on 13 Jan 2023.
+After scoring applications by our Scientific Advisory Board, NIAID approved the following awards, which were issued on 1 May 2023.&lt;/p></description></item><item><title>FAQ</title><link>https://asapdiscovery.org/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/privacy/</guid><description>&lt;h3 id="asap-discovery-consortium-privacy-policy">ASAP Discovery Consortium Privacy Policy 
+ &lt;a href="#asap-discovery-consortium-privacy-policy">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>This Privacy Policy explains how ASAP Discovery Consortium (&amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) collects, uses, and safeguards your personal information when you visit our website and interact with our services. We are committed to protecting your privacy and complying with applicable data protection laws, including the General Data Protection Regulation (GDPR).&lt;/p></description></item><item><title>Open Science</title><link>https://asapdiscovery.org/open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/open-science/</guid><description>&lt;p>Authors: &lt;br>
+&lt;a href="https://dndi.org/our-people/pascale-boulet/">&lt;strong>Pascale Boulet&lt;/strong>&lt;/a>, &lt;em>ASAP IP Strategy Consultant&lt;/em>, Intellectual Property &amp;amp; Access Leader, &lt;a href="https://dndi.org/">DNDi&lt;/a>&lt;br>
+&lt;a href="https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&amp;amp;hl=en">&lt;strong>Dr Ed Griffen&lt;/strong>&lt;/a>, &lt;em>ASAP Lead Optimization Project Lead&lt;/em>, &lt;a href="https://www.medchemica.com/">MedChemica Consultancy Ltd&lt;/a>&lt;br>&lt;/p>
+&lt;p>Our approach to open science and intellectual property is described in detail in our formal policy:&lt;/p>
+&lt;blockquote>
+&lt;p>Griffen, E., &amp;amp; Boulet, P. (2024). ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0). Zenodo. &lt;a href="https://doi.org/10.5281/zenodo.12191567">https://doi.org/10.5281/zenodo.12191567&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Below, we provide a brief summary of the main principles of our approach to open science:&lt;/p></description></item></channel></rss>

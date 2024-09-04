@@ -1,24 +1,764 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Force Field Consortium on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/tags/open-force-field-consortium/</link><description>Recent content in Open Force Field Consortium on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://asapdiscovery.org/tags/open-force-field-consortium/index.xml" rel="self" type="application/rss+xml"/><item><title>Jun 17, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on June 17, 2020. The minutes are summarized as follows:
-Change in OpenFF leadership Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative.</description></item><item><title>May 20, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</link><pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on May 20, 2020. The minutes are summarized as follows:
-Infrastructure update J. Wagner gave an infrastructure update based on his talk presented during the recent virtual Third Open Force Field Workshop on May 4-5, 2020. Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes. At the moment, OpenFF is trying to generate SMILES before and after calculations.</description></item><item><title>Apr 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</link><pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on April 15, 2020. The minutes are summarized as follows:
-Brief Update D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study.</description></item><item><title>Mar 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on March 18, 2020. The minutes are summarized as follows:
-The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.</description></item><item><title>Feb 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on February 19, 2020. The minutes are summarized as follows:
-Next FF release plans I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released minor release - openff-1.1. D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures.</description></item><item><title>Jan 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</link><pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</guid><description>The [Open Force Field Consortium Advisory Board] met on January 15, 2020. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – Jan 19, 2020 Protein-ligand benchmarking D. Hahn gave an update on his progress with protein-ligand benchmarking of Parsley &amp;ndash; he is currently working on developing a repository for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc) D.</description></item><item><title>Nov 19, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</guid><description>The [Open Force Field Consortium Advisory Board] met on November 19, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – Nov 19, 2019 Personnel update Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado OpenFF is hiring more personnel, primarily software scientists OFF toolkit update Version 0.</description></item><item><title>Oct 16, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</guid><description>The Open Force Field Consortium Advisory Board had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.
-The minutes from the meeting held on Oct 16, 2019 are summarized as follows:</description></item><item><title>Jul 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</link><pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on July 17, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – July 17, 2019 The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!</description></item><item><title>Jun 13, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</link><pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 13 June, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – June 13, 2019 First optimized force field (D. Mobley):
-Aiming to have the first force field released by Sept 1 and evaluations performed by Oct 1. Specific discussion about it takes place in #release-1 channel on Slack.
-Types: The same typing tree as smirnoff99Frosst will be used, but the differentiable parameters in (a subset of) torsion, valence, and Lennard-Jones parameters will be optimized;</description></item><item><title>May 15, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</link><pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 15 May, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – May 15, 2019 Overview of the roadmap for the remaining time of Year 1 and the accomplishments made so far (J. Chodera).
-Torsions update (L.-P. Wang):
-The selected set of molecules for initial torsion scanning contains 486 small and chemically diverse molecules provided by Roche (less than 30 heavy atoms)- “Roche set”- more fragments will be added to this set in the future;</description></item><item><title>April 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</link><pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 17 April 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – 17 April 2019 K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan Release update by Jeff Wagner: 0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th Version numbers indicate API is still in flux, there may be function call changes, etc.</description></item><item><title>March 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</link><pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 20 March, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – March 20, 2019 Status Updates: OFFI NIH proposal submitted and available publicly Hiring update: Karmen Condic-Jurkic starts April 1 as half-time scientific coordinator/project manager Interviews ongoing for bespoke torsion fitting and potentially electrostatics role Open Force Field Toolkit update: Alpha release slated for April 2 Will contain RDKit backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added) Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms) Differences in aromaticity models could result in some differences in corner cases We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields SDF with standardized tags will be the supported method for importing molecules with custom charges OpenEye and RDKit on-board with standardized tags for charges There may have been minor changes to XML forcefield format since the January preview release Changes are summarized here OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates Partners and users are directed to use the Github issue tracker to report issues or problems Technical questions – Desmond support How is Desmond currently used by Partners?</description></item><item><title>February 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</link><pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 20 February, 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – February 20, 2019 Next release of toolkit currently being tested and finished Workflow documentation Next item on to-do list Call for additional desired workflows to be posted in #documentation channel Industry compound additions to parameterization sets Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures Industry partners should identify particularly high priority chemical space for initial parameterization Compounds/fragments to be sent via Slack or GitHub BI has SureChembl dump and scripts that may be able to be shared.</description></item><item><title>January 23, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</link><pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</guid><description>The Open Force Field Consortium Advisory Board met on 23 Jan 2019. The minutes are summarized as follows:
-Open Forcefield Advisory Board Meeting Minutes – January 23, 2019 RDKit Integration Key infrastructure seems to be working Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends Documentation being worked on Limited to SDF file format initially RDKit support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend Workflows Workflow documentation / example requests should be posted to #documentation Slack channel Some suggested workflows from agenda and discussion: Parameterization of protein-ligand system using SMIRNOFF Conformer energy evaluation Minimization of multiple ligands from SDF file (is this with protein, without, both?</description></item><item><title>January 7-8, 2019 Consortium Workshop</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</guid><description>Minutes: Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members
-Visit the agenda page for more details of the workshop.</description></item><item><title>October 29, 2018 Joint Governing/Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</link><pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</guid><description>Minutes: Attending: All PIs, both governing board members, and most advisory board members, via Zoom.
-Short-term roadmap/minimum viable product: In general folks are supportive of current effort plans. However, there was consensus we need a tool for bespoke parameterization of molecules, especially internal molecules which might not be able to be disclosed to the larger effort, as part of our minimum viable product.
-Funding/financials: Currently we have eight partners on board (with openforcefield.</description></item><item><title>October 11, 2018 Governing Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</guid><description>Agenda: October meeting draft agenda and start time January meeting location Maat hiring Slack Funding processing update/onboarding update Involvement with science meetings (subprojects) and project planning Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date. Minutes: Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier
-Shared the detailed budget outline Google Doc and went over the personnel who would be involved and their distribution across different locations, $ amounts, etc.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Force Field Consortium on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/tags/open-force-field-consortium/</link><description>Recent content in Open Force Field Consortium on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://asapdiscovery.org/tags/open-force-field-consortium/index.xml" rel="self" type="application/rss+xml"/><item><title>Jun 17, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-06-17-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on June 17, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="change-in-openff-leadership">Change in OpenFF leadership 
+ &lt;a href="#change-in-openff-leadership">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Lee-Ping Wang announced that he will step down from the leadership role in OpenFF on July 15, 2020. This decision is primarily driven by a desire to spend more time on research and exploration of new scientific decision and to reduce his involvement in the management duties of the Initiative. Lee-Ping will remain an active member of the Initiative in the co-investigator role.&lt;/li>
+&lt;/ul>
+&lt;h5 id="rca-and-bylaws">RCA and Bylaws 
+ &lt;a href="#rca-and-bylaws">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Certain modifications of the Research Collaboration Agreement and Bylaws have been suggested. The main change in the RCA refers to inclusion of prorated membership option for new members joining later in the Consortium funding year (starting in October).&lt;/li>
+&lt;li>Searching for a mechanism that would allow the Consortium to update these agreements outside of the renewal cycles.&lt;/li>
+&lt;li>Elections for the Advisory and Governing Board functions will take place every 12 months instead of every 6 months, which is the current election period.&lt;/li>
+&lt;/ul>
+&lt;h5 id="renewals">Renewals 
+ &lt;a href="#renewals">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Most of the partners are supportive of funding the OpenFF Consortium in Year 3, pending approval.&lt;/li>
+&lt;/ul>
+&lt;h5 id="independent-organization">Independent organization 
+ &lt;a href="#independent-organization">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>OpenFF is considering the formation of an independent entity around the effort to ensure longer term sustainability of the project. Different options are being explored to find the best organizational structure to support the mission driven by open science, open source and open data principles.&lt;/li>
+&lt;/ul></description></item><item><title>May 20, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</link><pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-05-20-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on May 20, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="infrastructure-update">Infrastructure update 
+ &lt;a href="#infrastructure-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Wagner gave an infrastructure update based on &lt;a href="https://youtu.be/NMyb_eWywvQ">his talk&lt;/a> presented during the recent virtual &lt;a href="https://openforcefield.org/news/may-2020-virtual-meeting/">Third Open Force Field Workshop&lt;/a> on May 4-5, 2020.&lt;/li>
+&lt;li>Suggestions for QCArchive to incorporate some quality control information about molecular geometries and potential connectivity changes.
+&lt;ul>
+&lt;li>At the moment, OpenFF is trying to generate SMILES before and after calculations. An external (searchable) server to index molecules on QCArchive with some additional information is under consideration.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Feedback requested for the &lt;a href="https://github.com/openforcefield/openforcefield/tree/master/examples/conformer_energies">CLI conformer minimization tool&lt;/a> (comes as an independent script). The tool uses OpenMM with default minimization criteria. More functionalities are expected in QCSubmit tool, for example, geomeTRIC implementation for geometry minimizations, but a lightweight CLI tool is generally considered useful.&lt;/li>
+&lt;li>System preparation should be made easier and the long term plan is to achieve that with a new System Object.&lt;/li>
+&lt;li>New OpenFF Toolkit (0.7.0) release announced for June 2020 and that will be the largest release to date.&lt;/li>
+&lt;/ul>
+&lt;h5 id="force-openforcefields">Force openforcefields 
+ &lt;a href="#force-openforcefields">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>New Parsley update (OpenFF-1.2.0) announced for late May or early June.&lt;/li>
+&lt;/ul>
+&lt;h5 id="openff-deliverables">OpenFF deliverables 
+ &lt;a href="#openff-deliverables">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Demonstrate steady progress of OpenFF force fields over time and their performance with respect to other public and commercial force fields. Identify useful indicators to track performance over time and review every year.&lt;/li>
+&lt;li>Running internal benchmarking done by industry partners is a possibility in cases where access to datasets is restricted.&lt;/li>
+&lt;li>For now, it has been decided to keep the focus on the QM benchmarking. Free energy calculations are of great interest, but it is understood that there are complexities associated with running those systematically, which will take more time to achieve.&lt;/li>
+&lt;li>Infrastructure improvements are also important and should be noted in the progress report.&lt;/li>
+&lt;/ul></description></item><item><title>Apr 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</link><pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-04-15-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on April 15, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="brief-update">Brief Update 
+ &lt;a href="#brief-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Mobley provided a brief progress update since the last meeting. S. Boothroyd is working on a feasibility study for optimal combinations of physical properties for fitting nonbonded parameters. openff-1.2.0 release will contain an improved QM training set with a more systematic approach to molecule selection, while Sage will include the LJ refit based on the feasibility study. The infrastructure is moving towards providing support for WBO torsion interpolation, and SDF-compatible charges. More work is being done on protein-ligand benchmarking by D. Hahn, and J. Horton is building the bespoke parameterization pipeline. The new software scientist, M. Thompson, is looking into designing a system object.&lt;/li>
+&lt;li>Another task ahead is QM benchmarking for torsions and charged molecules. F. Pickard offered advice on choice of QM level of theory for charged species.&lt;/li>
+&lt;/ul>
+&lt;h5 id="bylaws-changes">Bylaws changes 
+ &lt;a href="#bylaws-changes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Suggested change for the Advisory Board officials &amp;ndash; remove the Vice-Chair and Secretary roles with the possibility of reinstatement of these roles at a later date if need arises. K. Condic-Jurkic will draft the changes in the Bylaws and send to partners for further inspection and potentially, legal department approval.&lt;/li>
+&lt;/ul>
+&lt;h5 id="virtual-meeting-format">Virtual meeting format 
+ &lt;a href="#virtual-meeting-format">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The in-person meeting has been cancelled due to Covid-19. It will be replaced by a virtual meeting. The format will rely on pre-recorded talks and the meeting time will be focused on discussions only.&lt;/li>
+&lt;/ul>
+&lt;h5 id="infrastructure">Infrastructure 
+ &lt;a href="#infrastructure">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Two new software scientists were hired recently:
+&lt;ul>
+&lt;li>David Dotson &amp;ndash; Formerly of MDAnalysis, experience with MolSSI, will be working on performance/distribution for property calculations.&lt;/li>
+&lt;li>Matt Thompson &amp;ndash; Formerly of MoSdef, will be working on interoperable System format.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Generally, increasing infrastructure capacity effectively amortizes the cost of “overhead”. Added infrastructure capacity can:
+&lt;ul>
+&lt;li>Push out new features and bugfixes faster&lt;/li>
+&lt;li>Maintain and refactor orphaned projects&lt;/li>
+&lt;li>Push on benchmarking dashboard/other new or common infrastructure&lt;/li>
+&lt;li>Provide support for storing reproducible calculations (like FF fits, benchmarks, etc)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>On Apr 23 the OpenFF team will have “best practices” workshop&lt;/li>
+&lt;/ul>
+&lt;h5 id="funding-extension">Funding extension 
+ &lt;a href="#funding-extension">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The Consortium could be funded for another year if the improved quality of OpenFF force fields can be clearly demonstrated &amp;ndash; this includes QM benchmarking, binding free energies and similar, but especially improvements on drug-like molecules.&lt;/li>
+&lt;li>Test sets like Baran’s &lt;a href="https://www.scripps.edu/baran/heterocycles/">“essential molecules of heterocyclic chemistry”&lt;/a> would be a convincing set for benchmarking, but additional molecule sets could be assembled by industry partners for this purpose.&lt;/li>
+&lt;li>Benchmarking dashboard might be a good way to demonstrate the improvements, but some tangible results would also be welcome (for example, predicting the correct crystal structure conformation).&lt;/li>
+&lt;/ul></description></item><item><title>Mar 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-03-18-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on March 18, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;p>The meeting has been cancelled due to workplace disruptions caused by the COVID19 outbreak. The in-person meeting has been postponed for November 9-10, while the meeting in May will be virtual. Katharina Meier and Thomas Fox have been confirmed as the industry representatives on the Governing Board for the next 6 months. The election period and voting protocol will be discussed during the next meeting.&lt;/p></description></item><item><title>Feb 19, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-02-19-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on February 19, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h5 id="next-ff-release-plans">Next FF release plans 
+ &lt;a href="#next-ff-release-plans">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>I. Craig (BASF) reported some issues with nitrogen parameters in tetrazoles, and H. Jang has updated a couple of parameters in the recently released &lt;a href="https://github.com/openforcefield/openforcefield-forcebalance/releases/tag/v1.1.0">minor release&lt;/a> - &lt;code>openff-1.1&lt;/code>.&lt;/li>
+&lt;li>D. Mobley presented some benchmarking results from V. Lim’s study of conformer energies and geometries. For geometry comparison, RMSD and torsion fingerprinting deviation (TFD) were used as similarity measures. The aim was to find parameters that may lead to higher geometric deviations in RMSD/TFG.
+&lt;ul>
+&lt;li>C. Bayly and Y. Zhao agreed that this seems like an excellent diagnostic tool for identification of pathological cases, but also potentially for other purposes. Y. Zhao recommended creating an example notebook.&lt;/li>
+&lt;li>For the next FF release, the aim is to expand QM datasets, while improving molecule set selection to reduce overrepresentation of certain species.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>J. Chodera announced creation of a benchmarking dashboard, which will be developed in the near future, for exploring OpenFF datasets and comparison of different variables, including conformer energies, geometries, physical properties, and free energy data.&lt;/li>
+&lt;li>The question is raised about the best way to demonstrate progress and improvements achieved for the Consortium partners to share with their management. Any feedback is welcome.&lt;/li>
+&lt;li>Desired benchmarking results include binding free energies (for protein-ligand and host-guest systems), improved protein-ligand design (for example, ligand conformer scoring &amp;ndash; how to find 50 lowest energy conformers out of 1000, comparison with protein-ligand datasets. For the latter, a clear comparison protocol is required.
+&lt;ul>
+&lt;li>X. Hou and A. Gobbi can provide some molecule sets for this purpose.&lt;/li>
+&lt;li>Crystal structure comparisons are not of the immediate interest.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="nih-grant-announcement">NIH grant announcement 
+ &lt;a href="#nih-grant-announcement">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>M. Shirts and J. Chodera announced that the Open Force Field Initiative has been awarded the NIH grant to develop biopolymer force fields using Open Force Field framework and build Bayesian inference infrastructure for force field parameterization. This grant will complement the existing efforts focused on small molecule force fields, funded by the Open Force Field Consortium.&lt;/li>
+&lt;li>David Cerutti will join as a member of the OpenFF team and lead the biopolymer parameterization efforts, which will start with porting Amber protein force fields to SMIRNOFF format.&lt;/li>
+&lt;/ul>
+&lt;h5 id="miscellaneous">Miscellaneous 
+ &lt;a href="#miscellaneous">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Governing Board members / Ad. Board functions elections coming up. A clear voting protocol to be defined.
+&lt;ul>
+&lt;li>Daniel Kuhn wants to step down as the chair, T. Fox and K. Meier willing to remain in their Gov. Board roles&lt;/li>
+&lt;li>Mark Mackey (Cresset) volunteered for the Chair, X. Hou also potentially interested for the role.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Provisional financial report for Y1 and Y2 provided, the full report is still being processed.&lt;/li>
+&lt;li>Registration for the in-person meeting in Boston (May 4-5) is open.&lt;/li>
+&lt;li>The OpenFF Initiative has started using Confluence for project management and better documentation of research processes.&lt;/li>
+&lt;/ul></description></item><item><title>Jan 15, 2020 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</link><pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2020-01-15-minutes/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on January 15, 2020.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--jan-19-2020">Open Forcefield Advisory Board Meeting Minutes – Jan 19, 2020 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--jan-19-2020">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;h5 id="protein-ligand-benchmarking">Protein-ligand benchmarking 
+ &lt;a href="#protein-ligand-benchmarking">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Hahn gave an &lt;a href="2020-01-15-PLBenchmark-Update-David-Hahn.pdf">update&lt;/a> on his progress with protein-ligand benchmarking of &lt;a href="https://github.com/openforcefield/openforcefields">Parsley&lt;/a> &amp;ndash; he is currently working on developing a &lt;a href="https://github.com/openforcefield/PLBenchmarks">repository&lt;/a> for storing and presenting data used for protein-ligand benchmarking studies, which stores only primary data reported in cited publications (derived data, for example dG, is converted on the fly from IC50, Kd, etc)&lt;/li>
+&lt;li>D. Hahn coordinates an effort to write a living document (&lt;a href="https://www.livecomsjournal.org/">LiveCoMS&lt;/a> review) capturing the current state of knowledge in this domain and everyone interested in contributing should reach out to him&lt;/li>
+&lt;li>Protein-ligand systems used in this study were primarily selected based on the pre-existing computational studies for easier comparison, but this initial set is expected to expand in the future and potentially divide into more specialised subsets appropriate for specific benchmarking tasks&lt;/li>
+&lt;li>Free energy calculations are following the same workflow developed by Vytas Gapsys based on the &lt;a href="https://pubs.rsc.org/en/content/articlehtml/2020/sc/c9sc03754c">non-equilibrium alchemy&lt;/a> and &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.23804">pmx&lt;/a> tools implemented in Gromacs. D. Hahn is using protein structures already used in the mentioned study by Gapsys et al. study for easier comparison with Parsley&lt;/li>
+&lt;li>D. Hahn might also perform a comparison between OPLS3e and QM optimized structures used in Parsley parameterization as a part of benchmarking study&lt;/li>
+&lt;li>Limited computational resources have an impact on the total progress made so far, although additional resources might become available in the future&lt;/li>
+&lt;/ul>
+&lt;h5 id="openmm-support-for-smirnoff-and-gaff-force-fields">OpenMM support for SMIRNOFF and GAFF force fields 
+ &lt;a href="#openmm-support-for-smirnoff-and-gaff-force-fields">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Chodera gave an overview of the recently implemented &lt;a href="https://github.com/openmm/openmm-forcefields">OpenMM support for SMIRNOFF and GAFF force fields&lt;/a>&lt;/li>
+&lt;li>An example for swapping Amber with OFF parameters can be found &lt;a href="https://github.com/openforcefield/openforcefield/tree/master/examples/swap_amber_parameters">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="torsion-drive-discussion">Torsion drive discussion 
+ &lt;a href="#torsion-drive-discussion">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>L.-P. Wang gave a brief &lt;a href="2020-01-15-torsiondrive-discusion-LPWang.pdf">update&lt;/a> of the recent (Slack) discussion about torsion drive procedures and the effects of conformations with intramolecular hydrogen bonds on the resulting surface&lt;/li>
+&lt;li>X. Lucas noticed that some molecules in the torsion drive datasets had a capability to form an intramolecular H-bond, but these conformations haven’t been captured in torsion drive scans&lt;/li>
+&lt;li>Torsion drive procedure is recursive to avoid hysteresis, discontinuities and getting stuck in high-energy minima, but there is no guarantee that torsion drive will be able to find a global minimum. However, it is able to stitch together results from multiple starting structures, for example, multiple starting points can be provided (“known” local minima) for torsion scans, which can subsequently decrease calculation walltime.&lt;/li>
+&lt;li>Torsion drive manuscript is nearly completed and submission is expected in the next month after it goes through the approval process&lt;/li>
+&lt;li>Preliminary decision is to create two torsion drive datasets for the next round of fitting - one with intramolecular H-bonds and one without to investigate the effect of intramolecular H-bond on parameters&lt;/li>
+&lt;li>Molecules inspected in the mentioned torsion drive scans are up to 30 heavy atoms and have not been fragmented&lt;/li>
+&lt;li>Another question to consider is how to prevent overbinding in gas-phase and how to include implicit solvent in gas phase? L.-P. Wang suggested using the same implicit solvent model for QM and MM computations (PCM/COSMO for example, as implemented in Tinker for AMOEBA)&lt;/li>
+&lt;li>The final torsion drive surface always contains only the lowest lying points, but the high energy conformations could be included, generated in the process&lt;/li>
+&lt;li>J. Chodera suggested using optimization datasets already stored in QCArchive with different conformations and associated gradients as additional source of information, but the most appropriate use cases for this incidentally generated data remains to be determined&lt;/li>
+&lt;li>J. Horton is working on bespoke workflow for fragmentation and torsion drives, but it may take time to get software ready, even though the science behind it has been done.&lt;/li>
+&lt;/ul>
+&lt;h5 id="properties">Properties 
+ &lt;a href="#properties">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Discussion around NIST/DIPPR property data selection can be followed &lt;a href="https://github.com/openforcefield/nistdataselection/issues/12">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="other-topics">Other topics 
+ &lt;a href="#other-topics">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>The next in-person meeting will be held on May 4-5 in Cambridge, MA just before &lt;a href="http://www.alchemistry.org/wiki/2020_Workshop_on_Free_Energy_Methods_in_Drug_Design">2020 Workshop on Free Energy Methods in Drug Design&lt;/a> (May 6-8)&lt;/li>
+&lt;li>K. Condic-Jurkic will reach out and collect photos from the Board members for the new website&lt;/li>
+&lt;/ul></description></item><item><title>Nov 19, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-11-19-minuted/</guid><description>&lt;p>The [Open Force Field Consortium Advisory Board] met on November 19, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--nov-19-2019">Open Forcefield Advisory Board Meeting Minutes – Nov 19, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--nov-19-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;h5 id="personnel-update">Personnel update 
+ &lt;a href="#personnel-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Y. Qiu and D. Slochower have left their positions at UC Davis and UC San Diego, respectively&lt;/li>
+&lt;li>S. Boothroyd moved from the Chodera lab at MKSCC, New York to the Shirts lab at CU Boulder, Colorado&lt;/li>
+&lt;li>OpenFF is hiring more personnel, primarily software scientists&lt;/li>
+&lt;/ul>
+&lt;h5 id="off-toolkit-update">OFF toolkit update 
+ &lt;a href="#off-toolkit-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Version 0.6.0 released, with support for LibraryCharges (SMARTS-based charge assignment)
+&lt;ul>
+&lt;li>Release notes &lt;a href="https://open-forcefield-toolkit.readthedocs.io/en/0.6.0/releasehistory.html">here&lt;/a>&lt;/li>
+&lt;li>Currently only TIP3P is available, open to contributions of residue SMARTS-based protein FF&lt;/li>
+&lt;li>Important to note changes in charge assignment:
+&lt;ul>
+&lt;li>All molecules must be assigned charges by some method (&lt;code>charge_from_molecules&lt;/code> counts)&lt;/li>
+&lt;li>If partial charges don’t add up to formal charge, an error is raised&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Upcoming features:
+&lt;ul>
+&lt;li>ChargeIncrementModel: Several semiempirical methods paired with SMARTS-based BCCs&lt;/li>
+&lt;li>&lt;a href="https://github.com/openforcefield/openforcefield/pull/459">Contributors guide and developer documentation&lt;/a> (expectations for user experience and code)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="openeye-dependencies">OpenEye dependencies 
+ &lt;a href="#openeye-dependencies">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>OE tools are used in some of the OpenFF workflows, but the long term goal is to make Open Force Fields and fitting infrastructure independent of OE licenses&lt;/li>
+&lt;li>The goal is to make Open Force fields usable without OE dependence as soon as possible and we are working hard to make that happen, while the infrastructure used to build force fields will keep the current OE tools incorporated for a while longer, depending on the available developer time&lt;/li>
+&lt;li>J. Wagner will build a converter between &lt;em>mol2&lt;/em> and &lt;em>sdf&lt;/em> file formats (with charges) as a short-term solution for users without OE licenses&lt;/li>
+&lt;/ul>
+&lt;h5 id="protein-ligand-benchmarking-update">Protein-ligand benchmarking update 
+ &lt;a href="#protein-ligand-benchmarking-update">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>D. Mobley gave a quick update on the current state of protein-ligand benchmarking, where everything is more or less ready for free energy (FE) calculations, but compute resources have been somewhat scarce lately&lt;/li>
+&lt;li>Additionally, preparation of the systems and the state of FE workflows made this effort harder than initially anticipated. For example, using Amber TI required 1 month of human time to generate input files. The selected method was based on V. Gapsys&amp;rsquo; &lt;a href="https://zenodo.org/record/3420778">non-equilibrium switching approach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="parsley-feedback">Parsley feedback 
+ &lt;a href="#parsley-feedback">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>Checking who has used Parsley and what would make it easier for pharma partners to try it &amp;ndash; provided Jupyter notebooks were useful to play with &lt;em>Parsley&lt;/em> and simple protein-ligand systems&lt;/li>
+&lt;li>A desired feature for some partners is geometry optimizer to allow comparison of energies for different conformers &amp;ndash; this feature comes with high priority for toolkit development&lt;/li>
+&lt;li>The best way to get support if there are any issues with Parsley or the toolkit is to report it on &lt;a href="https://github.com/openforcefield/openforcefields">Github repository&lt;/a> and if any help is needed with in-house deployment of OpenFF tools, contact J. Wagner&lt;/li>
+&lt;/ul>
+&lt;h5 id="other-topics">Other topics 
+ &lt;a href="#other-topics">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>J. Rodriguez-Guerra is working on &lt;a href="https://github.com/openforcefield/openmmgbsa/">GBSA energy&lt;/a> calculations support in OpenMm, which will hopefully become available by the end of the year&lt;/li>
+&lt;li>Eli Lilly, Cresset and OpenEye are joining the Consortium&lt;/li>
+&lt;/ul></description></item><item><title>Oct 16, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-10-16-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> had an in-person meeting during the Consortium workshop in San Diego (Aug 30-31, 2091), discussing research questions of interest and potential future directions for the Open Force Field Initiative. This and other discussions held during the meeting made a basis for the roadmap for Year 2. This was the joint August/September meeting.&lt;/p>
+&lt;p>The minutes from the meeting held on Oct 16, 2019 are summarized as follows:&lt;/p></description></item><item><title>Jul 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</link><pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-07-17-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on July 17, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--july-17-2019">Open Forcefield Advisory Board Meeting Minutes – July 17, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--july-17-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>The Advisory Board format was slightly changed on this occasion - the report about the latest development was sent before the meeting to leave more time for questions and discussions. We will test this new format during the next few meetings. Feedback and comments are welcome!&lt;/p></description></item><item><title>Jun 13, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</link><pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-06-13-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 13 June, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--june-13-2019">Open Forcefield Advisory Board Meeting Minutes – June 13, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--june-13-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>&lt;strong>First optimized force field&lt;/strong> (D. Mobley):&lt;/p></description></item><item><title>May 15, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</link><pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-05-15-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 15 May, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--may-15-2019">Open Forcefield Advisory Board Meeting Minutes – May 15, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--may-15-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>&lt;strong>Overview&lt;/strong> of the &lt;a href="https://openforcefield.org/science/downloads/roadmap/roadmap-graphic-may-2019-update.pdf">roadmap&lt;/a> for the remaining time of Year 1 and the accomplishments made so far (J. Chodera).&lt;/p></description></item><item><title>April 17, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</link><pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-04-17-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 17 April 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--17-april-2019">Open Forcefield Advisory Board Meeting Minutes – 17 April 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--17-april-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>K. Condic-Jurkic to take over future agenda planning with input from D. Kuhn, I. Craig, A. Narayanan&lt;/li>
+&lt;li>Release update by Jeff Wagner:
+&lt;ul>
+&lt;li>0.2.1 bugfix release on the 12th after initial 0.2.0 release on 8th
+&lt;ul>
+&lt;li>Version numbers indicate API is still in flux, there may be function call changes, etc. in later versions, e.g., 0.3, 0.4, &amp;hellip;&lt;/li>
+&lt;li>Aiming to have more established base by version 1.0.0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Highlighted features of new release:
+&lt;ul>
+&lt;li>Independent of OpenEye by providing RDKit Cheminformatics support&lt;/li>
+&lt;li>The biggest issues appeared in aromaticity perception, but this has been addressed&lt;/li>
+&lt;li>Likely difference in partial charge assignment due to different methods for producing AM1-BCC charges (OpenEye vs. &lt;a href="http://ambermd.org/AmberTools.php">AmberTools&lt;/a> for RDKit)&lt;/li>
+&lt;li>No differences in available functionality&lt;/li>
+&lt;li>Changes to internal data structures to facilitate FF improvement&lt;/li>
+&lt;li>&lt;code>ForceField&lt;/code> class is an example, allowing parameter changes with python before assignment&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Short-term goals
+&lt;ul>
+&lt;li>Tarball build for non-Conda installation&lt;/li>
+&lt;li>Reading charges from SDF using standardized charge fields&lt;/li>
+&lt;li>Support for library charges for automated assignment&lt;/li>
+&lt;li>Fractional bond order interpolation&lt;/li>
+&lt;li>GBSA parameter assignment&lt;/li>
+&lt;li>Better file format conversion support&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Toolkit development progress can be tracked on github
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/openforcefield/openforcefield/milestones">https://github.com/openforcefield/openforcefield/milestones&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Video tutorial
+&lt;ul>
+&lt;li>Available at &lt;a href="https://youtu.be/oC8LXc0dhoE">https://youtu.be/oC8LXc0dhoE&lt;/a>&lt;/li>
+&lt;li>Please watch before 1:1 to facilitate 1:1 chats (to be setup)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Initially minor releases may come out weekly&lt;/strong> (e.g. 0.2.2, 0.2.3) while more significant changes may come out monthly (e.g. 0.3, 0.4)&lt;/li>
+&lt;li>Best places to go with problems (in no particular order):
+&lt;ul>
+&lt;li>Slack &lt;code>#tech-support&lt;/code> or &lt;code>#documentation&lt;/code> channels&lt;/li>
+&lt;li>Github issue tracker: &lt;a href="http://github.com/openforcefield/openforcefield/issues">http://github.com/openforcefield/openforcefield/issues&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Support for both RDKit and OE toolkits for now, long-term support will depend on the amount of resources available to maintain it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Applications/workflows
+&lt;ul>
+&lt;li>Examples of using SMIRNOFF in different ways would be helpful&lt;/li>
+&lt;li>Robustly developed workflows may be out of scope right now and the primary focus of OpenFF is force field development - making it easy for others to build their own apps using OpenFF resources&lt;/li>
+&lt;li>Example usage can be provided; requests in #documentation channel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hiring Update
+&lt;ul>
+&lt;li>Still trying to fill position for bespoke torsion fitting&lt;/li>
+&lt;li>Contract extension for Y. Qiu (Wang) and D. Slochower (Gilson) to work on ForceBalance parameter fitting and binding energy benchmarks, respectively&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Next meeting
+&lt;ul>
+&lt;li>Scientific updates highlighting scientific progress on the following topics:&lt;/li>
+&lt;li>Where we were when we met in January;&lt;/li>
+&lt;li>What progress has been made;&lt;/li>
+&lt;li>What is happening next?&lt;/li>
+&lt;li>Update on finances&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Other stuff:
+&lt;ul>
+&lt;li>OpenFF Seminar Series – contact David with ideas for speakers and topics of interest&lt;/li>
+&lt;li>Contact David/Karmen if you know of any additional interested pharma partners&lt;/li>
+&lt;li>Adding people on Slack&lt;/li>
+&lt;li>Karmen to try to provide digestible summaries of scientific progress in subgroups&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>March 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</link><pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-03-20-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 20 March, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--march-20-2019">Open Forcefield Advisory Board Meeting Minutes – March 20, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--march-20-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Status Updates:
+&lt;ul>
+&lt;li>OFFI NIH proposal submitted and &lt;a href="https://openforcefield.org/news/seeking-nih-funding/">available publicly&lt;/a>&lt;/li>
+&lt;li>Hiring update:
+&lt;ul>
+&lt;li>&lt;a href="http://www.choderalab.org/members/#karmen-condic-jurkic">Karmen Condic-Jurkic&lt;/a> starts April 1 as half-time scientific coordinator/project manager&lt;/li>
+&lt;li>Interviews ongoing for bespoke torsion fitting and potentially electrostatics role&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="http://github.com/openforcefield/openforcefield">Open Force Field Toolkit&lt;/a> update:
+&lt;ul>
+&lt;li>Alpha release slated for April 2&lt;/li>
+&lt;li>Will contain &lt;a href="http://www.rdkit.org/">RDKit&lt;/a> backend support in abstracted cheminformatics structure (allowing future support for alternative cheminformatics packages to be easily added)
+&lt;ul>
+&lt;li>Supposed to give same results regardless of RDKit or OpenEye (tested with ~2k molecules from eMolecules to have same energies, forces, and force terms)
+&lt;ul>
+&lt;li>Differences in aromaticity models could result in some differences in corner cases&lt;/li>
+&lt;li>We are adding a “paranoid mode” so we can detect differences between toolkits that arise when building force fields&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Chemical_table_file#SDF">SDF&lt;/a> with standardized tags will be the supported method for importing molecules with custom charges
+&lt;ul>
+&lt;li>OpenEye and RDKit on-board with standardized tags for charges&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>There may have been minor changes to XML forcefield format since the January preview release
+&lt;ul>
+&lt;li>Changes are summarized &lt;a href="https://github.com/openforcefield/openforcefield/issues/191">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>OFFI hope is to have weekly/biweekly bugfix or feature releases and conda package updates&lt;/li>
+&lt;li>Partners and users are directed to use the &lt;a href="ttps://github.com/openforcefield/openforcefield/issues/">Github issue tracker&lt;/a> to report issues or problems&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Technical questions – Desmond support
+&lt;ul>
+&lt;li>How is Desmond currently used by Partners? What kind of Desmond support is needed?
+&lt;ul>
+&lt;li>Need for &lt;a href="https://www.schrodinger.com/fep">FEP+&lt;/a> compatibility will likely have to involve discussions with Schrodinger&lt;/li>
+&lt;li>Industry would ideally like to compare forcefields (including OPLS3/3e) and FEP protocols (&lt;a href="https://www.schrodinger.com/fep">FEP+&lt;/a>, &lt;a href="http://getyank.org">YANK&lt;/a>, etc.)&lt;/li>
+&lt;li>Kaushik to work with PIs to provide some examples for testing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Desmond’s &lt;a href="https://github.com/DEShawResearch/msys">&lt;code>msys&lt;/code>&lt;/a> release allows dms files to be written directly, so could be used to construct system with SMIRNOFF parameters
+&lt;ul>
+&lt;li>Advantage of being independent of Maestro/Schrodinger&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Reports on usage by partners since January meeting:
+&lt;ul>
+&lt;li>Limited use so far - many people awaiting RDKit release to begin internal use&lt;/li>
+&lt;li>Training:
+&lt;ul>
+&lt;li>Plan for YouTube video for basics, followed by webex&lt;/li>
+&lt;li>Mobley to check with Jeff Wagner on training plan&lt;/li>
+&lt;li>Request for tutorial on using SMIRNOFF w/ &lt;a href="http://getyank.org">YANK&lt;/a>
+&lt;ul>
+&lt;li>Chodera to organize, probably need at least 1 month after April release to integrate SMIRNOFF support into YANK&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Other stuff
+&lt;ul>
+&lt;li>Poster at &lt;a href="http://pmx.mpibpc.mpg.de/workshop_alchemistry2019/index.html">ALCHEMICAL FREE ENERGY WORKSHOP 2019 in Göttingen&lt;/a>. Thoughts are to highlight OFF Consortium from industry (user) perspective (D. Kuhn, Katharina)
+&lt;ul>
+&lt;li>Daniel and Ross to connect to work on this to coordinate with GRC poster to ensure complimentarity and common usage of some materials. Mobley to help by providing figures, etc.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>GRC informal session/get-together
+&lt;ul>
+&lt;li>People still waiting to see who will be attending&lt;/li>
+&lt;li>1:1 time with Jeff Wagner might be better use of time at the GRC than an organized session&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Next Open Force Field Consortium face-to-face meeting scheduled for August 30-31, 2019 (Friday and Saturday) in San Diego&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Group for evaluating protein-ligand binding free energies being assembled by John Chodera ( see Slack ) to curate additional benchmark sets
+&lt;ul>
+&lt;li>Contact John Chodera or post or click “Star” here: &lt;a href="https://github.com/alchemistry/soft-benchmarks">https://github.com/alchemistry/soft-benchmarks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>February 20, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</link><pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-02-20-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 20 February, 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--february-20-2019">Open Forcefield Advisory Board Meeting Minutes – February 20, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--february-20-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Next release of toolkit currently being tested and finished&lt;/li>
+&lt;li>Workflow documentation
+&lt;ul>
+&lt;li>Next item on to-do list&lt;/li>
+&lt;li>Call for additional desired workflows to be posted in #documentation channel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Industry compound additions to parameterization sets
+&lt;ul>
+&lt;li>Starting small – current focus is finding parameters in need of optimization by looking for discrepancies between current forcefields when minimizing structures
+&lt;ul>
+&lt;li>Industry partners should identify particularly high priority chemical space for initial parameterization&lt;/li>
+&lt;li>Compounds/fragments to be sent via Slack or GitHub&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>BI has SureChembl dump and scripts that may be able to be shared. We will follow up asynchronously.&lt;/li>
+&lt;li>NN potential parameterization not in scope for SMIRNOFF at this stage, but considering using ANI-1 or similar for bespoke torsion fitting tool in addition to QM calculations.&lt;/li>
+&lt;li>Industry partners to provide SMILES of fragments and/or public molecules. No PDFs please.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Letter of support for NIH grant proposal needed by March 1st at latest&lt;/li>
+&lt;li>Call for all industry partners that are able to be listed on website as such (openforcefield.org/consortium) to contact David Mobley if not already listed.&lt;/li>
+&lt;li>Hiring update
+&lt;ul>
+&lt;li>Candidates being interviewed for development of bespoke torsion fitting tool&lt;/li>
+&lt;li>Candidates sought for postdoc position at Janssen for in-kind contribution – contact DM if you know of a good candidate.&lt;/li>
+&lt;li>Project manager hired at 50% ( remainder 50% in JC’s lab ) to oversee and coordinate OpenFF efforts.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Odds and Ends:
+&lt;ul>
+&lt;li>Investigating potential for porting in protein forcefields in SMIRNOFF format for use with toolkit.&lt;/li>
+&lt;li>Reminder of F2F meeting Aug 30-31st in San Diego following fall ACS&lt;/li>
+&lt;li>Nearly approved governance changes regarding discretionary spending as discussed in last advisory board meeting. Once approved, revised governance board documents to be distributed.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>January 23, 2019 Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</link><pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-23-minutes/</guid><description>&lt;p>The &lt;a href="https://openforcefield.org/consortium/">Open Force Field Consortium Advisory Board&lt;/a> met on 23 Jan 2019.
+The minutes are summarized as follows:&lt;/p>
+&lt;h3 id="open-forcefield-advisory-board-meeting-minutes--january-23-2019">Open Forcefield Advisory Board Meeting Minutes – January 23, 2019 
+ &lt;a href="#open-forcefield-advisory-board-meeting-minutes--january-23-2019">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>RDKit Integration
+&lt;ul>
+&lt;li>Key infrastructure seems to be working&lt;/li>
+&lt;li>Currently implementing testing to make sure energies/parameters are same between RDKit and OpenEye toolkit backends&lt;/li>
+&lt;li>Documentation being worked on&lt;/li>
+&lt;li>Limited to SDF file format initially&lt;/li>
+&lt;li>&lt;a href="http://www.rdkit.org/">RDKit&lt;/a> support being added initially for OpenFF toolkit, not for other packages being used internally for parameter development&lt;/li>
+&lt;li>Bespoke torsion parameterization tool will be able to use RDKit or other wholly open-source backend&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Workflows
+&lt;ul>
+&lt;li>Workflow documentation / example requests should be posted to &lt;code>#documentation&lt;/code> Slack channel&lt;/li>
+&lt;li>Some suggested workflows from agenda and discussion:
+&lt;ul>
+&lt;li>Parameterization of protein-ligand system using SMIRNOFF&lt;/li>
+&lt;li>Conformer energy evaluation&lt;/li>
+&lt;li>Minimization of multiple ligands from SDF file (is this with protein, without, both?)&lt;/li>
+&lt;li>AMBER input files for TI
+&lt;ul>
+&lt;li>Writing out systems formed by swapping ligands from an SDF into an input complex structure&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Writing input for Desmond/Macromodel in Schrodinger Suite&lt;/li>
+&lt;li>OpenEye may be able to read SMIRNOFF format to assign parameters in tools such as Omega, but if so it is not released yet. Need to reach out to OpenEye to confirm&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Augmentation of input compound data sets with industry feedback
+&lt;ul>
+&lt;li>General consensus on the following strategy:
+&lt;ul>
+&lt;li>Identification of problematic molecules from internal datasets&lt;/li>
+&lt;li>Find compounds in public databases (&lt;a href="https://www.emolecules.com">eMolecules&lt;/a>, &lt;a href="downloads">GDB-n&lt;/a>, etc.) that contain that substructure or SMIRKS pattern&lt;/li>
+&lt;li>Share only the publically available compounds with group as additional chemical space to be parameterized&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How to identify problems?
+&lt;ul>
+&lt;li>Academic groups are currently using divergence between forcefields to highlight parameters that may need optimization&lt;/li>
+&lt;li>Could simply look to see which SMIRKS patterns receive very general parameters&lt;/li>
+&lt;li>In the future, potentially with bespoke parameterization tool, some scoring function to identify parameters in need of optimization could be developed&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Amending bylaws to facilitate reimbursement and funds dispersement
+&lt;ul>
+&lt;li>Proposed update to governance to change bylaws so governance board can vote on whether to pay for various discretionary expenses
+&lt;ul>
+&lt;li>Amended bylaws to be circulated to relevant parties. Original proposed addition:
+&lt;em>&amp;ldquo;Unanticipated expenses (such as travel for key Consortium collaborators, catering costs for major Consortium meetings, and Consortium management expenses) not explicitly delineated by other sections of the governance document will sometimes arise, and reasonable such expenses infrequently incurred in conducting Open Force Field Consortium activities can be reimbursed by unanimous approval of the governing board. If approved, individuals will be reimbursed directly by VT provided receipts documenting the approved expenses can be produced. At the end of each Consortium year, a report will be produced documenting the amount, reason, date, and recipient of all such authorized reimbursements.&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>Suggestion was made to include anticipated expenses as well. Revised proposed addition:
+&lt;em>&amp;ldquo;Expenses not otherwise delineated by other sections of the governance document (such as travel for key Consortium collaborators, catering costs for major Consortium meetings, and Consortium management expenses) will sometimes arise, and reasonable such expenses infrequently incurred in conducting Open Force Field Consortium activities can be reimbursed by unanimous approval of the governing board. If approved, individuals will be reimbursed directly by VT provided receipts documenting the approved expenses can be produced. At the end of each Consortium year, a report will be produced documenting the amount, reason, date, and recipient of all such authorized reimbursements.&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Update on hiring:
+&lt;ul>
+&lt;li>Interviewing candidates to develop bespoke torsion parameterization tool&lt;/li>
+&lt;li>Governance board to consider hiring of project / product manager
+&lt;ul>
+&lt;li>Industry partners seemed to agree that this would be helpful to the effort&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Meetings:
+&lt;ul>
+&lt;li>Next face-to-face meeting scheduled Aug 30-31st in San Diego temporally adjacent to &lt;a href="https://visitsandiego.com/event/august-25-2019-1200am/acs-fall-2019-national-meeting-exposition">ACS Fall 2019 National Meeting&lt;/a>&lt;/li>
+&lt;li>Scheduling of an in-person advisory board meeting at this face-to-face meeting was suggested and advisory board members generally seemed to agree.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>January 7-8, 2019 Consortium Workshop</title><link>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2019-01-07-minutes/</guid><description>&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs and software scientists; most industry partners, postdocs, and students (including via Zoom); academic and industry community members&lt;/p></description></item><item><title>October 29, 2018 Joint Governing/Advisory Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</link><pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-29-minutes/</guid><description>&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs, both governing board members, and most advisory board members, via Zoom.&lt;/p></description></item><item><title>October 11, 2018 Governing Board Meeting</title><link>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/consortium/minutes/2018-10-11-minutes/</guid><description>&lt;h2 id="agenda">Agenda: 
+ &lt;a href="#agenda">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>October meeting draft agenda and start time&lt;/li>
+&lt;li>January meeting location&lt;/li>
+&lt;li>Maat hiring&lt;/li>
+&lt;li>Slack&lt;/li>
+&lt;li>Funding processing update/onboarding update&lt;/li>
+&lt;li>Involvement with science meetings (subprojects) and project planning&lt;/li>
+&lt;li>Discuss blog posts? Yes, just get sub-groups to do brief updates after meetings; better for keeping people up to date.&lt;/li>
+&lt;/ul>
+&lt;h2 id="minutes">Minutes: 
+ &lt;a href="#minutes">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>Attending: All PIs except Shirts, and both industry members, Thomas Fox and Katharina Meier&lt;/p></description></item></channel></rss>

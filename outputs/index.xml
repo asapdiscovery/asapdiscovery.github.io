@@ -1,10 +1,5689 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ASAP Discovery Outputs on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/outputs/</link><description>Recent content in ASAP Discovery Outputs on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://asapdiscovery.org/outputs/index.xml" rel="self" type="application/rss+xml"/><item><title>Viral Families</title><link>https://asapdiscovery.org/outputs/viral-families/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/viral-families/</guid><description>ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.
-coronaviridae Coronavirus antiviral discovery is funded by NIAID grant U19AI171399 from the National Institutes of Health.
-flaviviridae Flavivirus antiviral discovery is funded by NIAID grant U19AI171399 from the National Institutes of Health.</description></item><item><title>Software</title><link>https://asapdiscovery.org/outputs/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/software/</guid><description>Software produced by ASAP.
-argos [GitHub] A web-based visualization tool for viewing DMS data on protein structures that allows users to generate and share these views using a web UI. See &amp;lsquo;choppa&amp;rsquo; package below. Contributing Projects and Cores: Project 2 Computational Chemistry Core asapdiscovery [GitHub] [Documentation] Monorepository for running computational chemistry project support for ASAP&amp;rsquo;s viral targets, including docking, free energy calculations, chemoinformatics and machine learning. Contributing Projects and Cores: Project 5 Computational Chemistry Core choppa [GitHub] [Documentation] A Python library for visualizing Deep Mutational Scanning data and other fitness data directly onto protein structures to enable fitness-informed decision-making in medicinal chemistry workflows in P2-P5 of ASAP&amp;rsquo;s drug discovery pipeline.</description></item><item><title>Targeting Opportunities</title><link>https://asapdiscovery.org/outputs/targeting-opportunities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/targeting-opportunities/</guid><description>A targeting opportunity provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action. This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.
-Targeting Opportunity: SARS-CoV-2 / MERS-CoV Mpro protease [Targeting Opportunity] Contributing Projects and Cores: Project 1 Project 5 [2023-03-19] Initial draft [2024-04-29] Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.</description></item><item><title>Molecules</title><link>https://asapdiscovery.org/outputs/molecules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/molecules/</guid><description>SARS-CoV-2/MERS-CoV Mpro lead optimization assay data [metadata] [(negative) biochemical and liver microsome assay data [Oct 2023]] [(negative) biochemical and liver microsome assay data [Mar 2024]] [SARS-CoV-2 Mpro assay protocol] [MERS-CoV Mpro assay protocol] This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program. Contributing Projects and Cores: Project 5 Biochemical Assay Core Data Core [2023-04-30] Initial public release of negative biochemical activity data for 182 molecules.</description></item><item><title>Structures</title><link>https://asapdiscovery.org/outputs/structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/structures/</guid><description>MERS-CoV/SARS-CoV-2 Mpro protease ASAP-COV-MPRO XChem crystallographic fragment screen of SARS-CoV-2 Mpro xray-fragment-screen [ 2020-03-18 ] Contributing Projects and Cores: Project 2 Structural Biology Core We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals.</description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.</description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease [interactive viewer] [bioRxiv preprint] Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants Contributing Projects and Cores: Project 1 [2023-01-31] Preprint and interactive mutation viewer posted. Analysis of circulating variants of SARS-CoV-2 nsp15 endoribonuclease [interactive viewer] [bioRxiv preprint] Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants Contributing Projects and Cores: Project 1 [2023-01-31] Preprint and interactive mutation viewer posted.</description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>A Target Product Profile (TPP) describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.
-All ASAP TPPs are draft TPPs intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium. ASAP works with stakeholders around the globe (such as the World Health Organization) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.</description></item><item><title>Target Enabling Packages (TEPs)</title><link>https://asapdiscovery.org/outputs/target-enabling-packages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-enabling-packages/</guid><description>A Target Enabling Package (TEP) is a complete data package needed to enable structure-based drug discovery against an antiviral target. Pioneered by the Structural Genomics Consortium, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an X-ray fragment screen at the Diamond Light Source XChem facility, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.</description></item><item><title>Assay Cascades</title><link>https://asapdiscovery.org/outputs/assay-cascades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-cascades/</guid><description>An assay cascade is a defined set of assays and progression criteria used by a drug discovery program to achieve its Target Candidate Profile (TCP) goals in a time- and cost-effective manner.
-Assay cascade for MERS-CoV / SARS-CoV-2 oral antiviral [Asay Cascade (lead optimization)] Contributing Projects and Cores: Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-06-01] Initial draft DENV/ZIKV NS2B/3 3C protease [Assay Cascade] Assay cascade for DENV/ZIKV NS2B/3 3C Protease oral antiviral Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2023-12-23] Initial draft EV-D68 / EV-A71 3C Protease Assay Cascade [Assay Cascade] Assay cascade for EV-D68 / EV-A71 3C Protease oral antiviral Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-07-14] Initial draft Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral [Assay Cascade (fragment-to-lead)] Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination Contributing Projects and Cores: Project 3 Project 5 Biochemical Assay Core Structural Biology Core Antiviral Core [2022-06-01] Initial draft Assay cascade for SARS-CoV-2 Mpro oral antiviral [Assay Cascade (lead optimization)] Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot [2020-03-23] Initial draft for COVID Moonshot</description></item><item><title>Assay Protocols</title><link>https://asapdiscovery.org/outputs/assay-protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-protocols/</guid><description>ASAP frequently needs to develop or scale its own biochemical assay protocols to drive discovery programs. Whenever possible, we share these protocols through protocols.io, an industry standard platform for sharing and annotating assay protocols.
-MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay [assay protocol] This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease. Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity.</description></item><item><title>Target Candidate Profiles (TCPs)</title><link>https://asapdiscovery.org/outputs/target-candidate-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-candidate-profiles/</guid><description>A Target Candidate Profile (TCP) describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate. Our TCPs are informed by the corresponding Target Product Profiles (TPPs) for the corresponding disease.
-MERS-CoV / SARS-CoV-2 MPro protease oral inhibitor [Target Candidate Profile] Contributing Projects and Cores: Project 5 [2023-03-01] Initial draft DENV/ZIKV NS2B/3 protease oral inhibitor draft [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-03-01] Initial draft [2023-05-11] Consolidate DENV/ZIKV EV-D68/A71 3C protease oral inhibitor [Lead Transition Profile] [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-06-22] Initial drafts EV-D68/A71 VP1 capsid assembly oral inhibitor [Lead Transition Profile] [Target Candidate Profile] Contributing Projects and Cores: Project 3 Project 5 [2023-12-15] Initial drafts SARS-CoV-2 nsp3 Mac1 macrodomain oral inhibitor [Target Candidate Profile for lead nomination] Contributing Projects and Cores: Project 3 Project 5 [2023-03-01] Initial draft SARS-CoV-2 Oral MPro protease inhibitor [Target Candidate Profile] Contributing Projects and Cores: Project 5 [2020-04-01] Initial draft</description></item><item><title>Preclinical programs</title><link>https://asapdiscovery.org/outputs/preclinical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/preclinical/</guid><description>SARS-CoV-2 Mpro protease See the COVID Moonshot preclinical program.</description></item><item><title>Investigational New Drug (IND) filings</title><link>https://asapdiscovery.org/outputs/investigational-new-drugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/investigational-new-drugs/</guid><description>ASAP does not yet have any programs that have reached Investigational New Drug (IND) status.</description></item><item><title>Clinical trials</title><link>https://asapdiscovery.org/outputs/clinical-trials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/clinical-trials/</guid><description>ASAP does not currently have any programs that have reached clinical trials.</description></item><item><title>New Drug Approvals</title><link>https://asapdiscovery.org/outputs/new-drug-approvals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/new-drug-approvals/</guid><description>ASAP does not currently have any programs that have reached New Drug Approval (NDA) status.</description></item><item><title/><link>https://asapdiscovery.org/outputs/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/img/icons/readme/</guid><description>Icons from The Noun Project Icons are CC-BY from The Noun Project
-Credits (for CC-BY acknowledgments) assay-cascade.png : noun-chemistry-2954755 : Chemistry by Icon Factory from Noun Project clinical-trails.png : noun-medical-1053629 : medical by Raymond from Noun Project data.png : noun-save-5021426 : Save by Cetha Studio from Noun Project disease.png : noun-medical-3923610 : medical by Royyan Wijaya from Noun Project DMS.png : noun-mutation-4374976 : mutation by Adrien Coquet from Noun Project hit-to-lead.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ASAP Discovery Outputs on ASAP Discovery Consortium</title><link>https://asapdiscovery.org/outputs/</link><description>Recent content in ASAP Discovery Outputs on ASAP Discovery Consortium</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://asapdiscovery.org/outputs/index.xml" rel="self" type="application/rss+xml"/><item><title>Viral Families</title><link>https://asapdiscovery.org/outputs/viral-families/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/viral-families/</guid><description>&lt;p>ASAP aims to discover direct-acting antivirals with broad antiviral activity within a viral family, but the difficulty of achieving this goal means that some of our program objectives are more narrowly focused on viral family members of greatest pandemic concern.&lt;/p>
+&lt;h3 id="coronaviridae">coronaviridae 
+ &lt;a href="#coronaviridae">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>Coronavirus antiviral discovery is funded by &lt;a href="https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865">NIAID grant U19AI171399 from the National Institutes of Health&lt;/a>.&lt;/p></description></item><item><title>Software</title><link>https://asapdiscovery.org/outputs/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/software/</guid><description>&lt;p>Software produced by ASAP.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="argos"> argos &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/argos">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A web-based visualization tool for viewing DMS data on protein structures that allows users to generate and share these views using a web UI. See &amp;lsquo;choppa&amp;rsquo; package below. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="asapdiscovery"> asapdiscovery &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/asapdiscovery">[GitHub]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.readthedocs.io/en/latest">[Documentation]&lt;/a>
+
+&lt;br>
+
+
+
+ Monorepository for running computational chemistry project support for ASAP&amp;rsquo;s viral targets, including docking, free energy calculations, chemoinformatics and machine learning. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="choppa"> choppa &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/choppa">[GitHub]&lt;/a>
+
+ &lt;a href="https://choppa.readthedocs.io">[Documentation]&lt;/a>
+
+&lt;br>
+
+
+
+ A Python library for visualizing Deep Mutational Scanning data and other fitness data directly onto protein structures to enable fitness-informed decision-making in medicinal chemistry workflows in P2-P5 of ASAP&amp;rsquo;s drug discovery pipeline. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="falcbot"> falcbot &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/FALCBot">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A slack integration for running computational chemistry workflows that are developed by ASAP&amp;rsquo;s computational chemistry core. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="hindsight"> hindsight &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/hindsight-public">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ Generates and continuously updates statistics and graphs comparing computational chemistry predictions with gathered experimental data to aid in hit-to-lead and lead optimization campaigns. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div></description></item><item><title>Targeting Opportunities</title><link>https://asapdiscovery.org/outputs/targeting-opportunities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/targeting-opportunities/</guid><description>&lt;p>A &lt;strong>targeting opportunity&lt;/strong> provides an overview of the opportunity for targeting new antivirals to a specific target protein and mode of action.
+This overview is intended to summarize relevant information for drug hunters, including the relevant domain and binding sites to target, notable chemical matter, rationale for antiviral effects, and other useful information in prosecuting a discovery compaign aginst the target.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Targeting Opportunity: SARS-CoV-2 / MERS-CoV Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-protease-db9902df352d4398ad284c490c4b6f5d?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> Targeting Opportunity: DENV/ZIKV NS2B/3 protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-DENV-ZIKV-NS2B-NS3-protease-bb724ef82e3b4abbb079fedac4009a63">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-22]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, protease biochemistry, target structure, targeting strategies, inhibitors, assays, and drug resistance&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVA71-2APRO"> Targeting Opportunity: EV-A71 2A protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-2A-protease-4064700e76c842aea4165bb6c83a30cb?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-3CLPRO"> Targeting Opportunity: EV-D68/A71 3C protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-3C-protease-f5c7d164c2dd41b5815b1f246675e926?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-22]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-04-29]&lt;/i> Major update of the targeting opportunity covering additional background, prototype viruses, clinical background, notable outbreaks/epidemics, target biochemistry, target structure, and known inhibitors&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> Targeting Opportunity: EV-D68/A71 VP1 capsid &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-EV-D68-A71-VP1-capsid-6147e04894e34c569ab1823a41696c85?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN"> Targeting Opportunity: SARS-CoV-2 N protein nucleocapsid &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-N-protein-nucleocapsid-4112cd985b064524a25fee224be76d4f?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, target biophysics, target structure, targeting strategies for inhibitor discovery, known inhibitors, available assays, and considerations for drug resistance.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Targeting Opportunity: SARS-CoV-2 nsp3 Mac1 macrodomain &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-nsp3-Mac1-macrodomain-47af24638b994e8ba786303ec743926e?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, virus biology, target structure, targeting strategies for inhibitor discovery, known inhibitors, and available assays.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Targeting Opportunity: SARS-CoV-2 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/Targeting-Opportunity-SARS-CoV-2-MERS-CoV-Mpro-protease-db9902df352d4398ad284c490c4b6f5d?pvs=4">[Targeting Opportunity]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2023-03-19]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-04-29]&lt;/i> Major update of the targeting opportunity covering clinical background, history of outbreaks, viral biology, target biochemistry, phylogenetic analysis, etc.&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Molecules</title><link>https://asapdiscovery.org/outputs/molecules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/molecules/</guid><description>&lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> SARS-CoV-2/MERS-CoV Mpro lead optimization assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-October-2023-Data-Release-e237e130fe574cb6a2c2e5bf70571302">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/39d706a6-d1ff-4fc8-a8c6-681a5eb92783">[(negative) biochemical and liver microsome assay data [Oct 2023]]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.notion.site/MERS-CoV-SARS-CoV-2-Main-Protease-Mpro-program-March-2024-35dfdcf42ffb4d1ebc8a164d681b68eb">[(negative) biochemical and liver microsome assay data [Mar 2024]]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk/v1">[SARS-CoV-2 Mpro assay protocol]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9/v1">[MERS-CoV Mpro assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This data release contains assay data for compounds ASAP is not pursuing toward nomination of a development candidate as part of this discovery program. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of negative biochemical activity data for 182 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-11-07]&lt;/i> Initial public release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro and HLM/MLM data for 266 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2024-03-12]&lt;/i> Quarterly public data release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro for 360 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-NS2B-NS3"> DENV-2 NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/DENV2-NS2B-NS3-Potency-Data-f6205344cf9344b4a4ead7430c308815">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/dc3ad20d-5271-4609-96f5-dc14ab360ee5">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 652 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> SARS-CoV-2 nsp3 Mac1 macrodomain assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-Inhibitor-Data-Release-9e454e794ee44df693251477ff8686e9">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/60333b19-8605-424c-a1d9-f2651026153f">[complete assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2">[biochemical assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for hit-to-lead program &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of hit-to-lead biochemical assay data for 783 molecules.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-11-07]&lt;/i> Complete public data release of hit-to-lead biochemical assay and ADMET data for 1107 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-WNV-NS2B-NS3"> WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-5dc097412db94116b251892d0dc0289f">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/40f36173-05a8-42ef-8d1c-4250dff0893c">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 646 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS2B-NS3"> ZIKV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.notion.site/ZIKA-NS2B-NS3-Potency-Data-3d4202ba1f154e98b64f35988cf7a6e5">[metadata]&lt;/a>
+
+ &lt;a href="https://app.postera.ai/account/molecule-set/9064058b-0da4-4164-bed0-3bccf2289a84">[assay data]&lt;/a>
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ Biochemical assay data for single-concentration covalent fragment screen and follow-up multi-point titration for hits. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 4&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-30]&lt;/i> Initial public release of covalent fragment screen and hit confirmation assay data for 653 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> SARS-CoV-2 Mpro biochemical assay data from the COVID Moonshot &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://covid.postera.ai/covid/activity_data">[assay data]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2020.10.29.339317">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ All biochemical data from the COVID Moonshot has been disclosed. &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2022-07-31]&lt;/i> Nomination of candidate for prelinical development&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Structures</title><link>https://asapdiscovery.org/outputs/structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/structures/</guid><description>&lt;h3 style="text-align: left;" id="ASAP-COV-MPRO">MERS-CoV/SARS-CoV-2 Mpro protease&lt;/h3>
+ ASAP-COV-MPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>XChem crystallographic fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-03-18 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This resulted in determination of 91 protein-fragment structures.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002135">&lt;b>PDB group deposition G_1002135 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-11 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+COVID-19 main protease from Coronaviridae sp. screened against the DSI-poised Fragment Library by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002144">&lt;b>PDB group deposition G_1002144 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-25 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-03-25 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002152">&lt;b>PDB group deposition G_1002152 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition G_1002153 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002155">&lt;b>PDB group deposition G_1002155 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-05-27 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002156">&lt;b>PDB group deposition G_1002156 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against electrophilic heterocycle and SpotFinder fragment libraries (Hungarian Academy of Sciences) by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002157">&lt;b>PDB group deposition G_1002157 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot compounds by X-ray Crystallogra phy at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002163">&lt;b>PDB group deposition G_1002163 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-12-02 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against computationally designed covalent inhibitors by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002272">&lt;b>PDB group deposition G_1002272 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-11-08 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1. 466 structures in group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-07 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1 Selected structures were deposited in the PDB via a group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/8R5J">&lt;b>Crystal structure of MERS-CoV main protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2023-12-06 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A resolution.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO">EV-D68/A71 3C protease&lt;/h3>
+ ASAP-EVD68-3CLPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/8CNX">&lt;b>Structure of Enterovirus D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2023-04-05 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of EV-D68 3C protease&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2023-08-24 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002271">&lt;b>PDB group deposition of X-ray fragment screen of EV-D68 3C protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-08-24 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1231 fragments, generating 104 total structures of novel protein:ligand complexes.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN">SARS-CoV-2 N protein nucleocapsid&lt;/h3>
+ ASAP-SARS-COV-2-NPROTEIN
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2021-11-15 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NS3-HELICASE">SARS-CoV-2 nsp13 helicase&lt;/h3>
+ ASAP-SARS-COV-2-NS3-HELICASE
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp13 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-09-16 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment hits across 51 datasets. These structures have been published in the PDB and are featured as a curated collection in the &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">RCSB PDB SARS-CoV-2&lt;/a> resource.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/nsp13">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp13 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-09-16 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+The NSP13 crystal form contains two protomers and the fragment screen revealed a total of 63 fragment hits across 51 datasets. These structures have been published in the PDB and are featured as a curated collection in the &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">RCSB PDB SARS-CoV-2&lt;/a> resource.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1">SARS-CoV-2 nsp3 Mac1 macrodomain&lt;/h3>
+ ASAP-SARS-COV-2-NSP3-MAC1
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mac1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2021-06-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at the Diamond Light Source XChem facility and UCSF with a total of 2533 fragments, which yielded 214 unique macrodomain-binders, including 192 fragments identified in the active site.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002283">&lt;b>PDB group deposition of crystal structures of SARS-CoV-2 NSP3 Macrodomain in complex with ASAP inhibitors&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2024-01-23 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 3&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 nsp3 Mac1 macrodomain in complex with 90 ASAP inhibitors&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS3-HELICASE">DENV/ZIKV/WNV NS3 helicase&lt;/h3>
+ ASAP-ZIKA-NS3-HELICASE
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/5RHY">&lt;b>Apo structure of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+Apo structure of ZIKV NS3 helicase at 1.36A resolution in P 1 21 1 space group.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://zenodo.org/record/7864388#.ZEgRzXbMKUk">&lt;b>Zenodo deposition of X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2022-06-01 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source with a total of 1200 fragments, which yielded 29 unique ZIKV NS3hel binders.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002158">&lt;b>PDB group deposition of X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-06-10 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+PDB group deposition of the X-ray fragment screen of ZIKV NS3 helicase containing 17 fragment-bound complexes&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002270">&lt;b>PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-07-23 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+ 
+ 
+&lt;br>
+
+
+&lt;br>
+PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase containing 24 fragment-bound complexes&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO">SARS-CoV-2 Mpro protease&lt;/h3>
+ MOONSHOT-COV-MPRO
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2020-03-18 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed an exhaustive crystallographic fragment screen to probe the Mpro active site, and to identify opportunities for fragment merging or growing. Additionally, a library of mild electrophilic fragments was screened by mass spectrometry for probing the binding properties around the active site cysteine. Overall, a total of 1742 soaking and 1139 co-crystallization experiments resulted in 1877 mounted crystals. This resulted in determination of 91 protein-fragment structures.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition of crystallographic fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2020-04-07 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Enamine), Fraglites and Peplites (Newcastle university), Mini Frags (Astex), York 3D (York university), electrophile cysteine covalent (Weizman institute) fragment libraries by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
+Selected structures were deposited in the PDB via a group deposition.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002272">&lt;b>PDB group deposition of SARS-CoV-2 main protease in compelex with inhibitors from the COVID Moonshot&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2023-11-29 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 5&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1&lt;br>
+&lt;br>
+
+&lt;hr></description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>&lt;p>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.&lt;/p></description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>&lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-ENDORIBONUCLEASE"> Analysis of circulating variants of SARS-CoV-2 nsp15 endoribonuclease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp15.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NPROTEIN"> Analysis of circulating variants of SARS-CoV-2 N protein &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/N.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NS3-HELICASE"> Analysis of circulating variants of SARS-CoV-2 nsp13 helicase &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp13.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Analysis of circulating variants of SARS-CoV-2 nsp3 Mac1 macrodomain &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp3.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKV-NS2B3"> Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master">[dataset download]&lt;/a>
+
+&lt;br>
+
+
+
+ Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-11-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKV-RdRp-polymerase"> Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5) &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/tree/IFN_signaling">[dataset download]&lt;/a>
+
+&lt;br>
+
+
+
+ Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2024-04-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp5.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP1"> Analysis of circulating variants of SARS-CoV-2 nsp1 &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp1.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP12"> Analysis of circulating variants of SARS-CoV-2 nsp12 RdRp &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp12.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-NSP14"> Analysis of circulating variants of SARS-CoV-2 nsp14 exonuclease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/nsp14.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="NONE-SARS-COV-2-S"> Analysis of circulating variants of SARS-CoV-2 S spike protein &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://jbloomlab.github.io/SARS2-mut-fitness/S.html">[interactive viewer]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2023.01.30.526314">[bioRxiv preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive viewer and dataset download of functional mutation impact scores derived from analysis of circulating SARS-CoV-2 variants &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>&lt;p>A &lt;strong>&lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">Target Product Profile (TPP)&lt;/a>&lt;/strong> describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.&lt;/p>
+&lt;p>All ASAP TPPs are &lt;em>draft TPPs&lt;/em> intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
+ASAP works with stakeholders around the globe (such as the &lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">World Health Organization&lt;/a>) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.&lt;/p></description></item><item><title>Target Enabling Packages (TEPs)</title><link>https://asapdiscovery.org/outputs/target-enabling-packages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-enabling-packages/</guid><description>&lt;p>A &lt;a href="https://www.thesgc.org/tep">Target Enabling Package (TEP)&lt;/a> is a complete data package needed to enable structure-based drug discovery against an antiviral target.
+Pioneered by the &lt;a href="https://www.thesgc.org/tep">Structural Genomics Consortium&lt;/a>, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an &lt;a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html">X-ray fragment screen at the Diamond Light Source XChem facility&lt;/a>, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.&lt;/p></description></item><item><title>Assay Cascades</title><link>https://asapdiscovery.org/outputs/assay-cascades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-cascades/</guid><description>&lt;p>An &lt;strong>&lt;a href="https://www.researchgate.net/figure/Drug-discovery-assay-cascade-Example-assay-cascade-for-drug-discovery-and-where-3D_fig2_348991791">assay cascade&lt;/a>&lt;/strong> is a defined set of assays and progression criteria used by a drug discovery program to achieve its &lt;a href="../target-candidate-profiles">Target Candidate Profile (TCP)&lt;/a> goals in a time- and cost-effective manner.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Assay cascade for MERS-CoV / SARS-CoV-2 oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232fd5f2809_1_114">[Asay Cascade (lead optimization)]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-06-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> DENV/ZIKV NS2B/3 3C protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g1ec7fe0d8c6_0_0">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for DENV/ZIKV NS2B/3 3C Protease oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-12-23]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68 / EV-A71 3C Protease Assay Cascade &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g2593c546e58_0_0">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for EV-D68 / EV-A71 3C Protease oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-07-14]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> Assay cascade for SARS-CoV-2 nsp3 Mac1 macrodomain oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g232ec375303_0_0">[Assay Cascade (fragment-to-lead)]&lt;/a>
+
+&lt;br>
+
+
+
+ Partial SARS-CoV-2 nsp3 Mac1 macrodomain assay cascade for lead nomination &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2022-06-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> Assay cascade for SARS-CoV-2 Mpro oral antiviral &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g238f72adcd7_0_0">[Assay Cascade (lead optimization)]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for lead optimization campaign for SARS-CoV-2 noncovalent oral inhibitor from the COVID Moonshot &lt;br>
+
+
+
+
+
+
+
+
+ &lt;small>&lt;i>[2020-03-23]&lt;/i> Initial draft for COVID Moonshot&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Assay Protocols</title><link>https://asapdiscovery.org/outputs/assay-protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-protocols/</guid><description>&lt;p>ASAP frequently needs to develop or scale its own biochemical assay protocols to drive discovery programs.
+Whenever possible, we share these protocols through &lt;a href="http://protocols.io">protocols.io&lt;/a>, an industry standard platform for sharing and annotating assay protocols.&lt;/p>
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MERS-CoV_Mpro_fluorescence-assay"> MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease.
+Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-19]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="SARS-CoV-2_Mpro_fluorescence-assay"> SARS-CoV-2 main protease (Mpro) activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-CoV-2 3C-like main viral protease (MPro).
+Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="SARS-CoV-2_nsp3_TRFRET-assay"> SARS-CoV-2 nsp3 Mac1 macrodomain TR-FRET peptide displacement biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a TR-FRET peptide displacement assay to measure binding of small molecules to the active site of nsp3 Mac1 macrodomain &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v2&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="flaviviruses_ns2ns3_fluorescence-assay"> Flaviviruses (West Nile, Zika, Dengue) NS2B/NS3 protease activity fluorescence dose response biochemical assay &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v2">[assay protocol]&lt;/a>
+
+&lt;br>
+
+
+
+ This is a functional biochemical assay used to identify inhibitors of flavivirus (specifically West Nile, Zika, and Dengue) NS2B/NS3 protease activity. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-04-28]&lt;/i> draft v3&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Target Candidate Profiles (TCPs)</title><link>https://asapdiscovery.org/outputs/target-candidate-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-candidate-profiles/</guid><description>&lt;p>A &lt;a href="https://www.mmv.org/research-development/information-scientists/target-product-profiles-target-candidate-profiles">Target Candidate Profile (TCP)&lt;/a> describes the objectives an ASAP drug discovery program aims to achieve to produce a preclinical candidate.
+Our TCPs are informed by the corresponding &lt;a href="#target-product-profile">Target Product Profiles (TPPs)&lt;/a> for the corresponding disease.&lt;/p>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> MERS-CoV / SARS-CoV-2 MPro protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_227">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> DENV/ZIKV NS2B/3 protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+ &lt;span class="label warning">draft&lt;/span> &lt;br>
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_340">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2023-05-11]&lt;/i> Consolidate DENV/ZIKV&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68/A71 3C protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2881a7b0765_4_0">[Lead Transition Profile]&lt;/a>
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_427">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-06-22]&lt;/i> Initial drafts&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> EV-D68/A71 VP1 capsid assembly oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_10">[Lead Transition Profile]&lt;/a>
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g2a71abbb706_0_0">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-12-15]&lt;/i> Initial drafts&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> SARS-CoV-2 nsp3 Mac1 macrodomain oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_165">[Target Candidate Profile for lead nomination]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-03-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="MOONSHOT-COV-MPRO"> SARS-CoV-2 Oral MPro protease inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g285bac68500_0_155">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2020-04-01]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div></description></item><item><title>Preclinical programs</title><link>https://asapdiscovery.org/outputs/preclinical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/preclinical/</guid><description>&lt;h3 id="sars-cov-2-mpro-protease">SARS-CoV-2 Mpro protease 
+ &lt;a href="#sars-cov-2-mpro-protease">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>See the &lt;a href="https://dndi.org/research-development/portfolio/covid-moonshot/">COVID Moonshot preclinical program&lt;/a>.&lt;/p></description></item><item><title>Investigational New Drug (IND) filings</title><link>https://asapdiscovery.org/outputs/investigational-new-drugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/investigational-new-drugs/</guid><description>&lt;p>ASAP does not yet have any programs that have reached Investigational New Drug (IND) status.&lt;/p></description></item><item><title>Clinical trials</title><link>https://asapdiscovery.org/outputs/clinical-trials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/clinical-trials/</guid><description>&lt;p>ASAP does not currently have any programs that have reached clinical trials.&lt;/p></description></item><item><title>New Drug Approvals</title><link>https://asapdiscovery.org/outputs/new-drug-approvals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/new-drug-approvals/</guid><description>&lt;p>ASAP does not currently have any programs that have reached New Drug Approval (NDA) status.&lt;/p></description></item><item><title/><link>https://asapdiscovery.org/outputs/img/icons/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/img/icons/readme/</guid><description>&lt;h1 id="icons-from-the-noun-project">Icons from The Noun Project 
+ &lt;a href="#icons-from-the-noun-project">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h1>&lt;p>Icons are CC-BY from &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a>&lt;/p></description></item></channel></rss>
