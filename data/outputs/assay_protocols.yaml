@@ -2,8 +2,8 @@
   permalink: http://asapdiscovery.org/outputs/assay-protocols/#MERS-CoV_Mpro_fluorescence-assay
   name: MERS-CoV main protease (Mpro) activity fluorescence dose response biochemical assay
   description: |
-    This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS 3C-like main viral protease. 
-    Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. 
+    This biochemical assay measures the inhibition of protease activity of the MERS-CoV main viral protease (Mpro), also known as the 3C-like protease (3CLpro).
+    It is suitable for high-throughput dose-response measurements in a 384-well plates for supporting drug discovery efforts against this target.
   links:
   - name: assay protocol
     url: https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-eq2ly7r1rlx9
@@ -17,14 +17,16 @@
   permalink: http://asapdiscovery.org/outputs/assay-protocols/#SARS-CoV-2_Mpro_fluorescence-assay
   name: SARS-CoV-2 main protease (Mpro) activity fluorescence dose response biochemical assay
   description: |
-    This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-CoV-2 3C-like main viral protease (MPro). 
-    Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode of action of inhibition. 
+    This biochemical assay measures the inhibition of protease activity of the SARS-CoV-2 main viral protease (Mpro), also known as the 3C-like protease (3CLpro).
+    It is suitable for high-throughput dose-response measurements in a 384-well plates for supporting drug discovery efforts against this target.
   links:
   - name: assay protocol
-    url: https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-81wgbye9nvpk
+    url: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-81wgbye9nvpk
   type: biochemical-assay-protocol
   cores: [Biochemical Assay Core]
   events:
+  - date: 2024-04-28
+    description: draft v4
   - date: 2023-04-28
     description: draft v3
 
