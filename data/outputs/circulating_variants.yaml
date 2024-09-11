@@ -144,7 +144,7 @@ ASAP-ZIKV-RdRp-polymerase:
   description: Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab
   links:
   - name: dataset download
-    url: https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/tree/IFN_signaling
+    url: https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/blob/main/results/all_tiles/alltiles_host_adaptation.csv
   events:
   - date: 2024-04-01
     description: Initial version of analyzed data posted.
