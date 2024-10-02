@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
-<a name="2024-sep"></a><br>
-*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
-* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP](http://asapdiscovery.org)): *Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery*
-* **[Fumiaki Yokokawa, Novartis Institutes for BioMedical Research (NIBR)](https://www.linkedin.com/in/fumiaki-yokokawa-24355918/):** *Anti-dengue drug discovery*
-
 **Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-oct"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
@@ -66,6 +60,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 18 September 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-sep"></a><br>
+*Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
+* **[Thomas Zwaka, Icahn School of Medicine at Mount Sinai](https://www.zwakalab.org/)** ([ASAP](http://asapdiscovery.org)): *Development of iPSC-derived primary-like systems for medium-throughput antiviral drug discovery* **[[Video]](https://youtu.be/oJc6bY-vpA4)** 
+* **[Fumiaki Yokokawa, Novartis Institutes for BioMedical Research (NIBR)](https://www.linkedin.com/in/fumiaki-yokokawa-24355918/):** *Anti-dengue drug discovery* **[[Video]](https://youtu.be/FX1LcI9Sn1w)**
 
 **Wed 21 August 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-aug"></a><br>
