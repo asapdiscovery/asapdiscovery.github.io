@@ -38,7 +38,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-oct"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Nick Lynch, Curlew Research](https://www.linkedin.com/in/nickjlynch/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Research Data Management - Being "FAIR enough"*
-* **[Matthew Robinson, PostEra](https://postera.ai/) ([ASAP](http://asapdiscovery.org))**: *TBD*
+* **[Matthew Robinson, PostEra](https://postera.ai/) ([ASAP](http://asapdiscovery.org))**: *Discovery of SARS-CoV-2 papain-like protease (PLpro) inhibitors with efficacy in a murine infection model*
 
 **Wed 13 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-nov"></a><br>
