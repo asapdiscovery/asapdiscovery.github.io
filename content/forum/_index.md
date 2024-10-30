@@ -34,7 +34,7 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 13 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+**Wed 20 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2024-nov"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
 * **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org)) and [Pascale Boulet](https://dndi.org/our-people/pascale-boulet/) ([DNDi](http://dndi.org)) ([ASAP](http://asapdiscovery.org))**: 
