@@ -38,13 +38,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2024-dec"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
 * **[Peter Brown, UNC Chapel Hill](https://pharmacy.unc.edu/research/centers/sgc-unc/people/) ([READDI-AC](https://readdi.org/))**: *A Covalent Chemical Probe for Chikungunya nsP2 Cysteine Protease* 
-* *TBD*
+* **[Mei Hong, Massachusetts Institute of Technology](https://meihonglab.com/professor-mei-hong/) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *TBD* 
 
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-jan"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Sara Cherry, University of Pennsylvania](https://www.med.upenn.edu/cherrylab/) ([CAMPP](https://www.campp.org/))**: *Identifying antivirals active against emerging RNA viruses*
-* TBD
+* **[Charles Craik, University of California San Francisco](https://pharm.ucsf.edu/craik) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *TBD* 
 
 # Past Presentations
 
