@@ -44,7 +44,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2025-jan"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Sara Cherry, University of Pennsylvania](https://www.med.upenn.edu/cherrylab/) ([CAMPP](https://www.campp.org/))**: *Identifying antivirals active against emerging RNA viruses*
-* **[Charles Craik, University of California San Francisco](https://pharm.ucsf.edu/craik) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *TBD* 
+* **[Charles Craik, University of California San Francisco](https://pharm.ucsf.edu/craik) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *Structure-based discovery of highly bioavailable, covalent, broad-spectrum coronavirus-MPro inhibitors with potent in vivo efficacy* 
 
 # Past Presentations
 
