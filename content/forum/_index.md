@@ -40,13 +40,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Sara Cherry, University of Pennsylvania](https://www.med.upenn.edu/cherrylab/) ([CAMPP](https://www.campp.org/))**: *Identifying antivirals active against emerging RNA viruses*
 * **[Charles Craik, University of California San Francisco](https://pharm.ucsf.edu/craik) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *Structure-based discovery of highly bioavailable, covalent, broad-spectrum coronavirus-MPro inhibitors with potent in vivo efficacy*
 
-* **Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+**Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-feb"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **TBD** 
 * **TBD**
 
-* * **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+**Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
 * **TBD** 
