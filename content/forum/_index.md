@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 18 December 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
-<a name="2024-dec"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Peter Brown, UNC Chapel Hill](https://pharmacy.unc.edu/research/centers/sgc-unc/people/) ([READDI-AC](https://readdi.org/))**: *A Covalent Chemical Probe for Chikungunya nsP2 Cysteine Protease* 
-* **[Mei Hong, Massachusetts Institute of Technology](https://meihonglab.com/professor-mei-hong/) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *Structures and Drug Binding of the SARS-CoV-2 Envelope Protein from Solid-State NMR* 
-
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-jan"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
@@ -50,12 +44,18 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 18 December 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2024-dec"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Peter Brown, UNC Chapel Hill](https://pharmacy.unc.edu/research/centers/sgc-unc/people/) ([READDI-AC](https://readdi.org/))**: *A Covalent Chemical Probe for Chikungunya nsP2 Cysteine Protease* **[[Preprint]](https://www.researchsquare.com/article/rs-5363451/v1)** **[[Video]](https://youtu.be/ceiIc2A1oy8)**
+* **[Mei Hong, Massachusetts Institute of Technology](https://meihonglab.com/professor-mei-hong/) ([QCRG](https://qcrg.ucsf.edu/qcrg-avidd-overview))**: *Structures and Drug Binding of the SARS-CoV-2 Envelope Protein from Solid-State NMR* **[[Video]](https://youtu.be/KaZ8xnfRwjw)**
+
 **Wed 20 November 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-nov"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
 * **[Ed J. Griffen](https://scholar.google.co.uk/citations?user=i5FIoI8AAAAJ&hl=en) ([MedChemica](https://www.medchemica.com/)) ([ASAP](http://asapdiscovery.org)) and [Pascale Boulet](https://dndi.org/our-people/pascale-boulet/) ([DNDi](http://dndi.org)) ([ASAP](http://asapdiscovery.org))**: *Enabling equitable and affordable access to novel therapeutics for pandemic preparedness and response via creative intellectual property agreements* **[[Video]](https://youtu.be/LCkFQIF2Fp0)** **[[Slides]](https://zenodo.org/records/14207225)** 
 
-**Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+**Wed 16 October 2024**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2024-oct"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
 * **[Nick Lynch, Curlew Research](https://www.linkedin.com/in/nickjlynch/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Research Data Management - Being "FAIR enough"* **[[Video]](https://youtu.be/5eGZTxSeoBo?si=HTGvY-iuVPIF6398)**  
