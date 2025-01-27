@@ -6,7 +6,7 @@
 <!-- Get TEP in-progress status -->
 {{ $TEP_status := dict }}
 {{ $url := "https://docs.google.com/spreadsheets/d/e/2PACX-1vQit4u7d3lBlnX0Tu79Ep6pxSLiCvDn1PppulKgs5-C0SM0jlT9C491wstbZAJk7nm5BhJUlc9Op1gA/pub?gid=125511302&single=true&output=csv" }}
-{{ with resources.GetRemote $url }}
+{{ with try (resources.GetRemote $url) }}
     {{ with .Err }}
         {{ errorf "%s" . }}
     {{ else }}
