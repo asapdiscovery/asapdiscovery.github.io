@@ -44,7 +44,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
 * **[Anu Chandran and Jasmin Aschenbrenner, Diamond Light Source](https://www.diamond.ac.uk/Home.html)**: *TBD* 
-* **TBD** 
+* **[Nam-Joon Cho, Nanyang Technological University](https://dr.ntu.edu.sg/cris/rp/rp01058)**: *TBD*
 
 # Past Presentations
 
