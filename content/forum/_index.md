@@ -43,7 +43,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
-* **[Anu Chandran and Jasmin Aschenbrenner, Diamond Light Source](https://www.diamond.ac.uk/Home.html)**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics * 
+* **[Anu Chandran and Jasmin Aschenbrenner, Diamond Light Source](https://www.diamond.ac.uk/Home.html)**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
 * **[Nam-Joon Cho, Nanyang Technological University](https://dr.ntu.edu.sg/cris/rp/rp01058)**: *TBD*
 
 # Past Presentations
