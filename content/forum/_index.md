@@ -38,12 +38,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2025-feb"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Margaret Kielian](https://sites.google.com/site/kielianlab/) ([Albert Einstein College of Medicine](https://einsteinmed.edu/)) ([AC/DC](https://acdc-virus.org/)) and [Thomas Morrison](https://medschool.cuanschutz.edu/immunology-and-microbiology/immu-micro-labs/morrison-lab) ([University of Colorado, Anschutz](https://www.cuanschutz.edu/))**: *4′-fluorouridine inhibition of alphavirus replication and infection in vitro and in vivo*
-* **TBD**
+* **[Jingyue Ju, Columbia University](https://www.cheme.columbia.edu/faculty/jingyue-ju) ([MAVDA](https://mavdaresearch.org/en))**: *Discovery and Optimization of RNA Synthesis Inhibitors for Coronavirus and Other Viruses of Pandemic Potential*
 
 **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
-* **[Anu Chandran and Jasmin Aschenbrenner, Diamond Light Source](https://www.diamond.ac.uk/Home.html)**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
+* **[Anu Chandran and Jasmin Aschenbrenner, Diamond Light Source](https://www.diamond.ac.uk/Home.html) ([ASAP](http://asapdiscovery.org))**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
 * **[Nam-Joon Cho, Nanyang Technological University](https://dr.ntu.edu.sg/cris/rp/rp01058)**: *TBD*
 
 # Past Presentations
