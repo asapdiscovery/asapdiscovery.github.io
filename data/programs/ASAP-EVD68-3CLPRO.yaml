@@ -42,10 +42,10 @@ assay_cascade:
   id: ASAP-ASSAY-EVD68-3CLPRO
 
 hit_to_lead:
-  status: play
+  status: paused
 
 molecules:
   status: in-progress
 
 publications:
-  status: in-progress
+  status: completed

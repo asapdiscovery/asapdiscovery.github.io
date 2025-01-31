@@ -40,7 +40,7 @@ assay_cascade:
   id: ASAP-ASSAY-EVD68-EVA71-VP1-CAPSID
 
 hit_to_lead:
-  status: play
+  status: paused
 
 molecules:
   status: in-progress
