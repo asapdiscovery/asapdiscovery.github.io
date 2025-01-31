@@ -41,6 +41,9 @@ TEP:
   # TODO: We need to allow override to TEP location
   id: ASAP-ZIKA-NS2B-NS3
 
+publications:
+  status: completed
+  
 TCP:
   status: completed
   id: ASAP-DENV-ZIKV-NS2B-NS3

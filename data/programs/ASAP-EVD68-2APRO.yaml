@@ -34,3 +34,8 @@ TEP:
   # TODO: We need to allow override to TEP location
   id: ASAP-EVA71-2APRO
 
+hit_to_lead:
+  status: play
+
+publications:
+  status: completed

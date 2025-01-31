@@ -37,4 +37,7 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: play
 
+publications:
+  status: completed
+
 
