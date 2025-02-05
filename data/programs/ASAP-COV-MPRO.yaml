@@ -46,10 +46,13 @@ hit_to_lead:
   status: completed
 
 covalent_targeting:
-  status: in-progress
+  status: completed
   #url: https://covid.postera.ai/covid/activity_data
   
 lead_optimization:
+  status: completed
+
+preclinical:
   status: play
 
 molecules:
