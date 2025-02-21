@@ -3,11 +3,9 @@ languageCode = "en-us"
 title = "ASAP Discovery Consortium"
 theme = "kube"
 description = "ASAP uses AI and structure-based approaches to deliever oral antivirals for viruses of pandemic concern which will be globally and equitably accessible"
-Paginate = 4
 publishDir = "./public"
 pygmentsCodefences = true
 pygmentsStyle = "colorful"
-
 
 # Generate robots.txt
 enableRobotsTXT = "true"
@@ -19,6 +17,9 @@ ignoreFiles = ['data/outputs/preTEPS/']
   author = "newpixcom" # add your company name
   github = "https://github.com/asapdiscovery" # add your github profile name
   email = "john.chodera@choderalab.org"
+
+[pagination]
+pagination.pagerSize = 4
 
 [[menu.main]]
     name = "Pipeline"
