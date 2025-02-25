@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
-<a name="2025-feb"></a><br>
-*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Margaret Kielian](https://sites.google.com/site/kielianlab/) ([Albert Einstein College of Medicine](https://einsteinmed.edu/)) ([AC/DC](https://acdc-virus.org/)) and [Thomas Morrison](https://medschool.cuanschutz.edu/immunology-and-microbiology/immu-micro-labs/morrison-lab) ([University of Colorado, Anschutz](https://www.cuanschutz.edu/))**: *4′-fluorouridine inhibition of alphavirus replication and infection in vitro and in vivo*
-* **[Jingyue Ju, Columbia University](https://www.cheme.columbia.edu/faculty/jingyue-ju) ([MAVDA](https://mavdaresearch.org/en))**: *Discovery and Optimization of RNA Synthesis Inhibitors for Coronavirus and Other Viruses of Pandemic Potential*
-
 **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
@@ -55,6 +49,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
+<a name="2025-feb"></a><br>
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
+* **[Margaret Kielian](https://sites.google.com/site/kielianlab/) ([Albert Einstein College of Medicine](https://einsteinmed.edu/)) ([AC/DC](https://acdc-virus.org/)) and [Thomas Morrison](https://medschool.cuanschutz.edu/immunology-and-microbiology/immu-micro-labs/morrison-lab) ([University of Colorado, Anschutz](https://www.cuanschutz.edu/))**: *4′-fluorouridine inhibition of alphavirus replication and infection in vitro and in vivo* **[[Video]](https://youtu.be/nwjOtHk3Gm8)**
+* **[Jingyue Ju, Columbia University](https://www.cheme.columbia.edu/faculty/jingyue-ju) ([MAVDA](https://mavdaresearch.org/en))**: *Discovery and Optimization of RNA Synthesis Inhibitors for Coronavirus and Other Viruses of Pandemic Potential* **[[Video]](https://youtu.be/MOtlMqU7TOg)**
 
 **Wed 15 January 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-jan"></a><br>
