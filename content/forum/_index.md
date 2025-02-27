@@ -46,6 +46,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Xuping Xie, University of Texas Medical Branch](https://researchexperts.utmb.edu/en/persons/xuping-xie) ([UNAPP](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *TBD*
 * **[Darlene Chen, Novartis](https://www.linkedin.com/in/darlene-chen-49014537/)**: *TBD*
 
+**Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+<a name="2025-may"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **TBD**
+* **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses*
+
+
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
