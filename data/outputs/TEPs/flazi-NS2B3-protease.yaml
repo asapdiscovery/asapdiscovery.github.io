@@ -9,7 +9,7 @@ TEP:
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPADTOT
-    program_nickname: ASAP-ZIKA-NS2B-NS3
+    program_nickname: ASAP-DENV-ZIKV-NS2B-NS3
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: 7751225
   # Uniprot ID: Prefix https://www.uniprot.org/uniprotkb/
@@ -297,7 +297,7 @@ TEP:
 
     - name: PDB group deposition of ZIKV NS2B-NS3 protease crystallographic fragment screen
       id: flazi-NS2B3-protease_fragment-screen-pdb-group-deposition
-      description: PDB group deposition of X-ray fragment screen
+      description: We generated a robust crystal system of co-expressed ZIKV NS2B-NS3 protease and performed X-ray crystallographic fragment screening at XChem/Diamond Light Source with a total of 1076 fragments. 46 fragments with diverse scaffolds were identified to bind in the active site of the protease, with another 6 fragments observed in a potential allosteric site.
       date: 2024-04-03
       type: pdb-group-deposition
       url: https://www.rcsb.org/groups/summary/entry/G_1002289
