@@ -1881,6 +1881,29 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
  
  
@@ -1895,8 +1918,241 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
 
  
+ 
+ 
 
  
+
+ 
+ 
+
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3">DENV/ZIKV NS2B/3 protease&lt;/h3>
+ ASAP-DENV-ZIKV-NS2B-NS3
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/structure/8PN6">&lt;b>Apo crystal structure of the ZIKV NS2B-NS3 protease&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-deposition&lt;/span>
+&lt;i>[ 2023-08-16 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/XX01ZVNS2B/tas/lb32627-65">&lt;b>Fragalysis interactive view of ZIKV NS2B-NS3 protease crystallographic fragment screen&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">xray-fragment-screen&lt;/span>
+&lt;i>[ 2024-03-20 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We performed X-ray crystallography screening at XChem/Diamond Light Source and collected experimental datasets.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002289">&lt;b>PDB group deposition of ZIKV NS2B-NS3 protease crystallographic fragment screen&lt;/b>&lt;/a> &lt;br>
+
+&lt;span class="label error">pdb-group-deposition&lt;/span>
+&lt;i>[ 2024-04-03 ]&lt;/i> &lt;br>
+
+
+
+
+Contributing Projects and Cores: 
+
+ &lt;span class="label warning">Project 2&lt;/span>
+ 
+
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+&lt;br>
+
+
+&lt;br>
+We generated a robust crystal system of co-expressed ZIKV NS2B-NS3 protease and performed X-ray crystallographic fragment screening at XChem/Diamond Light Source with a total of 1076 fragments. 46 fragments with diverse scaffolds were identified to bind in the active site of the protease, with another 6 fragments observed in a potential allosteric site.&lt;br>
+&lt;br>
+
+&lt;hr>
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
  
 
 
