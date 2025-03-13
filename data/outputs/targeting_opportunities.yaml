@@ -101,6 +101,27 @@ ASAP-EVA71-2APRO:
     - date: 2024-04-29
       description: Initial draft
 
+ASAP-DENV-NS5-RDRP:
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO
+  name: "Targeting Opportunity: DENV NS5 RdRp" 
+  projects: [Project 1]
+  links:
+  - name: Targeting Opportunity
+    url: https://asapdiscovery.notion.site/Wave-2-Targeting-Opportunity-Flavivirus-NS5-RdRp-Dengue-Zika-West-Nile-4df7478086d948d8adff6495e4c7c2f0?pvs=73
+  events:
+    - date: 2025-03-13
+      description: Initial draft
+
+ASAP-ZIKA-NS5-RDRP:
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVA71-2APRO
+  name: "Targeting Opportunity: ZIKV NS5 RdRp" 
+  projects: [Project 1]
+  links:
+  - name: Targeting Opportunity
+    url: https://asapdiscovery.notion.site/Wave-2-Targeting-Opportunity-Flavivirus-NS5-RdRp-Dengue-Zika-West-Nile-4df7478086d948d8adff6495e4c7c2f0?pvs=73
+  events:
+    - date: 2025-03-13
+      description: Initial draft
 #
 # These programs are not yet in P3-P5
 #
