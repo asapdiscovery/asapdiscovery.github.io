@@ -37,8 +37,8 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-march"></a><br>
 *Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
-* **[Anu Chandran, Diamond Light Source](https://www.diamond.ac.uk/Home.html) ([ASAP](http://asapdiscovery.org))**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
-* **TBD**
+* **[Anu Chandran, Diamond Light Source](https://www.linkedin.com/in/anu-v-chandran-b9a70828/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
+* **[CJ San Felipe, UCSF](https://www.linkedin.com/in/cj-san-felipe-41060920b/) ([QCRG](https://qcrg.ucsf.edu/))**: 
 
 **Wed 16 April 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-april"></a><br>
