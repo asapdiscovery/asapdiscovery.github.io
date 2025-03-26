@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
-<a name="2025-march"></a><br>
-*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
-* **[Anu Chandran, Diamond Light Source](https://www.linkedin.com/in/anu-v-chandran-b9a70828/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics* 
-* **[CJ San Felipe, UCSF](https://www.linkedin.com/in/cj-san-felipe-41060920b/) ([QCRG](https://qcrg.ucsf.edu/))**: *Exploiting Orf9b's lipid-binding capability for improved innate immune response*
-
 **Wed 16 April 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-april"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
@@ -61,7 +55,13 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
-**Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
+**Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+<a name="2025-march"></a><br>
+*Moderator:* [**Peter Sjö**](https://dndi.org/our-people/peter-sjo/) ([DNDi](http://dndi.org)) 
+* **[Anu Chandran, Diamond Light Source](https://www.linkedin.com/in/anu-v-chandran-b9a70828/?originalSubdomain=uk) ([ASAP](http://asapdiscovery.org))**: *Crystallographic Fragment Screening of RNA-Dependent RNA Polymerase Domains as a Foundation for Developing Pan-Flavivirus Therapeutics*  **[[Video]](https://youtu.be/bCuJRVr1pX8)** 
+* **[CJ San Felipe, UCSF](https://www.linkedin.com/in/cj-san-felipe-41060920b/) ([QCRG](https://qcrg.ucsf.edu/))**: *Exploiting Orf9b's lipid-binding capability for improved innate immune response* **[[Video]](https://youtu.be/R5AUnF9SqTM)** 
+
+* **Wed 19 February 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)*
 <a name="2025-feb"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Margaret Kielian](https://sites.google.com/site/kielianlab/) ([Albert Einstein College of Medicine](https://einsteinmed.edu/)) ([AC/DC](https://acdc-virus.org/)) and [Thomas Morrison](https://medschool.cuanschutz.edu/immunology-and-microbiology/immu-micro-labs/morrison-lab) ([University of Colorado, Anschutz](https://www.cuanschutz.edu/))**: *4′-fluorouridine inhibition of alphavirus replication and infection in vitro and in vivo* **[[Video]](https://youtu.be/nwjOtHk3Gm8)**
