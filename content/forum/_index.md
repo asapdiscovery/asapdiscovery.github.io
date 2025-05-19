@@ -37,7 +37,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 **Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-may"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *TBD*
+* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *Fast Forward Fragments: XChem Technologies & ASAP Learnings for Fragment Progression*
 * **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses*
 
 **Wed 18 June 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
