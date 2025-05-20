@@ -42,6 +42,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 
 **Wed 18 June 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-june"></a><br>
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
 * **[Ingrid de Visser-Kamerling and Jeroen Kruter, INFECTA](https://infect-nl.nl/en/home/)**: *Innovation in clinical research for infectious diseases through Controlled Human Infection Models*
 * **TBD**
 
