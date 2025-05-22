@@ -34,12 +34,6 @@ To receive invitations to events and other news items, [sign up for the Antivira
 
 The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
 
-**Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
-<a name="2025-may"></a><br>
-*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *Fast Forward Fragments: XChem Technologies & ASAP Learnings for Fragment Progression*
-* **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses*
-
 **Wed 18 June 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
 <a name="2025-june"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
@@ -49,6 +43,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
+
+**Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
+<a name="2025-may"></a><br>
+*Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
+* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *Fast Forward Fragments: XChem Technologies & ASAP Learnings for Fragment Progression* **[[Video]](https://youtu.be/9y8niTpC-VQ)** 
+* **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses* **[[Video]](https://youtu.be/pvh0-UOJWBY)** 
 
 **Wed 16 April 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-april"></a><br>
