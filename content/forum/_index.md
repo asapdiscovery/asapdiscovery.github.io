@@ -40,6 +40,12 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 * **[Ingrid de Visser-Kamerling and Jeroen Kruter, INFECTA](https://infect-nl.nl/en/home/)**: *Innovation in clinical research for infectious diseases through Controlled Human Infection Models*
 * **TBD**
 
+**Wed 16 July 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+<a name="2025-july"></a><br>
+*Moderator:* *TBD*
+* **[Nam-Joon Cho, Nanyang Technological University](https://www.namjooncho.com/)**: *TBD*
+* **TBD**
+
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
