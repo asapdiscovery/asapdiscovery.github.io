@@ -53,13 +53,13 @@ All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) an
 **Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-may"></a><br>
 *Moderator:* [**John Chodera**](https://www.choderalab.org/) ([MSKCC](https://www.mskcc.org/))
-* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *Fast Forward Fragments: XChem Technologies & ASAP Learnings for Fragment Progression* **[[Video]](https://youtu.be/9y8niTpC-VQ)** 
-* **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses* **[[Video]](https://youtu.be/pvh0-UOJWBY)** 
+* **[Warren Thompson, Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Warren-Thompson.html) ([ASAP](http://asapdiscovery.org))**: *Fast Forward Fragments: XChem Technologies & ASAP Learnings for Fragment Progression* **[[Video]](https://youtu.be/9y8niTpC-VQ)** **[[Slides]](https://zenodo.org/records/15536741)** 
+* **[Juan Carlos de la Torre, Scripps Research](https://www.scripps.edu/faculty/delatorre/) ([CAMPP](https://www.campp.org/))**: *Antiviral Strategies To Combat Human Pathogenic Mammarenaviruses* **[[Video]](https://youtu.be/pvh0-UOJWBY)**    
 
 **Wed 16 April 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-april"></a><br>
 *Moderator:* [**Alpha Lee**](https://www.alpha-lee.com/) ([PostEra](https://postera.ai/))
-* **[Xuping Xie, University of Texas Medical Branch](https://researchexperts.utmb.edu/en/persons/xuping-xie) ([UNAPP](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Mechanism of Action of a clinical trial dengue inhibitor NITD-688: Targeting NS4B for Flavivirus Therapy* **[[Video]](https://youtu.be/-BYFW5ZNCg8)**
+* **[Xuping Xie, University of Texas Medical Branch](https://researchexperts.utmb.edu/en/persons/xuping-xie) ([UNAPP](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Mechanism of Action of a clinical trial dengue inhibitor NITD-688: Targeting NS4B for Flavivirus Therapy* **[[Video]](https://youtu.be/-BYFW5ZNCg8)** https://zenodo.org/records/15536741
 * **[Darlene Chen, Novartis](https://www.linkedin.com/in/darlene-chen-49014537/) ([UNAPP](https://www.utmb.edu/news/article/utmb-news/2022/05/18/utmb-drug-discovery-partnership-awarded-56-million-grant))**: *Discovery of pan-serotype dengue NS2B-NS3 protease inhibitors with in vivo efficacy* **[[Video]](https://youtu.be/DQNdg8mOyUI)**
 
 **Wed 19 March 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
