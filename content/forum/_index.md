@@ -44,7 +44,7 @@ The Open Science Forum will hold virtual events the **third Wednesday of every m
 <a name="2025-july"></a><br>
 *Moderator:* [**Frank von Delft**](https://www.diamond.ac.uk/Home.html) ([Diamond Light Source](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html))
 * **[Nam-Joon Cho, Nanyang Technological University](https://www.namjooncho.com/)**: *Engineering Approaches to Combat Infectious Diseases: An Example of Broad-Spectrum Antiviral Peptides*
-* **TBD**
+* **[Terra Sztain, UM College of Pharmacy - University of Michigan](https://sites.google.com/umich.edu/sztainlab)**: *Predicting and combatting antiviral resistance: the search through sequence, structure, and chemical space*
 
 # Past Presentations
 
