@@ -5,6 +5,10 @@ draft: false
 layout: forum
 ---
 
+# Thank You
+
+The Open Science Forum is currently on hold. If the future of the Antiviral Drug Discovery (AViDD) Centers changes, we may explore resuming the series. We sincerely thank all presenters, moderators, and audience members for their contributions to advancing open science. Recordings of past forums can be found below.
+
 The Open Science Forum features monthly talks from scientists from NIH-funded [Antiviral Drug Discovery (AViDD) Centers](https://www.niaid.nih.gov/research/antiviral-drug-discovery-centers-pathogens-pandemic-concern) who elect to provide updates on target priorities, advertise available resources and reagents, disclose chemical matter (such as hits, leads, and chemical tool compounds) and associated antiviral data, share findings regarding in vivo efficacy models, discuss downstream development and translation models, and share ideas.
 
 Talks will be public, recorded, and shared online along with links to relevant resources and reagents for the benefit of other AViDD Centers and the global antiviral drug discovery community.
@@ -30,25 +34,21 @@ Each recorded talk will be posted online after the event, along with relevant li
 
 To receive invitations to events and other news items, [sign up for the Antiviral Drug Discovery (AViDD) Open Science Forum mailing list](https://asapdiscovery.us10.list-manage.com/subscribe?u=fd04e028b883a3832b2fbc61d&id=1ba169f53a).
 
-# Schedule
-
-The Open Science Forum will hold virtual events the **third Wednesday of every month**:  
-
-**Wed 16 July 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
-<a name="2025-july"></a><br>
-*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Nam-Joon Cho, Nanyang Technological University](https://www.namjooncho.com/)**: *Engineering Approaches to Combat Infectious Diseases: An Example of Broad-Spectrum Antiviral Peptides*
-* **[Terra Sztain, UM College of Pharmacy - University of Michigan](https://sites.google.com/umich.edu/sztainlab)**: *Predicting and combatting antiviral resistance: the search through sequence, structure, and chemical space*
-
 # Past Presentations
 
 All talk videos are archived on [Youtube](https://www.youtube.com/@AViDD-OSF) and slides are archived at [Zenodo](https://zenodo.org/communities/open-antivirals/).
 
+**Wed 16 July 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* **[[Register Here]](https://meetmsk.zoom.us/webinar/register/WN_4Xbqx8MMS4-7p8poMEmnDw)**
+<a name="2025-july"></a><br>
+*Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
+* **[Nam-Joon Cho, Nanyang Technological University](https://www.namjooncho.com/)**: *Engineering Approaches to Combat Infectious Diseases: An Example of Broad-Spectrum Antiviral Peptides* **[[Video]](https://youtu.be/-uL_xHChXs8)** 
+* **[Terra Sztain, UM College of Pharmacy - University of Michigan](https://sites.google.com/umich.edu/sztainlab)**: *Predicting and combatting antiviral resistance: the search through sequence, structure, and chemical space* **[[Video]](https://youtu.be/FCZ0lFBs5sQ)** 
+
 **Wed 18 June 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-june"></a><br>
 *Moderator:* [**Karla Kirkegaard**](https://web.stanford.edu/group/kirkegaard/karla.html) ([Stanford University](https://www.stanford.edu/))
-* **[Ingrid de Visser-Kamerling and Jeroen Kruter, INFECTA](https://infecta.org/)**: *Innovation in clinical research for infectious diseases through Controlled Human Infection Models*
-* **[Annette von Delft, Centre For Medicines Discovery](https://www.cmd.ox.ac.uk/people/annette-von-delft)** and **[Peter Sjo, DNDi](https://dndi.org/our-people/peter-sjo/) ([ASAP](https://asapdiscovery.org/))**: *Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibitor*
+* **[Ingrid de Visser-Kamerling and Jeroen Kruter, INFECTA](https://infecta.org/)**: *Innovation in clinical research for infectious diseases through Controlled Human Infection Models* **[[Video]](https://youtu.be/F-9Bs-dBMsM)** 
+* **[Annette von Delft, Centre For Medicines Discovery](https://www.cmd.ox.ac.uk/people/annette-von-delft)** and **[Peter Sjo, DNDi](https://dndi.org/our-people/peter-sjo/) ([ASAP](https://asapdiscovery.org/))**: *Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibitor* **[[Video]](https://youtu.be/waxI9U44l-E)** 
 
 **Wed 21 May 2025**: *8.00A PT / 11.00A ET / 4.00P UK (GMT+1) / 5.00P Geneva (GMT+2)* 
 <a name="2025-may"></a><br>
