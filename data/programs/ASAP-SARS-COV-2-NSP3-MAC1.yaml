@@ -42,11 +42,11 @@ TEP:
 
 hit_to_lead:
   status: completed
-  url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
+  url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-TR-FRET-Potency-Data-26b94b98aff6804c9ec7d0d7bc6dae8a
 
 lead_optimization:
   status: paused
-  url: https://app.postera.ai/account/molecule-set/a8376db4-ed03-4a03-8a4d-30aa6a986827
+  url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-Inhibitor-Data-Release-26c94b98aff680a8908efe86bc5dbdb6?pvs=74
 
 molecules:
   status: completed
