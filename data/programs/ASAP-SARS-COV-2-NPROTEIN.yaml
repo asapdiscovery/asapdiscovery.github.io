@@ -40,7 +40,7 @@ assay_cascade:
   id: ASAP-ASSAY-SARS-COV-2-NPROTEIN
 
 hit_to_lead:
-  status: paused
+  status: play
 
 publications:
   status: in-progress

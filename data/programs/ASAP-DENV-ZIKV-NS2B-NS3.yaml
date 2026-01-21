@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
-  name: "DENV/ZIKV NS2B/3 protease"
+  name: "DENV/ZIKV NS2B-NS3 protease"
   target: NS2B-NS3
   program_code: ASAPPADTOT
   program_nickname: ASAP-DENV-ZIKV-NS2B-NS3
@@ -49,6 +49,10 @@ TCP:
   id: ASAP-DENV-ZIKV-NS2B-NS3
 
 hit_to_lead:
+  url: https://covid.postera.ai/covid/activity_data
+  status: completed
+
+lead_optimization:
   status: play
 
 assay_cascade:
