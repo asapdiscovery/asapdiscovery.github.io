@@ -1831,7 +1831,6 @@ This overview is intended to summarize relevant information for drug hunters, in
 
 
 
-
 &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>XChem crystallographic fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -1862,7 +1861,6 @@ We performed an exhaustive crystallographic fragment screen to probe the Mpro ac
  
  
  
-
 
 
 
@@ -1903,7 +1901,6 @@ COVID-19 main protease from Coronaviridae sp. screened against the DSI-poised Fr
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002144">&lt;b>PDB group deposition G_1002144 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -1939,7 +1936,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -1975,7 +1971,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002151">&lt;b>PDB group deposition G_1002151 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -2006,7 +2001,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
  
  
  
-
 
 
 
@@ -2047,7 +2041,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition G_1002153 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -2078,7 +2071,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
  
  
  
-
 
 
 
@@ -2119,7 +2111,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot 
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002156">&lt;b>PDB group deposition G_1002156 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -2150,7 +2141,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against electrophilic h
  
  
  
-
 
 
 
@@ -2191,7 +2181,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against COVID Moonshot 
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002163">&lt;b>PDB group deposition G_1002163 of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -2222,7 +2211,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against computationally
  
  
  
-
 
 
 
@@ -2269,7 +2257,6 @@ SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crys
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002153">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -2303,7 +2290,6 @@ SARS-CoV-2 main protease from Coronaviridae sp. screened against DSI poised (Ena
  
  
  
-
 
 
 
@@ -2771,7 +2757,7 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
  
 
- &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3">DENV/ZIKV NS2B/3 protease&lt;/h3>
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3">DENV/ZIKV NS2B-NS3 protease&lt;/h3>
  ASAP-DENV-ZIKV-NS2B-NS3
 
  
@@ -2874,7 +2860,6 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
 
 
 
-
 &lt;a href="https://www.rcsb.org/structure/8PN6">&lt;b>Apo crystal structure of the ZIKV NS2B-NS3 protease&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-deposition&lt;/span>
@@ -2910,7 +2895,6 @@ Contributing Projects and Cores:
 
 
 
-
 &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/XX01ZVNS2B/tas/lb32627-65">&lt;b>Fragalysis interactive view of ZIKV NS2B-NS3 protease crystallographic fragment screen&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -2941,7 +2925,6 @@ We performed X-ray crystallography screening at XChem/Diamond Light Source and c
  
  
  
-
 
 
 
@@ -3508,7 +3491,6 @@ We generated a robust crystal system of co-expressed ZIKV NS2B-NS3 protease and 
 
 
 
-
 &lt;a href="https://www.rcsb.org/structure/8CNX">&lt;b>Structure of Enterovirus D68 3C protease&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-deposition&lt;/span>
@@ -3544,7 +3526,6 @@ Apo structure of EV-D68 3C protease&lt;br>
 
 
 
-
 &lt;a href="https://fragalysis-legacy.xchem.diamond.ac.uk/viewer/react/preview/target/D68EV3CPROA/tas/lb18145-1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of EV-D68 3C protease&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -3575,7 +3556,6 @@ We performed X-ray crystallography screening at XChem/Diamond Light Source with 
  
  
  
-
 
 
 
@@ -4015,7 +3995,6 @@ We performed X-ray crystallography screening at XChem/Diamond Light Source with 
 
 
 
-
 &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Nprot">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 N-protein&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -4267,7 +4246,6 @@ Contributing Projects and Cores:
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002164">&lt;b>PDB group deposition of X-ray fragment screen of SARS-CoV-2 nsp13 helicase&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -4298,7 +4276,6 @@ The NSP13 crystal form contains two protomers and the fragment screen revealed a
  
  
  
-
 
 
 
@@ -4587,7 +4564,6 @@ The NSP13 crystal form contains two protomers and the fragment screen revealed a
 
 
 
-
 &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mac1">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 nsp3 Mac1 macrodomain&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -4633,7 +4609,6 @@ We performed X-ray crystallography screening at the Diamond Light Source XChem f
  
  
  
-
 
 
 
@@ -4968,7 +4943,6 @@ SARS-CoV-2 nsp3 Mac1 macrodomain in complex with 90 ASAP inhibitors&lt;br>
 
 
 
-
 &lt;a href="https://www.rcsb.org/structure/5RHY">&lt;b>Apo structure of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-deposition&lt;/span>
@@ -4995,7 +4969,6 @@ Apo structure of ZIKV NS3 helicase at 1.36A resolution in P 1 21 1 space group.&
  
  
  
-
 
 
 
@@ -5036,7 +5009,6 @@ We performed X-ray crystallography screening at XChem/Diamond Light Source with 
 
 
 
-
 &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002158">&lt;b>PDB group deposition of X-ray fragment screen of ZIKV NS3 helicase&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">pdb-group-deposition&lt;/span>
@@ -5063,7 +5035,6 @@ PDB group deposition of the X-ray fragment screen of ZIKV NS3 helicase containin
  
  
  
-
 
 
 
@@ -5339,7 +5310,6 @@ PDB group deposition of supplemental X-ray fragment screen of ZIKV NS3 helicase 
 
 
 
-
 &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro">&lt;b>Fragalysis interactive exploration of X-ray fragment screen of SARS-CoV-2 Mpro&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
@@ -5370,7 +5340,6 @@ We performed an exhaustive crystallographic fragment screen to probe the Mpro ac
  
  
  
-
 
 
 
@@ -5407,7 +5376,6 @@ Selected structures were deposited in the PDB via a group deposition.&lt;br>
  
  
  
-
 
 
 
