@@ -114,6 +114,7 @@
     date: 2023-11-10
     year: 2023
     nihmsid: 1984191
+    pmcid: PMC7615835
   data: https://www.science.org/doi/10.1126/science.abo7201
 
 - title: "Crystallographic Fragment Screen of Coxsackievirus A16 2A Protease identifies new opportunities for the development of broad-spectrum anti-enterovirals"    
@@ -180,8 +181,30 @@
     url: https://doi.org/10.1101/2025.08.08.668114
     license: "CC-BY 4.0 International license"  
 
+- title: "Enzyme kinetics model for the coronavirus main protease including dimerization and ligand binding"    
+  authors: "Van N.T. La, Lulu Kang, David D.L. Minh"
+  summary: We develop a kinetic model of the coronavirus main protease integrating dimerization and ligand binding, and present an accurate model of ligand-induced dimerization that integrates biophysical and biochemical data.
+  img: CoV-dimerization-model.jpg
+  programs: [ASAPPTGTTM]
+  cores: [Biochemical Assay Core]
+  projects: []
+  preprint:
+    server: bioRxiv
+    date: 2025-01-02
+    url: https://doi.org/10.1101/2025.01.01.631001
+    license: "CC-BY 4.0 International license"  
+  published:
+    doi: 10.1016/j.bpj.2025.06.040
+    journal: Biophysical Journal
+    volume: 124
+    pages:  P2627
+    date: 2025-08-19
+    year: 2025
+    pmcid: PMC11722214
+
 
 
   
 
   
+
