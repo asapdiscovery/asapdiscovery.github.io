@@ -202,6 +202,19 @@
     year: 2025
     pmcid: PMC11722214
 
+- title: "A Structure-Based Computational Pipeline for Broad-Spectrum Antiviral Discovery"    
+  authors: "Maria A Castellanos, Alexander M Payne, Jenke Scheen, Hugo MacDermott-Opeskin, Iván Pulido, Blake H Balcomb, Ed J Griffen, Daren Fearon, Haim Barr, Noa Lahav, David Cousins, Jessica Stacey, Ralph Robinson, Bruce Lefker, John D Chodera"
+  summary: We develop and benchmark a co-folding based tool for predicting the spectrum of activity of antiviral compounds.
+  img: antiviral-spectrum.jpg
+  programs: [ASAPPTGTTM]
+  cores: [Structural Biology Core, Biochemical Assay Core, Project 5]
+  projects: []
+  preprint:
+    server: bioRxiv
+    date: 2025-07-30
+    url: https://doi.org/10.1101/2025.07.29.667267
+    license: "CC-BY 4.0 International license" 
+    pmcid: PMC12324269 
 
 
   
