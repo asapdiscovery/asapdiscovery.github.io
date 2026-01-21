@@ -120,7 +120,7 @@
   authors: "Ryan M Lithgo, Charlie W. E. Tomlinson, Michael Fairhead, Max Winokan, Warren Thompson, Conor Wild, Jasmin Aschenbrenner, Blake Balcomb, Peter G. Marples, Anu V. Chandran, Mathew N. Golding, Lizbe Koekemoer, Eleanor P. Williams, SiYi Wang, Xiaomin Ni, Elizabeth M. Maclean, Charline Giroud, Tryfon Zarganes-Tzitzikas, Andre Schutzer de Godoy, Mary-Ann Xavier, Martin Walsh, Daren Fearom, Frank von Delft"
   summary: We describe an X-ray fragment screen of a closely related protein to EV-A71 2A protease"
   img: eva71-2A-protease-fragment-screen.jpg
-  programs: [ASAP-EVD68-2APRO]
+  programs: [ASAPPWAUTP]
   cores: [Structural Biology Core]
   projects: [Project 2]
   preprint:
@@ -133,7 +133,7 @@
   authors: "Ryan M Lithgo, Charlie W. E. Tomlinson, Michael Fairhead, Max Winokan, Warren Thompson, Conor Wild, Jasmin Aschenbrenner, Blake Balcomb, Peter G. Marples, Anu V. Chandran, Mathew N. Golding, Lizbe Koekemoer, Eleanor P. Williams, SiYi Wang, Xiaomin Ni, Elizabeth M. MacLean, Charline Giroud, Tryfon Zaraganes-Tzitzikas, Andre Schutzer de Godoy, Mary-Ann Xavier, Martin Walsh, Daren Fearon, Frank von Delft"
   summary: We describe an X-ray fragment screen against EV-D68 3C protease
   img: evd68-3C-protease-fragment-screen.jpg
-  programs: [ASAP-EVD68-3CLPRO]
+  programs: [ASAPPSOTNS]
   cores: [Structural Biology Core]
   projects: [Project 2]
   preprint:
@@ -145,6 +145,7 @@
 - title: "Crystallographic fragment screening delivers diverse chemical scaffolds for Zika virus NS2B-NS3 protease inhibitor development"
   authors: Xiaomin Ni, Andre Schutzer de Godoy, Peter George Marples, Michael Fairhead, Blake H Balcomb, Matteo P. Ferla, Charles W. E. Tomlinson, Siyi Wang, Charline Girould, Jasmin Cara Aschenbrenner, Ryan Lithgo, Max Winokan, Anu V. Chandran, Warren Thompson, Mary-Ann Elvina Xavier, Eleanor Williams, Martin A. Walsh, Daren Fearon, Lizbe Koekemoer, Frank von Delft
   summary: We describe an X-ray fragment screen of ZIKV NS2B-NS3 protease, resolving 48 protein:ligand complexes
+  programs: [ASAPPADTOT]
   projects: [Project 2]
   cores: [Structural Biology Core]  
   preprint:
@@ -157,7 +158,7 @@
   authors: "Andre Schutzer Godoy, Nathalya Cristina de Moraes Roso Mesquita, Gabriela Dias Noske, Victor Oliveira Gawriljuk, Ryan M Lithgo, Blake H Balcomb, Jasmin Cara Aschenbrenner, Charles W. E. Tomlinson, Max Winokan, Jenke Scheen, Peter George Marples, Anu V. Chandran, Xiaomin Ni, Warren Thompson, Michael Fairhead, Daren Fearon, Lizbe Koekemoer, Mary-Ann Elvina Xavier, Martin Walsh, Glacius Oliva, Frank von Delft"
   summary: We describe an X-ray fragment screen of ZIKV NS3 helicase
   img: zikv-ns3-helicase-fragment-screen.jpg
-  programs: [ASAP-ZIKA-NS3-HELICASE]
+  programs: [ASAPPWDRPT]
   cores: [Structural Biology Core]
   projects: [Project 2]
   preprint:
@@ -166,6 +167,21 @@
     url: https://doi.org/10.1101/2024.04.27.591279
     license: "CC-BY 4.0 International license"  
 
+- title: "Structure-Activity Relationship Studies Towards Analogues of Pleconaril as Novel Enterovirus-D68 Capsid-Targeting Antivirals"    
+  authors: "David L. Cousins, Ed J. Griffen, Jessica Stacey, Alpha A. Lee, Yuliia Filimonova, Anton Hlavin, Yuliia Holota, Roman Khmil, Mykyta Kordubailo, Oleksii Kostinov, Dmytro Lesyk, Ivan Logvinenko, Mariia Lototska, Viacheslav Lysenko, Anna Pashchenko, Mariia Pavlichenko, Anzhela Rodnichenko, Anton Tkachenko, Brett L. Hurst, Justin G. Julander, Hong Wang, Rebecca Pearl, Jared Benjamin, Randy Diaz-Tapia, Mary E. Gordon, Randy A. Albrecht, Kris White"
+  summary: We present SAR structural and affinity studies of analogues of clinical compounds such as pleconaril and vapendavir against EV-D68 as a representative NPEV, and identify a compound with moderately broad-spectrum activity.
+  img: pleconaril.jpg
+  programs: [ASAPPTTFOG]
+  cores: [Structural Biology Core, Antiviral Core]
+  projects: [Project 3]
+  preprint:
+    server: bioRxiv
+    date: 2025-08-12
+    url: https://doi.org/10.1101/2025.08.08.668114
+    license: "CC-BY 4.0 International license"  
 
+
+
+  
 
   
