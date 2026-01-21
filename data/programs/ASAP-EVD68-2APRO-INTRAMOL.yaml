@@ -29,6 +29,5 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  # TODO: Can we pull the status rom the TEP itself?
-  status: not-started
+  status: play
 

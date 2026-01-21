@@ -122,18 +122,21 @@ TEP:
       type: plasmid
       # URL pointing to resource
       # For a plasmid, this should be an AddGene entry
+      # TODO: Plasmid URL is missing
       #url: https://www.diamond.ac.uk/dam/jcr:feefeac2-8f38-4dba-84e4-139f83e8a375/ProteaseMandM_v4.docx
       # ASAP Projects and Cores that contributed to this resource
       # e.g. ['Project 2', 'Structural Biology Core']
       projects: [Project 2]
       # Contributors / authors
       contributors:
-        -
+        - Korvus Wang
+        - Michael Fairhead
+        - Eleanor Williams
       # Detailed expression protocol associated with this plasmid
       # This is Markdown: See https://www.markdownguide.org/ for guide    
       # TODO: In future, this should be a protocols.io link
-      protocol:
-        Available at [protocols.io](http://doi.org/10.17504/protocols.io.rm7vzj8p8lx1/v1)      
+      protocol: >
+        [SARS-CoV-2 Mpro small scale expression and purification protocol](https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-rm7vzj8p8lx1) (via protocols.io)
       # Details associated with this plasmid
       details: |
         <a href="/pdfs/PAGE22-01340 - AVIDD ASAP; MERS mPRO aka 3CL protease.pdf" download>Download experimental metadata</a>
@@ -152,6 +155,7 @@ TEP:
       url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro
       projects: [Project 2]
       cores: [Structural Biology Core]     
+      # TODO: Eliminate duplicative protocol description and standardize on protocols.io only
       protocol: >
         Crystallization protocol [available at protocols.io](http://doi.org/10.17504/protocols.io.kqdg326y7v25/v1) 
 
