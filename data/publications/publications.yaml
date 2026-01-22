@@ -242,8 +242,19 @@
     url: https://doi.org/10.1101/2024.08.19.608619
     license: "CC-BY 4.0 International license" 
 
+- title: "Enabling equitable and affordable access to novel therapeutics for pandemic preparedness and response via creative intellectual property agreements"    
+  authors: "Ed J Griffen, Pascale Boulet; ASAP Discovery Center ; COVID Moonshot"
+  summary: We discuss how existing IP frameworks and contractual agreements may be used to create rights and obligations to generate a more effective global response to future pandemics by leveraging a hybrid, phased model of Open Science, patent filing, and contractual agreements
+  img: asap-ip-policy.jpg
+  programs: [ASAPPTGTTM]
+  cores: []
+  projects: [Project 5, Project 6]
+  preprint:
+    server: Wellcome Open Research
+    date: 2024-07-15
+    url: https://doi.org/10.12688/wellcomeopenres.22645.1
+    license: "CC-BY 4.0 International license" 
   
-
   
 
 
