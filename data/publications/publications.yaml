@@ -255,6 +255,28 @@
     url: https://doi.org/10.12688/wellcomeopenres.22645.1
     license: "CC-BY 4.0 International license" 
   
-  
+- title: "Fragmenstein: predicting protein–ligand structures of compounds derived from known crystallographic fragment hits using a strict conserved-binding-based methodology"    
+  authors: "Matteo P. Ferla, Rubén Sánchez-García, Rachael E. Skyner, Stefan Gahbauer, Jenny C. Taylor, Frank von Delft, Brian D. Marsden, Charlotte M. Deane"
+  summary: We show that an algorithmic approach (Fragmenstein) that stitches together ligand atoms from X-ray fragment screens can provide more accurate and reliable predictions for protein-ligand complex conformation than general methods such as pharmacophore-constrained docking.
+  img: fragmenstein.png
+  programs: [ASAPPTGTTM]
+  cores: [Structural Biology Core]
+  projects: [Project 2]
+  preprint:
+    server: chemRxiv
+    date: 2024-02-26
+    url: https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-17w01
+    license: "CC-BY 4.0 International license" 
+  published:
+    doi: 10.1186/s13321-025-00946-0
+    journal: Journal of Cheminformatics
+    volume: 17
+    pages:  4
+    date: 2025-01-13
+    year: 2025
+    pmcid: PMC11731148
 
+
+  
+  
 
