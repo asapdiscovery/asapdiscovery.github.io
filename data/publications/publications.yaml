@@ -229,6 +229,19 @@
     url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v6
     license: "CC-BY 4.0 International license" 
 
+- title: "Discovery of potent SARS-CoV-2 nsp3 macrodomain inhibitors uncovers lack of translation to cellular antiviral response"    
+  authors: "Alpha A Lee, Isabelle Amick, Jasmin C Aschenbrenner, Haim M Barr, Jared Benjamin, Alexander Brandis, Galit Cohen, Randy Diaz-Tapia, Shirly Duberstein, Jessica Dixon, David Cousins, Michael Fairhead, Daren Fearon, James Frick, James Gayvert, Andre S Godoy, Ed J Griffin, Kilian Huber, Lizbé Koekemoer, Noa Lahav, Peter G Marples, Briana L McGovern, Tevie Mehlman, Matthew C Robinson, Usha Singh, Tamas Szommer, Charles WE Tomlinson, Thomas Vargo, Frank von Delft, SiYi Wang, Kris White, Eleanor Williams, Max Winokan"
+  summary: We report a fragment-based lead generation campaign guided by computational approaches. We discover tool compounds which inhibit nsp3-mac1 activity at low nanomolar concentrations, and with responsive structure-activity relationships, high selectivity, and drug-like properties.
+  img: macrodomain-inhibitors.jpg
+  programs: [ASAPPNBTAE]
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 3]
+  preprint:
+    server: bioRxiv
+    date: 2024-08-21
+    url: https://doi.org/10.1101/2024.08.19.608619
+    license: "CC-BY 4.0 International license" 
+
   
 
   
