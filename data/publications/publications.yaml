@@ -187,7 +187,7 @@
   img: CoV-dimerization-model.jpg
   programs: [ASAPPTGTTM]
   cores: [Biochemical Assay Core]
-  projects: []
+  projects: [Project 5]
   preprint:
     server: bioRxiv
     date: 2025-01-02
@@ -207,8 +207,8 @@
   summary: We develop and benchmark a co-folding based tool for predicting the spectrum of activity of antiviral compounds.
   img: antiviral-spectrum.jpg
   programs: [ASAPPTGTTM]
-  cores: [Structural Biology Core, Biochemical Assay Core, Project 5]
-  projects: []
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 5]
   preprint:
     server: bioRxiv
     date: 2025-07-30
@@ -216,8 +216,78 @@
     license: "CC-BY 4.0 International license" 
     pmcid: PMC12324269 
 
+- title: "A Computational Community Blind Challenge on Pan-Coronavirus Drug Discovery Data"    
+  authors: "Hugo MacDermott-Opeskin, Jenke Scheen, Cas Wognum, Joshua T. Horton, Devany West, Alexander Matthew Payne, Maria A. Castellanos, and John D. Chodera"
+  summary: We report the outcomes and key insights from an open science community blind challenge focused on computational methods in drug discovery, using lead optimization data from the AI-driven Structure-enabled Antiviral Platform (ASAP) Discovery Consortium’s pan-coronavirus antiviral discovery program
+  img: polarishub-challenge.jpg
+  programs: [ASAPPTGTTM]
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 5]
+  preprint:
+    server: chemRxiv
+    date: 2026-01-06
+    url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v6
+    license: "CC-BY 4.0 International license" 
 
+- title: "Discovery of potent SARS-CoV-2 nsp3 macrodomain inhibitors uncovers lack of translation to cellular antiviral response"    
+  authors: "Alpha A Lee, Isabelle Amick, Jasmin C Aschenbrenner, Haim M Barr, Jared Benjamin, Alexander Brandis, Galit Cohen, Randy Diaz-Tapia, Shirly Duberstein, Jessica Dixon, David Cousins, Michael Fairhead, Daren Fearon, James Frick, James Gayvert, Andre S Godoy, Ed J Griffin, Kilian Huber, Lizbé Koekemoer, Noa Lahav, Peter G Marples, Briana L McGovern, Tevie Mehlman, Matthew C Robinson, Usha Singh, Tamas Szommer, Charles WE Tomlinson, Thomas Vargo, Frank von Delft, SiYi Wang, Kris White, Eleanor Williams, Max Winokan"
+  summary: We report a fragment-based lead generation campaign guided by computational approaches. We discover tool compounds which inhibit nsp3-mac1 activity at low nanomolar concentrations, and with responsive structure-activity relationships, high selectivity, and drug-like properties.
+  img: macrodomain-inhibitors.jpg
+  programs: [ASAPPNBTAE]
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 3]
+  preprint:
+    server: bioRxiv
+    date: 2024-08-21
+    url: https://doi.org/10.1101/2024.08.19.608619
+    license: "CC-BY 4.0 International license" 
+
+- title: "Enabling equitable and affordable access to novel therapeutics for pandemic preparedness and response via creative intellectual property agreements"    
+  authors: "Ed J Griffen, Pascale Boulet; ASAP Discovery Center ; COVID Moonshot"
+  summary: We discuss how existing IP frameworks and contractual agreements may be used to create rights and obligations to generate a more effective global response to future pandemics by leveraging a hybrid, phased model of Open Science, patent filing, and contractual agreements
+  img: asap-ip-policy.jpg
+  programs: [ASAPPTGTTM]
+  cores: []
+  projects: [Project 5, Project 6]
+  preprint:
+    server: Wellcome Open Research
+    date: 2024-07-15
+    url: https://doi.org/10.12688/wellcomeopenres.22645.1
+    license: "CC-BY 4.0 International license" 
   
+- title: "Fragmenstein: predicting protein–ligand structures of compounds derived from known crystallographic fragment hits using a strict conserved-binding-based methodology"    
+  authors: "Matteo P. Ferla, Rubén Sánchez-García, Rachael E. Skyner, Stefan Gahbauer, Jenny C. Taylor, Frank von Delft, Brian D. Marsden, Charlotte M. Deane"
+  summary: We show that an algorithmic approach (Fragmenstein) that stitches together ligand atoms from X-ray fragment screens can provide more accurate and reliable predictions for protein-ligand complex conformation than general methods such as pharmacophore-constrained docking.
+  img: fragmenstein.png
+  programs: [ASAPPTGTTM]
+  cores: [Structural Biology Core]
+  projects: [Project 2]
+  preprint:
+    server: chemRxiv
+    date: 2024-02-26
+    url: https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-17w01
+    license: "CC-BY 4.0 International license" 
+  published:
+    doi: 10.1186/s13321-025-00946-0
+    journal: Journal of Cheminformatics
+    volume: 17
+    pages:  4
+    date: 2025-01-13
+    year: 2025
+    pmcid: PMC11731148
+
+- title: "Crystallographic fragment screening and deep mutational scanning of Zika virus NS2B-NS3 protease enable development of resistance-resilient inhibitors"    
+  authors: "Xiaomin Ni, R Blake Richardson, Andre Schutzer Godoy, Matteo P Ferla, Caroline Kikawa, Jenke Scheen, William W Hannon, Eda Capkin, Noa Lahav, Blake H Balcomb, Peter G Marples, Michael Fairhead, Siyi Wang, Eleanor P Williams, Charlie WE Tomlinson, Jasmin Cara Aschenbrenner, Ryan M Lithgo, Max Winokan, Charline Giroud, Anu V Chandran, Martin Walsh, Warren Thompson, Jesse D Bloom, Haim Barr, Karla Kirkegaard, Lizbé Koekemoer, Daren Fearon, Matthew J Evans, Frank von Delft"
+  summary: To identify binding sites that are intolerant to mutation and thus suppress the outgrowth of viruses resistant to inhibitors developed from bound fragments, we performed deep mutational scanning of NS2B-NS3 protease. 
+  img: ZIKV-NS2B-NS3-protease-DMS.jpg
+  programs: [ASAPPADTOT]
+  cores: [Antiviral Core, Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 1]
+  preprint:
+    server: bioRxiv
+    date: 2025-02-13
+    url: https://doi.org/10.1101/2024.04.29.591502
+    license: "CC-BY 4.0 International license" 
 
   
 
