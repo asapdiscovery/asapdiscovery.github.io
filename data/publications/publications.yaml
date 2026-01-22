@@ -187,7 +187,7 @@
   img: CoV-dimerization-model.jpg
   programs: [ASAPPTGTTM]
   cores: [Biochemical Assay Core]
-  projects: []
+  projects: [Project 5]
   preprint:
     server: bioRxiv
     date: 2025-01-02
@@ -207,8 +207,8 @@
   summary: We develop and benchmark a co-folding based tool for predicting the spectrum of activity of antiviral compounds.
   img: antiviral-spectrum.jpg
   programs: [ASAPPTGTTM]
-  cores: [Structural Biology Core, Biochemical Assay Core, Project 5]
-  projects: []
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 5]
   preprint:
     server: bioRxiv
     date: 2025-07-30
@@ -216,8 +216,21 @@
     license: "CC-BY 4.0 International license" 
     pmcid: PMC12324269 
 
+- title: "A Computational Community Blind Challenge on Pan-Coronavirus Drug Discovery Data"    
+  authors: "Hugo MacDermott-Opeskin, Jenke Scheen, Cas Wognum, Joshua T. Horton, Devany West, Alexander Matthew Payne, Maria A. Castellanos, and John D. Chodera"
+  summary: We report the outcomes and key insights from an open science community blind challenge focused on computational methods in drug discovery, using lead optimization data from the AI-driven Structure-enabled Antiviral Platform (ASAP) Discovery Consortium’s pan-coronavirus antiviral discovery program
+  img: polarishub-challenge.jpg
+  programs: [ASAPPTGTTM]
+  cores: [Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 5]
+  preprint:
+    server: chemRxiv
+    date: 2026-01-06
+    url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v6
+    license: "CC-BY 4.0 International license" 
 
   
 
   
+
 
