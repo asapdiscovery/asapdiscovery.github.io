@@ -276,7 +276,18 @@
     year: 2025
     pmcid: PMC11731148
 
+- title: "Crystallographic fragment screening and deep mutational scanning of Zika virus NS2B-NS3 protease enable development of resistance-resilient inhibitors"    
+  authors: "Xiaomin Ni, R Blake Richardson, Andre Schutzer Godoy, Matteo P Ferla, Caroline Kikawa, Jenke Scheen, William W Hannon, Eda Capkin, Noa Lahav, Blake H Balcomb, Peter G Marples, Michael Fairhead, Siyi Wang, Eleanor P Williams, Charlie WE Tomlinson, Jasmin Cara Aschenbrenner, Ryan M Lithgo, Max Winokan, Charline Giroud, Anu V Chandran, Martin Walsh, Warren Thompson, Jesse D Bloom, Haim Barr, Karla Kirkegaard, Lizbé Koekemoer, Daren Fearon, Matthew J Evans, Frank von Delft"
+  summary: To identify binding sites that are intolerant to mutation and thus suppress the outgrowth of viruses resistant to inhibitors developed from bound fragments, we performed deep mutational scanning of NS2B-NS3 protease. 
+  img: ZIKV-NS2B-NS3-protease-DMS.jpg
+  programs: [ASAPPADTOT]
+  cores: [Antiviral Core, Structural Biology Core, Biochemical Assay Core]
+  projects: [Project 1]
+  preprint:
+    server: bioRxiv
+    date: 2025-02-13
+    url: https://doi.org/10.1101/2024.04.29.591502
+    license: "CC-BY 4.0 International license" 
 
-  
   
 
