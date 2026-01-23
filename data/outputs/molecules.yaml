@@ -32,7 +32,11 @@ ASAP-SARS-COV-2-NSP3-MAC1:
     url: https://asapdiscovery.notion.site/SARS-COV-2-Macrodomain-Mac1-Inhibitor-Data-Release-26c94b98aff680a8908efe86bc5dbdb6
   - name: biochemical assay protocol
     url: https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-eq2ly7r2mlx9/v2
-  events: 
+  - name: ChEMBL 35 database release
+    url: https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_35/
+  - name: ChEMBL 35 announcement
+    url: https://chembl.blogspot.com/2024/12/heres-nice-christmas-gift-chembl-35-is.html
+  events:
   - date: 2023-04-30
     description: Initial public release of hit-to-lead biochemical assay data for 783 molecules.
   - date: 2023-11-07
