@@ -207,3 +207,14 @@ TEP:
       - Martin Walsh
       - Daren Fearon
       - Frank von Delft
+
+    - name: "Group deposition of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors from the ASAP AViDD centre"
+      id: eva71-2A-protease_inhibitor-screen-pdb-group-deposition
+      date: 2025-01-14
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002330
+      projects: [Project 2, Project 3]
+      cores: [Structural Biology Core]
+      description: |
+        Crystallographic structure of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors developed by the ASAP Discovery Consortium.
+
