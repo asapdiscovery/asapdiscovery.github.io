@@ -212,7 +212,7 @@ TEP:
       id: eva71-2A-protease_inhibitor-screen-pdb-group-deposition
       date: 2025-01-14
       type: pdb-group-deposition
-      url: https://www.rcsb.org/groups/summary/entry/G_1002330
+      url: https://www.rcsb.org/groups/summary/entry/G_1002329
       projects: [Project 2, Project 3]
       cores: [Structural Biology Core]
       description: |
