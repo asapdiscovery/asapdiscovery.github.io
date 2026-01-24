@@ -1,0 +1,115 @@
+# Biophysical assay and ADMET protocols
+
+# Grating-coupled interferometry (Creoptix) protocols
+- id: Creoptix_immobilization
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#Creoptix_immobilization
+  name: "Creoptix Protein Immobilization Protocol: His-tag Capture via EDC/NHS chemistry"
+  description: |
+    Comprehensive method for immobilizing His-tagged proteins on a PCH-NTA chip using the Creoptix WAVEsystem. Includes chip conditioning, protein capture, and covalent immobilization through His capture and EDC/NHS chemistry.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/creoptix-protein-immobilization-protocol-his-tag-c-4r3l2qynxl1y/v1
+  type: biophysical-assay-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-21
+    description: v1
+
+- id: Creoptix_waveRAPID_setup
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#Creoptix_waveRAPID_setup
+  name: Kinetic assay with waveRAPID grating-coupled interferometry Creoptix system
+  description: |
+    Setup of kinetic binding assays using the Creoptix waveRAPID grating-coupled interferometry system. Covers automated sample handling in 96- or 384-well formats, including DMSO corrections, control samples, and buffer blanks.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/kinetic-assay-with-waverapid-grating-coupled-inte-j8nlk87xwl5r/v1
+  type: biophysical-assay-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-24
+    description: v1
+
+- id: Creoptix_data_analysis
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#Creoptix_data_analysis
+  name: Data Analysis waveRAPID using Creoptix WAVEsystem
+  description: |
+    Data analysis workflow for the Creoptix WAVEsystem using Repeated Analyte Pulses of Increasing Duration (RAPID) method. Covers blank and DMSO corrections, and kinetic analysis using a 1:1 binding model.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-5jyl823ydl2w/v1
+  type: biophysical-assay-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-21
+    description: v1
+
+- id: ZIKV_NS2B-NS3_GCI_binding
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#ZIKV_NS2B-NS3_GCI_binding
+  name: Zika virus NS2B-NS3 protease binding assay for compound screen using grating-coupled interferometry
+  description: |
+    Protocol to measure kinetic parameters (ka, kd, and KD) for compounds against Zika virus NS2B-NS3 protease using the Creoptix Wave system with the RAPID method.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-binding-assay-for-com-n92ld8o79v5b/v1
+  type: biophysical-assay-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-24
+    description: v1
+
+# ADMET protocols
+- id: solubility_shake_flask
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#solubility_shake_flask
+  name: Shake-Flask Aqueous Solubility assay (Kinetic solubility)
+  description: |
+    Kinetic solubility method for early-stage drug discovery. Solid compounds dissolved in DMSO are added to aqueous buffer and observed for precipitate formation. Concentration measured by UV or LC-MS/MS.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/shake-flask-aqueous-solubility-assay-kinetic-solub-j8nlk8y41l5r/v1
+  type: admet-protocol
+  cores: [ADMET Core]
+  events:
+  - date: 2024-12-09
+    description: v1
+
+- id: LogP_LogD_shake_flask
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#LogP_LogD_shake_flask
+  name: LogP / LogD shake-flask method
+  description: |
+    Lipophilicity measurement using the shake flask method, considered the gold standard for determining log D. LogD measures distribution coefficient as a function of pH.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/logp-logd-shake-flask-method-e6nvw14kdlmk/v1
+  type: admet-protocol
+  cores: [ADMET Core]
+  events:
+  - date: 2024-09-23
+    description: v1
+
+- id: MDR1_MDCKII_permeability
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#MDR1_MDCKII_permeability
+  name: Assessing Intestinal and CNS Permeability with MDR1-MDCKII Cells
+  description: |
+    Protocol for measuring the rate of flux across MDR1-MDCKII cell monolayers to identify intestinal or CNS permeability and predict brain penetration potential.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/assessing-intestinal-and-cns-permeability-with-mdr-n2bvjne6ngk5/v1
+  type: admet-protocol
+  cores: [ADMET Core]
+  events:
+  - date: 2024-12-09
+    description: v1
+
+- id: microsomal_stability
+  permalink: http://asapdiscovery.org/outputs/biophysical-protocols/#microsomal_stability
+  name: Microsomal stability assay for human and mouse liver microsomes
+  description: |
+    Key ADMET parameter assessing compound susceptibility to liver metabolism. Provides elimination constant, half-life, and intrinsic clearance using human or mouse microsomes.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv-5qpvokdb9l4o/v1
+  type: admet-protocol
+  cores: [ADMET Core]
+  events:
+  - date: 2024-12-09
+    description: v1

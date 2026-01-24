@@ -1,0 +1,582 @@
+# Unified protocols database for ASAP Discovery
+# All protocols with consistent tags for filtering
+
+# Biochemical Assay Protocols
+- name: MERS-CoV Mpro fluorescence dose response for antiviral testing
+  url: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-eq2ly7r1rlx9/v5
+  category: Biochemical Assay
+  target: MERS-CoV Mpro
+  author: Noa Lahav
+  date: 2025-06-08
+
+- name: SARS-CoV-2 Mpro fluorescence dose response
+  url: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-81wgbye9nvpk/v5
+  category: Biochemical Assay
+  target: SARS-CoV-2 Mpro
+  author: Noa Lahav
+  date: 2025-06-20
+
+- name: SARS-CoV-2 nsp3 macrodomain Time-Resolved FRET peptide displacement assay
+  url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-eq2ly7r2mlx9/v5
+  category: Biochemical Assay
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Noa Lahav
+  date: 2025-08-09
+
+- name: "Screening compounds that inhibit SARS-CoV-2 nsp3 macrodomain: ADP-Ribose quantification by LC/MS-MS"
+  url: https://www.protocols.io/view/screening-compounds-that-inhibit-sars-cov-2-nsp3-m-8epv5rpydg1b/v1
+  category: Biochemical Assay
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Noa Lahav
+  date: 2025-06-20
+
+- name: "Flaviviruses (West Nile, Zika, Dengue serotypes 1-4) NS2B-NS3 protease fluorescence dose response"
+  url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-q26g7yebkgwz/v4
+  category: Biochemical Assay
+  target: Flavivirus NS2B-NS3
+  author: Noa Lahav
+  date: 2025-06-20
+
+- name: Enteroviruses (EV-D68/EV-A71) 3C and EVA71-2A proteases fluorescence assay
+  url: https://www.protocols.io/view/enteroviruses-ev-d68-ev-a71-3c-and-eva71-2a-protea-j8nlk8kb5l5r/v1
+  category: Biochemical Assay
+  target: Enterovirus 3C/2A
+  author: Noa Lahav
+  date: 2025-06-20
+
+- name: Fluorescence assay for Enterovirus A71 3C protease activity measurement
+  url: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-14egn6zjql5d/v3
+  category: Biochemical Assay
+  target: EV-A71 3C protease
+  author: Charline Giroud
+  date: 2025-06-04
+
+- name: Fluorescence assay for Enterovirus D68 3C protease activity measurement
+  url: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-d68-3c-protease-261ge54jyg47/v3
+  category: Biochemical Assay
+  target: EV-D68 3C protease
+  author: Charline Giroud
+  date: 2025-06-04
+
+- name: Fluorescence assay for Enterovirus coxsackievirus A16 2A protease activity measurement
+  url: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-q26g7186qgwz/v2
+  category: Biochemical Assay
+  target: CVA16 2A protease
+  author: Charline Giroud
+  date: 2025-05-21
+
+- name: Fluorescence assay for MERS-CoV Mpro activity measurement (CMD)
+  url: https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-activity-meas-8epv5rzm4g1b/v2
+  category: Biochemical Assay
+  target: MERS-CoV Mpro
+  author: Charline Giroud
+  date: 2025-06-20
+
+- name: Assay for screening of compounds that inhibit DENV-2 NS2B-NS3 protease
+  url: https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-kqdg32m87v25/v1
+  category: Biochemical Assay
+  target: DENV NS2B-NS3
+  author: Enamine
+  date: 2025-08-04
+
+- name: Assay for screening of compounds that inhibit ZIKV NS2B-NS3 protease
+  url: https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-36wgqn273gk5/v1
+  category: Biochemical Assay
+  target: ZIKV NS2B-NS3
+  author: Enamine
+  date: 2025-08-04
+
+# Crystallization Protocols
+- name: Crystallisation of SARS-CoV-2 Mpro in P212121 for compound soaking
+  url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-261ge5emyg47/v2
+  category: Crystallization
+  target: SARS-CoV-2 Mpro
+  author: Blake Balcomb
+  date: 2025-05-13
+
+- name: Crystallisation of MERS-CoV Mpro in C2221 for compound soaking
+  url: https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-8epv5rn84g1b/v2
+  category: Crystallization
+  target: MERS-CoV Mpro
+  author: Blake Balcomb
+  date: 2025-05-13
+
+- name: Crystallisation of SARS-CoV-2 N Protein
+  url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-n-protein-4r3l2q4b3l1y/v1
+  category: Crystallization
+  target: SARS-CoV-2 N protein
+  author: Peter Marples
+  date: 2024-04-26
+
+- name: Crystallization of SARS-CoV-2 nsp15 NendoU
+  url: https://www.protocols.io/view/crystallization-of-sars-cov-2-nsp15-nendou-36wgqn4yogk5/v1
+  category: Crystallization
+  target: SARS-CoV-2 nsp15
+  author: Peter Marples
+  date: 2024-04-26
+
+- name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1
+  url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-261ge5ej7g47/v1
+  category: Crystallization
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Jasmin Aschenbrenner
+  date: 2024-08-19
+
+- name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P43
+  url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-e6nvw1qb2lmk/v2
+  category: Crystallization
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Peter Marples
+  date: 2025-08-21
+
+- name: Co-crystallisation protocol for SARS-CoV-2 nsp3 macrodomain with ligands
+  url: https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-n2bvjnb9bgk5/v1
+  category: Crystallization
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Jasmin Aschenbrenner
+  date: 2024-08-19
+
+- name: Crystallization of Enterovirus A71 3C protease (PDB 8CNY)
+  url: https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-a71-3-yxmvm3e89l3p/v2
+  category: Crystallization
+  target: EV-A71 3C protease
+  author: Ryan Lithgo
+  date: 2025-04-30
+
+- name: Crystallisation of Enterovirus D68 3C protease (PDB 8CNX)
+  url: https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-d68-3-n92ldm6jnl5b/v2
+  category: Crystallization
+  target: EV-D68 3C protease
+  author: Ryan Lithgo
+  date: 2025-04-25
+
+- name: Crystallisation of Enterovirus D68 3C protease in P21
+  url: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-rm7vzjp45lx1/v2
+  category: Crystallization
+  target: EV-D68 3C protease
+  author: Peter Marples
+  date: 2025-06-05
+
+- name: Crystallisation of CVA16 2A protease (PDB 8POA)
+  url: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-3byl49kdzgo5/v2
+  category: Crystallization
+  target: CVA16 2A protease
+  author: Ryan Lithgo
+  date: 2025-04-25
+
+- name: Crystal structure of EV-A71 2A protease mutant C110A (PDB 9FGO)
+  url: https://www.protocols.io/view/crystal-structure-of-enterovirus-a71-2a-protease-m-n92ld8yj8v5b/v1
+  category: Crystallization
+  target: EV-A71 2A protease
+  author: Xiaomin Ni
+  date: 2025-04-25
+
+- name: Crystallization of Zika virus NS2B-NS3 protease (PDB 8PN6)
+  url: https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-eq2lyj51mlx9/v2
+  category: Crystallization
+  target: ZIKV NS2B-NS3
+  author: Xiaomin Ni
+  date: 2025-04-17
+
+- name: Crystallisation of West Nile virus NS2B-NS3 protease (PDB 8CO8)
+  url: https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-x54v9293zl3e/v2
+  category: Crystallization
+  target: WNV NS2B-NS3
+  author: Blake Balcomb
+  date: 2025-06-05
+
+- name: Crystallization of Zika virus NS3 helicase
+  url: https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-e6nvw152dlmk/v2
+  category: Crystallization
+  target: ZIKV NS3 helicase
+  author: Peter Marples
+  date: 2025-07-25
+
+- name: Crystallisation of Zika NS5 RdRp
+  url: https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-5jyl82746l2w/v1
+  category: Crystallization
+  target: ZIKV NS5 RdRp
+  author: Anu Chandran
+  date: 2024-10-02
+
+- name: "READDI: Crystallisation of CHIKV nsP3 macrodomain"
+  url: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-j8nlk8qzdl5r/v2
+  category: Crystallization
+  target: CHIKV nsP3 macrodomain
+  author: Peter Marples
+  date: 2024-10-07
+
+- name: XChem crystallographic fragment screening
+  url: https://www.protocols.io/view/xchem-crystallographic-fragment-screening-n2bvjnzwxgk5/v1
+  category: Crystallization
+  target: General
+  author: Peter Marples
+  date: 2025-02-18
+
+- name: XChem solvent test
+  url: https://www.protocols.io/view/xchem-solvent-test-5jyl82518l2w/v1
+  category: Crystallization
+  target: General
+  author: Peter Marples
+  date: 2025-02-18
+
+- name: Diamond XChem Seeding Protocol
+  url: https://www.protocols.io/view/diamond-xchem-seeding-protocol-kxygx3nwog8j/v1
+  category: Crystallization
+  target: General
+  author: Peter Marples
+  date: 2023-12-19
+
+# Protein Production Protocols
+- name: "PREPX: large scale 1 L cultures"
+  url: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-4r3l22jkxl1y/v1
+  category: Protein Production
+  target: General
+  author: Michael Fairhead
+  date: 2024-01-30
+
+- name: "PREPX: 48x 100 mL cultures"
+  url: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-yxmvm35zbl3p/v2
+  category: Protein Production
+  target: General
+  author: Michael Fairhead
+  date: 2024-02-08
+
+- name: Bubble Column Bioreactor setup for large-scale expression
+  url: https://www.protocols.io/view/master-setup-and-operation-of-single-use-sub-bubbl-n92ld897ov5b/v1
+  category: Protein Production
+  target: General
+  author: Nathan Wright
+  date: 2025-05-27
+
+- name: SARS-CoV-2 Mpro small scale expression and purification
+  url: https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-rm7vzj8p8lx1/v2
+  category: Protein Production
+  target: SARS-CoV-2 Mpro
+  author: Korvus Wang
+  date: 2025-06-20
+
+- name: MERS-CoV Mpro large scale purification
+  url: https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-bp2l62b11gqe/v2
+  category: Protein Production
+  target: MERS-CoV Mpro
+  author: Korvus Wang
+  date: 2025-06-20
+
+- name: SARS-CoV-2 nsp3 macrodomain expression for crystallization
+  url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-dm6gpz9xplzp/v2
+  category: Protein Production
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Korvus Wang
+  date: 2025-06-05
+
+- name: SARS-CoV-2 nsp3 macrodomain His-SUMO expression for crystallization
+  url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-n92ld8jm8v5b/v2
+  category: Protein Production
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Korvus Wang
+  date: 2025-06-05
+
+- name: SARS-CoV-2 nsp3 macrodomain His-tagged expression for assay
+  url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-4r3l2qb9jl1y/v3
+  category: Protein Production
+  target: SARS-CoV-2 nsp3 macrodomain
+  author: Korvus Wang
+  date: 2025-06-17
+
+- name: Enterovirus D68 3C protease small scale expression
+  url: https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expression-dm6gpzrkdlzp/v2
+  category: Protein Production
+  target: EV-D68 3C protease
+  author: Korvus Wang
+  date: 2025-04-22
+
+- name: Enterovirus D68 3C protease large scale purification
+  url: https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-n92ld8yd7v5b/v2
+  category: Protein Production
+  target: EV-D68 3C protease
+  author: Korvus Wang
+  date: 2025-07-29
+
+- name: His-SUMO Tagged EV-D68 Strain STL 2014 12 3C Protease expression
+  url: https://www.protocols.io/view/small-scale-expression-and-purification-protocol-f-n92ld8rnov5b/v1
+  category: Protein Production
+  target: EV-D68 3C protease
+  author: Korvus Wang
+  date: 2025-04-25
+
+- name: Enterovirus A71 3C protease small scale expression
+  url: https://www.protocols.io/view/enterovirus-a71-3c-protease-small-scale-expressio-36wgqndzogk5/v1
+  category: Protein Production
+  target: EV-A71 3C protease
+  author: Korvus Wang
+  date: 2025-04-23
+
+- name: Enterovirus A71 3C protease large scale purification
+  url: https://www.protocols.io/view/enterovirus-a71-3c-protease-large-scale-purificati-eq2lyw6rqvx9/v1
+  category: Protein Production
+  target: EV-A71 3C protease
+  author: Korvus Wang
+  date: 2025-07-29
+
+- name: CVA16 2A protease small scale expression
+  url: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-rm7vzj3y5lx1/v3
+  category: Protein Production
+  target: CVA16 2A protease
+  author: Korvus Wang
+  date: 2025-04-22
+
+- name: DENV2 NS2B-NS3 co-expression small scale
+  url: https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-rm7vzj362lx1/v3
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2024-06-10
+
+- name: DENV2 NS2B-NS3 fusion for Creoptix and biochemical assays
+  url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-4r3l2qqdpl1y/v2
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-08-28
+
+- name: DENV2 NS2B-NS3 fusion small scale expression
+  url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dm6gp9e41vzp/v3
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: DENV1 NS2B-NS3 fusion small scale expression
+  url: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-q26g71qw8gwz/v3
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: "DENV3 NS2B-NS3 fusion: 100 mL PREPX cultures"
+  url: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-c-bp2l62jzkgqe/v3
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: "DENV4 NS2B-NS3 fusion: 100 mL PREPX cultures"
+  url: https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-5jyl824x9l2w/v2
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: DENV2 NS2B-NS3 Avi-tagged (biotinylated) large scale expression
+  url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p-bp2l62xodgqe/v1
+  category: Protein Production
+  target: DENV NS2B-NS3
+  author: Michael Fairhead
+  date: 2025-06-04
+
+- name: Zika NS2B-NS3 co-expression small scale
+  url: https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-3byl49mrrgo5/v2
+  category: Protein Production
+  target: ZIKV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-20
+
+- name: Zika NS2B-NS3 fusion for assay small scale expression
+  url: https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-eq2lyw6jpvx9/v2
+  category: Protein Production
+  target: ZIKV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: Zika NS2B-NS3 his10-tagged for biophysical assay large scale
+  url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-his10-n92ld8o17v5b/v1
+  category: Protein Production
+  target: ZIKV NS2B-NS3
+  author: Michael Fairhead
+  date: 2024-10-23
+
+- name: West Nile virus NS2B-NS3 fusion small scale expression
+  url: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-261ge5rrwg47/v3
+  category: Protein Production
+  target: WNV NS2B-NS3
+  author: Korvus Wang
+  date: 2025-06-04
+
+- name: West Nile Virus NS2B-NS3 inactive fusion large scale expression
+  url: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-protein-e-261gerppjl47/v2
+  category: Protein Production
+  target: WNV NS2B-NS3
+  author: Michael Fairhead
+  date: 2025-06-05
+
+- name: Zika NS5 RdRp His-SUMO small scale expression
+  url: https://www.protocols.io/view/zika-ns5-rdrp-his-sumo-construct-small-scale-expre-3byl49wx2go5/v1
+  category: Protein Production
+  target: ZIKV NS5 RdRp
+  author: Korvus Wang
+  date: 2024-08-08
+
+- name: Zika NS5 RdRp His-Trx small scale expression
+  url: https://www.protocols.io/view/zika-ns5-rdrp-histidine-thioredoxin-tagged-constru-rm7vzjkq2lx1/v1
+  category: Protein Production
+  target: ZIKV NS5 RdRp
+  author: Korvus Wang
+  date: 2025-04-22
+
+# Biophysical Assay Protocols
+- name: "Creoptix Protein Immobilization: His-tag Capture via EDC/NHS"
+  url: https://www.protocols.io/view/creoptix-protein-immobilization-protocol-his-tag-c-4r3l2qynxl1y/v1
+  category: Biophysical Assay
+  target: General
+  author: Eda Capkin
+  date: 2025-02-21
+
+- name: Kinetic assay with waveRAPID Creoptix system
+  url: https://www.protocols.io/view/kinetic-assay-with-waverapid-grating-coupled-inte-j8nlk87xwl5r/v1
+  category: Biophysical Assay
+  target: General
+  author: Eda Capkin
+  date: 2025-02-24
+
+- name: Data Analysis waveRAPID using Creoptix WAVEsystem
+  url: https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-5jyl823ydl2w/v1
+  category: Biophysical Assay
+  target: General
+  author: Eda Capkin
+  date: 2025-02-21
+
+- name: Zika virus NS2B-NS3 protease binding assay using GCI
+  url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-binding-assay-for-com-n92ld8o79v5b/v1
+  category: Biophysical Assay
+  target: ZIKV NS2B-NS3
+  author: Eda Capkin
+  date: 2025-02-24
+
+- name: ITC protocol for EV-A71 2A protease binding studies
+  url: https://www.protocols.io/view/isothermal-titration-calorimetry-protocol-for-bind-bp2l627bkgqe/v1
+  category: Biophysical Assay
+  target: EV-A71 2A protease
+  author: Eda Capkin
+  date: 2025-04-25
+
+# ADMET Protocols
+- name: Shake-Flask Aqueous Solubility assay (Kinetic solubility)
+  url: https://www.protocols.io/view/shake-flask-aqueous-solubility-assay-kinetic-solub-j8nlk8y41l5r/v1
+  category: ADMET
+  target: General
+  author: Enamine
+  date: 2024-12-09
+
+- name: LogP / LogD shake-flask method
+  url: https://www.protocols.io/view/logp-logd-shake-flask-method-e6nvw14kdlmk/v1
+  category: ADMET
+  target: General
+  author: Enamine
+  date: 2024-09-23
+
+- name: Assessing Intestinal and CNS Permeability with MDR1-MDCKII Cells
+  url: https://www.protocols.io/view/assessing-intestinal-and-cns-permeability-with-mdr-n2bvjne6ngk5/v1
+  category: ADMET
+  target: General
+  author: Enamine
+  date: 2024-12-09
+
+- name: Microsomal stability assay for human and mouse liver microsomes
+  url: https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv-5qpvokdb9l4o/v1
+  category: ADMET
+  target: General
+  author: Enamine
+  date: 2024-12-09
+
+# Antiviral Assay Protocols
+- name: Live Virus SARS-CoV-2 - HeLa-ACE2 - Antiviral Screening
+  url: https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-yxmvmee4ng3p/v1
+  category: Antiviral Assay
+  target: SARS-CoV-2
+  author: Briana McGovern
+  date: 2025-03-18
+
+- name: Live Virus SARS-CoV-2 - iPSC Pneumocyte - Antiviral Screening
+  url: https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-36wgqne6kgk5/v1
+  category: Antiviral Assay
+  target: SARS-CoV-2
+  author: Briana McGovern
+  date: 2025-08-03
+
+- name: Live Virus MERS-CoV - Vero-TMPRSS2 - Antiviral Screening
+  url: https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-5qpvok2b7l4o/v1
+  category: Antiviral Assay
+  target: MERS-CoV
+  author: Briana McGovern
+  date: 2025-08-03
+
+- name: Live Virus Zika - Vero-TMPRSS2 - Antiviral Screening
+  url: https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-x54v92xj1l3e/v1
+  category: Antiviral Assay
+  target: ZIKV
+  author: Briana McGovern
+  date: 2025-08-04
+
+- name: Live Virus Dengue - Vero-TMPRSS2 - Antiviral Screening
+  url: https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-14egn6d5ml5d/v1
+  category: Antiviral Assay
+  target: DENV
+  author: Briana McGovern
+  date: 2025-08-04
+
+- name: Cytotoxicity Screening Assay - Paired with Antiviral Assays
+  url: https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-bp2l62mozgqe/v1
+  category: Antiviral Assay
+  target: General
+  author: Briana McGovern
+  date: 2025-03-18
+
+- name: iPSC Pneumocyte SARS-CoV-2 Cytotoxicity Screening
+  url: https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-8epv5rm96g1b/v1
+  category: Antiviral Assay
+  target: SARS-CoV-2
+  author: Briana McGovern
+  date: 2025-08-03
+
+- name: SARS-CoV-2 Antiviral Immunofluorescence staining
+  url: https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-261ge5jnog47/v1
+  category: Antiviral Assay
+  target: SARS-CoV-2
+  author: Briana McGovern
+  date: 2025-03-18
+
+- name: MERS-CoV Antiviral Immunofluorescence staining
+  url: https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-x54v926qml3e/v1
+  category: Antiviral Assay
+  target: MERS-CoV
+  author: Briana McGovern
+  date: 2025-08-03
+
+- name: ZIKA Antiviral Immunofluorescence staining
+  url: https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-14egn6kzyl5d/v1
+  category: Antiviral Assay
+  target: ZIKV
+  author: Briana McGovern
+  date: 2025-08-04
+
+- name: 50% Tissue Culture Infectious Dose (TCID50) for SARS-CoV-2
+  url: https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-dm6gpzz28lzp/v2
+  category: Antiviral Assay
+  target: SARS-CoV-2
+  author: Briana McGovern
+  date: 2025-08-04
+
+- name: Calculating Multiplicity of Infection (MOI)
+  url: https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-rm7vzj1wrlx1/v1
+  category: Antiviral Assay
+  target: General
+  author: Briana McGovern
+  date: 2025-03-18
+
+- name: Generating Antiviral & Cytotoxicity Curves
+  url: https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-e6nvw12kzlmk/v1
+  category: Antiviral Assay
+  target: General
+  author: Briana McGovern
+  date: 2025-03-18

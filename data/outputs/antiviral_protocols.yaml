@@ -1,0 +1,239 @@
+# Live virus antiviral screening assay protocols
+
+- id: SARS-CoV-2_HeLa-ACE2_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#SARS-CoV-2_HeLa-ACE2_antiviral
+  name: Live Virus SARS-CoV-2 - HeLa-ACE2 - Antiviral Screening Assay
+  description: |
+    Protocol for live virus antiviral screening against SARS-CoV-2 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted. IC50 values are generated via immunofluorescent staining analysis. Each live virus screening assay is accompanied by a matching cytotoxicity screening assay.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-yxmvmee4ng3p/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: SARS-CoV-2_iPSC-pneumocyte_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#SARS-CoV-2_iPSC-pneumocyte_antiviral
+  name: Live Virus SARS-CoV-2 - iPSC Pneumocyte - Antiviral Screening
+  description: |
+    Protocol for live virus antiviral screening against SARS-CoV-2 in iPSC pneumocyte cells. These cells provide a more physiologically relevant model for SARS-CoV-2 infection. IC50 values are generated via immunofluorescent staining analysis.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-36wgqne6kgk5/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-03
+    description: v1
+
+- id: SARS-CoV-1_A549-ACE2_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#SARS-CoV-1_A549-ACE2_antiviral
+  name: A549-ACE2 SARS-CoV-1 antiviral effect screening assay
+  description: |
+    Protocol to evaluate the antiviral efficacy of compounds against SARS-CoV-1 infection using A549-ACE2 cells (A549 human lung adenocarcinoma cells stably transfected to express ACE2 receptors).
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/a549-ace2-sars-cov-1-antiviral-effect-screening-as-6qpvrw6z2lmk/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-10-26
+    description: v1
+
+- id: MERS-CoV_Vero-TMPRSS2_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#MERS-CoV_Vero-TMPRSS2_antiviral
+  name: Live Virus MERS-CoV - Vero-TMPRSS2 + Pgp Inhibitor - Antiviral Screening Assay
+  description: |
+    Protocol for live virus antiviral screening against MERS-CoV EMC2012 in vitro using Vero-TMPRSS2 cells. IC50 values are generated via immunofluorescent staining analysis.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-5qpvok2b7l4o/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-03
+    description: v1
+
+- id: Zika_Vero-TMPRSS2_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#Zika_Vero-TMPRSS2_antiviral
+  name: Live Virus Zika - Vero-TMPRSS2 + PGP Inhibitor - Antiviral Screening Assay
+  description: |
+    Protocol for live virus antiviral screening against Zika virus in vitro using Vero-TMPRSS2 cells. IC50 values are generated via immunofluorescent staining analysis.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-x54v92xj1l3e/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-04
+    description: v1
+
+- id: Dengue_Vero-TMPRSS2_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#Dengue_Vero-TMPRSS2_antiviral
+  name: Live Virus Dengue - Vero-TMPRSS2 + PGP Inhibitor - Antiviral Screening Assay
+  description: |
+    Protocol for live virus antiviral screening against Dengue virus in vitro using Vero-TMPRSS2 cells. IC50 values are generated via immunofluorescent staining analysis.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-14egn6d5ml5d/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-04
+    description: v1
+
+- id: EVD68_RD-cells_antiviral
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#EVD68_RD-cells_antiviral
+  name: Live Virus EV-D68 - on RD cells - Antiviral Screening Assay
+  description: |
+    Protocol for live virus antiviral screening against EV-D68 in vitro on Rhabdomyosarcoma (RD) cells. IC50 values are generated via analysis of MTT/MTS data as a readout of CPE (cytopathic effect).
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/live-virus-ev-d68-on-rd-cells-antiviral-screening-261gek27og47/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-10-26
+    description: v1
+
+- id: SARS-CoV-2_IF-staining
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#SARS-CoV-2_IF-staining
+  name: SARS-CoV-2 Antiviral Immunofluorescence staining Protocol
+  description: |
+    Immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody and Alexa Fluor 488-conjugated secondary antibody for quantification of viral infection.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-261ge5jnog47/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: MERS-CoV_IF-staining
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#MERS-CoV_IF-staining
+  name: MERS-CoV Antiviral Immunofluorescence staining Protocol
+  description: |
+    Immunofluorescence staining protocol for fixed MERS-CoV infected cells for quantification of viral infection.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-x54v926qml3e/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-03
+    description: v1
+
+- id: Zika_IF-staining
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#Zika_IF-staining
+  name: ZIKA Antiviral Immunofluorescence staining Protocol
+  description: |
+    Immunofluorescence staining protocol for fixed Zika virus infected cells for quantification of viral infection.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-14egn6kzyl5d/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-04
+    description: v1
+
+- id: cytotoxicity_screening
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#cytotoxicity_screening
+  name: Cytotoxicity Screening Assay - Paired with Antiviral Assays
+  description: |
+    Cytotoxicity protocol to be paired with live virus antiviral screening. CC50 values are generated via analysis of MTT/MTS assays in uninfected cells.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-bp2l62mozgqe/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: iPSC-pneumocyte_cytotoxicity
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#iPSC-pneumocyte_cytotoxicity
+  name: iPSC Pneumocyte Live Virus SARS-CoV-2 Cytotoxicity Screening Assay
+  description: |
+    Immunofluorescence-based cytotoxicity assay for iPSC pneumocytes paired with SARS-CoV-2 antiviral screening assays.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-8epv5rm96g1b/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-03
+    description: v1
+
+- id: TCID50_SARS-CoV-2
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#TCID50_SARS-CoV-2
+  name: 50% Tissue Culture Infectious Dose (TCID50) for SARS-CoV-2
+  description: |
+    Protocol to establish a reliable TCID50 screening assay for quantifying SARS-CoV-2 infectivity in cell culture systems. Used to titer both animal tissue samples and viral stocks at BSL-3.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-dm6gpzz28lzp/v2
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-08-04
+    description: v2
+
+- id: MOI_calculation
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#MOI_calculation
+  name: Calculating Multiplicity of Infection (MOI)
+  description: |
+    Multiplicity of infection (MOI) is the ratio of viral particles to cells. The ideal MOI for antiviral screenings depends on the cell type, cell passage, virus type, and number of cells.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-rm7vzj1wrlx1/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: antiviral_curves
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#antiviral_curves
+  name: Generating Antiviral & Cytotoxicity Curves
+  description: |
+    Protocol for generating antiviral and cytotoxicity dose-response curves from screening data.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-e6nvw12kzlmk/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: Tecan_D300e
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#Tecan_D300e
+  name: Using the Tecan D300e
+  description: |
+    Protocol for using Tecan D300e digital dispenser for serial dilution in antiviral screening assays.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/using-the-tecan-d300e-x54v92r1pl3e/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2025-03-18
+    description: v1
+
+- id: influenza_plaque_assay
+  permalink: http://asapdiscovery.org/outputs/antiviral-protocols/#influenza_plaque_assay
+  name: Influenza virus plaque assay
+  description: |
+    Determine virus concentration from cell culture, lung homogenates, and more. This protocol measures virus in plaque forming units per ml solution using a semi-solid overlay (Avicel) as opposed to agarose.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/influenza-virus-plaque-assay-n2bvj63bxlk5/v1
+  type: antiviral-assay-protocol
+  cores: [Antiviral Assay Core]
+  events:
+  - date: 2022-03-16
+    description: v1

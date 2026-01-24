@@ -1,0 +1,253 @@
+# Crystallization protocols for ASAP Discovery targets
+
+- id: SARS-CoV-2_Mpro_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_Mpro_crystallization
+  name: Crystallisation of SARS-CoV-2 Mpro
+  description: |
+    The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies for pandemic preparedness against Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). This protocol outlines the crystallization protocol and buffer conditions used to obtain reproducible SARS-CoV-2 Mpro crystals suitable for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-261ge5emyg47/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-05-13
+    description: v2
+
+- id: MERS-CoV_Mpro_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#MERS-CoV_Mpro_crystallization
+  name: Crystallisation of MERS-CoV Mpro
+  description: |
+    MERS-CoV is a zoonotic virus that was first discovered in 2012. The disease has spread rapidly with large outbreaks as recent as 2015 and 2018. Currently there is no therapeutic intervention for MERS-CoV with 35% of reported cases resulting in human death. This protocol details crystallization conditions for MERS-CoV Mpro suitable for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-8epv5rn84g1b/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-05-13
+    description: v2
+
+- id: SARS-CoV-2_N-protein_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_N-protein_crystallization
+  name: Crystallisation of SARS-CoV-2 C terminal nucleocapsid protein for fragment screening and compound soaking
+  description: |
+    The crystallization protocol and buffer conditions used to obtain reproducible SARS CoV-2 Nucleocapsid crystals suitable for XChem fragment screening. Includes Addgene id, expression and purification protocol, solvent tolerance test and compound/fragment soaking conditions.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-8epv5r8ydg1b/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-10-16
+    description: v2
+
+- id: SARS-CoV-2_nsp15_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_nsp15_crystallization
+  name: Crystallization of SARS-CoV-2 nsp15 NendoU
+  description: |
+    The NSP15 endoribonuclease enzyme, known as NendoU, is highly conserved and plays a critical role in the ability of the virus to evade the immune system. NendoU is a promising target for the development of new antiviral drugs. This protocol was used to grow SARS CoV-2 NSP15 crystals for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallization-of-sars-cov-2-nsp15-nendou-36wgqn4yogk5/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2024-04-26
+    description: v1
+
+- id: SARS-CoV-2_nsp3-mac_P1211_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_nsp3-mac_P1211_crystallization
+  name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1
+  description: |
+    This protocol details an optimized crystallization method for the SARS-CoV-2 nsp3 macrodomain. Using sitting drop vapor diffusion with seeding, it yields crystals that diffract to an average resolution of 1.5 Å, enabling high-resolution structural studies for compound development.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-261ge5ej7g47/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2024-08-19
+    description: v1
+
+- id: SARS-CoV-2_nsp3-mac_P43_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_nsp3-mac_P43_crystallization
+  name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P43
+  description: |
+    This protocol details an optimized crystallization method for the SARS-CoV-2 nsp3 macrodomain in space group P43. The method yields crystals that diffract to an average resolution of 1.2 Å, enabling high-resolution structural studies.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-e6nvw1qb2lmk/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-08-21
+    description: v2
+
+- id: SARS-CoV-2_nsp3-mac_cocrystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#SARS-CoV-2_nsp3-mac_cocrystallization
+  name: Co-crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1 with ligands
+  description: |
+    This protocol details an optimized co-crystallization method for producing high-quality crystals of ligand-bound SARS-CoV-2 nsp3 macrodomain using sitting drop vapor diffusion with seeding.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-n2bvjnb9bgk5/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2024-08-19
+    description: v1
+
+- id: EVA71_3C_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#EVA71_3C_crystallization
+  name: Crystallization of Enterovirus A71 3C protease in C2221 (PDB 8CNY)
+  description: |
+    The crystallization protocol and buffer conditions used to obtain Enterovirus A71 3C protease crystals suitable for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-a71-3-yxmvm3e89l3p/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-04-30
+    description: v2
+
+- id: EVD68_3C_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#EVD68_3C_crystallization
+  name: Crystallisation of Enterovirus D68 3C protease in space group P212121 (PDB 8CNX)
+  description: |
+    The development of effective broad-spectrum antivirals forms an important part of preparing for future pandemics. The 3C protease of EV-D68 is a potential target for the development of antiviral drugs due to its essential role in the viral life cycle and high sequence conservation.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-d68-3-n92ldm6jnl5b/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-04-25
+    description: v2
+
+- id: CVA16_2A_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#CVA16_2A_crystallization
+  name: Crystallisation of Enterovirus coxsackievirus A16 2A protease in space group C2 (PDB 8POA)
+  description: |
+    Picornaviridae coxsackievirus A16 is the causative agent of paediatric hand-foot-and-mouth disease. The 2A protease is responsible for self-cleavage from the polyprotein, making it a valuable target for antiviral activity. This protocol was used to grow crystals for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-3byl49kdzgo5/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-04-25
+    description: v2
+
+- id: ZIKV_NS2B-NS3_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#ZIKV_NS2B-NS3_crystallization
+  name: Crystallization of Zika virus NS2B-NS3 protease (closed conformation in space group P4322 | PDB ID 8PN6)
+  description: |
+    Zika virus infections cause microcephaly in new-borns and Guillain-Barre syndrome in adults. The viral NS3 protease with its NS2B cofactor is essential for polyprotein cleavage and is an attractive drug target. This protocol describes crystallization conditions suitable for fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-eq2lyj51mlx9/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-04-17
+    description: v2
+
+- id: ZIKV_NS3-helicase_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#ZIKV_NS3-helicase_crystallization
+  name: Crystallization of Zika virus NS3 helicase
+  description: |
+    The NS3 helicase (NS3Hel) protein plays critical roles in viral replication. This protocol was used to grow Zika NS3 helicase crystals for high-throughput crystallographic fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-e6nvw152dlmk/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-07-25
+    description: v2
+
+- id: ZIKV_NS5-RdRp_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#ZIKV_NS5-RdRp_crystallization
+  name: Crystallisation of Zika NS5 RdRp
+  description: |
+    The Zika NS5 RDRP domain was cloned, expressed, purified, and crystallised for X-ray fragment-based screening. A native high-resolution structure was determined at 1.8 Å.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-5jyl82746l2w/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2024-10-02
+    description: v1
+
+- id: WNV_NS2B-NS3_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#WNV_NS2B-NS3_crystallization
+  name: Crystallisation of West Nile virus NS2B-NS3 protease in P64 (PDB ID 8CO8)
+  description: |
+    West Nile virus NS2B-NS3 protease was crystallized using vapor diffusion in Morpheus screen conditions at pH 8.5. Hexagonal rod-shaped crystals grew to ~50 μm in length after 14 days at 20°C and diffracted to 1.91 Å resolution.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-x54v9293zl3e/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-06-05
+    description: v2
+
+- id: CHIKV_nsP3-mac_crystallization
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#CHIKV_nsP3-mac_crystallization
+  name: "READDI protocol: Crystallisation of CHIKV nsP3 macrodomain"
+  description: |
+    Chikungunya virus (CHIKV) causes severe fever, rash and debilitating joint pain. This protocol describes crystallization conditions for CHIKV nsP3 macrodomain suitable for XChem fragment screening.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-j8nlk8qzdl5r/v2
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2024-10-07
+    description: v2
+
+- id: XChem_fragment_screening
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#XChem_fragment_screening
+  name: XChem crystallographic fragment screening
+  description: |
+    The XChem Facility at Diamond Light Source provides routine, large scale crystallographic fragment screening, supporting the entire crystal to deposition process. This protocol summarises a generic layout of a crystallographic fragment screening workflow.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/xchem-crystallographic-fragment-screening-n2bvjnzwxgk5/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-18
+    description: v1
+
+- id: XChem_solvent_test
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#XChem_solvent_test
+  name: XChem solvent test
+  description: |
+    A generic solvent test protocol necessary for identifying soaking conditions for fragment screening at the XChem facility.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/xchem-solvent-test-5jyl82518l2w/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2025-02-18
+    description: v1
+
+- id: XChem_seeding
+  permalink: http://asapdiscovery.org/outputs/crystallization-protocols/#XChem_seeding
+  name: Diamond XChem Seeding Protocol
+  description: |
+    The use of seeding in protein crystallisation is a highly effective method for increasing the quantity of usable crystals and can be crucial for obtaining crystals in a highly reproducible manner.
+  links:
+  - name: protocol
+    url: https://www.protocols.io/view/diamond-xchem-seeding-protocol-kxygx3nwog8j/v1
+  type: crystallization-protocol
+  cores: [Structural Biology Core]
+  events:
+  - date: 2023-12-19
+    description: v1

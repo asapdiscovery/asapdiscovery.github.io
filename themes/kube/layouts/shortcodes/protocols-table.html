@@ -1,0 +1,179 @@
+<!-- Filterable protocols table -->
+<style>
+.protocols-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.protocols-filters select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 180px;
+    font-size: 0.9rem;
+}
+.protocols-filters label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.filter-group {
+    display: flex;
+    align-items: center;
+}
+.protocols-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.protocols-table th {
+    background: #f5f5f5;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    position: sticky;
+    top: 0;
+}
+.protocols-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+.protocols-table tr:hover {
+    background: #fafafa;
+}
+.protocols-table a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.protocols-table a:hover {
+    text-decoration: underline;
+}
+.category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.category-biochemical { background: #e3f2fd; color: #1565c0; }
+.category-crystallization { background: #f3e5f5; color: #7b1fa2; }
+.category-protein { background: #e8f5e9; color: #2e7d32; }
+.category-biophysical { background: #fff3e0; color: #e65100; }
+.category-admet { background: #fce4ec; color: #c2185b; }
+.category-antiviral { background: #ffebee; color: #c62828; }
+.protocol-count {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+</style>
+
+<div class="protocols-filters">
+    <div class="filter-group">
+        <label for="category-filter">Category:</label>
+        <select id="category-filter" onchange="filterProtocols()">
+            <option value="">All Categories</option>
+            <option value="Biochemical Assay">Biochemical Assay</option>
+            <option value="Crystallization">Crystallization</option>
+            <option value="Protein Production">Protein Production</option>
+            <option value="Biophysical Assay">Biophysical Assay</option>
+            <option value="ADMET">ADMET</option>
+            <option value="Antiviral Assay">Antiviral Assay</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label for="target-filter">Target:</label>
+        <select id="target-filter" onchange="filterProtocols()">
+            <option value="">All Targets</option>
+            {{ $targets := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ $targets = $targets | append .target }}
+            {{ end }}
+            {{ $targets = $targets | uniq | sort }}
+            {{ range $targets }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+    <div class="filter-group">
+        <label for="author-filter">Author:</label>
+        <select id="author-filter" onchange="filterProtocols()">
+            <option value="">All Authors</option>
+            {{ $authors := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ $authors = $authors | append .author }}
+            {{ end }}
+            {{ $authors = $authors | uniq | sort }}
+            {{ range $authors }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+</div>
+
+<div class="protocol-count">
+    Showing <span id="visible-count">{{ len $.Site.Data.outputs.protocols }}</span> of {{ len $.Site.Data.outputs.protocols }} protocols
+</div>
+
+<table class="protocols-table" id="protocols-table">
+    <thead>
+        <tr>
+            <th>Protocol</th>
+            <th>Category</th>
+            <th>Target</th>
+            <th>Author</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $.Site.Data.outputs.protocols }}
+        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-author="{{ .author }}">
+            <td><a href="{{ .url }}" target="_blank">{{ .name }}</a></td>
+            <td>
+                {{ $categoryClass := "category-biochemical" }}
+                {{ if eq .category "Crystallization" }}{{ $categoryClass = "category-crystallization" }}{{ end }}
+                {{ if eq .category "Protein Production" }}{{ $categoryClass = "category-protein" }}{{ end }}
+                {{ if eq .category "Biophysical Assay" }}{{ $categoryClass = "category-biophysical" }}{{ end }}
+                {{ if eq .category "ADMET" }}{{ $categoryClass = "category-admet" }}{{ end }}
+                {{ if eq .category "Antiviral Assay" }}{{ $categoryClass = "category-antiviral" }}{{ end }}
+                <span class="category-badge {{ $categoryClass }}">{{ .category }}</span>
+            </td>
+            <td>{{ .target }}</td>
+            <td>{{ .author }}</td>
+            <td>{{ .date }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+<script>
+function filterProtocols() {
+    const categoryFilter = document.getElementById('category-filter').value;
+    const targetFilter = document.getElementById('target-filter').value;
+    const authorFilter = document.getElementById('author-filter').value;
+
+    const rows = document.querySelectorAll('#protocols-table tbody tr');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+        const category = row.getAttribute('data-category');
+        const target = row.getAttribute('data-target');
+        const author = row.getAttribute('data-author');
+
+        const categoryMatch = !categoryFilter || category === categoryFilter;
+        const targetMatch = !targetFilter || target === targetFilter;
+        const authorMatch = !authorFilter || author === authorFilter;
+
+        if (categoryMatch && targetMatch && authorMatch) {
+            row.style.display = '';
+            visibleCount++;
+        } else {
+            row.style.display = 'none';
+        }
+    });
+
+    document.getElementById('visible-count').textContent = visibleCount;
+}
+</script>

@@ -3,7 +3,7 @@ weight: 95
 title: Assay Protocols
 description: Assay protocols developed for ASAP Discovery programs
 toc: true
-draft: false
+draft: true
 ---
 
 ASAP frequently needs to develop or scale its own biochemical assay protocols to drive discovery programs.
