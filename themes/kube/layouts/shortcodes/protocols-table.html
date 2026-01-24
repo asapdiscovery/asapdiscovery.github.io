@@ -295,4 +295,60 @@ function filterProtocols() {
 
     document.getElementById('visible-count').textContent = visibleCount;
 }
+
+function sortTable(colIndex) {
+    const table = document.getElementById('protocols-table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const headers = table.querySelectorAll('th');
+    const header = headers[colIndex];
+
+    // Determine sort direction
+    const isAsc = header.classList.contains('sort-asc');
+    const isDesc = header.classList.contains('sort-desc');
+
+    // Remove sort classes from all headers
+    headers.forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
+
+    // Set new sort direction
+    let direction;
+    if (!isAsc && !isDesc) {
+        direction = 'asc';
+    } else if (isAsc) {
+        direction = 'desc';
+    } else {
+        direction = 'asc';
+    }
+    header.classList.add('sort-' + direction);
+
+    // Sort rows
+    rows.sort((a, b) => {
+        let aVal = a.cells[colIndex].textContent.trim();
+        let bVal = b.cells[colIndex].textContent.trim();
+
+        // Handle date column (index 6)
+        if (colIndex === 6) {
+            aVal = new Date(aVal);
+            bVal = new Date(bVal);
+            return direction === 'asc' ? aVal - bVal : bVal - aVal;
+        }
+
+        // Handle version column (index 5) - extract number
+        if (colIndex === 5) {
+            const aNum = parseInt(aVal.replace(/\D/g, '')) || 0;
+            const bNum = parseInt(bVal.replace(/\D/g, '')) || 0;
+            return direction === 'asc' ? aNum - bNum : bNum - aNum;
+        }
+
+        // Default string comparison
+        aVal = aVal.toLowerCase();
+        bVal = bVal.toLowerCase();
+        if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+        if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+        return 0;
+    });
+
+    // Re-append rows in sorted order
+    rows.forEach(row => tbody.appendChild(row));
+}
 </script>
