@@ -42,18 +42,21 @@
 .protocols-table th .sort-arrow {
     display: inline-block;
     margin-left: 0.3rem;
-    opacity: 0.3;
+    color: #999;
 }
-.protocols-table th.sort-asc .sort-arrow::after {
-    content: "▲";
-    opacity: 1;
+.protocols-table th .sort-arrow::after {
+    content: "–";
 }
+.protocols-table th.sort-asc .sort-arrow::after,
 .protocols-table th.sort-desc .sort-arrow::after {
     content: "▼";
-    opacity: 1;
+    color: #333;
 }
-.protocols-table th:not(.sort-asc):not(.sort-desc) .sort-arrow::after {
-    content: "▲";
+.protocols-table th .sort-order {
+    font-size: 0.65rem;
+    vertical-align: super;
+    margin-left: 2px;
+    color: #666;
 }
 .protocols-table td {
     padding: 0.75rem;
@@ -227,13 +230,13 @@
 <table class="protocols-table" id="protocols-table">
     <thead>
         <tr>
-            <th data-col="0" onclick="sortTable(0)">Protocol<span class="sort-arrow"></span></th>
-            <th data-col="1" onclick="sortTable(1)">Category<span class="sort-arrow"></span></th>
-            <th data-col="2" onclick="sortTable(2)">Target<span class="sort-arrow"></span></th>
-            <th data-col="3" onclick="sortTable(3)">Core<span class="sort-arrow"></span></th>
-            <th data-col="4" onclick="sortTable(4)">Author<span class="sort-arrow"></span></th>
-            <th data-col="5" onclick="sortTable(5)">Version<span class="sort-arrow"></span></th>
-            <th data-col="6" onclick="sortTable(6)" class="sort-desc">Date<span class="sort-arrow"></span></th>
+            <th data-col="0" onclick="sortTable(0, event)">Protocol<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="1" onclick="sortTable(1, event)">Category<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="2" onclick="sortTable(2, event)">Target<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="3" onclick="sortTable(3, event)">Core<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="4" onclick="sortTable(4, event)">Author<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="5" onclick="sortTable(5, event)">Version<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="6" onclick="sortTable(6, event)" class="sort-desc">Date<span class="sort-arrow"></span><span class="sort-order"></span></th>
         </tr>
     </thead>
     <tbody>
@@ -296,59 +299,94 @@ function filterProtocols() {
     document.getElementById('visible-count').textContent = visibleCount;
 }
 
-function sortTable(colIndex) {
+// Track sort columns: [{col: index, dir: 'asc'|'desc'}, ...]
+let sortColumns = [{col: 6, dir: 'desc'}]; // Default: Date descending
+
+function sortTable(colIndex, event) {
     const table = document.getElementById('protocols-table');
     const tbody = table.querySelector('tbody');
     const rows = Array.from(tbody.querySelectorAll('tr'));
     const headers = table.querySelectorAll('th');
-    const header = headers[colIndex];
 
-    // Determine sort direction
-    const isAsc = header.classList.contains('sort-asc');
-    const isDesc = header.classList.contains('sort-desc');
+    // Check if Shift key is held for multi-column sort
+    const isMultiSort = event && event.shiftKey;
 
-    // Remove sort classes from all headers
-    headers.forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
-
-    // Set new sort direction
-    let direction;
-    if (!isAsc && !isDesc) {
-        direction = 'asc';
-    } else if (isAsc) {
-        direction = 'desc';
+    if (isMultiSort) {
+        // Check if column is already in sort list
+        const existingIndex = sortColumns.findIndex(s => s.col === colIndex);
+        if (existingIndex !== -1) {
+            // Toggle direction or remove if clicking again
+            if (sortColumns[existingIndex].dir === 'desc') {
+                sortColumns.splice(existingIndex, 1); // Remove from sort
+            } else {
+                sortColumns[existingIndex].dir = 'desc';
+            }
+        } else {
+            // Add new column to sort
+            sortColumns.push({col: colIndex, dir: 'asc'});
+        }
     } else {
-        direction = 'asc';
+        // Single column sort - check if same column clicked
+        if (sortColumns.length === 1 && sortColumns[0].col === colIndex) {
+            // Toggle direction
+            sortColumns[0].dir = sortColumns[0].dir === 'asc' ? 'desc' : 'asc';
+        } else {
+            // New column - start with descending
+            sortColumns = [{col: colIndex, dir: 'desc'}];
+        }
     }
-    header.classList.add('sort-' + direction);
 
-    // Sort rows
+    // Update header classes and order numbers
+    headers.forEach((h, i) => {
+        h.classList.remove('sort-asc', 'sort-desc');
+        const orderSpan = h.querySelector('.sort-order');
+        if (orderSpan) orderSpan.textContent = '';
+
+        const sortInfo = sortColumns.find(s => s.col === i);
+        if (sortInfo) {
+            h.classList.add('sort-' + sortInfo.dir);
+            if (sortColumns.length > 1 && orderSpan) {
+                orderSpan.textContent = sortColumns.indexOf(sortInfo) + 1;
+            }
+        }
+    });
+
+    // Sort rows by all sort columns
     rows.sort((a, b) => {
-        let aVal = a.cells[colIndex].textContent.trim();
-        let bVal = b.cells[colIndex].textContent.trim();
-
-        // Handle date column (index 6)
-        if (colIndex === 6) {
-            aVal = new Date(aVal);
-            bVal = new Date(bVal);
-            return direction === 'asc' ? aVal - bVal : bVal - aVal;
+        for (const sortInfo of sortColumns) {
+            const result = compareValues(a, b, sortInfo.col, sortInfo.dir);
+            if (result !== 0) return result;
         }
-
-        // Handle version column (index 5) - extract number
-        if (colIndex === 5) {
-            const aNum = parseInt(aVal.replace(/\D/g, '')) || 0;
-            const bNum = parseInt(bVal.replace(/\D/g, '')) || 0;
-            return direction === 'asc' ? aNum - bNum : bNum - aNum;
-        }
-
-        // Default string comparison
-        aVal = aVal.toLowerCase();
-        bVal = bVal.toLowerCase();
-        if (aVal < bVal) return direction === 'asc' ? -1 : 1;
-        if (aVal > bVal) return direction === 'asc' ? 1 : -1;
         return 0;
     });
 
     // Re-append rows in sorted order
     rows.forEach(row => tbody.appendChild(row));
+}
+
+function compareValues(rowA, rowB, colIndex, direction) {
+    let aVal = rowA.cells[colIndex].textContent.trim();
+    let bVal = rowB.cells[colIndex].textContent.trim();
+
+    // Handle date column (index 6)
+    if (colIndex === 6) {
+        aVal = new Date(aVal);
+        bVal = new Date(bVal);
+        return direction === 'asc' ? aVal - bVal : bVal - aVal;
+    }
+
+    // Handle version column (index 5) - extract number
+    if (colIndex === 5) {
+        const aNum = parseInt(aVal.replace(/\D/g, '')) || 0;
+        const bNum = parseInt(bVal.replace(/\D/g, '')) || 0;
+        return direction === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+
+    // Default string comparison
+    aVal = aVal.toLowerCase();
+    bVal = bVal.toLowerCase();
+    if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+    if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+    return 0;
 }
 </script>
