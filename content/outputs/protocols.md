@@ -2,7 +2,7 @@
 weight: 95
 title: Protocols
 description: All experimental protocols developed by ASAP Discovery
-toc: true
+toc: false
 draft: false
 ---
 

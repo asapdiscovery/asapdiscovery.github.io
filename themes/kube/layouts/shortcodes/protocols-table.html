@@ -33,6 +33,27 @@
     border-bottom: 2px solid #ddd;
     position: sticky;
     top: 0;
+    cursor: pointer;
+    user-select: none;
+}
+.protocols-table th:hover {
+    background: #e8e8e8;
+}
+.protocols-table th .sort-arrow {
+    display: inline-block;
+    margin-left: 0.3rem;
+    opacity: 0.3;
+}
+.protocols-table th.sort-asc .sort-arrow::after {
+    content: "▲";
+    opacity: 1;
+}
+.protocols-table th.sort-desc .sort-arrow::after {
+    content: "▼";
+    opacity: 1;
+}
+.protocols-table th:not(.sort-asc):not(.sort-desc) .sort-arrow::after {
+    content: "▲";
 }
 .protocols-table td {
     padding: 0.75rem;
@@ -63,10 +84,80 @@
 .category-biophysical { background: #fff3e0; color: #e65100; }
 .category-admet { background: #fce4ec; color: #c2185b; }
 .category-antiviral { background: #ffebee; color: #c62828; }
+.core-badge {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    background: #f8f9fa;
+    color: #495057;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    border: 1px solid #dee2e6;
+}
 .protocol-count {
     margin-bottom: 1rem;
     color: #666;
     font-size: 0.9rem;
+}
+/* Tooltip styles */
+.info-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #6c757d;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    cursor: help;
+    margin-left: 0.4rem;
+    position: relative;
+    vertical-align: middle;
+}
+.info-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: normal;
+    width: 280px;
+    max-width: 280px;
+    text-align: left;
+    line-height: 1.4;
+    transition: opacity 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.version-badge {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    background: #e9ecef;
+    color: #495057;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 </style>
 
@@ -111,6 +202,22 @@
             {{ end }}
         </select>
     </div>
+    <div class="filter-group">
+        <label for="core-filter">Core:</label>
+        <select id="core-filter" onchange="filterProtocols()">
+            <option value="">All Cores</option>
+            {{ $cores := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ range .cores }}
+                    {{ $cores = $cores | append . }}
+                {{ end }}
+            {{ end }}
+            {{ $cores = $cores | uniq | sort }}
+            {{ range $cores }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
 </div>
 
 <div class="protocol-count">
@@ -120,17 +227,24 @@
 <table class="protocols-table" id="protocols-table">
     <thead>
         <tr>
-            <th>Protocol</th>
-            <th>Category</th>
-            <th>Target</th>
-            <th>Author</th>
-            <th>Date</th>
+            <th data-col="0" onclick="sortTable(0)">Protocol<span class="sort-arrow"></span></th>
+            <th data-col="1" onclick="sortTable(1)">Category<span class="sort-arrow"></span></th>
+            <th data-col="2" onclick="sortTable(2)">Target<span class="sort-arrow"></span></th>
+            <th data-col="3" onclick="sortTable(3)">Core<span class="sort-arrow"></span></th>
+            <th data-col="4" onclick="sortTable(4)">Author<span class="sort-arrow"></span></th>
+            <th data-col="5" onclick="sortTable(5)">Version<span class="sort-arrow"></span></th>
+            <th data-col="6" onclick="sortTable(6)" class="sort-desc">Date<span class="sort-arrow"></span></th>
         </tr>
     </thead>
     <tbody>
         {{ range $.Site.Data.outputs.protocols }}
-        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-author="{{ .author }}">
-            <td><a href="{{ .url }}" target="_blank">{{ .name }}</a></td>
+        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-author="{{ .author }}" data-core="{{ delimit .cores ", " }}">
+            <td>
+                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                {{ with .description }}
+                <span class="info-icon">i<span class="tooltip-text">{{ . }}</span></span>
+                {{ end }}
+            </td>
             <td>
                 {{ $categoryClass := "category-biochemical" }}
                 {{ if eq .category "Crystallization" }}{{ $categoryClass = "category-crystallization" }}{{ end }}
@@ -141,7 +255,9 @@
                 <span class="category-badge {{ $categoryClass }}">{{ .category }}</span>
             </td>
             <td>{{ .target }}</td>
+            <td>{{ range .cores }}<span class="core-badge">{{ . }}</span> {{ end }}</td>
             <td>{{ .author }}</td>
+            <td>{{ with .version }}<span class="version-badge">{{ . }}</span>{{ end }}</td>
             <td>{{ .date }}</td>
         </tr>
         {{ end }}
@@ -153,6 +269,7 @@ function filterProtocols() {
     const categoryFilter = document.getElementById('category-filter').value;
     const targetFilter = document.getElementById('target-filter').value;
     const authorFilter = document.getElementById('author-filter').value;
+    const coreFilter = document.getElementById('core-filter').value;
 
     const rows = document.querySelectorAll('#protocols-table tbody tr');
     let visibleCount = 0;
@@ -161,12 +278,14 @@ function filterProtocols() {
         const category = row.getAttribute('data-category');
         const target = row.getAttribute('data-target');
         const author = row.getAttribute('data-author');
+        const core = row.getAttribute('data-core');
 
         const categoryMatch = !categoryFilter || category === categoryFilter;
         const targetMatch = !targetFilter || target === targetFilter;
         const authorMatch = !authorFilter || author === authorFilter;
+        const coreMatch = !coreFilter || core.includes(coreFilter);
 
-        if (categoryMatch && targetMatch && authorMatch) {
+        if (categoryMatch && targetMatch && authorMatch && coreMatch) {
             row.style.display = '';
             visibleCount++;
         } else {
