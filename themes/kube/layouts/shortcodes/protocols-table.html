@@ -47,7 +47,10 @@
 .protocols-table th .sort-arrow::after {
     content: "–";
 }
-.protocols-table th.sort-asc .sort-arrow::after,
+.protocols-table th.sort-asc .sort-arrow::after {
+    content: "▲";
+    color: #333;
+}
 .protocols-table th.sort-desc .sort-arrow::after {
     content: "▼";
     color: #333;
@@ -308,32 +311,20 @@ function sortTable(colIndex, event) {
     const rows = Array.from(tbody.querySelectorAll('tr'));
     const headers = table.querySelectorAll('th');
 
-    // Check if Shift key is held for multi-column sort
-    const isMultiSort = event && event.shiftKey;
+    // Check if column is already in sort list
+    const existingIndex = sortColumns.findIndex(s => s.col === colIndex);
 
-    if (isMultiSort) {
-        // Check if column is already in sort list
-        const existingIndex = sortColumns.findIndex(s => s.col === colIndex);
-        if (existingIndex !== -1) {
-            // Toggle direction or remove if clicking again
-            if (sortColumns[existingIndex].dir === 'desc') {
-                sortColumns.splice(existingIndex, 1); // Remove from sort
-            } else {
-                sortColumns[existingIndex].dir = 'desc';
-            }
+    if (existingIndex !== -1) {
+        // Column already in sort - cycle through: asc → desc → remove
+        if (sortColumns[existingIndex].dir === 'asc') {
+            sortColumns[existingIndex].dir = 'desc';
         } else {
-            // Add new column to sort
-            sortColumns.push({col: colIndex, dir: 'asc'});
+            // Remove from sort list
+            sortColumns.splice(existingIndex, 1);
         }
     } else {
-        // Single column sort - check if same column clicked
-        if (sortColumns.length === 1 && sortColumns[0].col === colIndex) {
-            // Toggle direction
-            sortColumns[0].dir = sortColumns[0].dir === 'asc' ? 'desc' : 'asc';
-        } else {
-            // New column - start with descending
-            sortColumns = [{col: colIndex, dir: 'desc'}];
-        }
+        // Add new column to sort (ascending first)
+        sortColumns.push({col: colIndex, dir: 'asc'});
     }
 
     // Update header classes and order numbers
