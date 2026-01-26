@@ -13,6 +13,13 @@ Authors: <br>
 Our approach to open science and intellectual property is described in detail in our formal policy:
 > Griffen, E., & Boulet, P. (2024). ASAP Policy on Intellectual Property Management and Open Science Disclosure (1.0). Zenodo. https://doi.org/10.5281/zenodo.12191567
 
+The detailed rationale behind this strategy has now been published in [Wellcome Open Research](https://wellcomeopenresearch.org/articles/9-374):
+
+> [Ed J. Griffen](https://orcid.org/0000-0003-0859-554X), [Pascale Boulet](https://orcid.org/0009-0000-8035-069X), [ASAP Discovery Center](http://asapdiscovery.org), [COVID Moonshot](https://dndi.org/research-development/portfolio/covid-moonshot/)<br>
+> Enabling equitable and affordable access to novel therapeutics for pandemic preparedness and response via creative intellectual property agreements<br>
+> https://wellcomeopenresearch.org/articles/9-374
+
+
 Below, we provide a brief summary of the main principles of our approach to open science:
 
 ### Antivirals must be globally accessible to be effective against pandemics
