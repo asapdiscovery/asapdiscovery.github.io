@@ -9,7 +9,7 @@ TEP:
     # ASAP program codename. From this list:
     # https://www.notion.so/asapdiscovery/Data-Core-11bd0c209eb44c409e532f00edf3f060?pvs=4#388f41b3676749889930c0898e04b89c
     program_code: ASAPPTBOAM
-    program_nickname: ASAP-EVA71-2APRO
+    program_nickname: ASAP-EVD68-2APRO
   # NCBI gene ID: Prefix https://www.ncbi.nlm.nih.gov/protein/
   gene: JN544418.1
   # Uniprot ID:
@@ -207,3 +207,14 @@ TEP:
       - Martin Walsh
       - Daren Fearon
       - Frank von Delft
+
+    - name: "Group deposition of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors from the ASAP AViDD centre"
+      id: eva71-2A-protease_inhibitor-screen-pdb-group-deposition
+      date: 2025-01-14
+      type: pdb-group-deposition
+      url: https://www.rcsb.org/groups/summary/entry/G_1002329
+      projects: [Project 2, Project 3]
+      cores: [Structural Biology Core]
+      description: |
+        Crystallographic structure of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors developed by the ASAP Discovery Consortium.
+

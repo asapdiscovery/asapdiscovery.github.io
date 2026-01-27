@@ -1,0 +1,384 @@
+<!-- Filterable protocols table -->
+<style>
+.protocols-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.protocols-filters select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 180px;
+    font-size: 0.9rem;
+}
+.protocols-filters label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.filter-group {
+    display: flex;
+    align-items: center;
+}
+.protocols-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.protocols-table th {
+    background: #f5f5f5;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+.protocols-table th:hover {
+    background: #e8e8e8;
+}
+.protocols-table th .sort-arrow {
+    display: inline-block;
+    margin-left: 0.3rem;
+    color: #999;
+}
+.protocols-table th .sort-arrow::after {
+    content: "–";
+}
+.protocols-table th.sort-asc .sort-arrow::after {
+    content: "▲";
+    color: #333;
+}
+.protocols-table th.sort-desc .sort-arrow::after {
+    content: "▼";
+    color: #333;
+}
+.protocols-table th .sort-order {
+    font-size: 0.65rem;
+    vertical-align: super;
+    margin-left: 2px;
+    color: #666;
+}
+.protocols-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+.protocols-table tr:hover {
+    background: #fafafa;
+}
+.protocols-table a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.protocols-table a:hover {
+    text-decoration: underline;
+}
+.category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.category-biochemical { background: #e3f2fd; color: #1565c0; }
+.category-crystallization { background: #f3e5f5; color: #7b1fa2; }
+.category-protein { background: #e8f5e9; color: #2e7d32; }
+.category-biophysical { background: #fff3e0; color: #e65100; }
+.category-admet { background: #fce4ec; color: #c2185b; }
+.category-antiviral { background: #ffebee; color: #c62828; }
+.core-badge {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    background: #f8f9fa;
+    color: #495057;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    border: 1px solid #dee2e6;
+}
+.protocol-count {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+/* Tooltip styles */
+.info-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #6c757d;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    cursor: help;
+    margin-left: 0.4rem;
+    position: relative;
+    vertical-align: middle;
+}
+.info-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: normal;
+    width: 280px;
+    max-width: 280px;
+    text-align: left;
+    line-height: 1.4;
+    transition: opacity 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.version-badge {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    background: #e9ecef;
+    color: #495057;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+</style>
+
+<div class="protocols-filters">
+    <div class="filter-group">
+        <label for="category-filter">Category:</label>
+        <select id="category-filter" onchange="filterProtocols()">
+            <option value="">All Categories</option>
+            <option value="Biochemical Assay">Biochemical Assay</option>
+            <option value="Crystallization">Crystallization</option>
+            <option value="Protein Production">Protein Production</option>
+            <option value="Biophysical Assay">Biophysical Assay</option>
+            <option value="ADMET">ADMET</option>
+            <option value="Antiviral Assay">Antiviral Assay</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label for="target-filter">Target:</label>
+        <select id="target-filter" onchange="filterProtocols()">
+            <option value="">All Targets</option>
+            {{ $targets := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ $targets = $targets | append .target }}
+            {{ end }}
+            {{ $targets = $targets | uniq | sort }}
+            {{ range $targets }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+    <div class="filter-group">
+        <label for="author-filter">Author:</label>
+        <select id="author-filter" onchange="filterProtocols()">
+            <option value="">All Authors</option>
+            {{ $authors := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ $authors = $authors | append .author }}
+            {{ end }}
+            {{ $authors = $authors | uniq | sort }}
+            {{ range $authors }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+    <div class="filter-group">
+        <label for="core-filter">Core:</label>
+        <select id="core-filter" onchange="filterProtocols()">
+            <option value="">All Cores</option>
+            {{ $cores := slice }}
+            {{ range $.Site.Data.outputs.protocols }}
+                {{ range .cores }}
+                    {{ $cores = $cores | append . }}
+                {{ end }}
+            {{ end }}
+            {{ $cores = $cores | uniq | sort }}
+            {{ range $cores }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+</div>
+
+<div class="protocol-count">
+    Showing <span id="visible-count">{{ len $.Site.Data.outputs.protocols }}</span> of {{ len $.Site.Data.outputs.protocols }} protocols
+</div>
+
+<table class="protocols-table" id="protocols-table">
+    <thead>
+        <tr>
+            <th data-col="0" onclick="sortTable(0, event)">Protocol<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="1" onclick="sortTable(1, event)">Category<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="2" onclick="sortTable(2, event)">Target<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="3" onclick="sortTable(3, event)">Core<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="4" onclick="sortTable(4, event)">Author<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="5" onclick="sortTable(5, event)">Version<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="6" onclick="sortTable(6, event)" class="sort-desc">Date<span class="sort-arrow"></span><span class="sort-order"></span></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $.Site.Data.outputs.protocols }}
+        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-author="{{ .author }}" data-core="{{ delimit .cores ", " }}">
+            <td>
+                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                {{ with .description }}
+                <span class="info-icon">i<span class="tooltip-text">{{ . }}</span></span>
+                {{ end }}
+            </td>
+            <td>
+                {{ $categoryClass := "category-biochemical" }}
+                {{ if eq .category "Crystallization" }}{{ $categoryClass = "category-crystallization" }}{{ end }}
+                {{ if eq .category "Protein Production" }}{{ $categoryClass = "category-protein" }}{{ end }}
+                {{ if eq .category "Biophysical Assay" }}{{ $categoryClass = "category-biophysical" }}{{ end }}
+                {{ if eq .category "ADMET" }}{{ $categoryClass = "category-admet" }}{{ end }}
+                {{ if eq .category "Antiviral Assay" }}{{ $categoryClass = "category-antiviral" }}{{ end }}
+                <span class="category-badge {{ $categoryClass }}">{{ .category }}</span>
+            </td>
+            <td>{{ .target }}</td>
+            <td>{{ range .cores }}<span class="core-badge">{{ . }}</span> {{ end }}</td>
+            <td>{{ .author }}</td>
+            <td>{{ with .version }}<span class="version-badge">{{ . }}</span>{{ end }}</td>
+            <td>{{ .date }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+<script>
+function filterProtocols() {
+    const categoryFilter = document.getElementById('category-filter').value;
+    const targetFilter = document.getElementById('target-filter').value;
+    const authorFilter = document.getElementById('author-filter').value;
+    const coreFilter = document.getElementById('core-filter').value;
+
+    const rows = document.querySelectorAll('#protocols-table tbody tr');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+        const category = row.getAttribute('data-category');
+        const target = row.getAttribute('data-target');
+        const author = row.getAttribute('data-author');
+        const core = row.getAttribute('data-core');
+
+        const categoryMatch = !categoryFilter || category === categoryFilter;
+        const targetMatch = !targetFilter || target === targetFilter;
+        const authorMatch = !authorFilter || author === authorFilter;
+        const coreMatch = !coreFilter || core.includes(coreFilter);
+
+        if (categoryMatch && targetMatch && authorMatch && coreMatch) {
+            row.style.display = '';
+            visibleCount++;
+        } else {
+            row.style.display = 'none';
+        }
+    });
+
+    document.getElementById('visible-count').textContent = visibleCount;
+}
+
+// Track sort columns: [{col: index, dir: 'asc'|'desc'}, ...]
+let sortColumns = [{col: 6, dir: 'desc'}]; // Default: Date descending
+
+function sortTable(colIndex, event) {
+    const table = document.getElementById('protocols-table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const headers = table.querySelectorAll('th');
+
+    // Check if column is already in sort list
+    const existingIndex = sortColumns.findIndex(s => s.col === colIndex);
+
+    if (existingIndex !== -1) {
+        // Column already in sort - cycle through: asc → desc → remove
+        if (sortColumns[existingIndex].dir === 'asc') {
+            sortColumns[existingIndex].dir = 'desc';
+        } else {
+            // Remove from sort list
+            sortColumns.splice(existingIndex, 1);
+        }
+    } else {
+        // Add new column to sort (ascending first)
+        sortColumns.push({col: colIndex, dir: 'asc'});
+    }
+
+    // Update header classes and order numbers
+    headers.forEach((h, i) => {
+        h.classList.remove('sort-asc', 'sort-desc');
+        const orderSpan = h.querySelector('.sort-order');
+        if (orderSpan) orderSpan.textContent = '';
+
+        const sortInfo = sortColumns.find(s => s.col === i);
+        if (sortInfo) {
+            h.classList.add('sort-' + sortInfo.dir);
+            if (sortColumns.length > 1 && orderSpan) {
+                orderSpan.textContent = sortColumns.indexOf(sortInfo) + 1;
+            }
+        }
+    });
+
+    // Sort rows by all sort columns
+    rows.sort((a, b) => {
+        for (const sortInfo of sortColumns) {
+            const result = compareValues(a, b, sortInfo.col, sortInfo.dir);
+            if (result !== 0) return result;
+        }
+        return 0;
+    });
+
+    // Re-append rows in sorted order
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+function compareValues(rowA, rowB, colIndex, direction) {
+    let aVal = rowA.cells[colIndex].textContent.trim();
+    let bVal = rowB.cells[colIndex].textContent.trim();
+
+    // Handle date column (index 6)
+    if (colIndex === 6) {
+        aVal = new Date(aVal);
+        bVal = new Date(bVal);
+        return direction === 'asc' ? aVal - bVal : bVal - aVal;
+    }
+
+    // Handle version column (index 5) - extract number
+    if (colIndex === 5) {
+        const aNum = parseInt(aVal.replace(/\D/g, '')) || 0;
+        const bNum = parseInt(bVal.replace(/\D/g, '')) || 0;
+        return direction === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+
+    // Default string comparison
+    aVal = aVal.toLowerCase();
+    bVal = bVal.toLowerCase();
+    if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+    if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+    return 0;
+}
+</script>

@@ -1,0 +1,354 @@
+<!-- Filterable ChEMBL datasets table -->
+<style>
+.chembl-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.chembl-filters select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 180px;
+    font-size: 0.9rem;
+}
+.chembl-filters label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.chembl-filter-group {
+    display: flex;
+    align-items: center;
+}
+.chembl-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.chembl-table th {
+    background: #f5f5f5;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+.chembl-table th:hover {
+    background: #e8e8e8;
+}
+.chembl-table th .sort-arrow {
+    display: inline-block;
+    margin-left: 0.3rem;
+    color: #999;
+}
+.chembl-table th .sort-arrow::after {
+    content: "–";
+}
+.chembl-table th.sort-asc .sort-arrow::after {
+    content: "▲";
+    color: #333;
+}
+.chembl-table th.sort-desc .sort-arrow::after {
+    content: "▼";
+    color: #333;
+}
+.chembl-table th .sort-order {
+    font-size: 0.65rem;
+    vertical-align: super;
+    margin-left: 2px;
+    color: #666;
+}
+.chembl-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+.chembl-table tr:hover {
+    background: #fafafa;
+}
+.chembl-table a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.chembl-table a:hover {
+    text-decoration: underline;
+}
+.chembl-category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.chembl-category-biochemical { background: #e3f2fd; color: #1565c0; }
+.chembl-category-antiviral { background: #ffebee; color: #c62828; }
+.chembl-category-admet { background: #fce4ec; color: #c2185b; }
+.chembl-category-biophysical { background: #fff3e0; color: #e65100; }
+.chembl-id-badge {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-family: monospace;
+}
+.chembl-release-badge {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    background: #e9ecef;
+    color: #495057;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.chembl-count {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+/* Tooltip styles */
+.chembl-info-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #6c757d;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    cursor: help;
+    margin-left: 0.4rem;
+    position: relative;
+    vertical-align: middle;
+}
+.chembl-info-icon:hover .chembl-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+.chembl-tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: normal;
+    width: 300px;
+    max-width: 300px;
+    text-align: left;
+    line-height: 1.4;
+    transition: opacity 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.chembl-tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+</style>
+
+<div class="chembl-filters">
+    <div class="chembl-filter-group">
+        <label for="chembl-category-filter">Category:</label>
+        <select id="chembl-category-filter" onchange="filterChemblDatasets()">
+            <option value="">All Categories</option>
+            <option value="Biochemical">Biochemical</option>
+            <option value="Antiviral">Antiviral</option>
+            <option value="ADMET">ADMET</option>
+            <option value="Biophysical">Biophysical</option>
+        </select>
+    </div>
+    <div class="chembl-filter-group">
+        <label for="chembl-target-filter">Target:</label>
+        <select id="chembl-target-filter" onchange="filterChemblDatasets()">
+            <option value="">All Targets</option>
+            {{ $targets := slice }}
+            {{ range $.Site.Data.outputs.chembl_datasets }}
+                {{ $targets = $targets | append .target }}
+            {{ end }}
+            {{ $targets = $targets | uniq | sort }}
+            {{ range $targets }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+    <div class="chembl-filter-group">
+        <label for="chembl-release-filter">Release:</label>
+        <select id="chembl-release-filter" onchange="filterChemblDatasets()">
+            <option value="">All Releases</option>
+            {{ $releases := slice }}
+            {{ range $.Site.Data.outputs.chembl_datasets }}
+                {{ $releases = $releases | append .chembl_release }}
+            {{ end }}
+            {{ $releases = $releases | uniq | sort }}
+            {{ range $releases }}
+                <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+        </select>
+    </div>
+</div>
+
+<div class="chembl-count">
+    Showing <span id="chembl-visible-count">{{ len $.Site.Data.outputs.chembl_datasets }}</span> of {{ len $.Site.Data.outputs.chembl_datasets }} datasets
+</div>
+
+<table class="chembl-table" id="chembl-datasets-table">
+    <thead>
+        <tr>
+            <th data-col="0" onclick="sortChemblTable(0, event)">Dataset<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="1" onclick="sortChemblTable(1, event)">Category<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="2" onclick="sortChemblTable(2, event)">Target<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="3" onclick="sortChemblTable(3, event)">ChEMBL ID<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="4" onclick="sortChemblTable(4, event)">Release<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="5" onclick="sortChemblTable(5, event)" class="sort-desc">Date<span class="sort-arrow"></span><span class="sort-order"></span></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $.Site.Data.outputs.chembl_datasets }}
+        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-release="{{ .chembl_release }}">
+            <td>
+                <a href="{{ .doi_url }}" target="_blank">{{ .title }}</a>
+                {{ with .description }}
+                <span class="chembl-info-icon">i<span class="chembl-tooltip-text">{{ . }}</span></span>
+                {{ end }}
+            </td>
+            <td>
+                {{ $categoryClass := "chembl-category-biochemical" }}
+                {{ if eq .category "Antiviral" }}{{ $categoryClass = "chembl-category-antiviral" }}{{ end }}
+                {{ if eq .category "ADMET" }}{{ $categoryClass = "chembl-category-admet" }}{{ end }}
+                {{ if eq .category "Biophysical" }}{{ $categoryClass = "chembl-category-biophysical" }}{{ end }}
+                <span class="chembl-category-badge {{ $categoryClass }}">{{ .category }}</span>
+            </td>
+            <td>{{ .target }}</td>
+            <td>
+                <a href="https://www.ebi.ac.uk/chembl/document_report_card/{{ .chembl_id }}/" target="_blank">
+                    <span class="chembl-id-badge">{{ .chembl_id }}</span>
+                </a>
+            </td>
+            <td><span class="chembl-release-badge">{{ .chembl_release }}</span></td>
+            <td>{{ .date }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+<script>
+function filterChemblDatasets() {
+    const categoryFilter = document.getElementById('chembl-category-filter').value;
+    const targetFilter = document.getElementById('chembl-target-filter').value;
+    const releaseFilter = document.getElementById('chembl-release-filter').value;
+
+    const rows = document.querySelectorAll('#chembl-datasets-table tbody tr');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+        const category = row.getAttribute('data-category');
+        const target = row.getAttribute('data-target');
+        const release = row.getAttribute('data-release');
+
+        const categoryMatch = !categoryFilter || category === categoryFilter;
+        const targetMatch = !targetFilter || target === targetFilter;
+        const releaseMatch = !releaseFilter || release === releaseFilter;
+
+        if (categoryMatch && targetMatch && releaseMatch) {
+            row.style.display = '';
+            visibleCount++;
+        } else {
+            row.style.display = 'none';
+        }
+    });
+
+    document.getElementById('chembl-visible-count').textContent = visibleCount;
+}
+
+// Track sort columns for ChEMBL table
+let chemblSortColumns = [{col: 5, dir: 'desc'}]; // Default: Year descending
+
+function sortChemblTable(colIndex, event) {
+    const table = document.getElementById('chembl-datasets-table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const headers = table.querySelectorAll('th');
+
+    const existingIndex = chemblSortColumns.findIndex(s => s.col === colIndex);
+
+    if (existingIndex !== -1) {
+        if (chemblSortColumns[existingIndex].dir === 'asc') {
+            chemblSortColumns[existingIndex].dir = 'desc';
+        } else {
+            chemblSortColumns.splice(existingIndex, 1);
+        }
+    } else {
+        chemblSortColumns.push({col: colIndex, dir: 'asc'});
+    }
+
+    headers.forEach((h, i) => {
+        h.classList.remove('sort-asc', 'sort-desc');
+        const orderSpan = h.querySelector('.sort-order');
+        if (orderSpan) orderSpan.textContent = '';
+
+        const sortInfo = chemblSortColumns.find(s => s.col === i);
+        if (sortInfo) {
+            h.classList.add('sort-' + sortInfo.dir);
+            if (chemblSortColumns.length > 1 && orderSpan) {
+                orderSpan.textContent = chemblSortColumns.indexOf(sortInfo) + 1;
+            }
+        }
+    });
+
+    rows.sort((a, b) => {
+        for (const sortInfo of chemblSortColumns) {
+            const result = compareChemblValues(a, b, sortInfo.col, sortInfo.dir);
+            if (result !== 0) return result;
+        }
+        return 0;
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+function compareChemblValues(rowA, rowB, colIndex, direction) {
+    let aVal = rowA.cells[colIndex].textContent.trim();
+    let bVal = rowB.cells[colIndex].textContent.trim();
+
+    // Handle date column (index 5) - parse as date
+    if (colIndex === 5) {
+        const aDate = new Date(aVal);
+        const bDate = new Date(bVal);
+        return direction === 'asc' ? aDate - bDate : bDate - aDate;
+    }
+
+    // Handle ChEMBL release column (index 4) - extract number
+    if (colIndex === 4) {
+        const aNum = parseInt(aVal.replace(/\D/g, '')) || 0;
+        const bNum = parseInt(bVal.replace(/\D/g, '')) || 0;
+        return direction === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+
+    // Default string comparison
+    aVal = aVal.toLowerCase();
+    bVal = bVal.toLowerCase();
+    if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+    if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+    return 0;
+}
+</script>
