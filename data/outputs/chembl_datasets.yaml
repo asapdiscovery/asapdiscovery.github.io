@@ -5,7 +5,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604064
   category: Biochemical
   target: DENV-1
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes DENV-1 NS2B-NS3 protease fluorescence dose response data."
 
@@ -14,7 +14,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604063
   category: Biochemical
   target: DENV-2
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes DENV-2 NS2B-NS3 protease fluorescence dose response data."
 
@@ -23,7 +23,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5606460
   category: Biochemical
   target: DENV-2
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes DENV-2 NS2B-NS3 protease fluorescence single point data."
 
@@ -32,7 +32,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604065
   category: Biochemical
   target: DENV-3
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes DENV-3 NS2B-NS3 protease fluorescence dose response data."
 
@@ -41,7 +41,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604066
   category: Biochemical
   target: DENV-4
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes DENV-4 NS2B-NS3 protease fluorescence dose response data."
 
@@ -50,7 +50,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5441456
   category: Biochemical
   target: SARS-CoV-2 nsp3 Mac1
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes SARS-CoV-2 nsp3 macrodomain dose response data."
 
@@ -59,7 +59,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442379
   category: Biochemical
   target: SARS-CoV-2 nsp3 Mac1
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes SARS-CoV-2 nsp3 macrodomain single point data."
 
@@ -68,7 +68,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604061
   category: Biochemical
   target: NS2B-NS3
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes WNV NS2B-NS3 protease fluorescence dose response data."
 
@@ -77,7 +77,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5606459
   category: Biochemical
   target: NS2B-NS3
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes WNV NS2B-NS3 protease fluorescence single point data."
 
@@ -86,7 +86,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5604062
   category: Biochemical
   target: NS2B-NS3
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes ZIKV NS2B-NS3 protease fluorescence dose response data."
 
@@ -95,7 +95,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5606458
   category: Biochemical
   target: NS2B-NS3
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes ZIKV NS2B-NS3 protease fluorescence single point data."
 
@@ -104,7 +104,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5441381
   category: Antiviral
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes antiviral effect data."
 
@@ -113,7 +113,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5661943
   category: Antiviral
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes antiviral effect data."
 
@@ -122,7 +122,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5441451
   category: Antiviral
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes cytotoxicity data."
 
@@ -131,7 +131,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5661955
   category: Antiviral
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes cytotoxicity data."
 
@@ -140,7 +140,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5441445
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes CYP inhibition data."
 
@@ -149,7 +149,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442685
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro logD data."
 
@@ -158,7 +158,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5674854
   category: ADMET
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro logD data."
 
@@ -167,7 +167,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442303
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes permeability data."
 
@@ -176,7 +176,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5674852
   category: ADMET
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes permeability data."
 
@@ -185,7 +185,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5441442
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes cardiotoxicity data."
 
@@ -194,7 +194,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442163
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro hepatocyte stability data."
 
@@ -203,7 +203,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442741
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro kinase profiling data."
 
@@ -212,7 +212,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442168
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro liver microsomal stability data."
 
@@ -221,7 +221,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5665440
   category: ADMET
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro liver microsomal stability data."
 
@@ -230,7 +230,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442321
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes plasma protein binding data."
 
@@ -239,7 +239,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5674856
   category: ADMET
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes protein binding data."
 
@@ -248,7 +248,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442334
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes in vitro safety pharmacology profile data."
 
@@ -257,7 +257,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5442663
   category: ADMET
   target: General
-  year: 2024
+  date: 2024-12-01
   chembl_release: CHEMBL_35
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes solubility data."
 
@@ -266,7 +266,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5674850
   category: ADMET
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes solubility data."
 
@@ -275,7 +275,7 @@
   doi_url: https://dx.doi.org/10.6019/CHEMBL5598561
   category: Biophysical
   target: General
-  year: 2024
+  date: 2025-07-28
   chembl_release: CHEMBL_36
   description: "According to the assay cascade defined by the AI-driven Structure-enabled Antiviral Platform (ASAP, https://asapdiscovery.org) which contains assays and progression criteria used by the drug discovery program, this dataset includes binding kinetics data."
 

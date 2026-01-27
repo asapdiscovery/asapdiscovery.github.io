@@ -219,7 +219,7 @@
             <th data-col="2" onclick="sortChemblTable(2, event)">Target<span class="sort-arrow"></span><span class="sort-order"></span></th>
             <th data-col="3" onclick="sortChemblTable(3, event)">ChEMBL ID<span class="sort-arrow"></span><span class="sort-order"></span></th>
             <th data-col="4" onclick="sortChemblTable(4, event)">Release<span class="sort-arrow"></span><span class="sort-order"></span></th>
-            <th data-col="5" onclick="sortChemblTable(5, event)" class="sort-desc">Year<span class="sort-arrow"></span><span class="sort-order"></span></th>
+            <th data-col="5" onclick="sortChemblTable(5, event)" class="sort-desc">Date<span class="sort-arrow"></span><span class="sort-order"></span></th>
         </tr>
     </thead>
     <tbody>
@@ -245,7 +245,7 @@
                 </a>
             </td>
             <td><span class="chembl-release-badge">{{ .chembl_release }}</span></td>
-            <td>{{ .year }}</td>
+            <td>{{ .date }}</td>
         </tr>
         {{ end }}
     </tbody>
@@ -330,11 +330,11 @@ function compareChemblValues(rowA, rowB, colIndex, direction) {
     let aVal = rowA.cells[colIndex].textContent.trim();
     let bVal = rowB.cells[colIndex].textContent.trim();
 
-    // Handle year column (index 5) - numeric
+    // Handle date column (index 5) - parse as date
     if (colIndex === 5) {
-        const aNum = parseInt(aVal) || 0;
-        const bNum = parseInt(bVal) || 0;
-        return direction === 'asc' ? aNum - bNum : bNum - aNum;
+        const aDate = new Date(aVal);
+        const bDate = new Date(bVal);
+        return direction === 'asc' ? aDate - bDate : bDate - aDate;
     }
 
     // Handle ChEMBL release column (index 4) - extract number
