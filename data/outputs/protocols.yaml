@@ -7,172 +7,188 @@
   category: Biochemical Assay
   target: EV-A71 2A protease
   author: Diana Alieksieieva
+  authors: [Diana Alieksieieva, Oleksandr Zhadovets, Oleksii Stroganov]
   date: 2025-08-10
   version: v1
   description: "This protocol describes a biochemical assay used in screening to identify compounds that inhibit the enzymatic activity of the EV-A71 2A protease. Under standard conditions, the enzyme cleaves its substrate (DABCYL-RDKITTLGKFGQDE-EDANS), releasing the fluorogenic moiety EDANS, increasing fluoresc..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Assay for screening of compounds that inhibit enzymatic activity of DENV-2 NS2B-NS3 protease
   url: https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpc45iyw/v1
   category: Biochemical Assay
   target: DENV NS2B-NS3
   author: Kateryna Horbatok
+  authors: [Kateryna Horbatok, Oleksandr Zhadovets]
   date: 2025-08-04
   version: v1
   description: "This protocol describes the enzymatic assay used to identify compounds that inhibit enzymatic activity of the dengue virus protease (DENV-2 NS2B-NS3 protease). Enzymatic assay is based on the conversion of substrate into product, which is used for quantification of enzyme activity. In case of usi..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Assay for screening of compounds that inhibit enzymatic activity of ZIKV NS2B-NS3 protease
   url: https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpse5nbe/v1
   category: Biochemical Assay
   target: ZIKV NS2B-NS3
   author: Oleksandr Zhadovets
+  authors: [Oleksandr Zhadovets, Maksym Pavliuk]
   date: 2025-08-04
   version: v1
   description: "This protocol describes the enzymatic assay used to identify compounds that inhibit enzymatic activity of the dengue virus protease (ZIKV NS2B-NS3 protease). Enzymatic assay is based on the conversion of substrate into product, which is used for quantification of enzyme activity. In case of using..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: DENV NS2B-NS3 fluorescence single point screening assay
   url: https://www.protocols.io/view/denv-ns2b-ns3-fluorescence-single-point-screening-dqz25x8e/v1
   category: Biochemical Assay
   target: DENV NS2B-NS3
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav, Jiyun Zhu]
   date: 2025-08-04
   version: v1
   description: "Purpose: performing single point test of selected compounds from screening libraries containing serine-targeting fragments and serine protease inhibitors against DENV NS2B-NS3 to find warheads and candidates for medicinal optimization General description: This protocol details the fluorescent ass..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Enteroviruses (EV-D68/EV-A71) 3C and EVA71-2A proteases fluorescence single and dose response
   url: https://www.protocols.io/view/enteroviruses-ev-d68-ev-a71-3c-and-eva71-2a-protea-dcy92xz6/v1
   category: Biochemical Assay
   target: Enterovirus 3C/2A
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav]
   date: 2025-06-20
   version: v1
   description: "This is a functional, biochemical assay used to identify treatments for viral infectious diseases related to Enteroviruses infection, specifically EV-D68 3C, EV-A71 3C and EV-A71 2A proteases. In this current version we have added the Addgene id.  Utilizing a direct enzyme activity measurement me..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Flaviviruses (West Nile, Zika, Dengue serotypes 1-4) NS2B-NS3 protease fluorescence dose response and single point assay
   url: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p/v4
   category: Biochemical Assay
   target: Flavivirus NS2B-NS3
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav]
   date: 2025-06-20
   version: v4
   description: "This is a functional, biochemical assay used to identify treatments for viral infectious diseases related to Flavivirus infection, (specifically West Nile, Zika, and Dengue) and targets the conserved NS2B-NS3 protein. In this current version, we added the Addgne id.  Utilizing a direct enzyme act..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Fluorescence assay for Enterovirus A71 3C protease activity measurement for screening against antiviral molecules
   url: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex/v3
   category: Biochemical Assay
   target: EV-A71 3C protease
   author: Charline Giroud
+  authors: [Charline Giroud, Oleg Fedorov]
   date: 2025-06-04
   version: v3
   description: "This protocol details the fluorescence assay for Enterovirus A71 (EV-A71) 3C protease activity measurement. This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Fluorescence assay for Enterovirus coxsackievirus A16 2A protease activity measurement
   url: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn/v2
   category: Biochemical Assay
   target: CVA16 2A protease
   author: Charline Giroud
+  authors: [Charline Giroud, Oleg Fedorov]
   date: 2025-05-21
   version: v2
   description: "This protocol details the fluorescence assay for Enterovirus coxsackievirus A16 (CVA16) 2A protease activity measurement. This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contain..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Fluorescence assay for MERS-CoV Mpro protease activity measurement for screening against antiviral molecules
   url: https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de/v2
   category: Biochemical Assay
   target: MERS-CoV Mpro
   author: Charline Giroud
+  authors: [Charline Giroud, Oleg Fedorov]
   date: 2025-06-20
   version: v2
   description: "This protocol details the fluorescence assay for MERS-CoV Mpro protease activity measurement. This method is intended to measure the activity of viral proteases by using a specific labelled peptide that allows the detection of the cleaved product. The substrate contains the cleavage-sequence spec..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: Fluorescence assay of EV-D68 3C protease activity measurement for screening against antiviral molecules
   url: https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef/v3
   category: Biochemical Assay
   target: EV-D68 3C protease
   author: Charline Giroud
+  authors: [Charline Giroud, Oleg Fedorov]
   date: 2025-06-04
   version: v3
   description: "This protocol details the fluorescence assay for Enterovirus D68 (EV-D68) 3C protease activity measurement. This method is intended to measure the activity of viral proteases by using a specific labelled-peptide that allows the detection of the cleaved product. The substrate contains the cleavage..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: MERS-CoV Mpro fluorescence dose response for antiviral testing
   url: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn/v5
   category: Biochemical Assay
   target: MERS-CoV Mpro
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav]
   date: 2025-06-08
   version: v5
   description: "This is a functional, biochemical assay used to identify treatments for viral infectious disease in MERS-CoV 3C-like protease.   Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate reading the fluorescence intensity. This assay tested the mode o..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: SARS-CoV-2 Mpro fluorescence dose response
   url: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf/v5
   category: Biochemical Assay
   target: SARS-CoV-2 Mpro
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav]
   date: 2025-06-20
   version: v5
   description: "This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-COV-2 Main Protease (MPro). In this version we added the protein expression and purification protocol together with the Addgene ID of the plasmid used.
-
 Utilizing a direct enzyme acti..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: SARS-CoV-2 nsp3 macrodomain Time-Resolved FRET peptide displacement assay
   url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37/v5
   category: Biochemical Assay
   target: SARS-CoV-2 nsp3 macrodomain
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav]
   date: 2025-08-09
   version: v5
   description: "This protocol details the Time-Resolved FRET (TR-FRET) assay for SARS-CoV-2 nsp3 (non-structural protein 3) macrodomain (Mac1) binding of adenosine diphosphate (ADP)–ribosylated (ADPr) peptide. This method measures the affinity of Mac1 to its potential inhibitors by using a specific ADPr-modified..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: "Screening compounds that inhibit SARS-CoV-2 nsp3 macrodomain: ADP-Ribose quantification by LC/MS-MS"
   url: https://www.protocols.io/view/screening-compounds-that-inhibit-sars-cov-2-nsp3-m-dmd54286/v1
   category: Biochemical Assay
   target: SARS-CoV-2 nsp3 macrodomain
   author: Noa Lahav
+  authors: [Noa Lahav, Haim Barr]
   date: 2025-06-20
   version: v1
   description: "Functional biochemical assay to identify treatments for viral infectious disease that targets SARS-CoV-2 nsp3 macrodomain (MAC1). Utilizing Liquid Chromatography-Mass Spectrometry/Mass Spectrometry (LC-MS/MS) analysis, MAC1 ability to hydrolyze αNAD+ in the presence of potential inhibitors was me..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: WNV NS2B-NS3 fluorescence single point
   url: https://www.protocols.io/view/wnv-ns2b-ns3-fluorescence-single-point-dq3v5yn6/v1
   category: Biochemical Assay
   target: WNV NS2B-NS3
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav, Jiyun Zhu]
   date: 2025-08-04
   version: v1
   description: "Purpose: performing single point test of selected compounds from screening experiment libraries containing serine-targeting fragments and serine protease inhibitors against WNV NS2B/NS3 to find warheads and candidates for medicinal optimization General description: This protocol details the fluor..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: ZIKV NS2B-NS3 fluorescence single point screening assay
   url: https://www.protocols.io/view/zikv-ns2b-ns3-fluorescence-single-point-screening-dq3t5ynn/v1
   category: Biochemical Assay
   target: ZIKV NS2B-NS3
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav, Jiyun Zhu]
   date: 2025-08-21
   version: v1
   description: "Purpose: performing single point test of selected compounds from screening libraries containing serine-targeting fragments and serine protease inhibitors against ZIKV NS2B-NS3 to find warheads and candidates for medicinal optimization General description: This protocol details the fluorescent ass..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 - name: ZIKV NS2B-NS3 protease dose response screening assay
   url: https://www.protocols.io/view/zikv-ns2b-ns3-protease-dose-response-screening-ass-dq3w5ype/v1
   category: Biochemical Assay
   target: ZIKV NS2B-NS3
   author: Haim Barr
+  authors: [Haim Barr, Noa Lahav, Jiyun Zhu]
   date: 2025-08-04
   version: v1
   description: "Purpose: performing dose-response test of selected compounds from screening experiments against ZIKV NS2B-NS3 to confirm efficacy General description: This protocol details the fluorescent assays for ZIKV NS2B-NS3 cleavage of substrate Bz-Nle-KRR-AMC peptide. This method measures the fluorescence..."
-  cores: [Biochemical Assay Core]
+  cores: ['Biochemical Assay Core']
 
 # Crystallization Protocols
 - name: Co-crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1 with ligands
@@ -180,280 +196,308 @@ Utilizing a direct enzyme acti..."
   category: Crystallization
   target: SARS-CoV-2 nsp3 macrodomain
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Peter Marples, Daren Fearon]
   date: 2024-08-19
   version: v1
   description: "The COVID-19 pandemic has demonstrated the need for novel therapeutic interventions and improved pandemic preparedness strategies against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). This protocol details an optimized crystallization method for the SARS-CoV-2 nsp3 macrodomain, a ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Crystal structure of Enterovirus A71 2A protease mutant C110A containing VP1-2A junction in the active site apo structure (C1 PDB: 9FGO) used for fragment screen and compound soaking"
   url: https://www.protocols.io/view/crystal-structure-of-enterovirus-a71-2a-protease-m-d44n8yve/v1
   category: Crystallization
   target: EV-A71 2A protease
   author: Xiaomin Ni
+  authors: [Xiaomin Ni, Peter Marples, Daren Fearon, Lizbé Koekemoer]
   date: 2025-07-25
   version: v1
   description: "This protocol describes the crystallization of Enterovirus 71 (EV-71) 2A protease mutant C110A containing the VP1-2A junction in the active site. The crystals form within 12-24 hours using a crystallization screen composed of 1.8M NaCl and 15% ethanol. The crystal structure was determined using X..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Enterovirus D68 3C protease
   url: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx/v2
   category: Crystallization
   target: EV-D68 3C protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-06-05
   version: v2
   description: "The development of effective broad-spectrum antivirals forms an important part of preparing for future pandemics. A cause for concern is the currently emerging pathogen Enterovirus D68 (EV-D68) which primarily spreads through respiratory routes causing mostly mild to severe respiratory illness bu..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Enterovirus D68 3C protease apo structure and fragment screen in space group P212121 (PDB code 8CNX)
   url: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo-dy9z7z76/v2
   category: Crystallization
   target: EV-D68 3C protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-04-25
   version: v2
   description: "The crystallization protocol and buffer conditions used to obtain Enterovirus D68 3C protease crystals. The crystal structure was depostited to RCSB PDB with code 8CNX.  In this new version we added the Addgene ID and the protein expression and purification protocol. This construct gave us a crys..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Enterovirus D68 3C protease in space group P21 used for follow up compounds
   url: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-drkd54s6/v2
   category: Crystallization
   target: EV-D68 3C protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-04-25
   version: v2
   description: "The development of effective broad-spectrum antivirals forms an important part of preparing for future pandemics. A current cause for concern is the emerging pathogen Enterovirus D68 (EV-D68), which primarily spreads through respiratory routes. While it mostly causes mild to severe respiratory il..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Enterovirus coxsackievirus A16 2A protease
   url: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-dgax3sfn/v1
   category: Crystallization
   target: CVA16 2A protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2024-10-02
   version: v1
   description: "Picornaviridae coxsackievirus A16 is the causative agent of paediatric hand-foot-and-mouth disease, and a target for pandemic preparedness due to the risk of higher order complications in a large-scale outbreak. The 2A protease of the virus is responsible for self-cleavage from the poly protein, ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Enterovirus coxsackievirus A16 2A protease in space group C2 used for apo, fragment screen and follow compounds (PDB 8POA)
   url: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-fafxbibpp/v2
   category: Crystallization
   target: CVA16 2A protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-04-25
   version: v2
   description: "Picornaviridae coxsackievirus A16 is the causative agent of paediatric hand-foot-and-mouth disease, and a target for pandemic preparedness due to the risk of higher order complications in a large-scale outbreak. The 2A protease of the virus is responsible for self-cleavage from the poly protein, ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of MERS-CoV Mpro in C2221  used for compound soaking
   url: https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e/v2
   category: Crystallization
   target: MERS-CoV Mpro
   author: Blake Balcomb
+  authors: [Blake Balcomb, Peter Marples, Lizbé Koekemoer, Charlie Tomlinson, Daren Fearon]
   date: 2025-05-13
   version: v2
   description: "The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies for pandemic preparedness. Other than Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), there are several human coronaviruses that are of pandemic concern, these include SARS-CoV ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of SARS-CoV-2 C terminal nucleocapsid protein for fragment screening and compound soaking
   url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-g73gbzqjx/v2
   category: Crystallization
   target: SARS-CoV-2 N protein
   author: Peter Marples
+  authors: [Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-10-16
   version: v2
   description: "The crystallization protocol and buffer conditions used to obtain reproducible SARS CoV-2 Nucleocapsid crystals suitable for XChem fragment screening. In this new version we added the Addgene id, together with the expression and purification protocol. We also added the solvent tolerance test and ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of SARS-CoV-2 MPro in  P212121 for compound soaking
   url: https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e/v2
   category: Crystallization
   target: SARS-CoV-2 Mpro
   author: Blake Balcomb
+  authors: [Blake Balcomb, Peter Marples, Lizbé Koekemoer, Charlie Tomlinson, Daren Fearon]
   date: 2025-05-13
   version: v2
   description: "The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies for pandemic preparedness against Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). This protocol outlines the crystallization protocol and buffer conditions used to obtain reprod..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Crystallisation of West Nile virus NS2B-NS3 protease in P64 (PDB ID: 8CO8)"
   url: https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7/v2
   category: Crystallization
   target: WNV NS2B-NS3
   author: Blake Balcomb
+  authors: [Blake Balcomb, Peter Marples, Lizbé Koekemoer, Daren Fearon, Michael Fairhead]
   date: 2025-06-05
   version: v2
   description: "West Nile virus NS2B-NS3 innactive fusion protease was crystallized using vapor diffusion in Morpheus screen conditions at pH 8.5. Hexagonal rod-shaped crystals grew to ~50 μm in length after 14 days at 20°C. The crystals belonged to space group P64 and diffracted to 1.91 Å resolution at Diamond ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation of Zika NS5 RdRp
   url: https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-dnh45b8w/v1
   category: Crystallization
   target: ZIKV NS5 RdRp
   author: Anu V. Chandran
+  authors: [Anu V. Chandran, Peter Marples, Martin austin Walsh]
   date: 2024-10-02
   version: v1
   description: "The main aim of this work was to identify small molecules that bind Zika NS5 RdRp (catalytic RNA-dependent RNA polymerase domain) through X-ray fragment-based screening. The Zika NS5 RDRP domain was cloned, expressed, purified, and crystallised.  Suitable crystals for fragment screening were prod..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1
   url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-df6a3rae/v1
   category: Crystallization
   target: SARS-CoV-2 nsp3 macrodomain
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Peter Marples, Lizbé Koekemoer, Charlie Tomlinson, Daren Fearon]
   date: 2024-08-19
   version: v1
   description: "The COVID-19 pandemic has demonstrated the need for novel therapeutic interventions and improved pandemic preparedness strategies against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). This protocol details an optimized crystallization method for the SARS-CoV-2 nsp3 macrodomain, a ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P43
   url: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp/v2
   category: Crystallization
   target: SARS-CoV-2 nsp3 macrodomain
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Peter Marples, Charlie Tomlinson, Lizbé Koekemoer, Daren Fearon]
   date: 2025-08-21
   version: v2
   description: "The COVID-19 pandemic has demonstrated the need for novel therapeutic interventions and improved pandemic preparedness strategies against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). This protocol details an optimized crystallization method for the SARS-CoV-2 nsp3 macrodomain, a ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of Enterovirus A71 3C protease in C2221  apo structure (PDB 8CNY)
   url: https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-fahkbib4x/v2
   category: Crystallization
   target: EV-A71 3C protease
   author: Ryan Lithgo
+  authors: [Ryan Lithgo, Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2025-04-30
   version: v2
   description: "The crystallization protocol and buffer conditions used to obtain Enterovirus A71 3C protease crystals. The crystal structure was depostited to RCSB PDB with code 8CNY. In this version we added: protein production, solvent tolerance test protocols and the Addgene ID of the contruct used."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of MERS-CoV Mpro
   url: https://www.protocols.io/view/crystallization-of-mers-cov-mpro-dcr52v86/v1
   category: Crystallization
   target: MERS-CoV Mpro
   author: Blake Balcomb
+  authors: [Blake Balcomb, Peter Marples, Lizbé Koekemoer, Daren Fearon, Charlie Tomlinson]
   date: 2024-04-26
   version: v1
   description: "The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies for pandemic preparedness. Other than Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), there are several human coronaviruses that are of pandemic concern, these include SARS-CoV ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of SARS-CoV-2 Mpro
   url: https://www.protocols.io/view/crystallization-of-sars-cov-2-mpro-dcr42v8w/v1
   category: Crystallization
   target: SARS-CoV-2 Mpro
   author: Blake Balcomb
+  authors: [Blake Balcomb, Peter Marples, Lizbé Koekemoer, Daren Fearon, Charlie Tomlinson]
   date: 2024-04-26
   version: v1
   description: "The COVID-19 pandemic has highlighted the need to identify novel therapeutic interventions and strategies for pandemic preparedness against Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). This protocol outlines the crystallization protocol and buffer conditions used to obtain reprod..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of SARS-CoV-2 N Protein
   url: https://www.protocols.io/view/crystallization-of-sars-cov-2-n-protein-dcr32v8n/v1
   category: Crystallization
   target: SARS-CoV-2 N protein
   author: Peter Marples
+  authors: [Peter Marples, Lizbé Koekemoer, Daren Fearon]
   date: 2024-04-26
   version: v1
   description: "The crystallization protocol and buffer conditions used to obtain reproducible SARS C0V-2 Nucelocapsid  crystals suitable for XChem fragment screening."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of SARS-CoV-2 nsp15 NendoU
   url: https://www.protocols.io/view/crystallization-of-sars-cov-2-nsp15-nendou-dcr22v8e/v1
   category: Crystallization
   target: SARS-CoV-2 nsp15
   author: Peter Marples
+  authors: [Peter Marples, Daren Fearon, Lizbé Koekemoer, Andre Schutzer de Godoy]
   date: 2024-04-26
   version: v1
   description: "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of coronavirus disease 2019 (COVID-19). The NSP15 endoribonuclease enzyme, known as NendoU, is highly conserved and plays a critical role in the ability of the virus to evade the immune system. NendoU is a promisi..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of Zika NS5 RdRp
   url: https://www.protocols.io/view/crystallization-of-zika-ns5-rdrp-dcrx2v7n/v1
   category: Crystallization
   target: ZIKV NS5 RdRp
   author: Anu V. Chandran
+  authors: [Anu V. Chandran, Peter Marples, Martin austin Walsh]
   date: 2024-04-26
   version: v1
   description: "The main aim of this work was to identify small molecules that bind Zika NS5 RdRp (catalytic RNA-dependent RNA polymerase domain) through X-ray fragment-based screening. The Zika NS5 RDRP domain was cloned, expressed, purified, and crystallised.  Suitable crystals for fragment screening were prod..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Crystallization of Zika virus NS2B-NS3 protease (closed conformation in space group P4322 | PDB ID: 8PN6)"
   url: https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw/v2
   category: Crystallization
   target: ZIKV NS2B-NS3
   author: Xiaomin Ni
+  authors: [Xiaomin Ni, Peter Marples, Daren Fearon, Lizbé Koekemoer]
   date: 2025-04-17
   version: v2
   description: "Zika virus (ZIKV)  NS3 protease with its NS2B cofactor is essential for the cleavage of Zika polyprotein precursor into individual structural and non-structural proteins and is therefore an attractive drug target. We optimized a robust crystal system of co-expressed NS3 protease with its NS2B cof..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Crystallization of Zika virus NS3 helicase PDB
   url: https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp/v2
   category: Crystallization
   target: ZIKV NS3 helicase
   author: Andre Schutzer de Godoy
+  authors: [Andre Schutzer de Godoy, Peter Marples, Lizbé Koekemoer]
   date: 2025-07-25
   version: v2
   description: "The crystallization protocol and buffer conditions used to obtain Zika NS3 helicase crystals suitable for XChem fragment screening. The Zika virus (ZIKV), discovered in Africa in 1947, swiftly spread across continents, causing significant concern due to its recent association with microcephaly in..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Diamond XChem Seeding Protocol
   url: https://www.protocols.io/view/diamond-xchem-seeding-protocol-c23kygkw/v1
   category: Crystallization
   target: General
   author: Peter Marples
+  authors: [Peter Marples, Charlie Tomlinson, Daren Fearon]
   date: 2023-12-19
   version: v1
   description: "The use of seeding in protein crystallisation is a highly effective method for increasing the quantity of usable crystals from a single plate and can be crucial for obtaining crystals in a highly reproducible  manner. Even crystallisation experiments which did not previously require seeding can b..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "READDI protocol: Crystallisation of CHIKV nsP3 macrodomain"
   url: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dcr62v9e/v1
   category: Crystallization
   target: CHIKV nsP3 macrodomain
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Peter Marples, Michael Fairhead, Andre Schutzer de Godoy, Daren Fearon]
   date: 2024-07-02
   version: v1
   description: "Chikungunya virus (CHIKV) causes severe fever, rash and debilitating joint pain that can last for months or even years. Millions of people have been infected with CHIKV, mostly in low- and middle-income countries, and the virus continues to spread into new areas due to the geographical expansion ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "READDI protocol: Crystallisation of CHIKV nsP3 macrodomain"
   url: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn/v2
   category: Crystallization
   target: CHIKV nsP3 macrodomain
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Peter Marples, Michael Fairhead, Andre Schutzer de Godoy, Daren Fearon]
   date: 2024-10-07
   version: v2
   description: "The crystallization protocol and buffer conditions used to obtain reproducible Chikungunya Virus NS3 macrodomain crystals suitable for XChem fragment screening."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "READDI protocol: Crystallisation of Dengue NS5 RdRp in I222"
   url: https://www.protocols.io/view/readdi-protocol-crystallisation-of-dengue-ns5-rdrp-dyp87vrw/v1
   category: Crystallization
   target: DENV NS5 RdRp
   author: Jasmin Aschenbrenner
+  authors: [Jasmin Aschenbrenner, Manisha Saini, Ashima Chopra, Peter Marples, Francesc Xavier Ruiz, Eddy Arnold, Daren Fearon]
   date: 2025-03-10
   version: v1
   description: "The crystallisation protocol and buffer conditions used to obtain reproducible Dengue virus serotype 2 RNA-dependent RNA polymerase crystals in I222 suitable for XChem fragment screening."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: XChem crystallographic fragment screening
   url: https://www.protocols.io/view/xchem-crystallographic-fragment-screening-dhxj37kn/v1
   category: Crystallization
   target: General
   author: Peter Marples
+  authors: [Peter Marples, Daren Fearon, Blake Balcomb]
   date: 2025-02-18
   version: v1
   description: "The XChem Facility at Diamond Light Source provides routine, large scale crystal graphic fragment screening, supporting the entire crystal to deposition process. X-ray crystallography is an essential part to the FBDD toolkit. It is sensitive enough to identify weak binders and directly yields str..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: XChem solvent test
   url: https://www.protocols.io/view/xchem-solvent-test-dcpy2vpw/v1
   category: Crystallization
   target: General
   author: Peter Marples
+  authors: [Peter Marples, Daren Fearon, Blake Balcomb]
   date: 2025-02-18
   version: v1
   description: "The XChem Facility at Diamond Light Source provides routine, large scale crystal graphic fragment screening, supporting the entire crystal to deposition process. X-ray crystallography is an essential part to the FBDD toolkit. It is sensitive enough to identify weak binders and directly yields str..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 # Protein Production Protocols
 - name: DENV2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol
@@ -461,351 +505,385 @@ Utilizing a direct enzyme acti..."
   category: Protein Production
   target: DENV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2024-06-10
   version: v3
   description: "This protocol details the co-expression and purification of DENV2 NS2B-NS3 protease coexpression construct bearing a N-terminal His-GST tag at small scale (<6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Dengue Virus Serotype 2 NS2B-NS3 protease fusion protein Avi-tagged (Biotinylated) protein expression and purification: large scale 1 L cultures"
   url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p-d4i68uhe/v1
   category: Protein Production
   target: DENV
   author: Michael Fairhead
+  authors: [Michael Fairhead]
   date: 2025-04-15
   version: v1
   description: "This protocol details the expression and purification of Dengue Virus Serotype 2 NS2B-NS3 protease fusion protein with a AviTag (biotinylation tag) for biophysical assay at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Dengue virus serotype 1 NS2B-NS3 protease fusion construct small scale expression and purification protocol
   url: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87/v3
   category: Protein Production
   target: DENV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-04
   version: v3
   description: "This protocol details the co-expression and purification of Dengue virus serotype 1 NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (<6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification for biophysical and biochemical assays protocol
   url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn/v2
   category: Protein Production
   target: DENV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-08-28
   version: v2
   description: "This protocol details the co-expression and purification of Dengue virus serotype 2 NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (<6L). The final product does not have its affinity tags removed, and is catalytically active. Final product is suitable for b..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification protocol
   url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf/v3
   category: Protein Production
   target: DENV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-04
   version: v3
   description: "This protocol details the co-expression and purification of Dengue virus serotype 2 NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (<6L). This protocol produces catalytically active enzyme suitable for biochemical assays. In this version we added the Addgen..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Dengue virus serotype 3 NS2B-NS3 protease fusion construct using parallel rapid protein expression and purification: 100 mL cultures"
   url: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf/v3
   category: Protein Production
   target: DENV NS2B-NS3
   author: Michael Fairhead
+  authors: [Michael Fairhead, Korvus Wang]
   date: 2025-06-04
   version: v3
   description: "This protocol details the small scale (100mL) expression and purification of Dengue virus serotype 3 NS2B-NS3 protease fusion constructs using the parallel rapid protein expression and purification (PREPX) method. Recombinant proteins are expressed in Escherichia coli using the autoinduction meth..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Dengue virus serotype 4 NS2B-NS3 protease fusion construct: 100 mL cultures"
   url: https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp/v2
   category: Protein Production
   target: DENV NS2B-NS3
   author: Michael Fairhead
+  authors: [Michael Fairhead, Korvus Wang]
   date: 2025-06-04
   version: v2
   description: "This protocol details the small scale (100 mL) expression and purification of Dengue virus serotype 4 (DENV-4) NS2B-NS3 protease fusion constructs using the  parallel rapid expression and purification (PREPX) method. Recombinant proteins are expressed in Escherichia coli using the autoinduction m..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Enterovirus A71 3C protease large scale purification protocol
   url: https://www.protocols.io/view/enterovirus-a71-3c-protease-large-scale-purificati-dfpx3mpn/v1
   category: Protein Production
   target: EV-A71 3C protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-07-29
   version: v1
   description: "This protocol details the expression and purification of enterovirus A71 3C protease construct bearing a C-terminal His-tag at large scale (>6L)"
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Enterovirus A71 3C protease small scale expression and purification protocol
   url: https://www.protocols.io/view/enterovirus-a71-3c-protease-small-scale-expressio-dfps3mne/v1
   category: Protein Production
   target: EV-A71 3C protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-04-23
   version: v1
   description: "This protocol details the expression and purification of enterovirus A71 3C protease construct bearing a C-terminal His-tag at small scale (<6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Enterovirus D68 3C protease large scale purification protocol
   url: https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6/v2
   category: Protein Production
   target: EV-D68 3C protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-07-29
   version: v2
   description: "This protocol details the expression and purification of enterovirus D68 3C protease construct bearing a C-terminal His-tag at large scale (>6L)"
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Enterovirus D68 3C protease small scale expression and purification protocol
   url: https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-dzkg74tw/v2
   category: Protein Production
   target: EV-D68 3C protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-04-22
   version: v2
   description: "This protocol details the expression and purification of enterovirus D68 3C protease construct bearing a C-terminal His-tag at small scale (<6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Enterovirus coxsackievirus A16 2A protease small scale expression and purification protocol
   url: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6/v3
   category: Protein Production
   target: CVA16 2A protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-04-22
   version: v3
-  description: "This protocol details the expression and purification of coxsackievirus A16 2A protease construct bearing a N-terminal His-SUMO tag at small scale (<6L).
- Picornaviridae Enterovirus coxsackievirus A16 (CVA16)"
-  cores: [Structural Biology Core]
+  description: "This protocol details the expression and purification of coxsackievirus A16 2A protease construct bearing a N-terminal His-SUMO tag at small scale (<6L). Picornaviridae Enterovirus coxsackievirus A16 (CVA16)"
+  cores: ['Structural Biology Core']
 
 - name: Expression and purification of truncated Zika virus NS5 RNA-Dependent RNA Polymerase for structural studies
   url: https://www.protocols.io/view/expression-and-purification-of-truncated-zika-viru-dsre6d3e/v1
   category: Protein Production
   target: ZIKV
   author: Anu V Chandran
+  authors: [Anu V Chandran]
   date: 2025-04-25
   version: v1
   description: "We present a detailed protocol for the expression and purification of a truncated form of Zika virus (ZIKV) NS5 RNA-dependent RNA polymerase (RdRp), comprising residues 306-903. The construct contains an N-terminal hexahistidine-SUMO tag and was expressed in E. coli Lemo21 cells. The protein was ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Large scale EV-A71 2A protease mature and precursor expression setup and operation of Single Use  Bubble Column Reactors: Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)"
   url: https://www.protocols.io/view/large-scale-ev-a71-2a-protease-mature-and-precurso-g3ptbymnp/v1
   category: Protein Production
   target: EV-A71 2A protease
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-07-04
   version: v1
   description: "This protocol describes a single-use Bubble Column Reactor (suBCR) system for large-scale recombinant protein production in E. coli, addressing limitations of traditional shake-flask methods for structure-based drug discovery. The system enables parallel 1-liter batch cultivation using disposable..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Large scale MPro MERS-CoV protein expression setup and operation of Single Use  Bubble Column Reactors : Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)"
   url: https://www.protocols.io/view/large-scale-mpro-mers-cov-protein-expression-setup-g256byg9f/v1
   category: Protein Production
   target: MERS-CoV Mpro
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-06-20
   version: v1
   description: "This protocol describes a novel single-use Bubble Column Reactor (suBCR) array system for large-scale recombinant protein production in E. coli, specifically demonstrated with MERS-CoV main protease (MPro). Traditional shake-flask methods are inadequate for meeting the high protein quantities req..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: MERS-CoV Mpro large scale purification protocol
   url: https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne/v2
   category: Protein Production
   target: MERS-CoV Mpro
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-20
   version: v2
   description: "This protocol details the expression and purification of MERS-CoV Mpro construct bearing a N-terminal His-SUMO tag at large scale (>6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Master_Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR): Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)."
   url: https://www.protocols.io/view/master-setup-and-operation-of-single-use-sub-bubbl-dcp72vrn/v1
   category: Protein Production
   target: General
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-05-27
   version: v1
   description: "Structure-Based Drug Discovery (SBDD) is an approach to drug design which involves crystallising disease target proteins unbound and with candidate small-molecule binders, to observe and analyse the binding interaction, or to identify novel binders that can be developed into lead-like compounds. ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Parallel rapid expression and purification of proteins for crystallography (PREPX): 48x 100 mL cultures"
   url: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8wbzxan/v2
   category: Protein Production
   target: General
   author: Michael Fairhead
+  authors: [Michael Fairhead]
   date: 2024-02-08
   version: v2
   description: "This protocol details the parallel rapid expression and purification of 24x proteins for crystallography (PREPX) at 100 mL culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in parallel using a IMAC, desalt, tag cleavage, reverse..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Parallel rapid expression and purification of proteins for crystallography (PREPX): large scale 1 L cultures"
   url: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8exztfn/v1
   category: Protein Production
   target: General
   author: Michael Fairhead
+  authors: [Michael Fairhead]
   date: 2024-01-30
   version: v1
   description: "This protocol details the parallel rapid expression and purification of proteins for crystallography (PREPX) at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in parallel using a IMAC, desalt, tag cleavage, reverse IMAC..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: SARS-CoV-2 Mpro small scale expression and purification protocol
   url: https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7/v2
   category: Protein Production
   target: SARS-CoV-2 Mpro
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-20
   version: v2
   description: "This protocol details the expression and purification of SARS-CoV-2 Mpro construct bearing a N-terminal His-SUMO tag at small scale (<6L). In this new version, we added the Addgene id."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: SARS-CoV-2 nsp3 macrodomain His-SUMO tagged expression and purification protocol for crystallization
   url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx/v2
   category: Protein Production
   target: SARS-CoV-2 nsp3 macrodomain
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-05
   version: v2
   description: "This protocol details the expression and purification of SARS-CoV-2 nsp3 macrodomain crystallization construct bearing a N-terminal His-SUMO tag and truncation of the N-terminal methionine at small scale (<6L). In this version we added the Addgene id."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: SARS-CoV-2 nsp3 macrodomain His-tagged expression and purification protocol for assay
   url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf/v3
   category: Protein Production
   target: SARS-CoV-2 nsp3 macrodomain
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-17
   version: v3
   description: "This protocol details the expression and purification of SARS-CoV-2 nsp3 macrodomain assay construct bearing a N-terminal His tag at small scale (<6L). In this new version, we added the addgene ID of the plasmid used."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: SARS-CoV-2 nsp3 macrodomain expression and purification protocol for crystallization
   url: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf/v2
   category: Protein Production
   target: SARS-CoV-2 nsp3 macrodomain
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-05
   version: v2
   description: "This protocol details the expression and purification of SARS-CoV-2 nsp3 macrodomain crystallization construct bearing a N-terminal His-tag at small scale (<6L). In this new version we added the Addgene id."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of SARS-CoV-2 Nucleocapsid  C-terminal oligomerization domain for Structural Biology and Drug Design (SBDD)"
   url: https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6yebzftf/v1
   category: Protein Production
   target: SARS-CoV-2 N protein
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-08-04
   version: v1
   description: "This study presents a scalable method for recombinant expression of SARS-CoV-2 nucleocapsid protein C-terminal oligomerization domain using single-use bubble column reactors (suBCRs) for structural biology and drug discovery applications. The nucleocapsid protein is essential for viral assembly, ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of enterovirus 3C protease for Structural Biology and Drug Design (SBDD)"
   url: https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6aabzaaf/v1
   category: Protein Production
   target: Enterovirus 3C
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-07-29
   version: v1
   description: "Recombinant expression of enterovirus 3C proteases from EV-D68 and EV-A71 strains requires scalable cultivation methods to produce sufficient protein quantities for structural biology applications. This protocol describes the setup and operation of single-use Bubble Column Reactors (suBCR) for pa..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Small-scale Expression and Purification Protocol for His-SUMO Tagged Enterovirus D68 Strain STL 2014 12 3C Protease in E. coli
   url: https://www.protocols.io/view/small-scale-expression-and-purification-protocol-f-dfk73kzn/v1
   category: Protein Production
   target: EV-D68 3C protease
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-04-25
   version: v1
   description: "This protocol describes the expression and purification of Enterovirus D68 (EV-D68) strain EV-D68 STL 2014 12 3C protease in E. coli Rosetta BL21(DE3)-RR cells. The protein is expressed with an N-terminal His-SUMO tag using an auto-induction system at 18°C. Purification involves cell lysis, initi..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "The Manufacture and Setup  of Single Use (SUB) Bubble Column Reactors (BCR): Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)."
   url: https://www.protocols.io/view/the-manufacture-and-setup-of-single-use-sub-bubble-dzsi76ce/v1
   category: Protein Production
   target: General
   author: Nathan Wright
+  authors: [Nathan Wright]
   date: 2025-05-27
   version: v1
   description: "Structure-Based Drug Discovery (SBDD) is an approach to drug design which involves crystallising disease target proteins unbound and with candidate small-molecule binders, to observe and analyse the binding interaction, or to identify novel binders that can be developed into lead-like compounds. ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "West Nile Virus NS2B-NS3 inactive fusion protease expression and purification: large scale 1 L cultures"
   url: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp/v2
   category: Protein Production
   target: WNV NS2B-NS3
   author: Michael Fairhead
+  authors: [Michael Fairhead]
   date: 2025-06-05
   version: v2
   description: "This method describes a protocol for the 1 L scale expression and purification of West Nile Virus NS2B-NS3 inactive fusion protease in E. coli using autoinduction growth media. After enzyme detergent based cell lysis the fusion protein is purified using his tag chromatography, TEV protease tag cl..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: West Nile virus NS2B-NS3 protease fusion construct small scale expression and purification protocol
   url: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx/v3
   category: Protein Production
   target: WNV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-04
   version: v3
   description: "This protocol details the co-expression and purification of West Nile virus NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (<6L). This protocol produces enzymatically active product that is suitable for biochemical assays. In this version we added the Addge..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika NS2B-3-4A Protein Construct cleavage pattern assay
   url: https://www.protocols.io/view/zika-ns2b-3-4a-protein-construct-cleavage-pattern-d5fq83mw/v1
   category: Protein Production
   target: ZIKV
   author: Adeeba Dhalech
+  authors: [Adeeba Dhalech]
   date: 2025-08-13
   version: v1
   description: "Cis cleavage pattern by viral protease is analyzed using an expression plasmid pT7CFE1-NHA-Chis-target of interest. For flaviviruses (ZIka/DENV) the plasmid has been designed to include the cofactor domain of NS2B, NS2B-3 cleavage site, protease and helicase domains of NS3, and first 49 residues ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika NS2B-NS3 fusion construct for assay  small scale expression and purification protocol
   url: https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x/v2
   category: Protein Production
   target: ZIKV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-04
   version: v2
   description: "This protocol details the co-expression and purification of Zika virus NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (<6L). The purified enzyme is active and suitable for use in biochemical assays. Construct used here is (internal id: QQ01ZVNS2B-cC001). In..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika NS2B-NS3 protease co-expression construct small scale expression and purification protocol
   url: https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx/v2
   category: Protein Production
   target: ZIKV NS2B-NS3
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-06-20
   version: v2
   description: "This protocol details the co-expression and purification of Zika NS2B-NS3 protease coexpression construct bearing a N-terminal His-GST tag at small scale (<6L). In this new version, we added the Addgene id."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika NS5 RdRp His-SUMO construct small scale expression and purification protocol
   url: https://www.protocols.io/view/zika-ns5-rdrp-his-sumo-construct-small-scale-expre-dfh93j96/v1
   category: Protein Production
   target: ZIKV NS5 RdRp
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2024-08-08
   version: v1
   description: "This protocol details the co-expression and purification of Zika NS5 NS5 RNA-dependent RNA polymerase bearing a N-terminal His-SUMO tag at small scale (<6L)."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika NS5 RdRp Histidine-Thioredoxin tagged construct  small scale expression and purification protocol
   url: https://www.protocols.io/view/zika-ns5-rdrp-histidine-thioredoxin-tagged-constru-dfkw3kxe/v1
   category: Protein Production
   target: ZIKV NS5 RdRp
   author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
   date: 2025-04-22
   version: v1
   description: "We present a comprehensive small-scale (<6L) protocol for the expression and purification of the Zika virus NS5 RNA-dependent RNA polymerase (RdRp) domain with an N-terminal His-Trx (Histidine-Thioredoxin) tag. Using the BL21(DE3)-RR E. coli expression system, the protocol describes bacterial tra..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: "Zika Virus NS2B-NS3 protease fusion protein his10-tagged protein expression and purification: large scale 1 L cultures"
   url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-his10-dp4b5qsn/v1
   category: Protein Production
   target: ZIKV NS2B-NS3
   author: Michael Fairhead
+  authors: [Michael Fairhead]
   date: 2024-10-23
   version: v1
   description: "This protocol details the expression and purification of Zika Virus NS2B-NS3 protease fusion protein with a his10-tag for biophysical assay at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC, desalt, tag ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 # Biophysical Assay Protocols
 - name: "Creoptix Protein Immobilization Protocol: Biotin Capture on Streptavidin Chip"
@@ -813,71 +891,77 @@ Utilizing a direct enzyme acti..."
   category: Biophysical Assay
   target: General
   author: Eda Capkin
+  authors: [Eda Capkin]
   date: 2025-04-15
   version: v1
-  description: "This protocol provides a quick yet comprehensive method for the capture of various biotinylated
-proteins on a PCH-STA chip, that preserves protein activity. The procedure covers system preparation, chip conditioning, protein capture, and subsequent analysis using the Creoptix WAVEsystem. It is a ..."
-  cores: [Structural Biology Core]
+  description: "This protocol provides a quick yet comprehensive method for the capture of various biotinylated proteins on a PCH-STA chip, that preserves protein activity. The procedure covers system preparation, chip conditioning, protein capture, and subsequent analysis using the Creoptix WAVEsystem. It is a ..."
+  cores: ['Structural Biology Core']
 
 - name: "Creoptix Protein Immobilization Protocol: His-tag Capture via EDC/NHS chemistry"
   url: https://www.protocols.io/view/creoptix-protein-immobilization-protocol-his-tag-c-dibf4ajn/v1
   category: Biophysical Assay
   target: General
   author: Eda Capkin
+  authors: [Eda Capkin]
   date: 2025-02-21
   version: v1
   description: "This protocol outlines a comprehensive method for immobilizing His-tagged proteins on a PCH-NTA chip using the Creoptix WAVEsystem. The procedure involves chip conditioning, protein capture, and covalent immobilization through His capture and EDC/NHS chemistry. Key steps include surface activatio..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Data Analysis waveRAPID using Creoptix WAVEsystem
   url: https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-dp685rhw/v1
   category: Biophysical Assay
   target: General
   author: Eda Capkin
+  authors: [Eda Capkin]
   date: 2025-02-21
   version: v1
   description: "This protocol outlines the data analysis workflow for the Creoptix WAVEsystem using Repeated Analyte Pulses of Increasing Duration (RAPID) method. It covers essential steps including blank and DMSO corrections, and kinetic analysis using a 1:1 binding model. The procedure ensures accurate evaluat..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Dengue 2 NS2B-NS3 protease binding assay for  compound screen using grating-coupled interferometry
   url: https://www.protocols.io/view/dengue-2-ns2b-ns3-protease-binding-assay-for-compo-dyy37xyn/v1
   category: Biophysical Assay
   target: DENV NS2B-NS3
   author: Eda Capkin
+  authors: [Eda Capkin, Korvus Wang, Xiaomin Ni, Lizbé Koekemoer, Mary-Ann Xavier, Warren Thompson, Frank von Delft]
   date: 2025-04-15
   version: v1
   description: "This protocol aims to measure kinetic parameters (ka, kd, and KD) for compounds against Dengue virus NS2B-NS3 protease using the Creoptix Wave system. Grating coupled interferometry (GCI) is a label-free technique to measure kinetics and affinity for different targets (proteins, small molecules, ..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Isothermal titration calorimetry protocol for binding studies of enterovirus EV-A71 2A protease and small inhibitors
   url: https://www.protocols.io/view/isothermal-titration-calorimetry-protocol-for-bind-gzx7bx7rp/v1
   category: Biophysical Assay
   target: EV-A71 2A protease
   author: Eda Capkin
+  authors: [Eda Capkin]
   date: 2025-07-29
   version: v1
   description: "This protocol describes an isothermal titration calorimetry (ITC) method for measuring binding interactions between the  2A protease from enterovirus stratin EV-71 and small molecule inhibitors.  Experiments are performed at 25°C using 25 μM protein and 250 μM ligand concentrations with 17 sequen..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Kinetic assay with waveRAPID grating-coupled interferometry waveCreoptix system
   url: https://www.protocols.io/view/kinetic-assay-with-waverapid-grating-coupled-inte-dp655rg6/v1
   category: Biophysical Assay
   target: General
   author: Eda Capkin
+  authors: [Eda Capkin]
   date: 2025-02-24
   version: v1
   description: "This protocol outlines the setup of kinetic binding assays using the Creoptix waveRAPID grating-coupled interferometry system. The method covers automated sample handling in 96- or 384-well formats, including DMSO corrections, control samples, and buffer blanks, enabling high-throughput molecular..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 - name: Zika virus NS2B-NS3 protease binding assay for  compound screen using grating-coupled interferometry
   url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-binding-assay-for-com-dpxj5pkn/v1
   category: Biophysical Assay
   target: ZIKV NS2B-NS3
   author: Eda Capkin
+  authors: [Eda Capkin, Korvus Wang, Xiaomin Ni, Lizbé Koekemoer, warren.thompson, Frank von Delft, Mary-Ann Xavier]
   date: 2025-02-24
   version: v1
   description: "This protocol aims to measure kinetic parameters (ka, kd, and KD) for compounds against Zika virus NS2B-NS3 protease using the Creoptix Wave system. Grating coupled interferometry (GCI) is a label-free technique to measure kinetics and affinity for different targets (proteins, small molecules, fr..."
-  cores: [Structural Biology Core]
+  cores: ['Structural Biology Core']
 
 # ADMET Protocols
 - name: Assessing Intestinal and CNS Permeability with MDR1-MDCKII Cells
@@ -885,180 +969,198 @@ proteins on a PCH-STA chip, that preserves protein activity. The procedure cover
   category: ADMET
   target: General
   author: Anzhela Rodnichenko
+  authors: [Anzhela Rodnichenko, Yurii Kheilik]
   date: 2024-12-09
   version: v1
   description: "The protocol allows measurement of the rate of flux of a compound to identify intestinal or CNS permeability. The assay measures the rate of flux across Canine MDR1 Knockout, Human MDR1 Knockin MDCKII cells (MDR1-MDCKII) cell monolayers to identify intestinal or CNS permeability.  By measuring ho..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Drug transporter (ABC), P-gp, BCRP, BSEP inhibition using drug substrate assay
   url: https://www.protocols.io/view/drug-transporter-abc-p-gp-bcrp-bsep-inhibition-usi-gz6rbx9d7/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "ATP-binding cassette (ABC) transporter assays are used to study the activity and interaction of drugs with ABC transporters P-gp, BCRP, and BSEP, which are crucial for drug absorption, distribution, and excretion.  These assays measure the effect of a test compound on the transport of a known pro..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Drug transporter (SLC) inhibition panel assay using drug substrates
   url: https://www.protocols.io/view/drug-transporter-slc-inhibition-panel-assay-using-g2k5bycy7/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "SLC (Solute Carrier) transporters play a crucial role in drug absorption, distribution, and elimination. Some drugs can act as inhibitors of these transporters, potentially affecting the absorption or clearance of other co-administered drugs, leading to drug interactions. This can result in alter..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Fetal Calf Serum (FCS / FBS) Protein Binding
   url: https://www.protocols.io/view/fetal-calf-serum-fcs-fbs-protein-binding-dvyn67ve/v1
   category: ADMET
   target: General
   author: Yurii Kheilik
+  authors: [Yurii Kheilik, Yaroslav Lesyk, Nadiia Diyuk]
   date: 2025-03-31
   version: v1
   description: "In vitro pharmacological and toxicological evaluation of chemicals is performed using a wide variety of cell‐based assay systems. One of the major factors influencing the in vitro responses of chemicals is the amount of unbound chemicals present at the target site. The concentrations of the unbou..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-Vivo Mouse and Rat PK Bioanalysis
   url: https://www.protocols.io/view/in-vivo-mouse-and-rat-pk-bioanalysis-gz75bx9q7/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "In vivo PK bioanalysis involves studying drug behaviour within a living organism to understand how it is absorbed, distributed, metabolized, and excreted (ADME). This is crucial for drug discovery and development, providing insights into a drug's efficacy and safety before clinical trials. Bioana..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro  plasma protein binding
   url: https://www.protocols.io/view/in-vitro-plasma-protein-binding-gzzzbx777/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "In vitro plasma protein binding studies in various animal models (Human, rat, mouse, dog, fetal calf serum) are crucial for understanding drug behaviour and predicting human responses. These studies help determine how a drug interacts with plasma proteins, influencing its distribution, metabolism..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro CYP inhibition pooled
   url: https://www.protocols.io/view/in-vitro-cyp-inhibition-pooled-gzz5bx787/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "This assay is crucial for understanding a compound's inhibitory profile across major drug-metabolizing enzymes, providing essential data for predicting clinical drug-drug interactions and supporting regulatory submissions in pharmaceutical development. An in vitro CYP inhibition assay evaluates t..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro Human or Mouse S9 intestinal stability assay
   url: https://www.protocols.io/view/in-vitro-human-or-mouse-s9-intestinal-stability-as-gzz3bx78p/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "A stability intestinal S9 human or mouse assay, or intestinal S9 stability assay, is an in vitro test used to assess the metabolic stability of a compound in the presence of human or mouse intestinal enzymes. It simulates the breakdown of a compound by enzymes found in the small intestine, provid..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro MDR1-MDCKII permeability assay
   url: https://www.protocols.io/view/in-vitro-mdr1-mdckii-permeability-assay-gz4gbx8tx/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "In vitro MDR1-MDCKII permeability assays are used to assess the ability of drug candidates to cross the blood-brain barrier (BBB) and to identify P-glycoprotein (P-gp) substrates and inhibitors. MDR1-MDCKII cells, which express the human P-gp protein, are grown on semi-permeable supports and used..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro Mouse or Human Blood stability assay
   url: https://www.protocols.io/view/in-vitro-mouse-or-human-blood-stability-assay-gzz2bx78f/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "In vitro blood stability is a key aspect of DMPK (Drug Metabolism and Pharmacokinetics) research, focusing on how a drug candidate behaves within the blood in a controlled laboratory environment. This involves evaluating the compound's stability, its rate of degradation, and its potential for int..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro Thermodynamic Solubility
   url: https://www.protocols.io/view/in-vitro-thermodynamic-solubility-gzz4bx78x/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "A thermodynamic solubility assay measures the maximum amount of a compound that can dissolve in a given solvent under specific conditions at equilibrium. It's a crucial assay for understanding a compound's true solubility, particularly in formulations and early drug development. This method helps..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: In-vitro hERG & NaV1.5 cardiotoxicity assay
   url: https://www.protocols.io/view/in-vitro-herg-amp-nav1-5-cardiotoxicity-assay-gz4jbx8up/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "In vitro hERG and NaV1.5 cardiotoxicity assays are crucial for evaluating the potential of new drugs to cause cardiac arrhythmias. These assays involve measuring the effects of compounds on the hERG (human ether-à-go-go-related gene) and NaV1.5 (sodium channel) ion channels, which play vital role..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: LogP / LogD shake-flask method
   url: https://www.protocols.io/view/logp-logd-shake-flask-method-djue4nte/v1
   category: ADMET
   target: General
   author: Yurii Kheylik
+  authors: [Yurii Kheylik]
   date: 2024-09-23
   version: v1
   description: "Lipophilicity is possibly the most important physicochemical parameter for any potential drug candidate. Lipophilicity measurements are valuable for understanding how drugs are dissolved in plasma and other aqueous biological fluids. Lipophilicity is typically accessed as the distribution of the ..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Metabolic stability assay in human, rat, dog or mouse hepatocytes
   url: https://www.protocols.io/view/metabolic-stability-assay-in-human-rat-dog-or-mous-gzztbx76p/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "Metabolic stability, measured in hepatocytes, refers to the rate at which a drug compound is metabolized or broken down by liver cells. This is a critical aspect of drug discovery and development, as it helps determine how long a drug will remain in the body and at what concentration it will exer..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Metabolic stability assay in rat or dog  microsomes
   url: https://www.protocols.io/view/metabolic-stability-assay-in-rat-or-dog-microsomes-gzzvbx767/v1
   category: ADMET
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "Metabolic stability, in the context of liver microsomes, refers to how quickly a drug candidate is metabolized (broken down) by the liver's enzyme system, specifically within the microsomes. This is measured by incubating a drug with microsomes and determining how much of the original drug remain..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Microsomal stability assay for human and mouse liver microsomes - drug metabolism
   url: https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv-djug4ntw/v1
   category: ADMET
   target: General
   author: Lina Bortnichuk
+  authors: [Lina Bortnichuk, Anna Pashchenko, Yurii Kheilik]
   date: 2024-12-09
   version: v1
   description: "Microsomal stability is a key parameter in drug discovery and development to support understanding of a compound's susceptibility to liver metabolism.  This assay assesses a compound's susceptibility to metabolism by liver enzymes, primarily cytochrome P450 (CYP) enzymes. Using either human or mo..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Plasma Protein Binding Equilibrium Dialysis for Human, Rat and Mouse Plasma
   url: https://www.protocols.io/view/plasma-protein-binding-equilibrium-dialysis-for-hu-dvym67u6/v1
   category: ADMET
   target: General
   author: Yurii Kheilik
+  authors: [Yurii Kheilik, Nadiia Diyuk, Yaroslav Lesyk]
   date: 2025-03-31
   version: v1
   description: "Fraction unbound (fu) is a critical parameter that needs to be measured accurately because it has significant impacts on the predictions of drug-drug interactions, estimations of therapeutic indices, and developments of PK/PD relationships. Moreover, Plasma Protein Binding (PPB) is critical when ..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 - name: Shake-Flask Aqueous Solubility assay (Kinetic solubility)
   url: https://www.protocols.io/view/shake-flask-aqueous-solubility-assay-kinetic-solub-djtz4np6/v1
   category: ADMET
   target: General
   author: Dmytro Lesyk
+  authors: [Dmytro Lesyk, Yurii Kheilik]
   date: 2024-12-09
   version: v1
   description: "Determining compound solubility is an essential tool for the early stages of the drug discovery process, as well as for lead optimization. Low solubility can lead to unpredictable and unreliable results during in vitro testing, thereby increasing the development costs. Solubility issues at the la..."
-  cores: [ADMET Core]
+  cores: ['ADMET Core']
 
 # Antiviral Assay Protocols
 - name: 50% Tissue Culture Infectious Dose (TCID50) for SARS-CoV-2
@@ -1066,228 +1168,251 @@ proteins on a PCH-STA chip, that preserves protein activity. The procedure cover
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-04
   version: v2
   description: "To establish a reliable TCID50 screening assay for quantifying SARS-CoV-2 infectivity in cell culture systems and support downstream applications in therapeutic development. Protocol used to titer both animal tissue samples and viral stocks at BSL-3. The 50% Tissue Culture Infectious Dose (TCID50..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: A549-ACE2 SARS-CoV-1 antiviral effect screening assay
   url: https://www.protocols.io/view/a549-ace2-sars-cov-1-antiviral-effect-screening-as-g6w6bzfhf/v1
   category: Antiviral Assay
   target: SARS-CoV-1
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-10-26
   version: v1
   description: "To evaluate the antiviral efficacy of compounds against SARS-CoV-1 infection using an engineered A549-ACE2 cell line model. A549 human lung adenocarcinoma cells stably transfected to express ACE2 receptors were used as the host cell system. Cells were pre-treated with a range of test compounds pr..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Antiviral In Vitro Screening Using SARS-CoV-2 and MERS-CoV - Cytotoxicity of Drugs
   url: https://www.protocols.io/view/antiviral-in-vitro-screening-using-sars-cov-2-and-d58u89ww/v1
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Nadine Alvarez
+  authors: [Nadine Alvarez, Sean Fitzgerald, Fatima Ijaz]
   date: 2025-08-03
   version: v1
   description: "The protocol evaluates compounds to determine their antiviral activity against coronaviruses. The antiviral activity is evaluated based on the 50% inhibitory concentration (IC50) and the 50% effective concentration (EC50). Two cell lines can be used for these assays (A549+ACE2+TMP (Invivogen) or ..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Calculating Multiplicity of Infection (MOI)
   url: https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-dik24cye/v1
   category: Antiviral Assay
   target: General
   author: Briana L McGovern
+  authors: [Briana L McGovern, Kris White]
   date: 2025-03-18
   version: v1
   description: "Multiplicity of infection (MOI) is the ratio of viral particles to cells. The ideal MOI for antiviral screenings will depend on several things - the cell type, the cell passage, the virus type, the amount of cells, etc."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Coronavirus protease panel anti viral assay using 293T cells
   url: https://www.protocols.io/view/coronavirus-protease-panel-anti-viral-assay-using-d7rq9m5w/v1
   category: Antiviral Assay
   target: Coronavirus
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "Cell-based fluorescent assay with high sensitivity and low background that reports on the activity of viral proteases, which are key drug targets. Assay is compatible with not only the SARS-CoV-2 Mpro protein but also orthologues from a range of human and nonhuman CoVs as well as clinically repor..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Cytotoxicity Screening Assay - Paired with Antiviral Assays
   url: https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-diky4cxw/v1
   category: Antiviral Assay
   target: General
   author: Briana L McGovern
+  authors: [Briana L McGovern, Kris White]
   date: 2025-03-18
   version: v1
   description: "The following is a cytotoxicity protocol to be paired with a live virus antiviral screening in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via CC50 values generated via analysis of MTT/MTS assays in uninfected cells...."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: DENGUE Antiviral Immunofluorescence staining Protocol
   url: https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto-d4v98w96/v1
   category: Antiviral Assay
   target: DENV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-04
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Generating Antiviral & Cytotoxicity Curves
   url: https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-diqi4due/v1
   category: Antiviral Assay
   target: General
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-03-18
   version: v1
   description: "This describes generating Antiviral & Cytotoxicity Curves"
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: In Vitro Antiviral Screening assay Against Viruses of Pandemic Potential
   url: https://www.protocols.io/view/in-vitro-antiviral-screening-assay-against-viruses-d5jq84mw/v1
   category: Antiviral Assay
   target: General
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-08-03
   version: v1
   description: "This protocol details a primary cytopathic effect (CPE) reduction assay for evaluating antiviral compound efficacy. Vero 76 cell monolayers are prepared in 96-well plates and exposed to eight serial half-log10 concentrations of test compounds, along with infected and uninfected controls, and a kn..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Influenza virus plaque assay
   url: https://www.protocols.io/view/influenza-virus-plaque-assay-b5yjq7un/v1
   category: Antiviral Assay
   target: Influenza
   author: Steven F Baker
+  authors: [Steven F Baker]
   date: 2022-03-16
   version: v1
   description: "Determine virus concentration from cell culture, lung homogenates, and more. This protocol measures virus in plaque forming units per ml solution.   This protocol differs from classic flu plaque assays by using a semi-solid overlay (Avicel) as opposed to agarose. This is beneficial in avoiding re..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus Dengue - Vero-TMPRSS2 + PGP Inhibitor - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-dn335gqn/v1
   category: Antiviral Assay
   target: DENV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-04
   version: v1
   description: "The following is a protocol for live virus antiviral screening against Dengue in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against Dengue.  You ..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus EV-A71 - RD - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-ev-a71-rd-antiviral-screening-assay-d53h88j6/v1
   category: Antiviral Assay
   target: EV-A71
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-02
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-A71 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against EV-A71.   Eac..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus EV-D68 - RD - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-ev-d68-rd-antiviral-screening-assay-eb6gbarbx/v1
   category: Antiviral Assay
   target: EV-D68
   author: Rebecca Pearl
+  authors: [Rebecca Pearl, Randy Albrecht]
   date: 2025-08-02
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-D68 in vitro using Rhabdomyosarcoma (RD) cells. RD Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluore..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus EV-D68 - on RD cells - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-ev-d68-on-rd-cells-antiviral-screening-hbesb2jef/v1
   category: Antiviral Assay
   target: EV-D68
   author: Nick Lynch
+  authors: [Nick Lynch]
   date: 2025-10-26
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-D68 in vitro on Rhabdomyosarcoma (RD) cells. RD Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity. IC50 values are generated via analysis of MTT/MTS data as..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus MERS-CoV - Vero-TMPRSS2 + Pgp Inhibitor- Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-diqk4duw/v1
   category: Antiviral Assay
   target: MERS-CoV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-03
   version: v1
   description: "The following is a protocol for live virus antiviral screening against MERS-CoV EMC2012 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against MER..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus SARS-CoV-2 - HeLa-ACE2 - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-de5k3g4w/v1
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-03-18
   version: v1
   description: "The following is a protocol for live virus antiviral screening against SARS-CoV-2 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against SARS-CoV-..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus SARS-CoV-2 - iPSC Pneumocyte - Antiviral Screening
   url: https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-diai4ace/v1
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-03
   version: v1
   description: "The following is a protocol for live virus antiviral screening against SARS-CoV-2 in iPSC pneumocyte cells. iPSC pneumocytes are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent ..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Live Virus Zika - Vero-TMPRSS2 + PGP Inhibitor - Antiviral Screening Assay
   url: https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-dm3s48ne/v1
   category: Antiviral Assay
   target: ZIKV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-04
   version: v1
   description: "The following is a protocol for live virus antiviral screening against Zika in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against Zika.  You may ..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: MERS-CoV Antiviral Immunofluorescence staining Protocol
   url: https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-dn3s5gne/v1
   category: Antiviral Assay
   target: MERS-CoV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-03
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: SARS-CoV-2 Antiviral Immunofluorescence staining Protocol
   url: https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-diqa4dse/v1
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-03-18
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: Using the Tecan D300e
   url: https://www.protocols.io/view/using-the-tecan-d300e-dfgw3jxe/v1
   category: Antiviral Assay
   target: General
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-03-18
   version: v1
   description: "Using Tecan D300e for serial dilution"
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: ZIKA Antiviral Immunofluorescence staining Protocol
   url: https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-dm3x48pn/v1
   category: Antiviral Assay
   target: ZIKV
   author: Briana L McGovern
+  authors: [Briana L McGovern]
   date: 2025-08-04
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
 - name: iPSC Pneumocyte Live Virus SARS-CoV-2 Cytotoxicity Screening Assay
   url: https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-dip94dr6/v1
   category: Antiviral Assay
   target: SARS-CoV-2
   author: Briana L McGovern
+  authors: [Briana L McGovern, Kris White]
   date: 2025-08-03
   version: v1
   description: "These immunofluorescence-based antiviral assays rely on identification of infected cells through immunostaining the NP (influenza virus), N (SARS-CoV-2) proteins, or any relevant viral antigen at 488nM and counterstaining with DAPI. Infected cells (488nM) and total cells (DAPI) are identified and..."
-  cores: [Antiviral Assay Core]
+  cores: ['Antiviral Assay Core']
 
