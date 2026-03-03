@@ -4091,21 +4091,637 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;option value="Adeeba Dhalech">Adeeba Dhalech&lt;/option>
  
  &lt;option value="Andre Schutzer de Godoy">Andre Schutzer de Godoy&lt;/option>
  
- &lt;option value="Anu V Chandran">Anu V Chandran&lt;/option>
+ &lt;option value="Anna Pashchenko">Anna Pashchenko&lt;/option>
  
  &lt;option value="Anu V. Chandran">Anu V. Chandran&lt;/option>
  
  &lt;option value="Anzhela Rodnichenko">Anzhela Rodnichenko&lt;/option>
  
+ &lt;option value="Ashima Chopra">Ashima Chopra&lt;/option>
+ 
  &lt;option value="Blake Balcomb">Blake Balcomb&lt;/option>
  
  &lt;option value="Briana L McGovern">Briana L McGovern&lt;/option>
  
+ &lt;option value="Charlie Tomlinson">Charlie Tomlinson&lt;/option>
+ 
  &lt;option value="Charline Giroud">Charline Giroud&lt;/option>
+ 
+ &lt;option value="Daren Fearon">Daren Fearon&lt;/option>
  
  &lt;option value="Diana Alieksieieva">Diana Alieksieieva&lt;/option>
  
@@ -4113,17 +4729,43 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;option value="Eda Capkin">Eda Capkin&lt;/option>
  
+ &lt;option value="Eddy Arnold">Eddy Arnold&lt;/option>
+ 
+ &lt;option value="Eleanor Williams">Eleanor Williams&lt;/option>
+ 
+ &lt;option value="Fatima Ijaz">Fatima Ijaz&lt;/option>
+ 
+ &lt;option value="Francesc Xavier Ruiz">Francesc Xavier Ruiz&lt;/option>
+ 
+ &lt;option value="Frank von Delft">Frank von Delft&lt;/option>
+ 
  &lt;option value="Haim Barr">Haim Barr&lt;/option>
  
  &lt;option value="Jasmin Aschenbrenner">Jasmin Aschenbrenner&lt;/option>
+ 
+ &lt;option value="Jiyun Zhu">Jiyun Zhu&lt;/option>
  
  &lt;option value="Kateryna Horbatok">Kateryna Horbatok&lt;/option>
  
  &lt;option value="Korvus Wang">Korvus Wang&lt;/option>
  
+ &lt;option value="Kris White">Kris White&lt;/option>
+ 
  &lt;option value="Lina Bortnichuk">Lina Bortnichuk&lt;/option>
  
+ &lt;option value="Lizbé Koekemoer">Lizbé Koekemoer&lt;/option>
+ 
+ &lt;option value="Maksym Pavliuk">Maksym Pavliuk&lt;/option>
+ 
+ &lt;option value="Manisha Saini">Manisha Saini&lt;/option>
+ 
+ &lt;option value="Martin austin Walsh">Martin austin Walsh&lt;/option>
+ 
+ &lt;option value="Mary-Ann Xavier">Mary-Ann Xavier&lt;/option>
+ 
  &lt;option value="Michael Fairhead">Michael Fairhead&lt;/option>
+ 
+ &lt;option value="Nadiia Diyuk">Nadiia Diyuk&lt;/option>
  
  &lt;option value="Nadine Alvarez">Nadine Alvarez&lt;/option>
  
@@ -4133,21 +4775,31 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;option value="Noa Lahav">Noa Lahav&lt;/option>
  
+ &lt;option value="Oleg Fedorov">Oleg Fedorov&lt;/option>
+ 
  &lt;option value="Oleksandr Zhadovets">Oleksandr Zhadovets&lt;/option>
  
+ &lt;option value="Oleksii Stroganov">Oleksii Stroganov&lt;/option>
+ 
  &lt;option value="Peter Marples">Peter Marples&lt;/option>
+ 
+ &lt;option value="Randy Albrecht">Randy Albrecht&lt;/option>
  
  &lt;option value="Rebecca Pearl">Rebecca Pearl&lt;/option>
  
  &lt;option value="Ryan Lithgo">Ryan Lithgo&lt;/option>
  
+ &lt;option value="Sean Fitzgerald">Sean Fitzgerald&lt;/option>
+ 
  &lt;option value="Steven F Baker">Steven F Baker&lt;/option>
+ 
+ &lt;option value="Warren Thompson">Warren Thompson&lt;/option>
  
  &lt;option value="Xiaomin Ni">Xiaomin Ni&lt;/option>
  
- &lt;option value="Yurii Kheilik">Yurii Kheilik&lt;/option>
+ &lt;option value="Yaroslav Lesyk">Yaroslav Lesyk&lt;/option>
  
- &lt;option value="Yurii Kheylik">Yurii Kheylik&lt;/option>
+ &lt;option value="Yuri Kheylik">Yuri Kheylik&lt;/option>
  
  &lt;/select>
  &lt;/div>
@@ -4701,7 +5353,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;/thead>
  &lt;tbody>
  
- &lt;tr data-category="Biochemical Assay" data-target="EV-A71 2A protease" data-author="Diana Alieksieieva" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="EV-A71 2A protease" data-authors="Diana Alieksieieva|Oleksandr Zhadovets|Oleksii Stroganov" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dsdq6a5w/v1" target="_blank">Assay for Screening of Compounds that Inhibit Enzymatic Activity of EV-A71 2Apro&lt;/a>
  
@@ -4724,7 +5376,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-08-10&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="DENV NS2B-NS3" data-author="Kateryna Horbatok" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="DENV NS2B-NS3" data-authors="Kateryna Horbatok|Oleksandr Zhadovets" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpc45iyw/v1" target="_blank">Assay for screening of compounds that inhibit enzymatic activity of DENV-2 NS2B-NS3 protease&lt;/a>
  
@@ -4747,7 +5399,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-author="Oleksandr Zhadovets" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-authors="Oleksandr Zhadovets|Maksym Pavliuk" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpse5nbe/v1" target="_blank">Assay for screening of compounds that inhibit enzymatic activity of ZIKV NS2B-NS3 protease&lt;/a>
  
@@ -4770,7 +5422,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="DENV NS2B-NS3" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="DENV NS2B-NS3" data-authors="Haim Barr|Noa Lahav|Jiyun Zhu" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/denv-ns2b-ns3-fluorescence-single-point-screening-dqz25x8e/v1" target="_blank">DENV NS2B-NS3 fluorescence single point screening assay&lt;/a>
  
@@ -4793,7 +5445,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="Enterovirus 3C/2A" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="Enterovirus 3C/2A" data-authors="Haim Barr|Noa Lahav" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enteroviruses-ev-d68-ev-a71-3c-and-eva71-2a-protea-dcy92xz6/v1" target="_blank">Enteroviruses (EV-D68/EV-A71) 3C and EVA71-2A proteases fluorescence single and dose response&lt;/a>
  
@@ -4816,7 +5468,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="Flavivirus NS2B-NS3" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="Flavivirus NS2B-NS3" data-authors="Haim Barr|Noa Lahav" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p/v4" target="_blank">Flaviviruses (West Nile, Zika, Dengue serotypes 1-4) NS2B-NS3 protease fluorescence dose response and single point assay&lt;/a>
  
@@ -4839,7 +5491,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="EV-A71 3C protease" data-author="Charline Giroud" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="EV-A71 3C protease" data-authors="Charline Giroud|Oleg Fedorov" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex/v3" target="_blank">Fluorescence assay for Enterovirus A71 3C protease activity measurement for screening against antiviral molecules&lt;/a>
  
@@ -4862,7 +5514,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="CVA16 2A protease" data-author="Charline Giroud" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="CVA16 2A protease" data-authors="Charline Giroud|Oleg Fedorov" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn/v2" target="_blank">Fluorescence assay for Enterovirus coxsackievirus A16 2A protease activity measurement&lt;/a>
  
@@ -4885,7 +5537,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-05-21&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="MERS-CoV Mpro" data-author="Charline Giroud" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="MERS-CoV Mpro" data-authors="Charline Giroud|Oleg Fedorov" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de/v2" target="_blank">Fluorescence assay for MERS-CoV Mpro protease activity measurement for screening against antiviral molecules&lt;/a>
  
@@ -4908,7 +5560,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="EV-D68 3C protease" data-author="Charline Giroud" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="EV-D68 3C protease" data-authors="Charline Giroud|Oleg Fedorov" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef/v3" target="_blank">Fluorescence assay of EV-D68 3C protease activity measurement for screening against antiviral molecules&lt;/a>
  
@@ -4931,7 +5583,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="MERS-CoV Mpro" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="MERS-CoV Mpro" data-authors="Haim Barr|Noa Lahav" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn/v5" target="_blank">MERS-CoV Mpro fluorescence dose response for antiviral testing&lt;/a>
  
@@ -4954,12 +5606,11 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-08&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 Mpro" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 Mpro" data-authors="Haim Barr|Noa Lahav" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf/v5" target="_blank">SARS-CoV-2 Mpro fluorescence dose response&lt;/a>
  
- &lt;span class="info-icon">i&lt;span class="tooltip-text">This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-COV-2 Main Protease (MPro). In this version we added the protein expression and purification protocol together with the Addgene ID of the plasmid used.
-Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This is a functional, biochemical assay used to identify treatments for viral infectious disease that target SARS-COV-2 Main Protease (MPro). In this version we added the protein expression and purification protocol together with the Addgene ID of the plasmid used. Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  
  &lt;/td>
  &lt;td>
@@ -4978,7 +5629,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Haim Barr|Noa Lahav" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37/v5" target="_blank">SARS-CoV-2 nsp3 macrodomain Time-Resolved FRET peptide displacement assay&lt;/a>
  
@@ -5001,7 +5652,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-09&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Noa Lahav" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Noa Lahav|Haim Barr" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/screening-compounds-that-inhibit-sars-cov-2-nsp3-m-dmd54286/v1" target="_blank">Screening compounds that inhibit SARS-CoV-2 nsp3 macrodomain: ADP-Ribose quantification by LC/MS-MS&lt;/a>
  
@@ -5024,7 +5675,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="WNV NS2B-NS3" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="WNV NS2B-NS3" data-authors="Haim Barr|Noa Lahav|Jiyun Zhu" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/wnv-ns2b-ns3-fluorescence-single-point-dq3v5yn6/v1" target="_blank">WNV NS2B-NS3 fluorescence single point&lt;/a>
  
@@ -5047,7 +5698,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-authors="Haim Barr|Noa Lahav|Jiyun Zhu" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zikv-ns2b-ns3-fluorescence-single-point-screening-dq3t5ynn/v1" target="_blank">ZIKV NS2B-NS3 fluorescence single point screening assay&lt;/a>
  
@@ -5070,7 +5721,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-21&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-author="Haim Barr" data-core="Biochemical Assay Core">
+ &lt;tr data-category="Biochemical Assay" data-target="ZIKV NS2B-NS3" data-authors="Haim Barr|Noa Lahav|Jiyun Zhu" data-core="Biochemical Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zikv-ns2b-ns3-protease-dose-response-screening-ass-dq3w5ype/v1" target="_blank">ZIKV NS2B-NS3 protease dose response screening assay&lt;/a>
  
@@ -5093,7 +5744,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-djdp4i5n/v1" target="_blank">Co-crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1 with ligands&lt;/a>
  
@@ -5116,7 +5767,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-08-19&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="EV-A71 2A protease" data-author="Xiaomin Ni" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="EV-A71 2A protease" data-authors="Xiaomin Ni|Peter Marples|Daren Fearon|Lizbé Koekemoer" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystal-structure-of-enterovirus-a71-2a-protease-m-d44n8yve/v1" target="_blank">Crystal structure of Enterovirus A71 2A protease mutant C110A containing VP1-2A junction in the active site apo structure (C1 PDB: 9FGO) used for fragment screen and compound soaking&lt;/a>
  
@@ -5139,7 +5790,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx/v2" target="_blank">Crystallisation of Enterovirus D68 3C protease&lt;/a>
  
@@ -5162,7 +5813,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo-dy9z7z76/v2" target="_blank">Crystallisation of Enterovirus D68 3C protease apo structure and fragment screen in space group P212121 (PDB code 8CNX)&lt;/a>
  
@@ -5185,7 +5836,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="EV-D68 3C protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-drkd54s6/v2" target="_blank">Crystallisation of Enterovirus D68 3C protease in space group P21 used for follow up compounds&lt;/a>
  
@@ -5208,7 +5859,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="CVA16 2A protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="CVA16 2A protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-dgax3sfn/v1" target="_blank">Crystallisation of Enterovirus coxsackievirus A16 2A protease&lt;/a>
  
@@ -5231,7 +5882,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-10-02&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="CVA16 2A protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="CVA16 2A protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-fafxbibpp/v2" target="_blank">Crystallisation of Enterovirus coxsackievirus A16 2A protease in space group C2 used for apo, fragment screen and follow compounds (PDB 8POA)&lt;/a>
  
@@ -5254,7 +5905,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="MERS-CoV Mpro" data-author="Blake Balcomb" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="MERS-CoV Mpro" data-authors="Blake Balcomb|Peter Marples|Lizbé Koekemoer|Charlie Tomlinson|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e/v2" target="_blank">Crystallisation of MERS-CoV Mpro in C2221 used for compound soaking&lt;/a>
  
@@ -5277,7 +5928,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-05-13&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 N protein" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 N protein" data-authors="Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-g73gbzqjx/v2" target="_blank">Crystallisation of SARS-CoV-2 C terminal nucleocapsid protein for fragment screening and compound soaking&lt;/a>
  
@@ -5300,7 +5951,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-10-16&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 Mpro" data-author="Blake Balcomb" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 Mpro" data-authors="Blake Balcomb|Peter Marples|Lizbé Koekemoer|Charlie Tomlinson|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e/v2" target="_blank">Crystallisation of SARS-CoV-2 MPro in P212121 for compound soaking&lt;/a>
  
@@ -5323,7 +5974,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-05-13&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="WNV NS2B-NS3" data-author="Blake Balcomb" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="WNV NS2B-NS3" data-authors="Blake Balcomb|Peter Marples|Lizbé Koekemoer|Daren Fearon|Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7/v2" target="_blank">Crystallisation of West Nile virus NS2B-NS3 protease in P64 (PDB ID: 8CO8)&lt;/a>
  
@@ -5346,7 +5997,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-author="Anu V. Chandran" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin austin Walsh" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-dnh45b8w/v1" target="_blank">Crystallisation of Zika NS5 RdRp&lt;/a>
  
@@ -5369,7 +6020,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-10-02&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Lizbé Koekemoer|Charlie Tomlinson|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-df6a3rae/v1" target="_blank">Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1&lt;/a>
  
@@ -5392,7 +6043,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-08-19&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Charlie Tomlinson|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp/v2" target="_blank">Crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P43&lt;/a>
  
@@ -5415,7 +6066,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-21&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="EV-A71 3C protease" data-author="Ryan Lithgo" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="EV-A71 3C protease" data-authors="Ryan Lithgo|Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-fahkbib4x/v2" target="_blank">Crystallization of Enterovirus A71 3C protease in C2221 apo structure (PDB 8CNY)&lt;/a>
  
@@ -5438,7 +6089,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-30&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="MERS-CoV Mpro" data-author="Blake Balcomb" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="MERS-CoV Mpro" data-authors="Blake Balcomb|Peter Marples|Lizbé Koekemoer|Daren Fearon|Charlie Tomlinson" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-mers-cov-mpro-dcr52v86/v1" target="_blank">Crystallization of MERS-CoV Mpro&lt;/a>
  
@@ -5461,7 +6112,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 Mpro" data-author="Blake Balcomb" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 Mpro" data-authors="Blake Balcomb|Peter Marples|Lizbé Koekemoer|Daren Fearon|Charlie Tomlinson" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-sars-cov-2-mpro-dcr42v8w/v1" target="_blank">Crystallization of SARS-CoV-2 Mpro&lt;/a>
  
@@ -5484,7 +6135,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 N protein" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 N protein" data-authors="Peter Marples|Lizbé Koekemoer|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-sars-cov-2-n-protein-dcr32v8n/v1" target="_blank">Crystallization of SARS-CoV-2 N Protein&lt;/a>
  
@@ -5507,7 +6158,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp15" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp15" data-authors="Peter Marples|Daren Fearon|Lizbé Koekemoer|Andre Schutzer de Godoy" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-sars-cov-2-nsp15-nendou-dcr22v8e/v1" target="_blank">Crystallization of SARS-CoV-2 nsp15 NendoU&lt;/a>
  
@@ -5530,7 +6181,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-author="Anu V. Chandran" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin austin Walsh" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-zika-ns5-rdrp-dcrx2v7n/v1" target="_blank">Crystallization of Zika NS5 RdRp&lt;/a>
  
@@ -5553,7 +6204,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS2B-NS3" data-author="Xiaomin Ni" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS2B-NS3" data-authors="Xiaomin Ni|Peter Marples|Daren Fearon|Lizbé Koekemoer" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw/v2" target="_blank">Crystallization of Zika virus NS2B-NS3 protease (closed conformation in space group P4322 | PDB ID: 8PN6)&lt;/a>
  
@@ -5576,7 +6227,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-17&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS3 helicase" data-author="Andre Schutzer de Godoy" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS3 helicase" data-authors="Andre Schutzer de Godoy|Peter Marples|Lizbé Koekemoer" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp/v2" target="_blank">Crystallization of Zika virus NS3 helicase PDB&lt;/a>
  
@@ -5599,7 +6250,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="General" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="General" data-authors="Peter Marples|Charlie Tomlinson|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/diamond-xchem-seeding-protocol-c23kygkw/v1" target="_blank">Diamond XChem Seeding Protocol&lt;/a>
  
@@ -5622,7 +6273,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2023-12-19&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="CHIKV nsP3 macrodomain" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="CHIKV nsP3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Michael Fairhead|Andre Schutzer de Godoy|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dcr62v9e/v1" target="_blank">READDI protocol: Crystallisation of CHIKV nsP3 macrodomain&lt;/a>
  
@@ -5645,7 +6296,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-07-02&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="CHIKV nsP3 macrodomain" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="CHIKV nsP3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Michael Fairhead|Andre Schutzer de Godoy|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn/v2" target="_blank">READDI protocol: Crystallisation of CHIKV nsP3 macrodomain&lt;/a>
  
@@ -5668,7 +6319,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-10-07&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="DENV NS5 RdRp" data-author="Jasmin Aschenbrenner" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="DENV NS5 RdRp" data-authors="Jasmin Aschenbrenner|Manisha Saini|Ashima Chopra|Peter Marples|Francesc Xavier Ruiz|Eddy Arnold|Daren Fearon" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/readdi-protocol-crystallisation-of-dengue-ns5-rdrp-dyp87vrw/v1" target="_blank">READDI protocol: Crystallisation of Dengue NS5 RdRp in I222&lt;/a>
  
@@ -5691,7 +6342,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-10&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="General" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="General" data-authors="Peter Marples|Daren Fearon|Blake Balcomb" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/xchem-crystallographic-fragment-screening-dhxj37kn/v1" target="_blank">XChem crystallographic fragment screening&lt;/a>
  
@@ -5714,7 +6365,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="General" data-author="Peter Marples" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="General" data-authors="Peter Marples|Daren Fearon|Blake Balcomb" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/xchem-solvent-test-dcpy2vpw/v1" target="_blank">XChem solvent test&lt;/a>
  
@@ -5737,7 +6388,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46/v3" target="_blank">DENV2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol&lt;/a>
  
@@ -5760,7 +6411,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-06-10&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV" data-authors="Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p-d4i68uhe/v1" target="_blank">Dengue Virus Serotype 2 NS2B-NS3 protease fusion protein Avi-tagged (Biotinylated) protein expression and purification: large scale 1 L cultures&lt;/a>
  
@@ -5783,7 +6434,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-15&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87/v3" target="_blank">Dengue virus serotype 1 NS2B-NS3 protease fusion construct small scale expression and purification protocol&lt;/a>
  
@@ -5806,7 +6457,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn/v2" target="_blank">Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification for biophysical and biochemical assays protocol&lt;/a>
  
@@ -5829,7 +6480,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-28&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf/v3" target="_blank">Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification protocol&lt;/a>
  
@@ -5852,7 +6503,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Michael Fairhead|Korvus Wang" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf/v3" target="_blank">Dengue virus serotype 3 NS2B-NS3 protease fusion construct using parallel rapid protein expression and purification: 100 mL cultures&lt;/a>
  
@@ -5875,7 +6526,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Michael Fairhead|Korvus Wang" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp/v2" target="_blank">Dengue virus serotype 4 NS2B-NS3 protease fusion construct: 100 mL cultures&lt;/a>
  
@@ -5898,7 +6549,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-A71 3C protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-A71 3C protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enterovirus-a71-3c-protease-large-scale-purificati-dfpx3mpn/v1" target="_blank">Enterovirus A71 3C protease large scale purification protocol&lt;/a>
  
@@ -5921,7 +6572,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-29&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-A71 3C protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-A71 3C protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enterovirus-a71-3c-protease-small-scale-expressio-dfps3mne/v1" target="_blank">Enterovirus A71 3C protease small scale expression and purification protocol&lt;/a>
  
@@ -5944,7 +6595,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-23&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6/v2" target="_blank">Enterovirus D68 3C protease large scale purification protocol&lt;/a>
  
@@ -5967,7 +6618,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-29&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-dzkg74tw/v2" target="_blank">Enterovirus D68 3C protease small scale expression and purification protocol&lt;/a>
  
@@ -5990,7 +6641,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-22&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="CVA16 2A protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="CVA16 2A protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6/v3" target="_blank">Enterovirus coxsackievirus A16 2A protease small scale expression and purification protocol&lt;/a>
  
@@ -6013,7 +6664,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-22&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV" data-author="Anu V Chandran" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV" data-authors="Anu V. Chandran" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/expression-and-purification-of-truncated-zika-viru-dsre6d3e/v1" target="_blank">Expression and purification of truncated Zika virus NS5 RNA-Dependent RNA Polymerase for structural studies&lt;/a>
  
@@ -6031,12 +6682,12 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;/td>
  &lt;td>ZIKV&lt;/td>
  &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
- &lt;td>Anu V Chandran&lt;/td>
+ &lt;td>Anu V. Chandran&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2025-04-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-A71 2A protease" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-A71 2A protease" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/large-scale-ev-a71-2a-protease-mature-and-precurso-g3ptbymnp/v1" target="_blank">Large scale EV-A71 2A protease mature and precursor expression setup and operation of Single Use Bubble Column Reactors: Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)&lt;/a>
  
@@ -6059,7 +6710,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="MERS-CoV Mpro" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="MERS-CoV Mpro" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/large-scale-mpro-mers-cov-protein-expression-setup-g256byg9f/v1" target="_blank">Large scale MPro MERS-CoV protein expression setup and operation of Single Use Bubble Column Reactors : Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)&lt;/a>
  
@@ -6082,7 +6733,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="MERS-CoV Mpro" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="MERS-CoV Mpro" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne/v2" target="_blank">MERS-CoV Mpro large scale purification protocol&lt;/a>
  
@@ -6105,7 +6756,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="General" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="General" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/master-setup-and-operation-of-single-use-sub-bubbl-dcp72vrn/v1" target="_blank">Master_Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR): Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD).&lt;/a>
  
@@ -6128,7 +6779,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-05-27&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="General" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="General" data-authors="Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8wbzxan/v2" target="_blank">Parallel rapid expression and purification of proteins for crystallography (PREPX): 48x 100 mL cultures&lt;/a>
  
@@ -6151,7 +6802,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-02-08&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="General" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="General" data-authors="Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8exztfn/v1" target="_blank">Parallel rapid expression and purification of proteins for crystallography (PREPX): large scale 1 L cultures&lt;/a>
  
@@ -6174,7 +6825,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-01-30&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 Mpro" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 Mpro" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7/v2" target="_blank">SARS-CoV-2 Mpro small scale expression and purification protocol&lt;/a>
  
@@ -6197,7 +6848,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx/v2" target="_blank">SARS-CoV-2 nsp3 macrodomain His-SUMO tagged expression and purification protocol for crystallization&lt;/a>
  
@@ -6220,7 +6871,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf/v3" target="_blank">SARS-CoV-2 nsp3 macrodomain His-tagged expression and purification protocol for assay&lt;/a>
  
@@ -6243,7 +6894,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-17&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf/v2" target="_blank">SARS-CoV-2 nsp3 macrodomain expression and purification protocol for crystallization&lt;/a>
  
@@ -6266,7 +6917,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 N protein" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="SARS-CoV-2 N protein" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6yebzftf/v1" target="_blank">Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of SARS-CoV-2 Nucleocapsid C-terminal oligomerization domain for Structural Biology and Drug Design (SBDD)&lt;/a>
  
@@ -6289,7 +6940,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="Enterovirus 3C" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="Enterovirus 3C" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6aabzaaf/v1" target="_blank">Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of enterovirus 3C protease for Structural Biology and Drug Design (SBDD)&lt;/a>
  
@@ -6312,7 +6963,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-29&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="EV-D68 3C protease" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/small-scale-expression-and-purification-protocol-f-dfk73kzn/v1" target="_blank">Small-scale Expression and Purification Protocol for His-SUMO Tagged Enterovirus D68 Strain STL 2014 12 3C Protease in E. coli&lt;/a>
  
@@ -6335,7 +6986,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-25&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="General" data-author="Nathan Wright" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="General" data-authors="Nathan Wright" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/the-manufacture-and-setup-of-single-use-sub-bubble-dzsi76ce/v1" target="_blank">The Manufacture and Setup of Single Use (SUB) Bubble Column Reactors (BCR): Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD).&lt;/a>
  
@@ -6358,7 +7009,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-05-27&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="WNV NS2B-NS3" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="WNV NS2B-NS3" data-authors="Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp/v2" target="_blank">West Nile Virus NS2B-NS3 inactive fusion protease expression and purification: large scale 1 L cultures&lt;/a>
  
@@ -6381,7 +7032,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="WNV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="WNV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx/v3" target="_blank">West Nile virus NS2B-NS3 protease fusion construct small scale expression and purification protocol&lt;/a>
  
@@ -6404,7 +7055,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV" data-author="Adeeba Dhalech" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV" data-authors="Adeeba Dhalech" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-ns2b-3-4a-protein-construct-cleavage-pattern-d5fq83mw/v1" target="_blank">Zika NS2B-3-4A Protein Construct cleavage pattern assay&lt;/a>
  
@@ -6427,7 +7078,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-13&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x/v2" target="_blank">Zika NS2B-NS3 fusion construct for assay small scale expression and purification protocol&lt;/a>
  
@@ -6450,7 +7101,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx/v2" target="_blank">Zika NS2B-NS3 protease co-expression construct small scale expression and purification protocol&lt;/a>
  
@@ -6473,7 +7124,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-06-20&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV NS5 RdRp" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS5 RdRp" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-ns5-rdrp-his-sumo-construct-small-scale-expre-dfh93j96/v1" target="_blank">Zika NS5 RdRp His-SUMO construct small scale expression and purification protocol&lt;/a>
  
@@ -6496,7 +7147,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-08-08&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV NS5 RdRp" data-author="Korvus Wang" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS5 RdRp" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-ns5-rdrp-histidine-thioredoxin-tagged-constru-dfkw3kxe/v1" target="_blank">Zika NS5 RdRp Histidine-Thioredoxin tagged construct small scale expression and purification protocol&lt;/a>
  
@@ -6519,7 +7170,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-22&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-author="Michael Fairhead" data-core="Structural Biology Core">
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS2B-NS3" data-authors="Michael Fairhead" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-his10-dp4b5qsn/v1" target="_blank">Zika Virus NS2B-NS3 protease fusion protein his10-tagged protein expression and purification: large scale 1 L cultures&lt;/a>
  
@@ -6542,7 +7193,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-10-23&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="General" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="General" data-authors="Eda Capkin" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/creoptix-protein-immobilization-protocol-biotin-ca-dyy47xyw/v1" target="_blank">Creoptix Protein Immobilization Protocol: Biotin Capture on Streptavidin Chip&lt;/a>
  
@@ -6565,7 +7216,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-15&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="General" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="General" data-authors="Eda Capkin" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/creoptix-protein-immobilization-protocol-his-tag-c-dibf4ajn/v1" target="_blank">Creoptix Protein Immobilization Protocol: His-tag Capture via EDC/NHS chemistry&lt;/a>
  
@@ -6588,7 +7239,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-21&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="General" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="General" data-authors="Eda Capkin" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-dp685rhw/v1" target="_blank">Data Analysis waveRAPID using Creoptix WAVEsystem&lt;/a>
  
@@ -6611,7 +7262,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-21&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="DENV NS2B-NS3" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="DENV NS2B-NS3" data-authors="Eda Capkin|Korvus Wang|Xiaomin Ni|Lizbé Koekemoer|Mary-Ann Xavier|Warren Thompson|Frank von Delft" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-2-ns2b-ns3-protease-binding-assay-for-compo-dyy37xyn/v1" target="_blank">Dengue 2 NS2B-NS3 protease binding assay for compound screen using grating-coupled interferometry&lt;/a>
  
@@ -6634,7 +7285,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-04-15&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="EV-A71 2A protease" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="EV-A71 2A protease" data-authors="Eda Capkin" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/isothermal-titration-calorimetry-protocol-for-bind-gzx7bx7rp/v1" target="_blank">Isothermal titration calorimetry protocol for binding studies of enterovirus EV-A71 2A protease and small inhibitors&lt;/a>
  
@@ -6657,7 +7308,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-07-29&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="General" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="General" data-authors="Eda Capkin" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/kinetic-assay-with-waverapid-grating-coupled-inte-dp655rg6/v1" target="_blank">Kinetic assay with waveRAPID grating-coupled interferometry waveCreoptix system&lt;/a>
  
@@ -6680,7 +7331,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-24&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Biophysical Assay" data-target="ZIKV NS2B-NS3" data-author="Eda Capkin" data-core="Structural Biology Core">
+ &lt;tr data-category="Biophysical Assay" data-target="ZIKV NS2B-NS3" data-authors="Eda Capkin|Korvus Wang|Xiaomin Ni|Lizbé Koekemoer|Warren Thompson|Frank von Delft|Mary-Ann Xavier" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-binding-assay-for-com-dpxj5pkn/v1" target="_blank">Zika virus NS2B-NS3 protease binding assay for compound screen using grating-coupled interferometry&lt;/a>
  
@@ -6703,7 +7354,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-02-24&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Anzhela Rodnichenko" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Anzhela Rodnichenko|Yuri Kheylik" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/assessing-intestinal-and-cns-permeability-with-mdr-djuf4ntn/v1" target="_blank">Assessing Intestinal and CNS Permeability with MDR1-MDCKII Cells&lt;/a>
  
@@ -6726,7 +7377,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-12-09&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/drug-transporter-abc-p-gp-bcrp-bsep-inhibition-usi-gz6rbx9d7/v1" target="_blank">Drug transporter (ABC), P-gp, BCRP, BSEP inhibition using drug substrate assay&lt;/a>
  
@@ -6749,7 +7400,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/drug-transporter-slc-inhibition-panel-assay-using-g2k5bycy7/v1" target="_blank">Drug transporter (SLC) inhibition panel assay using drug substrates&lt;/a>
  
@@ -6772,7 +7423,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Yurii Kheilik" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Yuri Kheylik|Yaroslav Lesyk|Nadiia Diyuk" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/fetal-calf-serum-fcs-fbs-protein-binding-dvyn67ve/v1" target="_blank">Fetal Calf Serum (FCS / FBS) Protein Binding&lt;/a>
  
@@ -6790,12 +7441,12 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
  &lt;td>&lt;span class="core-badge">ADMET Core&lt;/span> &lt;/td>
- &lt;td>Yurii Kheilik&lt;/td>
+ &lt;td>Yuri Kheylik&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2025-03-31&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vivo-mouse-and-rat-pk-bioanalysis-gz75bx9q7/v1" target="_blank">In-Vivo Mouse and Rat PK Bioanalysis&lt;/a>
  
@@ -6818,7 +7469,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-plasma-protein-binding-gzzzbx777/v1" target="_blank">In-vitro plasma protein binding&lt;/a>
  
@@ -6841,7 +7492,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-cyp-inhibition-pooled-gzz5bx787/v1" target="_blank">In-vitro CYP inhibition pooled&lt;/a>
  
@@ -6864,7 +7515,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-human-or-mouse-s9-intestinal-stability-as-gzz3bx78p/v1" target="_blank">In-vitro Human or Mouse S9 intestinal stability assay&lt;/a>
  
@@ -6887,7 +7538,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-mdr1-mdckii-permeability-assay-gz4gbx8tx/v1" target="_blank">In-vitro MDR1-MDCKII permeability assay&lt;/a>
  
@@ -6910,7 +7561,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-mouse-or-human-blood-stability-assay-gzz2bx78f/v1" target="_blank">In-vitro Mouse or Human Blood stability assay&lt;/a>
  
@@ -6933,7 +7584,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-thermodynamic-solubility-gzz4bx78x/v1" target="_blank">In-vitro Thermodynamic Solubility&lt;/a>
  
@@ -6956,7 +7607,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-herg-amp-nav1-5-cardiotoxicity-assay-gz4jbx8up/v1" target="_blank">In-vitro hERG &amp;amp; NaV1.5 cardiotoxicity assay&lt;/a>
  
@@ -6979,7 +7630,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Yurii Kheylik" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Yuri Kheylik" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/logp-logd-shake-flask-method-djue4nte/v1" target="_blank">LogP / LogD shake-flask method&lt;/a>
  
@@ -6997,12 +7648,12 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
  &lt;td>&lt;span class="core-badge">ADMET Core&lt;/span> &lt;/td>
- &lt;td>Yurii Kheylik&lt;/td>
+ &lt;td>Yuri Kheylik&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2024-09-23&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/metabolic-stability-assay-in-human-rat-dog-or-mous-gzztbx76p/v1" target="_blank">Metabolic stability assay in human, rat, dog or mouse hepatocytes&lt;/a>
  
@@ -7025,7 +7676,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Nick Lynch" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Nick Lynch" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/metabolic-stability-assay-in-rat-or-dog-microsomes-gzzvbx767/v1" target="_blank">Metabolic stability assay in rat or dog microsomes&lt;/a>
  
@@ -7048,7 +7699,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Lina Bortnichuk" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Lina Bortnichuk|Anna Pashchenko|Yuri Kheylik" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv-djug4ntw/v1" target="_blank">Microsomal stability assay for human and mouse liver microsomes - drug metabolism&lt;/a>
  
@@ -7071,7 +7722,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-12-09&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Yurii Kheilik" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Yuri Kheylik|Nadiia Diyuk|Yaroslav Lesyk" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/plasma-protein-binding-equilibrium-dialysis-for-hu-dvym67u6/v1" target="_blank">Plasma Protein Binding Equilibrium Dialysis for Human, Rat and Mouse Plasma&lt;/a>
  
@@ -7089,12 +7740,12 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
  &lt;td>&lt;span class="core-badge">ADMET Core&lt;/span> &lt;/td>
- &lt;td>Yurii Kheilik&lt;/td>
+ &lt;td>Yuri Kheylik&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2025-03-31&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="ADMET" data-target="General" data-author="Dmytro Lesyk" data-core="ADMET Core">
+ &lt;tr data-category="ADMET" data-target="General" data-authors="Dmytro Lesyk|Yuri Kheylik" data-core="ADMET Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/shake-flask-aqueous-solubility-assay-kinetic-solub-djtz4np6/v1" target="_blank">Shake-Flask Aqueous Solubility assay (Kinetic solubility)&lt;/a>
  
@@ -7117,7 +7768,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2024-12-09&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-df8g3rtw/v2" target="_blank">50% Tissue Culture Infectious Dose (TCID50) for SARS-CoV-2&lt;/a>
  
@@ -7140,7 +7791,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-1" data-author="Nick Lynch" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-1" data-authors="Nick Lynch" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/a549-ace2-sars-cov-1-antiviral-effect-screening-as-g6w6bzfhf/v1" target="_blank">A549-ACE2 SARS-CoV-1 antiviral effect screening assay&lt;/a>
  
@@ -7163,7 +7814,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-10-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Nadine Alvarez" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Nadine Alvarez|Sean Fitzgerald|Fatima Ijaz" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/antiviral-in-vitro-screening-using-sars-cov-2-and-d58u89ww/v1" target="_blank">Antiviral In Vitro Screening Using SARS-CoV-2 and MERS-CoV - Cytotoxicity of Drugs&lt;/a>
  
@@ -7186,7 +7837,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="General" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="General" data-authors="Briana L McGovern|Kris White" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-dik24cye/v1" target="_blank">Calculating Multiplicity of Infection (MOI)&lt;/a>
  
@@ -7209,7 +7860,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="Coronavirus" data-author="Nick Lynch" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="Coronavirus" data-authors="Nick Lynch" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/coronavirus-protease-panel-anti-viral-assay-using-d7rq9m5w/v1" target="_blank">Coronavirus protease panel anti viral assay using 293T cells&lt;/a>
  
@@ -7232,7 +7883,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="General" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="General" data-authors="Briana L McGovern|Kris White" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-diky4cxw/v1" target="_blank">Cytotoxicity Screening Assay - Paired with Antiviral Assays&lt;/a>
  
@@ -7255,7 +7906,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="DENV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="DENV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto-d4v98w96/v1" target="_blank">DENGUE Antiviral Immunofluorescence staining Protocol&lt;/a>
  
@@ -7278,7 +7929,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="General" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="General" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-diqi4due/v1" target="_blank">Generating Antiviral &amp;amp; Cytotoxicity Curves&lt;/a>
  
@@ -7301,7 +7952,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="General" data-author="Nick Lynch" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="General" data-authors="Nick Lynch" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/in-vitro-antiviral-screening-assay-against-viruses-d5jq84mw/v1" target="_blank">In Vitro Antiviral Screening assay Against Viruses of Pandemic Potential&lt;/a>
  
@@ -7324,7 +7975,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="Influenza" data-author="Steven F Baker" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="Influenza" data-authors="Steven F Baker" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/influenza-virus-plaque-assay-b5yjq7un/v1" target="_blank">Influenza virus plaque assay&lt;/a>
  
@@ -7347,7 +7998,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2022-03-16&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="DENV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="DENV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-dn335gqn/v1" target="_blank">Live Virus Dengue - Vero-TMPRSS2 &amp;#43; PGP Inhibitor - Antiviral Screening Assay&lt;/a>
  
@@ -7370,7 +8021,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="EV-A71" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="EV-A71" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-ev-a71-rd-antiviral-screening-assay-d53h88j6/v1" target="_blank">Live Virus EV-A71 - RD - Antiviral Screening Assay&lt;/a>
  
@@ -7393,7 +8044,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-02&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="EV-D68" data-author="Rebecca Pearl" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="EV-D68" data-authors="Rebecca Pearl|Randy Albrecht" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-ev-d68-rd-antiviral-screening-assay-eb6gbarbx/v1" target="_blank">Live Virus EV-D68 - RD - Antiviral Screening Assay&lt;/a>
  
@@ -7416,7 +8067,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-02&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="EV-D68" data-author="Nick Lynch" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="EV-D68" data-authors="Nick Lynch" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-ev-d68-on-rd-cells-antiviral-screening-hbesb2jef/v1" target="_blank">Live Virus EV-D68 - on RD cells - Antiviral Screening Assay&lt;/a>
  
@@ -7439,7 +8090,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-10-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="MERS-CoV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="MERS-CoV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-diqk4duw/v1" target="_blank">Live Virus MERS-CoV - Vero-TMPRSS2 &amp;#43; Pgp Inhibitor- Antiviral Screening Assay&lt;/a>
  
@@ -7462,7 +8113,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-de5k3g4w/v1" target="_blank">Live Virus SARS-CoV-2 - HeLa-ACE2 - Antiviral Screening Assay&lt;/a>
  
@@ -7485,7 +8136,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-diai4ace/v1" target="_blank">Live Virus SARS-CoV-2 - iPSC Pneumocyte - Antiviral Screening&lt;/a>
  
@@ -7508,7 +8159,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="ZIKV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="ZIKV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-dm3s48ne/v1" target="_blank">Live Virus Zika - Vero-TMPRSS2 &amp;#43; PGP Inhibitor - Antiviral Screening Assay&lt;/a>
  
@@ -7531,7 +8182,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="MERS-CoV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="MERS-CoV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-dn3s5gne/v1" target="_blank">MERS-CoV Antiviral Immunofluorescence staining Protocol&lt;/a>
  
@@ -7554,7 +8205,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-03&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-diqa4dse/v1" target="_blank">SARS-CoV-2 Antiviral Immunofluorescence staining Protocol&lt;/a>
  
@@ -7577,7 +8228,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="General" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="General" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/using-the-tecan-d300e-dfgw3jxe/v1" target="_blank">Using the Tecan D300e&lt;/a>
  
@@ -7600,7 +8251,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-03-18&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="ZIKV" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="ZIKV" data-authors="Briana L McGovern" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-dm3x48pn/v1" target="_blank">ZIKA Antiviral Immunofluorescence staining Protocol&lt;/a>
  
@@ -7623,7 +8274,7 @@ Utilizing a direct enzyme acti...&lt;/span>&lt;/span>
  &lt;td>2025-08-04&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-author="Briana L McGovern" data-core="Antiviral Assay Core">
+ &lt;tr data-category="Antiviral Assay" data-target="SARS-CoV-2" data-authors="Briana L McGovern|Kris White" data-core="Antiviral Assay Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-dip94dr6/v1" target="_blank">iPSC Pneumocyte Live Virus SARS-CoV-2 Cytotoxicity Screening Assay&lt;/a>
  
@@ -7662,12 +8313,12 @@ function filterProtocols() {
  rows.forEach(row => {
  const category = row.getAttribute('data-category');
  const target = row.getAttribute('data-target');
- const author = row.getAttribute('data-author');
+ const authors = row.getAttribute('data-authors').split('|');
  const core = row.getAttribute('data-core');
 
  const categoryMatch = !categoryFilter || category === categoryFilter;
  const targetMatch = !targetFilter || target === targetFilter;
- const authorMatch = !authorFilter || author === authorFilter;
+ const authorMatch = !authorFilter || authors.includes(authorFilter);
  const coreMatch = !coreFilter || core.includes(coreFilter);
 
  if (categoryMatch &amp;&amp; targetMatch &amp;&amp; authorMatch &amp;&amp; coreMatch) {
