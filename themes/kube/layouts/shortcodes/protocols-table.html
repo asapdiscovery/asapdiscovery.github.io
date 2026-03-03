@@ -201,7 +201,9 @@
             <option value="">All Authors</option>
             {{ $authors := slice }}
             {{ range $.Site.Data.outputs.protocols }}
-                {{ $authors = $authors | append .author }}
+                {{ range .authors }}
+                    {{ $authors = $authors | append . }}
+                {{ end }}
             {{ end }}
             {{ $authors = $authors | uniq | sort }}
             {{ range $authors }}
@@ -245,7 +247,7 @@
     </thead>
     <tbody>
         {{ range $.Site.Data.outputs.protocols }}
-        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-author="{{ .author }}" data-core="{{ delimit .cores ", " }}">
+        <tr data-category="{{ .category }}" data-target="{{ .target }}" data-authors="{{ delimit .authors "|" }}" data-core="{{ delimit .cores ", " }}">
             <td>
                 <a href="{{ .url }}" target="_blank">{{ .name }}</a>
                 {{ with .description }}
@@ -284,12 +286,12 @@ function filterProtocols() {
     rows.forEach(row => {
         const category = row.getAttribute('data-category');
         const target = row.getAttribute('data-target');
-        const author = row.getAttribute('data-author');
+        const authors = row.getAttribute('data-authors').split('|');
         const core = row.getAttribute('data-core');
 
         const categoryMatch = !categoryFilter || category === categoryFilter;
         const targetMatch = !targetFilter || target === targetFilter;
-        const authorMatch = !authorFilter || author === authorFilter;
+        const authorMatch = !authorFilter || authors.includes(authorFilter);
         const coreMatch = !coreFilter || core.includes(coreFilter);
 
         if (categoryMatch && targetMatch && authorMatch && coreMatch) {
