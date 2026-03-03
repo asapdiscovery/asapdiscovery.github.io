@@ -636,8 +636,8 @@ Utilizing a direct enzyme acti..."
   url: https://www.protocols.io/view/expression-and-purification-of-truncated-zika-viru-dsre6d3e/v1
   category: Protein Production
   target: ZIKV
-  author: Anu V Chandran
-  authors: [Anu V Chandran]
+  author: Anu V. Chandran
+  authors: [Anu V. Chandran]
   date: 2025-04-25
   version: v1
   description: "We present a detailed protocol for the expression and purification of a truncated form of Zika virus (ZIKV) NS5 RNA-dependent RNA polymerase (RdRp), comprising residues 306-903. The construct contains an N-terminal hexahistidine-SUMO tag and was expressed in E. coli Lemo21 cells. The protein was ..."
@@ -957,7 +957,7 @@ Utilizing a direct enzyme acti..."
   category: Biophysical Assay
   target: ZIKV NS2B-NS3
   author: Eda Capkin
-  authors: [Eda Capkin, Korvus Wang, Xiaomin Ni, Lizbé Koekemoer, warren.thompson, Frank von Delft, Mary-Ann Xavier]
+  authors: [Eda Capkin, Korvus Wang, Xiaomin Ni, Lizbé Koekemoer, Warren Thompson, Frank von Delft, Mary-Ann Xavier]
   date: 2025-02-24
   version: v1
   description: "This protocol aims to measure kinetic parameters (ka, kd, and KD) for compounds against Zika virus NS2B-NS3 protease using the Creoptix Wave system. Grating coupled interferometry (GCI) is a label-free technique to measure kinetics and affinity for different targets (proteins, small molecules, fr..."
@@ -969,7 +969,7 @@ Utilizing a direct enzyme acti..."
   category: ADMET
   target: General
   author: Anzhela Rodnichenko
-  authors: [Anzhela Rodnichenko, Yurii Kheilik]
+  authors: [Anzhela Rodnichenko, Yuri Kheylik]
   date: 2024-12-09
   version: v1
   description: "The protocol allows measurement of the rate of flux of a compound to identify intestinal or CNS permeability. The assay measures the rate of flux across Canine MDR1 Knockout, Human MDR1 Knockin MDCKII cells (MDR1-MDCKII) cell monolayers to identify intestinal or CNS permeability.  By measuring ho..."
@@ -1001,8 +1001,8 @@ Utilizing a direct enzyme acti..."
   url: https://www.protocols.io/view/fetal-calf-serum-fcs-fbs-protein-binding-dvyn67ve/v1
   category: ADMET
   target: General
-  author: Yurii Kheilik
-  authors: [Yurii Kheilik, Yaroslav Lesyk, Nadiia Diyuk]
+  author: Yuri Kheylik
+  authors: [Yuri Kheylik, Yaroslav Lesyk, Nadiia Diyuk]
   date: 2025-03-31
   version: v1
   description: "In vitro pharmacological and toxicological evaluation of chemicals is performed using a wide variety of cell‐based assay systems. One of the major factors influencing the in vitro responses of chemicals is the amount of unbound chemicals present at the target site. The concentrations of the unbou..."
@@ -1100,8 +1100,8 @@ Utilizing a direct enzyme acti..."
   url: https://www.protocols.io/view/logp-logd-shake-flask-method-djue4nte/v1
   category: ADMET
   target: General
-  author: Yurii Kheylik
-  authors: [Yurii Kheylik]
+  author: Yuri Kheylik
+  authors: [Yuri Kheylik]
   date: 2024-09-23
   version: v1
   description: "Lipophilicity is possibly the most important physicochemical parameter for any potential drug candidate. Lipophilicity measurements are valuable for understanding how drugs are dissolved in plasma and other aqueous biological fluids. Lipophilicity is typically accessed as the distribution of the ..."
@@ -1134,7 +1134,7 @@ Utilizing a direct enzyme acti..."
   category: ADMET
   target: General
   author: Lina Bortnichuk
-  authors: [Lina Bortnichuk, Anna Pashchenko, Yurii Kheilik]
+  authors: [Lina Bortnichuk, Anna Pashchenko, Yuri Kheylik]
   date: 2024-12-09
   version: v1
   description: "Microsomal stability is a key parameter in drug discovery and development to support understanding of a compound's susceptibility to liver metabolism.  This assay assesses a compound's susceptibility to metabolism by liver enzymes, primarily cytochrome P450 (CYP) enzymes. Using either human or mo..."
@@ -1144,8 +1144,8 @@ Utilizing a direct enzyme acti..."
   url: https://www.protocols.io/view/plasma-protein-binding-equilibrium-dialysis-for-hu-dvym67u6/v1
   category: ADMET
   target: General
-  author: Yurii Kheilik
-  authors: [Yurii Kheilik, Nadiia Diyuk, Yaroslav Lesyk]
+  author: Yuri Kheylik
+  authors: [Yuri Kheylik, Nadiia Diyuk, Yaroslav Lesyk]
   date: 2025-03-31
   version: v1
   description: "Fraction unbound (fu) is a critical parameter that needs to be measured accurately because it has significant impacts on the predictions of drug-drug interactions, estimations of therapeutic indices, and developments of PK/PD relationships. Moreover, Plasma Protein Binding (PPB) is critical when ..."
@@ -1156,7 +1156,7 @@ Utilizing a direct enzyme acti..."
   category: ADMET
   target: General
   author: Dmytro Lesyk
-  authors: [Dmytro Lesyk, Yurii Kheilik]
+  authors: [Dmytro Lesyk, Yuri Kheylik]
   date: 2024-12-09
   version: v1
   description: "Determining compound solubility is an essential tool for the early stages of the drug discovery process, as well as for lead optimization. Low solubility can lead to unpredictable and unreliable results during in vitro testing, thereby increasing the development costs. Solubility issues at the la..."
