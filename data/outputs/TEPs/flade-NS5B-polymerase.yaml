@@ -21,3 +21,15 @@ TEP:
   # TODO: This should be pulled from the reported research products instead, and possibly renamed to "contributors"
   contributors:
   - Lizbé Koekemoer
+  resources:
+      - name: "Fragalysis interactive view of the OpenBind/ASAP crystallographic dataset for flavivirus NS5 RNA-dependent RNA polymerase"
+        id: flade-NS5B-polymerase_openbind-fragalysis
+        date: 2026-05-05
+        type: xray-fragment-screen
+        url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Flavi_NS5_RdRp/tas/lb42888-6
+        projects: [Project 2]
+        cores: [Structural Biology Core]
+        description: |
+          315 crystallographic binding events across DENV-2 and ZIKV NS5 RNA-dependent RNA polymerase, released by the OpenBind Consortium as joint OpenBind/ASAP work.
+
+          Bulk download of the full dataset: [Fragalysis download](https://fragalysis.diamond.ac.uk/viewer/react/download/tag/a1bb1125-a271-4069-8aee-6cfdcd621c72)
