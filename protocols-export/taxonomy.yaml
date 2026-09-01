@@ -1,0 +1,978 @@
+# ASAP taxonomy for each protocol, keyed on its protocols.io URL.
+# Fill in blank entries to publish that protocol.
+# `duplicate_of` marks a protocols.io record that repeats another one; those are
+# skipped rather than published, so the table shows each protocol once.
+
+https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-df8g3rtw:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/a549-ace2-sars-cov-1-antiviral-effect-screening-as-g6w6bzfhf:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-1
+https://www.protocols.io/view/antiviral-in-vitro-screening-using-sars-cov-2-and-d58u89ww:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-a71-3-czpyx5pw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-fahkbib4x
+  target: ''
+https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-d68-3-c6j7zcrn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo-dy9z7z76
+  target: ''
+https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpc45iyw:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpse5nbe:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dsdq6a5w:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: EV-A71 2A protease
+https://www.protocols.io/view/assessing-intestinal-and-cns-permeability-with-mdr-djuf4ntn:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-dik24cye:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: General
+https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-djdp4i5n:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/coronavirus-protease-panel-anti-viral-assay-using-d7rq9m5w:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: Coronavirus
+https://www.protocols.io/view/creoptix-protein-immobilization-protocol-biotin-ca-dyy47xyw:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/creoptix-protein-immobilization-protocol-his-tag-c-dibf4ajn:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/crystal-structure-of-enterovirus-a71-2a-protease-m-d44n8yve:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: EV-A71 2A protease
+https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-dgax3sfn:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: CVA16 2A protease
+https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-fafxbibpp:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: CVA16 2A protease
+https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo-dy9z7z76:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-dnh25b8e:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx
+  target: ''
+https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-drkd54s6:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-dgav3se6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e
+  target: ''
+https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-g73gbzqjx:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 N protein
+https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-dgaw3sfe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e
+  target: ''
+https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 Mpro
+https://www.protocols.io/view/crystallisation-of-sars-cov-2-n-protein-dnh55b86:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-g73gbzqjx
+  target: ''
+https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-dpxw5ppe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7
+  target: ''
+https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: WNV NS2B-NS3
+https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-dnh45b8w:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS5 RdRp
+https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-df6a3rae:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-djdn4i5e:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp
+  target: ''
+https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-fahkbib4x:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: EV-A71 3C protease
+https://www.protocols.io/view/crystallization-of-enterovirus-coxsackievirus-a16-dcrz2v76:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-fafxbibpp
+  target: ''
+https://www.protocols.io/view/crystallization-of-enterovirus-d68-3c-protease-dcry2v7w:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-drkd54s6
+  target: ''
+https://www.protocols.io/view/crystallization-of-mers-cov-mpro-dcr52v86:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/crystallization-of-sars-cov-2-mpro-dcr42v8w:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 Mpro
+https://www.protocols.io/view/crystallization-of-sars-cov-2-n-protein-dcr32v8n:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 N protein
+https://www.protocols.io/view/crystallization-of-sars-cov-2-nsp15-nendou-dcr22v8e:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp15
+https://www.protocols.io/view/crystallization-of-zika-ns5-rdrp-dcrx2v7n:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS5 RdRp
+https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-c65pzg5n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw
+  target: ''
+https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-dcrw2v7e:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp
+  target: ''
+https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS3 helicase
+https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-diky4cxw:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: General
+https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-dp685rhw:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/dengue-2-ns2b-ns3-protease-binding-assay-for-compo-dyy37xyn:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto-d4v98w96:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: DENV
+https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-dqtw5wpe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-co-expre-g9dsbz26f:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-de773hrn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dqte5wje:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-j4qmcqvu7:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p-d4i68uhe:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV
+https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-dqty5wpw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-dph45j8w:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp
+  target: ''
+https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/denv-ns2b-ns3-fluorescence-single-point-screening-dqz25x8e:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dcne2vbe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46
+  target: ''
+https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dezp3f5n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46
+  target: ''
+https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS2B-NS3
+https://www.protocols.io/view/diamond-xchem-seeding-protocol-c23kygkw:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/drug-transporter-abc-p-gp-bcrp-bsep-inhibition-usi-gz6rbx9d7:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/drug-transporter-slc-inhibition-panel-assay-using-g2k5bycy7:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/enterovirus-a71-3c-protease-large-scale-purificati-dfpx3mpn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-A71 3C protease
+https://www.protocols.io/view/enterovirus-a71-3c-protease-small-scale-expressio-dfps3mne:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-A71 3C protease
+https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dcii2uce:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6
+  target: ''
+https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dfik3kcw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6
+  target: ''
+https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: CVA16 2A protease
+https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dccj2sun:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6
+  target: ''
+https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-dzkg74tw:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expression-dcbr2sm6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-dzkg74tw
+  target: ''
+https://www.protocols.io/view/enteroviruses-ev-d68-ev-a71-3c-and-eva71-2a-protea-dcy92xz6:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: Enterovirus 3C/2A
+https://www.protocols.io/view/expression-and-purification-of-truncated-zika-viru-dsre6d3e:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV
+https://www.protocols.io/view/fetal-calf-serum-fcs-fbs-protein-binding-dvyn67ve:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-cs3bwgin:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
+  target: ''
+https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-cthtwj6n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
+  target: ''
+https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-db3m2qk6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
+  target: ''
+https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: Flavivirus NS2B-NS3
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-dcsb2wan:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-dzap72dn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: EV-A71 3C protease
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dcsf2wbn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: CVA16 2A protease
+https://www.protocols.io/view/fluorescence-assay-for-enterovirus-d68-3c-protease-dcse2wbe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-activity-meas-dcsd2wa6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-dy977z9n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef
+  target: ''
+https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-diqi4due:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: General
+https://www.protocols.io/view/in-vitro-antiviral-screening-assay-against-viruses-d5jq84mw:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: General
+https://www.protocols.io/view/in-vitro-cyp-inhibition-pooled-gzz5bx787:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-herg-amp-nav1-5-cardiotoxicity-assay-gz4jbx8up:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-human-or-mouse-s9-intestinal-stability-as-gzz3bx78p:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-mdr1-mdckii-permeability-assay-gz4gbx8tx:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-mouse-or-human-blood-stability-assay-gzz2bx78f:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-plasma-protein-binding-gzzzbx777:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vitro-thermodynamic-solubility-gzz4bx78x:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/in-vivo-mouse-and-rat-pk-bioanalysis-gz75bx9q7:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/influenza-virus-plaque-assay-b5yjq7un:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: Influenza
+https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-dip94dr6:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/isothermal-titration-calorimetry-protocol-for-bind-gzx7bx7rp:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: EV-A71 2A protease
+https://www.protocols.io/view/kinetic-assay-with-waverapid-grating-coupled-inte-dp655rg6:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/large-scale-ev-a71-2a-protease-mature-and-precurso-g3ptbymnp:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-A71 2A protease
+https://www.protocols.io/view/large-scale-expression-and-purification-of-biotiny-jxu5cpny7:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/large-scale-mpro-mers-cov-protein-expression-setup-g256byg9f:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/large-scale-zikv-ns3-helicase-expression-setup-and-hrdrb5257:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-dn335gqn:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: DENV
+https://www.protocols.io/view/live-virus-ev-a71-rd-antiviral-screening-assay-d53h88j6:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: EV-A71
+https://www.protocols.io/view/live-virus-ev-d68-on-rd-cells-antiviral-screening-hbesb2jef:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: EV-D68
+https://www.protocols.io/view/live-virus-ev-d68-rd-antiviral-screening-assay-eb6gbarbx:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: EV-D68
+https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-diqk4duw:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: MERS-CoV
+https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-de5k3g4w:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-diai4ace:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-dm3s48ne:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: ZIKV
+https://www.protocols.io/view/logp-logd-shake-flask-method-djue4nte:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/master-setup-and-operation-of-single-use-sub-bubbl-dcp72vrn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-dn3s5gne:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: MERS-CoV
+https://www.protocols.io/view/mers-cov-main-protease-mpro-fluorescence-dose-resp-cs48wgzw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
+  target: ''
+https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-db3v2qn6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
+  target: ''
+https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dcic2uaw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne
+  target: ''
+https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: MERS-CoV Mpro
+https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-csrjwd4n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
+  target: ''
+https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-cszhwf36:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
+  target: ''
+https://www.protocols.io/view/metabolic-stability-assay-in-human-rat-dog-or-mous-gzztbx76p:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/metabolic-stability-assay-in-rat-or-dog-microsomes-gzzvbx767:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv-djug4ntw:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c4bgysjw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8wbzxan
+  target: ''
+https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8exztfn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8wbzxan:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/plasma-protein-binding-equilibrium-dialysis-for-hu-dvym67u6:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/proof-reading-dengue-virus-serotype-1-ns2b-ns3-pr-dpy35pyn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87
+  target: ''
+https://www.protocols.io/view/proof-reading-dengue-virus-serotype-2-ns2b-ns3-pr-dqsz5wf6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
+  target: ''
+https://www.protocols.io/view/proof-reading-dengue-virus-serotype-3-ns2b-ns3-pr-dpg85jzw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf
+  target: ''
+https://www.protocols.io/view/proof-reading-west-nile-virus-ns2b-ns3-protease-f-dffi3jke:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx
+  target: ''
+https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dcr62v9e:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: CHIKV nsP3 macrodomain
+https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnhz5b76:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn
+  target: ''
+https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: CHIKV nsP3 macrodomain
+https://www.protocols.io/view/readdi-protocol-crystallisation-of-dengue-ns5-rdrp-dyp87vrw:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: DENV NS5 RdRp
+https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-diqa4dse:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: SARS-CoV-2
+https://www.protocols.io/view/sars-cov-2-macrodomain-mac1-tr-fret-dose-response-cssfwebn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
+  target: ''
+https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-cs5cwg2w:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-csrzwd76:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-cszqwf5w:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-db3w2qpe:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: SARS-CoV-2 Mpro
+https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-dcca2sse:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7
+  target: ''
+https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 Mpro
+https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-ctehwjb6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-dfiv3ke6:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-dirx4d7n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-ditt4enn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-dp675rhn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-dbsj2ncn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-di2k4gcw:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
+  target: ''
+https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/screening-compounds-that-inhibit-sars-cov-2-nsp3-m-dmd54286:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6aabzaaf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: Enterovirus 3C
+https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g6yebzftf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: SARS-CoV-2 N protein
+https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g8j8bzurx:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/shake-flask-aqueous-solubility-assay-kinetic-solub-djtz4np6:
+  category: ADMET
+  cores:
+  - ADMET Core
+  target: General
+https://www.protocols.io/view/small-scale-expression-and-purification-protocol-f-dfk73kzn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: EV-D68 3C protease
+https://www.protocols.io/view/small-scale-expression-and-purification-protocol-o-hg8hb3zt7:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/the-manufacture-and-setup-of-single-use-sub-bubble-dzsi76ce:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/using-the-tecan-d300e-dfgw3jxe:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: General
+https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: WNV NS2B-NS3
+https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-dqtf5wjn:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx
+  target: ''
+https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: WNV NS2B-NS3
+https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-protein-e-dp9n5r5e:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp
+  target: ''
+https://www.protocols.io/view/wnv-ns2b-ns3-fluorescence-single-point-dq3v5yn6:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: WNV NS2B-NS3
+https://www.protocols.io/view/xchem-crystallographic-fragment-screening-dhxj37kn:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/xchem-solvent-test-dcpy2vpw:
+  category: Crystallization
+  cores:
+  - Structural Biology Core
+  target: General
+https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-dm3x48pn:
+  category: Antiviral Assay
+  cores:
+  - Antiviral Assay Core
+  target: ZIKV
+https://www.protocols.io/view/zika-ns2b-3-4a-protein-construct-cleavage-pattern-d5fq83mw:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV
+https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-dfdt3i6n:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x
+  target: ''
+https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-dpzd5p26:
+  category: ''
+  cores: []
+  duplicate_of: https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx
+  target: ''
+https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zika-ns5-rdrp-his-sumo-construct-small-scale-expre-dfh93j96:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS5 RdRp
+https://www.protocols.io/view/zika-ns5-rdrp-histidine-thioredoxin-tagged-constru-dfkw3kxe:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS5 RdRp
+https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-binding-assay-for-com-dpxj5pkn:
+  category: Biophysical Assay
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-avi-t-j6ascraef:
+  category: ''
+  cores: []
+  target: ''
+https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-his10-dp4b5qsn:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zikv-ns2b-ns3-fluorescence-single-point-screening-dq3t5ynn:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zikv-ns2b-ns3-protease-dose-response-screening-ass-dq3w5ype:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zikv-ns3-helicase-protein-purification-protocol-g9nvbz5e7:
+  category: ''
+  cores: []
+  target: ''

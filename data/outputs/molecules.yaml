@@ -99,7 +99,28 @@ ASAP-ZIKA-NS2B-NS3:
   - date: 2023-04-30
     description: Initial public release of covalent fragment screen and hit confirmation assay data for 653 molecules.
 
-MOONSHOT-COV-MPRO:  
+ASAP-EVD68-2APRO:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-EVD68-2APRO
+  name: "Enterovirus 2A protease structure and affinity data"
+  description: Crystallographic binding data and measured binding affinities for compounds against enterovirus 2A protease. Experimental work used Coxsackievirus A16 (G-10) 2A protease, which differs from EV-A71 2A protease at five positions, none near the active site.
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: structure-affinity dataset (Zenodo)
+    url: https://doi.org/10.5281/zenodo.20026660
+  - name: interactive view and download (Fragalysis)
+    url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/A71EV2A/tas/lb42888-1
+  - name: PDB group deposition of ASAP inhibitor complexes
+    url: https://www.rcsb.org/groups/summary/entry/G_1002329
+  - name: Target Enabling Package
+    url: http://asapdiscovery.org/outputs/target-enabling-packages/#ASAP-EVD68-2APRO
+  events:
+  - date: 2025-01-14
+    description: PDB group deposition of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors developed by ASAP.
+  - date: 2026-05-05
+    description: OpenBind release of 925 crystallographic binding events across 699 compounds, with binding affinities for 601 of them, generated in coordination with ASAP.
+
+MOONSHOT-COV-MPRO:
   name: "SARS-CoV-2 Mpro biochemical assay data from the COVID Moonshot"
   description: All biochemical data from the COVID Moonshot has been disclosed.  
   links:

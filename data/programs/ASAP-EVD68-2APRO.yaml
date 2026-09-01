@@ -37,5 +37,9 @@ TEP:
 hit_to_lead:
   status: play
 
+# Chemical matter is "in-progress: P2" in the TEP status sheet
+molecules:
+  status: in-progress
+
 publications:
   status: completed

@@ -7,6 +7,9 @@ publishDir = "./public"
 pygmentsCodefences = true
 pygmentsStyle = "colorful"
 
+# Allow slow remote resources (e.g. the TEP status Google Sheet) more time before giving up
+timeout = "60s"
+
 # Generate robots.txt
 enableRobotsTXT = "true"
 # ignore files on build:
