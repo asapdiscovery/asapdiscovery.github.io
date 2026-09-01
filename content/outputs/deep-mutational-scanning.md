@@ -13,6 +13,13 @@ draft: false
 Deep mutational scanning of ZIKV NS2B-NS3 protease, carried out alongside crystallographic fragment screening to identify mutation-intolerant binding sites.
 
 * [Crystallographic fragment screening and deep mutational scanning of Zika virus NS2B-NS3 protease enable development of resistance-resilient inhibitors](https://doi.org/10.1101/2024.04.29.591502) — bioRxiv preprint
+* [Fitness dataset](https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master) — DMS performed by the Evans lab, analyzed by the Bloom lab (posted 2023-11-01)
+
+### Zika virus NS5 RNA-dependent RNA polymerase
+
+Deep mutational scanning across the ZIKV NS5 RdRp to map which positions tolerate mutation.
+
+* [Fitness dataset](https://github.com/jbloomlab/ZIKV_DMS_NS5_EvansLab/blob/main/results/all_tiles/alltiles_host_adaptation.csv) — DMS performed by the Evans lab, analyzed by the Bloom lab (posted 2024-04-01)
 
 ### Tools for exploring DMS data
 
