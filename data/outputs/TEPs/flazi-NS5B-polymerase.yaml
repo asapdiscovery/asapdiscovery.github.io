@@ -103,7 +103,7 @@ TEP:
           We obtained crystal which diffracted to 2.0 Å.
           PDB to be released:
         date: 2022-11-26
-        type: protocol
+        type: crystallization-protocol
         projects: [Project 2]
         cores: [Structural Biology Core]
         protocol: >
