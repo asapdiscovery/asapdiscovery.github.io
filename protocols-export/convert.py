@@ -41,6 +41,8 @@ HEADER = """# Unified protocols database for ASAP Discovery
 """
 
 # Order of the category sections in the generated file.
+UNASSIGNED = "Unassigned"
+
 CATEGORY_ORDER = [
     "Biochemical Assay",
     "Crystallization",
@@ -48,6 +50,7 @@ CATEGORY_ORDER = [
     "Biophysical Assay",
     "ADMET",
     "Antiviral Assay",
+    UNASSIGNED,
 ]
 
 TAXONOMY_FIELDS = ("category", "target", "cores")
@@ -194,26 +197,38 @@ def main():
     parsed = parse_export(export, aliases)
     print(f"protocols in export: {len(parsed)}   currently published: {len(existing)}")
 
-    # Record any protocol the export knows about but the taxonomy does not.
+    # protocols.io holds several records for some protocols. Those are marked
+    # `duplicate_of` in the taxonomy and skipped, so each protocol appears once.
+    # Anything else the taxonomy does not cover is published labelled UNASSIGNED,
+    # rather than guessed at or hidden.
     needs_taxonomy = []
+    duplicates = []
     for key in parsed:
         entry = taxonomy.setdefault(key, {"category": "", "target": "", "cores": []})
-        if not entry.get("category") or not entry.get("target") or not entry.get("cores"):
+        if entry.get("duplicate_of"):
+            duplicates.append(key)
+        elif not entry.get("category") or not entry.get("target") or not entry.get("cores"):
             needs_taxonomy.append(key)
 
     if not args.dry_run:
         TAXONOMY.write_text(
             "# ASAP taxonomy for each protocol, keyed on its protocols.io URL.\n"
-            "# Fill in blank entries to publish that protocol.\n\n"
+            "# Fill in blank entries to publish that protocol.\n"
+            "# `duplicate_of` marks a protocols.io record that repeats another one; those are\n"
+            "# skipped rather than published, so the table shows each protocol once.\n\n"
             + yaml.safe_dump(taxonomy, default_flow_style=False, allow_unicode=True,
                              sort_keys=True, width=10**9)
         )
 
-    # Publish only protocols that carry a full taxonomy.
-    publishable = {k: v for k, v in parsed.items() if k not in set(needs_taxonomy)}
+    # Publish everything bar the duplicates; anything the taxonomy does not cover is
+    # labelled rather than inferred, so a gap is visible instead of silently invented.
+    publishable = {k: v for k, v in parsed.items() if k not in set(duplicates)}
     for key, entry in publishable.items():
-        entry.update(taxonomy[key])
-        entry["author"] = entry["authors"][0] if entry["authors"] else ""
+        tags = taxonomy[key]
+        entry["category"] = tags.get("category") or UNASSIGNED
+        entry["target"] = tags.get("target") or UNASSIGNED
+        entry["cores"] = tags.get("cores") or [UNASSIGNED]
+        entry["author"] = entry["authors"][0] if entry["authors"] else UNASSIGNED
 
     # Keep existing entries in their current position; append new ones per category.
     order = {key: i for i, key in enumerate(existing_by_url)}
@@ -253,7 +268,8 @@ def main():
             changed.append((key, old, entry))
 
     print(f"\npublished: {len(publishable)}   new: {len(added)}   "
-          f"version/date changed: {len(changed)}   gone from export: {len(removed)}")
+          f"version/date changed: {len(changed)}   gone from export: {len(removed)}   "
+          f"skipped as duplicates: {len(duplicates)}")
 
     if changed:
         print("\nprotocols whose version or date moved:")
@@ -265,8 +281,8 @@ def main():
         for key in removed:
             print(f"  {existing_by_url[key]['name'][:70]}")
     if needs_taxonomy:
-        print(f"\n{len(needs_taxonomy)} protocol(s) need category/target/cores in "
-              f"{TAXONOMY.relative_to(REPO)} before they appear on the site:")
+        print(f"\n{len(needs_taxonomy)} protocol(s) published as '{UNASSIGNED}'. Fill in "
+              f"category/target/cores in {TAXONOMY.relative_to(REPO)} to label them:")
         for key in needs_taxonomy:
             print(f"  {parsed[key]['name'][:70]}")
             print(f"      {key}")

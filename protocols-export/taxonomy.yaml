@@ -1,5 +1,7 @@
 # ASAP taxonomy for each protocol, keyed on its protocols.io URL.
 # Fill in blank entries to publish that protocol.
+# `duplicate_of` marks a protocols.io record that repeats another one; those are
+# skipped rather than published, so the table shows each protocol once.
 
 https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-df8g3rtw:
   category: Antiviral Assay
@@ -19,10 +21,12 @@ https://www.protocols.io/view/antiviral-in-vitro-screening-using-sars-cov-2-and-
 https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-a71-3-czpyx5pw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-fahkbib4x
   target: ''
 https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-d68-3-c6j7zcrn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo-dy9z7z76
   target: ''
 https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-dpc45iyw:
   category: Biochemical Assay
@@ -92,6 +96,7 @@ https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-apo
 https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-dnh25b8e:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx
   target: ''
 https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-g2qqbydvx:
   category: Crystallization
@@ -106,6 +111,7 @@ https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-
 https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-dgav3se6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e
   target: ''
 https://www.protocols.io/view/crystallisation-of-mers-cov-mpro-in-c2221-used-for-d4hn8t5e:
   category: Crystallization
@@ -120,6 +126,7 @@ https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap
 https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-dgaw3sfe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e
   target: ''
 https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-d4m68u9e:
   category: Crystallization
@@ -129,10 +136,12 @@ https://www.protocols.io/view/crystallisation-of-sars-cov-2-mpro-in-p212121-for-
 https://www.protocols.io/view/crystallisation-of-sars-cov-2-n-protein-dnh55b86:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-sars-cov-2-c-terminal-nucleocap-g73gbzqjx
   target: ''
 https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-dpxw5ppe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7
   target: ''
 https://www.protocols.io/view/crystallisation-of-west-nile-virus-ns2b-ns3-protea-g2p9bydr7:
   category: Crystallization
@@ -152,6 +161,7 @@ https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro
 https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-djdn4i5e:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp
   target: ''
 https://www.protocols.io/view/crystallisation-protocol-for-sars-cov-2-nsp3-macro-g2q3bydyp:
   category: Crystallization
@@ -166,10 +176,12 @@ https://www.protocols.io/view/crystallization-of-enterovirus-a71-3c-protease-in-
 https://www.protocols.io/view/crystallization-of-enterovirus-coxsackievirus-a16-dcrz2v76:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-coxsackievirus-a16-fafxbibpp
   target: ''
 https://www.protocols.io/view/crystallization-of-enterovirus-d68-3c-protease-dcry2v7w:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallisation-of-enterovirus-d68-3c-protease-in-drkd54s6
   target: ''
 https://www.protocols.io/view/crystallization-of-mers-cov-mpro-dcr52v86:
   category: Crystallization
@@ -199,6 +211,7 @@ https://www.protocols.io/view/crystallization-of-zika-ns5-rdrp-dcrx2v7n:
 https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-c65pzg5n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw
   target: ''
 https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl-dqyy5xxw:
   category: Crystallization
@@ -208,6 +221,7 @@ https://www.protocols.io/view/crystallization-of-zika-virus-ns2b-ns3-protease-cl
 https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-dcrw2v7e:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp
   target: ''
 https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p3bymqp:
   category: Crystallization
@@ -237,6 +251,7 @@ https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto
 https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-dqtw5wpe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87:
   category: Protein Production
@@ -250,10 +265,12 @@ https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-co-expre
 https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-de773hrn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dqte5wje:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-dzqt75wn:
   category: Protein Production
@@ -268,6 +285,7 @@ https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c
 https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-j4qmcqvu7:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p-d4i68uhe:
   category: Protein Production
@@ -277,6 +295,7 @@ https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p
 https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-dqty5wpw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf:
   category: Protein Production
@@ -286,6 +305,7 @@ https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g
 https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-dph45j8w:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp
   target: ''
 https://www.protocols.io/view/dengue-virus-serotype-4-ns2b-ns3-protease-fusion-c-g2njbydcp:
   category: Protein Production
@@ -300,10 +320,12 @@ https://www.protocols.io/view/denv-ns2b-ns3-fluorescence-single-point-screening-
 https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dcne2vbe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46
   target: ''
 https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dezp3f5n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46
   target: ''
 https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46:
   category: Protein Production
@@ -338,10 +360,12 @@ https://www.protocols.io/view/enterovirus-a71-3c-protease-small-scale-expressio-
 https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dcii2uce:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6
   target: ''
 https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dfik3kcw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6
   target: ''
 https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s-dxiv7ke6:
   category: Protein Production
@@ -351,6 +375,7 @@ https://www.protocols.io/view/enterovirus-coxsackievirus-a16-2a-protease-small-s
 https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dccj2sun:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6
   target: ''
 https://www.protocols.io/view/enterovirus-d68-3c-protease-large-scale-purificati-dfpz3mp6:
   category: Protein Production
@@ -365,6 +390,7 @@ https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-
 https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expression-dcbr2sm6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/enterovirus-d68-3c-protease-small-scale-expressio-dzkg74tw
   target: ''
 https://www.protocols.io/view/enteroviruses-ev-d68-ev-a71-3c-and-eva71-2a-protea-dcy92xz6:
   category: Biochemical Assay
@@ -384,14 +410,17 @@ https://www.protocols.io/view/fetal-calf-serum-fcs-fbs-protein-binding-dvyn67ve:
 https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-cs3bwgin:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
   target: ''
 https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-cthtwj6n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
   target: ''
 https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-db3m2qk6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p
   target: ''
 https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n-g2m3byc8p:
   category: Biochemical Assay
@@ -401,10 +430,12 @@ https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-serotypes-1-4-n
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-dcsb2wan:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex
   target: ''
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-dzap72dn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex
   target: ''
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease-g2nubydex:
   category: Biochemical Assay
@@ -414,6 +445,7 @@ https://www.protocols.io/view/fluorescence-assay-for-enterovirus-a71-3c-protease
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dcsf2wbn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn
   target: ''
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-dzkp74vn:
   category: Biochemical Assay
@@ -423,10 +455,12 @@ https://www.protocols.io/view/fluorescence-assay-for-enterovirus-coxsackievirus-
 https://www.protocols.io/view/fluorescence-assay-for-enterovirus-d68-3c-protease-dcse2wbe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef
   target: ''
 https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-activity-meas-dcsd2wa6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de
   target: ''
 https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti-dzan72de:
   category: Biochemical Assay
@@ -436,6 +470,7 @@ https://www.protocols.io/view/fluorescence-assay-for-mers-cov-mpro-protease-acti
 https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-dy977z9n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef
   target: ''
 https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-g2nsbydef:
   category: Biochemical Assay
@@ -588,10 +623,12 @@ https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro
 https://www.protocols.io/view/mers-cov-main-protease-mpro-fluorescence-dose-resp-cs48wgzw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
   target: ''
 https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-db3v2qn6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
   target: ''
 https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn:
   category: Biochemical Assay
@@ -601,6 +638,7 @@ https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv
 https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dcic2uaw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne
   target: ''
 https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dzbs72ne:
   category: Protein Production
@@ -610,10 +648,12 @@ https://www.protocols.io/view/mers-cov-mpro-large-scale-purification-protocol-dz
 https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-csrjwd4n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
   target: ''
 https://www.protocols.io/view/mers-main-protease-mpro-fluorescence-dose-response-cszhwf36:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/mers-cov-mpro-fluorescence-dose-response-for-antiv-cuxjwxkn
   target: ''
 https://www.protocols.io/view/metabolic-stability-assay-in-human-rat-dog-or-mous-gzztbx76p:
   category: ADMET
@@ -633,6 +673,7 @@ https://www.protocols.io/view/microsomal-stability-assay-for-human-and-mouse-liv
 https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c4bgysjw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8wbzxan
   target: ''
 https://www.protocols.io/view/parallel-rapid-expression-and-purification-of-prot-c8exztfn:
   category: Protein Production
@@ -652,18 +693,22 @@ https://www.protocols.io/view/plasma-protein-binding-equilibrium-dialysis-for-hu
 https://www.protocols.io/view/proof-reading-dengue-virus-serotype-1-ns2b-ns3-pr-dpy35pyn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-g2m5byc87
   target: ''
 https://www.protocols.io/view/proof-reading-dengue-virus-serotype-2-ns2b-ns3-pr-dqsz5wf6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf
   target: ''
 https://www.protocols.io/view/proof-reading-dengue-virus-serotype-3-ns2b-ns3-pr-dpg85jzw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-g2nibydcf
   target: ''
 https://www.protocols.io/view/proof-reading-west-nile-virus-ns2b-ns3-protease-f-dffi3jke:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx
   target: ''
 https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dcr62v9e:
   category: Crystallization
@@ -673,6 +718,7 @@ https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr
 https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnhz5b76:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn
   target: ''
 https://www.protocols.io/view/readdi-protocol-crystallisation-of-chikv-nsp3-macr-dnxp5fmn:
   category: Crystallization
@@ -692,22 +738,27 @@ https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p
 https://www.protocols.io/view/sars-cov-2-macrodomain-mac1-tr-fret-dose-response-cssfwebn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
   target: ''
 https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-cs5cwg2w:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
   target: ''
 https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-csrzwd76:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
   target: ''
 https://www.protocols.io/view/sars-cov-2-main-protease-mpro-fluorescence-dose-re-cszqwf5w:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
   target: ''
 https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-db3w2qpe:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf
   target: ''
 https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyddf:
   category: Biochemical Assay
@@ -717,6 +768,7 @@ https://www.protocols.io/view/sars-cov-2-mpro-fluorescence-dose-response-g2nnbyd
 https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-dcca2sse:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7
   target: ''
 https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-g3pvbymn7:
   category: Protein Production
@@ -726,10 +778,12 @@ https://www.protocols.io/view/sars-cov-2-mpro-small-scale-expression-and-purifi-
 https://www.protocols.io/view/sars-cov-2-nsp3-mac1-macrodomain-tr-fret-peptide-d-ctehwjb6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-dfiv3ke6:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific-g2q2bydyf:
   category: Protein Production
@@ -739,6 +793,7 @@ https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-expression-and-purific
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-dirx4d7n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres-g2q4bydyx:
   category: Protein Production
@@ -748,10 +803,12 @@ https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-sumo-tagged-expres
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-ditt4enn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-dp675rhn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-g3gebyjtf:
   category: Protein Production
@@ -761,10 +818,12 @@ https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-his-tagged-expression-
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-dbsj2ncn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-di2k4gcw:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37
   target: ''
 https://www.protocols.io/view/sars-cov-2-nsp3-macrodomain-time-resolved-fret-pep-g2vhbye37:
   category: Biochemical Assay
@@ -822,6 +881,7 @@ https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-
 https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-dqtf5wjn:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx
   target: ''
 https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct-g2ngbydbx:
   category: Protein Production
@@ -831,6 +891,7 @@ https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-construct
 https://www.protocols.io/view/west-nile-virus-ns2b-ns3-protease-fusion-protein-e-dp9n5r5e:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp
   target: ''
 https://www.protocols.io/view/wnv-ns2b-ns3-fluorescence-single-point-dq3v5yn6:
   category: Biochemical Assay
@@ -860,6 +921,7 @@ https://www.protocols.io/view/zika-ns2b-3-4a-protein-construct-cleavage-pattern-
 https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-dfdt3i6n:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x
   target: ''
 https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca-g2m8byc9x:
   category: Protein Production
@@ -869,6 +931,7 @@ https://www.protocols.io/view/zika-ns2b-ns3-fusion-construct-for-assay-small-sca
 https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-dpzd5p26:
   category: ''
   cores: []
+  duplicate_of: https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx
   target: ''
 https://www.protocols.io/view/zika-ns2b-ns3-protease-co-expression-construct-sma-g3pybympx:
   category: Protein Production

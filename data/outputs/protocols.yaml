@@ -1418,3 +1418,81 @@
   version: v1
   description: "These immunofluorescence-based antiviral assays rely on identification of infected cells through immunostaining the NP (influenza virus), N (SARS-CoV-2) proteins, or any relevant viral antigen at 488nM and counterstaining with DAPI. Infected cells (488nM) and total cells (DAPI) are identified and..."
   cores: ['Antiviral Assay Core']
+
+# Unassigned Protocols
+- name: "Zika Virus NS2B-NS3 protease fusion protein Avi-tagged (Biotinylated) protein expression and purification: large scale 4L cultures"
+  url: https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-avi-t-j6ascraef/v1
+  category: Unassigned
+  target: Unassigned
+  author: Korvus Wang
+  authors: [Korvus Wang]
+  date: 2026-07-30
+  version: v1
+  description: "This protocol details the expression and purification of Zika Virus NS2B-NS3 protease fusion protein with a AviTag (biotinylation tag) for biophysical assay at a 4L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IM..."
+  cores: ['Unassigned']
+
+- name: Large-scale expression and purification of biotinylated Enterovirus  coxsackievirus A16 (CVA16) strain G10 2A protease
+  url: https://www.protocols.io/view/large-scale-expression-and-purification-of-biotiny-jxu5cpny7/v1
+  category: Unassigned
+  target: Unassigned
+  author: Michael Fairhead
+  authors: [Michael Fairhead]
+  date: 2026-04-30
+  version: v1
+  description: "This protocol details the expression and purification of Enterovirus A16 G10 2A protease protein with a AviTag (biotinylation tag) for biophysical assay at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC,..."
+  cores: ['Unassigned']
+
+- name: "Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of ZIKV NS2B-NS3 protease for Structural Biology and Drug Design (SBDD)"
+  url: https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g8j8bzurx/v1
+  category: Unassigned
+  target: Unassigned
+  author: Nathan Wright
+  authors: [Nathan Wright]
+  date: 2026-04-08
+  version: v1
+  description: "This protocol describes the setup and operation of single-use (SUB) bubble column reactors (BCR) for liter-scale expression of recombinant proteins, specifically targeting Zika virus (ZIKV) NS2B-NS3 protease for structural biology and drug design applications. The method utilizes auto-induction t..."
+  cores: ['Unassigned']
+
+- name: Dengue virus serotype 2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol
+  url: https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-co-expre-g9dsbz26f/v1
+  category: Unassigned
+  target: Unassigned
+  author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
+  date: 2026-05-13
+  version: v1
+  description: "This protocol details the co-expression and purification of Dengue virus serotype 2 NS2B-NS3 protease coexpression construct bearing a N-terminal His-StrepII tag at small scale (<6L)."
+  cores: ['Unassigned']
+
+- name: ZIKV NS3 helicase protein purification protocol
+  url: https://www.protocols.io/view/zikv-ns3-helicase-protein-purification-protocol-g9nvbz5e7/v1
+  category: Unassigned
+  target: Unassigned
+  author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
+  date: 2026-04-08
+  version: v1
+  description: "This protocol details the  purification of Zika virus NS3 helicase construct bearing a N-terminal His-GST tag at small scale (<6L) with bubble column expression system."
+  cores: ['Unassigned']
+
+- name: Small scale expression and purification protocol of A71 inactive 2A protease with mutation C110A to preserve VP1-2A junction
+  url: https://www.protocols.io/view/small-scale-expression-and-purification-protocol-o-hg8hb3zt7/v1
+  category: Unassigned
+  target: Unassigned
+  author: Xiaomin Ni
+  authors: [Xiaomin Ni, Korvus Wang, Michael Fairhead, Eleanor Williams]
+  date: 2026-04-08
+  version: v1
+  description: "This protocol describes the small-scale expression and purification of Enterovirus A71 inactive 2A protease bearing the C110A mutation to preserve the VP1-2A junction. The protein is expressed as an N-terminal His6-SUMO fusion in E. coli BL21(DE3)-RR cells using TB autoinduction media, yielding a..."
+  cores: ['Unassigned']
+
+- name: "Large scale ZIKV NS3 helicase expression setup and operation of Single Use  Bubble Column Reactors: Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)"
+  url: https://www.protocols.io/view/large-scale-zikv-ns3-helicase-expression-setup-and-hrdrb5257/v1
+  category: Unassigned
+  target: Unassigned
+  author: Nathan Wright
+  authors: [Nathan Wright]
+  date: 2026-04-08
+  version: v1
+  description: "This protocol describes large-scale expression of Zika virus NS3 helicase domain using Single Use Bubble Column Reactors for structural biology applications. The method employs auto-induction terrific broth media in 1-liter E. coli cultures at 37°C, followed by ambient temperature overnight expre..."
+  cores: ['Unassigned']
