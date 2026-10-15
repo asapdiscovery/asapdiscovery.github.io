@@ -2,7 +2,7 @@ overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: flaviviridae
   name: "DENV/ZIKV/WNV RdRp polymerase"
-  target: helicase
+  target: RdRp
   program_code: ASAPPIBTTB
   program_nickname: ASAP-ZIKA-NS5-RDRP
   viruses:
@@ -35,6 +35,11 @@ TPP:
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: play
+  # Sheet has ASAPPWCTFT completed through robust crystals; biochem and frag screen in progress
+  status: in-progress
+  id: ASAP-ZIKA-NS5-RDRP
+
+circulating_variants:
+  status: completed
 
 

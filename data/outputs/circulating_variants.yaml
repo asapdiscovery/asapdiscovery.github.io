@@ -128,7 +128,8 @@ MOONSHOT-COV-MPRO:
   - date: 2023-01-31
     description: Preprint and interactive mutation viewer posted.
 
-ASAP-ZIKV-NS2B3:
+# Keyed on the program nickname so the Pipeline anchor resolves
+ASAP-DENV-ZIKV-NS2B-NS3:
   name: Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease
   description: Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab
   links:
@@ -139,7 +140,8 @@ ASAP-ZIKV-NS2B3:
     description: Initial version of analyzed data posted.
   projects: [Project 1]
 
-ASAP-ZIKV-RdRp-polymerase:
+# Keyed on the program nickname so the Pipeline anchor resolves
+ASAP-ZIKA-NS5-RDRP:
   name: Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5)
   description: Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab
   links:

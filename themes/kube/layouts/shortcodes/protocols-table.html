@@ -91,6 +91,9 @@
 .category-biophysical { background: #fff3e0; color: #e65100; }
 .category-admet { background: #fce4ec; color: #c2185b; }
 .category-antiviral { background: #ffebee; color: #c62828; }
+/* Metadata we do not have, shown as a gap rather than guessed at. */
+.category-unassigned { background: #f5f5f5; color: #757575; border: 1px dashed #bdbdbd; font-style: italic; }
+.unassigned-value { color: #9e9e9e; font-style: italic; }
 .core-badge {
     display: inline-block;
     padding: 0.2rem 0.4rem;
@@ -179,6 +182,7 @@
             <option value="Biophysical Assay">Biophysical Assay</option>
             <option value="ADMET">ADMET</option>
             <option value="Antiviral Assay">Antiviral Assay</option>
+            <option value="Unassigned">Unassigned</option>
         </select>
     </div>
     <div class="filter-group">
@@ -261,10 +265,11 @@
                 {{ if eq .category "Biophysical Assay" }}{{ $categoryClass = "category-biophysical" }}{{ end }}
                 {{ if eq .category "ADMET" }}{{ $categoryClass = "category-admet" }}{{ end }}
                 {{ if eq .category "Antiviral Assay" }}{{ $categoryClass = "category-antiviral" }}{{ end }}
+                {{ if eq .category "Unassigned" }}{{ $categoryClass = "category-unassigned" }}{{ end }}
                 <span class="category-badge {{ $categoryClass }}">{{ .category }}</span>
             </td>
-            <td>{{ .target }}</td>
-            <td>{{ range .cores }}<span class="core-badge">{{ . }}</span> {{ end }}</td>
+            <td>{{ if eq .target "Unassigned" }}<span class="unassigned-value">{{ .target }}</span>{{ else }}{{ .target }}{{ end }}</td>
+            <td>{{ range .cores }}<span class="core-badge{{ if eq . "Unassigned" }} unassigned-value{{ end }}">{{ . }}</span> {{ end }}</td>
             <td>{{ .author }}</td>
             <td>{{ with .version }}<span class="version-badge">{{ . }}</span>{{ end }}</td>
             <td>{{ .date }}</td>

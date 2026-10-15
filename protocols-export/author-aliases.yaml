@@ -1,0 +1,15 @@
+# Author name corrections applied to the protocols.io export.
+#
+# The export spells some people more than one way; the protocols table filters on
+# exact strings, so an uncorrected variant silently splits one person into two
+# entries in the Author dropdown. Map each variant to the canonical spelling.
+
+# Account username rather than a display name.
+charline.giroud: Charline Giroud
+
+# Two spellings of the same surname in the export, plus the preferred given name.
+Yurii Kheilik: Yuri Kheylik
+Yurii Kheylik: Yuri Kheylik
+
+# Preferred name; the export still carries the name the account was registered with.
+SiYi Wang: Korvus Wang

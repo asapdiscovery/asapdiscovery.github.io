@@ -164,7 +164,7 @@ ASAP aims to pursue five lead optimization programs within five years, producing
 
 ASAP aims to prosecute three IND-enabling preclinical programs within five years.
 
-[🔎 View all ASAP preclinical programs](/outputs/preclinical-programs)
+[🔎 View all ASAP preclinical programs](/outputs/preclinical)
 
 <!-- Investigational New Drug (IND) approval -->
 <a id="investigational-new-drugs"></a>

@@ -207,3 +207,16 @@ TEP:
     type: pdb-deposition
     cores: [Structural Biology Core]
     projects: [Project 2]
+  - name: WNV NS2B-NS3 protease covalent fragment screen and hit confirmation assay data
+    id: flawn-NS2B3-protease_biochemical-assay-data
+    description: |
+      Biochemical assay data for a single-concentration covalent fragment screen and follow-up multi-point titration of the resulting hits, covering 646 molecules.
+
+      Assay protocol: [Flaviviruses (West Nile, Zika, Dengue serotypes 1-4) NS2B-NS3 protease fluorescence assay](https://www.protocols.io/view/flaviviruses-west-nile-zika-dengue-ns2b-ns3-fluore-q26g7yebkgwz/v1)
+
+      Also released through [ChEMBL 36](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_36/) and listed under [ASAP molecules and assay data](/outputs/molecules/#ASAP-WNV-NS2B-NS3).
+    url: https://asapdiscovery.notion.site/WNV-NS2B-NS3-Potency-Data-26b94b98aff6808584e1e061576b53ea
+    date: 2023-04-30
+    type: biochemical-assay
+    cores: [Biochemical Assay Core, Data Core]
+    projects: [Project 2]

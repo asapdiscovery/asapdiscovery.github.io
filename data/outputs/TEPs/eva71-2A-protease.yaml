@@ -218,3 +218,37 @@ TEP:
       description: |
         Crystallographic structure of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors developed by the ASAP Discovery Consortium.
 
+    - name: "OpenBind structure-affinity dataset for Coxsackievirus A16 (G-10) 2A protease"
+      id: eva71-2A-protease_openbind-structure-affinity-dataset
+      date: 2026-05-05
+      type: xray-fragment-screen
+      url: https://doi.org/10.5281/zenodo.20026660
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      description: |
+        Structure-affinity dataset comprising 925 crystallographic binding events across 699 compounds, with measured binding affinities for 601 of them, released by the OpenBind Consortium under CC0.
+
+        The target was selected in coordination with the ASAP Discovery Consortium. As elsewhere in this TEP, Coxsackievirus A16 (G-10) 2A protease is used as a surrogate for EV-A71 2A protease; the two differ at five positions, none near the active site.
+
+        The DOI above is the Zenodo concept DOI and always resolves to the most recent version.
+
+    - name: "Fragalysis interactive view of the OpenBind structure-affinity dataset for Coxsackievirus A16 (G-10) 2A protease"
+      id: eva71-2A-protease_openbind-fragalysis
+      date: 2026-05-05
+      type: xray-fragment-screen
+      url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/A71EV2A/tas/lb42888-1
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      description: |
+        Interactive exploration and download of the OpenBind structure-affinity dataset. This is a separate visit from the earlier fragment screen listed above (lb32627-66).
+
+    - name: "Binding affinity and kinetics for Coxsackievirus A16 (G-10) 2A protease by grating-coupled interferometry"
+      id: eva71-2A-protease_openbind-affinity-kinetics
+      date: 2026-05-05
+      type: biophysical-assay
+      url: https://doi.org/10.5281/zenodo.20026660
+      projects: [Project 2]
+      cores: [Structural Biology Core]
+      description: |
+        Association rate (ka), dissociation rate (kd), equilibrium dissociation constant (KD) and maximum response (Rmax) for 601 compounds, measured by grating-coupled interferometry on the Creoptix WAVEsystem and released alongside the structural data.
+
