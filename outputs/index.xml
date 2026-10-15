@@ -857,6 +857,64 @@ This overview is intended to summarize relevant information for drug hunters, in
 
 
  &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO"> Enterovirus 2A protease structure and affinity data &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://doi.org/10.5281/zenodo.20026660">[structure-affinity dataset (Zenodo)]&lt;/a>
+
+ &lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/A71EV2A/tas/lb42888-1">[interactive view and download (Fragalysis)]&lt;/a>
+
+ &lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002329">[PDB group deposition of ASAP inhibitor complexes]&lt;/a>
+
+ &lt;a href="http://asapdiscovery.org/outputs/target-enabling-packages/#ASAP-EVD68-2APRO">[Target Enabling Package]&lt;/a>
+
+&lt;br>
+
+
+
+ Crystallographic binding data and measured binding affinities for compounds against enterovirus 2A protease. Experimental work used Coxsackievirus A16 (G-10) 2A protease, which differs from EV-A71 2A protease at five positions, none near the active site. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2025-01-14]&lt;/i> PDB group deposition of Coxsackievirus A16 (G-10) 2A protease in complex with inhibitors developed by ASAP.&lt;/small> &lt;br>
+
+ &lt;small>&lt;i>[2026-05-05]&lt;/i> OpenBind release of 925 crystallographic binding events across 699 compounds, with binding affinities for 601 of them, generated in coordination with ASAP.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="ASAP-SARS-COV-2-NSP3-MAC1"> SARS-CoV-2 nsp3 Mac1 macrodomain assay data &lt;/h3> 
 
 
@@ -1885,130 +1943,22 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
  
  
-
- 
- 
- 
-
- 
-
- 
- 
-
-
-
- 
- 
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
  
  
-
  
  
- 
 
  
  
  
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
  
  
- 
 
- 
- 
- 
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS5-RDRP">DENV/ZIKV/WNV RdRp polymerase&lt;/h3>
+ ASAP-ZIKA-NS5-RDRP
 
  
  
@@ -2019,13 +1969,9 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
 
  
-
  
  
 
- &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3">DENV/ZIKV NS2B-NS3 protease&lt;/h3>
- ASAP-DENV-ZIKV-NS2B-NS3
-
  
  
  
@@ -2102,55 +2048,11 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
  
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
  
-
-
-
-
-
-&lt;a href="https://www.rcsb.org/structure/8PN6">&lt;b>Apo crystal structure of the ZIKV NS2B-NS3 protease&lt;/b>&lt;/a> &lt;br>
-
-&lt;span class="label error">pdb-deposition&lt;/span>
-&lt;i>[ 2023-08-16 ]&lt;/i> &lt;br>
-
-
-
-
-Contributing Projects and Cores: 
-
- &lt;span class="label warning">Project 2&lt;/span>
  
-
- &lt;span class="label success">Structural Biology Core&lt;/span>
- 
-&lt;br>
-
-
-&lt;br>
-
-&lt;br>
-
-&lt;hr>
-
-
  
  
  
@@ -2161,10 +2063,10 @@ Contributing Projects and Cores:
 
 
 
-&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/XX01ZVNS2B/tas/lb32627-65">&lt;b>Fragalysis interactive view of ZIKV NS2B-NS3 protease crystallographic fragment screen&lt;/b>&lt;/a> &lt;br>
+&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Flavi_NS5_RdRp/tas/lb42888-6">&lt;b>Fragalysis interactive view of the OpenBind/ASAP crystallographic dataset for flavivirus NS5 RNA-dependent RNA polymerase&lt;/b>&lt;/a> &lt;br>
 
 &lt;span class="label error">xray-fragment-screen&lt;/span>
-&lt;i>[ 2024-03-20 ]&lt;/i> &lt;br>
+&lt;i>[ 2026-05-05 ]&lt;/i> &lt;br>
 
 
 
@@ -2180,300 +2082,7 @@ Contributing Projects and Cores:
 
 
 &lt;br>
-We performed X-ray crystallography screening at XChem/Diamond Light Source and collected experimental datasets.&lt;br>
-&lt;br>
-
-&lt;hr>
-
-
- 
- 
- 
- 
- 
-
-
-
-
-
-&lt;a href="https://www.rcsb.org/groups/summary/entry/G_1002289">&lt;b>PDB group deposition of ZIKV NS2B-NS3 protease crystallographic fragment screen&lt;/b>&lt;/a> &lt;br>
-
-&lt;span class="label error">pdb-group-deposition&lt;/span>
-&lt;i>[ 2024-04-03 ]&lt;/i> &lt;br>
-
-
-
-
-Contributing Projects and Cores: 
-
- &lt;span class="label warning">Project 2&lt;/span>
- 
-
- &lt;span class="label success">Structural Biology Core&lt;/span>
- 
-&lt;br>
-
-
-&lt;br>
-We generated a robust crystal system of co-expressed ZIKV NS2B-NS3 protease and performed X-ray crystallographic fragment screening at XChem/Diamond Light Source with a total of 1076 fragments. 46 fragments with diverse scaffolds were identified to bind in the active site of the protease, with another 6 fragments observed in a potential allosteric site.&lt;br>
-&lt;br>
-
-&lt;hr>
-
-
- 
- 
- 
- 
- 
-
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
-
- 
-
-
-
- 
- 
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
-
- 
- 
-
- &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO">EV-D68/A71 2A protease&lt;/h3>
- ASAP-EVD68-2APRO
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-&lt;a href="https://www.rcsb.org/structure/8POA">&lt;b>Structure of Coxsackievirus A16 (G-10) 2A protease&lt;/b>&lt;/a> &lt;br>
-
-&lt;span class="label error">pdb-deposition&lt;/span>
-&lt;i>[ 2023-08-02 ]&lt;/i> &lt;br>
-
-
-
-
-Contributing Projects and Cores: 
-
- &lt;span class="label warning">Project 2&lt;/span>
- 
-
- &lt;span class="label success">Structural Biology Core&lt;/span>
- 
-&lt;br>
-
-
-&lt;br>
-Apo structure, a small number of mutations away from EV-A71 2A protease&lt;br>
-&lt;br>
-
-&lt;hr>
-
-
- 
- 
- 
- 
- 
-
-
-
-
-
-&lt;a href="https://fragalysis.diamond.ac.uk/viewer/react/preview/target/A71EV2A/tas/lb32627-66">&lt;b>Fragalysis interactive view of crystallographic fragment screening of Coxsackievirus A16 (G-10) 2A protease&lt;/b>&lt;/a> &lt;br>
-
-&lt;span class="label error">xray-fragment-screen&lt;/span>
-&lt;i>[ 2024-04-04 ]&lt;/i> &lt;br>
-
-
-
-
-Contributing Projects and Cores: 
-
- &lt;span class="label warning">Project 2&lt;/span>
- 
-
- &lt;span class="label success">Structural Biology Core&lt;/span>
- 
-&lt;br>
-
-
-&lt;br>
-&lt;p>Crystallographic fragment screening of Coxsackievirus A16 (G-10) 2A protease.&lt;/p></description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>&lt;p>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.&lt;/p></description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>&lt;div class="prettybox" data-component="prettybox">
+&lt;p>315 crystallographic binding events across DENV-2 and ZIKV NS5 RNA-dependent RNA polymerase, released by the OpenBind Consortium as joint OpenBind/ASAP work.&lt;/p></description></item><item><title>Publications</title><link>https://asapdiscovery.org/outputs/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/publications/</guid><description>&lt;p>ASAP aims to publish preprints to ensure our scientific advances are rapidly and openly available.&lt;/p></description></item><item><title>Analysis of Viral Mutations</title><link>https://asapdiscovery.org/outputs/circulating-variants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/circulating-variants/</guid><description>&lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO"> Analysis of circulating variants of SARS-CoV-2 nsp5 Mpro protease &lt;/h3> 
 
 
@@ -2511,6 +2120,54 @@ Contributing Projects and Cores:
 
 
  &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-DENV-ZIKV-NS2B-NS3"> Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master">[dataset download]&lt;/a>
+
+&lt;br>
+
+
+
+ Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2023-11-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
 
 
 &lt;/div>
@@ -2724,55 +2381,7 @@ Contributing Projects and Cores:
 
 
  &lt;div class="prettybox" data-component="prettybox">
- &lt;h3 style="text-align: left;" id="ASAP-ZIKV-NS2B3"> Analysis of mutational space with Deep Mutational Scanning of ZIKV NS2B/3 protease &lt;/h3> 
-
-
-
-
-
-
-
-
-
-
-
- &lt;a href="https://github.com/jbloomlab/ZIKV_DMS_NS3_EvansLab/tree/master">[dataset download]&lt;/a>
-
-&lt;br>
-
-
-
- Dataset download of fitness data gathered by Deep Mutational Scanning performed by Evans lab, analyzed by Bloom lab &lt;br>
-
-
-
-
-
- Contributing Projects and Cores: 
- 
- &lt;span class="label focus">Project 1&lt;/span>
- 
- 
- &lt;br>
-
-
-
-
- &lt;small>&lt;i>[2023-11-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
-
-
-&lt;/div>
-
-
-
- 
- 
-
-
-
-
- &lt;div class="prettybox" data-component="prettybox">
- &lt;h3 style="text-align: left;" id="ASAP-ZIKV-RdRp-polymerase"> Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5) &lt;/h3> 
+ &lt;h3 style="text-align: left;" id="ASAP-ZIKA-NS5-RDRP"> Analysis of mutational space with Deep Mutational Scanning of ZIKV RdRp polymerase (NS5) &lt;/h3> 
 
 
 
@@ -3052,7 +2661,15 @@ Contributing Projects and Cores:
  &lt;small>&lt;i>[2023-01-31]&lt;/i> Preprint and interactive mutation viewer posted.&lt;/small> &lt;br>
 
 
-&lt;/div></description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>&lt;p>A &lt;strong>&lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">Target Product Profile (TPP)&lt;/a>&lt;/strong> describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.&lt;/p>
+&lt;/div></description></item><item><title>Deep mutational scanning</title><link>https://asapdiscovery.org/outputs/deep-mutational-scanning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/deep-mutational-scanning/</guid><description>&lt;p>&lt;strong>Deep mutational scanning (DMS)&lt;/strong> identifies which mutations in a target are functionally tolerated, and could therefore lead to resistance if they abrogate binding of an antiviral. ASAP uses DMS to find binding sites that are intolerant to mutation, so that inhibitors developed against them are resistance-resilient.&lt;/p>
+&lt;h3 id="zika-virus-ns2b-ns3-protease">Zika virus NS2B-NS3 protease 
+ &lt;a href="#zika-virus-ns2b-ns3-protease">
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+ &lt;path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+ &lt;path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>Deep mutational scanning of ZIKV NS2B-NS3 protease, carried out alongside crystallographic fragment screening to identify mutation-intolerant binding sites.&lt;/p></description></item><item><title>Target Product Profiles (TPPs)</title><link>https://asapdiscovery.org/outputs/target-product-profiles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-product-profiles/</guid><description>&lt;p>A &lt;strong>&lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">Target Product Profile (TPP)&lt;/a>&lt;/strong> describes the desired characteristics of a drug product aimed to treat a particular disease or set of diseases.&lt;/p>
 &lt;p>All ASAP TPPs are &lt;em>draft TPPs&lt;/em> intended to help guide the development of target candidate profiles (TCPs) for antiviral discovery within the ASAP Discovery Consortium.
 ASAP works with stakeholders around the globe (such as the &lt;a href="https://www.who.int/observatories/global-observatory-on-health-research-and-development/analyses-and-syntheses/target-product-profile/who-target-product-profiles">World Health Organization&lt;/a>) to align TPPs to ensure they meet the needs of communities and fulfill our mission of global, equitable, and affordable access to antiviral therapies.&lt;/p></description></item><item><title>Target Enabling Packages (TEPs)</title><link>https://asapdiscovery.org/outputs/target-enabling-packages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/target-enabling-packages/</guid><description>&lt;p>A &lt;a href="https://www.thesgc.org/tep">Target Enabling Package (TEP)&lt;/a> is a complete data package needed to enable structure-based drug discovery against an antiviral target.
 Pioneered by the &lt;a href="https://www.thesgc.org/tep">Structural Genomics Consortium&lt;/a>, each TEP contains relevant protein constructs and plasmid resources for one or more viral family members, protein expression and purification protocols, crystallization conditions, structures from an &lt;a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html">X-ray fragment screen at the Diamond Light Source XChem facility&lt;/a>, small molecule hits, and biochemical assay protocols with at least one validated inhibitor with quantifiable activity.&lt;/p></description></item><item><title>Assay Cascades</title><link>https://asapdiscovery.org/outputs/assay-cascades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asapdiscovery.org/outputs/assay-cascades/</guid><description>&lt;p>An &lt;strong>&lt;a href="https://www.researchgate.net/figure/Drug-discovery-assay-cascade-Example-assay-cascade-for-drug-discovery-and-where-3D_fig2_348991791">assay cascade&lt;/a>&lt;/strong> is a defined set of assays and progression criteria used by a drug discovery program to achieve its &lt;a href="../target-candidate-profiles">Target Candidate Profile (TCP)&lt;/a> goals in a time- and cost-effective manner.&lt;/p>
@@ -3413,6 +3030,9 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
 .category-biophysical { background: #fff3e0; color: #e65100; }
 .category-admet { background: #fce4ec; color: #c2185b; }
 .category-antiviral { background: #ffebee; color: #c62828; }
+ 
+.category-unassigned { background: #f5f5f5; color: #757575; border: 1px dashed #bdbdbd; font-style: italic; }
+.unassigned-value { color: #9e9e9e; font-style: italic; }
 .core-badge {
  display: inline-block;
  padding: 0.2rem 0.4rem;
@@ -3501,12 +3121,27 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;option value="Biophysical Assay">Biophysical Assay&lt;/option>
  &lt;option value="ADMET">ADMET&lt;/option>
  &lt;option value="Antiviral Assay">Antiviral Assay&lt;/option>
+ &lt;option value="Unassigned">Unassigned&lt;/option>
  &lt;/select>
  &lt;/div>
  &lt;div class="filter-group">
  &lt;label for="target-filter">Target:&lt;/label>
  &lt;select id="target-filter" onchange="filterProtocols()">
  &lt;option value="">All Targets&lt;/option>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -3815,6 +3450,8 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;option value="SARS-CoV-2 nsp3 macrodomain">SARS-CoV-2 nsp3 macrodomain&lt;/option>
  
+ &lt;option value="Unassigned">Unassigned&lt;/option>
+ 
  &lt;option value="WNV NS2B-NS3">WNV NS2B-NS3&lt;/option>
  
  &lt;option value="ZIKV">ZIKV&lt;/option>
@@ -3831,6 +3468,48 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;label for="author-filter">Author:&lt;/label>
  &lt;select id="author-filter" onchange="filterProtocols()">
  &lt;option value="">All Authors&lt;/option>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -4759,7 +4438,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;option value="Manisha Saini">Manisha Saini&lt;/option>
  
- &lt;option value="Martin austin Walsh">Martin austin Walsh&lt;/option>
+ &lt;option value="Martin Austin Walsh">Martin Austin Walsh&lt;/option>
  
  &lt;option value="Mary-Ann Xavier">Mary-Ann Xavier&lt;/option>
  
@@ -5323,6 +5002,34 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;option value="ADMET Core">ADMET Core&lt;/option>
  
  &lt;option value="Antiviral Assay Core">Antiviral Assay Core&lt;/option>
@@ -5331,12 +5038,14 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;option value="Structural Biology Core">Structural Biology Core&lt;/option>
  
+ &lt;option value="Unassigned">Unassigned&lt;/option>
+ 
  &lt;/select>
  &lt;/div>
 &lt;/div>
 
 &lt;div class="protocol-count">
- Showing &lt;span id="visible-count">128&lt;/span> of 128 protocols
+ Showing &lt;span id="visible-count">135&lt;/span> of 135 protocols
 &lt;/div>
 
 &lt;table class="protocols-table" id="protocols-table">
@@ -5367,6 +5076,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>EV-A71 2A protease&lt;/td>
@@ -5384,6 +5094,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5413,6 +5124,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS2B-NS3&lt;/td>
@@ -5430,6 +5142,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5459,6 +5172,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>Enterovirus 3C/2A&lt;/td>
@@ -5476,6 +5190,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5505,6 +5220,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>EV-A71 3C protease&lt;/td>
@@ -5522,6 +5238,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5551,6 +5268,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV Mpro&lt;/td>
@@ -5568,6 +5286,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5597,6 +5316,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV Mpro&lt;/td>
@@ -5614,6 +5334,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5643,6 +5364,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 nsp3 macrodomain&lt;/td>
@@ -5660,6 +5382,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5689,6 +5412,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>WNV NS2B-NS3&lt;/td>
@@ -5706,6 +5430,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5735,6 +5460,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS2B-NS3&lt;/td>
@@ -5752,6 +5478,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5781,6 +5508,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>EV-A71 2A protease&lt;/td>
@@ -5798,6 +5526,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5827,6 +5556,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>EV-D68 3C protease&lt;/td>
@@ -5844,6 +5574,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5873,6 +5604,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>CVA16 2A protease&lt;/td>
@@ -5890,6 +5622,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5919,6 +5652,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV Mpro&lt;/td>
@@ -5936,6 +5670,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -5965,6 +5700,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 Mpro&lt;/td>
@@ -5988,6 +5724,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>WNV NS2B-NS3&lt;/td>
@@ -5997,7 +5734,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2025-06-05&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin austin Walsh" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin Austin Walsh" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallisation-of-zika-ns5-rdrp-dnh45b8w/v1" target="_blank">Crystallisation of Zika NS5 RdRp&lt;/a>
  
@@ -6005,6 +5742,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6034,6 +5772,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 nsp3 macrodomain&lt;/td>
@@ -6051,6 +5790,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6080,6 +5820,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>EV-A71 3C protease&lt;/td>
@@ -6097,6 +5838,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6126,6 +5868,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 Mpro&lt;/td>
@@ -6143,6 +5886,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6172,6 +5916,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 nsp15&lt;/td>
@@ -6181,7 +5926,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>2024-04-26&lt;/td>
  &lt;/tr>
  
- &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin austin Walsh" data-core="Structural Biology Core">
+ &lt;tr data-category="Crystallization" data-target="ZIKV NS5 RdRp" data-authors="Anu V. Chandran|Peter Marples|Martin Austin Walsh" data-core="Structural Biology Core">
  &lt;td>
  &lt;a href="https://www.protocols.io/view/crystallization-of-zika-ns5-rdrp-dcrx2v7n/v1" target="_blank">Crystallization of Zika NS5 RdRp&lt;/a>
  
@@ -6189,6 +5934,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6218,6 +5964,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS2B-NS3&lt;/td>
@@ -6235,6 +5982,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6264,6 +6012,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -6281,6 +6030,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6310,6 +6060,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>CHIKV nsP3 macrodomain&lt;/td>
@@ -6327,6 +6078,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6356,6 +6108,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -6379,6 +6132,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-crystallization">Crystallization&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -6390,7 +6144,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
- &lt;a href="https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46/v3" target="_blank">DENV2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol&lt;/a>
+ &lt;a href="https://www.protocols.io/view/denv2-ns2b-ns3-protease-co-expression-construct-sm-dfdm3i46/v4" target="_blank">DENV2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol&lt;/a>
  
  &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the co-expression and purification of DENV2 NS2B-NS3 protease coexpression construct bearing a N-terminal His-GST tag at small scale (&amp;lt;6L).&lt;/span>&lt;/span>
  
@@ -6402,12 +6156,13 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
  &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
  &lt;td>Korvus Wang&lt;/td>
- &lt;td>&lt;span class="version-badge">v3&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="version-badge">v4&lt;/span>&lt;/td>
  &lt;td>2024-06-10&lt;/td>
  &lt;/tr>
  
@@ -6419,6 +6174,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6448,6 +6204,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
@@ -6471,6 +6228,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
@@ -6482,7 +6240,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
  &lt;td>
- &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf/v3" target="_blank">Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification protocol&lt;/a>
+ &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-gy2ibxycf/v4" target="_blank">Dengue virus serotype 2 NS2B-NS3 protease fusion construct small scale expression and purification protocol&lt;/a>
  
  &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the co-expression and purification of Dengue virus serotype 2 NS2B-NS3 protease fusion construct bearing a N-terminal His-StrepII tag at small scale (&amp;lt;6L). This protocol produces catalytically active enzyme suitable for biochemical assays. In this version we added the Addgen...&lt;/span>&lt;/span>
  
@@ -6494,13 +6252,14 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
  &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
  &lt;td>Korvus Wang&lt;/td>
- &lt;td>&lt;span class="version-badge">v3&lt;/span>&lt;/td>
- &lt;td>2025-06-04&lt;/td>
+ &lt;td>&lt;span class="version-badge">v4&lt;/span>&lt;/td>
+ &lt;td>2026-06-29&lt;/td>
  &lt;/tr>
  
  &lt;tr data-category="Protein Production" data-target="DENV NS2B-NS3" data-authors="Michael Fairhead|Korvus Wang" data-core="Structural Biology Core">
@@ -6511,6 +6270,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6540,6 +6300,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
@@ -6557,6 +6318,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6586,6 +6348,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>EV-A71 3C protease&lt;/td>
@@ -6603,6 +6366,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6632,6 +6396,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>EV-D68 3C protease&lt;/td>
@@ -6649,6 +6414,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6678,6 +6444,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>ZIKV&lt;/td>
@@ -6695,6 +6462,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6724,6 +6492,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV Mpro&lt;/td>
@@ -6741,6 +6510,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6770,6 +6540,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -6787,6 +6558,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6816,6 +6588,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -6833,6 +6606,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6862,6 +6636,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 nsp3 macrodomain&lt;/td>
@@ -6879,6 +6654,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6908,6 +6684,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2 nsp3 macrodomain&lt;/td>
@@ -6925,6 +6702,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -6954,6 +6732,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>Enterovirus 3C&lt;/td>
@@ -6971,6 +6750,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7000,6 +6780,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7017,6 +6798,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7046,6 +6828,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>WNV NS2B-NS3&lt;/td>
@@ -7063,6 +6846,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7092,6 +6876,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS2B-NS3&lt;/td>
@@ -7109,6 +6894,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7138,6 +6924,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS5 RdRp&lt;/td>
@@ -7155,6 +6942,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7184,6 +6972,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-protein">Protein Production&lt;/span>
  &lt;/td>
  &lt;td>ZIKV NS2B-NS3&lt;/td>
@@ -7201,6 +6990,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7230,6 +7020,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biophysical">Biophysical Assay&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7247,6 +7038,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7276,6 +7068,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biophysical">Biophysical Assay&lt;/span>
  &lt;/td>
  &lt;td>DENV NS2B-NS3&lt;/td>
@@ -7293,6 +7086,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7322,6 +7116,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-biophysical">Biophysical Assay&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7339,6 +7134,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7368,6 +7164,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7385,6 +7182,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7414,6 +7212,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7431,6 +7230,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7460,6 +7260,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7477,6 +7278,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7506,6 +7308,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7523,6 +7326,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7552,6 +7356,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7569,6 +7374,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7598,6 +7404,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7615,6 +7422,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7644,6 +7452,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7661,6 +7470,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7690,6 +7500,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7707,6 +7518,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7736,6 +7548,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-admet">ADMET&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7753,6 +7566,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7782,6 +7596,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2&lt;/td>
@@ -7799,6 +7614,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7828,6 +7644,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2&lt;/td>
@@ -7845,6 +7662,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7874,6 +7692,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>Coronavirus&lt;/td>
@@ -7891,6 +7710,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7920,6 +7740,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>DENV&lt;/td>
@@ -7937,6 +7758,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -7966,6 +7788,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -7983,6 +7806,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8012,6 +7836,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>DENV&lt;/td>
@@ -8029,6 +7854,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8058,6 +7884,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>EV-D68&lt;/td>
@@ -8075,6 +7902,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8104,6 +7932,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV&lt;/td>
@@ -8121,6 +7950,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8150,6 +7980,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2&lt;/td>
@@ -8167,6 +7998,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8196,6 +8028,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>MERS-CoV&lt;/td>
@@ -8213,6 +8046,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8242,6 +8076,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>General&lt;/td>
@@ -8259,6 +8094,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  &lt;/td>
  &lt;td>
+ 
  
  
  
@@ -8288,6 +8124,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
  &lt;span class="category-badge category-antiviral">Antiviral Assay&lt;/span>
  &lt;/td>
  &lt;td>SARS-CoV-2&lt;/td>
@@ -8295,6 +8132,174 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>Briana L McGovern&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2025-08-03&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Korvus Wang" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-avi-t-j6ascraef/v1" target="_blank">Zika Virus NS2B-NS3 protease fusion protein Avi-tagged (Biotinylated) protein expression and purification: large scale 4L cultures&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the expression and purification of Zika Virus NS2B-NS3 protease fusion protein with a AviTag (biotinylation tag) for biophysical assay at a 4L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IM...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-07-30&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Michael Fairhead" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/large-scale-expression-and-purification-of-biotiny-jxu5cpny7/v1" target="_blank">Large-scale expression and purification of biotinylated Enterovirus coxsackievirus A16 (CVA16) strain G10 2A protease&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the expression and purification of Enterovirus A16 G10 2A protease protein with a AviTag (biotinylation tag) for biophysical assay at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC,...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Michael Fairhead&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-04-30&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Nathan Wright" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/setup-and-operation-of-single-use-sub-bubble-colum-g8j8bzurx/v1" target="_blank">Setup and Operation of Single Use (SUB) Bubble Column Reactors (BCR) for Recombinant Proteins: Litre-Scale Expression of ZIKV NS2B-NS3 protease for Structural Biology and Drug Design (SBDD)&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol describes the setup and operation of single-use (SUB) bubble column reactors (BCR) for liter-scale expression of recombinant proteins, specifically targeting Zika virus (ZIKV) NS2B-NS3 protease for structural biology and drug design applications. The method utilizes auto-induction t...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Nathan Wright&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-04-08&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-co-expre-g9dsbz26f/v1" target="_blank">Dengue virus serotype 2 NS2B-NS3 protease co-expression construct small scale expression and purification protocol&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the co-expression and purification of Dengue virus serotype 2 NS2B-NS3 protease coexpression construct bearing a N-terminal His-StrepII tag at small scale (&amp;lt;6L).&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-05-13&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/zikv-ns3-helicase-protein-purification-protocol-g9nvbz5e7/v1" target="_blank">ZIKV NS3 helicase protein purification protocol&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the purification of Zika virus NS3 helicase construct bearing a N-terminal His-GST tag at small scale (&amp;lt;6L) with bubble column expression system.&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-04-08&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Xiaomin Ni|Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/small-scale-expression-and-purification-protocol-o-hg8hb3zt7/v1" target="_blank">Small scale expression and purification protocol of A71 inactive 2A protease with mutation C110A to preserve VP1-2A junction&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol describes the small-scale expression and purification of Enterovirus A71 inactive 2A protease bearing the C110A mutation to preserve the VP1-2A junction. The protein is expressed as an N-terminal His6-SUMO fusion in E. coli BL21(DE3)-RR cells using TB autoinduction media, yielding a...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Xiaomin Ni&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-04-08&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Unassigned" data-target="Unassigned" data-authors="Nathan Wright" data-core="Unassigned">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/large-scale-zikv-ns3-helicase-expression-setup-and-hrdrb5257/v1" target="_blank">Large scale ZIKV NS3 helicase expression setup and operation of Single Use Bubble Column Reactors: Litre-Scale Expression of Recombinant Proteins for Structural Biology and Drug Design (SBDD)&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol describes large-scale expression of Zika virus NS3 helicase domain using Single Use Bubble Column Reactors for structural biology applications. The method employs auto-induction terrific broth media in 1-liter E. coli cultures at 37°C, followed by ambient temperature overnight expre...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-unassigned">Unassigned&lt;/span>
+ &lt;/td>
+ &lt;td>&lt;span class="unassigned-value">Unassigned&lt;/span>&lt;/td>
+ &lt;td>&lt;span class="core-badge unassigned-value">Unassigned&lt;/span> &lt;/td>
+ &lt;td>Nathan Wright&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-04-08&lt;/td>
  &lt;/tr>
  
  &lt;/tbody>
