@@ -1,33 +1,34 @@
-overview:
-  # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
-  family: picornaviridae
-  name: "EV-D68/A71 3CD protease"
-  target: 3CLpro
-  program_code: ASAPPWGUTW
-  program_nickname: ASAP-EVD68-3CDPRO
-  viruses:
-    - EV-D68
-    - EV-A71
-  img: "enterovirus-3C-protease.png"
-
-funding_source:  
-  funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
-  grant: U19AI171399
-  img: niaid-logo.png
-  url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
-
-differentiators:
-  clinically_unprecedented: completed
-  novel_mechanism_of_action: completed
-  broad_spectrum: completed
-    
-targeting_opportunity:
-  status: not-started
-
-TPP:
-  status: completed
-  id: ASAP-TPP-EVD68-PEDIATRIC
-
-TEP:
-  # TODO: Can we pull the status rom the TEP itself?
-  status: not-started
+# Row removed from the pipeline (issue #239); uncomment to restore.
+# overview:
+#   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
+#   family: picornaviridae
+#   name: "EV-D68/A71 3CD protease"
+#   target: 3CLpro
+#   program_code: ASAPPWGUTW
+#   program_nickname: ASAP-EVD68-3CDPRO
+#   viruses:
+#     - EV-D68
+#     - EV-A71
+#   img: "enterovirus-3C-protease.png"
+#
+# funding_source:  
+#   funder: National Institute of Allergy and Infectious Diseases (NIAID) of the National Institutes of Health (NIH)
+#   grant: U19AI171399
+#   img: niaid-logo.png
+#   url: https://reporter.nih.gov/search/EpbjKrq7Kki8EBHx4eMWbw/project-details/10513865
+#
+# differentiators:
+#   clinically_unprecedented: completed
+#   novel_mechanism_of_action: completed
+#   broad_spectrum: completed
+#     
+# targeting_opportunity:
+#   status: not-started
+#
+# TPP:
+#   status: completed
+#   id: ASAP-TPP-EVD68-PEDIATRIC
+#
+# TEP:
+#   # TODO: Can we pull the status rom the TEP itself?
+#   status: not-started
