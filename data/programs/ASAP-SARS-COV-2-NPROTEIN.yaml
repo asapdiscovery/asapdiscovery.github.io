@@ -43,4 +43,5 @@ hit_to_lead:
   status: play
 
 publications:
-  status: in-progress
+  status: play
+  url: /outputs/publications/#fitness-effects-of-mutations-to-sars-cov-2-proteins

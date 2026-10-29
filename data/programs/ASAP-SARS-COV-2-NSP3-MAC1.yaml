@@ -52,5 +52,6 @@ molecules:
   status: completed
 
 publications:
-  status: completed
+  status: play
+  url: /outputs/publications/#discovery-of-potent-sars-cov-2-nsp3-macrodomain-inhibitors-uncovers-lack-of-translation-to-cellular-antiviral-response
 

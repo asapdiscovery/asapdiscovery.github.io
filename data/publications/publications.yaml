@@ -143,18 +143,6 @@
     url: https://doi.org/10.1101/2024.04.29.591650
     license: "CC-BY 4.0 International license"  
 
-- title: "Crystallographic fragment screening delivers diverse chemical scaffolds for Zika virus NS2B-NS3 protease inhibitor development"
-  authors: Xiaomin Ni, Andre Schutzer de Godoy, Peter George Marples, Michael Fairhead, Blake H Balcomb, Matteo P. Ferla, Charles W. E. Tomlinson, Siyi Wang, Charline Girould, Jasmin Cara Aschenbrenner, Ryan Lithgo, Max Winokan, Anu V. Chandran, Warren Thompson, Mary-Ann Elvina Xavier, Eleanor Williams, Martin A. Walsh, Daren Fearon, Lizbe Koekemoer, Frank von Delft
-  summary: We describe an X-ray fragment screen of ZIKV NS2B-NS3 protease, resolving 48 protein:ligand complexes
-  programs: [ASAPPADTOT]
-  projects: [Project 2]
-  cores: [Structural Biology Core]  
-  preprint:
-    server: bioRxiv
-    date: 2024-04-29
-    url: https://doi.org/10.1101/2024.04.29.591502
-    license: "CC-BY 4.0 International license"  
-
 - title: "High-throughput crystallographic fragment screening of Zika virus NS3 Helicase"    
   authors: "Andre Schutzer Godoy, Nathalya Cristina de Moraes Roso Mesquita, Gabriela Dias Noske, Victor Oliveira Gawriljuk, Ryan M Lithgo, Blake H Balcomb, Jasmin Cara Aschenbrenner, Charles W. E. Tomlinson, Max Winokan, Jenke Scheen, Peter George Marples, Anu V. Chandran, Xiaomin Ni, Warren Thompson, Michael Fairhead, Daren Fearon, Lizbe Koekemoer, Mary-Ann Elvina Xavier, Martin Walsh, Glacius Oliva, Frank von Delft"
   summary: We describe an X-ray fragment screen of ZIKV NS3 helicase
@@ -276,8 +264,8 @@
     year: 2025
     pmcid: PMC11731148
 
-- title: "Crystallographic fragment screening and deep mutational scanning of Zika virus NS2B-NS3 protease enable development of resistance-resilient inhibitors"    
-  authors: "Xiaomin Ni, R Blake Richardson, Andre Schutzer Godoy, Matteo P Ferla, Caroline Kikawa, Jenke Scheen, William W Hannon, Eda Capkin, Noa Lahav, Blake H Balcomb, Peter G Marples, Michael Fairhead, Siyi Wang, Eleanor P Williams, Charlie WE Tomlinson, Jasmin Cara Aschenbrenner, Ryan M Lithgo, Max Winokan, Charline Giroud, Anu V Chandran, Martin Walsh, Warren Thompson, Jesse D Bloom, Haim Barr, Karla Kirkegaard, Lizbé Koekemoer, Daren Fearon, Matthew J Evans, Frank von Delft"
+- title: "Combined crystallographic fragment screening and deep mutational scanning enable discovery of Zika virus NS2B-NS3 protease inhibitors"
+  authors: "Xiaomin Ni, R. Blake Richardson, Andre Schutzer Godoy, Matteo P. Ferla, Caroline Kikawa, Jenke Scheen, William W. Hannon, Eda Capkin, Noa Lahav, Blake H. Balcomb, Peter G. Marples, Michael Fairhead, SiYi Wang, Eleanor P. Williams, Charles W. E. Tomlinson, Jasmin C. Aschenbrenner, Ryan M. Lithgo, Max Winokan, Charline Giroud, Isabela Dolci, Rafaela Sachetto Fernandes, Glaucius Oliva, Anu V. Chandran, Mary-Ann Xavier, Martin A. Walsh, Warren Thompson, Jesse D. Bloom, Nathaniel T. Kenton, Alpha A. Lee, Annette von Delft, Haim Barr, Karla Kirkegaard, Lizbé Koekemoer, Daren Fearon, Matthew J. Evans, Frank von Delft"
   summary: To identify binding sites that are intolerant to mutation and thus suppress the outgrowth of viruses resistant to inhibitors developed from bound fragments, we performed deep mutational scanning of NS2B-NS3 protease. 
   img: ZIKV-NS2B-NS3-protease-DMS.jpg
   programs: [ASAPPADTOT]
@@ -288,6 +276,14 @@
     date: 2025-02-13
     url: https://doi.org/10.1101/2024.04.29.591502
     license: "CC-BY 4.0 International license" 
+  published:
+    doi: 10.1038/s41467-025-63602-z
+    journal: Nature Communications
+    volume: 16
+    pages: 8930
+    date: 2025-10-08
+    year: 2025
+    pmcid: PMC12508225
 
 - title: "Discovery of orally bioavailable Zika virus NS2B-NS3 protease inhibitors with efficacy in a murine infection model"
   authors: "Nathaniel T. Kenton, Haim Barr, Artem Cherepakha, Lotte Coelmont, Caroline Collard, David Cousins, Geraint H. M. Davies, Oleksii Degtyarenko, Andrew Dirksen, Daniel Elbrecht, Daren Fearon, James Gayvert, Edward Griffen, Dirk Jochmans, Suzanne J. F. Kaptein, Pavlo Kliatskiy, Artem Kochetkov, Mykyta Kordubailo, Noa Lahav, Nir London, Elke Maas, Peter Marples, Nataliya Nady, Johan Neyts, Luong Nguyen, Xiaomin Ni, Yuliia Ogorodnik, Matthew C. Robinson, Carolina Turk Simpson, Tamas Szommer, Ihor Tarabara, Anton Tkachenko, Annette von Delft, Frank von Delft, Oleksandr Yakymenko, Alpha A. Lee"
@@ -295,7 +291,7 @@
   date: 2026-05-11
   programs: [ASAPPADTOT]
   cores: []
-  projects: []
+  projects: [Project 2, Project 3]
   preprint:
     server: bioRxiv
     date: 2026-05-11

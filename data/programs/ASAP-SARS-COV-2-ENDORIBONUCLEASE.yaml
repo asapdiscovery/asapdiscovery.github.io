@@ -33,5 +33,6 @@ TEP:
   status: play
 
 publications:
-  status: in-progress
+  status: completed
+  url: /outputs/publications/#allosteric-regulation-and-crystallographic-fragment-screening-of-sars-cov-2-nsp15-endoribonuclease
 

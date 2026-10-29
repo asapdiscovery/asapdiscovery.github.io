@@ -48,4 +48,5 @@ molecules:
   status: in-progress
 
 publications:
-  status: completed
+  status: play
+  url: /outputs/publications/#crystallographic-fragment-screen-of-enterovirus-d68-3c-protease-and-iterative-design-of-lead-like-compounds-using-structure-guided-expansions

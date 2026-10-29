@@ -38,4 +38,5 @@ hit_to_lead:
   status: play
 
 publications:
-  status: completed
+  status: play
+  url: /outputs/publications/#crystallographic-fragment-screen-of-coxsackievirus-a16-2a-protease-identifies-new-opportunities-for-the-development-of-broad-spectrum-anti-enterovirals
