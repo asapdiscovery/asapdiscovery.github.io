@@ -49,7 +49,7 @@ lead_optimization:
   url: https://covid.postera.ai/covid/activity_data
 
 preclinical:
-  status: play
+  status: paused
   url: https://dndi.org/research-development/portfolio/covid-moonshot/
 
 molecules:
