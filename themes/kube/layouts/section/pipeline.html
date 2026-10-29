@@ -9,7 +9,21 @@
 
     <center>
       <i>Click on any shaded box to view data and resources associated with that stage.</i>
+      <br>
+      <label><input type="checkbox" id="show-milestone-labels"> Show milestone descriptions</label>
     </center>
+
+    <!-- Rotated milestone descriptions above the header icons, toggled by the checkbox; space is always reserved so the pipeline does not shift -->
+    <style>
+      #milestone-header { align-items: flex-end; }
+      #milestone-icons { padding-top: 12em; }
+      #milestone-icons a { position: relative; display: inline-block; }
+      body:has(#show-milestone-labels:checked) #milestone-icons a::after {
+        content: attr(title); position: absolute; left: 50%; bottom: 100%;
+        transform-origin: left bottom; transform: rotate(-45deg);
+        white-space: nowrap; font-size: 0.8em; line-height: 1; color: #000;
+      }
+    </style>
         
 </div>
 <div id="main">
@@ -30,36 +44,36 @@
       <!-- Family -->
     </div>
     <div class="col-11">  
-      <div class="row"> 
+      <div class="row" id="milestone-header">
         <div class="col-4">
           <h3>Discovery Program</h3>
         </div>
-        <div class="col-8">
-          <a href="#clinically-unprecedented"><img title="No approved drugs available" width="{{ $icon_width }}" src="img/icons/clinically-unprecedented.png"></a>
-          <a href="#novel-mechanism-of-action"><img title="Novel mechanism of action" width="{{ $icon_width }}" src="img/icons/novel-mechanism.png"></a>
-          <a href="#broad-spectrum"><img title="Broad spectrum antvirial" width="{{ $icon_width }}" src="img/icons/broad-spectrum.png"></a>
+        <div class="col-8" id="milestone-icons">
+          <a href="#clinically-unprecedented" title="No approved drugs available"><img width="{{ $icon_width }}" src="img/icons/clinically-unprecedented.png"></a>
+          <a href="#novel-mechanism-of-action" title="Novel mechanism of action"><img width="{{ $icon_width }}" src="img/icons/novel-mechanism.png"></a>
+          <a href="#broad-spectrum" title="Broad spectrum antiviral"><img width="{{ $icon_width }}" src="img/icons/broad-spectrum.png"></a>
 
-          <a href="#funding-source"><img title="Funding Source" width="{{ $icon_width }}" src="img/icons/funding-source.png"></a>
+          <a href="#funding-source" title="Funding Source"><img width="{{ $icon_width }}" src="img/icons/funding-source.png"></a>
 
-          <a href="#targeting-opportunity"><img title="Molecular Target" width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
-          <a href="#targeting-opportunity"><img title="Targeting Opportunity" width="{{ $icon_width }}" src="img/icons/target.png"></a>
+          <a href="#targeting-opportunity" title="Molecular Target"><img width="{{ $icon_width }}" src="img/icons/molecular-target.png"></a>
+          <a href="#targeting-opportunity" title="Targeting Opportunity"><img width="{{ $icon_width }}" src="img/icons/target.png"></a>
 
-          <a href="#molecules"><img title="Molecules" width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
-          <a href="#structures"><img title="Structures" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
-          <a href="#publications"><img title="Publications" width="{{ $icon_width }}" src="img/icons/papers.png"></a>
+          <a href="#molecules" title="Molecules"><img width="{{ $icon_width }}" src="img/icons/molecule.png"></a>
+          <a href="#structures" title="Structures"><img width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+          <a href="#publications" title="Publications"><img width="{{ $icon_width }}" src="img/icons/papers.png"></a>
 
-          <a href="#circulating-variants"><img title="Circulating Variants" width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
-          <a href="#target-product-profile"><img title="Target Product Profile (TPP)" width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
-          <a href="#target-enabling-package"><img title="Target Enabling Package (TEP)" width="{{ $icon_width }}" src="img/icons/structure.png"></a>
-          <a href="#target-candidate-profile"><img title="Target Candidate Profile (TCP)" width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
-          <a href="#assay-cascade"><img title="Assay cascade" width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
-          <a href="#hit-to-lead"><img title="Hit-to-lead progression" width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
-          <a href="#covalent-targeting"><img title="Covalent targeting" width="{{ $icon_width }}" src="img/icons/covalent-targeting.png"></a>
-          <a href="#lead-optimization"><img title="Lead optimization" width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
-          <a href="#preclinical-programs"><img title="Preclinical (IND-enabling) studies" width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
-          <a href="#investigational-new-drugs"><img title="Investigational New Drug (IND) approval" width="{{ $icon_width }}" src="img/icons/ind.png"></a>
-          <a href="#clinical-trials"><img title="Clinical trials" width="{{ $icon_width }}" src="img/icons/clinical-trials.png"></a>
-          <a href="#new-drug-approval"><img title="New Drug Approval (NDA)" width="{{ $icon_width }}" src="img/icons/NDA.png"></a>
+          <a href="#circulating-variants" title="Circulating Variants"><img width="{{ $icon_width }}" src="img/icons/DMS.png"></a>
+          <a href="#target-product-profile" title="Target Product Profile (TPP)"><img width="{{ $icon_width }}" src="img/icons/TPP.png"></a>
+          <a href="#target-enabling-package" title="Target Enabling Package (TEP)"><img width="{{ $icon_width }}" src="img/icons/structure.png"></a>
+          <a href="#target-candidate-profile" title="Target Candidate Profile (TCP)"><img width="{{ $icon_width }}" src="img/icons/TCP.png"></a>
+          <a href="#assay-cascade" title="Assay cascade"><img width="{{ $icon_width }}" src="img/icons/assay-cascade.png"></a>
+          <a href="#hit-to-lead" title="Hit-to-lead progression"><img width="{{ $icon_width }}" src="img/icons/hit-to-lead.png"></a>
+          <a href="#covalent-targeting" title="Covalent targeting"><img width="{{ $icon_width }}" src="img/icons/covalent-targeting.png"></a>
+          <a href="#lead-optimization" title="Lead optimization"><img width="{{ $icon_width }}" src="img/icons/lead-optimization.png"></a>
+          <a href="#preclinical-programs" title="Preclinical (IND-enabling) studies"><img width="{{ $icon_width }}" src="img/icons/preclinical.png"></a>
+          <a href="#investigational-new-drugs" title="Investigational New Drug (IND) approval"><img width="{{ $icon_width }}" src="img/icons/ind.png"></a>
+          <a href="#clinical-trials" title="Clinical trials"><img width="{{ $icon_width }}" src="img/icons/clinical-trials.png"></a>
+          <a href="#new-drug-approval" title="New Drug Approval (NDA)"><img width="{{ $icon_width }}" src="img/icons/NDA.png"></a>
         </div>
       </div>
     </div>
