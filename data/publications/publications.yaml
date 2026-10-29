@@ -289,5 +289,55 @@
     url: https://doi.org/10.1101/2024.04.29.591502
     license: "CC-BY 4.0 International license" 
 
+- title: "Discovery of orally bioavailable Zika virus NS2B-NS3 protease inhibitors with efficacy in a murine infection model"
+  authors: "Nathaniel T. Kenton, Haim Barr, Artem Cherepakha, Lotte Coelmont, Caroline Collard, David Cousins, Geraint H. M. Davies, Oleksii Degtyarenko, Andrew Dirksen, Daniel Elbrecht, Daren Fearon, James Gayvert, Edward Griffen, Dirk Jochmans, Suzanne J. F. Kaptein, Pavlo Kliatskiy, Artem Kochetkov, Mykyta Kordubailo, Noa Lahav, Nir London, Elke Maas, Peter Marples, Nataliya Nady, Johan Neyts, Luong Nguyen, Xiaomin Ni, Yuliia Ogorodnik, Matthew C. Robinson, Carolina Turk Simpson, Tamas Szommer, Ihor Tarabara, Anton Tkachenko, Annette von Delft, Frank von Delft, Oleksandr Yakymenko, Alpha A. Lee"
+  summary: Starting from a crystallographic fragment screen, we discover potent, metabolically stable, non-covalent, non-peptidomimetic inhibitors of the Zika virus NS2B-NS3 protease, and show that the lead compound significantly reduces viral RNA load in a Zika virus challenge study in mice.
+  date: 2026-05-11
+  programs: [ASAPPADTOT]
+  cores: []
+  projects: []
+  preprint:
+    server: bioRxiv
+    date: 2026-05-11
+    url: https://doi.org/10.1101/2025.06.19.660642
+    license: "CC-BY 4.0 International license"
+    pmcid: PMC12262667
+
+- title: "Crystallographic fragment screening of the dengue virus polymerase reveals multiple binding sites for the development of non-nucleoside antiflavivirals"
+  authors: "Manisha Saini, Jasmin C. Aschenbrenner, Francesc Xavier Ruiz, Ashima Chopra, Anu V. Chandran, Peter G. Marples, Blake H. Balcomb, Daren Fearon, Frank von Delft, Eddy Arnold"
+  summary: We describe an X-ray fragment screen of the DENV-2 NS5 RNA-dependent RNA polymerase, identifying 60 fragment hits across known binding sites as well as a novel binding site and a fragment-binding hotspot in thumb site II.
+  date: 2025-09-02
+  programs: [ASAPPIBTTB]
+  cores: [Structural Biology Core]
+  projects: [Project 2]
+  preprint:
+    server: bioRxiv
+    date: 2025-04-05
+    url: https://doi.org/10.1101/2025.03.31.646453
+    license: "CC-BY 4.0 International license"
+    pmcid: PMC11996390
+  published:
+    doi: 10.1021/acs.jmedchem.5c01014
+    journal: Journal of Medicinal Chemistry
+    volume: 68
+    pages: 18356
+    date: 2025-09-02
+    year: 2025
+    pmcid: PMC12434669
+
+- title: "Identifying novel chemical matter against the Chikungunya virus nsP3 macrodomain through crystallographic fragment screening"
+  authors: "Jasmin C. Aschenbrenner, Andre Schutzer de Godoy, Michael Fairhead, Charles W.E. Tomlinson, Max Winokan, Blake H. Balcomb, Eda Capkin, Anu V. Chandran, Mathew Golding, Lizbe Koekemoer, Ryan M. Lithgo, Peter G. Marples, Xiaomin Ni, Warren Thompson, Conor Wild, Mary-Ann E. Xavier, Daren Fearon, Frank von Delft"
+  summary: We describe an X-ray fragment screen of the Chikungunya virus nsP3 macrodomain, yielding 109 fragment hits covering the ADP-ribose-binding site and two adjacent subsites that are absent in the SARS-CoV-2 macrodomain but may be present in other alphaviruses.
+  date: 2024-08-23
+  programs: []
+  cores: [Structural Biology Core]
+  projects: [Project 2]
+  preprint:
+    server: bioRxiv
+    date: 2024-08-23
+    url: https://doi.org/10.1101/2024.08.23.609196
+    license: "CC-BY 4.0 International license"
+    pmcid: PMC11370605
+
   
 
