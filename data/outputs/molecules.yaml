@@ -21,6 +21,23 @@ ASAP-COV-MPRO:
   - date: 2024-03-12
     description: Quarterly public data release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro for 360 molecules.
 
+ASAP-COV-MPRO-BLIND-CHALLENGE:
+  permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-COV-MPRO-BLIND-CHALLENGE
+  name: "SARS-CoV-2/MERS-CoV Mpro blind challenge data (ASAP-Polaris-OpenADMET)"
+  description: Potency, ADMET and crystallographic data from the pan-coronavirus Mpro lead optimization program, released for the ASAP-Polaris-OpenADMET computational blind challenge.
+  projects: [Project 5]
+  cores: [Structural Biology Core, Biochemical Assay Core, ADMET Core, Data Core]
+  links:
+  - name: Zenodo data release
+    url: https://doi.org/10.5281/zenodo.15582067
+  - name: Hugging Face mirror
+    url: https://doi.org/10.57967/hf/9686
+  - name: challenge publication
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13329884/
+  events:
+  - date: 2025-06-03
+    description: Public release of blind challenge data for MERS-CoV and SARS-CoV-2 Mpro potency (1328 molecules), ADMET (560 molecules) and crystal structures.
+
 ASAP-SARS-COV-2-NSP3-MAC1:
   permalink: http://asapdiscovery.org/outputs/molecules/#ASAP-SARS-COV-2-NSP3-MAC1
   name: "SARS-CoV-2 nsp3 Mac1 macrodomain assay data"
