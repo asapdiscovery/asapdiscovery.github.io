@@ -35,7 +35,7 @@ TPP:
 
 TEP:
   # TODO: Can we pull the status rom the TEP itself?
-  status: play
+  status: paused
 
 publications:
   status: play
