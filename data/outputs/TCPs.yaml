@@ -65,7 +65,7 @@ ASAP-EVD68-2APRO:
 
 ASAP-EVD68-EVA71-VP1-CAPSID:
   permalink: http://asapdiscovery.org/outputs/target-candidate-profiles/#ASAP-EVD68-EVA71-VP1-CAPSID
-  name: EV-D68/A71 VP1 capsid assembly oral inhibitor
+  name: EV-D68/A71 capsid VP1 assembly oral inhibitor
   type: Target Candidate Profile
   projects: [Project 3, Project 5]
   status: completed

@@ -34,3 +34,16 @@ TPP:
 TEP:
   status: play
 
+structures:
+  status: completed
+  url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/A71EV2AZ/tas/lb32627-352
+
+molecules:
+  # Data exists but is not released yet, so this points at the Molecules page as a whole.
+  status: play
+  url: /outputs/molecules/
+
+publications:
+  # Faded without a play sign: manuscript in preparation.
+  status: in-progress
+

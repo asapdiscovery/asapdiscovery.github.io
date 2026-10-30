@@ -80,8 +80,8 @@ ASAP-EVD68-EVA71-3CLPRO:
       description: Major update of the targeting opportunity covering additional background, prototype viruses, clinical background, notable outbreaks/epidemics, target biochemistry, target structure, and known inhibitors      
 
 ASAP-EVD68-EVA71-VP1-CAPSID:
-  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-
-  name: "Targeting Opportunity: EV-D68/A71 VP1 capsid"
+  permalink: http://asapdiscovery.org/outputs/targeting-opportunities/#ASAP-EVD68-EVA71-VP1-CAPSID
+  name: "Targeting Opportunity: EV-D68/A71 capsid VP1"
   projects: [Project 1, Project 2, Project 3]
   links:
   - name: Targeting Opportunity
