@@ -52,7 +52,9 @@ structures:
   url: /outputs/structures/
 
 molecules:
+  # No data release of its own yet; the data is in the pleconaril analogue preprint.
   status: in-progress
+  url: /outputs/publications/#structure-activity-relationship-studies-towards-analogues-of-pleconaril-as-novel-enterovirus-d68-capsid-targeting-antivirals
 
 publications:
   status: play

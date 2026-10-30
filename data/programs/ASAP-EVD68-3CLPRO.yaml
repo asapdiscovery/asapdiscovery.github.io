@@ -48,7 +48,9 @@ hit_to_lead:
   status: paused
 
 molecules:
+  # No data release yet, so this points at the Molecules page as a whole.
   status: in-progress
+  url: /outputs/molecules/
 
 publications:
   status: play
