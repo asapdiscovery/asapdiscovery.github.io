@@ -34,6 +34,14 @@ TEP:
   # TODO: We need to allow override to TEP location
   id: ASAP-EVA71-2APRO
 
+TCP:
+  status: completed
+  id: ASAP-EVD68-2APRO
+
+assay_cascade:
+  status: completed
+  id: ASAP-ASSAY-EVD68-2APRO
+
 hit_to_lead:
   status: play
 
