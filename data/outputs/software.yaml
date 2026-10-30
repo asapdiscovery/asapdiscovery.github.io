@@ -19,6 +19,18 @@ choppa:
     url: https://github.com/asapdiscovery/choppa
   - name: Documentation
     url: https://choppa.readthedocs.io
+  - name: "view: enterovirus 2A protease, EV-D68 circulating variants"
+    url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
+  - name: "view: enterovirus 2A protease, EV-A71 circulating variants"
+    url: /fitness-views/ev-2a-protease-eva71-nextstrain.html
+  - name: "view: enterovirus 2A protease, EV-A71 DMS"
+    url: /fitness-views/ev-2a-protease-eva71-dms.html
+  - name: "view: enterovirus 2A protease, CVB3 DMS"
+    url: /fitness-views/ev-2a-protease-cvb3-dms.html
+  - name: "view: enterovirus 2A protease, sequence conservation"
+    url: /fitness-views/ev-2a-protease-blast-conservation.html
+  - name: "view: enterovirus capsid, CVB3 DMS"
+    url: /fitness-views/ev-capsid-cvb3-dms.html
 
 argos:
   name: "argos"

@@ -149,3 +149,74 @@ ASAP-ZIKV-RdRp-polymerase:
   - date: 2024-04-01
     description: Initial version of analyzed data posted.
   projects: [Project 1]
+
+# Picornavirus entries: the ASAP output is the choppa fitness view itself. The
+# deep mutational scanning studies and NextStrain builds are source data by
+# other groups, credited below as provenance rather than as ASAP outputs.
+ASAP-EVD68-2APRO:
+  name: Analysis of circulating variants of EV-D68/A71 2A protease
+  description: Interactive fitness views of the enterovirus 2A protease, each rendered with [choppa](/outputs/software/#choppa) onto the A71EV2A-x0926a fragment-bound structure. The NextStrain views show substitutions observed in circulating virus; the deep mutational scanning views show measured mutational fitness; the conservation view counts substitutions across 25 enterovirus 2A homologues.
+  links:
+  - name: fitness view, EV-D68 circulating variants
+    url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
+  - name: fitness view, EV-A71 circulating variants
+    url: /fitness-views/ev-2a-protease-eva71-nextstrain.html
+  - name: fitness view, EV-A71 DMS
+    url: /fitness-views/ev-2a-protease-eva71-dms.html
+  - name: fitness view, CVB3 DMS
+    url: /fitness-views/ev-2a-protease-cvb3-dms.html
+  - name: fitness view, sequence conservation
+    url: /fitness-views/ev-2a-protease-blast-conservation.html
+  - name: "source data: NextStrain EV-D68"
+    url: https://nextstrain.org/enterovirus/d68/genome
+  - name: "source data: NextStrain EV-A71"
+    url: https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome
+  - name: "source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)"
+    url: https://doi.org/10.1038/s41564-024-01871-y
+  - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
+    url: https://doi.org/10.1101/2024.03.07.583990
+  projects: [Project 1, Computational Chemistry Core]
+
+ASAP-EVD68-2APRO-INTRAMOL:
+  name: Analysis of circulating variants of EV-D68/A71 2A protease (intramolecular)
+  description: The 2A protease fitness views also cover the intramolecular VP1-2A cleavage programme, as the structure they are rendered on carries the VP1-2A junction in the active site. Rendered with [choppa](/outputs/software/#choppa); see the 2A protease entry for the full set.
+  links:
+  - name: fitness view, EV-D68 circulating variants
+    url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
+  - name: fitness view, EV-A71 circulating variants
+    url: /fitness-views/ev-2a-protease-eva71-nextstrain.html
+  - name: fitness view, EV-A71 DMS
+    url: /fitness-views/ev-2a-protease-eva71-dms.html
+  - name: "source data: NextStrain EV-D68"
+    url: https://nextstrain.org/enterovirus/d68/genome
+  - name: "source data: NextStrain EV-A71"
+    url: https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome
+  - name: "source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)"
+    url: https://doi.org/10.1038/s41564-024-01871-y
+  projects: [Project 1, Computational Chemistry Core]
+
+ASAP-EVD68-EVA71-VP1-CAPSID:
+  name: Analysis of circulating variants of EV-D68/A71 capsid VP1
+  description: Interactive fitness view of the enterovirus capsid, rendered with [choppa](/outputs/software/#choppa) onto the EV-A71 capsid structure from coxsackievirus B3 capsid-wide deep mutational scanning.
+  links:
+  - name: fitness view, CVB3 capsid DMS
+    url: /fitness-views/ev-capsid-cvb3-dms.html
+  - name: "source data: NextStrain EV-D68 VP1"
+    url: https://nextstrain.org/enterovirus/d68/vp1
+  - name: "source data: CVB3 capsid DMS (Mattenberger et al. 2021)"
+    url: https://doi.org/10.7554/eLife.64256
+  projects: [Project 1, Computational Chemistry Core]
+
+ASAP-EVD68-3CLPRO:
+  name: Analysis of circulating variants of EV-D68/A71 3C protease
+  description: A fitness view of the 3C protease is in preparation. The source data below are proteome-wide, so they cover the 3C protease; the views are rendered with [choppa](/outputs/software/#choppa).
+  links:
+  - name: "source data: NextStrain EV-D68"
+    url: https://nextstrain.org/enterovirus/d68/genome
+  - name: "source data: NextStrain EV-A71"
+    url: https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome
+  - name: "source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)"
+    url: https://doi.org/10.1038/s41564-024-01871-y
+  - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
+    url: https://doi.org/10.1101/2024.03.07.583990
+  projects: [Project 1, Computational Chemistry Core]

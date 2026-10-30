@@ -24,6 +24,9 @@ differentiators:
 targeting_opportunity:
   status: not-started
 
+circulating_variants:
+  status: completed
+
 TPP:
   status: completed
   id: ASAP-TPP-EVD68-PEDIATRIC
