@@ -32,7 +32,9 @@ TPP:
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: not-started
+  # In progress; no TEP entry to link to yet, so this points at the TEP page as a whole.
+  status: in-progress
+  url: /outputs/target-enabling-packages/
 
 TCP:
   status: completed
