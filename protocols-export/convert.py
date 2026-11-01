@@ -70,6 +70,23 @@ def latest_version(row):
     return latest
 
 
+def events_of(row):
+    """One dated event per published version, for the RPPR reporting-period filter."""
+    events = []
+    for i in range(1, MAX_VERSIONS + 1):
+        published_on = row.get(f"version_{i}_published_on", "").strip()
+        if not published_on:
+            continue
+        doi = row.get(f"version_{i}_doi", "").strip()
+        doi = re.sub(r"^(https?://)?(dx\.)?doi\.org/", "", doi)
+        what = "Published on protocols.io" if i == 1 else f"Version {i} published on protocols.io"
+        events.append({
+            "date": published_on[:10],
+            "description": f"{what} (doi:{doi})" if doi else what,
+        })
+    return events
+
+
 def authors_of(row, aliases):
     """Ordered, de-duplicated author list with name corrections applied.
 
@@ -113,6 +130,7 @@ def parse_export(path, aliases):
                 "date": row[f"version_{version}_published_on"].strip()[:10],
                 "version": f"v{version}",
                 "description": description_of(row),
+                "events": events_of(row),
             }
     return protocols
 
@@ -166,7 +184,11 @@ def render(entry):
         f"  version: {entry['version']}",
         f"  description: {dump_quoted(entry['description'])}",
         f"  cores: {dump_list(entry['cores'], quote=True)}",
+        "  events:",
     ]
+    for event in entry["events"]:
+        lines.append(f"  - date: {event['date']}")
+        lines.append(f"    description: {dump_scalar(event['description'])}")
     return "\n".join(lines)
 
 

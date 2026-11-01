@@ -31,6 +31,10 @@ information are added or repaired on top of it, and a naive overwrite loses all 
 3. **Description truncation** — descriptions are cut to 300 characters with a trailing
    ellipsis.
 
+Each entry also gets an `events:` list (one per published version, from the export's
+`version_N_published_on`/`version_N_doi` columns). The site ignores it; `rppr/generate-rppr.py`
+uses it to decide which protocols fall in the reporting period.
+
 So the conversion carries curation forward from the current YAML, keyed on protocol URL,
 and reports which protocols are new and still need `category`/`target`/`cores` assigned
 by hand.

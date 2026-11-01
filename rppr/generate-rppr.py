@@ -303,6 +303,8 @@ def render_products_to_markdown(yaml_filepath, component_shortname):
             # Render links
             if 'permalink' in output:
                 markdown_text += f"{output['permalink']}\n\n"
+            elif 'url' in output:
+                markdown_text += f"{output['url']}\n\n"
             else:
                 for link in output['links']:
                     markdown_text += f"* _{link['name']}_\n\n"
