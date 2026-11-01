@@ -40,7 +40,8 @@ assay_cascade:
   id: ASAP-ASSAY-SARS-COV-2-NPROTEIN
 
 hit_to_lead:
-  status: play
+  status: paused
 
 publications:
-  status: in-progress
+  status: play
+  url: /outputs/publications/#fitness-effects-of-mutations-to-sars-cov-2-proteins

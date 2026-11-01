@@ -49,7 +49,7 @@ lead_optimization:
   url: https://covid.postera.ai/covid/activity_data
 
 preclinical:
-  status: play
+  status: paused
   url: https://dndi.org/research-development/portfolio/covid-moonshot/
 
 molecules:
@@ -59,4 +59,5 @@ structures:
   status: completed
 
 publications:
-  status: completed  
+  status: completed
+  url: /outputs/publications/#open-science-discovery-of-potent-noncovalent-sars-cov-2-main-protease-inhibitors

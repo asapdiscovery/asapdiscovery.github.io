@@ -24,6 +24,9 @@ differentiators:
 targeting_opportunity:
   status: completed
 
+circulating_variants:
+  status: completed
+
 TPP:
   status: completed
   id: ASAP-TPP-EVD68-PEDIATRIC
@@ -45,7 +48,10 @@ hit_to_lead:
   status: paused
 
 molecules:
+  # No data release yet, so this points at the Molecules page as a whole.
   status: in-progress
+  url: /outputs/molecules/
 
 publications:
-  status: completed
+  status: play
+  url: /outputs/publications/#crystallographic-fragment-screen-of-enterovirus-d68-3c-protease-and-iterative-design-of-lead-like-compounds-using-structure-guided-expansions

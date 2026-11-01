@@ -25,6 +25,9 @@ differentiators:
 targeting_opportunity:
   status: completed
 
+circulating_variants:
+  status: completed
+
 TPP:
   status: completed
   id: ASAP-TPP-EVD68-PEDIATRIC
@@ -34,6 +37,14 @@ TEP:
   # TODO: We need to allow override to TEP location
   id: ASAP-EVA71-2APRO
 
+TCP:
+  status: completed
+  id: ASAP-EVD68-2APRO
+
+assay_cascade:
+  status: completed
+  id: ASAP-ASSAY-EVD68-2APRO
+
 hit_to_lead:
   status: play
 
@@ -42,4 +53,5 @@ molecules:
   status: in-progress
 
 publications:
-  status: completed
+  status: play
+  url: /outputs/publications/#crystallographic-fragment-screen-of-coxsackievirus-a16-2a-protease-identifies-new-opportunities-for-the-development-of-broad-spectrum-anti-enterovirals

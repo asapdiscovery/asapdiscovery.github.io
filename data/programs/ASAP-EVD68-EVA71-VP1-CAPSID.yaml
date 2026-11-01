@@ -1,7 +1,7 @@
 overview:
   # viral family: one of ['coronaviridae', 'flaviviridae', 'picornaviridae', 'togaviridae']
   family: picornaviridae
-  name: "EV-D68/A71 capsid assembly"
+  name: "EV-D68/A71 capsid VP1 assembly"
   target: 3CLpro
   program_code: ASAPPTTFOG
   program_nickname: ASAP-EVD68-EVA71-VP1-CAPSID
@@ -22,28 +22,42 @@ differentiators:
   broad_spectrum: completed
     
 targeting_opportunity:
-  status: not-started
+  status: completed
+
+circulating_variants:
+  status: completed
 
 TPP:
   status: completed
   id: ASAP-TPP-EVD68-PEDIATRIC
 
 TEP:
-  status: not-started
+  # In progress; no TEP entry to link to yet, so this points at the TEP page as a whole.
+  status: in-progress
+  url: /outputs/target-enabling-packages/
 
 TCP:
   status: completed
   id: ASAP-EVD68-EVA71-VP1-CAPSID
 
 assay_cascade:
-  status: in-progress
+  status: completed
   id: ASAP-ASSAY-EVD68-EVA71-VP1-CAPSID
 
 hit_to_lead:
   status: paused
 
+structures:
+  # PDB deposition of the cryo-EM capsid datasets is in progress, so this points
+  # at the Structures page as a whole rather than at an entry.
+  status: play
+  url: /outputs/structures/
+
 molecules:
+  # No data release of its own yet; the data is in the pleconaril analogue preprint.
   status: in-progress
+  url: /outputs/publications/#structure-activity-relationship-studies-towards-analogues-of-pleconaril-as-novel-enterovirus-d68-capsid-targeting-antivirals
 
 publications:
-  status: in-progress
+  status: play
+  url: /outputs/publications/#structure-activity-relationship-studies-towards-analogues-of-pleconaril-as-novel-enterovirus-d68-capsid-targeting-antivirals

@@ -47,6 +47,26 @@ ASAP-EVD68-3CLPRO:
   - date: 2022-07-14
     description: Initial draft
 
+ASAP-EVD68-2APRO:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-EVD68-2APRO
+  name: EV-D68 / EV-A71 2A Protease Assay Cascade
+  description: Assay cascade for EV-D68 / EV-A71 2A Protease oral antiviral
+  links:
+  - name: Assay Cascade
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.h4159271a0cc70a71_0_51
+  projects: [Project 3, Project 5]
+  cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
+
+ASAP-EVD68-EVA71-VP1-CAPSID:
+  permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-EVD68-EVA71-VP1-CAPSID
+  name: EV-D68 / EV-A71 capsid VP1 Assay Cascade
+  description: Assay cascade for EV-D68 / EV-A71 capsid VP1 assembly oral antiviral
+  links:
+  - name: Assay Cascade
+    url: https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g2c89056347c_1_139
+  projects: [Project 3, Project 5]
+  cores: [Biochemical Assay Core, Structural Biology Core, Antiviral Core]
+
 ASAP-DENV-ZIKV-NS2B-NS3:
   permalink: http://asapdiscovery.org/outputs/assay-cascades/#ASAP-DENV-ZIKV-NS2B-NS3
   name: DENV/ZIKV NS2B/3 3C protease

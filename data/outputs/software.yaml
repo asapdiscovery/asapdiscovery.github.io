@@ -19,6 +19,18 @@ choppa:
     url: https://github.com/asapdiscovery/choppa
   - name: Documentation
     url: https://choppa.readthedocs.io
+  - name: "view: enterovirus 2A protease, EV-D68 circulating variants"
+    url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
+  - name: "view: enterovirus 2A protease, EV-A71 circulating variants"
+    url: /fitness-views/ev-2a-protease-eva71-nextstrain.html
+  - name: "view: enterovirus 2A protease, EV-A71 DMS"
+    url: /fitness-views/ev-2a-protease-eva71-dms.html
+  - name: "view: enterovirus 2A protease, CVB3 DMS"
+    url: /fitness-views/ev-2a-protease-cvb3-dms.html
+  - name: "view: enterovirus 2A protease, sequence conservation"
+    url: /fitness-views/ev-2a-protease-blast-conservation.html
+  - name: "view: enterovirus capsid, CVB3 DMS"
+    url: /fitness-views/ev-capsid-cvb3-dms.html
 
 argos:
   name: "argos"
@@ -48,3 +60,83 @@ falcbot:
   links:
   - name: GitHub
     url: https://github.com/asapdiscovery/FALCBot
+
+fragmenstein:
+  name: "Fragmenstein"
+  description: "Merges, links and places compounds by stitching together the atoms of bound crystallographic fragment hits and minimising the resulting conformer, optionally within the protein."
+  permalink: http://asapdiscovery.org/outputs/software/#fragmenstein
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: GitHub
+    url: https://github.com/matteoferla/Fragmenstein
+  - name: Documentation
+    url: https://fragmenstein.readthedocs.io/en/latest/
+  - name: Paper
+    url: https://doi.org/10.1186/s13321-025-00946-0
+
+arthorian-quest:
+  name: "Arthorian Quest"
+  description: "Enumerates linkers between two fragment hits by searching Arthor (NextMove Software) with a SMARTS pattern encoding the desired expansion vectors, then filtering the results by 3D-constrained conformer generation with Fragmenstein."
+  permalink: http://asapdiscovery.org/outputs/software/#arthorian-quest
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: GitHub
+    url: https://github.com/matteoferla/Arthorian-Quest
+
+fragmentknitwork:
+  name: "FragmentKnitwork"
+  description: "A fragment merging pipeline that 'knits' together substructures of crystallographic fragment hits into merge- and linker-like follow-up compounds by querying a neo4j fragment network database, with pharmacophore-based filtering using RDKit and Fragmenstein."
+  permalink: http://asapdiscovery.org/outputs/software/#fragmentknitwork
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: GitHub
+    url: https://github.com/stephwills/FragmentKnitwork
+
+syndirella:
+  name: "Syndirella"
+  description: "Generates and scores synthetically practical elaborations of molecules designed from fragment screens, starting from retrosynthetic analysis of fragment merges."
+  permalink: http://asapdiscovery.org/outputs/software/#syndirella
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: GitHub
+    url: https://github.com/kate-fie/syndirella
+  - name: Documentation
+    url: https://syndirella.readthedocs.io/en/latest/
+  - name: Preprint
+    url: https://chemrxiv.org/engage/chemrxiv/article-details/68d4f08ff416303770403a44
+
+hippo:
+  name: "HIPPO"
+  description: "Hit Interaction Profiling for Progression Optimisation: a chemical database and Python toolkit to expedite fragment-based drug discovery, interfacing with Syndirella and fragment merging algorithms."
+  permalink: http://asapdiscovery.org/outputs/software/#hippo
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: GitHub
+    url: https://github.com/mwinokan/HIPPO
+  - name: Documentation
+    url: https://hippo-docs.winokan.com
+
+pycomsia:
+  name: "pycomsia"
+  description: "A fork of [clhaga/pycomsia](https://github.com/clhaga/pycomsia), a Python implementation of CoMSIA (Comparative Molecular Similarity Indices Analysis) 3D-QSAR that builds PLS models relating the molecular interaction fields of pre-aligned ligands to potency. This fork adds model persistence, to predict new compounds without rebuilding, and sequential learning over successive compound batches."
+  permalink: http://asapdiscovery.org/outputs/software/#pycomsia
+  projects: [Project 5]
+  cores: [Computational Chemistry Core]
+  links:
+  - name: GitHub
+    url: https://github.com/asapdiscovery/pycomsia
+
+fast-forward-fragments:
+  name: "Fast Forward Fragments"
+  description: "Collection of open-source tools for fragment progression from XChem at Diamond Light Source, including Fragalysis, XChem Align, Syndirella, HIPPO, Fragmenstein, CAR and Knitwork."
+  permalink: http://asapdiscovery.org/outputs/software/#fast-forward-fragments
+  projects: [Project 2]
+  cores: [Structural Biology Core]
+  links:
+  - name: Linktree
+    url: https://linktr.ee/fastforwardfragments

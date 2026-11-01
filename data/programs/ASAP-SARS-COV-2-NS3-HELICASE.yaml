@@ -32,5 +32,9 @@ TEP:
   # TODO: Can we pull the status rom the TEP itself?
   status: completed
 
+TCP:
+  status: paused
+
 publications:
-  status: in-progress
+  status: completed
+  url: /outputs/publications/#accelerating-antiviral-drug-discovery-lessons-from-covid-19
