@@ -1612,7 +1612,7 @@
   date: 2025-08-04
   version: v2
   description: "To establish a reliable TCID50 screening assay for quantifying SARS-CoV-2 infectivity in cell culture systems and support downstream applications in therapeutic development. Protocol used to titer both animal tissue samples and viral stocks at BSL-3. The 50% Tissue Culture Infectious Dose (TCID50..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2024-06-03
     description: Published on protocols.io
@@ -1628,7 +1628,7 @@
   date: 2025-10-26
   version: v1
   description: "To evaluate the antiviral efficacy of compounds against SARS-CoV-1 infection using an engineered A549-ACE2 cell line model. A549 human lung adenocarcinoma cells stably transfected to express ACE2 receptors were used as the host cell system. Cells were pre-treated with a range of test compounds pr..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-10-26
     description: Published on protocols.io (doi:10.17504/protocols.io.6qpvrw6z2lmk/v1)
@@ -1642,7 +1642,7 @@
   date: 2025-08-03
   version: v1
   description: "The protocol evaluates compounds to determine their antiviral activity against coronaviruses. The antiviral activity is evaluated based on the 50% inhibitory concentration (IC50) and the 50% effective concentration (EC50). Two cell lines can be used for these assays (A549+ACE2+TMP (Invivogen) or ..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.5qpvooxzzv4o/v1)
@@ -1656,7 +1656,7 @@
   date: 2025-03-18
   version: v1
   description: "Multiplicity of infection (MOI) is the ratio of viral particles to cells. The ideal MOI for antiviral screenings will depend on several things - the cell type, the cell passage, the virus type, the amount of cells, etc."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.rm7vzj1wrlx1/v1)
@@ -1670,7 +1670,7 @@
   date: 2025-08-03
   version: v1
   description: "Cell-based fluorescent assay with high sensitivity and low background that reports on the activity of viral proteases, which are key drug targets. Assay is compatible with not only the SARS-CoV-2 Mpro protein but also orthologues from a range of human and nonhuman CoVs as well as clinically repor..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.kxygx7p2kl8j/v1)
@@ -1684,7 +1684,7 @@
   date: 2025-03-18
   version: v1
   description: "The following is a cytotoxicity protocol to be paired with a live virus antiviral screening in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via CC50 values generated via analysis of MTT/MTS assays in uninfected cells...."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.bp2l62mozgqe/v1)
@@ -1698,7 +1698,7 @@
   date: 2025-08-04
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-04
     description: Published on protocols.io (doi:10.17504/protocols.io.8epv52yb6v1b/v1)
@@ -1712,7 +1712,7 @@
   date: 2025-03-18
   version: v1
   description: "This describes generating Antiviral & Cytotoxicity Curves"
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.e6nvw12kzlmk/v1)
@@ -1726,7 +1726,7 @@
   date: 2025-08-03
   version: v1
   description: "This protocol details a primary cytopathic effect (CPE) reduction assay for evaluating antiviral compound efficacy. Vero 76 cell monolayers are prepared in 96-well plates and exposed to eight serial half-log10 concentrations of test compounds, along with infected and uninfected controls, and a kn..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.5qpvo9jddv4o/v1)
@@ -1740,7 +1740,7 @@
   date: 2022-03-16
   version: v1
   description: "Determine virus concentration from cell culture, lung homogenates, and more. This protocol measures virus in plaque forming units per ml solution.   This protocol differs from classic flu plaque assays by using a semi-solid overlay (Avicel) as opposed to agarose. This is beneficial in avoiding re..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2022-03-16
     description: Published on protocols.io (doi:10.17504/protocols.io.n2bvj63bxlk5/v1)
@@ -1754,7 +1754,7 @@
   date: 2025-08-04
   version: v1
   description: "The following is a protocol for live virus antiviral screening against Dengue in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against Dengue.  You ..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-04
     description: Published on protocols.io (doi:10.17504/protocols.io.14egn6d5ml5d/v1)
@@ -1768,7 +1768,7 @@
   date: 2025-08-02
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-A71 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against EV-A71.   Eac..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-02
     description: Published on protocols.io (doi:10.17504/protocols.io.ewov12j7kgr2/v1)
@@ -1782,7 +1782,7 @@
   date: 2025-08-02
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-D68 in vitro using Rhabdomyosarcoma (RD) cells. RD Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluore..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-02
     description: Published on protocols.io (doi:10.17504/protocols.io.yxmvmywybv3p/v1)
@@ -1796,7 +1796,7 @@
   date: 2025-10-26
   version: v1
   description: "The following is a protocol for live virus antiviral screening against EV-D68 in vitro on Rhabdomyosarcoma (RD) cells. RD Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity. IC50 values are generated via analysis of MTT/MTS data as..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-10-26
     description: Published on protocols.io (doi:10.17504/protocols.io.261gek27og47/v1)
@@ -1810,7 +1810,7 @@
   date: 2025-08-03
   version: v1
   description: "The following is a protocol for live virus antiviral screening against MERS-CoV EMC2012 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against MER..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.5qpvok2b7l4o/v1)
@@ -1824,7 +1824,7 @@
   date: 2025-03-18
   version: v1
   description: "The following is a protocol for live virus antiviral screening against SARS-CoV-2 in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against SARS-CoV-..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.yxmvmee4ng3p/v1)
@@ -1838,7 +1838,7 @@
   date: 2025-08-03
   version: v1
   description: "The following is a protocol for live virus antiviral screening against SARS-CoV-2 in iPSC pneumocyte cells. iPSC pneumocytes are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent ..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.36wgqne6kgk5/v1)
@@ -1852,7 +1852,7 @@
   date: 2025-08-04
   version: v1
   description: "The following is a protocol for live virus antiviral screening against Zika in vitro. Cells are prophylactically treated with antiviral candidates that have been serially diluted to investigate activity, via IC50 values generated via analysis of immunofluorescent staining, against Zika.  You may ..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-04
     description: Published on protocols.io (doi:10.17504/protocols.io.x54v92xj1l3e/v1)
@@ -1866,7 +1866,7 @@
   date: 2025-08-03
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.x54v926qml3e/v1)
@@ -1880,7 +1880,7 @@
   date: 2025-03-18
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.261ge5jnog47/v1)
@@ -1894,7 +1894,7 @@
   date: 2025-03-18
   version: v1
   description: "Using Tecan D300e for serial dilution"
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-03-18
     description: Published on protocols.io (doi:10.17504/protocols.io.x54v92r1pl3e/v1)
@@ -1908,7 +1908,7 @@
   date: 2025-08-04
   version: v1
   description: "This protocol describes immunofluorescence staining of fixed SARS-CoV-2 infected cells using IC7C7 primary antibody (produced in house against SARS-CoV-2 NP) and Alexa Fluor 488-conjugated secondary antibody. The procedure results in fluorescently labeled infected cells for quantification of vira..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-04
     description: Published on protocols.io (doi:10.17504/protocols.io.14egn6kzyl5d/v1)
@@ -1922,7 +1922,7 @@
   date: 2025-08-03
   version: v1
   description: "These immunofluorescence-based antiviral assays rely on identification of infected cells through immunostaining the NP (influenza virus), N (SARS-CoV-2) proteins, or any relevant viral antigen at 488nM and counterstaining with DAPI. Infected cells (488nM) and total cells (DAPI) are identified and..."
-  cores: ['Antiviral Assay Core']
+  cores: ['Antiviral Core']
   events:
   - date: 2025-08-03
     description: Published on protocols.io (doi:10.17504/protocols.io.8epv5rm96g1b/v1)

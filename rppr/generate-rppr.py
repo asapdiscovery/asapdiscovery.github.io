@@ -225,9 +225,14 @@ def component_contributed_to_output(component_shortname, output):
     """
     Return True if specified component contributed to this research output
     """
-    projects = output.get('projects', list())
-    cores = output.get('cores', list())
-    if component_shortname in (projects + cores):
+    import yaml
+    with open('component-aliases.yaml', 'r') as f:
+        aliases = yaml.load(f, Loader=yaml.SafeLoader)
+    names = output.get('projects', list()) + output.get('cores', list())
+    components = set()
+    for name in names:
+        components.update(aliases.get(name, [name]))
+    if component_shortname in components:
         return True
     else:
         return False
