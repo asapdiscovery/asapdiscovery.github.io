@@ -129,8 +129,8 @@ class PythonDocxRenderer(mistune.Renderer):
     # SPAN LEVEL
     def text(self, text):
         import re
-        text = re.sub("\s+", " ", text)
-        text = re.sub('"', '\\"', text)        
+        text = re.sub(r"\s+", r" ", text)
+        text = re.sub(r'"', r'\\"', text)     
         return "p.add_run(\"%s\")\n" % text
 
     def emphasis(self, text):
@@ -344,7 +344,7 @@ def render_research_outputs(component_shortname):
         'TCPs.yaml', # project 5
         'TPPs.yaml', # project 6
         'assay_cascades.yaml', # Projects 3, 4, 5
-        'assay_protocols.yaml', # Biochemical Assay and Antiviral Core
+        'protocols.yaml', # Biochemical Assay and Antiviral Core
     ]
 
     # TODO: add counts for Structural Biology, Biochemical Assay, and Antiviral Core
