@@ -178,6 +178,9 @@ ASAP-EVD68-2APRO:
   - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
     url: https://doi.org/10.1101/2024.03.07.583990
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-2APRO-INTRAMOL:
   name: Analysis of circulating variants of EV-D68/A71 2A protease (intramolecular)
@@ -196,6 +199,9 @@ ASAP-EVD68-2APRO-INTRAMOL:
   - name: "source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)"
     url: https://doi.org/10.1038/s41564-024-01871-y
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-EVA71-VP1-CAPSID:
   name: Analysis of circulating variants of EV-D68/A71 capsid VP1
@@ -208,6 +214,9 @@ ASAP-EVD68-EVA71-VP1-CAPSID:
   - name: "source data: CVB3 capsid DMS (Mattenberger et al. 2021)"
     url: https://doi.org/10.7554/eLife.64256
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-3CLPRO:
   name: Analysis of circulating variants of EV-D68/A71 3C protease
@@ -222,3 +231,6 @@ ASAP-EVD68-3CLPRO:
   - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
     url: https://doi.org/10.1101/2024.03.07.583990
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website

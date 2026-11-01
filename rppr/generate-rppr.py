@@ -14,8 +14,10 @@ TODO:
 import datetime
 #reporting_period_start = datetime.date.fromisoformat('2022-05-01')
 #reporting_period_end = datetime.date.fromisoformat('2023-04-30')
-reporting_period_start = datetime.date.fromisoformat('2023-05-01')
-reporting_period_end = datetime.date.fromisoformat('2024-04-30')
+#reporting_period_start = datetime.date.fromisoformat('2023-05-01')
+#reporting_period_end = datetime.date.fromisoformat('2024-04-30')
+reporting_period_start = datetime.date.fromisoformat('2025-09-19')
+reporting_period_end = datetime.date.fromisoformat('2026-12-31')
 grant_id = 'NIH U19 AI171399' 
 
 # -*- coding: utf-8 -*-
@@ -244,10 +246,13 @@ def filter_events_to_reporting_period(output):
     """
     import datetime
     events = list()
-    for event in output['events']:
-        if text_date_is_in_reporting_period(event['date']):
-            events.append(event)
-    output['events'] = events
+    if 'events' in output:
+        for event in output['events']:
+            if text_date_is_in_reporting_period(event['date']):
+                events.append(event)
+        output['events'] = events
+    else:
+        print('WARNING: No events found for output %s' % output['name'])
 
     if len(events) > 0:
         return True
