@@ -8,8 +8,8 @@ All styles are taken from the `2590_continuation-template.docx` template. Modifi
 
 Install the prerequisites
 ```bash
-mamba create -n rppr python-docx mistune<1.0 sympy pyyaml
-mamba activate rppr
+conda create -n rppr python-docx "mistune<1.0" sympy pyyaml emacs pandas
+conda activate rppr
 
 ## RPPR generation
 ```

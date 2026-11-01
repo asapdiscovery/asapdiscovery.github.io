@@ -252,7 +252,7 @@ def filter_events_to_reporting_period(output):
                 events.append(event)
         output['events'] = events
     else:
-        print('WARNING: No events found for output %s' % output['name'])
+        print('WARNING: No events found for output "%s" (%s)' % (output['name'], output.get('description', 'No description')))
 
     if len(events) > 0:
         return True
