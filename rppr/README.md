@@ -27,6 +27,13 @@ Generated word documents will be found in `outputs/`
 * Check out https://github.com/mjanv/mistune-docx
 
 
+## Thumbnail videos
+
+To generate a thumbnail sheet of youtube videos:
+```bash
+python3 -m pip install -U yt-dlp Pillow requests
+python3 avidd_thumbnail_sheet.py
+```
 
 ---
 
