@@ -1,0 +1,26 @@
+# Lint for YAML mistakes that change meaning (duplicate keys, bad syntax, ambiguous
+# truthy values) rather than formatting; much of data/ is hand-edited prose.
+extends: default
+
+ignore: |
+  data/outputs/preTEPS/
+  public/
+  resources/
+  themes/
+
+rules:
+  braces: disable
+  brackets: disable
+  colons: disable
+  commas: disable
+  comments: disable
+  comments-indentation: disable
+  document-start: disable
+  empty-lines: disable
+  hyphens: disable
+  indentation: disable
+  line-length: disable
+  new-line-at-end-of-file: disable
+  trailing-spaces: disable
+  truthy:
+    check-keys: false  # GitHub Actions' `on:` key
