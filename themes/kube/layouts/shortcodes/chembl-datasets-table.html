@@ -182,7 +182,7 @@
         <select id="chembl-target-filter" onchange="filterChemblDatasets()">
             <option value="">All Targets</option>
             {{ $targets := slice }}
-            {{ range $.Site.Data.outputs.chembl_datasets }}
+            {{ range hugo.Data.outputs.chembl_datasets }}
                 {{ $targets = $targets | append .target }}
             {{ end }}
             {{ $targets = $targets | uniq | sort }}
@@ -196,7 +196,7 @@
         <select id="chembl-release-filter" onchange="filterChemblDatasets()">
             <option value="">All Releases</option>
             {{ $releases := slice }}
-            {{ range $.Site.Data.outputs.chembl_datasets }}
+            {{ range hugo.Data.outputs.chembl_datasets }}
                 {{ $releases = $releases | append .chembl_release }}
             {{ end }}
             {{ $releases = $releases | uniq | sort }}
@@ -208,7 +208,7 @@
 </div>
 
 <div class="chembl-count">
-    Showing <span id="chembl-visible-count">{{ len $.Site.Data.outputs.chembl_datasets }}</span> of {{ len $.Site.Data.outputs.chembl_datasets }} datasets
+    Showing <span id="chembl-visible-count">{{ len hugo.Data.outputs.chembl_datasets }}</span> of {{ len hugo.Data.outputs.chembl_datasets }} datasets
 </div>
 
 <table class="chembl-table" id="chembl-datasets-table">
@@ -223,7 +223,7 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $.Site.Data.outputs.chembl_datasets }}
+        {{ range hugo.Data.outputs.chembl_datasets }}
         <tr data-category="{{ .category }}" data-target="{{ .target }}" data-release="{{ .chembl_release }}">
             <td>
                 <a href="{{ .doi_url }}" target="_blank">{{ .title }}</a>

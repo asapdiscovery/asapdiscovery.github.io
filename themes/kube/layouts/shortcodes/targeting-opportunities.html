@@ -1,5 +1,5 @@
 <!-- TODO: How should we sort the targets? -->
-{{ range $program_nickname, $output := $.Site.Data.outputs.targeting_opportunities }}
+{{ range $program_nickname, $output := hugo.Data.outputs.targeting_opportunities }}
 
     {{ $output := merge $output (dict "id" $program_nickname) }}
     {{ partial "research-output.html" $output }}
