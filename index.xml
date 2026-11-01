@@ -828,6 +828,54 @@ The minutes are summarized as follows:&lt;/p>
 
 
  &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="arthorian-quest"> Arthorian Quest &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/matteoferla/Arthorian-Quest">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ Enumerates linkers between two fragment hits by searching Arthor (NextMove Software) with a SMARTS pattern encoding the desired expansion vectors, then filtering the results by 3D-constrained conformer generation with Fragmenstein. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="asapdiscovery"> asapdiscovery &lt;/h3> 
 
 
@@ -893,6 +941,18 @@ The minutes are summarized as follows:&lt;/p>
  &lt;a href="https://github.com/asapdiscovery/choppa">[GitHub]&lt;/a>
 
  &lt;a href="https://choppa.readthedocs.io">[Documentation]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-evd68-nextstrain.html">[view: enterovirus 2A protease, EV-D68 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-nextstrain.html">[view: enterovirus 2A protease, EV-A71 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-dms.html">[view: enterovirus 2A protease, EV-A71 DMS]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-cvb3-dms.html">[view: enterovirus 2A protease, CVB3 DMS]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-blast-conservation.html">[view: enterovirus 2A protease, sequence conservation]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-capsid-cvb3-dms.html">[view: enterovirus capsid, CVB3 DMS]&lt;/a>
 
 &lt;br>
 
@@ -976,6 +1036,154 @@ The minutes are summarized as follows:&lt;/p>
 
 
  &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="fast-forward-fragments"> Fast Forward Fragments &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://linktr.ee/fastforwardfragments">[Linktree]&lt;/a>
+
+&lt;br>
+
+
+
+ Collection of open-source tools for fragment progression from XChem at Diamond Light Source, including Fragalysis, XChem Align, Syndirella, HIPPO, Fragmenstein, CAR and Knitwork. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="fragmenstein"> Fragmenstein &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/matteoferla/Fragmenstein">[GitHub]&lt;/a>
+
+ &lt;a href="https://fragmenstein.readthedocs.io/en/latest/">[Documentation]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1186/s13321-025-00946-0">[Paper]&lt;/a>
+
+&lt;br>
+
+
+
+ Merges, links and places compounds by stitching together the atoms of bound crystallographic fragment hits and minimising the resulting conformer, optionally within the protein. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="fragmentknitwork"> FragmentKnitwork &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/stephwills/FragmentKnitwork">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A fragment merging pipeline that &amp;lsquo;knits&amp;rsquo; together substructures of crystallographic fragment hits into merge- and linker-like follow-up compounds by querying a neo4j fragment network database, with pharmacophore-based filtering using RDKit and Fragmenstein. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="hindsight"> hindsight &lt;/h3> 
 
 
@@ -1006,6 +1214,156 @@ The minutes are summarized as follows:&lt;/p>
  
  &lt;span class="label focus">Computational Chemistry Core&lt;/span>
  
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="hippo"> HIPPO &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/mwinokan/HIPPO">[GitHub]&lt;/a>
+
+ &lt;a href="https://hippo-docs.winokan.com">[Documentation]&lt;/a>
+
+&lt;br>
+
+
+
+ Hit Interaction Profiling for Progression Optimisation: a chemical database and Python toolkit to expedite fragment-based drug discovery, interfacing with Syndirella and fragment merging algorithms. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="pycomsia"> pycomsia &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/asapdiscovery/pycomsia">[GitHub]&lt;/a>
+
+&lt;br>
+
+
+
+ A fork of &lt;a href="https://github.com/clhaga/pycomsia">clhaga/pycomsia&lt;/a>, a Python implementation of CoMSIA (Comparative Molecular Similarity Indices Analysis) 3D-QSAR that builds PLS models relating the molecular interaction fields of pre-aligned ligands to potency. This fork adds model persistence, to predict new compounds without rebuilding, and sequential learning over successive compound batches. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Computational Chemistry Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="syndirella"> Syndirella &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://github.com/kate-fie/syndirella">[GitHub]&lt;/a>
+
+ &lt;a href="https://syndirella.readthedocs.io/en/latest/">[Documentation]&lt;/a>
+
+ &lt;a href="https://chemrxiv.org/engage/chemrxiv/article-details/68d4f08ff416303770403a44">[Preprint]&lt;/a>
+
+&lt;br>
+
+
+
+ Generates and scores synthetically practical elaborations of molecules designed from fragment screens, starting from retrosynthetic analysis of fragment merges. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 2&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
  
  &lt;br>
 
@@ -1269,7 +1627,7 @@ This overview is intended to summarize relevant information for drug hunters, in
 
 
  &lt;div class="prettybox" data-component="prettybox">
- &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> Targeting Opportunity: EV-D68/A71 VP1 capsid &lt;/h3> 
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> Targeting Opportunity: EV-D68/A71 capsid VP1 &lt;/h3> 
 
 
 
@@ -1549,6 +1907,66 @@ This overview is intended to summarize relevant information for drug hunters, in
  &lt;small>&lt;i>[2023-11-07]&lt;/i> Initial public release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro and HLM/MLM data for 266 molecules.&lt;/small> &lt;br>
 
  &lt;small>&lt;i>[2024-03-12]&lt;/i> Quarterly public data release of negative biochemical activity data for MERS-CoV and SARS-CoV-2 Mpro for 360 molecules.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-COV-MPRO-BLIND-CHALLENGE"> SARS-CoV-2/MERS-CoV Mpro blind challenge data (ASAP-Polaris-OpenADMET) &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://doi.org/10.5281/zenodo.15582067">[Zenodo data release]&lt;/a>
+
+ &lt;a href="https://doi.org/10.57967/hf/9686">[Hugging Face mirror]&lt;/a>
+
+ &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13329884/">[challenge publication]&lt;/a>
+
+&lt;br>
+
+
+
+ Potency, ADMET and crystallographic data from the pan-coronavirus Mpro lead optimization program, released for the ASAP-Polaris-OpenADMET computational blind challenge. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">ADMET Core&lt;/span>
+ 
+ &lt;span class="label success">Data Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+ &lt;small>&lt;i>[2025-06-03]&lt;/i> Public release of blind challenge data for MERS-CoV and SARS-CoV-2 Mpro potency (1328 molecules), ADMET (560 molecules) and crystal structures.&lt;/small> &lt;br>
 
 
 &lt;/div>
@@ -2602,107 +3020,6 @@ Apo structure of MERS-CoV Mpro protease in the C 2 2 21 space group at 1.90A res
  
  
  
-
- 
-
- 
- 
-
-
-
- 
- 
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
- 
- 
  
  
  
@@ -2931,6 +3248,234 @@ Contributing Projects and Cores:
 
 
  &lt;small>&lt;i>[2023-11-01]&lt;/i> Initial version of analyzed data posted.&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO"> Analysis of circulating variants of EV-D68/A71 2A protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-evd68-nextstrain.html">[fitness view, EV-D68 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-nextstrain.html">[fitness view, EV-A71 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-dms.html">[fitness view, EV-A71 DMS]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-cvb3-dms.html">[fitness view, CVB3 DMS]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-blast-conservation.html">[fitness view, sequence conservation]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/enterovirus/d68/genome">[source data: NextStrain EV-D68]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome">[source data: NextStrain EV-A71]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1038/s41564-024-01871-y">[source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2024.03.07.583990">[source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive fitness views of the enterovirus 2A protease, each rendered with &lt;a href="https://asapdiscovery.org/outputs/software/#choppa">choppa&lt;/a> onto the A71EV2A-x0926a fragment-bound structure. The NextStrain views show substitutions observed in circulating virus; the deep mutational scanning views show measured mutational fitness; the conservation view counts substitutions across 25 enterovirus 2A homologues. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO-INTRAMOL"> Analysis of circulating variants of EV-D68/A71 2A protease (intramolecular) &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-evd68-nextstrain.html">[fitness view, EV-D68 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-nextstrain.html">[fitness view, EV-A71 circulating variants]&lt;/a>
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-2a-protease-eva71-dms.html">[fitness view, EV-A71 DMS]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/enterovirus/d68/genome">[source data: NextStrain EV-D68]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome">[source data: NextStrain EV-A71]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1038/s41564-024-01871-y">[source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)]&lt;/a>
+
+&lt;br>
+
+
+
+ The 2A protease fitness views also cover the intramolecular VP1-2A cleavage programme, as the structure they are rendered on carries the VP1-2A junction in the active site. Rendered with &lt;a href="https://asapdiscovery.org/outputs/software/#choppa">choppa&lt;/a>; see the 2A protease entry for the full set. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> Analysis of circulating variants of EV-D68/A71 3C protease &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://nextstrain.org/enterovirus/d68/genome">[source data: NextStrain EV-D68]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome">[source data: NextStrain EV-A71]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1038/s41564-024-01871-y">[source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)]&lt;/a>
+
+ &lt;a href="https://doi.org/10.1101/2024.03.07.583990">[source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)]&lt;/a>
+
+&lt;br>
+
+
+
+ A fitness view of the 3C protease is in preparation. The source data below are proteome-wide, so they cover the 3C protease; the views are rendered with &lt;a href="https://asapdiscovery.org/outputs/software/#choppa">choppa&lt;/a>. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> Analysis of circulating variants of EV-D68/A71 capsid VP1 &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://asapdiscovery.org/fitness-views/ev-capsid-cvb3-dms.html">[fitness view, CVB3 capsid DMS]&lt;/a>
+
+ &lt;a href="https://nextstrain.org/enterovirus/d68/vp1">[source data: NextStrain EV-D68 VP1]&lt;/a>
+
+ &lt;a href="https://doi.org/10.7554/eLife.64256">[source data: CVB3 capsid DMS (Mattenberger et al. 2021)]&lt;/a>
+
+&lt;br>
+
+
+
+ Interactive fitness view of the enterovirus capsid, rendered with &lt;a href="https://asapdiscovery.org/outputs/software/#choppa">choppa&lt;/a> onto the EV-A71 capsid structure from coxsackievirus B3 capsid-wide deep mutational scanning. &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 1&lt;/span>
+ 
+ &lt;span class="label focus">Computational Chemistry Core&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
 
 
 &lt;/div>
@@ -3554,6 +4099,60 @@ Pioneered by the &lt;a href="https://www.thesgc.org/tep">Structural Genomics Con
 
 
  &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO"> EV-D68 / EV-A71 2A Protease Assay Cascade &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.h4159271a0cc70a71_0_51">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for EV-D68 / EV-A71 2A Protease oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68 / EV-A71 3C Protease Assay Cascade &lt;/h3> 
 
 
@@ -3597,6 +4196,60 @@ Pioneered by the &lt;a href="https://www.thesgc.org/tep">Structural Genomics Con
 
 
  &lt;small>&lt;i>[2022-07-14]&lt;/i> Initial draft&lt;/small> &lt;br>
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> EV-D68 / EV-A71 capsid VP1 Assay Cascade &lt;/h3> 
+
+
+
+
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/10tZJvEqpkakq5clvJMawdOTHxPMgimjU7zd0AW11bCg/edit#slide=id.g2c89056347c_1_139">[Assay Cascade]&lt;/a>
+
+&lt;br>
+
+
+
+ Assay cascade for EV-D68 / EV-A71 capsid VP1 assembly oral antiviral &lt;br>
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;span class="label success">Biochemical Assay Core&lt;/span>
+ 
+ &lt;span class="label success">Structural Biology Core&lt;/span>
+ 
+ &lt;span class="label success">Antiviral Core&lt;/span>
+ 
+ &lt;br>
+
+
+
 
 
 &lt;/div>
@@ -9292,6 +9945,54 @@ Our TCPs are informed by the corresponding &lt;a href="#target-product-profile">
 
 
  &lt;div class="prettybox" data-component="prettybox">
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-2APRO"> EV-D68/A71 2A protease oral inhibitor &lt;/h3> 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ &lt;a href="https://docs.google.com/presentation/d/1uZht18ZJnHuwMtwxY4prDBSl4SFMK-ics4ERhDgiJ2s/edit#slide=id.g3056b130e14_1_0">[Target Candidate Profile]&lt;/a>
+
+&lt;br>
+
+
+
+
+
+
+
+ Contributing Projects and Cores: 
+ 
+ &lt;span class="label focus">Project 3&lt;/span>
+ 
+ &lt;span class="label focus">Project 5&lt;/span>
+ 
+ 
+ &lt;br>
+
+
+
+
+
+&lt;/div>
+
+
+
+ 
+ 
+
+
+
+
+ &lt;div class="prettybox" data-component="prettybox">
  &lt;h3 style="text-align: left;" id="ASAP-EVD68-3CLPRO"> EV-D68/A71 3C protease oral inhibitor &lt;/h3> 
 
 
@@ -9344,7 +10045,7 @@ Our TCPs are informed by the corresponding &lt;a href="#target-product-profile">
 
 
  &lt;div class="prettybox" data-component="prettybox">
- &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> EV-D68/A71 VP1 capsid assembly oral inhibitor &lt;/h3> 
+ &lt;h3 style="text-align: left;" id="ASAP-EVD68-EVA71-VP1-CAPSID"> EV-D68/A71 capsid VP1 assembly oral inhibitor &lt;/h3> 
 
 
 
