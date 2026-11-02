@@ -157,7 +157,7 @@ ASAP-ZIKA-NS5-RDRP:
 # other groups, credited below as provenance rather than as ASAP outputs.
 ASAP-EVD68-2APRO:
   name: Analysis of circulating variants of EV-D68/A71 2A protease
-  description: Interactive fitness views of the enterovirus 2A protease, each rendered with [choppa](/outputs/software/#choppa) onto the A71EV2A-x0926a fragment-bound structure. The NextStrain views show substitutions observed in circulating virus; the deep mutational scanning views show measured mutational fitness; the conservation view counts substitutions across 25 enterovirus 2A homologues.
+  description: Interactive fitness views of the enterovirus 2A protease, each rendered with choppa onto the A71EV2A-x0926a fragment-bound structure. The NextStrain views show substitutions observed in circulating virus; the deep mutational scanning views show measured mutational fitness; the conservation view counts substitutions across 25 enterovirus 2A homologues.
   links:
   - name: fitness view, EV-D68 circulating variants
     url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
@@ -178,10 +178,13 @@ ASAP-EVD68-2APRO:
   - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
     url: https://doi.org/10.1101/2024.03.07.583990
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-2APRO-INTRAMOL:
   name: Analysis of circulating variants of EV-D68/A71 2A protease (intramolecular)
-  description: The 2A protease fitness views also cover the intramolecular VP1-2A cleavage programme, as the structure they are rendered on carries the VP1-2A junction in the active site. Rendered with [choppa](/outputs/software/#choppa); see the 2A protease entry for the full set.
+  description: The 2A protease fitness views also cover the intramolecular VP1-2A cleavage programme, as the structure they are rendered on carries the VP1-2A junction in the active site. Rendered with choppa; see the 2A protease entry for the full set.
   links:
   - name: fitness view, EV-D68 circulating variants
     url: /fitness-views/ev-2a-protease-evd68-nextstrain.html
@@ -196,10 +199,13 @@ ASAP-EVD68-2APRO-INTRAMOL:
   - name: "source data: EV-A71 proteome-wide DMS (Bakhache et al. 2024)"
     url: https://doi.org/10.1038/s41564-024-01871-y
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-EVA71-VP1-CAPSID:
   name: Analysis of circulating variants of EV-D68/A71 capsid VP1
-  description: Interactive fitness view of the enterovirus capsid, rendered with [choppa](/outputs/software/#choppa) onto the EV-A71 capsid structure from coxsackievirus B3 capsid-wide deep mutational scanning.
+  description: Interactive fitness view of the enterovirus capsid, rendered with choppa onto the EV-A71 capsid structure from coxsackievirus B3 capsid-wide deep mutational scanning.
   links:
   - name: fitness view, CVB3 capsid DMS
     url: /fitness-views/ev-capsid-cvb3-dms.html
@@ -208,10 +214,13 @@ ASAP-EVD68-EVA71-VP1-CAPSID:
   - name: "source data: CVB3 capsid DMS (Mattenberger et al. 2021)"
     url: https://doi.org/10.7554/eLife.64256
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website
 
 ASAP-EVD68-3CLPRO:
   name: Analysis of circulating variants of EV-D68/A71 3C protease
-  description: A fitness view of the 3C protease is in preparation. The source data below are proteome-wide, so they cover the 3C protease; the views are rendered with [choppa](/outputs/software/#choppa).
+  description: A fitness view of the 3C protease is in preparation. The source data below are proteome-wide, so they cover the 3C protease; the views are rendered with choppa.
   links:
   - name: "source data: NextStrain EV-D68"
     url: https://nextstrain.org/enterovirus/d68/genome
@@ -222,3 +231,6 @@ ASAP-EVD68-3CLPRO:
   - name: "source data: CVB3 proteome-wide DMS (Alvarez-Rodriguez et al. 2024)"
     url: https://doi.org/10.1101/2024.03.07.583990
   projects: [Project 1, Computational Chemistry Core]
+  events:
+  - date: 2026-10-31
+    description: Initial version of analyzed data posted to website

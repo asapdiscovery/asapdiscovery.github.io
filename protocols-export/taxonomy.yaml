@@ -6,17 +6,17 @@
 https://www.protocols.io/view/50-tissue-culture-infectious-dose-tcid50-for-sars-df8g3rtw:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/a549-ace2-sars-cov-1-antiviral-effect-screening-as-g6w6bzfhf:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-1
 https://www.protocols.io/view/antiviral-in-vitro-screening-using-sars-cov-2-and-d58u89ww:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/asap-protocol-crystallization-of-enterovirus-a71-3-czpyx5pw:
   category: ''
@@ -51,7 +51,7 @@ https://www.protocols.io/view/assessing-intestinal-and-cns-permeability-with-mdr
 https://www.protocols.io/view/calculating-multiplicity-of-infection-moi-dik24cye:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: General
 https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-djdp4i5n:
   category: Crystallization
@@ -61,7 +61,7 @@ https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma
 https://www.protocols.io/view/coronavirus-protease-panel-anti-viral-assay-using-d7rq9m5w:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: Coronavirus
 https://www.protocols.io/view/creoptix-protein-immobilization-protocol-biotin-ca-dyy47xyw:
   category: Biophysical Assay
@@ -231,7 +231,7 @@ https://www.protocols.io/view/crystallization-of-zika-virus-ns3-helicase-pdb-g3p
 https://www.protocols.io/view/cytotoxicity-screening-assay-paired-with-antiviral-diky4cxw:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: General
 https://www.protocols.io/view/data-analysis-waverapid-using-creoptix-wavesystem-dp685rhw:
   category: Biophysical Assay
@@ -246,7 +246,7 @@ https://www.protocols.io/view/dengue-2-ns2b-ns3-protease-binding-assay-for-compo
 https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto-d4v98w96:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: DENV
 https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-dqtw5wpe:
   category: ''
@@ -480,12 +480,12 @@ https://www.protocols.io/view/fluorescence-assay-of-ev-d68-3c-protease-activity-
 https://www.protocols.io/view/generating-antiviral-amp-cytotoxicity-curves-diqi4due:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: General
 https://www.protocols.io/view/in-vitro-antiviral-screening-assay-against-viruses-d5jq84mw:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: General
 https://www.protocols.io/view/in-vitro-cyp-inhibition-pooled-gzz5bx787:
   category: ADMET
@@ -530,12 +530,12 @@ https://www.protocols.io/view/in-vivo-mouse-and-rat-pk-bioanalysis-gz75bx9q7:
 https://www.protocols.io/view/influenza-virus-plaque-assay-b5yjq7un:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: Influenza
 https://www.protocols.io/view/ipsc-pneumocyte-live-virus-sars-cov-2-cytotoxicity-dip94dr6:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/isothermal-titration-calorimetry-protocol-for-bind-gzx7bx7rp:
   category: Biophysical Assay
@@ -568,42 +568,42 @@ https://www.protocols.io/view/large-scale-zikv-ns3-helicase-expression-setup-and
 https://www.protocols.io/view/live-virus-dengue-vero-tmprss2-pgp-inhibitor-antiv-dn335gqn:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: DENV
 https://www.protocols.io/view/live-virus-ev-a71-rd-antiviral-screening-assay-d53h88j6:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: EV-A71
 https://www.protocols.io/view/live-virus-ev-d68-on-rd-cells-antiviral-screening-hbesb2jef:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: EV-D68
 https://www.protocols.io/view/live-virus-ev-d68-rd-antiviral-screening-assay-eb6gbarbx:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: EV-D68
 https://www.protocols.io/view/live-virus-mers-cov-vero-tmprss2-pgp-inhibitor-ant-diqk4duw:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: MERS-CoV
 https://www.protocols.io/view/live-virus-sars-cov-2-hela-ace2-antiviral-screenin-de5k3g4w:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/live-virus-sars-cov-2-ipsc-pneumocyte-antiviral-sc-diai4ace:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/live-virus-zika-vero-tmprss2-pgp-inhibitor-antivir-dm3s48ne:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: ZIKV
 https://www.protocols.io/view/logp-logd-shake-flask-method-djue4nte:
   category: ADMET
@@ -618,7 +618,7 @@ https://www.protocols.io/view/master-setup-and-operation-of-single-use-sub-bubbl
 https://www.protocols.io/view/mers-cov-antiviral-immunofluorescence-staining-pro-dn3s5gne:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: MERS-CoV
 https://www.protocols.io/view/mers-cov-main-protease-mpro-fluorescence-dose-resp-cs48wgzw:
   category: ''
@@ -733,7 +733,7 @@ https://www.protocols.io/view/readdi-protocol-crystallisation-of-dengue-ns5-rdrp
 https://www.protocols.io/view/sars-cov-2-antiviral-immunofluorescence-staining-p-diqa4dse:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: SARS-CoV-2
 https://www.protocols.io/view/sars-cov-2-macrodomain-mac1-tr-fret-dose-response-cssfwebn:
   category: ''
@@ -871,7 +871,7 @@ https://www.protocols.io/view/the-manufacture-and-setup-of-single-use-sub-bubble
 https://www.protocols.io/view/using-the-tecan-d300e-dfgw3jxe:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: General
 https://www.protocols.io/view/west-nile-virus-ns2b-ns3-inactive-fusion-protease-g2qbbydsp:
   category: Protein Production
@@ -911,7 +911,7 @@ https://www.protocols.io/view/xchem-solvent-test-dcpy2vpw:
 https://www.protocols.io/view/zika-antiviral-immunofluorescence-staining-protoco-dm3x48pn:
   category: Antiviral Assay
   cores:
-  - Antiviral Assay Core
+  - Antiviral Core
   target: ZIKV
 https://www.protocols.io/view/zika-ns2b-3-4a-protein-construct-cleavage-pattern-d5fq83mw:
   category: Protein Production

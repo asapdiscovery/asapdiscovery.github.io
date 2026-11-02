@@ -81,7 +81,7 @@
 
   <!-- Build a priority list for programs based on number of started stages for each program -->
   {{ $programs := slice }}
-  {{ range $program := $.Site.Data.programs }}
+  {{ range $program := hugo.Data.programs }}
     {{ $in_progress := 0 }}
     {{ range $stage := $program }}      
       {{ if not (eq $stage.status "not-started")  }}
@@ -92,7 +92,7 @@
     {{ $programs = $programs | append (slice $program) }} 
   {{ end }}
 
-  <!-- Iterate through $.Site.Data.programs in descending order based on the value in $program_progress -->
+  <!-- Iterate through hugo.Data.programs in descending order based on the value in $program_progress -->
 
   
   <!-- List all programs for each viral family -->

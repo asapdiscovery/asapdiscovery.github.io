@@ -11,3 +11,7 @@ __pycache__/
 */*/.DS_Store
 
 public/
+
+# RPPR: CDD Vault API key and private vault exports
+rppr/CDD_VAULT_API_KEY
+rppr/cdd-data/

@@ -15,7 +15,7 @@
 <h2>Principal Investigators</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .role "Principal Investigator" }}
   <div class="row gutters">
     {{ partial "person" . }}
@@ -30,7 +30,7 @@
 <h2>Administrative Staff</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if eq .role "Administrative Director" }}
   <div class="row gutters">
     {{ partial "person" . }}
@@ -45,7 +45,7 @@
 <h2>Project Leads</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .role "Project Lead" }}
     {{ partial "person" . }}
   {{ end }}
@@ -57,7 +57,7 @@
 <h2>Core Leads</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .role "Core Lead" }}
     {{ partial "person" . }}
   {{ end }}
@@ -69,7 +69,7 @@
 <h2>Co-Investigators</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .role "Co-Investigator" }}
     {{ partial "person" . }}
   {{ end }}
@@ -83,7 +83,7 @@
 <h2>Scientists and Collaborators</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if not (in $other_roles .role) }}
     {{ if not (in .lab "Administrative Core") }}
       {{ partial "person" . }}
@@ -98,7 +98,7 @@
 <h2>Collaborators</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .role "Collaborator" }}
     {{ partial "person" . }}
   {{ end }}
@@ -111,7 +111,7 @@
 <h2>Administrative Core</h2>
 
 <ul>
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
   {{ if in .lab "Administrative Core" }}
     {{ partial "person" . }}
   {{ end }}

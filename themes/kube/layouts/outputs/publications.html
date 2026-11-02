@@ -20,7 +20,7 @@
 
   <!-- Iterate over publiations -->
   <ul>
-  {{ range sort $.Site.Data.publications.publications ".date" "desc" }}
+  {{ range sort hugo.Data.publications.publications ".date" "desc" }}
     <!-- Anchor for linking (e.g. from the pipeline): optional `id` in publications.yaml, else the anchorized title -->
     <div class="row gutters" id="{{ .id | default (anchorize .title) }}">
       {{ partial "publication" . }}

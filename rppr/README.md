@@ -1,32 +1,94 @@
 # Scripts for generating NIH RPPR Progress Report Summary
 
-These scripts automate the generation of the Progres Report Summary (Form Page 5)
+These scripts automate the generation of the Progress Report Summary (PHS 2590 Form Page 5 continuation pages) for each Project and Core of the ASAP AViDD U19 Center.
 
 All styles are taken from the `2590_continuation-template.docx` template. Modifications to this document will be propagated through into generated Word documents.
 
 ## Prerequisites
 
-Install the prerequisites
 ```bash
-mamba create -n rppr python-docx mistune<1.0 sympy pyyaml
-mamba activate rppr
+conda env create -f environment.yml   # or: conda env update -n rppr -f environment.yml
+conda activate rppr
+```
 
 ## RPPR generation
-```
-Run the script
+
+Each Project/Core writes its narrative sections (**B. Studies and Results**, **C. Significance**, **D. Plans**) as a Word document named `<Component>*.docx` (e.g. `Project 6.docx`, `Antiviral Core.docx`) in a shared Google Drive folder. The script combines, for each component in `specific-aims.yaml`:
+
+1. generated front matter and **A. Specific Aims** (from `specific-aims.yaml`; the Administrative Core document may supply its own overall narrative and Specific Aims)
+2. the B/C/D narrative from the Drive document (figures, tables, and formatting preserved; leftover template instructions and comments are stripped)
+3. a generated **Publications and research outputs during this reporting period** subsection at the end of B, drawn from the Hugo data in `../data` (publications/preprints, research outputs, TEP resources, software, protocols, ChEMBL datasets)
+4. generated compliance sections (Human Subjects, Vertebrate Animals, ...)
+
 ```bash
+python generate-rppr.py                               # default Drive folder, writes outputs/
+python generate-rppr.py --drive-sections DIR          # use a different folder (e.g. a downloaded zip)
+python generate-rppr.py --components "Project 6"      # regenerate a single component
+python generate-rppr.py --period-start 2025-09-19 --period-end 2026-12-31
+```
+
+Generated Word documents are written to `outputs/` (close them in Word first), together with `Overall Accomplishments.docx` (which points reviewers to the Administrative Core, per NIAID PO direction) and a PDF rendering of every document (skip with `--no-pdf`). PDFs are rendered with LibreOffice if installed, otherwise with Microsoft Word via `docx2pdf`. On macOS, documents are converted in a temporary folder inside Word's sandbox container (`~/Library/Containers/com.microsoft.Word/Data/tmp/`) so Word does not ask for file access, and the PDFs are moved back to `outputs/`. Every PDF is then flattened with Ghostscript (`gs`; `brew install ghostscript`), because eRA Commons rejects "layered" PDFs ("Please ensure all files are flattened"): link annotations are removed (URLs stay visible in the text), transparency is flattened (PDF 1.3), and figures are downsampled, starting at 300 dpi and dropping as needed to fit eRA's 6 MB attachment limit. Any PDF still over 6 MB is reported in `rppr-issues.md`. On macOS the first run needs permission for your terminal to control Microsoft Word (System Settings > Privacy & Security > Automation; if denied by mistake, `tccutil reset AppleEvents <terminal bundle id>` and re-run).
+
+The run also writes `outputs/rppr-issues.md`, which lists problems to resolve: missing Drive documents or sections, unresolved comments, leftover template text, figures/tables lost in the merge, outputs without attribution, publications without PMCIDs, etc.
+
+If no Drive document is found for a component, the legacy `asap-year-1-accomplishments.yaml` / `asap-year-1-plans.yaml` text is used and flagged as an error.
+
+## Checking reportable outputs
+
+```bash
+python check-outputs.py [--slides outputs-overview-slides.pdf] [--offline]
+```
+
+Extracts hyperlinks from the outputs overview slide deck and checks that each is represented in the Hugo data; queries bioRxiv/chemRxiv/Crossref/NCBI to verify preprint first-posted dates, version history, published versions, and PMCIDs; and flags attribution names that do not match a component. Writes `outputs/outputs-audit.md`.
+
+### Publication date conventions (`../data/publications/publications.yaml`)
+
+* `preprint.date`: date the **first** version was posted
+* `preprint.versions`: optional list of `{version, date, url}` for every posted version; later versions within the reporting period are reported as "preprint updated"
+* `published.date`: online publication date of the journal version
+
+Research outputs in `../data/outputs/*.yaml` are reported when they have a dated `events` entry in the reporting period (software, molecules, ...); protocols use `date`, ChEMBL datasets use `released`, and TEP resources use `date`.
+
+## Contract research site assay statistics (CDD Vault)
+
+The Biochemical Assay Core report includes counts of assays run at contract research sites (Bienta/Enamine and Weizmann) during the reporting period, by assay protocol and drug discovery program. These are pulled from the ASAP Discovery CDD Vault in a separate step:
+
+```bash
+python fetch-cdd-assays.py [--period-start 2025-09-19] [--period-end 2026-12-31] [--vault-id 6890]
 python generate-rppr.py
 ```
-Generated word documents will be found in `outputs/`
+
+**API key:** create a file `rppr/CDD_VAULT_API_KEY` containing a single line
+
+```
+CDD_VAULT_API_KEY=<your CDD Vault API token>
+```
+
+(Generate a token in CDD Vault under your user settings; it needs read access to the ASAP Discovery Vault.) This file is gitignored and must **never** be committed; the script only sends the key in the `X-CDD-Token` request header and never prints or stores it.
+
+**What is fetched:** protocols whose names contain `bienta`/`enamine` (Bienta/Enamine) or `weizmann` (Weizmann), excluding non-assay `QC_*` and `logistics_*` protocols, restricted to runs whose run date falls in the reporting period. For each compound measured, only the CDD number (e.g. `ASAP-0047629`), protocol name and description, run date, and the batch field `program_code` are kept. **No chemical structure information is requested or stored**: batch requests use `no_structures=true`, responses are reduced to the fields above, and the script aborts if a structure field ever appears.
+
+A *measurement* is one compound tested in one assay run (dose-response points and replicates within a run are counted once). Results are written to `cdd-data/` (gitignored, private vault data):
+
+* `cdd-data/cdd-assay-measurements.csv`: one row per measurement (`cdd_number, site, protocol, protocol_id, run_id, run_date, program_code, readout_rows, protocol_description`)
+* `cdd-data/cdd-assay-summary.csv`: counts by site, protocol, and program code
+
+Program codes are mapped to program names using `../data/programs/*.yaml` (`overview.program_code`), falling back to `../data/outputs/TEPs/*.yaml` (`TEP.asap.program_code`); unmapped codes are listed in `outputs/rppr-issues.md`.
 
 ## Manifest
-* `component-names.yaml` : Official full names of Projects and Cores
-* `specific-aims.yaml` : Specific Aims for Projects and Cores
+* `specific-aims.yaml` : Names, Specific Aims, and generic significance text for Projects and Cores
+* `asap-year-1-accomplishments.yaml`, `asap-year-1-plans.yaml` : legacy B/D text (fallback only)
+* `generate-rppr.py` : report generator
+* `check-outputs.py` : outputs audit
+* `fetch-cdd-assays.py` : CDD Vault assay statistics export (needs `CDD_VAULT_API_KEY`)
 
-## TODO
-* Check out https://github.com/mjanv/mistune-docx
+## Thumbnail videos
 
-
+To generate a thumbnail sheet of youtube videos:
+```bash
+python3 -m pip install -U yt-dlp Pillow requests
+python3 avidd_thumbnail_sheet.py
+```
 
 ---
 
@@ -85,3 +147,6 @@ Translational Centers of Excellence and Research Coordination Section
 Office of Biodefense, Research resources, and Translational Research
 
 DMID/NIAID/NIH
+## Data Management and Sharing Plan
+
+`python generate-dms-plan.py` fills the NIH 2026 DMS Plan format page (`dms-blank-format-page-2026.docx`) and writes `outputs/Data Management and Sharing Plan.docx` plus a flattened PDF. The answers, the element 4 limitations (300 words maximum) and the element 6 data-type table (100 words maximum) are constants at the top of the script, which checks the word limits. The text follows the ASAP IP and Open Science Policy described in the Administrative Core narrative. See NIH's [Writing a DMS Plan](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan) guidance.

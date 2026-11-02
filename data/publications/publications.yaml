@@ -13,6 +13,18 @@
     url: https://doi.org/10.1101/2023.01.30.526314
     license: "CC BY 4.0"
     date: 2023-01-31
+    versions:
+      - {version: 1, date: 2023-01-31, url: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v1}
+      - {version: 2, date: 2023-06-06, url: https://www.biorxiv.org/content/10.1101/2023.01.30.526314v2}
+  published:
+    doi: 10.1093/ve/vead055
+    journal: Virus Evolution
+    volume: 9
+    pages: vead055
+    date: 2023-09-18
+    year: 2023
+    pmid: 37727875
+    pmcid: PMC10506532
   github: jbloomlab/SARS2-mut-fitness
   data: https://jbloomlab.github.io/SARS2-mut-fitness/
 
@@ -26,9 +38,12 @@
   projects: [Project 2]
   preprint:
     server: bioRxiv
-    date: 2021-01-22
+    date: 2020-12-23
     url: https://doi.org/10.1101/2020.12.23.424149
     license: "CC-BY-NC-ND 4.0 International license"
+    versions:
+      - {version: 1, date: 2020-12-23, url: https://www.biorxiv.org/content/10.1101/2020.12.23.424149v1}
+      - {version: 2, date: 2021-01-22, url: https://www.biorxiv.org/content/10.1101/2020.12.23.424149v2}
   published:
     doi: 10.1038/s41467-023-37035-5
     journal: Nature Communications
@@ -76,6 +91,8 @@
     pages: 585
     date: 2023-04-29
     year: 2023
+    pmid: 37173515
+    pmcid: PMC10176316
 
 - title: "Allosteric regulation and crystallographic fragment screening of SARS-CoV-2 NSP15 endoribonuclease"    
   authors: "Andre Schutzer Godoy, Aline Minalli Nakamura, Alice Douangamath, Yun Song, Gabriela Dias Noske, Victor Oliveira Gawriljuk, Rafaela Sachetto Fernandes, Humberto D Muniz Pereira, Ketllyn Irene Zagato Oliveira, Daren Fearon, Alexandre Dias, Tobias Krojer, Michael Fairhead, Alisa Powell, Louise Dunnet, Jose Brandao-Neto, Rachael Skyner, Rod Chalk, Dávid Bajusz, Miklós Bege, Anikó Borbás, György Miklós Keserű, Frank von Delft, Glaucius Oliva"
@@ -103,9 +120,15 @@
   projects: []
   preprint:
     server: bioRxiv
-    date: 2023-09-06
+    date: 2020-10-30
     url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v5
-    license: "CC-BY 4.0 International license"  
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2020-10-30, url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v1}
+      - {version: 2, date: 2021-10-18, url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v2}
+      - {version: 3, date: 2022-01-30, url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v3}
+      - {version: 4, date: 2023-03-02, url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v4}
+      - {version: 5, date: 2023-09-06, url: https://www.biorxiv.org/content/10.1101/2020.10.29.339317v5}
   published:
     doi: 10.1126/science.abo7201
     journal: Science
@@ -154,7 +177,10 @@
     server: bioRxiv
     date: 2024-04-29
     url: https://doi.org/10.1101/2024.04.27.591279
-    license: "CC-BY 4.0 International license"  
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2024-04-29, url: https://www.biorxiv.org/content/10.1101/2024.04.27.591279v1}
+      - {version: 2, date: 2025-09-23, url: https://www.biorxiv.org/content/10.1101/2024.04.27.591279v2}
 
 - title: "Structure-Activity Relationship Studies Towards Analogues of Pleconaril as Novel Enterovirus-D68 Capsid-Targeting Antivirals"    
   authors: "David L. Cousins, Ed J. Griffen, Jessica Stacey, Alpha A. Lee, Yuliia Filimonova, Anton Hlavin, Yuliia Holota, Roman Khmil, Mykyta Kordubailo, Oleksii Kostinov, Dmytro Lesyk, Ivan Logvinenko, Mariia Lototska, Viacheslav Lysenko, Anna Pashchenko, Mariia Pavlichenko, Anzhela Rodnichenko, Anton Tkachenko, Brett L. Hurst, Justin G. Julander, Hong Wang, Rebecca Pearl, Jared Benjamin, Randy Diaz-Tapia, Mary E. Gordon, Randy A. Albrecht, Kris White"
@@ -165,9 +191,13 @@
   projects: [Project 3]
   preprint:
     server: bioRxiv
-    date: 2025-08-12
+    date: 2025-08-11
     url: https://doi.org/10.1101/2025.08.08.668114
-    license: "CC-BY 4.0 International license"  
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2025-08-11, url: https://www.biorxiv.org/content/10.1101/2025.08.08.668114v1}
+      - {version: 2, date: 2025-08-12, url: https://www.biorxiv.org/content/10.1101/2025.08.08.668114v2}
+      - {version: 3, date: 2026-10-21, url: https://www.biorxiv.org/content/10.1101/2025.08.08.668114v3}
 
 - title: "Enzyme kinetics model for the coronavirus main protease including dimerization and ligand binding"    
   authors: "Van N.T. La, Lulu Kang, David D.L. Minh"
@@ -213,9 +243,24 @@
   projects: [Project 5]
   preprint:
     server: chemRxiv
-    date: 2026-01-06
-    url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v6
-    license: "CC-BY 4.0 International license" 
+    date: 2025-07-25
+    url: https://doi.org/10.26434/chemrxiv-2025-zd9mr
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2025-07-25, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr}
+      - {version: 2, date: 2025-08-26, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v2}
+      - {version: 3, date: 2025-09-01, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v3}
+      - {version: 4, date: 2025-09-23, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v4}
+      - {version: 5, date: 2025-11-07, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v5}
+      - {version: 6, date: 2026-01-06, url: https://doi.org/10.26434/chemrxiv-2025-zd9mr-v6}
+  published:
+    doi: 10.1021/acs.jcim.5c02106
+    journal: Journal of Chemical Information and Modeling
+    volume: 66
+    pages: 3129
+    date: 2026-02-26
+    year: 2026
+    pmcid: PMC13329884
 
 - title: "Discovery of potent SARS-CoV-2 nsp3 macrodomain inhibitors uncovers lack of translation to cellular antiviral response"    
   authors: "Alpha A Lee, Isabelle Amick, Jasmin C Aschenbrenner, Haim M Barr, Jared Benjamin, Alexander Brandis, Galit Cohen, Randy Diaz-Tapia, Shirly Duberstein, Jessica Dixon, David Cousins, Michael Fairhead, Daren Fearon, James Frick, James Gayvert, Andre S Godoy, Ed J Griffin, Kilian Huber, Lizbé Koekemoer, Noa Lahav, Peter G Marples, Briana L McGovern, Tevie Mehlman, Matthew C Robinson, Usha Singh, Tamas Szommer, Charles WE Tomlinson, Thomas Vargo, Frank von Delft, SiYi Wang, Kris White, Eleanor Williams, Max Winokan"
@@ -273,9 +318,12 @@
   projects: [Project 1]
   preprint:
     server: bioRxiv
-    date: 2025-02-13
+    date: 2024-04-29
     url: https://doi.org/10.1101/2024.04.29.591502
-    license: "CC-BY 4.0 International license" 
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2024-04-29, url: https://www.biorxiv.org/content/10.1101/2024.04.29.591502v1}
+      - {version: 2, date: 2025-02-13, url: https://www.biorxiv.org/content/10.1101/2024.04.29.591502v2}
   published:
     doi: 10.1038/s41467-025-63602-z
     journal: Nature Communications
@@ -294,10 +342,13 @@
   projects: [Project 2, Project 3]
   preprint:
     server: bioRxiv
-    date: 2026-05-11
+    date: 2025-06-20
     url: https://doi.org/10.1101/2025.06.19.660642
     license: "CC-BY 4.0 International license"
     pmcid: PMC12262667
+    versions:
+      - {version: 1, date: 2025-06-20, url: https://www.biorxiv.org/content/10.1101/2025.06.19.660642v1}
+      - {version: 2, date: 2026-05-11, url: https://www.biorxiv.org/content/10.1101/2025.06.19.660642v2}
 
 - title: "Crystallographic fragment screening of the dengue virus polymerase reveals multiple binding sites for the development of non-nucleoside antiflavivirals"
   authors: "Manisha Saini, Jasmin C. Aschenbrenner, Francesc Xavier Ruiz, Ashima Chopra, Anu V. Chandran, Peter G. Marples, Blake H. Balcomb, Daren Fearon, Frank von Delft, Eddy Arnold"
@@ -337,3 +388,48 @@
 
   
 
+
+- title: "Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibitor"
+  authors: "Ed J. Griffen, Daren Fearon, Briana L. McGovern, Lizbé Koekemoer, Blake H. Balcomb, Tamas Szommer, Gwendolyn Fate, Ralph P. Robinson, Bruce A. Lefker, Shirly Duberstein, Noa Lahav, Stéphanie Braillard, Laura Vangeel, Manon Laporte, Fanny B. Charvillon, A. Kenneth MacLeod, Alice Wells, Philip Garner, Rachael Knight, Philippa Rees, Anne Simon, Dirk Jochmans, Johan Neyts, Kevin D. Read, Haim Barr, Matthew Robinson, Alpha A. Lee, Nir London, John D. Chodera, Frank von Delft, Kris M. White, Benjamin Perry, Peter Sjö, Annette R. von Delft"
+  summary: We report the metabolic and toxicologic optimization of the COVID Moonshot noncovalent SARS-CoV-2 main protease inhibitor series, addressing genotoxic metabolite formation and high clearance, leading to selection of DNDI-6510 as a preclinical candidate.
+  date: 2025-06-17
+  programs: [ASAPPTGTTM]
+  cores: []
+  projects: [Project 5]
+  preprint:
+    server: bioRxiv
+    date: 2025-06-17
+    url: https://doi.org/10.1101/2025.06.16.660018
+    license: "CC-BY 4.0 International license"
+    versions:
+      - {version: 1, date: 2025-06-17, url: https://www.biorxiv.org/content/10.1101/2025.06.16.660018v1}
+
+# TODO: Syndirella is commented out pending a check on ASAP funding acknowledgment.
+# Its NIH PMC / Europe PMC funding record (PMC13656017) lists only University of Oxford and IBM Research,
+# not NIAID U19 AI171399 (ASAP). Check whether the paper should have cited ASAP (and whether it can be
+# linked to the award in My Bibliography) before restoring this entry.
+# - title: "Syndirella: synthesis-directed fragment elaboration enables extensive and cost-effective binding site exploration beyond catalog compounds"
+#   authors: "Kate K. Fieseler, Max Winokan, Joseph A. Morrone, Charlotte M. Deane, Frank von Delft, Warren Thompson"
+#   summary: Syndirella generates and scores synthetically practical elaborations of fragment-screen hits starting from retrosynthetic analysis, enabling cost-effective exploration of binding sites beyond catalog compounds.
+#   date: 2026-09-29
+#   programs: []
+#   cores: [Structural Biology Core]
+#   projects: [Project 2]
+#   github: kate-fie/syndirella
+#   preprint:
+#     server: chemRxiv
+#     date: 2025-09-24
+#     url: https://doi.org/10.26434/chemrxiv-2025-0jd39
+#     license: "CC-BY 4.0 International license"
+#     versions:
+#       - {version: 1, date: 2025-09-24, url: https://doi.org/10.26434/chemrxiv-2025-0jd39}
+#       - {version: 2, date: 2025-09-29, url: https://doi.org/10.26434/chemrxiv-2025-0jd39-v2}
+#   published:
+#     doi: 10.1039/d6sc02032a
+#     journal: Chemical Science
+#     volume: 17
+#     pages: 20118
+#     date: 2026-09-29  # Crossref gives year only; confirmed by Europe PMC first publication date
+#     year: 2026
+#     pmid: 42866252
+#     pmcid: PMC13656017

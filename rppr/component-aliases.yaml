@@ -1,0 +1,11 @@
+# Names used in data/ `projects:`/`cores:` lists that are not RPPR components
+# (keys of specific-aims.yaml), mapped to the component(s) they report under.
+# An empty list means the output is not attributed to any component.
+# Used by generate-rppr.py and check-outputs.py; tests/test_data.py fails on any name that is
+# neither a component nor listed here.
+Antiviral Assay Core: [Antiviral Core]
+Virology Core: [Antiviral Core]
+ADMET Core: [Biochemical Assay Core]
+Computational Chemistry Core: [Project 5]
+# Placeholder emitted by protocols-export/convert.py for protocols not yet categorised
+Unassigned: []
