@@ -744,6 +744,70 @@ def build_front(component_shortname, component, drive_info):
     return document
 
 
+OVERALL_ACCOMPLISHMENTS = 'Overall Accomplishments'
+OVERALL_ACCOMPLISHMENTS_TEXT = ('The overall review of accomplishments is included in the Administrative Core '
+                                'per NIAID PO direction.')
+
+
+def generate_overall_accomplishments(output_path):
+    """Center-level "Overall Accomplishments" document pointing to the Administrative Core report."""
+    document = docx.Document(DOCX_TEMPLATE)
+    document.sections[0].header.paragraphs[0].add_run('Chodera, John Damon').bold = True
+    document.add_heading(OVERALL_ACCOMPLISHMENTS, 0)
+    document.add_paragraph(OVERALL_ACCOMPLISHMENTS_TEXT)
+    output_filename = os.path.join(output_path, f'{OVERALL_ACCOMPLISHMENTS}.docx')
+    document.save(output_filename)
+    print(f'Wrote {output_filename}')
+    return output_filename
+
+
+def find_soffice():
+    for candidate in (shutil.which('soffice'), shutil.which('libreoffice'),
+                      '/Applications/LibreOffice.app/Contents/MacOS/soffice'):
+        if candidate and os.path.exists(candidate):
+            return candidate
+    return None
+
+
+def convert_to_pdf(docx_paths, output_path):
+    """
+    Render each generated .docx to a .pdf alongside it. Uses LibreOffice (soffice) if installed, otherwise
+    Microsoft Word via docx2pdf (macOS/Windows; Word may ask once for permission to access the folder).
+    """
+    import subprocess
+    if not docx_paths:
+        return
+    soffice = find_soffice()
+    print(f'Rendering {len(docx_paths)} PDF(s) using {"LibreOffice" if soffice else "Microsoft Word (docx2pdf)"}')
+    for path in docx_paths:
+        pdf_path = os.path.splitext(path)[0] + '.pdf'
+        try:
+            if soffice:
+                subprocess.run([soffice, '--headless', '--convert-to', 'pdf', '--outdir', output_path, path],
+                               check=True, capture_output=True, timeout=600)
+            else:
+                from docx2pdf import convert
+                convert(path, pdf_path)
+        except ImportError:
+            issue('pdf', 'No PDF converter available: install LibreOffice or `pip install docx2pdf` (requires Microsoft Word)', 'error')
+            return
+        except Exception as e:
+            issue('pdf', f'PDF conversion failed for {os.path.basename(path)}: {type(e).__name__}: {e}', 'error')
+            continue
+        if not os.path.exists(pdf_path):
+            if soffice:
+                issue('pdf', f'PDF conversion produced no output for {os.path.basename(path)}', 'error')
+                continue
+            # docx2pdf swallows Word automation errors; the usual cause on macOS is a missing Automation
+            # permission (AppleEvent error -1743), which would fail every remaining file the same way.
+            issue('pdf', f'Microsoft Word produced no PDF for {os.path.basename(path)}. On macOS, allow your terminal '
+                         'to control Microsoft Word (System Settings > Privacy & Security > Automation), then re-run; '
+                         'or install LibreOffice. Remaining PDFs skipped.', 'error')
+            return
+        else:
+            print(f'  Wrote {pdf_path}')
+
+
 def build_heading(title, page_break=True, markdown_text=''):
     document = new_document()
     if page_break:
@@ -1060,6 +1124,7 @@ def main():
     parser.add_argument('--components', nargs='+', help='Only generate these components (default: all)')
     parser.add_argument('--period-start', default=reporting_period_start.isoformat())
     parser.add_argument('--period-end', default=reporting_period_end.isoformat())
+    parser.add_argument('--no-pdf', action='store_true', help='Skip rendering PDF versions of the generated .docx files')
     args = parser.parse_args()
 
     output_path = os.path.abspath(args.output_dir)
@@ -1103,6 +1168,12 @@ def main():
         summary = generate_progress_report(component_shortname, component, output_path, args.drive_sections, legacy)
         check_report(summary)
         summaries.append(summary)
+
+    generated = [s['output'] for s in summaries if s.get('output')]
+    if not args.components or OVERALL_ACCOMPLISHMENTS in args.components:
+        generated.append(generate_overall_accomplishments(output_path))
+    if not args.no_pdf:
+        convert_to_pdf(generated, output_path)
 
     write_issues_report(os.path.join(output_path, 'rppr-issues.md'), summaries)
 

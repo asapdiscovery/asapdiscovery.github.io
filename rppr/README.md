@@ -27,7 +27,9 @@ python generate-rppr.py --components "Project 6"      # regenerate a single comp
 python generate-rppr.py --period-start 2025-09-19 --period-end 2026-12-31
 ```
 
-Generated Word documents are written to `outputs/` (close them in Word first), along with `outputs/rppr-issues.md`, which lists problems to resolve: missing Drive documents or sections, unresolved comments, leftover template text, figures/tables lost in the merge, outputs without attribution, publications without PMCIDs, etc.
+Generated Word documents are written to `outputs/` (close them in Word first), together with `Overall Accomplishments.docx` (which points reviewers to the Administrative Core, per NIAID PO direction) and a PDF rendering of every document (skip with `--no-pdf`). PDFs are rendered with LibreOffice if installed, otherwise with Microsoft Word via `docx2pdf`; on macOS the first run needs permission for your terminal to control Microsoft Word (System Settings > Privacy & Security > Automation; if denied by mistake, `tccutil reset AppleEvents <terminal bundle id>` and re-run).
+
+The run also writes `outputs/rppr-issues.md`, which lists problems to resolve: missing Drive documents or sections, unresolved comments, leftover template text, figures/tables lost in the merge, outputs without attribution, publications without PMCIDs, etc.
 
 If no Drive document is found for a component, the legacy `asap-year-1-accomplishments.yaml` / `asap-year-1-plans.yaml` text is used and flagged as an error.
 

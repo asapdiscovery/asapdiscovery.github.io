@@ -12,3 +12,6 @@ dependencies:
   - openpyxl
   - requests
   - pypdf
+  - pip
+  - pip:
+      - docx2pdf  # PDF rendering via Microsoft Word when LibreOffice is not installed
