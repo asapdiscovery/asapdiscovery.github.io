@@ -776,43 +776,130 @@ def find_soffice():
     return None
 
 
+WORD_CONTAINER = os.path.expanduser('~/Library/Containers/com.microsoft.Word/Data')
+
+
+def word_staging_dir():
+    """
+    On macOS, Word is sandboxed and asks for permission for every file outside its container. Files inside its
+    container (~/Library/Containers/com.microsoft.Word/Data) are always accessible, so conversions are staged there.
+    Returns a fresh staging directory, or None if the container does not exist (not macOS, or Word never run).
+    """
+    import sys
+    import tempfile
+    if sys.platform != 'darwin' or not os.path.isdir(WORD_CONTAINER):
+        return None
+    staging_root = os.path.join(WORD_CONTAINER, 'tmp')
+    os.makedirs(staging_root, exist_ok=True)
+    return tempfile.mkdtemp(prefix='rppr-pdf-', dir=staging_root)
+
+
+ERA_PDF_LIMIT_MB = 6  # eRA Commons RPPR attachment size limit
+
+
+def flatten_pdf(gs, source, target, dpi):
+    """Rewrite source as a flattened PDF 1.3 (no annotations/links, transparency flattened at dpi)."""
+    import subprocess
+    subprocess.run([gs, '-q', '-dNOPAUSE', '-dBATCH', '-dSAFER', '-sDEVICE=pdfwrite', f'-r{dpi}',
+                    '-dCompatibilityLevel=1.3', '-dPreserveAnnots=false', '-dPDFSETTINGS=/printer',
+                    '-dDetectDuplicateImages=true', f'-sOutputFile={target}', source],
+                   check=True, capture_output=True, timeout=900)
+
+
+def finalize_pdf(pdf_path):
+    """
+    Flatten a PDF with Ghostscript so eRA Commons accepts it ("Please ensure all files are flattened").
+    eRA rejects "layered" PDFs; Word's PDFs contain link annotations and transparent (soft-masked) figures and have a
+    malformed cross-reference table. The equivalent of printing to PDF is done here: link annotations are removed
+    (URLs remain visible in the text), transparency is flattened by writing PDF 1.3, and images are downsampled.
+    The flattening resolution is lowered from 300 dpi until the file fits eRA's 6 MB limit.
+    """
+    gs = shutil.which('gs')
+    if not gs:
+        issue('pdf', f'Ghostscript (gs) not found; {os.path.basename(pdf_path)} was not flattened for eRA upload '
+                     '(install with `brew install ghostscript` or `conda install ghostscript`)', 'error')
+        return
+    flattened = pdf_path + '.tmp.pdf'
+    try:
+        for dpi in (300, 250, 200, 150):
+            flatten_pdf(gs, pdf_path, flattened, dpi)
+            if os.path.getsize(flattened) <= ERA_PDF_LIMIT_MB * 1e6:
+                break
+        os.replace(flattened, pdf_path)
+    except Exception as e:
+        if os.path.exists(flattened):
+            os.remove(flattened)
+        issue('pdf', f'Ghostscript failed to flatten {os.path.basename(pdf_path)}: {type(e).__name__}', 'error')
+        return
+    size_mb = os.path.getsize(pdf_path) / 1e6
+    print(f'  Wrote {pdf_path} ({size_mb:.1f} MB, flattened at {dpi} dpi)')
+    if dpi < 300:
+        issue('pdf', f'{os.path.basename(pdf_path)} was flattened at {dpi} dpi to fit the {ERA_PDF_LIMIT_MB} MB eRA limit', 'info')
+    if size_mb > ERA_PDF_LIMIT_MB:
+        issue('pdf', f'{os.path.basename(pdf_path)} is {size_mb:.1f} MB, over the {ERA_PDF_LIMIT_MB} MB eRA upload limit; '
+                     'reduce figure sizes in the Drive document', 'error')
+
+
 def convert_to_pdf(docx_paths, output_path):
     """
     Render each generated .docx to a .pdf alongside it. Uses LibreOffice (soffice) if installed, otherwise
-    Microsoft Word via docx2pdf (macOS/Windows; Word may ask once for permission to access the folder).
+    Microsoft Word via docx2pdf (macOS/Windows). On macOS, the files are copied into Word's sandbox container for
+    conversion so that Word does not prompt for file access, and the PDFs are moved back to output_path.
     """
     import subprocess
     if not docx_paths:
         return
     soffice = find_soffice()
     print(f'Rendering {len(docx_paths)} PDF(s) using {"LibreOffice" if soffice else "Microsoft Word (docx2pdf)"}')
-    for path in docx_paths:
-        pdf_path = os.path.splitext(path)[0] + '.pdf'
-        try:
-            if soffice:
+    if soffice:
+        for path in docx_paths:
+            pdf_path = os.path.splitext(path)[0] + '.pdf'
+            try:
                 subprocess.run([soffice, '--headless', '--convert-to', 'pdf', '--outdir', output_path, path],
                                check=True, capture_output=True, timeout=600)
-            else:
-                from docx2pdf import convert
-                convert(path, pdf_path)
-        except ImportError:
-            issue('pdf', 'No PDF converter available: install LibreOffice or `pip install docx2pdf` (requires Microsoft Word)', 'error')
-            return
-        except Exception as e:
-            issue('pdf', f'PDF conversion failed for {os.path.basename(path)}: {type(e).__name__}: {e}', 'error')
-            continue
-        if not os.path.exists(pdf_path):
-            if soffice:
-                issue('pdf', f'PDF conversion produced no output for {os.path.basename(path)}', 'error')
+            except Exception as e:
+                issue('pdf', f'PDF conversion failed for {os.path.basename(path)}: {type(e).__name__}: {e}', 'error')
                 continue
-            # docx2pdf swallows Word automation errors; the usual cause on macOS is a missing Automation
-            # permission (AppleEvent error -1743), which would fail every remaining file the same way.
-            issue('pdf', f'Microsoft Word produced no PDF for {os.path.basename(path)}. On macOS, allow your terminal '
-                         'to control Microsoft Word (System Settings > Privacy & Security > Automation), then re-run; '
-                         'or install LibreOffice. Remaining PDFs skipped.', 'error')
-            return
-        else:
-            print(f'  Wrote {pdf_path}')
+            if os.path.exists(pdf_path):
+                finalize_pdf(pdf_path)
+            else:
+                issue('pdf', f'PDF conversion produced no output for {os.path.basename(path)}', 'error')
+        return
+
+    try:
+        from docx2pdf import convert
+    except ImportError:
+        issue('pdf', 'No PDF converter available: install LibreOffice or `pip install docx2pdf` (requires Microsoft Word)', 'error')
+        return
+
+    staging = word_staging_dir()
+    try:
+        for path in docx_paths:
+            pdf_path = os.path.splitext(path)[0] + '.pdf'
+            if staging:
+                source = os.path.join(staging, os.path.basename(path))
+                shutil.copy2(path, source)
+                target = os.path.splitext(source)[0] + '.pdf'
+            else:
+                source, target = path, pdf_path
+            try:
+                convert(source, target)
+            except (Exception, SystemExit) as e:  # docx2pdf calls sys.exit(1) when Word reports an error
+                issue('pdf', f'PDF conversion failed for {os.path.basename(path)}: {type(e).__name__}: {e}', 'error')
+                continue
+            if not os.path.exists(target):
+                # docx2pdf swallows Word automation errors; the usual cause on macOS is a missing Automation
+                # permission (AppleEvent error -1743), which would fail every remaining file the same way.
+                issue('pdf', f'Microsoft Word produced no PDF for {os.path.basename(path)}. On macOS, allow your terminal '
+                             'to control Microsoft Word (System Settings > Privacy & Security > Automation), then re-run; '
+                             'or install LibreOffice. Remaining PDFs skipped.', 'error')
+                return
+            if staging:
+                shutil.move(target, pdf_path)
+            finalize_pdf(pdf_path)
+    finally:
+        if staging:
+            shutil.rmtree(staging, ignore_errors=True)
 
 
 def build_heading(title, page_break=True, markdown_text=''):

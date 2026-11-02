@@ -12,6 +12,7 @@ dependencies:
   - openpyxl
   - requests
   - pypdf
+  - ghostscript  # flattens/compresses PDFs for eRA upload
   - pip
   - pip:
       - docx2pdf  # PDF rendering via Microsoft Word when LibreOffice is not installed
