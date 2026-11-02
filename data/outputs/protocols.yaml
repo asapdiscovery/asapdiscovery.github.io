@@ -193,6 +193,17 @@
   description: "Purpose: performing dose-response test of selected compounds from screening experiments against ZIKV NS2B-NS3 to confirm efficacy General description: This protocol details the fluorescent assays for ZIKV NS2B-NS3 cleavage of substrate Bz-Nle-KRR-AMC peptide. This method measures the fluorescence..."
   cores: ['Biochemical Assay Core']
 
+- name: Comparative In Vitro Characterisation of Flavivirus Replication via Zika and Dengue Virus RdRp Kinetics
+  url: https://www.protocols.io/view/comparative-in-vitro-characterisation-of-flaviviru-g3rqbym5x/v1
+  category: Biochemical Assay
+  target: Flavivirus NS5 RdRp
+  author: Charline Giroud
+  authors: [Charline Giroud, Noa Lahav, Oleg Fedorov, Andre Schutzer de Godoy]
+  date: 2026-09-23
+  version: v1
+  description: "This is a functional, biochemical assay used to identify treatments for viral infectious diseases related to DENV & ZIKV infection and targets the NS5 RNA dependent RNA polymerase (RdRp).   Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate rea..."
+  cores: ['Biochemical Assay Core']
+
 # Crystallization Protocols
 - name: Co-crystallisation protocol for SARS-CoV-2 nsp3 macrodomain in P1 21 1 with ligands
   url: https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma-djdp4i5n/v1
@@ -886,6 +897,39 @@
   date: 2024-10-23
   version: v1
   description: "This protocol details the expression and purification of Zika Virus NS2B-NS3 protease fusion protein with a his10-tag for biophysical assay at a 1 L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC, desalt, tag ..."
+  cores: ['Structural Biology Core']
+
+- name: "Zika Virus RNA-dependant RNA polymerase (RdRp) expression and purification: small scale 4L cultures for assay"
+  url: https://www.protocols.io/view/zika-virus-rna-dependant-rna-polymerase-rdrp-expre-j7rucrm6x/v1
+  category: Protein Production
+  target: ZIKV NS5 RdRp
+  author: Korvus Wang
+  authors: [Korvus Wang]
+  date: 2026-09-21
+  version: v1
+  description: "This protocol details the expression and purification of Zika Virus RNA-dependent RNA polymerase at 6L culture scale. This protein was used for downstream biochemical assays.Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC, de..."
+  cores: ['Structural Biology Core']
+
+- name: Dengue Virus Serotype 2 RNA-dependent RNA polymerase Avi-tagged (Biotinylated) Creoptix assay construct small scare (5L) expression and purification
+  url: https://www.protocols.io/view/dengue-virus-serotype-2-rna-dependent-rna-polymer-j6qacrdsf/v1
+  category: Protein Production
+  target: DENV NS5 RdRp
+  author: Korvus Wang
+  authors: [Korvus Wang]
+  date: 2026-09-21
+  version: v1
+  description: "This protocol details the expression and purification of Dengue Virus Serotype 2 RNA-dependent RNA polymerase fusion protein with an AviTag (biotinylation tag) for biophysical assay at a 5L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and th..."
+  cores: ['Structural Biology Core']
+
+- name: Dengue RNA-dependent RNA polymerase crystallization and assay construct small scale (6L) expression and purification protocol
+  url: https://www.protocols.io/view/dengue-rna-dependent-rna-polymerase-crystallizatio-g9nybz5fx/v1
+  category: Protein Production
+  target: DENV NS5 RdRp
+  author: Korvus Wang
+  authors: [Korvus Wang, Michael Fairhead, Eleanor Williams]
+  date: 2026-09-07
+  version: v1
+  description: "This protocol details the expression and purification of Dengue virus serotype 2 RNA dependent RNA polymerase construct bearing a N-terminal His6 tag at small scale (<6L)."
   cores: ['Structural Biology Core']
 
 # Biophysical Assay Protocols
