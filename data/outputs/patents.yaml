@@ -7,7 +7,7 @@
   application: "US 63/734,894"
   type: US provisional patent application
   status: pending
-  filed:  # TODO: filing date
+  filed: 2024-12-17  # priority date claimed by PCT/EP2025/061127 (WO2025125695, DNDi + MedChemica)
   description: "Targeted patent application covering the broad-spectrum MERS-CoV/SARS-CoV-2 Mpro inhibitor ASAP-0017445, filed in line with the ASAP IP policy to ensure non-exclusive, royalty-free global access."
   projects: [Project 6]
   cores: []
