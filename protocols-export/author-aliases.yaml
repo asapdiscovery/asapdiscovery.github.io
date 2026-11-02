@@ -7,6 +7,9 @@
 # Account username rather than a display name.
 charline.giroud: Charline Giroud
 
+# The 2026-10-30 export lowercased the given name on every row for this author.
+charline Giroud: Charline Giroud
+
 # Two spellings of the same surname in the export, plus the preferred given name.
 Yurii Kheilik: Yuri Kheylik
 Yurii Kheylik: Yuri Kheylik

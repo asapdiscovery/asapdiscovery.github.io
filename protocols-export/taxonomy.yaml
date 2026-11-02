@@ -58,6 +58,11 @@ https://www.protocols.io/view/co-crystallisation-protocol-for-sars-cov-2-nsp3-ma
   cores:
   - Structural Biology Core
   target: SARS-CoV-2 nsp3 macrodomain
+https://www.protocols.io/view/comparative-in-vitro-characterisation-of-flaviviru-g3rqbym5x:
+  category: Biochemical Assay
+  cores:
+  - Biochemical Assay Core
+  target: Flavivirus NS5 RdRp
 https://www.protocols.io/view/coronavirus-protease-panel-anti-viral-assay-using-d7rq9m5w:
   category: Antiviral Assay
   cores:
@@ -248,6 +253,11 @@ https://www.protocols.io/view/dengue-antiviral-immunofluorescence-staining-proto
   cores:
   - Antiviral Assay Core
   target: DENV
+https://www.protocols.io/view/dengue-rna-dependent-rna-polymerase-crystallizatio-g9nybz5fx:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS5 RdRp
 https://www.protocols.io/view/dengue-virus-serotype-1-ns2b-ns3-protease-fusion-c-dqtw5wpe:
   category: ''
   cores: []
@@ -292,6 +302,11 @@ https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-p
   cores:
   - Structural Biology Core
   target: DENV
+https://www.protocols.io/view/dengue-virus-serotype-2-rna-dependent-rna-polymer-j6qacrdsf:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: DENV NS5 RdRp
 https://www.protocols.io/view/dengue-virus-serotype-3-ns2b-ns3-protease-fusion-dqty5wpw:
   category: ''
   cores: []
@@ -962,6 +977,11 @@ https://www.protocols.io/view/zika-virus-ns2b-ns3-protease-fusion-protein-his10-
   cores:
   - Structural Biology Core
   target: ZIKV NS2B-NS3
+https://www.protocols.io/view/zika-virus-rna-dependant-rna-polymerase-rdrp-expre-j7rucrm6x:
+  category: Protein Production
+  cores:
+  - Structural Biology Core
+  target: ZIKV NS5 RdRp
 https://www.protocols.io/view/zikv-ns2b-ns3-fluorescence-single-point-screening-dq3t5ynn:
   category: Biochemical Assay
   cores:
