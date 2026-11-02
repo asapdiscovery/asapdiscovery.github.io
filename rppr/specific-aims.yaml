@@ -72,6 +72,7 @@ Project 3:
 Project 4:
   name: "Project 4: Covalent targeting strategies"
   type: Project
+  discontinued: true  # Eliminated; kept so historical attributions in ../data remain valid. No report is generated.
   significance: |
     ASAP is organized into a series of Projects responsible for sequential stages of the structure-based drug discovery process through which Discovery Programs flow.
 

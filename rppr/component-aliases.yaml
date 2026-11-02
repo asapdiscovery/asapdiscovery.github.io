@@ -1,0 +1,6 @@
+# Historical / alternate component names used in the Hugo data (../data), mapped to the
+# component keys in specific-aims.yaml. Used by generate-rppr.py and check-outputs.py.
+Antiviral Assay Core: Antiviral Core
+Virology Core: Antiviral Core
+ADMET Core: Biochemical Assay Core
+Computational Chemistry Core: Project 5

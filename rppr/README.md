@@ -1,31 +1,57 @@
 # Scripts for generating NIH RPPR Progress Report Summary
 
-These scripts automate the generation of the Progres Report Summary (Form Page 5)
+These scripts automate the generation of the Progress Report Summary (PHS 2590 Form Page 5 continuation pages) for each Project and Core of the ASAP AViDD U19 Center.
 
 All styles are taken from the `2590_continuation-template.docx` template. Modifications to this document will be propagated through into generated Word documents.
 
 ## Prerequisites
 
-Install the prerequisites
 ```bash
-conda create -n rppr python-docx "mistune<1.0" sympy pyyaml emacs pandas
+conda env create -f environment.yml   # or: conda env update -n rppr -f environment.yml
 conda activate rppr
+```
 
 ## RPPR generation
-```
-Run the script
+
+Each Project/Core writes its narrative sections (**B. Studies and Results**, **C. Significance**, **D. Plans**) as a Word document named `<Component>*.docx` (e.g. `Project 6.docx`, `Antiviral Core.docx`) in a shared Google Drive folder. The script combines, for each component in `specific-aims.yaml`:
+
+1. generated front matter and **A. Specific Aims** (from `specific-aims.yaml`; the Administrative Core document may supply its own overall narrative and Specific Aims)
+2. the B/C/D narrative from the Drive document (figures, tables, and formatting preserved; leftover template instructions and comments are stripped)
+3. a generated **Publications and research outputs during this reporting period** subsection at the end of B, drawn from the Hugo data in `../data` (publications/preprints, research outputs, TEP resources, software, protocols, ChEMBL datasets)
+4. generated compliance sections (Human Subjects, Vertebrate Animals, ...)
+
 ```bash
-python generate-rppr.py
+python generate-rppr.py                               # default Drive folder, writes outputs/
+python generate-rppr.py --drive-sections DIR          # use a different folder (e.g. a downloaded zip)
+python generate-rppr.py --components "Project 6"      # regenerate a single component
+python generate-rppr.py --period-start 2025-09-19 --period-end 2026-12-31
 ```
-Generated word documents will be found in `outputs/`
+
+Generated Word documents are written to `outputs/` (close them in Word first), along with `outputs/rppr-issues.md`, which lists problems to resolve: missing Drive documents or sections, unresolved comments, leftover template text, figures/tables lost in the merge, outputs without attribution, publications without PMCIDs, etc.
+
+If no Drive document is found for a component, the legacy `asap-year-1-accomplishments.yaml` / `asap-year-1-plans.yaml` text is used and flagged as an error.
+
+## Checking reportable outputs
+
+```bash
+python check-outputs.py [--slides outputs-overview-slides.pdf] [--offline]
+```
+
+Extracts hyperlinks from the outputs overview slide deck and checks that each is represented in the Hugo data; queries bioRxiv/chemRxiv/Crossref/NCBI to verify preprint first-posted dates, version history, published versions, and PMCIDs; and flags attribution names that do not match a component. Writes `outputs/outputs-audit.md`.
+
+### Publication date conventions (`../data/publications/publications.yaml`)
+
+* `preprint.date`: date the **first** version was posted
+* `preprint.versions`: optional list of `{version, date, url}` for every posted version; later versions within the reporting period are reported as "preprint updated"
+* `published.date`: online publication date of the journal version
+
+Research outputs in `../data/outputs/*.yaml` are reported when they have a dated `events` entry in the reporting period (software, molecules, ...); protocols use `date`, ChEMBL datasets use `released`, and TEP resources use `date`.
 
 ## Manifest
-* `component-names.yaml` : Official full names of Projects and Cores
-* `specific-aims.yaml` : Specific Aims for Projects and Cores
-
-## TODO
-* Check out https://github.com/mjanv/mistune-docx
-
+* `specific-aims.yaml` : Names, Specific Aims, and generic significance text for Projects and Cores
+* `asap-year-1-accomplishments.yaml`, `asap-year-1-plans.yaml` : legacy B/D text (fallback only)
+* `generate-rppr.py` : report generator
+* `check-outputs.py` : outputs audit
 
 ## Thumbnail videos
 

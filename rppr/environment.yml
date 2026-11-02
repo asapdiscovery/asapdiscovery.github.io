@@ -1,0 +1,14 @@
+name: rppr
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - python-docx
+  - docxcompose
+  - mistune<1.0
+  - sympy
+  - pyyaml
+  - pandas
+  - openpyxl
+  - requests
+  - pypdf
