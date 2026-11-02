@@ -47,11 +47,38 @@ Extracts hyperlinks from the outputs overview slide deck and checks that each is
 
 Research outputs in `../data/outputs/*.yaml` are reported when they have a dated `events` entry in the reporting period (software, molecules, ...); protocols use `date`, ChEMBL datasets use `released`, and TEP resources use `date`.
 
+## Contract research site assay statistics (CDD Vault)
+
+The Biochemical Assay Core report includes counts of assays run at contract research sites (Bienta/Enamine and Weizmann) during the reporting period, by assay protocol and drug discovery program. These are pulled from the ASAP Discovery CDD Vault in a separate step:
+
+```bash
+python fetch-cdd-assays.py [--period-start 2025-09-19] [--period-end 2026-12-31] [--vault-id 6890]
+python generate-rppr.py
+```
+
+**API key:** create a file `rppr/CDD_VAULT_API_KEY` containing a single line
+
+```
+CDD_VAULT_API_KEY=<your CDD Vault API token>
+```
+
+(Generate a token in CDD Vault under your user settings; it needs read access to the ASAP Discovery Vault.) This file is gitignored and must **never** be committed; the script only sends the key in the `X-CDD-Token` request header and never prints or stores it.
+
+**What is fetched:** protocols whose names contain `bienta`/`enamine` (Bienta/Enamine) or `weizmann` (Weizmann), excluding non-assay `QC_*` and `logistics_*` protocols, restricted to runs whose run date falls in the reporting period. For each compound measured, only the CDD number (e.g. `ASAP-0047629`), protocol name and description, run date, and the batch field `program_code` are kept. **No chemical structure information is requested or stored**: batch requests use `no_structures=true`, responses are reduced to the fields above, and the script aborts if a structure field ever appears.
+
+A *measurement* is one compound tested in one assay run (dose-response points and replicates within a run are counted once). Results are written to `cdd-data/` (gitignored, private vault data):
+
+* `cdd-data/cdd-assay-measurements.csv`: one row per measurement (`cdd_number, site, protocol, protocol_id, run_id, run_date, program_code, readout_rows, protocol_description`)
+* `cdd-data/cdd-assay-summary.csv`: counts by site, protocol, and program code
+
+Program codes are mapped to program names using `../data/programs/*.yaml` (`overview.program_code`), falling back to `../data/outputs/TEPs/*.yaml` (`TEP.asap.program_code`); unmapped codes are listed in `outputs/rppr-issues.md`.
+
 ## Manifest
 * `specific-aims.yaml` : Names, Specific Aims, and generic significance text for Projects and Cores
 * `asap-year-1-accomplishments.yaml`, `asap-year-1-plans.yaml` : legacy B/D text (fallback only)
 * `generate-rppr.py` : report generator
 * `check-outputs.py` : outputs audit
+* `fetch-cdd-assays.py` : CDD Vault assay statistics export (needs `CDD_VAULT_API_KEY`)
 
 ## Thumbnail videos
 

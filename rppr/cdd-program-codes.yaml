@@ -1,0 +1,14 @@
+# Labels for CDD Vault batch `program_code` values that are missing from, or differ from, ../data/programs/*.yaml.
+# Used by generate-rppr.py when summarizing contract-site assay statistics (see fetch-cdd-assays.py).
+# Discovery program codes are taken from ../data/programs/*.yaml (overview.program_code), falling back to
+# ../data/outputs/TEPs/*.yaml (TEP.asap.program_code); entries here take precedence over both.
+
+# Legacy program codes still used for batches in the CDD Vault. These programs were consolidated in the Hugo data
+# in 2023 (EV-A71 2A into EV-D68/A71 2A, ASAPPWAUTP; Zika RdRp into DENV/ZIKV/WNV RdRp, ASAPPIBTTB), but CDD
+# batches continue to be registered under the original codes.
+ASAPPTBOAM: "EV-D68/A71 2A protease"
+ASAPPWCTFT: "DENV/ZIKV/WNV RdRp polymerase"
+
+# Non-program codes
+ASAPPCTRLS: "Control/reference compounds (used across discovery programs)"
+ASAPPFRAGS: "Fragments (Project 2)"

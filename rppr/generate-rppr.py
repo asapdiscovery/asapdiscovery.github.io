@@ -783,6 +783,81 @@ def build_structural_biology_statistics():
     return markdown_text
 
 
+CDD_ASSAY_DATA = os.path.join('cdd-data', 'cdd-assay-measurements.csv')
+CDD_ASSAY_COMPONENTS = ('Biochemical Assay Core',)  # components whose reports include the CDD assay statistics
+
+
+def load_program_names():
+    """Map ASAP program codes to program names: data/programs/*.yaml, with data/outputs/TEPs/*.yaml as fallback."""
+    import glob
+    names = {}
+    for path in sorted(glob.glob('../data/outputs/TEPs/*.yaml')):
+        tep = (load_yaml(path) or {}).get('TEP') or {}
+        code = (tep.get('asap') or {}).get('program_code')
+        if code and tep.get('name'):
+            names.setdefault(code, tep['name'])
+    for path in sorted(glob.glob('../data/programs/*.yaml')):
+        overview = (load_yaml(path) or {}).get('overview') or {}
+        if overview.get('program_code') and overview.get('name'):
+            names[overview['program_code']] = overview['name']
+    if os.path.exists('cdd-program-codes.yaml'):
+        names.update(load_yaml('cdd-program-codes.yaml') or {})
+    return names
+
+
+def build_assay_statistics(component_shortname):
+    """
+    Summarize compound measurements run at contract research sites (Bienta/Enamine, Weizmann) during the
+    reporting period, from the CDD Vault export written by fetch-cdd-assays.py.
+    """
+    if not os.path.exists(CDD_ASSAY_DATA):
+        issue(component_shortname, f'CDD assay data {CDD_ASSAY_DATA} not found; run fetch-cdd-assays.py', 'info')
+        return ''
+    import pandas as pd
+    data = pd.read_csv(CDD_ASSAY_DATA, dtype=str, keep_default_na=False)
+    dates = pd.to_datetime(data['run_date']).dt.date
+    data = data[(dates >= reporting_period_start) & (dates <= reporting_period_end)]
+    if data.empty:
+        issue(component_shortname, 'CDD assay data has no measurements in the reporting period', 'warning')
+        return ''
+
+    program_names = load_program_names()
+
+    def program_label(code):
+        if not code:
+            return 'no program assigned'
+        if code not in program_names:
+            issue('data', f'CDD program_code {code} has no program name in data/programs or data/outputs/TEPs')
+            return code
+        return f'{program_names[code]} ({code})'
+
+    for code in sorted(set(data.loc[data['program_code'] == '', 'protocol'])):
+        issue('data', f'CDD protocol {code} has measurements with no program_code batch field')
+    for protocol, description in data.groupby('protocol')['protocol_description'].first().items():
+        if not description.strip():
+            issue('data', f'CDD protocol {protocol} has no description')
+
+    markdown_text = '## Assays performed at contract research sites during this reporting period\n\n'
+    markdown_text += ('Counts are compound measurements (one compound tested in one assay run; dose-response points and '
+                      'replicates within a run are counted once), compiled from the ASAP Discovery CDD Vault for runs dated '
+                      f'{reporting_period_start.isoformat()} to {reporting_period_end.isoformat()}.\n\n')
+    for site, site_data in data.groupby('site', sort=True):
+        markdown_text += (f'**{site}** performed {len(site_data):,} compound measurements of '
+                          f'{site_data["cdd_number"].nunique():,} unique compounds in {site_data["run_id"].nunique():,} runs '
+                          f'across {site_data["protocol"].nunique()} assay protocols:\n\n')
+        protocols = site_data.groupby('protocol')
+        for protocol in sorted(protocols.groups, key=lambda p: -len(protocols.get_group(p))):
+            rows = protocols.get_group(protocol)
+            description = rows['protocol_description'].iloc[0].strip()
+            per_program = rows['program_code'].value_counts()
+            breakdown = '; '.join(f'{program_label(code)}: {count:,}' for code, count in per_program.items())
+            markdown_text += (f'* **{protocol}**' + (f' ({description})' if description else '')
+                              + f': {len(rows):,} measurements of {rows["cdd_number"].nunique():,} compounds in '
+                              f'{rows["run_id"].nunique()} runs. By program: {breakdown}.\n')
+        markdown_text += '\n'
+    return markdown_text
+
+
 def build_trailer(component_shortname, component):
     markdown_text = '---\n\n'
     for title in ('Human Subjects', 'Inclusion of Women and Minorities in Clinical Research',
@@ -861,6 +936,12 @@ def generate_progress_report(component_shortname, component, output_path, drive_
         composer.append(render_markdown(new_document(), text))
     if component_shortname == 'Structural Biology Core':
         stats = build_structural_biology_statistics()
+        if stats:
+            document = new_document()
+            render_markdown(document, stats)
+            composer.append(document)
+    if component_shortname in CDD_ASSAY_COMPONENTS:
+        stats = build_assay_statistics(component_shortname)
         if stats:
             document = new_document()
             render_markdown(document, stats)
