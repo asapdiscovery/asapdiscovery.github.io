@@ -1,0 +1,13 @@
+# Patent applications arising from ASAP work.
+# Filed under the ASAP IP policy (defensive patenting for non-exclusive, royalty-free global licensing):
+# https://doi.org/10.12688/wellcomeopenres.22645.1
+# Pending applications are listed in every RPPR until issued or abandoned.
+
+- name: "Broad-spectrum coronavirus main protease inhibitor ASAP-0017445"
+  application: "US 63/734,894"
+  type: US provisional patent application
+  status: pending
+  filed:  # TODO: filing date
+  description: "Targeted patent application covering the broad-spectrum MERS-CoV/SARS-CoV-2 Mpro inhibitor ASAP-0017445, filed in line with the ASAP IP policy to ensure non-exclusive, royalty-free global access."
+  projects: [Project 6]
+  cores: []
