@@ -12,7 +12,7 @@
 
 <!-- Split out lastname from members so we can sort alphabetically -->
 {{ $members := slice }}
-{{ range $member := $.Site.Data.members }}
+{{ range $member := hugo.Data.members }}
     {{ $names := split .name " " }}
     {{ $reverse_names := last 1 $names }}
     {{ $member = merge $member (dict "firstname" (index $names 0) "lastname" (index $reverse_names 0)) }}    

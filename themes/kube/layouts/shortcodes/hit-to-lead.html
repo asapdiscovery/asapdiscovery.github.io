@@ -1,5 +1,5 @@
 <!-- TODO: How should we sort the target data? -->
-{{ range $program := $.Site.Data.programs }}
+{{ range $program := hugo.Data.programs }}
 
     {{ range $molecule := $program.molecules.releases }}
         {{ $molecule = merge $molecule (dict "overview" $program.overview) }}

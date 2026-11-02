@@ -20,7 +20,7 @@
 <h2>Open positions</h2>
 
 <ul>
-{{ range $.Site.Data.jobs }}
+{{ range hugo.Data.jobs }}
   {{ if eq .status "open" }}
   <div class="row gutters">
     {{ partial "job" . }}

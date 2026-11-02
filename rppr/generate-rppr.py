@@ -241,11 +241,13 @@ get_components = load_yaml  # backwards compatibility
 
 
 def normalize_component(name):
-    return ATTRIBUTION_ALIASES.get(name, name)
+    """Return the list of components an attribution name reports under (see component-aliases.yaml)."""
+    aliased = ATTRIBUTION_ALIASES.get(name, name)
+    return list(aliased) if isinstance(aliased, list) else [aliased]
 
 
 def contributors(output):
-    names = [normalize_component(n) for n in (output.get('projects') or []) + (output.get('cores') or [])]
+    names = [c for n in (output.get('projects') or []) + (output.get('cores') or []) for c in normalize_component(n)]
     return list(dict.fromkeys(names))  # de-duplicate (aliases can map two names to one component), keep order
 
 
@@ -315,6 +317,8 @@ def render_products_to_markdown(yaml_filepath, component_shortname):
             for link in output['links']:
                 markdown_text += f"* _{link['name']}_: {link['url']}\n"
             markdown_text += '\n'
+        elif output.get('url'):
+            markdown_text += f"{output['url']}\n\n"
         else:
             issue(component_shortname, f'Output "{output["name"]}" ({source}) has no permalink or links')
 
@@ -349,20 +353,23 @@ def render_software(component_shortname):
 
 
 def render_protocols(component_shortname):
-    """Render protocols (dated by `date`) for this Project/Core to Markdown."""
+    """
+    Render protocols for this Project/Core to Markdown. A protocol is reported if any of its `events`
+    (protocols.io version publications) falls in the reporting period; protocols without events fall back to `date`.
+    """
     protocols = load_yaml('../data/outputs/protocols.yaml')
     markdown_text = ''
     for protocol in protocols:
         if not component_contributed_to_output(component_shortname, protocol):
             continue
-        if 'date' not in protocol or not text_date_is_in_reporting_period(protocol['date']):
+        events = protocol.get('events') or ([{'date': protocol['date'], 'description': 'Published'}] if protocol.get('date') else [])
+        events = [e for e in events if text_date_is_in_reporting_period(e['date'])]
+        if not events:
             continue
         line = f"* **{protocol['name']}**"
-        if protocol.get('version'):
-            line += f" (version {protocol['version']})"
-        line += f". {protocol['date']}."
         if protocol.get('url'):
             line += f" {protocol['url']}"
+        line += '. ' + '; '.join(f"{e['date']}: {e['description']}" for e in sorted(events, key=lambda e: str(e['date'])))
         markdown_text += line + '\n'
     return markdown_text + ('\n' if markdown_text else '')
 
@@ -1147,7 +1154,7 @@ def main():
             if isinstance(node, dict):
                 for key in ('projects', 'cores'):
                     for name in node.get(key) or [] if isinstance(node.get(key), list) else []:
-                        if normalize_component(name) not in components:
+                        if name not in components and name not in ATTRIBUTION_ALIASES:
                             issue('data', f'Attribution "{name}" (in {os.path.relpath(path, "../data")}) is not a component in specific-aims.yaml; those outputs are not reported for it')
                 for value in node.values():
                     walk(value)

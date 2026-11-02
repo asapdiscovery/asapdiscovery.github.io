@@ -190,7 +190,7 @@
         <select id="target-filter" onchange="filterProtocols()">
             <option value="">All Targets</option>
             {{ $targets := slice }}
-            {{ range $.Site.Data.outputs.protocols }}
+            {{ range hugo.Data.outputs.protocols }}
                 {{ $targets = $targets | append .target }}
             {{ end }}
             {{ $targets = $targets | uniq | sort }}
@@ -204,7 +204,7 @@
         <select id="author-filter" onchange="filterProtocols()">
             <option value="">All Authors</option>
             {{ $authors := slice }}
-            {{ range $.Site.Data.outputs.protocols }}
+            {{ range hugo.Data.outputs.protocols }}
                 {{ range .authors }}
                     {{ $authors = $authors | append . }}
                 {{ end }}
@@ -220,7 +220,7 @@
         <select id="core-filter" onchange="filterProtocols()">
             <option value="">All Cores</option>
             {{ $cores := slice }}
-            {{ range $.Site.Data.outputs.protocols }}
+            {{ range hugo.Data.outputs.protocols }}
                 {{ range .cores }}
                     {{ $cores = $cores | append . }}
                 {{ end }}
@@ -234,7 +234,7 @@
 </div>
 
 <div class="protocol-count">
-    Showing <span id="visible-count">{{ len $.Site.Data.outputs.protocols }}</span> of {{ len $.Site.Data.outputs.protocols }} protocols
+    Showing <span id="visible-count">{{ len hugo.Data.outputs.protocols }}</span> of {{ len hugo.Data.outputs.protocols }} protocols
 </div>
 
 <table class="protocols-table" id="protocols-table">
@@ -250,7 +250,7 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $.Site.Data.outputs.protocols }}
+        {{ range hugo.Data.outputs.protocols }}
         <tr data-category="{{ .category }}" data-target="{{ .target }}" data-authors="{{ delimit .authors "|" }}" data-core="{{ delimit .cores ", " }}">
             <td>
                 <a href="{{ .url }}" target="_blank">{{ .name }}</a>
