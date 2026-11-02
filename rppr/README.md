@@ -147,3 +147,6 @@ Translational Centers of Excellence and Research Coordination Section
 Office of Biodefense, Research resources, and Translational Research
 
 DMID/NIAID/NIH
+## Data Management and Sharing Plan
+
+`python generate-dms-plan.py` fills the NIH 2026 DMS Plan format page (`dms-blank-format-page-2026.docx`) and writes `outputs/Data Management and Sharing Plan.docx` plus a flattened PDF. The answers, the element 4 limitations (300 words maximum) and the element 6 data-type table (100 words maximum) are constants at the top of the script, which checks the word limits. The text follows the ASAP IP and Open Science Policy described in the Administrative Core narrative. See NIH's [Writing a DMS Plan](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan) guidance.
