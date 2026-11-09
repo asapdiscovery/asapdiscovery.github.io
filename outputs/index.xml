@@ -4055,6 +4055,14 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;option value="CHIKV nsP3 macrodomain">CHIKV nsP3 macrodomain&lt;/option>
  
  &lt;option value="Coronavirus">Coronavirus&lt;/option>
@@ -4082,6 +4090,8 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;option value="EV-D68 3C protease">EV-D68 3C protease&lt;/option>
  
  &lt;option value="Flavivirus NS2B-NS3">Flavivirus NS2B-NS3&lt;/option>
+ 
+ &lt;option value="Flavivirus NS5 RdRp">Flavivirus NS5 RdRp&lt;/option>
  
  &lt;option value="General">General&lt;/option>
  
@@ -4121,6 +4131,32 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;label for="author-filter">Author:&lt;/label>
  &lt;select id="author-filter" onchange="filterProtocols()">
  &lt;option value="">All Authors&lt;/option>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -5683,6 +5719,22 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;option value="ADMET Core">ADMET Core&lt;/option>
  
  &lt;option value="Antiviral Assay Core">Antiviral Assay Core&lt;/option>
@@ -5698,7 +5750,7 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
 &lt;/div>
 
 &lt;div class="protocol-count">
- Showing &lt;span id="visible-count">135&lt;/span> of 135 protocols
+ Showing &lt;span id="visible-count">139&lt;/span> of 139 protocols
 &lt;/div>
 
 &lt;table class="protocols-table" id="protocols-table">
@@ -6121,6 +6173,30 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>Haim Barr&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2025-08-04&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Biochemical Assay" data-target="Flavivirus NS5 RdRp" data-authors="Charline Giroud|Noa Lahav|Oleg Fedorov|Andre Schutzer de Godoy" data-core="Biochemical Assay Core">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/comparative-in-vitro-characterisation-of-flaviviru-g3rqbym5x/v1" target="_blank">Comparative In Vitro Characterisation of Flavivirus Replication via Zika and Dengue Virus RdRp Kinetics&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This is a functional, biochemical assay used to identify treatments for viral infectious diseases related to DENV &amp;amp; ZIKV infection and targets the NS5 RNA dependent RNA polymerase (RdRp). Utilizing a direct enzyme activity measurement method, the experiment was performed in a 384-well plate rea...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-biochemical">Biochemical Assay&lt;/span>
+ &lt;/td>
+ &lt;td>Flavivirus NS5 RdRp&lt;/td>
+ &lt;td>&lt;span class="core-badge">Biochemical Assay Core&lt;/span> &lt;/td>
+ &lt;td>Charline Giroud&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-09-23&lt;/td>
  &lt;/tr>
  
  &lt;tr data-category="Crystallization" data-target="SARS-CoV-2 nsp3 macrodomain" data-authors="Jasmin Aschenbrenner|Peter Marples|Daren Fearon" data-core="Structural Biology Core">
@@ -7633,6 +7709,78 @@ All protocols are published through &lt;a href="https://protocols.io">protocols.
  &lt;td>Michael Fairhead&lt;/td>
  &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
  &lt;td>2024-10-23&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Protein Production" data-target="ZIKV NS5 RdRp" data-authors="Korvus Wang" data-core="Structural Biology Core">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/zika-virus-rna-dependant-rna-polymerase-rdrp-expre-j7rucrm6x/v1" target="_blank">Zika Virus RNA-dependant RNA polymerase (RdRp) expression and purification: small scale 4L cultures for assay&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the expression and purification of Zika Virus RNA-dependent RNA polymerase at 6L culture scale. This protein was used for downstream biochemical assays.Recombinant proteins are expressed in Escherichia coli using the autoinduction method and then purified in using a IMAC, de...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-protein">Protein Production&lt;/span>
+ &lt;/td>
+ &lt;td>ZIKV NS5 RdRp&lt;/td>
+ &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-09-21&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Protein Production" data-target="DENV NS5 RdRp" data-authors="Korvus Wang" data-core="Structural Biology Core">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/dengue-virus-serotype-2-rna-dependent-rna-polymer-j6qacrdsf/v1" target="_blank">Dengue Virus Serotype 2 RNA-dependent RNA polymerase Avi-tagged (Biotinylated) Creoptix assay construct small scare (5L) expression and purification&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the expression and purification of Dengue Virus Serotype 2 RNA-dependent RNA polymerase fusion protein with an AviTag (biotinylation tag) for biophysical assay at a 5L culture scale. Recombinant proteins are expressed in Escherichia coli using the autoinduction method and th...&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-protein">Protein Production&lt;/span>
+ &lt;/td>
+ &lt;td>DENV NS5 RdRp&lt;/td>
+ &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-09-21&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr data-category="Protein Production" data-target="DENV NS5 RdRp" data-authors="Korvus Wang|Michael Fairhead|Eleanor Williams" data-core="Structural Biology Core">
+ &lt;td>
+ &lt;a href="https://www.protocols.io/view/dengue-rna-dependent-rna-polymerase-crystallizatio-g9nybz5fx/v1" target="_blank">Dengue RNA-dependent RNA polymerase crystallization and assay construct small scale (6L) expression and purification protocol&lt;/a>
+ 
+ &lt;span class="info-icon">i&lt;span class="tooltip-text">This protocol details the expression and purification of Dengue virus serotype 2 RNA dependent RNA polymerase construct bearing a N-terminal His6 tag at small scale (&amp;lt;6L).&lt;/span>&lt;/span>
+ 
+ &lt;/td>
+ &lt;td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;span class="category-badge category-protein">Protein Production&lt;/span>
+ &lt;/td>
+ &lt;td>DENV NS5 RdRp&lt;/td>
+ &lt;td>&lt;span class="core-badge">Structural Biology Core&lt;/span> &lt;/td>
+ &lt;td>Korvus Wang&lt;/td>
+ &lt;td>&lt;span class="version-badge">v1&lt;/span>&lt;/td>
+ &lt;td>2026-09-07&lt;/td>
  &lt;/tr>
  
  &lt;tr data-category="Biophysical Assay" data-target="General" data-authors="Eda Capkin" data-core="Structural Biology Core">
